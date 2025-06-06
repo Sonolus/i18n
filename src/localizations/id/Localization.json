@@ -741,18 +741,24 @@
     "ServerVersionTooNewError": "Server ini hanya mendukung Sonolus versi {0}.\n\nSilakan perbarui aplikasi Sonolus Anda, atau hubungi pemilik server untuk melaporkan masalahnya."
   },
   "Clients": {
-    "Master": {
+    "Content": {
       "Info": {
         "Loading": "Memuat info Sonolus...",
-        "Error": "Gagal memuat info Sonolus.\n\nSilakan cek koneksi internet Anda dan coba kembali."
-      },
+        "Error": "Gagal memuat info Sonolus.\n\nHarap cek koneksi internet anda dan coba lagi."
+      }
+    },
+    "I18n": {
       "List": {
         "Loading": "Memuat bahasa...",
-        "Error": "Gagal memuat bahasa.\n\nSilakan cek koneksi internet Anda dan coba kembali."
+        "Error": "Gagal memuat bahasa.\n\nHarap cek koneksi internet anda dan coba lagi."
       },
       "Localization": {
-        "Loading": "Loading language...",
-        "Error": "Gagal memuat bahasa \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali."
+        "Loading": "Memuat bahasa...",
+        "Error": "Gagal memuat bahasa \"{0}\".\n\nHarap cek koneksi internet anda dan coba lagi."
+      },
+      "Contributors": {
+        "Loading": "Memuat kontributor...",
+        "Error": "Gagal memuat kontributor.\n\nHarap cek koneksi internet anda dan coba lagi."
       }
     },
     "Service": {
@@ -2511,6 +2517,7 @@
       "Players": "Pemain",
       "Account": "Akun",
       "Link": "Link",
+      "About": "Tentang",
       "Settings": "Pengaturan",
       "UpdateAvailable": {
         "Title": "Pembaruan Tersedia",
@@ -2620,6 +2627,19 @@
         "Engine": "Mesin",
         "Replay": "Replay",
         "Room": "Ruang"
+      }
+    },
+    "About": {
+      "Title": "Tentang Sonolus",
+      "Letter": {
+        "Title": "Surat dari Pengembang"
+      },
+      "Music": {
+        "Title": "Musik"
+      },
+      "Translation": {
+        "Title": "Terjemahan",
+        "Description": "Bantu menerjemahkan Sonolus ke bahasa anda!\nhttps://github.com/Sonolus/i18n\n\nTerima kasih kepada seluruh kontributor:"
       }
     },
     "Server": {
@@ -3674,7 +3694,8 @@
         "Title": "Grafik",
         "TargetFps": {
           "Title": "Target FPS",
-          "Description": "Direkomendasikan untuk menggunakan refresh rate layar perangkat Anda.\n\nSonolus menargetkan untuk menjalankan FPS ini, namun tidak dijamin jika perangkat tidak mampu melakukannya."
+          "Description": "Direkomendasikan untuk menggunakan refresh rate layar perangkat Anda.\n\nSonolus menargetkan untuk menjalankan FPS ini, namun tidak dijamin jika perangkat tidak mampu melakukannya.",
+          "Default": "Default"
         },
         "RenderMode": {
           "Title": "Mode Render",
