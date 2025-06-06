@@ -7,6 +7,9 @@ const excludes = [
     'gitlocalize-app[bot]',
 
     // Duplicates
+    // - Ataberk
+    'Chidori',
+    'Umay',
     // - Burrito
     'NonSpicyBurrito',
     // - ドマオー
