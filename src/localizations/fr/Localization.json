@@ -741,18 +741,24 @@
     "ServerVersionTooNewError": "Ce serveur ne prend en charge que la version Sonolus {0}.\n\nVeuillez mettre à jour votre application Sonolus ou contacter le propriétaire du serveur pour signaler le problème."
   },
   "Clients": {
-    "Master": {
+    "Content": {
       "Info": {
-        "Loading": "Chargement des infos de Sonolus…",
-        "Error": "Échec du chargement des infos Sonolus.\n\nS'il vous plaît, vérifiez votre connexion à internet et réessayez."
-      },
+        "Loading": "Chargement des Infos de Sonolus…",
+        "Error": "Échec du chargement des infos de Sonolus.\n\nVeuillez vérifier votre connexion Internet et réessayer."
+      }
+    },
+    "I18n": {
       "List": {
         "Loading": "Chargement des langues…",
-        "Error": "Échec du chargement des langues.\n\nS'il vous plaît, vérifiez votre connexion à internet et réessayez."
+        "Error": "Échec du chargement des langues.\n\nVeuillez vérifier votre connexion Internet et réessayer."
       },
       "Localization": {
         "Loading": "Chargement de la langue…",
-        "Error": "Échec du chargement de la langue \"{0}\".\n\nS'il vous plaît, vérifiez votre connexion à internet et réessayez."
+        "Error": "Échec du chargement de la langue \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer."
+      },
+      "Contributors": {
+        "Loading": "Chargement des contributeurs…",
+        "Error": "Échec du chargement des contributeurs.\n\nVeuillez vérifier votre connexion Internet et réessayer."
       }
     },
     "Service": {
@@ -2511,6 +2517,7 @@
       "Players": "Joueurs",
       "Account": "Compte",
       "Link": "Lien",
+      "About": "À Propos",
       "Settings": "Réglages",
       "UpdateAvailable": {
         "Title": "Mise à Jour Disponible",
@@ -2620,6 +2627,19 @@
         "Engine": "Moteur",
         "Replay": "Replay",
         "Room": "Salle"
+      }
+    },
+    "About": {
+      "Title": "À Propos de Sonolus",
+      "Letter": {
+        "Title": "Une Lettre du Développeur"
+      },
+      "Music": {
+        "Title": "Musique"
+      },
+      "Translation": {
+        "Title": "Traduction",
+        "Description": "Aidez-nous à traduire Sonolus dans votre langue !\nhttps://github.com/Sonolus/i18n\n\nMerci à tous les contributeurs :"
       }
     },
     "Server": {
@@ -3674,7 +3694,8 @@
         "Title": "Graphics",
         "TargetFps": {
           "Title": "IPS Cible",
-          "Description": "Il est recommandé d'utiliser le taux de rafraîchissement de l'écran de votre appareil.\n\nSonolus essaiera de fonctionner à ce taux d'IPS, mais l'appareil peut ne pas en être capable."
+          "Description": "Il est recommandé d'utiliser le taux de rafraîchissement de l'écran de votre appareil.\n\nSonolus essaiera de fonctionner à ce taux d'IPS, mais l'appareil peut ne pas en être capable.",
+          "Default": "Défaut"
         },
         "RenderMode": {
           "Title": "Mode de Rendu",
@@ -3801,7 +3822,7 @@
         }
       },
       "UI": {
-        "Title": "UI",
+        "Title": "Interface",
         "UILocalization": {
           "Title": "Langue de l'Interface",
           "Description": "Langue à utiliser pour l'interface."
