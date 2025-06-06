@@ -4,6 +4,15 @@
     "Title": "Türkçe (Turkish)"
   },
   "Texts": {
+    "#CUSTOM_SERVER": "Özel Sunucu",
+    "#COLLECTION": "Koleksiyon",
+    "#SERVER": "Sunucu",
+    "#ADDRESS": "Adres",
+    "#EXPIRATION": "Geçerlilik Bitimi",
+    "#STORAGE": "Bellek",
+    "#LOG": "Günlük",
+    "#INQUIRY": "Sorgu",
+    "#BANNER": "Sembol",
     "#POST": "Gönderi",
     "#PLAYLIST": "Çalma Listesi",
     "#LEVEL": "Seviye",
@@ -14,6 +23,37 @@
     "#ENGINE": "Motor",
     "#REPLAY": "Tekrar",
     "#ROOM": "Oda",
+    "#POST_THUMBNAIL": "Önizleme Resmi",
+    "#PLAYLIST_THUMBNAIL": "Önizleme Resmi",
+    "#LEVEL_COVER": "Albüm Kapağı",
+    "#LEVEL_BGM": "Arkaplan Müziği",
+    "#LEVEL_PREVIEW": "Önizleme",
+    "#LEVEL_DATA": "Veri",
+    "#SKIN_THUMBNAIL": "Önizleme Resmi",
+    "#SKIN_DATA": "Veri",
+    "#SKIN_TEXTURE": "Doku Yapısı",
+    "#BACKGROUND_THUMBNAIL": "Önizleme Resmi",
+    "#BACKGROUND_IMAGE": "Görsel",
+    "#BACKGROUND_DATA": "Veri",
+    "#BACKGROUND_CONFIGURATION": "Yapılandırma",
+    "#EFFECT_THUMBNAIL": "Önizleme Resmi",
+    "#EFFECT_DATA": "Veri",
+    "#EFFECT_AUDIO": "Ses",
+    "#PARTICLE_THUMBNAIL": "Önizleme Resmi",
+    "#PARTICLE_DATA": "Veri",
+    "#PARTICLE_TEXTURE": "Doku Yapısı",
+    "#ENGINE_THUMBNAIL": "Önizleme Resmi",
+    "#ENGINE_PLAYDATA": "Oynama Verileri",
+    "#ENGINE_WATCHDATA": "İzleme Verileri",
+    "#ENGINE_PREVIEWDATA": "Önizleme Verileri",
+    "#ENGINE_TUTORIALDATA": "Öğretici Verileri",
+    "#ENGINE_ROM": "ROM",
+    "#ENGINE_CONFIGURATION": "Yapılandırma",
+    "#REPLAY_DATA": "Veri",
+    "#REPLAY_CONFIGURATION": "Yapılandırma",
+    "#ROOM_COVER": "Kapak",
+    "#ROOM_BGM": "Arkaplan Müziği",
+    "#ROOM_PREVIEW": "Önizleme",
     "#GRADE": "Rapor",
     "#ARCADE_SCORE": "Atari Skoru",
     "#ACCURACY_SCORE": "Kesinlik Skoru",
@@ -22,6 +62,8 @@
     "#GREAT": "Great",
     "#GOOD": "Good",
     "#MISS": "Miss",
+    "#FILTER": "Filtre",
+    "#SORT": "Düzenle",
     "#KEYWORDS": "Anahtar Kelimeler",
     "#NAME": "İsim",
     "#RATING": "Derecelendirme",
@@ -32,9 +74,11 @@
     "#ARTISTS": "Sanatçılar",
     "#TIME": "Saat",
     "#AUTHOR": "Yaratıcı",
+    "#DESCRIPTION": "Açıklama",
     "#GENRE": "Tür",
     "#TYPE": "Tip",
     "#CATEGORY": "Kategori",
+    "#STATUS": "Durum",
     "#LANGUAGE": "Dil",
     "#DIFFICULTY": "Zorluk",
     "#VERSION": "Sürüm",
@@ -46,8 +90,6 @@
     "#REGION": "Bölge",
     "#CONTENT": "İçerik",
     "#COMMENT": "Yorum",
-    "#REVIEW": "İnceleme",
-    "#REPLY": "Cevap",
     "#MESSAGE": "Mesaj",
     "#ROLE": "Rol",
     "#PERMISSION": "İzinler",
@@ -157,6 +199,15 @@
     "#SIMLINE_COLOR": "Eş Zamanlı Çizgi Rengi",
     "#SIMLINE_ALPHA": "Eş Zamanlı Çizgi Saydamlığı",
     "#SIMLINE_ANIMATION": "Eş Zamanlı Çizgi Animasyonu",
+    "#PREVIEW_SCALE_VERTICAL": "Önizleme Dikey Ölçeği",
+    "#PREVIEW_SCALE_HORIZONTAL": "Önizleme Yatay Ölçeği",
+    "#PREVIEW_TIME": "Önizlemede Zaman",
+    "#PREVIEW_SCORE": "Önizlemede Skor",
+    "#PREVIEW_BPM": "Önizlemede BPM",
+    "#PREVIEW_TIMESCALE": "Önizlemede Zaman Ölçeği",
+    "#PREVIEW_BEAT": "Önizlemede Tempo",
+    "#PREVIEW_MEASURE": "Önizlemede Ölçüm",
+    "#PREVIEW_COMBO": "Önizlemede Kombo",
     "#NONE": "Hiçbiri",
     "#ANY": "Herhangi",
     "#ALL": "Hepsi",
@@ -217,6 +268,7 @@
     "#ARTISTS_PLACEHOLDER": "Sanatçıları girin...",
     "#TIME_PLACEHOLDER": "Saati girin...",
     "#AUTHOR_PLACEHOLDER": "Yaratıcı girin...",
+    "#DESCRIPTION_PLACEHOLDER": "Açıklama girin...",
     "#GENRE_PLACEHOLDER": "Tür girin...",
     "#TYPE_PLACEHOLDER": "Türü girin...",
     "#CATEGORY_PLACEHOLDER": "Kategori girin...",
@@ -237,8 +289,27 @@
     "#PERMISSION_PLACEHOLDER": "İzinleri girin...",
     "#USER_PLACEHOLDER": "Kullanıcıyı girin...",
     "#PERCENTAGE_UNIT": "%{0}",
+    "#YEAR_UNIT": "{0} yıl",
+    "#MONTH_UNIT": "{0} ay",
+    "#DAY_UNIT": "{0} gün",
+    "#HOUR_UNIT": "{0} s",
+    "#MINUTE_UNIT": "{0} d",
     "#SECOND_UNIT": "{0} s",
     "#MILLISECOND_UNIT": "{0} ms",
+    "#YEAR_PAST": "{0} yıl önce",
+    "#MONTH_PAST": "{0} ay önce",
+    "#DAY_PAST": "{0} gün önce",
+    "#HOUR_PAST": "{0} saat önce",
+    "#MINUTE_PAST": "{0} dakika önce",
+    "#SECOND_PAST": "{0} saniye önce",
+    "#MILLISECOND_PAST": "{0} ms önce",
+    "#YEAR_FUTURE": "{0} yılda",
+    "#MONTH_FUTURE": "{0} ayda",
+    "#DAY_FUTURE": "{0} günde",
+    "#HOUR_FUTURE": "{0} saatte",
+    "#MINUTE_FUTURE": "{0} dakikada",
+    "#SECOND_FUTURE": "{0} saniyede",
+    "#MILLISECOND_FUTURE": "{0} milisaniyede",
     "#TAP": "Dokunun",
     "#TAP_HOLD": "Dokunun ve Basılı Tutun",
     "#TAP_RELEASE": "Dokunun ve Bırakın",
@@ -261,9 +332,9 @@
     "#COMPETITIVE": "Rekabetçi",
     "#HOLIDAY": "Özel Gün",
     "#LIMITED": "Sınırlı",
-    "#FOLLOWING": "Sonraki",
     "#ANNOUNCEMENT": "Duyuru",
     "#INFORMATION": "Bilgi",
+    "#HELP": "Yardım",
     "#MAINTENANCE": "Bakım Molası",
     "#EVENT": "Etkinlik",
     "#UPDATE": "Güncelleme",
@@ -284,12 +355,9 @@
     "#OTHER_DIFFICULTIES": "Diğer Zorluklar",
     "#OTHER_GENRES": "Diğer Türler",
     "#OTHER_VERSIONS": "Diğer Versiyonlar",
-    "#VERIFYING": "Doğrulanıyor",
-    "#VERIFIED": "Doğrulandı",
-    "#REMOVED": "Kaldırıldı",
+    "#DRAFT": "Taslak",
     "#PUBLIC": "Herkese Açık",
     "#PRIVATE": "Özel",
-    "#LOCKED": "Kilitli",
     "#POP": "Pop",
     "#ROCK": "Rock",
     "#HIPHOP": "Hip Hop",
@@ -334,6 +402,11 @@
     "#DISQUALIFIED": "Diskalifiye Olmak",
     "#RANKING": "Sıralama",
     "#SCORE": "Skor",
+    "#OWNER": "Sahip",
+    "#ADMIN": "Admin",
+    "#MODERATOR": "Moderatör",
+    "#REVIEWER": "İncelemeci",
+    "#BANNED": "Banlandı",
     "#PLAYER": "Oyuncu",
     "#SPECTATOR": "İzleyici",
     "#REFEREE": "Hakem",
@@ -360,6 +433,23 @@
     "#TEAM_CYAN": "Takım Camgöbeği",
     "#TEAM_WHITE": "Takım Beyaz",
     "#TEAM_BLACK": "Takım Siyah",
+    "#REPLY": "Cevap",
+    "#REPLIED": "Cevaplandı",
+    "#REVIEW": "İnceleme",
+    "#REVIEWING": "İnceleniyor",
+    "#REVIEWED": "İncelendi",
+    "#VERIFY": "Doğrula",
+    "#VERIFYING": "Doğrulanıyor",
+    "#VERIFIED": "Doğrulandı",
+    "#UPLOAD": "Yükle",
+    "#UPLOADING": "Yükleniyor",
+    "#UPLOADED": "Yüklendi",
+    "#SUBMIT": "Gönder",
+    "#SUBMITTING": "Gönderiliyor",
+    "#SUBMITTED": "Gönderildi",
+    "#EDIT": "Düzenle",
+    "#EDITING": "Düzenleniyor",
+    "#EDITED": "Düzenlendi",
     "#LIKE": "Beğen",
     "#LIKED": "Beğenildi",
     "#DISLIKE": "Beğenme",
@@ -367,10 +457,18 @@
     "#BOOKMARK": "Yer İmlerine Ekle",
     "#BOOKMARKED": "Eklendi",
     "#DELETE": "Sil",
+    "#DELETING": "Siliniyor",
+    "#DELETED": "Silindi",
+    "#REMOVE": "Kaldır",
+    "#REMOVING": "Kaldırılıyor",
+    "#REMOVED": "Kaldırıldı",
     "#RESTORE": "Onar",
-    "#EDIT": "Düzenle",
+    "#RESTORING": "Onarılıyor",
+    "#RESTORED": "Onarıldı",
     "#CONFIRM": "Onayla",
+    "#CONFIRMED": "Teyitlendi",
     "#CANCEL": "İptal",
+    "#CANCELED": "İptal Edildi",
     "#INCREASE": "Artır",
     "#DECREASE": "Azalt",
     "#UPVOTE": "Artıla",
@@ -382,27 +480,46 @@
     "#DISAGREE": "Katılma",
     "#DISAGREED": "Katılınmadı",
     "#LOCK": "Kilitle",
+    "#LOCKED": "Kilitli",
     "#UNLOCK": "Kilidini Aç",
+    "#UNLOCKED": "Kilidi Açıldı",
     "#PIN": "Pinle",
+    "#PINNED": "Sabitlendi",
     "#UNPIN": "Pinlerden Çıkar",
+    "#UNPINNED": "Sabitlenme Kaldırıldı",
     "#FOLLOW": "Takip Et",
+    "#FOLLOWING": "Sonraki",
+    "#FOLLOWED": "Takip Edildi",
     "#UNFOLLOW": "Takipten Çıkar",
     "#SUBSCRIBE": "Abone Ol",
+    "#SUBSCRIBING": "Abone Olunuyor",
+    "#SUBSCRIBED": "Abone Olundu",
     "#UNSUBSCRIBE": "Abonelikten Çık",
+    "#PUBLISH": "Yayımla",
+    "#PUBLISHING": "Yayımlanıyor",
+    "#PUBLISHED": "Yayımlandı",
+    "#UNPUBLISH": "Yayımlamayı Kaldır",
     "#SHOW": "Göster",
     "#HIDE": "Gizle",
     "#ALLOW": "İzin Ver",
+    "#ALLOWED": "İzin Verildi",
     "#DISALLOW": "İzin Verme",
+    "#DISALLOWED": "İzin Verilmedi",
     "#APPROVE": "Onayla",
+    "#APPROVED": "Onaylandı",
     "#DENY": "Reddet",
+    "#DENIED": "Kabul Edilmedi",
     "#ACCEPT": "Kabul Et",
+    "#ACCEPTED": "Kabul Edildi",
     "#REJECT": "Geri Çevir",
+    "#REJECTED": "Reddedildi",
     "#STAR": "Yıldızla",
     "#STARRED": "Yıldızlandı"
   },
   "Common": {
     "Separator": ", ",
     "Loading": "Yükleniyor...",
+    "Help": "Yardım",
     "More": "Daha Fazlası",
     "On": "AÇIK",
     "Off": "KAPALI",
@@ -412,9 +529,15 @@
     "Edit": "Düzenle",
     "View": "Görüntüle",
     "Create": "Oluştur",
+    "Upload": "Yükle",
+    "Submit": "Gönder",
     "Cancel": "İptal",
     "Confirm": "Onayla",
     "Retry": "Yeniden Dene",
+    "Ok": "Tamam",
+    "Tip": {
+      "Title": "İpucu"
+    },
     "Error": {
       "Title": "Hata"
     },
@@ -426,6 +549,7 @@
     "Import": "İçe Aktar",
     "Search": "Ara",
     "PullToRefresh": "Yeniden yüklemek için çekin",
+    "PullTip": "İpucu: Daha fazlası için çekin",
     "Save": "Kaydet",
     "Share": "Paylaş",
     "Export": "Dışa Aktar",
@@ -435,7 +559,6 @@
     "CopySuccess": {
       "Title": "Kopyalandı"
     },
-    "Preview": "Görüntüle",
     "Judgment": "Yargı",
     "Accuracy": "Kesinlik",
     "Grade": "Rapor",
@@ -446,6 +569,7 @@
     "Great": "Great",
     "Good": "Good",
     "Miss": "Miss",
+    "RequiredOption": "Bu zorunlu bir seçenektir.",
     "StandardOption": "Bu standart bir seçenektir.",
     "AdvancedOption": "Bu seçenek sadece gelişmiş oyuncular içindir.",
     "Colors": "Renkler",
@@ -524,6 +648,8 @@
       },
       "JudgmentErrorStyle": {
         "None": "Hiçbiri",
+        "Late": "Geç / Erken",
+        "Early": "Erken / Geç",
         "Plus": "+ / -",
         "Minus": "- / +",
         "ArrowUp": "↑ / ↓",
@@ -536,9 +662,13 @@
         "TriangleRight": "► / ◄"
       },
       "JudgmentErrorPlacement": {
-        "Both": "Birlikte",
         "Left": "Sol",
-        "Right": "Sağ"
+        "Right": "Sağ",
+        "LeftRight": "Sol + Sağ",
+        "Top": "Üst",
+        "Bottom": "Alt",
+        "TopBottom": "Üst + Alt",
+        "Center": "Merkez"
       },
       "Visibility": "Görünürlük",
       "Animation": "Animasyon",
@@ -603,19 +733,32 @@
     "Dark": "Karanlık",
     "Light": "Aydınlık"
   },
+  "Web": {
+    "InternetConnectionError": "İnternet bağlantısı yok.\nLütfen internet bağlantınızı ve Sonolus'un internete erişim iznini kontrol edin, ve tekrar deneyin.",
+    "ServerConnectionError": "Sunucuya bağlanılamıyor.\nLütfen sunucu adresinin doğru olup olmadığını kontrol edin, internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin.",
+    "ServerHttpError": "Sunucu yanıtı: {0}",
+    "ServerVersionTooOldError": "Bu sunucu yalnızca Sonolus'un eski bir sürümünü ({0}) destekliyor.\nLütfen sunucunun güncellenmesini bekleyin ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin.",
+    "ServerVersionTooNewError": "Bu sunucu yalnızca Sonolus' un {0}  sürümünü destekliyor.\n\nLütfen Sonolus uygulamanızı güncelleyin ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+  },
   "Clients": {
-    "Master": {
+    "Content": {
       "Info": {
         "Loading": "Sonolus bilgisi yükleniyor...",
-        "Error": "Sonolus bilgisi yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
-      },
+        "Error": "Sonolus bilgisi yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+      }
+    },
+    "I18n": {
       "List": {
         "Loading": "Diller yükleniyor...",
-        "Error": "Dilleri yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+        "Error": "Diller yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
       },
       "Localization": {
         "Loading": "Dil yükleniyor...",
-        "Error": "\"{0}\" dili yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+        "Error": "\"{0}\" dili yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+      },
+      "Contributors": {
+        "Loading": "Katkıda bulunanlar yükleniyor...",
+        "Error": "Katkıda bulunanlar yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
       }
     },
     "Service": {
@@ -657,13 +800,6 @@
           "Title": "Hakkımda Düzenlendi"
         }
       },
-      "EditSocialLinks": {
-        "Loading": "Sosyal bağlantılar düzenleniyor...",
-        "Error": "Sosyal bağlantıları düzenlemede başarısız olundu.\n\nLütfen sosyal bağlantılarınızın yasal ve karakter uzunluğu limitinde olup olmadığını kontrol edin, ya da internet bağlantınızı kontrol edin ve tekrar deneyin.",
-        "Success": {
-          "Title": "Sosyal Bağlantılar Düzenlendi"
-        }
-      },
       "EditFavorites": {
         "Loading": "Favoriler düzenleniyor...",
         "Error": "Favorileri düzenlemede başarısız olundu.\n\nLütfen favorilerinizin yasal ve karakter uzunluğu limitinde olup olmadığını kontrol edin, ya da internet bağlantınızı kontrol edin ve tekrar deneyin.",
@@ -684,8 +820,6 @@
       }
     },
     "CustomServer": {
-      "SonolusVersionError": "Bu sunucu sadece Sonolus' un {0} sürümünü destekliyor.\n\nLütfen Sonolus uygulamanızı güncelleyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
-      "SonolusVersionTooOld": "Bu sunucu Sonolus' un eski bir sürümünü destekliyor ({0}).\n\nLütfen sunucunun güncellenmesini bekleyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
       "Authentication": {
         "NotLoggedInError": {
           "Description": "Bir Sonolus hesabıyla oturum açmadınız.\n\nLütfen Sonolus hesabınızla oturum açın ve tekrar deneyin."
@@ -700,9 +834,6 @@
         },
         "Expired": {
           "Description": "Oturumunuz sona erdi.\n\nTekrar \"{0}\" olarak oturum açıp devam etmek ister misiniz?"
-        },
-        "Rejected": {
-          "Description": "Oturumunuz sunucu tarafından reddedildi.\n\nTekrar \"{0}\" olarak oturum açıp devam etmek ister misiniz?"
         },
         "Login": {
           "Loading": "Giriş yapılıyor...",
@@ -879,6 +1010,20 @@
         "Submit": {
           "Loading": "Talebiniz seviyeye gönderiliyor...",
           "Error": "\"{0}\" seviye talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
+        "Result": {
+          "Info": {
+            "Loading": "Seviye sonuç bilgisi yükleniyor...",
+            "Error": "\"{0}\" için seviye sonucu bilgisi yüklenemedi."
+          },
+          "NotSupported": {
+            "Title": "Gönder",
+            "Description": "Bu sunucu seviye sonucunun gönderilmesini desteklemiyor."
+          },
+          "Submit": {
+            "Loading": "Seviye sonucu gönderiliyor...",
+            "Error": "\"{0}\" sunucusuna seviye sonucu gönderilemedi."
+          }
         },
         "Community": {
           "Info": {
@@ -2110,7 +2255,8 @@
         "Error": "\"{0}\" harici hizmetinde oturum açılamadı.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin ya da sorunu bildirmek için servis sahibiyle iletişime geçin."
       },
       "Success": {
-        "Title": "Giriş Yapıldı"
+        "Title": "Giriş Yapıldı",
+        "Description": "Sunucu yanıtı: {0}"
       }
     },
     "JumpToPage": {
@@ -2151,46 +2297,8 @@
         "Description": "Oynamaya başlamak için özel sunucu ya da koleksiyon seçin"
       },
       "ToSave": {
-        "Post": {
-          "Title": "Gönderiyi Kaydet",
-          "Description": "Bu gönderinin kaydedileceği koleksiyonu seçin."
-        },
-        "Playlist": {
-          "Title": "Çalma Listesini Kaydet",
-          "Description": "Bu çalma listesinin kaydedileceği bir koleksiyon seçin"
-        },
-        "Level": {
-          "Title": "Seviyeyi Kaydet",
-          "Description": "Bu seviyenin kaydedileceği bir koleksiyon seçin"
-        },
-        "Skin": {
-          "Title": "Dokuyu Kaydet",
-          "Description": "Bu dokunun kaydedileceği bir koleksiyon seçin."
-        },
-        "Background": {
-          "Title": "Arkaplanı Kaydet",
-          "Description": "Bu arkaplanın kaydedileceği bir koleksiyon seçin"
-        },
-        "Effect": {
-          "Title": "Efekti Kaydet",
-          "Description": "Bu efektin kaydedileceği bir koleksiyon seçin"
-        },
-        "Particle": {
-          "Title": "Partikülü Kaydet",
-          "Description": "Bu partikülün kaydedileceği bir koleksiyon seçin."
-        },
-        "Engine": {
-          "Title": "Motoru Kaydet",
-          "Description": "Bu motorun kaydedileceği bir koleksiyon seçin."
-        },
-        "Replay": {
-          "Title": "Tekrarı Kaydet",
-          "Description": "Bu tekrarın kaydedileceği bir koleksiyon seçin."
-        },
-        "Room": {
-          "Title": "Odayı Kaydet",
-          "Description": "Bu odanın kaydedileceği bir koleksiyon seçin"
-        }
+        "Title": "Favorilerini Kaydet",
+        "Description": "Favorileri kaydetmek için bir koleksiyon seçin."
       },
       "ToCreate": {
         "Post": {
@@ -2303,12 +2411,21 @@
     "EditCollection": {
       "Title": "Koleksiyonu Düzenle"
     },
-    "AddCollection": {
-      "Title": "Koleksiyon Ekle",
+    "CreateCollection": {
+      "Title": "Koleksiyon Oluştur",
       "Name": {
         "Title": "İsim",
-        "Description": "İsmini istediğiniz gibi koyabilirsiniz.",
+        "Description": "İstediğiniz bir ismi verebilirsiniz.",
         "Placeholder": "Koleksiyon ismini girin..."
+      },
+      "Description": {
+        "Title": "Açıklama",
+        "Description": "Koleksiyon için isteğe bağlı açıklama.",
+        "Placeholder": "Koleksiyon açıklamasını girin..."
+      },
+      "Banner": {
+        "Title": "Sembol",
+        "Description": "Koleksiyon için isteğe bağlı sembol."
       }
     },
     "ImportScp": {
@@ -2400,6 +2517,7 @@
       "Players": "Oyuncular",
       "Account": "Hesap",
       "Link": "Bağlantı",
+      "About": "Hakkında",
       "Settings": "Ayarlar",
       "UpdateAvailable": {
         "Title": "Güncelleme Var",
@@ -2464,13 +2582,6 @@
         "AboutMe": {
           "Title": "Hakkımda"
         },
-        "SocialLinks": {
-          "Title": "Sosyal Bağlantılar",
-          "None": "Sosyal bağlantı yok.",
-          "OpenConfirmation": {
-            "Description": "Bu sosyal bağlantı şuraya gider:\n{0}\n\nZiyaret etmek istediğinizden emin misiniz?"
-          }
-        },
         "Favorites": {
           "Title": "Favoriler",
           "None": "Favoriler yok."
@@ -2503,19 +2614,6 @@
           "Placeholder": "Bir \"Hakkımda\" bölümü ekle..."
         }
       },
-      "AddSocialLink": {
-        "Title": "Sosyal Bağlantı Ekle",
-        "SocialLinkTitle": {
-          "Title": "Başlık",
-          "Description": "Başlık.",
-          "Placeholder": "Sosyal bağlantı başlığı girin..."
-        },
-        "SocialLinkAddress": {
-          "Title": "Adres",
-          "Description": "Bağlantı kurulacak bir web URL'si (\"https://...\").",
-          "Placeholder": "Sosyal bağlantı adresini girin..."
-        }
-      },
       "AddFavorite": {
         "Title": "Favorilere Ekle",
         "Description": "Eklenecek favori türünü seçin:",
@@ -2529,6 +2627,19 @@
         "Engine": "Motor",
         "Replay": "Tekrar",
         "Room": "Oda"
+      }
+    },
+    "About": {
+      "Title": "Sonolus Hakkında",
+      "Letter": {
+        "Title": "Geliştiriciden Bir Mektup"
+      },
+      "Music": {
+        "Title": "Müzik"
+      },
+      "Translation": {
+        "Title": "Çeviri",
+        "Description": "Sonolus'u kendi dilinize çevirmeye yardım edin!\nhttps://github.com/Sonolus/i18n\n\nTüm katkıda bulunanlara teşekkür ederiz:"
       }
     },
     "Server": {
@@ -2547,6 +2658,9 @@
         "Replay": "Tekrarlar",
         "Room": "Odalar",
         "Configuration": "Yapılandırma",
+        "CollectionUpdateConfirmation": {
+          "Description": "Koleksiyondaki bazı öğelerin kullanılmadan önce güncellenmesi gerekiyor.\n\nŞimdi güncellemek ister misiniz?"
+        },
         "SaveSuccess": {
           "Title": "Sunucu Kaydedildi"
         },
@@ -2562,6 +2676,9 @@
         "Confirmation": "\"{0}\" talebini göndermek istediğinizden emin misiniz?"
       },
       "Configuration": {
+        "Tip": {
+          "Message": "Yapılandırma seçeneği, bu sunucu için seçenekler içerir.\n\nNot hızı gibi motor ve seviyeye özgü seçenekler için, bir seviye seçtikten sonra \"Yapılandırma\"da bulabilirsiniz."
+        },
         "Options": {
           "Title": "Seçenekler",
           "AutoLogin": {
@@ -2570,69 +2687,96 @@
           }
         }
       },
-      "Upload": {
-        "Title": "Yükle"
-      },
       "Infos": {
         "Advanced": "Gelişmiş",
         "Post": {
           "Title": "Gönderiler",
           "Create": {
-            "Title": "Gönderi Oluştur"
+            "Title": "Gönderi Oluştur",
+            "Success": {
+              "Title": "Gönderiler Oluşturuldu"
+            }
           }
         },
         "Playlist": {
           "Title": "Çalma Listeleri",
           "Create": {
-            "Title": "Çalma Listesi Oluştur"
+            "Title": "Çalma Listesi Oluştur",
+            "Success": {
+              "Title": "Oynatma Listesi Oluşturuldu"
+            }
           }
         },
         "Level": {
           "Title": "Seviyeler",
           "Create": {
-            "Title": "Seviye Oluştur"
+            "Title": "Seviye Oluştur",
+            "Success": {
+              "Title": "Seviye Oluşturuldu"
+            }
           }
         },
         "Skin": {
           "Title": "Dokular",
           "Create": {
-            "Title": "Doku Oluştur"
+            "Title": "Doku Oluştur",
+            "Success": {
+              "Title": "Doku Oluşturuldu"
+            }
           }
         },
         "Background": {
           "Title": "Arkaplanlar",
           "Create": {
-            "Title": "Arkaplan Oluştur"
+            "Title": "Arkaplan Oluştur",
+            "Success": {
+              "Title": "Arkaplan Oluşturuldu"
+            }
           }
         },
         "Effect": {
           "Title": "Ses Efektleri",
           "Create": {
-            "Title": "Ses Efekti Oluştur"
+            "Title": "Ses Efekti Oluştur",
+            "Success": {
+              "Title": "Ses Efekti Oluşturuldu"
+            }
           }
         },
         "Particle": {
           "Title": "Partiküller",
           "Create": {
-            "Title": "Partikül Oluştur"
+            "Title": "Partikül Oluştur",
+            "Success": {
+              "Title": "Partikül Oluşturuldu"
+            }
           }
         },
         "Engine": {
           "Title": "Motorlar",
           "Create": {
-            "Title": "Motor Oluştur"
+            "Title": "Motor Oluştur",
+            "Success": {
+              "Title": "Motor Oluşturuldu"
+            }
           }
         },
         "Replay": {
           "Title": "Tekrarlar",
           "Create": {
-            "Title": "Tekrar Oluştur"
+            "Title": "Tekrar Oluştur",
+            "Success": {
+              "Title": "Tekrar Oluşturuldu"
+            }
           }
         },
         "Room": {
           "Title": "Odalar",
           "Create": {
             "Title": "Oda Oluştur",
+            "Success": {
+              "Title": "Oda Oluşturuldu"
+            },
             "Description": "\"{0}\" odasını oluşturarak, oda bağlantısını paylaşıp başkalarını birlikte oynamaya davet edebilirsiniz.",
             "ShareSuccess": {
               "Title": "Oda Bağlantısı Kopyalandı"
@@ -2708,7 +2852,12 @@
       },
       "Details": {
         "Actions": {
-          "Configuration": "Yapılandır"
+          "Play": "Oyna",
+          "Watch": "İzle",
+          "Preview": "Önizleme",
+          "Tutorial": "Öğretici",
+          "Configuration": "Yapılandır",
+          "Resources": "Kaynaklar"
         },
         "DeleteConfirmation": {
           "Description": "\"{0}\" dosyasını silmek istediğinizden emin misiniz?"
@@ -2733,26 +2882,50 @@
         "Post": {
           "ShareSuccess": {
             "Title": "Gönderi Bağlantısı Kopyalandı"
+          },
+          "ActionSuccess": {
+            "Title": "Gönderi Eylemi Gönderildi"
           }
         },
         "Playlist": {
-          "Actions": {
-            "Play": "Oyna"
-          },
           "ShareSuccess": {
             "Title": "Çalma Listesi Bağlantısı Kopyalandı"
+          },
+          "ActionSuccess": {
+            "Title": "Oynatma Listesi Eylemi Gönderildi"
+          },
+          "Watch": {
+            "Multiple": {
+              "Description": "Bu çalma listesinde birden fazla seviye var.\n\nLütfen izlemek için bir seviye seçin."
+            }
+          },
+          "Preview": {
+            "Multiple": {
+              "Description": "Bu çalma listesinde birden fazla seviye var.\n\nLütfen önizlemeyi kullanmak için bir seviye seçin."
+            }
+          },
+          "Tutorial": {
+            "Multiple": {
+              "Description": "Bu çalma listesinde birden fazla seviye var.\n\nLütfen öğreticiyi kullanmak için bir seviye seçin."
+            }
+          },
+          "Configuration": {
+            "Multiple": {
+              "Description": "Bu çalma listesinde birden fazla seviye var.\n\nLütfen yapılandırmayı kullanmak için bir seviye seçin."
+            }
           },
           "Levels": {
             "Title": "Seviyeler"
           }
         },
         "Level": {
-          "Actions": {
-            "Play": "Oyna",
-            "Watch": "İzle",
-            "Preview": "Önizleme"
-          },
           "Play": {
+            "TutorialTip": {
+              "Message": "Bu motor ile ilk defa oynuyorsunuz, öğreticisini görmek ister misiniz?"
+            },
+            "ConfigurationTip": {
+              "Message": "Bu motor ile ilk defa oynuyorsunuz, nota hızı gibi seçenekleri şimdi yapılandırmak ister misiniz?"
+            },
             "Effect": {
               "Audio": {
                 "Loading": "Ses efektinin sesi deşifre ediliyor...",
@@ -2796,11 +2969,20 @@
           },
           "ShareSuccess": {
             "Title": "Seviye Bağlantısı Kopyalandı"
+          },
+          "ActionSuccess": {
+            "Title": "Seviye Eylemi Gönderildi"
+          },
+          "Engine": {
+            "Title": "Motor"
           }
         },
         "Skin": {
           "ShareSuccess": {
             "Title": "Doku Bağlantısı Kopyalandı"
+          },
+          "ActionSuccess": {
+            "Title": "Doku Eylemi Gönderildi"
           }
         },
         "Background": {
@@ -2812,6 +2994,9 @@
           },
           "ShareSuccess": {
             "Title": "Arkaplan Bağlantısı Kopyalandı"
+          },
+          "ActionSuccess": {
+            "Title": "Arkaplan Eylemi Gönderildi"
           }
         },
         "Effect": {
@@ -2827,17 +3012,20 @@
           },
           "ShareSuccess": {
             "Title": "Efekt Bağlantısı Kopyalandı"
+          },
+          "ActionSuccess": {
+            "Title": "Efekt Eylemi Gönderildi"
           }
         },
         "Particle": {
           "ShareSuccess": {
             "Title": "Partikül Bağlantısı Kopyalandı"
+          },
+          "ActionSuccess": {
+            "Title": "Partikül Eylemi Gönderildi"
           }
         },
         "Engine": {
-          "Actions": {
-            "Tutorial": "Öğretici"
-          },
           "Tutorial": {
             "Effect": {
               "Audio": {
@@ -2852,12 +3040,24 @@
           },
           "ShareSuccess": {
             "Title": "Motor Bağlantısı Kopyalandı"
+          },
+          "ActionSuccess": {
+            "Title": "Motor Eylemi Gönderildi"
+          },
+          "Skin": {
+            "Title": "Doku"
+          },
+          "Background": {
+            "Title": "Arkaplan"
+          },
+          "Effect": {
+            "Title": "Ses Efekti"
+          },
+          "Particle": {
+            "Title": "Partikül"
           }
         },
         "Replay": {
-          "Actions": {
-            "Watch": "İzle"
-          },
           "Watch": {
             "Effect": {
               "Audio": {
@@ -2878,11 +3078,20 @@
           },
           "ShareSuccess": {
             "Title": "Tekrar Bağlantısı Kopyalandı"
+          },
+          "ActionSuccess": {
+            "Title": "Tekrar Eylemi Gönderildi"
+          },
+          "Level": {
+            "Title": "Seviye"
           }
         },
         "Room": {
           "ShareSuccess": {
             "Title": "Oda Bağlantısı Kopyalandı"
+          },
+          "ActionSuccess": {
+            "Title": "Oda Eylemi Gönderildi"
           }
         }
       },
@@ -3015,6 +3224,106 @@
         },
         "Room": {
           "Title": "Oda Yapılandırılması"
+        }
+      },
+      "Resources": {
+        "Post": {
+          "Title": "Gönderi Kaynakları",
+          "Thumbnail": "Önizleme Resmi"
+        },
+        "Playlist": {
+          "Title": "Oynatma Listesi Kaynakları",
+          "Thumbnail": "Önizleme Resmi"
+        },
+        "Level": {
+          "Title": "Seviye Kaynakları",
+          "Cover": "Albüm Kapağı",
+          "Bgm": "Arkaplan Müziği",
+          "Preview": "Önizleme",
+          "Data": "Veri"
+        },
+        "Skin": {
+          "Title": "Doku Kaynakları",
+          "Thumbnail": "Önizleme Resmi",
+          "Data": "Veri",
+          "Texture": "Doku Yapısı"
+        },
+        "Background": {
+          "Title": "Arkaplan Kaynakları",
+          "Thumbnail": "Önizleme Resmi",
+          "Image": "Görsel",
+          "Data": "Veri",
+          "Configuration": "Yapılandırma"
+        },
+        "Effect": {
+          "Title": "Efekt Kaynakları",
+          "Thumbnail": "Önizleme Resmi",
+          "Data": "Veri",
+          "Audio": "Ses"
+        },
+        "Particle": {
+          "Title": "Partikül Kaynakları",
+          "Thumbnail": "Önizleme Resmi",
+          "Data": "Veri",
+          "Texture": "Partükül Yapısı"
+        },
+        "Engine": {
+          "Title": "Motor Kaynakları",
+          "Thumbnail": "Önizleme Resmi",
+          "PlayData": "Oyun Verileri",
+          "WatchData": "İzleme Verileri",
+          "PreviewData": "Önizleme Verileri",
+          "TutorialData": "Öğretici Verileri",
+          "Rom": "ROM",
+          "Configuration": "Yapılandırma"
+        },
+        "Replay": {
+          "Title": "Tekrar Kaynakları",
+          "Data": "Veri",
+          "Configuration": "Yapılandırma"
+        },
+        "Room": {
+          "Title": "Oda Kaynakları",
+          "Cover": "Albüm Kapağı",
+          "Bgm": "Arkaplan Müziği",
+          "Preview": "Önizleme"
+        }
+      },
+      "ResourceExporters": {
+        "Success": {
+          "Title": "Kaynak Dışarıya Aktarıldı"
+        }
+      },
+      "SaveInfos": {
+        "Post": {
+          "Title": "Gönderiyi Kaydet"
+        },
+        "Playlist": {
+          "Title": "Oynatma Listesini Kaydet"
+        },
+        "Level": {
+          "Title": "Seviyeyi Kaydet"
+        },
+        "Skin": {
+          "Title": "Dokuyu Kaydet"
+        },
+        "Background": {
+          "Title": "Arkaplanı Kaydet"
+        },
+        "Effect": {
+          "Title": "Efekti Kaydet"
+        },
+        "Particle": {
+          "Title": "Partikülü Kaydet"
+        },
+        "Engine": {
+          "Title": "Motoru Kaydet"
+        },
+        "Replay": {
+          "Title": "Tekrarı Kaydet"
+        },
+        "Room": {
+          "Title": "Odayı Kaydet"
         }
       },
       "Savers": {
@@ -3228,6 +3537,9 @@
         "ExitConfirmation": {
           "Description": "Odadan ayrılmak istediğinize emin misiniz?"
         },
+        "Tip": {
+          "Message": "İpucu: Sekmeler arasında geçiş yapın"
+        },
         "Play": {
           "Options": {
             "Title": "Seçenekler"
@@ -3251,6 +3563,9 @@
             },
             "Description": "{0} hazırlanıyor, {1} hazır, {2} atladı...",
             "Actions": {
+              "ConfigurationTip": {
+                "Message": "Bu motor ile ilk defa oynuyorsunuz, nota hızı gibi seçenekleri şimdi yapılandırmak ister misiniz?"
+              },
               "Configuration": "Yapılandırma",
               "Ready": "Hazır",
               "Skip": "Atla",
@@ -3372,11 +3687,15 @@
     },
     "Settings": {
       "Title": "Ayarlar",
+      "Tip": {
+        "Message": "Ayarlar, Sonolus uygulaması için genel seçenekler içerir.\n\nNot hızı gibi motor ve seviyeye özgü seçenekler için, bir sunucuya girip bir seviye seçtikten sonra \"Yapılandırma\"da bulabilirsiniz."
+      },
       "Graphics": {
         "Title": "Grafikler",
         "TargetFps": {
           "Title": "Hedef FPS",
-          "Description": "Cihazınızın ekran yenileme hızının kullanılması önerilir.\n\nSonolus, bu FPS'de çalışmayı hedefler, ancak cihazın bunu yapabilip yapamayacağı garanti edilmez."
+          "Description": "Cihazınızın ekran yenileme hızının kullanılması önerilir.\n\nSonolus, bu FPS'de çalışmayı hedefler, ancak cihazın bunu yapabilip yapamayacağı garanti edilmez.",
+          "Default": "Varsayılan"
         },
         "RenderMode": {
           "Title": "Görselleştirme (Render) Modu",
@@ -3392,13 +3711,7 @@
         },
         "AntiAliasing": {
           "Title": "Kenar Yumuşatma (Anti-Aliasing)",
-          "Description": "Kapalı kullanılması önerilir.\n\nKenar yumuşatma, daha kötü performans pahasına, özellikle hareketli grafik kenarlarındaki yapıları en aza indirerek grafikleri iyileştirir.",
-          "Options": {
-            "Off": "Kapalı",
-            "TwoX": "2x",
-            "FourX": "4x",
-            "EightX": "8x"
-          }
+          "Description": "Kapalı kullanılması önerilir.\n\nKenar yumuşatma, daha kötü performans pahasına, özellikle hareketli grafik kenarlarındaki yapıları en aza indirerek grafikleri iyileştirir."
         },
         "GpuParticleSystem": {
           "Title": "Grafik İşlemci (GPU) Partikül Sistemi",
@@ -3433,6 +3746,7 @@
           "Options": {
             "List": "Liste",
             "Details": "Detaylar",
+            "Result": "Sonuç",
             "Multiplayer": "Çok Oyunculu"
           }
         },
@@ -3461,6 +3775,11 @@
           "Title": "Durdurma Gecikmesi",
           "Description": "Duraklatma kaldırıldığında geri sayımın gecikmesi."
         },
+        "FavoriteCollection": {
+          "Title": "Favori Koleksiyon",
+          "Description": "Favorilerinizi kaydetmek için koleksiyon.\n\nHiçbir koleksiyon seçilmezse, otomatik olarak varsayılan bir koleksiyon oluşturulacaktır.",
+          "DefaultName": "Favoriler"
+        },
         "MultiplayerPreload": {
           "Title": "Çok Oyunculu' da Ön Yükleme",
           "Description": "Açılması önerilir.\n\nÇok oyunculu modda, yükleme hızını artırmak için seviye onaylandıktan sonra ön yüklemeye başlayın."
@@ -3480,6 +3799,15 @@
           "Description": "Tekrar için oluşturulan açıklama şablonu.\n\nÖzel parametreler mevcuttur ve ilgili değerlerle değiştirilecektir.",
           "Placeholder": "Açıklama şablonunu girin..."
         },
+        "ReplayCollection": {
+          "Title": "Tekrar Koleksiyonu",
+          "Description": "Tekrarlarınızı kaydetmek için koleksiyon.\n\nHiçbir koleksiyon seçilmezse, otomatik olarak varsayılan bir koleksiyon oluşturulacaktır.",
+          "DefaultName": "Tekrarlar"
+        },
+        "AutoSubmitReplay": {
+          "Title": "Tekrarları Otomatik Gönder",
+          "Description": "Destekleniyorsa, tekrarları otomatik olarak sunucuya gönderir."
+        },
         "ShowReplayTouches": {
           "Title": "Tekrarda Dokunuşları Göster",
           "Description": "Tekrar izlerken dokunuşları gösterir."
@@ -3487,6 +3815,10 @@
         "OverwriteReplayOptions": {
           "Title": "Tekrar Seçeneklerinin Üzerine Yaz",
           "Description": "Tekrar izlerken seçeneklerin üzerine kendinizinkileri yazar."
+        },
+        "TouchAbnormalityDetection": {
+          "Title": "Dokunma Anormalliği Tespiti",
+          "Description": "Açmanızı öneririz.\n\nOyun sırasında dokunma anormalliklerini tespit edin."
         }
       },
       "UI": {
@@ -3718,6 +4050,9 @@
             }
           },
           "Result": {
+            "TouchAbnormality": {
+              "Description": "Oyun sırasında {0} dokunma anormalliği tespit edildi. Bu genellikledokunuş hareketleri, dokunma optimizasyonu ve bildirimler gibi sistem özelliklerinden kaynaklanır ve yargı sorunlarına yol açabilir.\n\nEn iyi oyun deneyimini yaşamanızı sağlamak için, ilgili sistem ayarlarını düzenleyerek bu sorunu çözmeniz önerilir."
+            },
             "Options": {
               "HasUsedPause": "Durduruldu",
               "HasUsedSnapshot": "Anlık Görüntü"
@@ -3729,7 +4064,14 @@
                 "HasUsedPause": "Duraklatma kullanıldığı için kayıt oluşturulamıyor.",
                 "HasUsedSnapshot": "Anlık görüntü kullanıldığı için kayıt oluşturulamıyor."
               },
-              "Create": "Oluştur"
+              "Submit": {
+                "Confirmation": {
+                  "Description": "Tekrarınız başarıyla oluşturuldu ve kaydedildi.\n\nTekrarı \"{0}\" sunucusuna da göndermek ister misiniz?"
+                },
+                "Success": {
+                  "Title": "Seviye Sonucu Gönderildi"
+                }
+              }
             }
           }
         }
