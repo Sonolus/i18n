@@ -10,6 +10,8 @@ const excludes = [
     // - Ataberk
     'Chidori',
     'Umay',
+    // - bpforest
+    '한승준',
     // - Burrito
     'NonSpicyBurrito',
     // - ドマオー
