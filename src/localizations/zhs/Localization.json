@@ -741,18 +741,24 @@
     "ServerVersionTooNewError": "此服务器只支持版本为 {0} 的 Sonolus。\n\n请更新您的 Sonolus，或联系服务器运营汇报这个问题。"
   },
   "Clients": {
-    "Master": {
+    "Content": {
       "Info": {
-        "Loading": "正在加载 Sonolus 信息…",
+        "Loading": "正在加载 Sonolus 信息...",
         "Error": "加载 Sonolus 信息失败。\n\n请检查您的网络连接并重试。"
-      },
+      }
+    },
+    "I18n": {
       "List": {
-        "Loading": "正在加载语言…",
+        "Loading": "正在加载语言...",
         "Error": "加载语言失败。\n\n请检查您的网络连接并重试。"
       },
       "Localization": {
-        "Loading": "正在加载语言…",
-        "Error": "加载语言“{0}”失败。\n\n请检查您的网络连接并重试。"
+        "Loading": "正在加载语言...",
+        "Error": "加载语言 \"{0}\" 失败。\n\n请检查您的网络连接并重试。"
+      },
+      "Contributors": {
+        "Loading": "正在加载贡献者...",
+        "Error": "加载贡献者失败。\n\n请检查您的网络连接并重试。"
       }
     },
     "Service": {
@@ -2511,6 +2517,7 @@
       "Players": "玩家",
       "Account": "账号",
       "Link": "链接",
+      "About": "关于",
       "Settings": "设置",
       "UpdateAvailable": {
         "Title": "更新可用",
@@ -2620,6 +2627,19 @@
         "Engine": "引擎",
         "Replay": "回放",
         "Room": "房间"
+      }
+    },
+    "About": {
+      "Title": "关于 Sonolus",
+      "Letter": {
+        "Title": "来自开发者的一封信"
+      },
+      "Music": {
+        "Title": "音乐"
+      },
+      "Translation": {
+        "Title": "翻译",
+        "Description": "帮助我们将 Sonolus 翻译成您的语言!\nhttps://github.com/Sonolus/i18n\n\n让我们感谢所有的贡献者:"
       }
     },
     "Server": {
@@ -3674,7 +3694,8 @@
         "Title": "图像",
         "TargetFps": {
           "Title": "目标 FPS",
-          "Description": "建议设置为您设备的屏幕刷新率。\n\nSonolus 的目标是在此 FPS 下运行，但如果设备性能无法满足要求，则无法保证。"
+          "Description": "建议设置为您设备的屏幕刷新率。\n\nSonolus 的目标是在此 FPS 下运行，但如果设备性能无法满足要求，则无法保证。",
+          "Default": "默认值"
         },
         "RenderMode": {
           "Title": "渲染模式",
