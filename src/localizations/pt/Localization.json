@@ -741,18 +741,24 @@
     "ServerVersionTooNewError": "Este servidor suporta apenas a versão {0} do Sonolus.\n\nPor favor, atualize seu aplicativo Sonolus ou entre em contato com o proprietário do servidor para relatar o problema."
   },
   "Clients": {
-    "Master": {
+    "Content": {
       "Info": {
-        "Loading": "Carregando informações do Sonolus...",
-        "Error": "Falha ao carregar informações do Sonolus.\n\nPor favor, verifique sua conexão com a internet e tente novamente."
-      },
+        "Loading": "Carregando informações do Sonolus... ",
+        "Error": "Falha ao carregar informações do Sonolus. \n\nPor favor verifique sua conexão de internet e tente novamente. "
+      }
+    },
+    "I18n": {
       "List": {
         "Loading": "Carregando idiomas...",
-        "Error": "Falha ao carregar idiomas.\n\nPor favor, verifique sua conexão com a internet e tente novamente."
+        "Error": "Falha ao carregar idiomas.\n\nPor favor verifique sua conexão de Internet e tente novamente."
       },
       "Localization": {
         "Loading": "Carregando idioma...",
-        "Error": "Falha ao carregar o idioma \"{0}\".\n\nPor favor, verifique sua conexão com a internet e tente novamente."
+        "Error": "Falha ao carregar o idioma \"{0}\".\n\nPor favor verifique sua conexão de Internet e tente novamente."
+      },
+      "Contributors": {
+        "Loading": "Carregando contribuidores...",
+        "Error": "Falha ao carregar contribuidores.\n\nPor favor verifique sua conexão de Internet e tente novamente."
       }
     },
     "Service": {
@@ -2511,6 +2517,7 @@
       "Players": "Jogadores",
       "Account": "Conta",
       "Link": "Link",
+      "About": "Sobre",
       "Settings": "Configurações",
       "UpdateAvailable": {
         "Title": "Atualização Disponível",
@@ -2620,6 +2627,19 @@
         "Engine": "Engine",
         "Replay": "Replay",
         "Room": "Sala"
+      }
+    },
+    "About": {
+      "Title": "Sobre Sonolus",
+      "Letter": {
+        "Title": "Uma carta do desenvolvedor "
+      },
+      "Music": {
+        "Title": "Música "
+      },
+      "Translation": {
+        "Title": "Tradução",
+        "Description": "Ajude a traduzir o Sonolus para o seu idioma! https://github.com/Sonolus/i18n \n\nObrigado a todos os colaboradores:"
       }
     },
     "Server": {
@@ -3217,7 +3237,7 @@
         },
         "Level": {
           "Title": "Recursos do Level",
-          "Cover": "Cver",
+          "Cover": "Cover ",
           "Bgm": "BGM ",
           "Preview": "Pré-Visualizar",
           "Data": "Dados"
@@ -3674,7 +3694,8 @@
         "Title": "Gráficos",
         "TargetFps": {
           "Title": "FPS Alvo",
-          "Description": "Recomenda-se usar a taxa de atualização da tela do seu dispositivo.\n\nO Sonolus tem como objetivo rodar a essa taxa de FPS, no entanto, isso não é garantido se o dispositivo não for capaz de fazê-lo."
+          "Description": "Recomenda-se usar a taxa de atualização da tela do seu dispositivo.\n\nO Sonolus tem como objetivo rodar a essa taxa de FPS, no entanto, isso não é garantido se o dispositivo não for capaz de fazê-lo.",
+          "Default": "Padrão "
         },
         "RenderMode": {
           "Title": "Modo de Renderização",
