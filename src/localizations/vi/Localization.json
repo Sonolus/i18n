@@ -1,0 +1,2173 @@
+{
+  "Meta": {
+    "Name": "vi",
+    "Title": "Tiếng Việt (Vietnamese)"
+  },
+  "Texts": {
+    "#GRADE": "Hạng",
+    "#ACCURACY_SCORE": "Điểm chính xác",
+    "#COMBO": "Combo",
+    "#PERFECT": "Perfect",
+    "#GREAT": "Great",
+    "#GOOD": "Good",
+    "#MISS": "Miss",
+    "#KEYWORDS": "Từ khoá",
+    "#NAME": "Tên",
+    "#RATING_MINIMUM": "Mức độ tối thiểu",
+    "#RATING_MAXIMUM": "Mức độ tối đa",
+    "#ARTISTS": "Nghệ sĩ",
+    "#AUTHOR": "Tác giả",
+    "#GENRE": "Thể loại",
+    "#LANGUAGE": "Ngôn ngữ",
+    "#DIFFICULTY": "Độ khó",
+    "#SPEED": "Tốc độ level",
+    "#MIRROR": "Phản chiếu level",
+    "#STAGE": "Stage"
+  },
+  "Common": {
+    "Loading": "Đang tải...",
+    "Select": "Chọn",
+    "View": "Xem",
+    "Cancel": "Hủy",
+    "Confirm": "Xác nhận",
+    "Retry": "Thử lại",
+    "Tip": {
+    },
+    "Error": {
+      "Title": "Lỗi"
+    },
+    "Confirmation": {
+      "Title": "Xác nhận"
+    },
+    "Next": "Tiếp",
+    "Add": "Thêm",
+    "Import": "Nhập",
+    "Search": "Tìm",
+    "Save": "Lưu",
+    "Share": "Chia sẻ",
+    "Update": "Cập nhật",
+    "Delete": "Xóa",
+    "CopySuccess": {
+    },
+    "Accuracy": "Độ chính xác",
+    "Grade": "Cấp",
+    "AccuracyScore": "Mức độ chính xác",
+    "Combo": "Combo",
+    "Perfect": "Perfect",
+    "Great": "Great",
+    "Good": "Good",
+    "Miss": "Miss",
+    "StandardOption": "Đây là chức năng thông thường.",
+    "AdvancedOption": "Lựa chọn này chỉ dành cho người chơi nâng cao.",
+    "Colors": "Màu sắc",
+    "ColorField": {
+    },
+    "DeviceOffsetField": {
+      "Calibrate": "Hiệu chỉnh"
+    },
+    "MultiField": {
+    },
+    "ItemFields": {
+      "NoSelected": {
+      },
+      "NoSource": {
+      },
+      "NoOtherServers": {
+      }
+    },
+    "FileField": {
+    },
+    "PullToLoad": {
+      "More": "Kéo để tải thêm"
+    },
+    "UI": {
+      "Metric": {
+      },
+      "JudgmentErrorStyle": {
+        "Plus": "+ / -",
+        "Minus": "- / +",
+        "ArrowUp": "↑ / ↓",
+        "ArrowDown": "↓ / ↑",
+        "ArrowLeft": "← / →",
+        "ArrowRight": "→ / ←",
+        "TriangleUp": "▲ / ▼",
+        "TriangleDown": "▼ / ▲",
+        "TriangleLeft": "◄ / ►",
+        "TriangleRight": "► / ◄"
+      },
+      "JudgmentErrorPlacement": {
+        "Left": "Trái",
+        "Right": "Phải"
+      },
+      "Visibility": "Hiển thị",
+      "Animation": "Hoạt ảnh",
+      "Ease": {
+        "Linear": "Linear",
+        "InSine": "Sine (In)",
+        "OutSine": "Sine (Out)",
+        "InOutSine": "Sine (In Out)",
+        "OutInSine": "Sine (Out In)",
+        "InQuad": "Quad (In)",
+        "OutQuad": "Quad (Out)",
+        "InOutQuad": "Quad (In Out)",
+        "OutInQuad": "Quad (Out In)",
+        "InCubic": "Cubic (In)",
+        "OutCubic": "Cubic (Out)",
+        "InOutCubic": "Cubic (In Out)",
+        "OutInCubic": "Cubic (Out In)",
+        "InQuart": "Quart (In)",
+        "OutQuart": "Quart (Out)",
+        "InOutQuart": "Quart (In Out)",
+        "OutInQuart": "Quart (Out In)",
+        "InQuint": "Quint (In)",
+        "OutQuint": "Quint (Out)",
+        "InOutQuint": "Quint (In Out)",
+        "OutInQuint": "Quint (Out In)",
+        "InExpo": "Expo (In)",
+        "OutExpo": "Expo (Out)",
+        "InOutExpo": "Expo (In Out)",
+        "OutInExpo": "Expo (Out In)",
+        "InCirc": "Circ (In)",
+        "OutCirc": "Circ (Out)",
+        "InOutCirc": "Circ (In Out)",
+        "OutInCirc": "Circ (Out In)",
+        "InBack": "Back (In)",
+        "OutBack": "Back (Out)",
+        "InOutBack": "Back (In Out)",
+        "OutInBack": "Back (Out In)",
+        "InElastic": "Elastic (In)",
+        "OutElastic": "Elastic (Out)",
+        "InOutElastic": "Elastic (In Out)",
+        "OutInElastic": "Elastic (Out In)"
+      }
+    },
+    "AutoExit": {
+      "Options": {
+      }
+    },
+    "PermissionError": {
+    }
+  },
+  "Themes": {
+    "Dark": "Tối",
+    "Light": "Sáng"
+  },
+  "Web": {
+  },
+  "Clients": {
+    "Content": {
+      "Info": {
+      }
+    },
+    "I18n": {
+      "List": {
+      },
+      "Localization": {
+      },
+      "Contributors": {
+      }
+    },
+    "Service": {
+      "UserProfile": {
+        "Loading": "Đang tải Profile...",
+        "Error": "Không thể tải Profile của \"{0}\".\n\nVui lòng xem lại ID tài khoản, hoặc kiểm tra kết nối mạng rồi thử lại ."
+      },
+      "Login": {
+        "Loading": "Đang đăng nhập...",
+        "Error": "Không thể đăng nhập.\n\nVui lòng kiểm tra lại kết nối mạng rồi thử lại.",
+        "Success": {
+          "New": {
+            "Title": "Đăng kí thành công"
+          },
+          "Old": {
+            "Title": "Đăng nhập thành công"
+          }
+        }
+      },
+      "EditName": {
+        "Loading": "Đang đổi tên...",
+        "Error": "Không thể đổi tên.\n\nVui lòng kiểm tra nếu tên của bạn nằm trong giới hạn ký tự và không chứa những kí hiệu, hoặc kiểm tra kết nối mạng rồi thử lại.",
+        "Success": {
+          "Title": "Đã đổi tên"
+        }
+      },
+      "EditAvatar": {
+        "Loading": "Đang đổi avatar...",
+        "Error": "Không thể đổi avatar.\n\nVui lòng kiểm tra xem avatar của ban có phải tệp ảnh hay không hoặc kiểm tra lại kết nối mạng rồi thử lại.",
+        "Success": {
+          "Title": "Đã đổi avatar"
+        }
+      },
+      "EditAboutMe": {
+        "Loading": "Đang sửa thông tin...",
+        "Error": "Không thể sửa thông tin. \n\nVui lòng kiểm tra lại nếu có ký tự đặc biệt và vẫn trong giới hạn ký tự hoặc kiểm tra lại kết nối mạng rồi thử lại.",
+        "Success": {
+          "Title": "Đã sửa thông tin"
+        }
+      },
+      "EditFavorites": {
+        "Loading": "Đang sửa mục yêu thích...",
+        "Error": "Không thể sửa mục yêu thích.\n\nVui lòng kiểm tra xem mục yêu thích của bạn có phù hợp và trong giới hạn kí tự, hoặc kiểm tra Wifi nhà bạn rồi thử lại.",
+        "Success": {
+          "Title": "Đã sửa mục yêu thích"
+        }
+      },
+      "Authenticate": {
+      },
+      "Logout": {
+        "Error": "Không thể đăng xuất.\n\nVui lòng kiểm tra kết nối mạng rồi thử lại.",
+        "Success": {
+          "Title": "Đã đăng xuất"
+        }
+      }
+    },
+    "CustomServer": {
+      "Authentication": {
+        "NotLoggedInError": {
+        },
+        "Required": {
+          "NotLoggedInError": {
+          },
+          "Confirmation": {
+          }
+        },
+        "Expired": {
+        },
+        "Login": {
+        },
+        "AutoLogin": {
+        }
+      },
+      "Multiplayer": {
+        "NotLoggedInError": {
+        },
+        "CreateRoom": {
+        },
+        "JoinRoom": {
+        }
+      },
+      "Server": {
+        "Info": {
+        },
+        "Banner": {
+        }
+      },
+      "Post": {
+        "Info": {
+        },
+        "Create": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Submit": {
+        },
+        "Community": {
+          "Info": {
+          },
+          "Submit": {
+          },
+          "Comment": {
+            "List": {
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+          },
+          "Record": {
+            "List": {
+            },
+            "Details": {
+            }
+          }
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        }
+      },
+      "Playlist": {
+        "Info": {
+        },
+        "Create": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Submit": {
+        },
+        "Community": {
+          "Info": {
+          },
+          "Submit": {
+          },
+          "Comment": {
+            "List": {
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+          },
+          "Record": {
+            "List": {
+            },
+            "Details": {
+            }
+          }
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        }
+      },
+      "Level": {
+        "Info": {
+        },
+        "Create": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Submit": {
+        },
+        "Result": {
+          "Info": {
+          },
+          "NotSupported": {
+          },
+          "Submit": {
+          }
+        },
+        "Community": {
+          "Info": {
+          },
+          "Submit": {
+          },
+          "Comment": {
+            "List": {
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+          },
+          "Record": {
+            "List": {
+            },
+            "Details": {
+            }
+          }
+        },
+        "Compatibility": {
+        },
+        "Cover": {
+        },
+        "Bgm": {
+        },
+        "Preview": {
+        },
+        "Data": {
+        }
+      },
+      "Skin": {
+        "Info": {
+        },
+        "Create": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Submit": {
+        },
+        "Community": {
+          "Info": {
+          },
+          "Submit": {
+          },
+          "Comment": {
+            "List": {
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+          },
+          "Record": {
+            "List": {
+            },
+            "Details": {
+            }
+          }
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Texture": {
+        }
+      },
+      "Background": {
+        "Info": {
+        },
+        "Create": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Submit": {
+        },
+        "Community": {
+          "Info": {
+          },
+          "Submit": {
+          },
+          "Comment": {
+            "List": {
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+          },
+          "Record": {
+            "List": {
+            },
+            "Details": {
+            }
+          }
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Image": {
+        },
+        "Configuration": {
+        }
+      },
+      "Effect": {
+        "Info": {
+        },
+        "Create": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Submit": {
+        },
+        "Community": {
+          "Info": {
+          },
+          "Submit": {
+          },
+          "Comment": {
+            "List": {
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+          },
+          "Record": {
+            "List": {
+            },
+            "Details": {
+            }
+          }
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Audio": {
+        }
+      },
+      "Particle": {
+        "Info": {
+        },
+        "Create": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Submit": {
+        },
+        "Community": {
+          "Info": {
+          },
+          "Submit": {
+          },
+          "Comment": {
+            "List": {
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+          },
+          "Record": {
+            "List": {
+            },
+            "Details": {
+            }
+          }
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Texture": {
+        }
+      },
+      "Engine": {
+        "Info": {
+        },
+        "Create": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Submit": {
+        },
+        "Community": {
+          "Info": {
+          },
+          "Submit": {
+          },
+          "Comment": {
+            "List": {
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+          },
+          "Record": {
+            "List": {
+            },
+            "Details": {
+            }
+          }
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "PlayData": {
+        },
+        "WatchData": {
+        },
+        "PreviewData": {
+        },
+        "TutorialData": {
+        },
+        "Rom": {
+        },
+        "Configuration": {
+        }
+      },
+      "Replay": {
+        "Info": {
+        },
+        "Create": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Submit": {
+        },
+        "Community": {
+          "Info": {
+          },
+          "Submit": {
+          },
+          "Comment": {
+            "List": {
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+          },
+          "Record": {
+            "List": {
+            },
+            "Details": {
+            }
+          }
+        },
+        "Compatibility": {
+        },
+        "Data": {
+        },
+        "Configuration": {
+        }
+      },
+      "Room": {
+        "Info": {
+        },
+        "Create": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Submit": {
+        },
+        "Community": {
+          "Info": {
+          },
+          "Submit": {
+          },
+          "Comment": {
+            "List": {
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+          },
+          "Record": {
+            "List": {
+            },
+            "Details": {
+            }
+          }
+        },
+        "Compatibility": {
+        },
+        "Cover": {
+        },
+        "Bgm": {
+        },
+        "Preview": {
+        }
+      }
+    },
+    "Collection": {
+      "Server": {
+        "Info": {
+        },
+        "Banner": {
+        }
+      },
+      "Post": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        }
+      },
+      "Playlist": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        }
+      },
+      "Level": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Cover": {
+        },
+        "Bgm": {
+        },
+        "Preview": {
+        },
+        "Data": {
+        }
+      },
+      "Skin": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Texture": {
+        }
+      },
+      "Background": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Image": {
+        },
+        "Configuration": {
+        }
+      },
+      "Effect": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Audio": {
+        }
+      },
+      "Particle": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Texture": {
+        }
+      },
+      "Engine": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "PlayData": {
+        },
+        "WatchData": {
+        },
+        "PreviewData": {
+        },
+        "TutorialData": {
+        },
+        "Rom": {
+        },
+        "Configuration": {
+        }
+      },
+      "Replay": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Data": {
+        },
+        "Configuration": {
+        }
+      },
+      "Room": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Cover": {
+        },
+        "Bgm": {
+        },
+        "Preview": {
+        }
+      }
+    },
+    "Scp": {
+      "PackageInfo": {
+      },
+      "Server": {
+        "Info": {
+        },
+        "Banner": {
+        }
+      },
+      "Post": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        }
+      },
+      "Playlist": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        }
+      },
+      "Level": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Cover": {
+        },
+        "Bgm": {
+        },
+        "Preview": {
+        },
+        "Data": {
+        }
+      },
+      "Skin": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Texture": {
+        }
+      },
+      "Background": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Image": {
+        },
+        "Configuration": {
+        }
+      },
+      "Effect": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Audio": {
+        }
+      },
+      "Particle": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Texture": {
+        }
+      },
+      "Engine": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "PlayData": {
+        },
+        "WatchData": {
+        },
+        "PreviewData": {
+        },
+        "TutorialData": {
+        },
+        "Rom": {
+        },
+        "Configuration": {
+        }
+      },
+      "Replay": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Data": {
+        },
+        "Configuration": {
+        }
+      },
+      "Room": {
+        "Info": {
+        },
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Cover": {
+        },
+        "Bgm": {
+        },
+        "Preview": {
+        }
+      }
+    },
+    "Multiplayer": {
+      "Connect": {
+      }
+    }
+  },
+  "DeepLink": {
+    "Invalid": {
+      "Description": "Đường dẫn \"{0}\" hiện không hợp lệ..\n\nVui lòng sử dụng một đường dẫn khác."
+    }
+  },
+  "Title": {
+  },
+  "Layout": {
+    "Refresh": "Làm mới",
+    "Back": "Quay lại"
+  },
+  "Routes": {
+    "ExternalLogin": {
+      "NotLoggedInError": {
+      },
+      "Confirmation": {
+      },
+      "Login": {
+      },
+      "Success": {
+      }
+    },
+    "JumpToPage": {
+      "Page": {
+      }
+    },
+    "SelectLocalization": {
+      "Title": "Chọn ngôn ngữ",
+      "Description": "Hãy chọn ngôn ngữ phù hợp:"
+    },
+    "SelectTheme": {
+      "Title": "Chọn chủ đề",
+      "Description": "Chọn một chủ đề:"
+    },
+    "SelectClient": {
+      "CustomServers": {
+        "RemoveConfirmation": {
+          "Description": "Bạn có chắc muốn xóa \"{0}\"?"
+        }
+      },
+      "Collections": {
+        "Title": "Bộ sưu tập",
+        "RemoveConfirmation": {
+          "Description": "Bạn có chắc muốn xóa \"{0}\"?"
+        }
+      }
+    },
+    "Selects": {
+      "ToPlay": {
+      },
+      "ToSave": {
+      },
+      "ToCreate": {
+        "Post": {
+        },
+        "Playlist": {
+        },
+        "Level": {
+        },
+        "Skin": {
+        },
+        "Background": {
+        },
+        "Effect": {
+        },
+        "Particle": {
+        },
+        "Engine": {
+        },
+        "Replay": {
+        },
+        "Room": {
+        }
+      },
+      "ToUse": {
+        "Post": {
+        },
+        "Playlist": {
+        },
+        "Level": {
+        },
+        "Skin": {
+        },
+        "Background": {
+        },
+        "Effect": {
+        },
+        "Particle": {
+        },
+        "Engine": {
+        },
+        "Replay": {
+        },
+        "Room": {
+        }
+      },
+      "ToAddFavorite": {
+      }
+    },
+    "EditCustomServer": {
+    },
+    "AddCustomServerAddress": {
+      "Address": {
+      }
+    },
+    "AddCustomServerInfo": {
+      "Name": {
+      }
+    },
+    "EditCollection": {
+      "Title": "Sửa bộ sưu tập"
+    },
+    "CreateCollection": {
+      "Name": {
+      },
+      "Description": {
+      },
+      "Banner": {
+      }
+    },
+    "ImportScp": {
+      "Scp": {
+      },
+      "Success": {
+        "Title": "Gói đã được nhập vào"
+      }
+    },
+    "ExportScpConfiguration": {
+      "Mode": {
+        "Options": {
+        }
+      }
+    },
+    "ExportScp": {
+      "Success": {
+        "Title": "Gói đã được xuất ra"
+      }
+    },
+    "EditVisibility": {
+      "Scale": {
+      },
+      "Alpha": {
+      }
+    },
+    "EditAnimation": {
+      "Scale": {
+      },
+      "Alpha": {
+      }
+    },
+    "EditTween": {
+      "From": {
+      },
+      "To": {
+      },
+      "Duration": {
+      },
+      "Ease": {
+      }
+    },
+    "EditColors": {
+      "Foreground": {
+      },
+      "Background": {
+      }
+    },
+    "CalibrateAudio": {
+    },
+    "CalibrateInput": {
+    },
+    "Home": {
+      "Title": "Trang chủ",
+      "Play": "Chơi",
+      "Players": "Người chơi",
+      "Account": "Tài khoản",
+      "Settings": "Cài đặt",
+      "UpdateAvailable": {
+        "Title": "Đã có bản cập nhập",
+        "Description": "Sonolus hiện đã có phiên bản {0}!\n\nTruy cập website:\nhttps://sonolus.com",
+        "Open": "Mở"
+      }
+    },
+    "Players": {
+      "Title": "Người chơi",
+      "PlayerLookup": {
+        "Title": "Tìm người chơi",
+        "Id": {
+        },
+        "Lookup": "Tìm"
+      }
+    },
+    "Link": {
+      "QRCode": {
+      },
+      "Text": {
+        "TextLink": {
+        }
+      },
+      "NotDeepLink": {
+      },
+      "LinkError": {
+      }
+    },
+    "Account": {
+      "Title": "Tài khoản",
+      "MyAccount": {
+        "Title": "Tài khoản của tôi",
+        "Login": {
+          "Apple": "Đăng nhập bằng Apple",
+          "Google": "Đăng nhập bằng Google",
+          "Wechat": "Đăng nhập bằng WeChat"
+        },
+        "Profile": "Profile",
+        "Logout": "Đăng xuất"
+      }
+    },
+    "UserProfile": {
+      "Home": {
+        "Main": {
+          "EditName": "Chỉnh sửa tên",
+          "EditAvatar": "Chỉnh Avatar"
+        },
+        "AboutMe": {
+        },
+        "Favorites": {
+        }
+      },
+      "EditName": {
+        "Name": {
+        }
+      },
+      "EditAvatar": {
+        "Foreground": {
+        },
+        "Background": {
+        }
+      },
+      "EditAboutMe": {
+        "AboutMe": {
+        }
+      },
+      "AddFavorite": {
+      }
+    },
+    "About": {
+      "Letter": {
+      },
+      "Music": {
+      },
+      "Translation": {
+      }
+    },
+    "Server": {
+      "Home": {
+        "CollectionUpdateConfirmation": {
+        },
+        "SaveSuccess": {
+          "Title": "Đã lưu server"
+        },
+        "ShareSuccess": {
+        }
+      },
+      "Search": {
+      },
+      "Forms": {
+      },
+      "Configuration": {
+        "Tip": {
+        },
+        "Options": {
+          "AutoLogin": {
+          }
+        }
+      },
+      "Infos": {
+        "Post": {
+          "Create": {
+            "Success": {
+            }
+          }
+        },
+        "Playlist": {
+          "Create": {
+            "Success": {
+            }
+          }
+        },
+        "Level": {
+          "Create": {
+            "Success": {
+            }
+          }
+        },
+        "Skin": {
+          "Create": {
+            "Success": {
+            }
+          }
+        },
+        "Background": {
+          "Create": {
+            "Success": {
+            }
+          }
+        },
+        "Effect": {
+          "Create": {
+            "Success": {
+            }
+          }
+        },
+        "Particle": {
+          "Create": {
+            "Success": {
+            }
+          }
+        },
+        "Engine": {
+          "Create": {
+            "Success": {
+            }
+          }
+        },
+        "Replay": {
+          "Create": {
+            "Success": {
+            }
+          }
+        },
+        "Room": {
+          "Create": {
+            "Success": {
+            },
+            "ShareSuccess": {
+            }
+          }
+        }
+      },
+      "Lists": {
+        "DeleteConfirmation": {
+        },
+        "Post": {
+          "ShareSuccess": {
+          }
+        },
+        "Playlist": {
+          "ShareSuccess": {
+          }
+        },
+        "Level": {
+          "ShareSuccess": {
+          }
+        },
+        "Skin": {
+          "ShareSuccess": {
+          }
+        },
+        "Background": {
+          "ShareSuccess": {
+          }
+        },
+        "Effect": {
+          "ShareSuccess": {
+          }
+        },
+        "Particle": {
+          "ShareSuccess": {
+          }
+        },
+        "Engine": {
+          "ShareSuccess": {
+          }
+        },
+        "Replay": {
+          "ShareSuccess": {
+          }
+        },
+        "Room": {
+          "ShareSuccess": {
+          }
+        }
+      },
+      "Details": {
+        "Actions": {
+        },
+        "DeleteConfirmation": {
+        },
+        "Tags": {
+        },
+        "Description": {
+        },
+        "Community": {
+        },
+        "Leaderboard": {
+        },
+        "Post": {
+          "ShareSuccess": {
+          },
+          "ActionSuccess": {
+          }
+        },
+        "Playlist": {
+          "ShareSuccess": {
+          },
+          "ActionSuccess": {
+          },
+          "Watch": {
+            "Multiple": {
+            }
+          },
+          "Preview": {
+            "Multiple": {
+            }
+          },
+          "Tutorial": {
+            "Multiple": {
+            }
+          },
+          "Configuration": {
+            "Multiple": {
+            }
+          },
+          "Levels": {
+          }
+        },
+        "Level": {
+          "Play": {
+            "TutorialTip": {
+            },
+            "ConfigurationTip": {
+            },
+            "Effect": {
+              "Audio": {
+              }
+            },
+            "Level": {
+              "Bgm": {
+              }
+            },
+            "Boot": {
+            }
+          },
+          "Watch": {
+            "Effect": {
+              "Audio": {
+              }
+            },
+            "Level": {
+              "Bgm": {
+              }
+            },
+            "Boot": {
+            }
+          },
+          "Preview": {
+            "Boot": {
+            }
+          },
+          "ShareSuccess": {
+          },
+          "ActionSuccess": {
+          },
+          "Engine": {
+          }
+        },
+        "Skin": {
+          "ShareSuccess": {
+          },
+          "ActionSuccess": {
+          }
+        },
+        "Background": {
+          "Preview": {
+            "Boot": {
+            }
+          },
+          "ShareSuccess": {
+          },
+          "ActionSuccess": {
+          }
+        },
+        "Effect": {
+          "Preview": {
+            "Audio": {
+            },
+            "Boot": {
+            }
+          },
+          "ShareSuccess": {
+          },
+          "ActionSuccess": {
+          }
+        },
+        "Particle": {
+          "ShareSuccess": {
+          },
+          "ActionSuccess": {
+          }
+        },
+        "Engine": {
+          "Tutorial": {
+            "Effect": {
+              "Audio": {
+              }
+            },
+            "Boot": {
+            }
+          },
+          "ShareSuccess": {
+          },
+          "ActionSuccess": {
+          },
+          "Skin": {
+          },
+          "Background": {
+          },
+          "Effect": {
+          },
+          "Particle": {
+          }
+        },
+        "Replay": {
+          "Watch": {
+            "Effect": {
+              "Audio": {
+              }
+            },
+            "Level": {
+              "Bgm": {
+              }
+            },
+            "Boot": {
+            }
+          },
+          "ShareSuccess": {
+          },
+          "ActionSuccess": {
+          },
+          "Level": {
+          }
+        },
+        "Room": {
+          "ShareSuccess": {
+          },
+          "ActionSuccess": {
+          }
+        }
+      },
+      "Configurations": {
+        "Post": {
+        },
+        "Playlist": {
+        },
+        "Level": {
+          "Offsets": {
+            "LevelAudioOffset": {
+            },
+            "ServerAudioOffset": {
+            }
+          }
+        },
+        "Skin": {
+        },
+        "Background": {
+          "Image": {
+            "Blur": {
+            },
+            "Mask": {
+            }
+          }
+        },
+        "Effect": {
+        },
+        "Particle": {
+        },
+        "Engine": {
+          "Items": {
+            "Skin": {
+            },
+            "Background": {
+            },
+            "Effect": {
+            },
+            "Particle": {
+            }
+          },
+          "Options": {
+          },
+          "UI": {
+            "PrimaryMetric": {
+            },
+            "SecondaryMetric": {
+            },
+            "JudgmentErrorStyle": {
+            },
+            "JudgmentErrorPlacement": {
+            },
+            "JudgmentErrorMin": {
+            },
+            "MenuStyle": {
+            },
+            "JudgmentStyle": {
+            },
+            "ComboStyle": {
+            },
+            "PrimaryMetricStyle": {
+            },
+            "SecondaryMetricStyle": {
+            },
+            "ProgressStyle": {
+            },
+            "TutorialNavigationStyle": {
+            },
+            "TutorialInstructionStyle": {
+            }
+          },
+          "Offsets": {
+            "EngineInputOffset": {
+            }
+          }
+        },
+        "Replay": {
+        },
+        "Room": {
+        }
+      },
+      "Resources": {
+        "Post": {
+        },
+        "Playlist": {
+        },
+        "Level": {
+        },
+        "Skin": {
+        },
+        "Background": {
+        },
+        "Effect": {
+        },
+        "Particle": {
+        },
+        "Engine": {
+        },
+        "Replay": {
+        },
+        "Room": {
+        }
+      },
+      "ResourceExporters": {
+        "Success": {
+        }
+      },
+      "SaveInfos": {
+        "Post": {
+        },
+        "Playlist": {
+        },
+        "Level": {
+        },
+        "Skin": {
+        },
+        "Background": {
+        },
+        "Effect": {
+        },
+        "Particle": {
+        },
+        "Engine": {
+        },
+        "Replay": {
+        },
+        "Room": {
+        }
+      },
+      "Savers": {
+        "Post": {
+          "Success": {
+          }
+        },
+        "Playlist": {
+          "Success": {
+          }
+        },
+        "Level": {
+          "Success": {
+          }
+        },
+        "Skin": {
+          "Success": {
+          }
+        },
+        "Background": {
+          "Success": {
+          }
+        },
+        "Effect": {
+          "Success": {
+          }
+        },
+        "Particle": {
+          "Success": {
+          }
+        },
+        "Engine": {
+          "Success": {
+          }
+        },
+        "Replay": {
+          "Success": {
+          }
+        },
+        "Room": {
+          "Success": {
+          }
+        }
+      },
+      "Updaters": {
+        "Post": {
+          "Success": {
+          }
+        },
+        "Playlist": {
+          "Success": {
+          }
+        },
+        "Level": {
+          "Success": {
+          }
+        },
+        "Skin": {
+          "Success": {
+          }
+        },
+        "Background": {
+          "Success": {
+          }
+        },
+        "Effect": {
+          "Success": {
+          }
+        },
+        "Particle": {
+          "Success": {
+          }
+        },
+        "Engine": {
+          "Success": {
+          }
+        },
+        "Replay": {
+          "Success": {
+          }
+        },
+        "Room": {
+          "Success": {
+          }
+        }
+      },
+      "CreateInfos": {
+        "Post": {
+        },
+        "Playlist": {
+        },
+        "Level": {
+        },
+        "Skin": {
+        },
+        "Background": {
+        },
+        "Effect": {
+        },
+        "Particle": {
+        },
+        "Engine": {
+        },
+        "Replay": {
+          "Info": {
+            "Title": {
+            },
+            "Subtitle": {
+            },
+            "Description": {
+            }
+          }
+        },
+        "Room": {
+        }
+      },
+      "Creators": {
+        "Post": {
+          "Success": {
+          }
+        },
+        "Playlist": {
+          "Success": {
+          }
+        },
+        "Level": {
+          "Success": {
+          }
+        },
+        "Skin": {
+          "Success": {
+          }
+        },
+        "Background": {
+          "Success": {
+          }
+        },
+        "Effect": {
+          "Success": {
+          }
+        },
+        "Particle": {
+          "Success": {
+          }
+        },
+        "Engine": {
+          "Success": {
+          }
+        },
+        "Replay": {
+          "Success": {
+          }
+        },
+        "Room": {
+          "Success": {
+          }
+        }
+      },
+      "Multiplayer": {
+        "ExitConfirmation": {
+        },
+        "Tip": {
+        },
+        "Play": {
+          "Options": {
+          },
+          "Selecting": {
+            "Description": {
+            },
+            "Actions": {
+            }
+          },
+          "Preparing": {
+            "Title": {
+            },
+            "Actions": {
+              "ConfigurationTip": {
+              },
+              "Start": {
+                "Confirmation": {
+                }
+              }
+            }
+          },
+          "Playing": {
+            "Actions": {
+              "Finish": {
+                "Confirmation": {
+                }
+              }
+            }
+          }
+        },
+        "Chat": {
+          "Overlay": {
+          },
+          "Text": {
+          },
+          "Quick": {
+            "Hello": {
+            },
+            "Glhf": {
+            },
+            "Gg": {
+            },
+            "Ns": {
+            },
+            "Ty": {
+            }
+          },
+          "System": {
+            "Connected": {
+            }
+          }
+        },
+        "Suggestions": {
+          "Actions": {
+          }
+        },
+        "Scoreboard": {
+          "Actions": {
+            "Reset": {
+              "Confirmation": {
+              }
+            }
+          },
+          "Result": {
+          }
+        },
+        "Room": {
+          "Players": {
+            "UpdateMasterConfirmation": {
+            },
+            "UpdateLeadConfirmation": {
+            },
+            "KickConfirmation": {
+            },
+            "Report": {
+            }
+          }
+        }
+      }
+    },
+    "Settings": {
+      "Title": "Cài đặt",
+      "Tip": {
+      },
+      "Graphics": {
+        "Title": "Đồ họa",
+        "TargetFps": {
+        },
+        "RenderMode": {
+          "Options": {
+          }
+        },
+        "RenderScale": {
+        },
+        "AntiAliasing": {
+        },
+        "GpuParticleSystem": {
+        },
+        "IgnoreNotch": {
+        }
+      },
+      "Audio": {
+        "Title": "Âm thanh",
+        "BgmVolume": {
+        },
+        "SfxVolume": {
+        },
+        "UIVolume": {
+        },
+        "AlwaysDecodeLevelBgm": {
+        },
+        "PreviewBgm": {
+          "Options": {
+          }
+        },
+        "LevelBgmQuality": {
+          "Options": {
+            "Low": "Thấp",
+            "Mid": "Trung",
+            "High": "Cao"
+          }
+        },
+        "PreviewBgmQuality": {
+          "Options": {
+            "Low": "Thấp",
+            "Mid": "Trung",
+            "High": "Cao"
+          }
+        }
+      },
+      "Gameplay": {
+        "UnpauseDelay": {
+        },
+        "FavoriteCollection": {
+        },
+        "MultiplayerPreload": {
+        },
+        "ReplayTitleTemplate": {
+        },
+        "ReplaySubtitleTemplate": {
+        },
+        "ReplayDescriptionTemplate": {
+        },
+        "ReplayCollection": {
+        },
+        "AutoSubmitReplay": {
+        },
+        "ShowReplayTouches": {
+        },
+        "OverwriteReplayOptions": {
+        },
+        "TouchAbnormalityDetection": {
+        }
+      },
+      "UI": {
+        "UILocalization": {
+        },
+        "ContentLocalization": {
+        },
+        "Theme": {
+        },
+        "Scale": {
+        },
+        "PerfectJudgmentColors": {
+        },
+        "GreatJudgmentColors": {
+        },
+        "GoodJudgmentColors": {
+        },
+        "MissJudgmentColors": {
+        },
+        "PositiveJudgmentErrorColors": {
+        },
+        "NegativeJudgmentErrorColors": {
+        },
+        "AllPerfectComboColors": {
+        },
+        "FullComboComboColors": {
+        },
+        "PassComboColors": {
+        },
+        "FailComboColors": {
+        },
+        "BoldComboNumber": {
+        },
+        "ShowZeroCombo": {
+        },
+        "TouchStyle": {
+        }
+      },
+      "Offsets": {
+        "Device": {
+        },
+        "DeviceAudioOffset": {
+        },
+        "DeviceInputOffset": {
+        }
+      },
+      "Repository": {
+        "AutoClean": {
+          "Options": {
+          }
+        },
+        "Manage": "Quản lý"
+      },
+      "Cache": {
+        "Title": "Cache",
+        "AlwaysRevalidate": {
+        },
+        "Manage": "Quản lý"
+      },
+      "Developer": {
+        "ShowFps": {
+        },
+        "FpsStyle": {
+        },
+        "ShowTouches": {
+        },
+        "DebugMode": {
+        },
+        "DebugLogStyle": {
+        },
+        "DiagnosticLogs": {
+        }
+      }
+    },
+    "ManageRepository": {
+      "Repository": {
+      },
+      "RepairRepository": {
+        "Success": {
+        }
+      },
+      "DeleteRepository": {
+        "Title": "Xóa kho lưu trữ",
+        "Delete": "Xóa",
+        "Confirmation": {
+        },
+        "Success": {
+        }
+      }
+    },
+    "ManageCache": {
+      "Cache": {
+      },
+      "ExpireCache": {
+        "ExpireConfirmation": {
+        },
+        "Success": {
+          "Title": "Đã hết hạn Cache"
+        }
+      },
+      "DeleteCache": {
+        "Title": "Đã xóa Cache",
+        "Description": "Xóa hết Cache sẽ khiến Sonolus phải tải lại các dữ liệu yêu cầu. Không khuyến khích.",
+        "Delete": "Xóa",
+        "DeleteConfirmation": {
+          "Description": "Bạn có muốn xóa hết Cache?"
+        },
+        "Success": {
+          "Title": "Đã xóa Cache"
+        }
+      }
+    },
+    "DiagnosticLogs": {
+    }
+  },
+  "Runtimes": {
+    "Pause": {
+      "Debug": {
+      }
+    },
+    "Control": {
+    },
+    "Level": {
+      "Play": {
+        "Routes": {
+          "Playlist": {
+          },
+          "Pause": {
+            "Snapshot": {
+              "Title": "Snapshot",
+              "Mark": "Đánh dấu"
+            }
+          },
+          "Result": {
+            "TouchAbnormality": {
+            },
+            "Options": {
+              "HasUsedPause": "Dừng",
+              "HasUsedSnapshot": "Snapshot"
+            },
+            "Replay": {
+              "Description": {
+              },
+              "Submit": {
+                "Confirmation": {
+                },
+                "Success": {
+                }
+              }
+            }
+          }
+        }
+      },
+      "Result": {
+        "Graphs": {
+          "Judgment": {
+          },
+          "Accuracy": {
+          },
+          "Bucket": {
+          }
+        }
+      }
+    },
+    "Effect": {
+      "Preview": {
+        "Routes": {
+          "Preview": {
+          }
+        }
+      }
+    }
+  }
+}
