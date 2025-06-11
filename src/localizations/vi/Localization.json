@@ -4,7 +4,29 @@
     "Title": "Tiếng Việt (Vietnamese)"
   },
   "Texts": {
+    "#STORAGE": "Bộ nhớ",
+    "#INQUIRY": "Yêu cầu",
+    "#BANNER": "Banner",
+    "#LEVEL": "Cấp độ",
+    "#SKIN": "Skin",
+    "#BACKGROUND": "Background",
+    "#EFFECT": "Âm thanh (SFX)",
+    "#PARTICLE": "Particle",
+    "#ENGINE": "Engine",
+    "#POST_THUMBNAIL": "Ảnh thu nhỏ",
+    "#PLAYLIST_THUMBNAIL": "Ảnh thu nhỏ",
+    "#LEVEL_COVER": "Ảnh bìa",
+    "#LEVEL_BGM": "Nhạc nền (BGM)",
+    "#SKIN_THUMBNAIL": "Ảnh thu nhỏ",
+    "#BACKGROUND_THUMBNAIL": "Ảnh thu nhỏ",
+    "#EFFECT_THUMBNAIL": "Ảnh thu nhỏ",
+    "#PARTICLE_THUMBNAIL": "Ảnh thu nhỏ",
+    "#ENGINE_THUMBNAIL": "Ảnh thu nhỏ",
+    "#ENGINE_ROM": "ROM",
+    "#ROOM_COVER": "Ảnh bìa",
+    "#ROOM_BGM": "Nhạc nền (BGM)",
     "#GRADE": "Hạng",
+    "#ARCADE_SCORE": "Điểm Arcade",
     "#ACCURACY_SCORE": "Điểm chính xác",
     "#COMBO": "Combo",
     "#PERFECT": "Perfect",
@@ -13,24 +35,273 @@
     "#MISS": "Miss",
     "#KEYWORDS": "Từ khoá",
     "#NAME": "Tên",
+    "#RATING": "Mức độ",
     "#RATING_MINIMUM": "Mức độ tối thiểu",
     "#RATING_MAXIMUM": "Mức độ tối đa",
+    "#TITLE": "Tiêu đề",
+    "#SUBTITLE": "Phụ đề",
     "#ARTISTS": "Nghệ sĩ",
+    "#TIME": "Thời gian",
     "#AUTHOR": "Tác giả",
+    "#DESCRIPTION": "Mô tả",
     "#GENRE": "Thể loại",
+    "#TYPE": "Loại",
+    "#CATEGORY": "Danh mục",
     "#LANGUAGE": "Ngôn ngữ",
     "#DIFFICULTY": "Độ khó",
+    "#LENGTH": "Độ dài",
+    "#LENGTH_MINIMUM": "Độ dài tối thiểu",
+    "#LENGTH_MAXIMUM": "Độ dài tối đa",
+    "#ADDITIONAL_INFORMATION": "Thông tin bổ sung",
+    "#REGION": "Khu vực",
+    "#PERMISSION": "Quyền",
+    "#USER": "Người dùng",
     "#SPEED": "Tốc độ level",
     "#MIRROR": "Phản chiếu level",
-    "#STAGE": "Stage"
+    "#RANDOM": "Ngẫu nhiên",
+    "#HIDDEN": "Ẩn",
+    "#JUDGMENT_STRICT": "Phán xét nghiêm ngặt",
+    "#JUDGMENT_LOOSE": "Phán xét lỏng lẻo",
+    "#EFFECT_AUTO": "Âm thanh SFX tự động",
+    "#STAGE": "Stage",
+    "#STAGE_POSITION": "Vị trí Stage",
+    "#STAGE_SIZE": "Kích thước Stage",
+    "#STAGE_ROTATION": "Xoay Stage",
+    "#STAGE_DIRECTION": "Hướng Stage",
+    "#STAGE_ALPHA": "Độ trong suốt của Stage",
+    "#STAGE_ANIMATION": "Hoạt ảnh Stage",
+    "#STAGE_TILT": "Nghiêng Stage",
+    "#STAGE_COVER_VERTICAL": "Bìa Stage dọc",
+    "#STAGE_COVER_HORIZONTAL": "Bìa Stage ngang",
+    "#STAGE_COVER_ALPHA": "Độ trong suốt của Bìa Stage",
+    "#STAGE_ASPECTRATIO_LOCK": "Khoá tỷ lệ khung hình Stage",
+    "#STAGE_EFFECT": "Hiệu ứng Stage",
+    "#STAGE_EFFECT_POSITION": "Vị trí hiệu ứng Stage",
+    "#STAGE_EFFECT_SIZE": "Kích thước hiệu ứng Stage",
+    "#STAGE_EFFECT_ROTATION": "Hiệu ứng Stage xoay",
+    "#STAGE_EFFECT_DIRECTION": "Hiệu ứng Stage",
+    "#STAGE_EFFECT_ALPHA": "Hiệu ứng Stage trong suốt",
+    "#LANE": "Lane",
+    "#LANE_POSITION": "Vị trí Lane",
+    "#LANE_SIZE": "Kích thước Lane",
+    "#LANE_ROTATION": "Xoay Lane",
+    "#LANE_DIRECTION": "Hướng Lane",
+    "#LANE_ALPHA": "Độ trong suốt Lane",
+    "#LANE_ANIMATION": "Hoạt ảnh Lane",
+    "#LANE_EFFECT": "Hiệu ứng Lane",
+    "#LANE_EFFECT_POSITION": "Vị trí hiệu ứng Lane",
+    "#LANE_EFFECT_SIZE": "Kích thước hiệu ứng Lane",
+    "#LANE_EFFECT_ROTATION": "Hiệu ứng xoay Lane",
+    "#LANE_EFFECT_DIRECTION": "Hướng hiệu ứng Lane",
+    "#LANE_EFFECT_ALPHA": "Hiệu ứng Lane trong suốt",
+    "#JUDGELINE": "Judgment Line",
+    "#JUDGELINE_POSITION": "Vị trí Judgment Line",
+    "#JUDGELINE_SIZE": "Kích thước Judgment Line",
+    "#JUDGELINE_ROTATION": "Xoay Judgment Line",
+    "#JUDGELINE_DIRECTION": "Hướng Judgment Line",
+    "#JUDGELINE_ALPHA": "Độ trong suốt Judgment Line",
+    "#JUDGELINE_ANIMATION": "Hoạt ảnh Judgment Line",
+    "#JUDGELINE_EFFECT": "Hiệu ứng Judgment Line",
+    "#JUDGELINE_EFFECT_POSITION": "Vị trí hiệu ứng Judgment Line",
+    "#JUDGELINE_EFFECT_SIZE": "Kích thước hiệu ứng Judgment Line",
+    "#JUDGELINE_EFFECT_ROTATION": "Xoay hiệu ứng Judgment Line",
+    "#JUDGELINE_EFFECT_DIRECTION": "Hiệu ứng Judgment Line",
+    "#JUDGELINE_EFFECT_ALPHA": "Hiệu ứng Judgment Line trong suốt",
+    "#SLOT": "Slot",
+    "#SLOT_POSITION": "Vị trí Slot",
+    "#SLOT_SIZE": "Kích thước Slot",
+    "#SLOT_ROTATION": "Xoay Slot",
+    "#SLOT_DIRECTION": "Hướng Slot",
+    "#SLOT_ALPHA": "Độ trong suốt Slot",
+    "#SLOT_ANIMATION": "Hoạt ảnh Slot",
+    "#SLOT_EFFECT": "Hiệu ứng Slot",
+    "#SLOT_EFFECT_POSITION": "Vị trí hiệu ứng Slot",
+    "#SLOT_EFFECT_SIZE": "Kích thước hiệu ứng Slot",
+    "#SLOT_EFFECT_ROTATION": "Hiệu ứng xoay Slot",
+    "#SLOT_EFFECT_DIRECTION": "Hướng hiệu ứng Slot",
+    "#SLOT_EFFECT_ALPHA": "Độ trong suốt của hiệu ứng Slot",
+    "#NOTE": "Nốt",
+    "#NOTE_SPEED": "Tốc độ Nốt",
+    "#NOTE_SPEED_RANDOM": "Tốc độ Nốt ngẫu nhiên",
+    "#NOTE_POSITION": "Vị trí Nốt",
+    "#NOTE_SIZE": "Kích thước Nốt",
+    "#NOTE_ROTATION": "Xoay Nốt",
+    "#NOTE_DIRECTION": "Hướng Nốt",
+    "#NOTE_COLOR": "Màu sắc Nốt",
+    "#NOTE_ALPHA": "Độ trong suốt Nốt",
+    "#NOTE_ANIMATION": "Hoạt ảnh Nốt",
+    "#NOTE_EFFECT": "Hiệu ứng Nốt",
+    "#NOTE_EFFECT_POSITION": "Vị trí hiệu ứng Nốt",
+    "#NOTE_EFFECT_SIZE": "Kích thước hiệu ứng Nốt",
+    "#NOTE_EFFECT_ROTATION": "Hiệu ứng Xoay Nốt",
+    "#NOTE_EFFECT_DIRECTION": "Hướng hiệu ứng Nốt",
+    "#NOTE_EFFECT_COLOR": "Hiệu ứng Màu sắc Nốt",
+    "#NOTE_EFFECT_ALPHA": "Hiệu ứng Độ trong suốt Nốt",
+    "#MARKER": "Marker",
+    "#MARKER_POSITION": "Vị trí Marker",
+    "#MARKER_SIZE": "Kích thước Marker",
+    "#MARKER_ROTATION": "Xoay Marker ",
+    "#MARKER_DIRECTION": "Hướng Marker",
+    "#MARKER_COLOR": "Màu sắc Marker",
+    "#MARKER_ALPHA": "Độ trong suốt Marker",
+    "#MARKER_ANIMATION": "Hoạt ảnh Marker",
+    "#CONNECTOR": "Connector",
+    "#CONNECTOR_POSITION": "Vị trí Connector",
+    "#CONNECTOR_SIZE": "Kích thước Connector",
+    "#CONNECTOR_ROTATION": "Xoay Connector",
+    "#CONNECTOR_DIRECTION": "Hướng Connector",
+    "#CONNECTOR_COLOR": "Màu sắc Connector",
+    "#CONNECTOR_ALPHA": "Độ trong suốt Connector",
+    "#CONNECTOR_ANIMATION": "Hoạt ảnh Connector",
+    "#SIMLINE": "Simultaneous Line",
+    "#SIMLINE_POSITION": "Vị trí Simultaneous Line",
+    "#SIMLINE_SIZE": "Kích thước Simultaneous Line",
+    "#SIMLINE_ROTATION": "Xoay Simultaneous Line",
+    "#SIMLINE_DIRECTION": "Hướng Simultaneous Line",
+    "#SIMLINE_COLOR": "Màu sắc Simultaneous Line",
+    "#SIMLINE_ALPHA": "Độ trong suốt Simultaneous Line",
+    "#SIMLINE_ANIMATION": "Hoạt ảnh Simultaneous Line",
+    "#PREVIEW_BEAT": "Xem trước nhịp",
+    "#PREVIEW_MEASURE": "Xem trước ô nhịp",
+    "#MID": "Trung bình",
+    "#SMALL": "Nhỏ",
+    "#LEFT": "Trái",
+    "#UP": "Lên",
+    "#FRONT": "Trước",
+    "#BACK": "Sau",
+    "#CENTER": "Giữa",
+    "#TOP": "Trên",
+    "#BOTTOM": "Dưới",
+    "#TOP_LEFT": "Trên cùng bên trái",
+    "#TOP_CENTER": "Trên cùng giữa",
+    "#TOP_RIGHT": "Trên cùng bên phải",
+    "#CENTER_RIGHT": "Chính giữa bên phải",
+    "#BOTTOM_CENTER": "Dưới cùng giữa",
+    "#BOTTOM_RIGHT": "Dưới cùng bên phải",
+    "#FORWARD": "Tiến",
+    "#BACKWARD": "Lùi",
+    "#NEUTRAL": "Trung tính",
+    "#GREEN": "Xanh lá",
+    "#BLUE": "Xanh dương",
+    "#CYAN": "Xanh lam",
+    "#SIMPLE": "Simple",
+    "#EASY": "Easy",
+    "#NORMAL": "Normal",
+    "#HARD": "Hard",
+    "#EXPERT": "Expert",
+    "#MASTER": "Master",
+    "#PRO": "Pro",
+    "#RATING_MINIMUM_PLACEHOLDER": "Nhập đánh giá tối thiểu...",
+    "#RATING_MAXIMUM_PLACEHOLDER": "Nhập đánh giá tối đa...",
+    "#TYPE_PLACEHOLDER": "Nhập thể loại...",
+    "#DIFFICULTY_PLACEHOLDER": "Nhập độ khó...",
+    "#LENGTH_PLACEHOLDER": "Nhập độ dài...",
+    "#REGION_PLACEHOLDER": "Nhập khu vực...",
+    "#REPLY_PLACEHOLDER": "Nhập phản hồi...",
+    "#MILLISECOND_UNIT": "{0} mili giây",
+    "#MILLISECOND_PAST": "{0} ms trước",
+    "#MILLISECOND_FUTURE": "Trong {0} ms",
+    "#TAP": "Chạm",
+    "#TAP_HOLD": "Chạm và giữ",
+    "#TAP_RELEASE": "Chạm và thả",
+    "#TAP_FLICK": "Chạm và vuốt",
+    "#RELEASE": "Thả",
+    "#FLICK": "Vuốt",
+    "#SLIDE": "Trượt",
+    "#AVOID": "Tránh",
+    "#JIGGLE": "Rung lắc",
+    "#RECOMMENDED": "Đề xuất",
+    "#HELP": "Trợ giúp",
+    "#ADVANCED": "Nâng cao",
+    "#RELATED": "Liên quan",
+    "#SAME_CATEGORY": "Cùng danh mục",
+    "#SAME_VERSION": "Cùng phiên bản",
+    "#OTHER_AUTHORS": "Tác giả khác",
+    "#OTHER_CATEGORIES": "Danh mục khác",
+    "#OTHER_DIFFICULTIES": "Độ khó khác",
+    "#OTHER_VERSIONS": "Phiên bản khác",
+    "#PUBLIC": "Công khai",
+    "#POP": "Pop",
+    "#ROCK": "Rock",
+    "#HIPHOP": "Hip Hop",
+    "#COUNTRY": "Đồng quê",
+    "#METAL": "Metal",
+    "#INDIE": "Indie",
+    "#ANIME": "Anime",
+    "#REMIX": "Remix",
+    "#SPAMMING": "Spam",
+    "#VERBAL_ABUSE": "Lạm dụng lời nói",
+    "#DNF": "Không hoàn thành",
+    "#MATCH_SCORING": "Tính điểm trận đấu",
+    "#MATCH_TIEBREAKER": "Trận đấu Hoà",
+    "#MATCH_COUNT": "Số trận đấu",
+    "#ROUND_SCORING": "Tính điểm vòng đấu",
+    "#ROUND_TIEBREAKER": "Vòng đấu Hoà",
+    "#ROUND_COUNT": "Số vòng đấu",
+    "#ROUND_LIMIT": "Giới hạn vòng đấu",
+    "#TEAM_SCORING": "Tính điểm đội",
+    "#TEAM_TIEBREAKER": "Đội Hoà",
+    "#TEAM_COUNT": "Số đội",
+    "#QUALIFIED": "Đủ điều kiện",
+    "#SPECTATOR": "Khán giả",
+    "#ELIMINATED": "Bị loại",
+    "#TEAM_BLUE": "Đội Xanh dương",
+    "#REPLY": "Trả lời",
+    "#REVIEW": "Đánh giá",
+    "#REVIEWING": "Đang đánh giá",
+    "#REVIEWED": "Đã đánh giá",
+    "#VERIFYING": "Đang xác minh",
+    "#SUBMIT": "Gửi",
+    "#SUBMITTING": "Đang gửi",
+    "#SUBMITTED": "Đã gửi",
+    "#EDIT": "Chỉnh sửa",
+    "#EDITING": "Đang chỉnh sửa",
+    "#LIKE": "Thích",
+    "#DISLIKED": "Đã không thích",
+    "#BOOKMARK": "Đánh dấu",
+    "#DELETING": "Đang xóa bỏ",
+    "#REMOVE": "Xoá",
+    "#REMOVING": "Đang xoá",
+    "#REMOVED": "Đã xoá",
+    "#RESTORING": "Đang khôi phục",
+    "#CANCEL": "Hủy",
+    "#DECREASE": "Giảm",
+    "#DOWNVOTE": "Bỏ phiếu",
+    "#DOWNVOTED": "Đã bỏ phiếu",
+    "#AGREED": "Đã đồng ý",
+    "#DISAGREED": "Đã không đồng ý",
+    "#UNPIN": "Bỏ ghim",
+    "#UNPINNED": "Đã bỏ ghim",
+    "#FOLLOW": "Theo dõi",
+    "#FOLLOWING": "Đang theo dõi",
+    "#SUBSCRIBE": "Đăng ký",
+    "#SUBSCRIBING": "Đang đăng ký",
+    "#PUBLISHING": "Đang xuất bản",
+    "#SHOW": "Hiện",
+    "#HIDE": "Ẩn",
+    "#ALLOWED": "Đã cho phép",
+    "#DISALLOWED": "Đã không cho phép",
+    "#APPROVED": "Đã chấp thuận",
+    "#DENIED": "Đã từ chối",
+    "#REJECTED": "Đã từ chối",
+    "#STAR": "Sao"
   },
   "Common": {
     "Loading": "Đang tải...",
+    "Help": "Trợ giúp",
+    "More": "Thêm",
+    "On": "ON",
+    "Off": "OFF",
     "Select": "Chọn",
+    "Reset": "Đặt lại",
+    "Edit": "Chỉnh sửa",
     "View": "Xem",
+    "Create": "Tạo",
+    "Submit": "Gửi",
     "Cancel": "Hủy",
     "Confirm": "Xác nhận",
     "Retry": "Thử lại",
+    "Ok": "Ok",
     "Tip": {
     },
     "Error": {
@@ -43,14 +314,18 @@
     "Add": "Thêm",
     "Import": "Nhập",
     "Search": "Tìm",
+    "PullToRefresh": "Kéo xuống để tải lại",
     "Save": "Lưu",
     "Share": "Chia sẻ",
+    "Export": "Xuất",
     "Update": "Cập nhật",
     "Delete": "Xóa",
     "CopySuccess": {
     },
+    "Judgment": "Phán xét",
     "Accuracy": "Độ chính xác",
     "Grade": "Cấp",
+    "ArcadeScore": "Điểm số Arcade",
     "AccuracyScore": "Mức độ chính xác",
     "Combo": "Combo",
     "Perfect": "Perfect",
@@ -66,24 +341,51 @@
       "Calibrate": "Hiệu chỉnh"
     },
     "MultiField": {
+      "AllSelected": "Đã chọn tất cả",
+      "SelectNone": "Không chọn"
     },
     "ItemFields": {
       "NoSelected": {
+        "Background": "Không có background nào được chọn",
+        "Particle": "Không có Particle nào được chọn"
       },
       "NoSource": {
+        "Post": "Không thể chọn bài đăng này vì nó không có ở trong nguồn máy chủ.\n\nVui lòng sử dụng bài đăng khác hoặc liên hệ với tác giả bài đăng để báo cáo sự cố.",
+        "Playlist": "Không thể chọn danh sách phát này vì nó không có ở trong nguồn máy chủ.\n\nVui lòng sử dụng danh sách phát khác hoặc liên hệ với tác giả danh sách phát để báo cáo sự cố.",
+        "Level": "Không thể chọn cấp độ này vì nó không có ở trong nguồn máy chủ.\n\nVui lòng sử dụng cấp độ khác hoặc liên hệ với tác giả cấp độ để báo cáo sự cố.",
+        "Skin": "Không thể chọn skin này vì nó không có ở trong nguồn máy chủ.\n\nVui lòng sử dụng giao diện khác hoặc liên hệ với tác giả giao diện để báo cáo sự cố.",
+        "Background": "Không thể chọn background này vì nó không có ở trong nguồn máy chủ.\n\nVui lòng sử dụng hình nền khác hoặc liên hệ với tác giả hình nền để báo cáo sự cố.",
+        "Effect": "Không thể chọn SFX này vì nó không có ở trong nguồn máy chủ.\n\nVui lòng sử dụng SFX khác hoặc liên hệ với tác giả SFX để báo cáo sự cố.",
+        "Particle": "Không thể chọn Particle này vì nó không có ở trong nguồn máy chủ.\n\nVui lòng sử dụng một Particle khác hoặc liên hệ với tác giả Particle để báo cáo sự cố.",
+        "Engine": "Không thể chọn công cụ này vì nó không có ở trong nguồn máy chủ.\n\nVui lòng sử dụng một công cụ khác hoặc liên hệ với tác giả công cụ để báo cáo sự cố.",
+        "Replay": "Không thể chọn bản phát lại này vì nó không có ở trong nguồn máy chủ.\n\nVui lòng sử dụng bản phát lại khác hoặc liên hệ với tác giả bản phát lại để báo cáo sự cố.",
+        "Room": "Không thể chọn phòng này vì không có ở trong nguồn máy chủ.\n\nVui lòng sử dụng phòng khác hoặc liên hệ với tác giả phòng để báo cáo sự cố."
       },
       "NoOtherServers": {
+        "Skin": "Không thể chọn skin này vì nó đến từ một máy chủ khác.\n\nVui lòng sử dụng giao diện khác từ cùng một máy chủ.",
+        "Background": "Không thể chọn background này vì nó đến từ một máy chủ khác.\n\nVui lòng sử dụng một hình nền khác từ cùng một máy chủ.",
+        "Particle": "Không thể chọn Particle này vì nó đến từ một máy chủ khác.\n\nVui lòng sử dụng một Particle khác từ cùng một máy chủ."
       }
     },
     "FileField": {
     },
     "PullToLoad": {
+      "None": "Chẳng có gì để tải",
       "More": "Kéo để tải thêm"
     },
     "UI": {
       "Metric": {
+        "Arcade": "Điểm số Arcade",
+        "Accuracy": "Độ chính xác",
+        "Life": "Máu (HP)",
+        "GreatGoodMiss": "Tuyệt vời + Tốt + Trượt",
+        "GreatGoodMissPercentage": "Tuyệt vời + Tốt + Trượt %",
+        "Miss": "Trượt",
+        "MissPercentage": "Trượt %",
+        "ErrorHeatmap": "Lỗi bản hiện thị máu"
       },
       "JudgmentErrorStyle": {
+        "None": "Không có",
         "Plus": "+ / -",
         "Minus": "- / +",
         "ArrowUp": "↑ / ↓",
@@ -97,10 +399,14 @@
       },
       "JudgmentErrorPlacement": {
         "Left": "Trái",
-        "Right": "Phải"
+        "Right": "Phải",
+        "Top": "Trên",
+        "Bottom": "Dưới",
+        "Center": "Giữa"
       },
       "Visibility": "Hiển thị",
       "Animation": "Hoạt ảnh",
+      "Tween": "Chuyển động",
       "Ease": {
         "Linear": "Linear",
         "InSine": "Sine (In)",
@@ -138,11 +444,15 @@
         "InElastic": "Elastic (In)",
         "OutElastic": "Elastic (Out)",
         "InOutElastic": "Elastic (In Out)",
-        "OutInElastic": "Elastic (Out In)"
+        "OutInElastic": "Elastic (Out In)",
+        "None": "Trống"
       }
     },
     "AutoExit": {
       "Options": {
+        "Pass": "Vượt Qua",
+        "FullCombo": "Full Combo",
+        "AllPerfect": "All Perfect"
       }
     },
     "PermissionError": {
@@ -153,6 +463,7 @@
     "Light": "Sáng"
   },
   "Web": {
+    "InternetConnectionError": "Không có kết nối internet.\nVui lòng kiểm tra kết nối internet của bạn hoặc kiểm tra quyền cho phép Sonolus truy cập internet và thử lại."
   },
   "Clients": {
     "Content": {
@@ -215,6 +526,7 @@
       "Authenticate": {
       },
       "Logout": {
+        "Loading": "Đang đăng xuất...",
         "Error": "Không thể đăng xuất.\n\nVui lòng kiểm tra kết nối mạng rồi thử lại.",
         "Success": {
           "Title": "Đã đăng xuất"
@@ -240,10 +552,12 @@
       },
       "Multiplayer": {
         "NotLoggedInError": {
+          "Description": "Chơi nhiều người yêu cầu đăng nhập nhưng bạn chưa đăng nhập bằng tài khoản Sonolus.\n\nVui lòng đăng nhập bằng tài khoản Sonolus của bạn trước và thử lại."
         },
         "CreateRoom": {
         },
         "JoinRoom": {
+          "Loading": "Đang tham gia phòng..."
         }
       },
       "Server": {
@@ -286,6 +600,8 @@
         "Compatibility": {
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ của bài viết...",
+          "Error": "Không tải được ảnh thu nhỏ bài đăng của \"{0}\"."
         }
       },
       "Playlist": {
@@ -322,6 +638,8 @@
         "Compatibility": {
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ danh sách phát...",
+          "Error": "Không tải được ảnh thu nhỏ danh sách phát của \"{0}\"."
         }
       },
       "Level": {
@@ -339,35 +657,54 @@
           "Info": {
           },
           "NotSupported": {
+            "Title": "Gửi"
           },
           "Submit": {
+            "Loading": "Đang gửi kết quả màn chơi...",
+            "Error": "Không thể gửi kết quả màn chơi tới \"{0}\"."
           }
         },
         "Community": {
           "Info": {
+            "Loading": "Đang tải thông tin cộng đồng màn chơi...",
+            "Error": "Không tải được thông tin cộng đồng màn chơi \"{0}\"."
           },
           "Submit": {
+            "Loading": "Đang gửi tới cộng đồng màn chơi...",
+            "Error": "Không thể gửi tới cộng đồng màn chơi \"{0}\"."
           },
           "Comment": {
             "List": {
+              "Loading": "Đang tải bình luận màn chơi..."
             }
           }
         },
         "Leaderboard": {
           "Details": {
+            "Loading": "Đang tải thông tin chi tiết về bảng xếp hạng màn chơi...",
+            "Error": "Không tải được thông tin chi tiết về bảng xếp hạng màn chơi của \"{0}\"."
           },
           "Record": {
             "List": {
+              "Loading": "Đang tải bản ghi màn chơi...",
+              "Error": "Không tải được bản ghi màn chơi ở trang {0}."
             },
             "Details": {
+              "Loading": "Đang tải thông tin chi tiết về bản ghi màn chơi...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi màn chơi của \"{0}\"."
             }
           }
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra mức độ có  tương thích hay không...",
+          "Error": "Mức \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng sử dụng mức độ khác hoặc liên hệ với chủ sở hữu máy chủ để báo cáo sự cố."
         },
         "Cover": {
+          "Loading": "Đang tải ảnh bìa cấp độ..."
         },
         "Bgm": {
+          "Loading": "Đang tải nhạc nền (BGM) màn chơi...",
+          "Error": "Không tải được nhạc nền (BGM) màn chơi của \"{0}\"."
         },
         "Preview": {
         },
@@ -376,22 +713,34 @@
       },
       "Skin": {
         "Info": {
+          "Loading": "Đang tải thông tin skin...",
+          "Error": "Không tải được thông tin skin của \"{0}\"."
         },
         "Create": {
+          "Loading": "Đang tạo skin...",
+          "Error": "Không tạo được skin trong \"{0}\"."
         },
         "List": {
+          "Loading": "Đang tải skin...",
+          "Error": "Không tải được skin ở trang {0}."
         },
         "Details": {
+          "Loading": "Đang tải thông tin chi tiết về skin...",
+          "Error": "Không tải được thông tin chi tiết về skin của \"{0}\"."
         },
         "Submit": {
+          "Loading": "Đang gửi skin lên..."
         },
         "Community": {
           "Info": {
           },
           "Submit": {
+            "Loading": "Đang gửi tới cộng đồng skin..."
           },
           "Comment": {
             "List": {
+              "Loading": "Đang tải bình luận về skin...",
+              "Error": "Không tải được bình luận về skin ở trang {0}."
             }
           }
         },
@@ -400,213 +749,371 @@
           },
           "Record": {
             "List": {
+              "Loading": "Đang tải hồ sơ skin...",
+              "Error": "Không tải được hồ sơ skin ở trang {0}."
             },
             "Details": {
+              "Loading": "Đang tải thông tin chi tiết về hồ sơ skin...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi skin của \"{0}\"."
             }
           }
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra khả năng tương thích của skin...",
+          "Error": "Skin \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng sử dụng skin khác hoặc liên hệ với chủ sở hữu máy chủ để báo cáo sự cố."
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ của skin...",
+          "Error": "Không tải được ảnh thu nhỏ của \"{0}\"."
         },
         "Data": {
+          "Loading": "Đang tải dữ liệu skin...",
+          "Error": "Không tải được dữ liệu skin của \"{0}\"."
         },
         "Texture": {
+          "Loading": "Đang tải kết cấu skin...",
+          "Error": "Không tải được kết cấu skin của \"{0}\"."
         }
       },
       "Background": {
         "Info": {
+          "Loading": "Đang tải thông tin background...",
+          "Error": "Không tải được thông tin background của \"{0}\"."
         },
         "Create": {
+          "Loading": "Đang tạo background...",
+          "Error": "Không tạo được background trong \"{0}\"."
         },
         "List": {
+          "Loading": "Đang tải background...",
+          "Error": "Không tải được background ở trang {0}."
         },
         "Details": {
+          "Loading": "Đang tải thông tin chi tiết background...",
+          "Error": "Không tải được thông tin chi tiết background về \"{0}\"."
         },
         "Submit": {
+          "Loading": "Đang gửi đến background...",
+          "Error": "Không thể gửi tới background \"{0}\"."
         },
         "Community": {
           "Info": {
+            "Loading": "Đang tải thông tin cộng đồng background...",
+            "Error": "Không tải được thông tin cộng đồng background của \"{0}\"."
           },
           "Submit": {
+            "Loading": "Đang gửi tới cộng đồng background...",
+            "Error": "Không thể gửi tới cộng đồng background của \"{0}\"."
           },
           "Comment": {
             "List": {
+              "Loading": "Đang tải bình luận background...",
+              "Error": "Không tải được bình luận background ở trang {0}."
             }
           }
         },
         "Leaderboard": {
           "Details": {
+            "Loading": "Đang tải thông tin chi tiết về bảng xếp hạng background...",
+            "Error": "Không tải được thông tin chi tiết về bảng xếp hạng background của \"{0}\"."
           },
           "Record": {
             "List": {
+              "Loading": "Đang tải hồ sơ background...",
+              "Error": "Không tải được hồ sơ background ở trang {0}."
             },
             "Details": {
+              "Loading": "Đang tải thông tin chi tiết về hồ sơ background...",
+              "Error": "Không tải được thông tin chi tiết về hồ sơ background của \"{0}\"."
             }
           }
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra khả năng tương thích của background...",
+          "Error": "Background \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng sử dụng background khác hoặc liên hệ với chủ sở hữu máy chủ để báo cáo sự cố."
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ background...",
+          "Error": "Không tải được ảnh thu nhỏ background của \"{0}\"."
         },
         "Data": {
+          "Loading": "Đang tải dữ liệu background...",
+          "Error": "Không tải được dữ liệu background của \"{0}\"."
         },
         "Image": {
+          "Loading": "Đang tải ảnh background...",
+          "Error": "Không tải được ảnh background của \"{0}\"."
         },
         "Configuration": {
+          "Loading": "Đang tải cấu hình background...",
+          "Error": "Không tải được cấu hình background của \"{0}\"."
         }
       },
       "Effect": {
         "Info": {
+          "Loading": "Đang tải thông tin âm thanh (SFX)...",
+          "Error": "Không tải được thông tin âm thanh (SFX) của \"{0}\"."
         },
         "Create": {
+          "Loading": "Đang tạo âm thanh (SFX)...",
+          "Error": "Không tạo được âm thanh (SFX) trong \"{0}\"."
         },
         "List": {
+          "Loading": "Đang tải âm thanh (SFX)...",
+          "Error": "Không tải được âm thanh (SFX) ở trang {0}."
         },
         "Details": {
+          "Loading": "Đang tải chi tiết âm thanh (SFX)...",
+          "Error": "Không tải được chi tiết  âm thanh (SFX) của \"{0}\"."
         },
         "Submit": {
+          "Loading": "Đang gửi tới âm thanh (SFX)...",
+          "Error": "Không thể gửi tới âm thanh (SFX) \"{0}\"."
         },
         "Community": {
           "Info": {
+            "Loading": "Đang tải thông tin cộng đồng âm thanh (SFX)...",
+            "Error": "Không tải được thông tin cộng đồng âm thanh (SFX) của \"{0}\"."
           },
           "Submit": {
+            "Loading": "Đang gửi tới cộng đồng âm thanh (SFX)...",
+            "Error": "Không thể gửi tới cộng đồng âm thanh (SFX) của \"{0}\"."
           },
           "Comment": {
             "List": {
+              "Loading": "Đang tải bình luận âm thanh (SFX)...",
+              "Error": "Không tải được bình luận âm thanh (SFX) ở trang {0}."
             }
           }
         },
         "Leaderboard": {
           "Details": {
+            "Loading": "Đang tải thông tin chi tiết về bảng xếp hạng âm thanh (SFX)...",
+            "Error": "Không tải được thông tin chi tiết về bảng xếp hạng âm thanh (SFX) của \"{0}\"."
           },
           "Record": {
             "List": {
+              "Loading": "Đang tải bản ghi âm thanh (SFX)...",
+              "Error": "Không tải được bản ghi âm thanh (SFX) ở trang {0}."
             },
             "Details": {
+              "Loading": "Đang tải chi tiết bản ghi âm thanh (SFX)...",
+              "Error": "Không tải được chi tiết bản ghi âm thanh (SFX) của \"{0}\"."
             }
           }
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra khả năng tương thích của âm thanh (SFX)...",
+          "Error": "Âm thanh (SFX) \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng sử dụng âm thanh (SFX) khác hoặc liên hệ với chủ sở hữu máy chủ để báo cáo sự cố."
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ âm thanh (SFX)...",
+          "Error": "Không tải được ảnh thu nhỏ âm thanh (SFX) của \"{0}\"."
         },
         "Data": {
+          "Loading": "Đang tải dữ liệu âm thanh (SFX)...",
+          "Error": "Không tải được dữ liệu âm thanh (SFX) của \"{0}\"."
         },
         "Audio": {
+          "Loading": "Đang tải âm thanh (SFX)...",
+          "Error": "Không tải được âm thanh (SFX) của \"{0}\"."
         }
       },
       "Particle": {
         "Info": {
+          "Loading": "Đang tải thông tin về Particle...",
+          "Error": "Không tải được thông tin Particle của \"{0}\"."
         },
         "Create": {
+          "Loading": "Đang tạo Particle...",
+          "Error": "Không tạo được Particle trong \"{0}\"."
         },
         "List": {
+          "Loading": "Đang tải các Particle...",
+          "Error": "Không tải được các Particle ở trang {0}."
         },
         "Details": {
+          "Loading": "Đang tải thông tin chi tiết về Particle...",
+          "Error": "Không tải được thông tin chi tiết về Particle của \"{0}\"."
         },
         "Submit": {
+          "Loading": "Đang gửi đến Particle...",
+          "Error": "Không thể gửi tới Particle \"{0}\"."
         },
         "Community": {
           "Info": {
+            "Loading": "Đang tải thông tin cộng đồng Particle...",
+            "Error": "Không tải được thông tin cộng đồng Particle của \"{0}\"."
           },
           "Submit": {
+            "Loading": "Gửi tới cộng đồng Particle...",
+            "Error": "Không thể gửi tới cộng đồng Particle của \"{0}\"."
           },
           "Comment": {
             "List": {
+              "Loading": "Đang tải bình luận Particle...",
+              "Error": "Không tải được bình luận Particle ở trang {0}."
             }
           }
         },
         "Leaderboard": {
           "Details": {
+            "Loading": "Đang tải thông tin chi tiết về bảng xếp hạng Particle...",
+            "Error": "Không tải được thông tin chi tiết về bảng xếp hạng Particle của \"{0}\"."
           },
           "Record": {
             "List": {
+              "Loading": "Đang tải bản ghi Particle...",
+              "Error": "Không tải được bản ghi Particle ở trang {0}."
             },
             "Details": {
+              "Loading": "Đang tải thông tin chi tiết về bản ghi Particle...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi Particle của \"{0}\"."
             }
           }
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra khả năng tương thích của Particle...",
+          "Error": "Particle \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng sử dụng Particle khác hoặc liên hệ với chủ sở hữu máy chủ để báo cáo sự cố."
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ của Particle...",
+          "Error": "Không tải được ảnh thu nhỏ Particle của \"{0}\"."
         },
         "Data": {
+          "Loading": "Đang tải dữ liệu Particle...",
+          "Error": "Không tải được dữ liệu Particle của \"{0}\"."
         },
         "Texture": {
+          "Loading": "Đang tải kết cấu Particle...",
+          "Error": "Không tải được kết cấu Particle của \"{0}\"."
         }
       },
       "Engine": {
         "Info": {
+          "Loading": "Đang tải thông tin về engine...",
+          "Error": "Không tải được thông tin về engine của \"{0}\"."
         },
         "Create": {
+          "Loading": "Đang tạo engine...",
+          "Error": "Không thể tạo engine trong \"{0}\"."
         },
         "List": {
+          "Loading": "Đang tải engine...",
+          "Error": "Không tải được engine ở trang {0}."
         },
         "Details": {
+          "Loading": "Đang tải thông tin chi tiết về engine...",
+          "Error": "Không tải được thông tin chi tiết về engine của \"{0}\"."
         },
         "Submit": {
+          "Loading": "Đang gửi tới engine...",
+          "Error": "Không thể gửi tới engine \"{0}\"."
         },
         "Community": {
           "Info": {
+            "Loading": "Đang tải thông tin cộng đồng engine...",
+            "Error": "Không tải được thông tin cộng đồng engine của \"{0}\"."
           },
           "Submit": {
+            "Loading": "Đang gửi tới cộng đồng engine...",
+            "Error": "Không thể gửi tới cộng đồng engine của \"{0}\"."
           },
           "Comment": {
             "List": {
+              "Loading": "Đang tải bình luận của engine...",
+              "Error": "Không tải được bình luận engine ở trang {0}."
             }
           }
         },
         "Leaderboard": {
           "Details": {
+            "Loading": "Đang tải thông tin chi tiết về bảng xếp hạng engine...",
+            "Error": "Không tải được thông tin chi tiết về bảng xếp hạng engine của \"{0}\"."
           },
           "Record": {
             "List": {
+              "Loading": "Đang tải hồ sơ engine...",
+              "Error": "Không tải được bản ghi engine ở trang {0}."
             },
             "Details": {
+              "Loading": "Đang tải thông tin chi tiết về bản ghi engine...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi engine của \"{0}\"."
             }
           }
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra khả năng tương thích của engine..."
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ của engine...",
+          "Error": "Không tải được ảnh thu nhỏ của engine \"{0}\"."
         },
         "PlayData": {
+          "Loading": "Đang tải dữ liệu chế độ chơi engine...",
+          "Error": "Không tải được dữ liệu chế độ engine của \"{0}\"."
         },
         "WatchData": {
+          "Loading": "Đang tải dữ liệu chế độ xem engine...",
+          "Error": "Không tải được dữ liệu chế độ xem engine của \"{0}\"."
         },
         "PreviewData": {
+          "Loading": "Đang tải dữ liệu chế độ xem trước engine...",
+          "Error": "Không tải được dữ liệu chế độ xem trước engine của \"{0}\"."
         },
         "TutorialData": {
+          "Loading": "Đang tải dữ liệu chế độ hướng dẫn engine...",
+          "Error": "Không tải được dữ liệu chế độ hướng dẫn engine \"{0}\"."
         },
         "Rom": {
+          "Loading": "Đang tải ROM engine..."
         },
         "Configuration": {
+          "Loading": "Đang tải cấu hình engine...",
+          "Error": "Không tải được cấu hình engine của \"{0}\"."
         }
       },
       "Replay": {
         "Info": {
+          "Loading": "Đang tải thông tin phát lại...",
+          "Error": "Không tải được thông tin phát lại của \"{0}\"."
         },
         "Create": {
+          "Loading": "Đang tạo bản phát lại...",
+          "Error": "Không tạo được bản phát lại trong \"{0}\"."
         },
         "List": {
+          "Loading": "Đang tải bản phát lại...",
+          "Error": "Không tải được bản phát lại ở trang {0}."
         },
         "Details": {
+          "Loading": "Đang tải thông tin chi tiết về bản phát lại...",
+          "Error": "Không tải được thông tin chi tiết về bản phát lại của \"{0}\"."
         },
         "Submit": {
+          "Loading": "Đang gửi tới bản phát lại...",
+          "Error": "Không thể gửi bản phát lại\"{0}\"."
         },
         "Community": {
           "Info": {
+            "Loading": "Đang tải thông tin cộng đồng bản phát lại...",
+            "Error": "Không tải được thông tin cộng đồng bản phát lại của \"{0}\"."
           },
           "Submit": {
+            "Loading": "Đang gửi tới cộng đồng bản phát lại...",
+            "Error": "Không thể gửi tới cộng đồng bản phát lại của \"{0}\"."
           },
           "Comment": {
             "List": {
+              "Loading": "Đang tải bình luận bản phát lại...",
+              "Error": "Không tải được bình luận bản phát lại ở trang {0}."
             }
           }
         },
         "Leaderboard": {
           "Details": {
+            "Loading": "Đang tải thông tin chi tiết về bảng xếp hạng phát lại...",
+            "Error": "Không tải được thông tin chi tiết về bảng xếp hạng phát lại của \"{0}\"."
           },
           "Record": {
             "List": {
@@ -616,6 +1123,8 @@
           }
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra khả năng tương thích phát lại...",
+          "Error": "Bản phát lại \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng sử dụng bản phát lại khác hoặc liên hệ với chủ sở hữu máy chủ để báo cáo sự cố."
         },
         "Data": {
         },
@@ -632,14 +1141,17 @@
         "Details": {
         },
         "Submit": {
+          "Loading": "Đang gửi đến phòng..."
         },
         "Community": {
           "Info": {
+            "Error": "Không tải được thông tin cộng đồng trong phòng của \"{0}\"."
           },
           "Submit": {
           },
           "Comment": {
             "List": {
+              "Error": "Không tải được bình luận trong phòng ở trang {0}."
             }
           }
         },
@@ -650,16 +1162,23 @@
             "List": {
             },
             "Details": {
+              "Error": "Không tải được thông tin chi tiết về hồ sơ phòng của \"{0}\"."
             }
           }
         },
         "Compatibility": {
         },
         "Cover": {
+          "Loading": "Đang tải ảnh bìa ở màn chơi phòng...",
+          "Error": "Không tải được ảnh bìa ở màn chơi phòng của \"{0}\"."
         },
         "Bgm": {
+          "Loading": "Đang tải nhạc nền (BGM) ở màn chơi phòng...",
+          "Error": "Không tải được nhạc nền (BGM) ở  màn chơi phòng của \"{0}\"."
         },
         "Preview": {
+          "Loading": "Đang tải bản xem trước ở màn chơi phòng...",
+          "Error": "Không tải được bản xem trước màn chơi phòng của \"{0}\"."
         }
       }
     },
@@ -668,6 +1187,8 @@
         "Info": {
         },
         "Banner": {
+          "Loading": "Đang tải banner bộ sưu tập...",
+          "Error": "Không tải được banner bộ sưu tập của \"{0}\".\n\nBộ sưu tập của bạn có thể bị hỏng."
         }
       },
       "Post": {
@@ -676,10 +1197,13 @@
         "List": {
         },
         "Details": {
+          "Error": "Không tải được thông tin chi tiết bài viết của \"{0}\".\n\nBộ sưu tập của bạn có thể bị hỏng."
         },
         "Compatibility": {
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ của bài viết...",
+          "Error": "Không tải được ảnh thu nhỏ bài viết của \"{0}\".\n\nVui lòng cập nhật bài đăng này hoặc sử dụng bài đăng khác."
         }
       },
       "Playlist": {
@@ -692,6 +1216,8 @@
         "Compatibility": {
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ danh sách phát...",
+          "Error": "Không tải được ảnh thu nhỏ danh sách phát của \"{0}\".\n\nVui lòng cập nhật danh sách phát này hoặc sử dụng danh sách phát khác."
         }
       },
       "Level": {
@@ -702,10 +1228,16 @@
         "Details": {
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra tính tương thích của cấp độ...",
+          "Error": "Cấp độ \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng cập nhật cấp độ này hoặc sử dụng cấp độ khác."
         },
         "Cover": {
+          "Loading": "Đang tải ảnh bìa cấp độ...",
+          "Error": "Không tải được ảnh bìa cấp độ của \"{0}\".\n\nVui lòng cập nhật cấp độ này hoặc sử dụng cấp độ khác."
         },
         "Bgm": {
+          "Loading": "Đang tải nhạc nền (BGM) màn chơi...",
+          "Error": "Không tải được nhạc nền (BGM) màn chơi của \"{0}\".\n\nVui lòng cập nhật màn chơi này hoặc sử dụng màn chơi khác."
         },
         "Preview": {
         },
@@ -714,106 +1246,193 @@
       },
       "Skin": {
         "Info": {
+          "Loading": "Đang tải thông tin skin...",
+          "Error": "Không tải được thông tin skin của \"{0}\".\n\nBộ sưu tập của bạn có thể bị hỏng."
         },
         "List": {
+          "Loading": "Đang tải skin...",
+          "Error": "Không tải được skin ở trang {0}.\n\nBộ sưu tập của bạn có thể bị hỏng."
         },
         "Details": {
+          "Loading": "Đang tải thông tin chi tiết về skin...",
+          "Error": "Không tải được thông tin chi tiết về skin của \"{0}\".\n\nBộ sưu tập của bạn có thể bị hỏng."
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra tính tương thích skin...",
+          "Error": "Skin \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng cập nhật skin này hoặc sử dụng skin khác."
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ của skin...",
+          "Error": "Không tải được ảnh thu nhỏ skin của \"{0}\".\n\nVui lòng cập nhật skin này hoặc sử dụng skin khác."
         },
         "Data": {
+          "Loading": "Đang tải dữ liệu skin...",
+          "Error": "Không tải được dữ liệu skin của \"{0}\".\n\nVui lòng cập nhật skin này hoặc sử dụng skin khác."
         },
         "Texture": {
+          "Loading": "Đang tải kết cấu skin...",
+          "Error": "Không tải được kết cấu skin của \"{0}\".\n\nVui lòng cập nhật skin này hoặc sử dụng skin khác."
         }
       },
       "Background": {
         "Info": {
+          "Loading": "Đang tải thông tin background...",
+          "Error": "Không tải được thông tin background của \"{0}\".\n\nBộ sưu tập của bạn có thể bị hỏng."
         },
         "List": {
+          "Loading": "Đang tải background...",
+          "Error": "Không tải được background ở trang {0}.\n\nBộ sưu tập của bạn có thể bị hỏng."
         },
         "Details": {
+          "Loading": "Đang tải thông tin chi tiết background...",
+          "Error": "Không tải được thông tin chi tiết background của \"{0}\".\n\nBộ sưu tập của bạn có thể bị hỏng."
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra khả năng tương thích background...",
+          "Error": "Background \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng cập nhật background này hoặc sử dụng background khác."
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ background...",
+          "Error": "Không tải được ảnh thu nhỏ background của \"{0}\".\n\nVui lòng cập nhật hình background này hoặc sử dụng hình background khác."
         },
         "Data": {
+          "Loading": "Đang tải dữ liệu background...",
+          "Error": "Không tải được dữ liệu background của \"{0}\".\n\nVui lòng cập nhật background này hoặc sử dụng background khác."
         },
         "Image": {
+          "Loading": "Đang tải ảnh background...",
+          "Error": "Không tải được ảnh background của \"{0}\".\n\nVui lòng cập nhật background này hoặc sử dụng background khác."
         },
         "Configuration": {
+          "Loading": "Đang tải cấu background...",
+          "Error": "Không tải được cấu hình background của \"{0}\".\n\nVui lòng cập nhật background này hoặc sử dụng background khác."
         }
       },
       "Effect": {
         "Info": {
+          "Loading": "Đang tải thông tin âm thanh (SFX)...",
+          "Error": "Không tải được thông tin âm thanh (SFX) của \"{0}\".\n\nBộ sưu tập của bạn có thể bị hỏng."
         },
         "List": {
+          "Loading": "Đang tải âm thanh (SFX)...",
+          "Error": "Không tải được âm thanh (SFX) ở trang {0}.\n\nBộ sưu tập của bạn có thể bị hỏng."
         },
         "Details": {
+          "Loading": "Đang tải chi tiết âm thanh (SFX)...",
+          "Error": "Không tải được chi tiết âm thanh (SFX) của \"{0}\".\n\nBộ sưu tập của bạn có thể bị hỏng."
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra khả năng tương thích âm thanh (SFX)...",
+          "Error": "Âm thanh (SFX) \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng cập nhật SFX này hoặc sử dụng SFX khác."
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ âm thanh (SFX)...",
+          "Error": "Không tải được ảnh thu nhỏ âm thanh (SFX) của \"{0}\".\n\nVui lòng cập nhật SFX này hoặc sử dụng SFX khác."
         },
         "Data": {
+          "Loading": "Đang tải dữ liệu âm thanh (SFX)...",
+          "Error": "Không tải được dữ liệu âm thanh (SFX) của \"{0}\".\n\nVui lòng cập nhật SFX này hoặc sử dụng SFX khác."
         },
         "Audio": {
+          "Loading": "Đang tải âm thanh (SFX)...",
+          "Error": "Không tải được âm thanh (SFX) của \"{0}\".\n\nVui lòng cập nhật SFX này hoặc sử dụng SFX khác."
         }
       },
       "Particle": {
         "Info": {
+          "Loading": "Đang tải thông tin về Particle...",
+          "Error": "Không tải được thông tin Particle của \"{0}\".\n\nBộ sưu tập của bạn có thể bị hỏng."
         },
         "List": {
+          "Loading": "Đang tải các Particle...",
+          "Error": "Không tải được các Particle ở trang {0}.\n\nBộ sưu tập của bạn có thể bị hỏng."
         },
         "Details": {
+          "Loading": "Đang tải thông tin chi tiết về Particle...",
+          "Error": "Không tải được chi tiết Particle của \"{0}\".\n\nBộ sưu tập của bạn có thể bị hỏng."
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra khả năng tương thích Particle...",
+          "Error": "Particle \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng cập nhật Particle này hoặc sử dụng Particle khác."
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ của Particle...",
+          "Error": "Không tải được ảnh thu nhỏ Particle của \"{0}\".\n\nVui lòng cập nhật Particle này hoặc sử dụng Particle khác."
         },
         "Data": {
+          "Loading": "Đang tải dữ liệu Particle...",
+          "Error": "Không tải được dữ liệu Particle của \"{0}\".\n\nVui lòng cập nhật Particle này hoặc sử dụng Particle khác."
         },
         "Texture": {
+          "Loading": "Đang tải kết cấu Particle...",
+          "Error": "Không tải được kết cấu Particle của \"{0}\".\n\nVui lòng cập nhật Particle này hoặc sử dụng Particle khác."
         }
       },
       "Engine": {
         "Info": {
+          "Loading": "Đang tải thông tin về engine...",
+          "Error": "Không tải được thông tin về engine của \"{0}\".\n\nBộ sưu tập của bạn có thể bị hỏng."
         },
         "List": {
+          "Loading": "Đang tải engine...",
+          "Error": "Không tải được engine ở trang {0}.\n\nBộ sưu tập của bạn có thể bị hỏng."
         },
         "Details": {
+          "Loading": "Đang tải thông tin chi tiết về engine...",
+          "Error": "Không tải được thông tin chi tiết về engine của \"{0}\".\n\nBộ sưu tập của bạn có thể bị hỏng."
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra khả năng tương thích engine..."
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ của engine...",
+          "Error": "Không tải được ảnh thu nhỏ engine của \"{0}\".\n\nVui lòng cập nhật engine này hoặc sử dụng engine khác."
         },
         "PlayData": {
+          "Loading": "Đang tải dữ liệu chế độ chơi engine...",
+          "Error": "Không tải được dữ liệu chế độ chơi engine \"{0}\".\n\nVui lòng cập nhật engine này hoặc sử dụng engine khác."
         },
         "WatchData": {
+          "Loading": "Đang tải dữ liệu chế độ xem engine...",
+          "Error": "Không tải được dữ liệu chế độ xem engine của \"{0}\".\n\nVui lòng cập nhật engine này hoặc sử dụng engine khác."
         },
         "PreviewData": {
+          "Loading": "Đang tải dữ liệu chế độ xem trước engine...",
+          "Error": "Không tải được dữ liệu chế độ xem trước engine \"{0}\".\n\nVui lòng cập nhật engine này hoặc sử dụng engine khác."
         },
         "TutorialData": {
+          "Loading": "Đang tải dữ liệu chế độ hướng dẫn engine..."
         },
         "Rom": {
+          "Loading": "Đang tải ROM engine..."
         },
         "Configuration": {
+          "Loading": "Đang tải cấu hình engine..."
         }
       },
       "Replay": {
         "Info": {
+          "Loading": "Đang tải thông tin bản phát lại...",
+          "Error": "Không tải được thông tin bản phát lại của \"{0}\".\n\nBộ sưu tập của bạn có thể bị hỏng."
         },
         "List": {
+          "Loading": "Đang tải bản phát lại..."
         },
         "Details": {
+          "Loading": "Đang tải thông tin chi tiết bản phát lại...",
+          "Error": "Không tải được thông tin chi tiết bản phát lại của \"{0}\".\n\nBộ sưu tập của bạn có thể bị hỏng."
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra tính tương thích bản phát lại...",
+          "Error": "Bản phát lại \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng cập nhật bản phát lại này hoặc sử dụng bản phát lại khác."
         },
         "Data": {
+          "Loading": "Đang tải dữ liệu bản phát lại...",
+          "Error": "Không tải được dữ liệu bản phát lại của \"{0}\".\n\nVui lòng cập nhật bản phát lại này hoặc sử dụng bản phát lại khác."
         },
         "Configuration": {
+          "Loading": "Đang tải cấu hình bản phát lại...",
+          "Error": "Không tải được cấu hình bản phát lại của \"{0}\".\n\nVui lòng cập nhật bản phát lại này hoặc sử dụng bản phát lại khác."
         }
       },
       "Room": {
@@ -824,34 +1443,51 @@
         "Details": {
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra tính tương thích \nphòng..."
         },
         "Cover": {
+          "Loading": "Đâng tải ảnh bìa ở màn chơi phòng...",
+          "Error": "Không tải được ảnh bìa ở màn chơi phòng của \"{0}\".\n\nVui lòng cập nhật phòng này hoặc sử dụng phòng khác."
         },
         "Bgm": {
+          "Loading": "Đang tải nhạc nền (BGM) ở màn chơi phòng...",
+          "Error": "Không tải được nhạc nền (BGM), màn chơi phòng của \"{0}\".\n\nVui lòng cập nhật phòng này hoặc sử dụng phòng khác."
         },
         "Preview": {
+          "Loading": "Đang tải bản xem trước màn chơi phòng...",
+          "Error": "Không tải được bản xem trước màn chơi phòng của \"{0}\".\n\nVui lòng cập nhật phòng này hoặc sử dụng phòng khác."
         }
       }
     },
     "Scp": {
       "PackageInfo": {
+        "Loading": "Đang tải thông tin gói..."
       },
       "Server": {
         "Info": {
+          "Loading": "Đang tải thông tin gói..."
         },
         "Banner": {
+          "Loading": "Đang tải banner gói...",
+          "Error": "Không tải được banner gói của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         }
       },
       "Post": {
         "Info": {
+          "Error": "Không tải được thông tin bài viết của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "List": {
         },
         "Details": {
+          "Error": "Không tải được thông tin chi tiết bài viết của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra tính tương thích bài viết...",
+          "Error": "Bài viết \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ của bài viết...",
+          "Error": "Không tải được ảnh thu nhỏ bài viết của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         }
       },
       "Playlist": {
@@ -862,8 +1498,11 @@
         "Details": {
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra tính tương thích danh sách phát..."
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ danh sách phát...",
+          "Error": "Không tải được ảnh thu nhỏ danh sách phát của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         }
       },
       "Level": {
@@ -874,10 +1513,16 @@
         "Details": {
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra tính tương thích cấp độ...",
+          "Error": "Cấp độ \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Cover": {
+          "Loading": "Đang tải ảnh bài cấp độ...",
+          "Error": "Không tải được ảnh bìa cấp độ của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Bgm": {
+          "Loading": "Đang tải nhạc nền (BGM) màn chơi...",
+          "Error": "Không tải được nhạc nền (BGM) màn chơi của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Preview": {
         },
@@ -886,106 +1531,193 @@
       },
       "Skin": {
         "Info": {
+          "Loading": "Đang tải thông tin skin...",
+          "Error": "Không tải được thông tin skin của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "List": {
+          "Loading": "Đang tải skin...",
+          "Error": "Không tải được skin ở trang {0}.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Details": {
+          "Loading": "Đang tải thông tin chi tiết về skin...",
+          "Error": "Không tải được thông tin chi tiết skin của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra tính tương thích skin..."
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ của skin...",
+          "Error": "Không tải được ảnh thu nhỏ của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Data": {
+          "Loading": "Đang tải dữ liệu skin...",
+          "Error": "Không tải được dữ liệu skin của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Texture": {
+          "Loading": "Đang tải kết cấu skin...",
+          "Error": "Không tải được kết cấu skin của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         }
       },
       "Background": {
         "Info": {
+          "Loading": "Đang tải thông tin background...",
+          "Error": "Không tải được thông tin background của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "List": {
+          "Loading": "Đang tải background...",
+          "Error": "Không tải được background ở trang {0}.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Details": {
+          "Loading": "Đang tải thông tin chi tiết background...",
+          "Error": "Không tải được thông tin chi tiết background của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra tính tương thích background...",
+          "Error": "Background \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ background...",
+          "Error": "Không tải được ảnh thu nhỏ background của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Data": {
+          "Loading": "Đang tải dữ liệu background...",
+          "Error": "Không tải được dữ liệu background của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Image": {
+          "Loading": "Đang tải ảnh background...",
+          "Error": "Không tải được ảnh background của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Configuration": {
+          "Loading": "Đang tải cấu hình background...",
+          "Error": "Không tải được cấu hình background của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         }
       },
       "Effect": {
         "Info": {
+          "Loading": "Đang tải thông tin âm thanh (SFX)...",
+          "Error": "Không tải được thông tin âm thanh (SFX) của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "List": {
+          "Loading": "Đang tải âm thanh (SFX)...",
+          "Error": "Không tải được âm thanh (SFX) ở trang {0}.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Details": {
+          "Loading": "Đang tải chi tiết âm thanh (SFX)...",
+          "Error": "Không tải được chi tiết âm thanh (SFX) của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra tính tương thích âm thanh (SFX)...",
+          "Error": "Âm thanh (SFX) \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ âm thanh (SFX)...",
+          "Error": "Không tải được ảnh thu nhỏ âm thanh (SFX) của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Data": {
+          "Loading": "Đang tải dữ liệu âm thanh (SFX)..",
+          "Error": "Không tải được dữ liệu âm thanh (SFX) của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Audio": {
+          "Loading": "Đang tải âm thanh (SFX)...",
+          "Error": "Không tải được âm thanh (SFX) của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         }
       },
       "Particle": {
         "Info": {
+          "Loading": "Đang tải thông tin về Particle...",
+          "Error": "Không tải được thông tin Particle của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "List": {
+          "Loading": "Đang tải các Particle...",
+          "Error": "Không tải được các Particle ở trang {0}.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Details": {
+          "Loading": "Đang tải thông tin chi tiết Particle...",
+          "Error": "Không tải được chi tiết Particle của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra tính tương thích Particle...",
+          "Error": "Particle \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ của Particle...",
+          "Error": "Không tải được ảnh thu nhỏ Particle của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Data": {
+          "Loading": "Đang tải dữ liệu Particle...",
+          "Error": "Không tải được dữ liệu Particle của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Texture": {
+          "Loading": "Đang tải kết cấu Particle...",
+          "Error": "Không tải được kết cấu Particle của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         }
       },
       "Engine": {
         "Info": {
+          "Loading": "Đang tải thông tin engine...",
+          "Error": "Không tải được thông tin engine của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "List": {
+          "Loading": "Đang tải engine..."
         },
         "Details": {
+          "Loading": "Đang tải thông tin chi tiết  engine...",
+          "Error": "Không tải được thông tin chi tiết engine của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra tính tương thích engine..."
         },
         "Thumbnail": {
+          "Loading": "Đang tải ảnh thu nhỏ engine...",
+          "Error": "Không tải được ảnh thu nhỏ engine \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "PlayData": {
+          "Loading": "Đang tải dữ liệu chế độ chơi engine...",
+          "Error": "Không tải được dữ liệu chế độ  chơi engine của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "WatchData": {
+          "Loading": "Đang tải dữ liệu chế độ xem engine...",
+          "Error": "Không tải được dữ liệu chế độ xem engine của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "PreviewData": {
+          "Loading": "Đang tải dữ liệu chế độ xem trước engine...",
+          "Error": "Không tải được dữ liệu chế độ xem trước engine của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "TutorialData": {
+          "Loading": "Đang tải dữ liệu chế độ hướng dẫn engine...",
+          "Error": "Không tải được dữ liệu chế độ hướng dẫn engine của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Rom": {
+          "Loading": "Đang tải ROM engine..."
         },
         "Configuration": {
+          "Loading": "Đang tải cấu hình engine...",
+          "Error": "Không tải được cấu hình engine của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         }
       },
       "Replay": {
         "Info": {
+          "Loading": "Đang tải thông tin bản phát lại...",
+          "Error": "Không tải được thông tin bản phát lại của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "List": {
+          "Loading": "Đang tải bản phát lại..."
         },
         "Details": {
+          "Loading": "Đang tải thông tin chi tiết bản phát lại...",
+          "Error": "Không tải được thông tin chi tiết bản phát lại của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra tính tương thích bản phát lại...",
+          "Error": "Bản phát lại \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Data": {
+          "Loading": "Đang tải dữ liệu bản phát lại...",
+          "Error": "Không tải được dữ liệu bản phát lại của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Configuration": {
+          "Loading": "Đang tải cấu hình bản phát lại...",
+          "Error": "Không tải được cấu hình bản phát lại của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         }
       },
       "Room": {
@@ -994,20 +1726,31 @@
         "List": {
         },
         "Details": {
+          "Loading": "Đang tải thông tin chi tiết phòng...",
+          "Error": "Không tải được thông tin chi tiết phòng của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Compatibility": {
+          "Loading": "Đang kiểm tra tính tương thích phòng..."
         },
         "Cover": {
+          "Loading": "Đang tải ảnh bìa ở màn chơi phòng...",
+          "Error": "Không tải được ảnh bìa ở màn chơi phòng của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Bgm": {
+          "Loading": "Đang tải nhạc nền (BGM) ở màn chơi phòng...",
+          "Error": "Không tải được nhạc nền (BGM) ở màn chơi phòng của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Preview": {
+          "Loading": "Đang tải bản xem trước màn chơi phòng...",
+          "Error": "Không tải được bản xem trước cmàn chơi phòng của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         }
       }
     },
     "Multiplayer": {
       "Connect": {
-      }
+      },
+      "Disconnected": "Bạn đã bị ngắt kết nối trong phòng chơi nhiều người.",
+      "Error": "Đã xảy ra lỗi nghiêm trọng với phòng chơi nhiều người.\n\nVui lòng liên hệ với chủ sở hữu máy chủ để báo cáo sự cố."
     }
   },
   "DeepLink": {
@@ -1016,6 +1759,7 @@
     }
   },
   "Title": {
+    "TapToStart": "Nhấn để Bắt đầu"
   },
   "Layout": {
     "Refresh": "Làm mới",
@@ -1033,6 +1777,7 @@
       }
     },
     "JumpToPage": {
+      "Title": "Nhảy tới trang",
       "Page": {
       }
     },
@@ -1046,6 +1791,7 @@
     },
     "SelectClient": {
       "CustomServers": {
+        "Title": "Danh sách máy chủ tuỳ chỉnh",
         "RemoveConfirmation": {
           "Description": "Bạn có chắc muốn xóa \"{0}\"?"
         }
@@ -1064,44 +1810,60 @@
       },
       "ToCreate": {
         "Post": {
+          "Description": "Chọn một bộ sưu tập để tạo bài viết này."
         },
         "Playlist": {
+          "Title": "Tạo danh sách phát"
         },
         "Level": {
+          "Title": "Tạo Cấp độ"
         },
         "Skin": {
         },
         "Background": {
+          "Title": "Tạo Backgtound"
         },
         "Effect": {
         },
         "Particle": {
+          "Title": "Tạo Particle",
+          "Description": "Chọn một bộ sưu tập để tạo Particle này."
         },
         "Engine": {
+          "Title": "Tạo Engine"
         },
         "Replay": {
+          "Title": "Tạo bản phát lại"
         },
         "Room": {
         }
       },
       "ToUse": {
         "Post": {
+          "Description": "Chọn máy chủ hoặc bộ sưu tập tùy chỉnh để sử dụng bài viết của máy chủ hoặc bộ sưu tập đó."
         },
         "Playlist": {
         },
         "Level": {
         },
         "Skin": {
+          "Description": "Chọn máy chủ hoặc bộ sưu tập tùy chỉnh để sử dụng skin của máy chủ hoặc bộ sưu tập đó."
         },
         "Background": {
+          "Title": "Chọn Backgtound",
+          "Description": "Chọn máy chủ hoặc bộ sưu tập tùy chỉnh để sử dụng background của máy chủ hoặc bộ sưu tập đó."
         },
         "Effect": {
         },
         "Particle": {
+          "Title": "Chọn Particle",
+          "Description": "Chọn máy chủ hoặc bộ sưu tập tùy chỉnh để sử dụng các Particle của nó."
         },
         "Engine": {
+          "Title": "Chọn Engine"
         },
         "Replay": {
+          "Title": "Chọn Bản phát lại"
         },
         "Room": {
         }
@@ -1110,8 +1872,10 @@
       }
     },
     "EditCustomServer": {
+      "Title": "Chỉnh sửa máy chủ"
     },
     "AddCustomServerAddress": {
+      "Title": "Thêm máy chủ tuỳ chỉnh",
       "Address": {
       }
     },
@@ -1126,8 +1890,11 @@
       "Name": {
       },
       "Description": {
+        "Title": "Mô tả"
       },
       "Banner": {
+        "Title": "Banner",
+        "Description": "Banner tùy chọn cho bộ sưu tập."
       }
     },
     "ImportScp": {
@@ -1138,8 +1905,11 @@
       }
     },
     "ExportScpConfiguration": {
+      "Title": "Xuất Cấu hình",
       "Mode": {
+        "Title": "Chế độ",
         "Options": {
+          "Full": "Đầy đủ"
         }
       }
     },
@@ -1152,39 +1922,55 @@
       "Scale": {
       },
       "Alpha": {
+        "Title": "Độ trong suốt",
+        "Description": "Độ trong suốt."
       }
     },
     "EditAnimation": {
       "Scale": {
       },
       "Alpha": {
+        "Title": "Độ trong suốt.",
+        "Description": "Độ trong suốt."
       }
     },
     "EditTween": {
       "From": {
       },
       "To": {
+        "Title": "Đến",
+        "Description": "Đến."
       },
       "Duration": {
+        "Title": "Thời gian",
+        "Description": "Thời gian."
       },
       "Ease": {
+        "Title": "Chuyển động",
+        "Description": "Chuyển động."
       }
     },
     "EditColors": {
       "Foreground": {
+        "Description": "Màu sắc tiền cảnh."
       },
       "Background": {
+        "Title": "Background",
+        "Description": "Màu sắc background."
       }
     },
     "CalibrateAudio": {
+      "Description": "Hiệu chỉnh âm thanh bằng cách điều chỉnh Độ lệch âm thanh của thiết bị cho đến khi âm thanh và đồ họa được đồng bộ."
     },
     "CalibrateInput": {
+      "Result": "Khuyến nghị để độ lệch tầm: {0} (±{1})"
     },
     "Home": {
       "Title": "Trang chủ",
       "Play": "Chơi",
       "Players": "Người chơi",
       "Account": "Tài khoản",
+      "About": "Giới thiệu",
       "Settings": "Cài đặt",
       "UpdateAvailable": {
         "Title": "Đã có bản cập nhập",
@@ -1203,6 +1989,7 @@
     },
     "Link": {
       "QRCode": {
+        "Gallery": "Thư viện"
       },
       "Text": {
         "TextLink": {
@@ -1233,25 +2020,41 @@
           "EditAvatar": "Chỉnh Avatar"
         },
         "AboutMe": {
+          "Title": "Giới thiệu về tôi"
         },
         "Favorites": {
+          "Title": "Mục yêu thích",
+          "None": "Không có mục yêu thích."
         }
       },
       "EditName": {
+        "Title": "Chỉnh sửa tên",
         "Name": {
         }
       },
       "EditAvatar": {
         "Foreground": {
+          "Description": "Tiền cảnh Avatar"
         },
         "Background": {
+          "Title": "Background",
+          "Description": "Avatar background."
         }
       },
       "EditAboutMe": {
         "AboutMe": {
+          "Title": "Giới thiệu về tôi"
         }
       },
       "AddFavorite": {
+        "Description": "Chọn thể loại mục yêu thích để thêm:",
+        "Post": "Bài viết",
+        "Level": "Cấp độ",
+        "Skin": "Skin",
+        "Background": "Background",
+        "Effect": "Âm thanh (SFX)",
+        "Particle": "Particle",
+        "Engine": "Engine"
       }
     },
     "About": {
@@ -1264,12 +2067,19 @@
     },
     "Server": {
       "Home": {
+        "Multiplayer": "Chơi nhiều người",
+        "Skin": "Skins",
+        "Background": "Backgrounds",
+        "Effect": "Âm thanh (SFX)",
+        "Particle": "Particles",
+        "Engine": "Engines",
         "CollectionUpdateConfirmation": {
         },
         "SaveSuccess": {
           "Title": "Đã lưu server"
         },
         "ShareSuccess": {
+          "Title": "Đã sao chép đường đẫn"
         }
       },
       "Search": {
@@ -1285,6 +2095,7 @@
         }
       },
       "Infos": {
+        "Advanced": "Nâng cao",
         "Post": {
           "Create": {
             "Success": {
@@ -1300,48 +2111,65 @@
         "Level": {
           "Create": {
             "Success": {
+              "Title": "Cấp độ đã được tạo"
             }
           }
         },
         "Skin": {
+          "Title": "Skins",
           "Create": {
             "Success": {
+              "Title": "Skin đã được tạo ra"
             }
           }
         },
         "Background": {
+          "Title": "Backgrounds",
           "Create": {
+            "Title": "Tạo background",
             "Success": {
+              "Title": "Background đã được tạo ra"
             }
           }
         },
         "Effect": {
+          "Title": "Âm thanh (SFX)",
           "Create": {
+            "Title": "Tạo âm thanh (SFX)",
             "Success": {
+              "Title": "Âm thanh (SFX) đã được tạo"
             }
           }
         },
         "Particle": {
+          "Title": "Particles",
           "Create": {
+            "Title": "Tạo Particle",
             "Success": {
+              "Title": "Particle đã được tạo ra"
             }
           }
         },
         "Engine": {
+          "Title": "Engines",
           "Create": {
+            "Title": "Tạo Engines",
             "Success": {
+              "Title": "Engine đã được tạo ra"
             }
           }
         },
         "Replay": {
           "Create": {
             "Success": {
+              "Title": "Phát lại đã được tạo"
             }
           }
         },
         "Room": {
           "Create": {
             "Success": {
+              "Title": "Phòng đã được tạo"
             },
             "ShareSuccess": {
             }
@@ -1353,6 +2181,7 @@
         },
         "Post": {
           "ShareSuccess": {
+            "Title": "Bài viết liên kết đã sao chép"
           }
         },
         "Playlist": {
@@ -1364,23 +2193,32 @@
           }
         },
         "Skin": {
+          "Title": "Skins",
           "ShareSuccess": {
           }
         },
         "Background": {
+          "Title": "Backgrounds",
           "ShareSuccess": {
+            "Title": "Liên kết background đã được sao chép"
           }
         },
         "Effect": {
+          "Title": "Âm thanh (SFX)",
           "ShareSuccess": {
+            "Title": "Liên kết âm thanh (SFX) đã được sao chép"
           }
         },
         "Particle": {
+          "Title": "Particles",
           "ShareSuccess": {
+            "Title": "Liên kết Particle đã sao chép"
           }
         },
         "Engine": {
+          "Title": "Engines",
           "ShareSuccess": {
+            "Title": "Liên kết Engine đã được sao chép"
           }
         },
         "Replay": {
@@ -1394,12 +2232,14 @@
       },
       "Details": {
         "Actions": {
+          "Watch": "Xem"
         },
         "DeleteConfirmation": {
         },
         "Tags": {
         },
         "Description": {
+          "Title": "Mô tả"
         },
         "Community": {
         },
@@ -1443,29 +2283,43 @@
             },
             "Effect": {
               "Audio": {
+                "Loading": "Giải mã âm thanh (SFX)...",
+                "Error": "Không giải mã được âm thanh (SFX) của \"{0}\".\n\nVui lòng liên hệ với tác giả âm thanh (SFX) để báo cáo sự cố."
               }
             },
             "Level": {
               "Bgm": {
+                "Loading": "Giải mã nhạc nền (BGM) màn chơi...",
+                "Error": "Không giải mã được nhạc nền (BGM) màn chơi \"{0}\".\n\nVui lòng liên hệ với tác giả cấp độ để báo cáo sự cố."
               }
             },
             "Boot": {
+              "Loading": "Đang chạy màn chơi...",
+              "Error": "Không khởi động được màn chơi \"{0}\".\n\nVui lòng liên hệ với tác giả cấp độ để báo cáo sự cố."
             }
           },
           "Watch": {
             "Effect": {
               "Audio": {
+                "Loading": "Giải mã âm thanh (SFX)...",
+                "Error": "Không giải mã được âm thanh (SFX) của \"{0}\".\n\nVui lòng liên hệ với tác giả âm thanh (SFX) để báo cáo sự cố."
               }
             },
             "Level": {
               "Bgm": {
+                "Loading": "Giải mã nhạc nền (BGM) màn chơi...",
+                "Error": "Không giải mã được nhạc nền (BGM) màn chơi \"{0}\".\n\nVui lòng liên hệ với tác giả cấp độ để báo cáo sự cố."
               }
             },
             "Boot": {
+              "Loading": "Đang chạy màn chơi...",
+              "Error": "Không khởi động được màn chơi \"{0}\".\n\nVui lòng liên hệ với tác giả cấp độ để báo cáo sự cố."
             }
           },
           "Preview": {
             "Boot": {
+              "Loading": "Đang chạy màn chơi...",
+              "Error": "Không khởi động được màn chơi \"{0}\".\n\nVui lòng liên hệ với tác giả cấp độ để báo cáo sự cố."
             }
           },
           "ShareSuccess": {
@@ -1473,75 +2327,104 @@
           "ActionSuccess": {
           },
           "Engine": {
+            "Title": "Engine"
           }
         },
         "Skin": {
           "ShareSuccess": {
           },
           "ActionSuccess": {
+            "Title": "Hành động skin đã được gửi"
           }
         },
         "Background": {
           "Preview": {
             "Boot": {
+              "Loading": "Đang khởi động background...",
+              "Error": "Không khởi động được background \"{0}\".\n\nVui lòng liên hệ với tác giả background để báo cáo sự cố."
             }
           },
           "ShareSuccess": {
+            "Title": "Liên kết background đã được sao chép"
           },
           "ActionSuccess": {
+            "Title": "Hành động background đã được gửi"
           }
         },
         "Effect": {
           "Preview": {
             "Audio": {
+              "Loading": "Giải mã âm thanh (SFX)...",
+              "Error": "Không giải mã được âm thanh (SFX) của \"{0}\".\n\nVui lòng liên hệ với tác giả âm thanh (SFX) để báo cáo sự cố."
             },
             "Boot": {
+              "Loading": "Đang khởi động âm thanh (SFX)...",
+              "Error": "Không khởi động được âm thanh (SFX) \"{0}\".\n\nVui lòng liên hệ với tác giả âm thanh (SFX) để báo cáo sự cố."
             }
           },
           "ShareSuccess": {
           },
           "ActionSuccess": {
+            "Title": "Hành động hiệu ứng đã gửi"
           }
         },
         "Particle": {
           "ShareSuccess": {
+            "Title": "Liên kết Particle đã được sao chép"
           },
           "ActionSuccess": {
+            "Title": "Hành động Particle đã được gửi"
           }
         },
         "Engine": {
           "Tutorial": {
             "Effect": {
               "Audio": {
+                "Loading": "Giải mã âm thanh (SFX)...",
+                "Error": "Không giải mã được âm thanh (SFX) của \"{0}\".\n\nVui lòng liên hệ với tác giả âm thanh (SFX) để báo cáo sự cố."
               }
             },
             "Boot": {
+              "Loading": "Đang khởi động phần hướng dẫn...",
+              "Error": "Không khởi động được phần hướng dẫn \"{0}\".\n\nVui lòng liên hệ với tác giả công cụ để báo cáo sự cố."
             }
           },
           "ShareSuccess": {
+            "Title": "Liên kết Engine đã được sao chép"
           },
           "ActionSuccess": {
+            "Title": "Hành động Engine đã được gửi"
           },
           "Skin": {
+            "Title": "Skin"
           },
           "Background": {
+            "Title": "Background"
           },
           "Effect": {
+            "Title": "Âm thanh (SFX)"
           },
           "Particle": {
+            "Title": "Particle"
           }
         },
         "Replay": {
           "Watch": {
             "Effect": {
               "Audio": {
+                "Loading": "Giải mã âm thanh (SFX)...",
+                "Error": "Không giải mã được âm thanh (SFX) của \"{0}\".\n\nVui lòng liên hệ với tác giả âm thanh (SFX) để báo cáo sự cố."
               }
             },
             "Level": {
               "Bgm": {
+                "Loading": "Giải mã nhạc nền (BGM) màn chơi...",
+                "Error": "Không giải mã được nhạc nền (BGM) màn chơi \"{0}\".\n\nVui lòng liên hệ với tác giả cấp độ để báo cáo sự cố."
               }
             },
             "Boot": {
+              "Loading": "Đang khởi động bản phát lại...",
+              "Error": "Không khởi động được bản phát lại \"{0}\".\n\nVui lòng liên hệ với tác giả replay để báo cáo sự cố."
             }
           },
           "ShareSuccess": {
@@ -1549,6 +2432,7 @@
           "ActionSuccess": {
           },
           "Level": {
+            "Title": "Cấp độ"
           }
         },
         "Room": {
@@ -1566,16 +2450,22 @@
         "Level": {
           "Offsets": {
             "LevelAudioOffset": {
+              "Title": "Độ lệch âm thanh",
+              "Description": "Độ lệch âm thanh này chỉ nên được sử dụng khi cấp độ này cụ thể không đồng bộ. Tăng nếu âm thanh của bạn quá trễ và giảm nếu âm thanh của bạn bị trễ."
             },
             "ServerAudioOffset": {
+              "Description": "Độ lệch âm thanh máy chủ này chỉ nên được sử dụng khi tất cả các cấp độ của máy chủ này không đồng bộ. Tăng nếu âm thanh của bạn quá trễ và giảm nếu âm thanh của bạn bị trẽ."
             }
           }
         },
         "Skin": {
+          "Title": "Cấu hình Skin"
         },
         "Background": {
+          "Title": "Cấu hình background",
           "Image": {
             "Blur": {
+              "Description": "Làm mờ background để giảm sự mất tập trung."
             },
             "Mask": {
             }
@@ -1584,16 +2474,23 @@
         "Effect": {
         },
         "Particle": {
+          "Title": "Cấu hình Particle"
         },
         "Engine": {
+          "Title": "Cấu hình Engine",
           "Items": {
+            "Title": "Engine",
             "Skin": {
+              "Title": "Skin"
             },
             "Background": {
+              "Title": "Background"
             },
             "Effect": {
+              "Title": "Âm thanh (SFX)"
             },
             "Particle": {
+              "Title": "Particle"
             }
           },
           "Options": {
@@ -1604,30 +2501,53 @@
             "SecondaryMetric": {
             },
             "JudgmentErrorStyle": {
+              "Title": "Phong cách lỗi phán xét",
+              "Description": "Kiểu phán xét lỗi. Phán xét lỗi tích cực ở bên trái, trong khi phán xét lỗi tiêu cực ở bên phải."
             },
             "JudgmentErrorPlacement": {
+              "Title": "Vị trí lỗi phán xét",
+              "Description": "Vị trí phán xét sai."
             },
             "JudgmentErrorMin": {
+              "Title": "Sai số phán xét tối thiểu",
+              "Description": "Lỗi phán xét tối thiểu. Chỉ những lỗi phán xét lớn hơn mức này mới được hiển thị."
             },
             "MenuStyle": {
+              "Description": "Kiểu menu."
             },
             "JudgmentStyle": {
+              "Title": "Kiểu phán xét",
+              "Description": "Kiểu phán xét."
             },
             "ComboStyle": {
+              "Title": "Kiểu Combo",
+              "Description": "Kiểu combo."
             },
             "PrimaryMetricStyle": {
+              "Title": "Kiểu số liệu chính",
+              "Description": "Kiểu số liệu chính."
             },
             "SecondaryMetricStyle": {
+              "Title": "Kiểu số liệu phụ",
+              "Description": "Kiểu số liệu phụ."
             },
             "ProgressStyle": {
+              "Title": "Kiểu tiến bộ",
+              "Description": "Kiểu tiến bộ."
             },
             "TutorialNavigationStyle": {
+              "Title": "Kiểu hướng dẫn điều hướng",
+              "Description": "Kiểu hướng dẫn điều hướng."
             },
             "TutorialInstructionStyle": {
+              "Title": "Kiểu hướng đẫn",
+              "Description": "Kiểu hướng dẫn."
             }
           },
           "Offsets": {
             "EngineInputOffset": {
+              "Title": "Độ lệch đầu vào của Engine",
+              "Description": "Khuyến nghị nên để giá trị 0.\n\nĐộ lệch đầu vào bổ sung của động cơ này, chỉ nên sử dụng khi bạn gặp sự cố khi chơi động cơ này nói riêng. Tăng nếu đầu vào của bạn được đăng ký quá muộn và giảm nếu không."
             }
           }
         },
@@ -1638,24 +2558,40 @@
       },
       "Resources": {
         "Post": {
+          "Thumbnail": "Ảnh thu nhỏ"
         },
         "Playlist": {
+          "Thumbnail": "Ảnh thu nhỏ"
         },
         "Level": {
+          "Cover": "Ảnh bìa",
+          "Bgm": "Nhạc nền (BGM)"
         },
         "Skin": {
+          "Title": "Tài nguyên Skin",
+          "Thumbnail": "Ảnh thu nhỏ"
         },
         "Background": {
+          "Title": "Tài nguyên background",
+          "Thumbnail": "Ảnh thu nhỏ"
         },
         "Effect": {
+          "Title": "Tài nguyên hiệu ứng",
+          "Thumbnail": "Ảnh thu nhỏ"
         },
         "Particle": {
+          "Title": "Tài nguyên Particle",
+          "Thumbnail": "Ảnh thu nhỏ"
         },
         "Engine": {
+          "Title": "Tài nguyên Engine",
+          "Thumbnail": "Ảnh thu nhỏ"
         },
         "Replay": {
         },
         "Room": {
+          "Cover": "Anhr bìa",
+          "Bgm": "Nhạc nền (BGM)"
         }
       },
       "ResourceExporters": {
@@ -1670,14 +2606,18 @@
         "Level": {
         },
         "Skin": {
+          "Title": "Lưu skin"
         },
         "Background": {
+          "Title": "Lưu background"
         },
         "Effect": {
         },
         "Particle": {
+          "Title": "Lưu Particle"
         },
         "Engine": {
+          "Title": "Lưu Engine"
         },
         "Replay": {
         },
@@ -1687,84 +2627,104 @@
       "Savers": {
         "Post": {
           "Success": {
+            "Title": "Đã lưu bài viết"
           }
         },
         "Playlist": {
           "Success": {
+            "Title": "Đã lưu danh sách phát"
           }
         },
         "Level": {
           "Success": {
+            "Title": "Đã lưu cấp độ"
           }
         },
         "Skin": {
           "Success": {
+            "Title": "Đã lưu skin"
           }
         },
         "Background": {
           "Success": {
+            "Title": "Đã lưu background"
           }
         },
         "Effect": {
           "Success": {
+            "Title": "Đã lưu hiệu ứng"
           }
         },
         "Particle": {
           "Success": {
+            "Title": "Đã lưu Particle"
           }
         },
         "Engine": {
           "Success": {
+            "Title": "Đã lưu Engine"
           }
         },
         "Replay": {
           "Success": {
+            "Title": "Đã lưu phát lại"
           }
         },
         "Room": {
           "Success": {
+            "Title": "Đã lưu phòng"
           }
         }
       },
       "Updaters": {
         "Post": {
           "Success": {
+            "Title": "Đã cập nhật bài viết"
           }
         },
         "Playlist": {
           "Success": {
+            "Title": "Đã cập nhật danh sách phát"
           }
         },
         "Level": {
           "Success": {
+            "Title": "Đã cập nhật cấp độ"
           }
         },
         "Skin": {
           "Success": {
+            "Title": "Đã cập nhật skin"
           }
         },
         "Background": {
           "Success": {
+            "Title": "Đã cập nhật background"
           }
         },
         "Effect": {
           "Success": {
+            "Title": "Đã cập nhật hiệu ứng"
           }
         },
         "Particle": {
           "Success": {
+            "Title": "Đã cập nhật Particle"
           }
         },
         "Engine": {
           "Success": {
+            "Title": "Đã cập nhật Engine"
           }
         },
         "Replay": {
           "Success": {
+            "Title": "Đã cập nhật phát lại"
           }
         },
         "Room": {
           "Success": {
+            "Title": "Đã cập nhật phòng"
           }
         }
       },
@@ -1776,14 +2736,18 @@
         "Level": {
         },
         "Skin": {
+          "Title": "Thông tin skin"
         },
         "Background": {
+          "Title": "Thông tin background"
         },
         "Effect": {
         },
         "Particle": {
+          "Title": "Thông tin Partile"
         },
         "Engine": {
+          "Title": "Thông tin Engline"
         },
         "Replay": {
           "Info": {
@@ -1792,6 +2756,7 @@
             "Subtitle": {
             },
             "Description": {
+              "Title": "Mô tả"
             }
           }
         },
@@ -1801,42 +2766,52 @@
       "Creators": {
         "Post": {
           "Success": {
+            "Title": "Đã tạo bài viết"
           }
         },
         "Playlist": {
           "Success": {
+            "Title": "Đã tạo danh sách phát"
           }
         },
         "Level": {
           "Success": {
+            "Title": "Đã tạo cấp độ"
           }
         },
         "Skin": {
           "Success": {
+            "Title": "Đã tạo skin"
           }
         },
         "Background": {
           "Success": {
+            "Title": "Đã tạo bakcground"
           }
         },
         "Effect": {
           "Success": {
+            "Title": "Đã tạo hiệu ứng"
           }
         },
         "Particle": {
           "Success": {
+            "Title": "Đã tạo Particle"
           }
         },
         "Engine": {
           "Success": {
+            "Title": "Đã tạo Engine"
           }
         },
         "Replay": {
           "Success": {
+            "Title": "Đã tạo phát lại"
           }
         },
         "Room": {
           "Success": {
+            "Title": "Đã tạo phòng"
           }
         }
       },
@@ -1844,6 +2819,7 @@
         "ExitConfirmation": {
         },
         "Tip": {
+          "Message": "Mẹo:  Chuyển đổi giữa các tab"
         },
         "Play": {
           "Options": {
@@ -1860,6 +2836,7 @@
             "Actions": {
               "ConfigurationTip": {
               },
+              "Skip": "Bỏ qua",
               "Start": {
                 "Confirmation": {
                 }
@@ -1877,6 +2854,7 @@
         },
         "Chat": {
           "Overlay": {
+            "Level": "Cấp độ đã thay đổi."
           },
           "Text": {
           },
@@ -1886,24 +2864,31 @@
             "Glhf": {
             },
             "Gg": {
+              "Title": "GG",
+              "Text": "Good game!"
             },
             "Ns": {
+              "Title": "Ns"
             },
             "Ty": {
+              "Title": "Ty"
             }
           },
           "System": {
+            "Level": "Cấp độ đã thay đổi thành {0}.",
             "Connected": {
             }
           }
         },
         "Suggestions": {
           "Actions": {
+            "Clear": "Dọn dẹp"
           }
         },
         "Scoreboard": {
           "Actions": {
             "Reset": {
+              "Title": "Đặt lại",
               "Confirmation": {
               }
             }
@@ -1918,7 +2903,9 @@
             "UpdateLeadConfirmation": {
             },
             "KickConfirmation": {
+              "Description": "Bạn có chắc chắn muốn đá (kick) {0} không?"
             },
+            "RemovedFromBlacklistSuccess": "Người chơi đã bỏ chặn",
             "Report": {
             }
           }
@@ -1928,20 +2915,29 @@
     "Settings": {
       "Title": "Cài đặt",
       "Tip": {
+        "Message": "Cài đặt chứa các tùy chọn chung cho ứng dụng Sonolus.\n\nĐối với các tùy chọn cụ thể về engine và cấp độ như tốc độ nốt nhạc, bạn có thể tìm thấy chúng trong Cấu hình sau khi vào máy chủ và chọn cấp độ."
       },
       "Graphics": {
         "Title": "Đồ họa",
         "TargetFps": {
+          "Title": "FPS mục tiêu",
+          "Description": "Khuyến nghị nên sử dụng tốc độ làm mới màn hình của thiết bị.\n\nSonolus hướng đến mục tiêu chạy ở FPS này, tuy nhiên sonolus không đảm bảo nếu thiết bị không thể thực hiện được."
         },
         "RenderMode": {
+          "Description": "Khuyến nghị nên để chế độ render chuẩn.\n\nChế độ render chuẩn cung cấp đồ họa chính xác, trong khi chế độ render nhẹ cung cấp đồ họa hơi không chính xác nhưng hiệu suất được cải thiện đáng kể.",
           "Options": {
           }
         },
         "RenderScale": {
+          "Description": "Khuyến nghị nên để giá trị 100%.\n\nSonolus kết xuất ở tỷ lệ này và tăng hoặc giảm tỷ lệ theo kích thước độ phân giải. Tỷ lệ kết xuất cao hơn 100% có thể cải thiện đồ họa nhưng hiệu suất kém hơn, trong khi tỷ lệ kết xuất thấp hơn 100% cải thiện hiệu suất nhưng đồ họa kém hơn."
         },
         "AntiAliasing": {
+          "Title": "Khử răng cưa",
+          "Description": "Khuyến nghị nên tắt.\n\nKhử răng cưa sẽ cải thiện đồ họa bằng cách giảm thiểu hiện tượng nhiễu, đặc biệt là xung quanh các cạnh của hình ảnh, với cái giá phải trả là hiệu suất kém hơn."
         },
         "GpuParticleSystem": {
+          "Title": "Hệ thống Particle GPU",
+          "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus sử dụng hệ thống Particle CPU. Khi bật, hệ thống Particle GPU sẽ được sử dụng thay thế. Đối với hầu hết các thiết bị di động, GPU yếu hơn CPU và do đó không khuyến khích sử dụng."
         },
         "IgnoreNotch": {
         }
@@ -1949,18 +2945,29 @@
       "Audio": {
         "Title": "Âm thanh",
         "BgmVolume": {
+          "Title": "Âm lượng nhạc nền (BGM)",
+          "Description": "Âm lượng của nhạc nền (BGM)."
         },
         "SfxVolume": {
+          "Description": "Âm lượng của âm thanh (SFX)."
         },
         "UIVolume": {
+          "Description": "Âm lượng của UI."
         },
         "AlwaysDecodeLevelBgm": {
+          "Title": "Luôn lluoon giải mã BGM cấp độ",
+          "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus sử dụng khả năng âm thanh gốc của hệ điều hành để có hiệu suất tốt nhất và chỉ giải mã BGM cấp độ nếu định dạng không được hỗ trợ gốc. Khi được bật, Sonolus luôn giải mã BGM."
         },
         "PreviewBgm": {
+          "Title": "Bản xem trước nhạc nền (BGM)",
+          "Description": "Nơi phát bản xem trước nhạc nền (BGM).",
           "Options": {
+            "Multiplayer": "Chơi nhiều người"
           }
         },
         "LevelBgmQuality": {
+          "Title": "Chất lượng nhạc nền (BGM) trong màn chơi",
+          "Description": "Khuyến nghị nên để chất lượng Cao.\n\nTheo mặc định, Sonolus sử dụng khả năng âm thanh gốc của hệ điều hành để có hiệu suất tốt nhất và chỉ giải mã BGM cấp độ nếu định dạng không được hỗ trợ gốc. BGM cấp độ sẽ được giải mã ở chất lượng này.",
           "Options": {
             "Low": "Thấp",
             "Mid": "Trung",
@@ -1968,6 +2975,8 @@
           }
         },
         "PreviewBgmQuality": {
+          "Title": "Xem trước Chất lượng nhạc nền (BGM)",
+          "Description": "Khuyến nghị nên để Trung.\n\nSonolus theo mặc định sử dụng khả năng âm thanh gốc của hệ điều hành để có hiệu suất tốt nhất và chỉ giải mã BGM xem trước nếu định dạng không được hỗ trợ gốc. BGM xem trước sẽ được giải mã ở chất lượng này.",
           "Options": {
             "Low": "Thấp",
             "Mid": "Trung",
@@ -1976,75 +2985,122 @@
         }
       },
       "Gameplay": {
+        "Title": "Trò chơi",
         "UnpauseDelay": {
+          "Title": "Độ trễ bỏ tạm dừng",
+          "Description": "Thời gian đếm ngược khi bỏ tạm dừng."
         },
         "FavoriteCollection": {
         },
         "MultiplayerPreload": {
+          "Title": "Tải trước chơi nhiều người",
+          "Description": "Khuyến nghị nên bật.\n\nTrong chế độ chơi nhiều người, hãy bắt đầu tải trước khi cấp độ được xác nhận để cải thiện tốc độ tải."
         },
         "ReplayTitleTemplate": {
+          "Description": "Mẫu tiêu đề khi tạo bản phát lại.\n\nCó sẵn các tham số đặc biệt và sẽ được thay thế bằng các giá trị tương ứng."
         },
         "ReplaySubtitleTemplate": {
+          "Description": "Mẫu phụ đề khi tạo bản phát lại.\n\nCác tham số đặc biệt có sẵn và sẽ được thay thế bằng các giá trị tương ứng."
         },
         "ReplayDescriptionTemplate": {
+          "Description": "Mẫu mô tả khi tạo bản phát lại.\n\nCác tham số đặc biệt có sẵn và sẽ được thay thế bằng các giá trị tương ứng."
         },
         "ReplayCollection": {
         },
         "AutoSubmitReplay": {
+          "Title": "Tự động gửi bản phát lại",
+          "Description": "Tự động gửi lại nội dung bản phát lại tới máy chủ nếu được hỗ trợ."
         },
         "ShowReplayTouches": {
+          "Title": "Hiển thị chạm trong bản phát lại"
         },
         "OverwriteReplayOptions": {
+          "Title": "Ghi đè tùy chọn bản phát lại"
         },
         "TouchAbnormalityDetection": {
+          "Description": "Khuyến nghị nên bật.\n\nPhát hiện các bất thường khi chạm trong khi chơi trò chơi."
         }
       },
       "UI": {
+        "Title": "Giao diện (UI)",
         "UILocalization": {
+          "Title": "Ngôn ngữ giao diện (UI)",
+          "Description": "Ngôn ngữ sử dụng cho giao diện (UI)."
         },
         "ContentLocalization": {
+          "Description": "Ngôn ngữ nội dung. Máy chủ tùy chỉnh có thể cung cấp nội dung bằng ngôn ngữ này nếu có."
         },
         "Theme": {
+          "Description": "Chủ đề màu sắc được sử dụng."
         },
         "Scale": {
+          "Title": "Tỷ lệ giao diện (UI)",
+          "Description": "Tỷ lệ giao diện (UI) cần sử dụng. Tăng nếu bạn gặp khó khăn khi đọc và giảm để hiển thị nhiều nội dung hơn trên màn hình cùng một lúc."
         },
         "PerfectJudgmentColors": {
+          "Title": "Màu sắc phán xét Perfect",
+          "Description": "Màu sắc phán xét cho Perfect."
         },
         "GreatJudgmentColors": {
+          "Title": "Màu sắc phán xét Great",
+          "Description": "Màu sắc phán xét cho Great."
         },
         "GoodJudgmentColors": {
+          "Title": "Màu sắc phán xét Good",
+          "Description": "Màu sắc phán xét cho Good."
         },
         "MissJudgmentColors": {
+          "Title": "Màu săc phán xét Miss",
+          "Description": "Màu sắc phán xét cho Miss."
         },
         "PositiveJudgmentErrorColors": {
+          "Title": "Màu sắc phán xét lỗi dương",
+          "Description": "Màu sắc phán xét cho các lỗi dương."
         },
         "NegativeJudgmentErrorColors": {
+          "Title": "Màu sắc phán xét lỗi âm",
+          "Description": "Màu sắc phán xét cho các lỗi âm."
         },
         "AllPerfectComboColors": {
+          "Title": "Màu sắc Combo All Perfect",
+          "Description": "Mầu sắc Combo Khi đạt được All Perfect"
         },
         "FullComboComboColors": {
+          "Title": "Mầu sắc Combo Full Combo",
+          "Description": "Màu sắc Combo khi đạt được Full Combo"
         },
         "PassComboColors": {
+          "Title": "Màu sắc Combo Vượt Qua",
+          "Description": "Mầu sắc Combo khi đạt được Vượt Qua"
         },
         "FailComboColors": {
+          "Title": "Màu săc Combo Fail",
+          "Description": "Màu săc Combo khi chỉ đạt được Fail"
         },
         "BoldComboNumber": {
+          "Description": "Sử dụng phông chữ đậm cho số combo."
         },
         "ShowZeroCombo": {
+          "Title": "Hiển thị số 0 Combo"
         },
         "TouchStyle": {
         }
       },
       "Offsets": {
+        "Title": "Bù",
         "Device": {
+          "Description": "Sử dụng tính năng này để lưu các giá trị bù cho các trường hợp thiết bị khác nhau, chẳng hạn như khi phát bằng loa, tai nghe, Bluetooth, v.v."
         },
         "DeviceAudioOffset": {
+          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐộ lệch âm thanh của kịch bản thiết bị của bạn. Đối với hầu hết các thiết bị sử dụng loa, 0 là độ lệch chính xác. Không khuyến nghị sử dụng Bluetooth. Tăng nếu âm thanh của bạn quá trễ và giảm nếu không."
         },
         "DeviceInputOffset": {
+          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐộ lệch đầu vào của kịch bản thiết bị của bạn. Nếu bạn quen với các trò chơi không cung cấp tùy chọn như vậy, bạn có thể để ở mức 0. Tăng nếu đầu vào của bạn được đăng ký quá muộn và giảm nếu không."
         }
       },
       "Repository": {
         "AutoClean": {
+          "Title": "Tự động dọn dẹp",
           "Options": {
           }
         },
@@ -2057,11 +3113,13 @@
         "Manage": "Quản lý"
       },
       "Developer": {
+        "Title": "Dành cho Nhà phát trển",
         "ShowFps": {
         },
         "FpsStyle": {
         },
         "ShowTouches": {
+          "Description": "Hiển thị chạm. Chạm hữu ích để hiển thị đầu vào trong bản ghi video."
         },
         "DebugMode": {
         },
@@ -2073,9 +3131,13 @@
     },
     "ManageRepository": {
       "Repository": {
+        "Size": "Kích thước: {0}"
       },
       "RepairRepository": {
+        "Title": "Sửa kho lưu trữ",
+        "Loading": "Đang sửa kho lưu trữ ({0})...",
         "Success": {
+          "Title": "Đã sửa kho lưu trữ"
         }
       },
       "DeleteRepository": {
@@ -2118,11 +3180,13 @@
       }
     },
     "Control": {
+      "Exit": "Thoát"
     },
     "Level": {
       "Play": {
         "Routes": {
           "Playlist": {
+            "Next": "Tiếp"
           },
           "Pause": {
             "Snapshot": {
@@ -2139,11 +3203,14 @@
             },
             "Replay": {
               "Description": {
+                "HasUsedPause": "Không thể tạo bản phát lại vì đã sử dụng chế độ tạm dừng.",
+                "HasUsedSnapshot": "Không thể tạo bản phát lại vì đã sử dụng ảnh chụp nhanh."
               },
               "Submit": {
                 "Confirmation": {
                 },
                 "Success": {
+                  "Title": "Đã gửi kết quả cấp độ"
                 }
               }
             }
@@ -2153,10 +3220,15 @@
       "Result": {
         "Graphs": {
           "Judgment": {
+            "Title": "Biểu đồ phán xét"
           },
           "Accuracy": {
+            "AbsValue": "Giá trị tương đối (Abs)",
+            "Mean": "Trung bình",
+            "StDev": "Độ lệch chuẩn"
           },
           "Bucket": {
+            "Title": "Biểu đồ nhóm"
           }
         }
       }
