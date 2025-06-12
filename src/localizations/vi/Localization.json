@@ -18,7 +18,7 @@
     "#LEVEL": "Cấp độ",
     "#SKIN": "Skin",
     "#BACKGROUND": "Background",
-    "#EFFECT": "Âm thanh (SFX)",
+    "#EFFECT": "Âm thanh SFX",
     "#PARTICLE": "Particle",
     "#ENGINE": "Engine",
     "#REPLAY": "Phát lại",
@@ -95,7 +95,7 @@
     "#PERMISSION": "Quyền",
     "#USER": "Người dùng",
     "#SPEED": "Tốc độ level",
-    "#MIRROR": "Phản chiếu level",
+    "#MIRROR": "Đảo ngược level",
     "#RANDOM": "Ngẫu nhiên",
     "#HIDDEN": "Ẩn",
     "#JUDGMENT_STRICT": "Phán xét nghiêm ngặt",
@@ -2622,7 +2622,7 @@
         "Level": "Cấp độ",
         "Skin": "Skin",
         "Background": "Background",
-        "Effect": "Âm thanh (SFX)",
+        "Effect": "SFX",
         "Particle": "Particle",
         "Engine": "Engine",
         "Replay": "Phát lại",
@@ -2652,7 +2652,7 @@
         "Level": "Cấp độ",
         "Skin": "Skins",
         "Background": "Backgrounds",
-        "Effect": "Âm thanh (SFX)",
+        "Effect": "SFX",
         "Particle": "Particles",
         "Engine": "Engines",
         "Replay": "Phát lại",
@@ -2735,7 +2735,7 @@
           }
         },
         "Effect": {
-          "Title": "Âm thanh (SFX)",
+          "Title": "SFX",
           "Create": {
             "Title": "Tạo âm thanh (SFX)",
             "Success": {
@@ -2820,7 +2820,7 @@
           }
         },
         "Effect": {
-          "Title": "Âm thanh (SFX)",
+          "Title": "SFX",
           "ShareSuccess": {
             "Title": "Liên kết âm thanh (SFX) đã được sao chép"
           }
@@ -3051,7 +3051,7 @@
             "Title": "Background"
           },
           "Effect": {
-            "Title": "Âm thanh (SFX)"
+            "Title": "SFX"
           },
           "Particle": {
             "Title": "Particle"
@@ -3149,7 +3149,7 @@
               "Title": "Background"
             },
             "Effect": {
-              "Title": "Âm thanh (SFX)"
+              "Title": "SFX"
             },
             "Particle": {
               "Title": "Particle"
@@ -3893,10 +3893,10 @@
         }
       },
       "Offsets": {
-        "Title": "Độ lệch âm thanh",
+        "Title": "Độ lệch đầu vào",
         "Device": {
           "Title": "Thiết bị",
-          "Description": "Sử dụng tính năng này để lưu các giá trị độ lệch âm thanh cho các trường hợp thiết bị khác nhau, chẳng hạn như khi phát bằng loa, tai nghe, Bluetooth, v.v.",
+          "Description": "Sử dụng tính năng này để lưu các giá trị độ lệch đầu vào cho các trường hợp thiết bị khác nhau, chẳng hạn như khi phát bằng loa, tai nghe, Bluetooth, v.v.",
           "Option": "Thiết bị {0}"
         },
         "DeviceAudioOffset": {
@@ -4032,7 +4032,7 @@
     "Control": {
       "Title": "Điều khiển",
       "Exit": "Thoát",
-      "Restart": "Khởi động lại"
+      "Restart": "Chơi lại"
     },
     "Level": {
       "Play": {
