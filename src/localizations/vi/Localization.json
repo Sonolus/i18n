@@ -201,7 +201,7 @@
     "#SIMLINE_ANIMATION": "Hoạt ảnh Simultaneous Line",
     "#PREVIEW_SCALE_VERTICAL": "Xem trước Tỷ lệ dọc",
     "#PREVIEW_SCALE_HORIZONTAL": "Xem trước Tỷ lệ ngang",
-    "#PREVIEW_TIME": "Thời gian xem trước",
+    "#PREVIEW_TIME": "Xem trước thời gian",
     "#PREVIEW_SCORE": "Xem trước Điểm",
     "#PREVIEW_BPM": "Xem trước BPM",
     "#PREVIEW_TIMESCALE": "Xem trước thang thời gian",
@@ -719,7 +719,7 @@
       "Description": "Tự động thoát khỏi trò chơi khi không thể đạt được cấp độ nhất định.",
       "Options": {
         "Off": "Tắt",
-        "Pass": "Vượt Qua",
+        "Pass": "Pass",
         "FullCombo": "Full Combo",
         "AllPerfect": "All Perfect"
       }
@@ -2632,7 +2632,7 @@
     "About": {
       "Title": "Giới thiệu về Sonolus",
       "Letter": {
-        "Title": "Một lá thư từ nhà phát triển"
+        "Title": "Thư từ nhà phát triển"
       },
       "Music": {
         "Title": "Âm nhạc"
@@ -3164,7 +3164,7 @@
               "Description": "Chỉ số chính cần hiển thị."
             },
             "SecondaryMetric": {
-              "Title": "Đo lường thứ cấp",
+              "Title": "Đo lường phụ",
               "Description": "Chỉ số thứ cấp để hiển thị."
             },
             "JudgmentErrorStyle": {
@@ -3693,8 +3693,8 @@
       "Graphics": {
         "Title": "Đồ họa",
         "TargetFps": {
-          "Title": "FPS mục tiêu",
-          "Description": "Khuyến nghị nên sử dụng tốc độ làm mới màn hình của thiết bị.\n\nSonolus hướng đến mục tiêu chạy ở FPS này, tuy nhiên sonolus không đảm bảo nếu thiết bị không thể thực hiện được.",
+          "Title": "Tốc độ khung hình (FPS)",
+          "Description": "Khuyến nghị nên để mặc định tốc độ khung hình của thiết bị.\n\nSonolus cho phép lựa chọn tốc độ khung hình tùy ý trên thiết bị của bạn, tuy nhiên sonolus không đảm bảo thiết bị đó không thể thực hiện được.",
           "Default": "Mặc định"
         },
         "RenderMode": {
@@ -3725,7 +3725,7 @@
       "Audio": {
         "Title": "Âm thanh",
         "BgmVolume": {
-          "Title": "Âm lượng nhạc nền (BGM)",
+          "Title": "Âm lượng BGM",
           "Description": "Âm lượng của nhạc nền (BGM)."
         },
         "SfxVolume": {
@@ -3733,11 +3733,11 @@
           "Description": "Âm lượng của âm thanh (SFX)."
         },
         "UIVolume": {
-          "Title": "Khối lượng UI",
+          "Title": "Âm lượng UI",
           "Description": "Âm lượng của UI."
         },
         "AlwaysDecodeLevelBgm": {
-          "Title": "Luôn lluoon giải mã BGM cấp độ",
+          "Title": "Luôn luôn giải mã BGM cấp độ",
           "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus sử dụng khả năng âm thanh gốc của hệ điều hành để có hiệu suất tốt nhất và chỉ giải mã BGM cấp độ nếu định dạng không được hỗ trợ gốc. Khi được bật, Sonolus luôn giải mã BGM."
         },
         "PreviewBgm": {
@@ -3872,8 +3872,8 @@
           "Description": "Màu sắc Combo khi đạt được Full Combo"
         },
         "PassComboColors": {
-          "Title": "Màu sắc Combo Vượt Qua",
-          "Description": "Mầu sắc Combo khi đạt được Vượt Qua"
+          "Title": "Màu sắc Combo Pass",
+          "Description": "Mầu sắc Combo khi đạt được Pass"
         },
         "FailComboColors": {
           "Title": "Màu săc Combo Fail",
@@ -3893,10 +3893,10 @@
         }
       },
       "Offsets": {
-        "Title": "Bù",
+        "Title": "Độ lệch âm thanh",
         "Device": {
           "Title": "Thiết bị",
-          "Description": "Sử dụng tính năng này để lưu các giá trị bù cho các trường hợp thiết bị khác nhau, chẳng hạn như khi phát bằng loa, tai nghe, Bluetooth, v.v.",
+          "Description": "Sử dụng tính năng này để lưu các giá trị độ lệch âm thanh cho các trường hợp thiết bị khác nhau, chẳng hạn như khi phát bằng loa, tai nghe, Bluetooth, v.v.",
           "Option": "Thiết bị {0}"
         },
         "DeviceAudioOffset": {
