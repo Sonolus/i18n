@@ -2638,8 +2638,8 @@
         "Title": "Musik"
       },
       "Translation": {
-        "Title": "Terjemahan",
-        "Description": "Bantu menerjemahkan Sonolus ke bahasa anda!\nhttps://github.com/Sonolus/i18n\n\nTerima kasih kepada seluruh kontributor:"
+        "Title": "Penerjemah",
+        "Description": "Bantu menerjemahkan Sonolus ke bahasa Anda!\nhttps://github.com/Sonolus/i18n\n\nTerima kasih kepada seluruh kontributor:"
       }
     },
     "Server": {
