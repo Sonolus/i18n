@@ -1,35 +1,14 @@
-import 'zx/globals'
 import fs from 'fs-extra'
 
-const path = './src/contributors.json'
+const response = await fetch(
+    'https://api.github.com/repos/Sonolus/i18n/contributors?anon=true&per_page=100',
+)
 
-const excludes = [
-    // Bots
-    'mt-gitlocalize',
-    'gitlocalize-app[bot]',
-
-    // Duplicates
-    // - Ataberk
-    'Chidori',
-    'Umay',
-    // - bpforest
-    '한승준',
-    // - Burrito
-    'NonSpicyBurrito',
-    // - ドマオー
-    'Dosugamea',
-    // - Nanashi.
-    'sevenc-nanashi',
-    'Nanashi',
-    // - LittleYang0531
-    '优秀的小杨同学',
-]
-
-const contributors = [
-    ...new Set([...fs.readJsonSync(path), ...(await $`git log --pretty="%aN"`).stdout.split('\n')]),
-]
-    .filter((line) => !!line)
-    .filter((line) => !excludes.includes(line))
+const contributors = (await response.json())
+    .map((entry) =>
+        entry.type === 'User' ? entry.login : entry.type === 'Anonymous' ? entry.name : undefined,
+    )
+    .filter((line) => line && line !== 'mt-gitlocalize')
     .sort()
 
-fs.outputJsonSync(path, contributors, { spaces: 4 })
+fs.outputJsonSync('./src/contributors.json', contributors, { spaces: 4 })

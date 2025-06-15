@@ -9,7 +9,6 @@
     "build": "node ./src/build.js"
   },
   "devDependencies": {
-    "fs-extra": "^11.3.0",
-    "zx": "^8.5.4"
+    "fs-extra": "^11.3.0"
   }
 }
