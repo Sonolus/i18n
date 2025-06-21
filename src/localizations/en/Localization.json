@@ -559,6 +559,10 @@
         "CopySuccess": {
             "Title": "Copied"
         },
+        "Gem": "Gem",
+        "Vip": "VIP",
+        "NameChange": "Name Change",
+        "Owned": "Owned",
         "Judgment": "Judgment",
         "Accuracy": "Accuracy",
         "Grade": "Grade",
@@ -729,6 +733,23 @@
             "Open": "Open"
         }
     },
+    "Ad": {
+        "PostGame": {
+            "Fallback": {
+                "Shop": "Available in shop!"
+            }
+        },
+        "Tip": {
+            "Message": "Want ad-free Sonolus experience?\n\nVIP and Limited Time Bundles available in Shop!"
+        }
+    },
+    "Billing": {
+        "GemPurchases": {
+            "Tip": {
+                "Message": "You have successfully purchased gems.\n\nGo to Shop to claim them!"
+            }
+        }
+    },
     "Themes": {
         "Dark": "Dark",
         "Light": "Light"
@@ -741,10 +762,42 @@
         "ServerVersionTooNewError": "This server only supports Sonolus version {0}.\n\nPlease update your Sonolus app, or contact server owner to report the problem."
     },
     "Clients": {
+        "Billing": {
+            "GemProducts": {
+                "Loading": "Loading gem products...",
+                "Error": "Failed to load gem products.\n\nPlease check your internet connection and try again."
+            }
+        },
         "Content": {
             "Info": {
                 "Loading": "Loading Sonolus info...",
                 "Error": "Failed to load Sonolus info.\n\nPlease check your internet connection and try again."
+            },
+            "Theme": {
+                "Thumbnail": {
+                    "Loading": "Loading theme thumbnail...",
+                    "Error": "Failed to load theme thumbnail of \"{0}\".\n\nPlease check your internet connection and try again."
+                },
+                "Background": {
+                    "Loading": "Loading theme background...",
+                    "Error": "Failed to load theme background of \"{0}\".\n\nPlease check your internet connection and try again."
+                },
+                "Avatar": {
+                    "Loading": "Loading theme avatar...",
+                    "Error": "Failed to load theme avatar of \"{0}\".\n\nPlease check your internet connection and try again."
+                },
+                "AvatarBackground": {
+                    "Loading": "Loading theme avatar background...",
+                    "Error": "Failed to load theme avatar background of \"{0}\".\n\nPlease check your internet connection and try again."
+                },
+                "Banner": {
+                    "Loading": "Loading theme banner...",
+                    "Error": "Failed to load theme banner of \"{0}\".\n\nPlease check your internet connection and try again."
+                },
+                "MultiplayerBanner": {
+                    "Loading": "Loading theme multiplayer banner...",
+                    "Error": "Failed to load theme multiplayer banner of \"{0}\".\n\nPlease check your internet connection and try again."
+                }
             }
         },
         "I18n": {
@@ -779,6 +832,36 @@
                     }
                 }
             },
+            "UserInfo": {
+                "Loading": "Loading user info...",
+                "Error": "Failed to load user info.\n\nPlease check your internet connection and try again."
+            },
+            "ClaimGems": {
+                "NotLoggedInError": {
+                    "Description": "You have successfully purchased gems but you are not signed in with a Sonolus account.\n\nPlease sign in with your Sonolus account first and try again."
+                },
+                "Loading": "Claiming gems...",
+                "Error": "Failed to claim gems.\n\nPlease check your internet connection and try again.",
+                "Success": {
+                    "Title": "Gems Claimed"
+                }
+            },
+            "Purchase": {
+                "NotLoggedInError": {
+                    "Description": "You are not signed in with a Sonolus account.\n\nPlease sign in with your Sonolus account first and try again."
+                },
+                "NotEnoughGemsError": {
+                    "Description": "You do not have enough gems.\n\nPlease purchase more gems first and try again."
+                },
+                "Confirmation": {
+                    "Description": "Purchasing \"{0}\", continue?"
+                },
+                "Loading": "Purchasing...",
+                "Error": "Failed to purchase \"{0}\".\n\nPlease check your internet connection and try again.",
+                "Success": {
+                    "Title": "Purchased"
+                }
+            },
             "EditName": {
                 "Loading": "Editing name...",
                 "Error": "Failed to edit name.\n\nPlease check if your name is legal and within length limit, or check your internet connection and try again.",
@@ -791,6 +874,13 @@
                 "Error": "Failed to edit avatar.\n\nPlease check if your avatar is legal, or check your internet connection and try again.",
                 "Success": {
                     "Title": "Avatar Edited"
+                }
+            },
+            "EditBanner": {
+                "Loading": "Editing banner...",
+                "Error": "Failed to edit banner.\n\nPlease check if your banner is legal, or check your internet connection and try again.",
+                "Success": {
+                    "Title": "Banner Edited"
                 }
             },
             "EditAboutMe": {
@@ -2275,7 +2365,8 @@
         },
         "SelectTheme": {
             "Title": "Select Theme",
-            "Description": "Select a theme:"
+            "Description": "Select a theme:",
+            "Shop": "More themes available in shop!"
         },
         "SelectClient": {
             "CustomServers": {
@@ -2514,7 +2605,7 @@
         "Home": {
             "Title": "Home",
             "Play": "Play",
-            "Players": "Players",
+            "Shop": "Shop",
             "Account": "Account",
             "Link": "Link",
             "About": "About",
@@ -2523,18 +2614,6 @@
                 "Title": "Update Available",
                 "Description": "Sonolus version {0} is available!\n\nVisit our website:\nhttps://sonolus.com",
                 "Open": "Open"
-            }
-        },
-        "Players": {
-            "Title": "Players",
-            "PlayerLookup": {
-                "Title": "Player Lookup",
-                "Id": {
-                    "Title": "Player ID",
-                    "Description": "Player ID.",
-                    "Placeholder": "Enter player ID..."
-                },
-                "Lookup": "Lookup"
             }
         },
         "Link": {
@@ -2560,6 +2639,49 @@
                 "Description": "No valid link was found."
             }
         },
+        "Shop": {
+            "Title": "Shop",
+            "Gems": {
+                "Title": "Gems",
+                "NotLoggedIn": "Sign in to see your gems!",
+                "BetaError": {
+                    "Description": "Gems are currently not available to purchase in Sonolus beta."
+                }
+            },
+            "General": {
+                "Title": "General"
+            },
+            "Bundles": {
+                "Title": "Limited Time Bundles"
+            },
+            "Themes": {
+                "Title": "Themes"
+            },
+            "Details": {
+                "Actions": {
+                    "Purchase": "Purchase",
+                    "Preview": "Preview",
+                    "Use": "Use"
+                },
+                "Description": {
+                    "Title": "Description"
+                },
+                "Vip": {
+                    "Description": "VIP gives you ad-free Sonolus experience.\n\nBy purchasing, you will get:\nVIP x{0}"
+                },
+                "NameChange": {
+                    "Description": "Name Change can be used to change your Sonolus profile name.\n\nBy purchasing, you will get:\nName Change x{0}"
+                },
+                "Themes": {
+                    "Bundle": {
+                        "Description": "Personalize your Sonolus UI, profile avatar, and profile banner with this theme, with VIP ad-free Sonolus experience.\n\nBy purchasing, you will get:\n\"{0}\" UI Theme\n\"{1}\" Avatar\n\"{2}\" Avatar Background\n\"{3}\" Banner\nVIP x{4}"
+                    },
+                    "Single": {
+                        "Description": "Personalize your Sonolus UI, profile avatar, and profile banner with this theme.\n\nBy purchasing, you will get:\n\"{0}\" UI Theme\n\"{1}\" Avatar\n\"{2}\" Avatar Background\n\"{3}\" Banner"
+                    }
+                }
+            }
+        },
         "Account": {
             "Title": "Account",
             "MyAccount": {
@@ -2571,13 +2693,18 @@
                 },
                 "Profile": "Profile",
                 "Logout": "Sign out"
+            },
+            "Inventory": {
+                "Title": "Inventory",
+                "NotLoggedIn": "Sign in to see your inventory!"
             }
         },
         "UserProfile": {
             "Home": {
                 "Main": {
                     "EditName": "Edit Name",
-                    "EditAvatar": "Edit Avatar"
+                    "EditAvatar": "Edit Avatar",
+                    "EditBanner": "Edit Banner"
                 },
                 "AboutMe": {
                     "Title": "About Me"
@@ -2589,21 +2716,56 @@
             },
             "EditName": {
                 "Title": "Edit Name",
+                "NoNameChangeError": {
+                    "Description": "You do not have Name Change.\n\nPlease purchase Name Change first and try again."
+                },
                 "Name": {
                     "Title": "Name",
                     "Description": "Player name.",
                     "Placeholder": "Enter player name..."
+                },
+                "Confirmation": {
+                    "Description": "Spending 1 Name Change, continue?"
                 }
             },
             "EditAvatar": {
                 "Title": "Edit Avatar",
+                "Shop": "More avatars available in shop!",
+                "Avatar": {
+                    "Title": "Avatar",
+                    "Description": "Avatar.",
+                    "Default": "Default"
+                },
                 "Foreground": {
                     "Title": "Foreground",
-                    "Description": "Avatar foreground."
+                    "Description": "Avatar foreground.",
+                    "Player": "Player",
+                    "Heart": "Heart",
+                    "Hat": "Hat",
+                    "Fish": "Fish",
+                    "Paw": "Paw"
+                },
+                "ForegroundColor": {
+                    "Title": "Foreground Color",
+                    "Description": "Avatar foreground color."
                 },
                 "Background": {
                     "Title": "Background",
-                    "Description": "Avatar background."
+                    "Description": "Avatar background.",
+                    "Default": "Default"
+                },
+                "BackgroundColor": {
+                    "Title": "Background Color",
+                    "Description": "Avatar background color."
+                }
+            },
+            "EditBanner": {
+                "Title": "Edit Banner",
+                "Shop": "More banners available in shop!",
+                "Banner": {
+                    "Title": "Banner",
+                    "Description": "Banner.",
+                    "None": "None"
                 }
             },
             "EditAboutMe": {
@@ -3929,6 +4091,10 @@
                     "Title": "Always Revalidate",
                     "Description": "Recommend to turn off.\n\nSonolus by default only revalidate online resources after stale. When turned on, online resources are always revalidated before using."
                 },
+                "Manage": "Manage"
+            },
+            "Privacy": {
+                "Title": "Privacy",
                 "Manage": "Manage"
             },
             "Developer": {
