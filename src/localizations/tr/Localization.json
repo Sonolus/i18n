@@ -12,7 +12,7 @@
     "#STORAGE": "Bellek",
     "#LOG": "Günlük",
     "#INQUIRY": "Sorgu",
-    "#BANNER": "Sembol",
+    "#BANNER": "Afiş",
     "#POST": "Gönderi",
     "#PLAYLIST": "Çalma Listesi",
     "#LEVEL": "Seviye",
@@ -559,6 +559,10 @@
     "CopySuccess": {
       "Title": "Kopyalandı"
     },
+    "Gem": "Mücevher",
+    "Vip": "VIP",
+    "NameChange": "İsim Değişikliği",
+    "Owned": "Sahip Olunan",
     "Judgment": "Yargı",
     "Accuracy": "Kesinlik",
     "Grade": "Rapor",
@@ -729,6 +733,23 @@
       "Open": "İzin ver"
     }
   },
+  "Ad": {
+    "PostGame": {
+      "Fallback": {
+        "Shop": "Mağazamızda mevcut!"
+      }
+    },
+    "Tip": {
+      "Message": "Reklamsız bir Sonolus deneyimi istiyor musunuz?\n\nVIP ve Sınırlı Süreli Paketler Mağazamızda mevcut!"
+    }
+  },
+  "Billing": {
+    "GemPurchases": {
+      "Tip": {
+        "Message": "Mücevherleri başarıyla satın aldınız.\n\nElde etmek için Mağazaya gidin!"
+      }
+    }
+  },
   "Themes": {
     "Dark": "Karanlık",
     "Light": "Aydınlık"
@@ -741,10 +762,42 @@
     "ServerVersionTooNewError": "Bu sunucu yalnızca Sonolus' un {0}  sürümünü destekliyor.\n\nLütfen Sonolus uygulamanızı güncelleyin ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
   },
   "Clients": {
+    "Billing": {
+      "GemProducts": {
+        "Loading": "Mücevher ürünleri yükleniyor...",
+        "Error": "Mücevher ürünleri yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+      }
+    },
     "Content": {
       "Info": {
         "Loading": "Sonolus bilgisi yükleniyor...",
         "Error": "Sonolus bilgisi yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+      },
+      "Theme": {
+        "Thumbnail": {
+          "Loading": "Tema önizleme resmi yükleniyor...",
+          "Error": "\"{0}\" tema önizleme resmi yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+        },
+        "Background": {
+          "Loading": "Tema arkaplanı yükleniyor...",
+          "Error": "\"{0}\" tema arkaplanı yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+        },
+        "Avatar": {
+          "Loading": "Tema avatarı yükleniyor...",
+          "Error": "\"{0}\" tema avatarı yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+        },
+        "AvatarBackground": {
+          "Loading": "Tema avatar arkaplanı yükleniyor...",
+          "Error": "\"{0}\" tema avatar arkaplanı yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+        },
+        "Banner": {
+          "Loading": "Tema afişi yükleniyor...",
+          "Error": "\"{0}\" tema afişi yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+        },
+        "MultiplayerBanner": {
+          "Loading": "Tema çok oyunculu afişi yükleniyor...",
+          "Error": "\"{0}\" tema çok oyunculu başlığı yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+        }
       }
     },
     "I18n": {
@@ -779,6 +832,36 @@
           }
         }
       },
+      "UserInfo": {
+        "Loading": "Kullanıcı bilgileri yükleniyor...",
+        "Error": "Kullanıcı bilgileri yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+      },
+      "ClaimGems": {
+        "NotLoggedInError": {
+          "Description": "Mücevherleri başarıyla satın aldınız ancak Sonolus hesabınızla oturum açmadınız.\n\nLütfen önce Sonolus hesabınızla oturum açın ve tekrar deneyin."
+        },
+        "Loading": "Mücevher elde ediliyor...",
+        "Error": "Mücevher elde edilemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
+        "Success": {
+          "Title": "Mücevherler Elde Edildi"
+        }
+      },
+      "Purchase": {
+        "NotLoggedInError": {
+          "Description": "Sonolus hesabınızla oturum açmadınız.\n\nLütfen önce Sonolus hesabınızla oturum açın ve tekrar deneyin."
+        },
+        "NotEnoughGemsError": {
+          "Description": "Yeterli mücevheriniz yok.\n\nLütfen önce daha fazla mücevher satın alın ve tekrar deneyin."
+        },
+        "Confirmation": {
+          "Description": "\"{0}\" satın alınıyor, devam etmek ister misiniz?"
+        },
+        "Loading": "Satın Alınıyor...",
+        "Error": "\"{0}\" satın alınamadı.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
+        "Success": {
+          "Title": "Satın Alındı"
+        }
+      },
       "EditName": {
         "Loading": "İsim düzenleniyor...",
         "Error": "İsmi düzenlemede başarısız olundu.\n\nLütfen isminizin yasal ve karakter uzunluğu limitinde olup olmadığını kontrol edin, ya da internet bağlantınızı kontrol edin ve tekrar deneyin.",
@@ -791,6 +874,13 @@
         "Error": "Avatar düzenlenmede başarısız olundu.\n\nLütfen avatarınızın yasal olup olmadığını kontrol edin, ya da internet bağlantınızı kontrol edin ve tekrar deneyin.",
         "Success": {
           "Title": "Avatar Düzenlendi"
+        }
+      },
+      "EditBanner": {
+        "Loading": "Afiş düzenleniyor...",
+        "Error": "Afişi düzenlemede başarısız olundu\n\nLütfen afişinizin yasal olup olmadığını kontrol edin ya da internet bağlantınızı kontrol edip tekrar deneyin.",
+        "Success": {
+          "Title": "Afiş Düzenlendi"
         }
       },
       "EditAboutMe": {
@@ -862,8 +952,8 @@
           "Error": "\"{0}\" sunucusunun bilgisini yüklemede başarısız olundu.\n\nLütfen sunucu adresinin doğru olup olmadığın kontrol edin, internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
         "Banner": {
-          "Loading": "Sunucu sembolü yükleniyor...",
-          "Error": "\"{0}\" sunucusunun sembolünü yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Loading": "Sunucu afişi yükleniyor...",
+          "Error": "\"{0}\" sunucusunun afişini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         }
       },
       "Post": {
@@ -1592,8 +1682,8 @@
           "Error": "\"{0}\" koleksiyonunun bilgisini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         },
         "Banner": {
-          "Loading": "Koleksiyon sembolü yükleniyor...",
-          "Error": "\"{0}\" koleksiyonunun sembolünü yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+          "Loading": "Koleksiyon afişi yükleniyor...",
+          "Error": "\"{0}\" koleksiyonunun afişini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         }
       },
       "Post": {
@@ -1912,8 +2002,8 @@
           "Error": "\"{0}\" paket bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "Banner": {
-          "Loading": "Paket sembolü yükleniyor...",
-          "Error": "\"{0}\" paket sembolünü yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          "Loading": "Paket afişi yükleniyor...",
+          "Error": "\"{0}\" paket afişini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         }
       },
       "Post": {
@@ -2275,7 +2365,8 @@
     },
     "SelectTheme": {
       "Title": "Tema Seç",
-      "Description": "Tema Seçin:"
+      "Description": "Tema Seçin:",
+      "Shop": "Mağazamızda daha fazla tema mevcut!"
     },
     "SelectClient": {
       "CustomServers": {
@@ -2424,8 +2515,8 @@
         "Placeholder": "Koleksiyon açıklamasını girin..."
       },
       "Banner": {
-        "Title": "Sembol",
-        "Description": "Koleksiyon için isteğe bağlı sembol."
+        "Title": "Afiş",
+        "Description": "Koleksiyon için isteğe bağlı afiş."
       }
     },
     "ImportScp": {
@@ -2514,7 +2605,7 @@
     "Home": {
       "Title": "Ana Menü",
       "Play": "Oyna",
-      "Players": "Oyuncular",
+      "Shop": "Mağaza",
       "Account": "Hesap",
       "Link": "Bağlantı",
       "About": "Hakkında",
@@ -2523,18 +2614,6 @@
         "Title": "Güncelleme Var",
         "Description": "Sonolus' un {0} sürümü çıktı!\n\nWeb sitemizi ziyaret edin:\nhttps://sonolus.com",
         "Open": "Aç"
-      }
-    },
-    "Players": {
-      "Title": "Oyuncular",
-      "PlayerLookup": {
-        "Title": "Oyuncu Arama",
-        "Id": {
-          "Title": "Oyuncu Kimliği",
-          "Description": "Oyuncu Kimliği.",
-          "Placeholder": "Oyuncu kimliğini girin..."
-        },
-        "Lookup": "Ara"
       }
     },
     "Link": {
@@ -2560,6 +2639,49 @@
         "Description": "Geçerli bir bağlantı bulunamadı."
       }
     },
+    "Shop": {
+      "Title": "Mağaza",
+      "Gems": {
+        "Title": "Mücevherler",
+        "NotLoggedIn": "Mücevherlerinizi görmek için giriş yapın!",
+        "BetaError": {
+          "Description": "Mücevherler, Sonolus' un beta süresince satın almada mevcut değil."
+        }
+      },
+      "General": {
+        "Title": "Genel"
+      },
+      "Bundles": {
+        "Title": "Sınırlı Süreli Paketler"
+      },
+      "Themes": {
+        "Title": "Temalar"
+      },
+      "Details": {
+        "Actions": {
+          "Purchase": "Satın Al",
+          "Preview": "Önizleme",
+          "Use": "Kullan"
+        },
+        "Description": {
+          "Title": "Açıklama"
+        },
+        "Vip": {
+          "Description": "VIP size reklamsız bir Sonolus deneyimi sunar.\n\nSatın alarak şunları elde edersiniz:\nVIP x{0}"
+        },
+        "NameChange": {
+          "Description": "İsim Değişikliği, Sonolus profil isminizi değiştirmek için kullanılabilir.\n\nSatın alarak şunları elde edeceksiniz:\nİsim Değişikliği x{0}"
+        },
+        "Themes": {
+          "Bundle": {
+            "Description": "Bu temayla Sonolus kullanıcı arayüzünüzü, profil avatarınızı ve profil afişinizi kişiselleştirin ve VIP reklamsız Sonolus deneyimi yaşayın.\n\nSatın alarak şunları elde edeceksiniz:\n\"{0}\" Arayüz Teması\n\"{1}\" Avatar\n\"{2}\" Avatar Arkaplanı\n\"{3}\" Afiş\nVIP x{4}"
+          },
+          "Single": {
+            "Description": "Bu tema ile Sonolus kullanıcı arayüzünüzü, profil avatarınızı ve profil afişinizi kişiselleştirin.\n\nSatın alarak şunları elde edeceksiniz:\n\"{0}\" Arayüz Teması\n\"{1}\" Avatar\n\"{2}\" Avatar Arkaplanı\n\"{3}\" Afiş"
+          }
+        }
+      }
+    },
     "Account": {
       "Title": "Hesap",
       "MyAccount": {
@@ -2571,13 +2693,18 @@
         },
         "Profile": "Profil",
         "Logout": "Oturumu Kapat"
+      },
+      "Inventory": {
+        "Title": "Envanter",
+        "NotLoggedIn": "Envanterinizi görmek için giriş yapın!"
       }
     },
     "UserProfile": {
       "Home": {
         "Main": {
           "EditName": "İsmini Düzenle",
-          "EditAvatar": "Avatarını Düzenle"
+          "EditAvatar": "Avatarını Düzenle",
+          "EditBanner": "Afişi Düzenle"
         },
         "AboutMe": {
           "Title": "Hakkımda"
@@ -2589,21 +2716,56 @@
       },
       "EditName": {
         "Title": "İsmi Düzenle",
+        "NoNameChangeError": {
+          "Description": "\"İsim Değişikliği\"niz yok.\n\nLütfen önce \"İsim Değişikliği\"ni satın alın ve tekrar deneyin."
+        },
         "Name": {
           "Title": "İsim",
           "Description": "Oyuncu ismi.",
           "Placeholder": "Oyuncu ismi girin..."
+        },
+        "Confirmation": {
+          "Description": "1 İsim Değişikliği harcanacak, devam etmek ister misiniz?"
         }
       },
       "EditAvatar": {
         "Title": "Avatarı Düzenle",
+        "Shop": "Mağazada daha fazla avatarlar mevcut!",
+        "Avatar": {
+          "Title": "Avatar",
+          "Description": "Avatar.",
+          "Default": "Varsayılan"
+        },
         "Foreground": {
           "Title": "Önplan",
-          "Description": "Avatar önplanı."
+          "Description": "Avatar önplanı.",
+          "Player": "Oyuncu",
+          "Heart": "Kalp",
+          "Hat": "Şapka",
+          "Fish": "Balık",
+          "Paw": "Pati"
+        },
+        "ForegroundColor": {
+          "Title": "Önplan Rengi",
+          "Description": "Avatar önplan rengi."
         },
         "Background": {
           "Title": "Arkaplan",
-          "Description": "Avatar arkaplanı."
+          "Description": "Avatar arkaplanı.",
+          "Default": "Varsayılan"
+        },
+        "BackgroundColor": {
+          "Title": "Arkaplan Rengi",
+          "Description": "Avatar arkaplan rengi."
+        }
+      },
+      "EditBanner": {
+        "Title": "Afişi Düzenle",
+        "Shop": "Mağazada daha fazla afişler mevcut!",
+        "Banner": {
+          "Title": "Afiş",
+          "Description": "Afiş.",
+          "None": "Hiçbiri"
         }
       },
       "EditAboutMe": {
@@ -3930,6 +4092,10 @@
           "Description": "Kapatılması önerilir.\n\nSonolus, varsayılan olarak  çevrimiçi kaynakları yalnızca eskidikten sonra yeniden doğrular. Bu ayar açıldığında, çevrimiçi kaynaklar kullanılmadan önce her zaman yeniden doğrulanır."
         },
         "Manage": "Ayarla"
+      },
+      "Privacy": {
+        "Title": "Gizlilik",
+        "Manage": "Yönetin"
       },
       "Developer": {
         "Title": "Yapımcı",
