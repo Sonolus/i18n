@@ -559,6 +559,10 @@
     "CopySuccess": {
       "Title": "Copié"
     },
+    "Gem": "Gemme",
+    "Vip": "VIP",
+    "NameChange": "Changement de Nom",
+    "Owned": "Possédé",
     "Judgment": "Jugement",
     "Accuracy": "Précision",
     "Grade": "Grade",
@@ -729,6 +733,23 @@
       "Open": "Ouvrir"
     }
   },
+  "Ad": {
+    "PostGame": {
+      "Fallback": {
+        "Shop": "Disponible en boutique !"
+      }
+    },
+    "Tip": {
+      "Message": "Envie d'une expérience Sonolus sans publicité ?\n\nOffres VIP et Offres à Durée Limitée disponibles dans la boutique !"
+    }
+  },
+  "Billing": {
+    "GemPurchases": {
+      "Tip": {
+        "Message": "Vous avez acheté des gemmes avec succès.\n\nRendez-vous dans la boutique pour les récupérer !"
+      }
+    }
+  },
   "Themes": {
     "Dark": "Sombre",
     "Light": "Clair"
@@ -736,15 +757,47 @@
   "Web": {
     "InternetConnectionError": "Aucune connexion Internet.\nVeuillez vérifier votre connexion Internet et l'autorisation de Sonolus pour accéder à Internet, et réessayer.",
     "ServerConnectionError": "Échec de la connexion au serveur.\nVérifiez si l'adresse du serveur est correcte, vérifiez la connexion Internet et réessayez, ou contactez le propriétaire du serveur pour signaler le problème.",
-    "ServerHttpError": "Réponse du serveur : {0}",
+    "ServerHttpError": "Réponse du serveur: {0}",
     "ServerVersionTooOldError": "Ce serveur ne prend en charge qu'une ancienne version de Sonolus ({0}).\nVeuillez attendre que le serveur soit mis à jour ou contacter le propriétaire du serveur pour signaler le problème.",
     "ServerVersionTooNewError": "Ce serveur ne prend en charge que la version Sonolus {0}.\n\nVeuillez mettre à jour votre application Sonolus ou contacter le propriétaire du serveur pour signaler le problème."
   },
   "Clients": {
+    "Billing": {
+      "GemProducts": {
+        "Loading": "Chargement des articles en gemmes…",
+        "Error": "Échec du chargement des articles en gemmes.\n\nVeuillez vérifier votre connexion Internet et réessayer."
+      }
+    },
     "Content": {
       "Info": {
         "Loading": "Chargement des Infos de Sonolus…",
         "Error": "Échec du chargement des infos de Sonolus.\n\nVeuillez vérifier votre connexion Internet et réessayer."
+      },
+      "Theme": {
+        "Thumbnail": {
+          "Loading": "Chargement de la miniature du thème…",
+          "Error": "Échec du chargement de la miniature du thème \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer."
+        },
+        "Background": {
+          "Loading": "Chargement de l'arrière-plan du thème…",
+          "Error": "Échec du chargement de l'arrière-plan du thème \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer."
+        },
+        "Avatar": {
+          "Loading": "Chargement de l'avatar du thème…",
+          "Error": "Échec du chargement de l'avatar du thème \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer."
+        },
+        "AvatarBackground": {
+          "Loading": "Chargement de l'arrière-plan de l'avatar du thème…",
+          "Error": "Échec du chargement de l'arrière-plan de l'avatar du thème \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer."
+        },
+        "Banner": {
+          "Loading": "Chargement de la bannière du thème…",
+          "Error": "Échec du chargement de la bannière du thème \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer."
+        },
+        "MultiplayerBanner": {
+          "Loading": "Chargement de la bannière multijoueur du thème…",
+          "Error": "Échec du chargement de la bannière multijoueur du thème \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer."
+        }
       }
     },
     "I18n": {
@@ -779,6 +832,36 @@
           }
         }
       },
+      "UserInfo": {
+        "Loading": "Chargement des informations utilisateur…",
+        "Error": "Échec du chargement des informations utilisateur.\n\nVeuillez vérifier votre connexion Internet et réessayer."
+      },
+      "ClaimGems": {
+        "NotLoggedInError": {
+          "Description": "Vous avez acheté des gemmes, mais vous n'êtes pas connecté à un compte Sonolus.\n\nVeuillez d'abord vous connecter à votre compte Sonolus, puis réessayer."
+        },
+        "Loading": "Récupération des gemmes…",
+        "Error": "Échec de la récupération des gemmes.\n\nVeuillez vérifier votre connexion Internet et réessayer.",
+        "Success": {
+          "Title": "Gemmes Récupérés"
+        }
+      },
+      "Purchase": {
+        "NotLoggedInError": {
+          "Description": "Vous n'êtes pas connecté à un compte Sonolus.\n\nVeuillez d'abord vous connecter à votre compte Sonolus, puis réessayer."
+        },
+        "NotEnoughGemsError": {
+          "Description": "Vous n'avez pas assez de gemmes.\n\nVeuillez d'abord acheter plus de gemmes et réessayer."
+        },
+        "Confirmation": {
+          "Description": "Achat de \"{0}\", continuer ?"
+        },
+        "Loading": "Achat...",
+        "Error": "Échec de l'achat de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer.",
+        "Success": {
+          "Title": "Acheté"
+        }
+      },
       "EditName": {
         "Loading": "Modification du nom…",
         "Error": "Échec de la modification du nom.\n\nVeuillez vérifier si votre nom est légal et dans la limite de longueur, ou vérifiez votre connexion Internet et réessayez.",
@@ -791,6 +874,13 @@
         "Error": "Échec de la modification de l'avatar.\n\nVeuillez vérifier si votre avatar est légal ou vérifiez votre connexion Internet et réessayez.",
         "Success": {
           "Title": "Avatar modifié"
+        }
+      },
+      "EditBanner": {
+        "Loading": "Modification de la bannière…",
+        "Error": "Échec de la modification de la bannière.\n\nVeuillez vérifier la légalité de votre bannière ou vérifier votre connexion Internet et réessayer.",
+        "Success": {
+          "Title": "Bannière Modifiée"
         }
       },
       "EditAboutMe": {
@@ -840,7 +930,7 @@
           "Error": "Échec de la connexion à \"{0}\"."
         },
         "AutoLogin": {
-          "Description": "Souhaitez-vous vous connecter automatiquement lorsque vous visitez ce serveur ?"
+          "Description": "Souhaitez-vous vous connecter automatiquement lorsque vous visitez ce serveur ?"
         }
       },
       "Multiplayer": {
@@ -2248,7 +2338,7 @@
         "Description": "Vous n'êtes pas connecté à un compte Sonolus.\n\nVeuillez d'abord vous connecter à votre compte Sonolus et réessayer."
       },
       "Confirmation": {
-        "Description": "Vous allez vous connecter au service externe :\n{0}\n\nSe connecter en tant que \"{1}\" ?"
+        "Description": "Vous allez vous connecter au service externe:\n{0}\n\nSe connecter en tant que \"{1}\" ?"
       },
       "Login": {
         "Loading": "Connexion…",
@@ -2270,12 +2360,13 @@
     },
     "SelectLocalization": {
       "Title": "Choisir la Langue",
-      "Description": "Sélectionnez une langue préférée :",
+      "Description": "Sélectionnez votre langue préférée:",
       "Error": "Échec du chargement des langues."
     },
     "SelectTheme": {
       "Title": "Sélectionne un Thème",
-      "Description": "Sélectionnez un thème :"
+      "Description": "Sélectionnez un thème:",
+      "Shop": "Plus de thèmes disponibles en boutique !"
     },
     "SelectClient": {
       "CustomServers": {
@@ -2294,7 +2385,7 @@
     "Selects": {
       "ToPlay": {
         "Title": "Jouer",
-        "Description": "Sélectionnez un serveur ou une collection personnalisée pour commencer à jouer."
+        "Description": "Sélectionnez un serveur personnalisé ou une collection pour commencer à jouer."
       },
       "ToSave": {
         "Title": "Enregistrer vos Favoris",
@@ -2509,12 +2600,12 @@
     "CalibrateInput": {
       "Title": "Calibrer les Touches",
       "Description": "Calibrez les entrées taclitles en appuyant avec votre doigt. Veuillez d'abord vous assurer que votre décalage audio est correctement calibré.\nSi vous êtes habitué aux jeux qui n'offrent pas cette option, vous pouvez le laisser à 0.",
-      "Result": "Décalage Recommandé : {0} (±{1})"
+      "Result": "Décalage Recommandé: {0} (±{1})"
     },
     "Home": {
       "Title": "Acceuil",
       "Play": "Jouer",
-      "Players": "Joueurs",
+      "Shop": "Boutique",
       "Account": "Compte",
       "Link": "Lien",
       "About": "À Propos",
@@ -2523,18 +2614,6 @@
         "Title": "Mise à Jour Disponible",
         "Description": "La version Sonolus {0} est disponible !\n\nVisitez notre site Internet:\nhttps://sonolus.com",
         "Open": "Ouvrir"
-      }
-    },
-    "Players": {
-      "Title": "Joueurs",
-      "PlayerLookup": {
-        "Title": "Recherche de Joueur",
-        "Id": {
-          "Title": "ID du Joueur",
-          "Description": "ID du joueur.",
-          "Placeholder": "Entrez l'ID du joueur…"
-        },
-        "Lookup": "Chercher"
       }
     },
     "Link": {
@@ -2554,10 +2633,53 @@
         "Open": "Ouvrir"
       },
       "NotDeepLink": {
-        "Description": "Le lien \"{0}\" n'est pas un lien « sonolus://… ».\n\nVoulez-vous l'ouvrir en tant que serveur personnalisé ?"
+        "Description": "Le lien \"{0}\" n'est pas un lien \"sonolus://…\".\n\nVoulez-vous l'ouvrir en tant que serveur personnalisé ?"
       },
       "LinkError": {
         "Description": "Aucun lien valide n'a été trouvé."
+      }
+    },
+    "Shop": {
+      "Title": "Boutique",
+      "Gems": {
+        "Title": "Gemmes",
+        "NotLoggedIn": "Connectez-vous pour voir vos gemmes !",
+        "BetaError": {
+          "Description": "Les gemmes ne peuvent actuellement pas être acheté dans la version bêta de Sonolus."
+        }
+      },
+      "General": {
+        "Title": "Général"
+      },
+      "Bundles": {
+        "Title": "Lots à durée limitée"
+      },
+      "Themes": {
+        "Title": "Thèmes"
+      },
+      "Details": {
+        "Actions": {
+          "Purchase": "Acheter",
+          "Preview": "Prévisualiser",
+          "Use": "Utiliser"
+        },
+        "Description": {
+          "Title": "Description"
+        },
+        "Vip": {
+          "Description": "VIP vous offre une expérience Sonolus sans publicité.\n\nEn achetant, vous recevrez:\nVIP x{0}"
+        },
+        "NameChange": {
+          "Description": "Le Renommage permet de modifier le nom de votre profil Sonolus.\n\nEn achetant vous recevrez:\nRenommage x{0}"
+        },
+        "Themes": {
+          "Bundle": {
+            "Description": "Personnalisez votre interface utilisateur, votre avatar et votre bannière Sonolus avec ce thème, plus une expérience Sonolus VIP sans publicité.\n\nEn achetant, vous recevrez:\nThème d'interface utilisateur \"{0}\"\nAvatar \"{1}\"\nArrière-plan d'avatar \"{2}\"\nBannière \"{3}\"\nVIP x{4}"
+          },
+          "Single": {
+            "Description": "Personnalisez votre interface utilisateur Sonolus, votre avatar et votre bannière de profil avec ce thème.\n\nEn achetant, vous recevrez:\nThème d'interface utilisateur \"{0}\"\nAvatar \"{1}\"\nArrière-plan d'avatar \"{2}\"\nBannière \"{3}\""
+          }
+        }
       }
     },
     "Account": {
@@ -2571,13 +2693,18 @@
         },
         "Profile": "Profil",
         "Logout": "Déconnexion"
+      },
+      "Inventory": {
+        "Title": "Inventaire",
+        "NotLoggedIn": "Connectez-vous pour voir votre inventaire !"
       }
     },
     "UserProfile": {
       "Home": {
         "Main": {
           "EditName": "Modifier le Nom",
-          "EditAvatar": "Modifier l'Avatar"
+          "EditAvatar": "Modifier l'Avatar",
+          "EditBanner": "Modifier la Bannière"
         },
         "AboutMe": {
           "Title": "À Propos de Moi"
@@ -2589,21 +2716,56 @@
       },
       "EditName": {
         "Title": "Modifier le Nom",
+        "NoNameChangeError": {
+          "Description": "Vous n'avez pas de Renommage.\n\nVeuillez d'abord acheter un Renommage, puis réessayer."
+        },
         "Name": {
           "Title": "Nom",
           "Description": "Nom du joueur.",
           "Placeholder": "Entrez le nom de votre compte…"
+        },
+        "Confirmation": {
+          "Description": "Dépenser 1 Renommage, continuer ?"
         }
       },
       "EditAvatar": {
         "Title": "Modifier l'Avatar",
+        "Shop": "Plus d'avatars disponibles dans la boutique !",
+        "Avatar": {
+          "Title": "Avatar",
+          "Description": "Avatar.",
+          "Default": "Défaut"
+        },
         "Foreground": {
           "Title": "Premier plan",
-          "Description": "Premier plan de l'avatar"
+          "Description": "Premier plan de l'avatar",
+          "Player": "Joueur",
+          "Heart": "Cœur",
+          "Hat": "Chapeau",
+          "Fish": "Poisson",
+          "Paw": "Patte"
+        },
+        "ForegroundColor": {
+          "Title": "Couleur de Premier Plan",
+          "Description": "Couleur de premier plan de l'avatar."
         },
         "Background": {
           "Title": "Arrière-plan",
-          "Description": "Arrière-plan de l'avatar."
+          "Description": "Arrière-plan de l'avatar.",
+          "Default": "Défaut"
+        },
+        "BackgroundColor": {
+          "Title": "Couleur d'Arrière-plan ",
+          "Description": "Couleur d'arrière-plan de l'avatar."
+        }
+      },
+      "EditBanner": {
+        "Title": "Modifier la Bannière",
+        "Shop": "Plus de bannières disponibles en boutique !",
+        "Banner": {
+          "Title": "Bannière",
+          "Description": "Bannière.",
+          "None": "Aucune"
         }
       },
       "EditAboutMe": {
@@ -2616,7 +2778,7 @@
       },
       "AddFavorite": {
         "Title": "Ajouter un Favori",
-        "Description": "Sélectionnez le type de favori à ajouter :",
+        "Description": "Sélectionnez le type de favori à ajouter:",
         "Post": "Publication",
         "Playlist": "Playlist",
         "Level": "Niveau",
@@ -2639,7 +2801,7 @@
       },
       "Translation": {
         "Title": "Traduction",
-        "Description": "Aidez-nous à traduire Sonolus dans votre langue !\nhttps://github.com/Sonolus/i18n\n\nMerci à tous les contributeurs :"
+        "Description": "Aidez-nous à traduire Sonolus dans votre langue !\nhttps://github.com/Sonolus/i18n\n\nMerci à tous les contributeurs:"
       }
     },
     "Server": {
@@ -3538,7 +3700,7 @@
           "Description": "Etes-vous sûr de vouloir quitter la salle ?"
         },
         "Tip": {
-          "Message": "Astuce : basculer entre les onglets"
+          "Message": "Astuce: basculer entre les onglets"
         },
         "Play": {
           "Options": {
@@ -3678,7 +3840,7 @@
             "RemovedFromBlacklistSuccess": "Joueur débloqué",
             "Report": {
               "Title": "Signaler le Joueur",
-              "Description": "Signaler le joueur {0} :",
+              "Description": "Signaler le joueur {0}:",
               "Success": "Joueur signalé"
             }
           }
@@ -3931,6 +4093,10 @@
         },
         "Manage": "Gérer"
       },
+      "Privacy": {
+        "Title": "Confidentialité",
+        "Manage": "Gérer"
+      },
       "Developer": {
         "Title": "Développeur",
         "ShowFps": {
@@ -3964,7 +4130,7 @@
       "Repository": {
         "Title": "Répertoire",
         "Description": "Le répertoire stocke toutes les ressources disponibles localement sur cet appareil.",
-        "Size": "Taille : {0}"
+        "Size": "Taille: {0}"
       },
       "RepairRepository": {
         "Title": "Réparer le Répertoire",
@@ -3993,7 +4159,7 @@
       "Cache": {
         "Title": "Cache",
         "Description": "Le cache permet à Sonolus d'accélérer le chargement des requêtes réseau et de réduire l'utilisation de la bande passante, en mémorisant les URL du réseau et les ressources du répertoire local auxquelles elles sont associées.\nLe cache occupe une très petite quantité de stockage. Il n'est donc pas recommandé de le supprimer.",
-        "Count": "Cache : {0} entrées"
+        "Count": "Cache: {0} entrées"
       },
       "ExpireCache": {
         "Title": "Expirer le Cache",
