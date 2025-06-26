@@ -559,6 +559,10 @@
     "CopySuccess": {
       "Title": "복사됨"
     },
+    "Gem": "보석",
+    "Vip": "VIP",
+    "NameChange": "이름 변경권",
+    "Owned": "소유함",
     "Judgment": "판정",
     "Accuracy": "정확도",
     "Grade": "등급",
@@ -729,6 +733,23 @@
       "Open": "열기"
     }
   },
+  "Ad": {
+    "PostGame": {
+      "Fallback": {
+        "Shop": "상점에서 사용 가능!"
+      }
+    },
+    "Tip": {
+      "Message": "Sonolus에서 광고를 없애고 싶으십니까?\n\n상점에서 VIP 및 한정 시간 묶음이 사용 가능합니다!"
+    }
+  },
+  "Billing": {
+    "GemPurchases": {
+      "Tip": {
+        "Message": "보석을 성공적으로 구매했습니다.\n\n상점으로 이동하여 수령하십시오!"
+      }
+    }
+  },
   "Themes": {
     "Dark": "다크",
     "Light": "라이트"
@@ -741,10 +762,42 @@
     "ServerVersionTooNewError": "이 서버는 {0} 버전의 Sonolus만 지원합니다.\n\nSonolus를 업데이트하거나 서버 소유자에게 문의해 주십시오."
   },
   "Clients": {
+    "Billing": {
+      "GemProducts": {
+        "Loading": "보석 제품 불러오는 중...",
+        "Error": "보석 제품을 불러올 수 없습니다.\n\n인터넷 연결을 확인 후 재시도해 주십시오."
+      }
+    },
     "Content": {
       "Info": {
         "Loading": "Sonolus 정보 불러오는 중...",
         "Error": "Sonolus 정보를 불러올 수 없습니다.\n\n인터넷 연결을 확인 후 재시도해 주십시오."
+      },
+      "Theme": {
+        "Thumbnail": {
+          "Loading": "테마 섬네일 불러오는 중...",
+          "Error": "\"{0}\"의 테마 섬네일을 불러올 수 없습니다.\n\n인터넷 연결을 확인 후 재시도해 주십시오."
+        },
+        "Background": {
+          "Loading": "테마 배경 불러오는 중...",
+          "Error": "\"{0}\"의 테마 배경을 불러올 수 없습니다.\n\n인터넷 연결을 확인 후 재시도해 주십시오."
+        },
+        "Avatar": {
+          "Loading": "테마 아바타 불러오는 중...",
+          "Error": "\"{0}\"의 테마 아바타를 불러올 수 없습니다.\n\n인터넷 연결을 확인 후 재시도해 주십시오."
+        },
+        "AvatarBackground": {
+          "Loading": "테마 아바타 배경 불러오는 중...",
+          "Error": "\"{0}\"의 테마 아바타 배경을 불러올 수 없습니다.\n\n인터넷 연결을 확인 후 재시도해 주십시오."
+        },
+        "Banner": {
+          "Loading": "테마 배너 불러오는 중...",
+          "Error": "\"{0}\"의 테마 배너를 불러올 수 없습니다.\n\n인터넷 연결을 확인 후 재시도해 주십시오."
+        },
+        "MultiplayerBanner": {
+          "Loading": "테마 멀티플레이 배너 불러오는 중...",
+          "Error": "\"{0}\"의 멀티플레이 배너를 불러올 수 없습니다.\n\n인터넷 연결을 확인 후 재시도해 주십시오."
+        }
       }
     },
     "I18n": {
@@ -779,6 +832,36 @@
           }
         }
       },
+      "UserInfo": {
+        "Loading": "유저 정보 불러오는 중...",
+        "Error": "유저 정보를 불러올 수 없습니다.\n\n인터넷 연결을 확인 후 재시도해 주십시오."
+      },
+      "ClaimGems": {
+        "NotLoggedInError": {
+          "Description": "보석을 성공적으로 구매했으나 Sonolus 계정에 로그인되어 있지 않습니다.\n\n먼저 Sonolus 계정으로 로그인 후 재시도해 주십시오."
+        },
+        "Loading": "보석 수령 중...",
+        "Error": "보석을 수령할 수 없습니다.\n\n인터넷 연결을 확인 후 재시도해 주십시오.",
+        "Success": {
+          "Title": "보석 수령됨"
+        }
+      },
+      "Purchase": {
+        "NotLoggedInError": {
+          "Description": "Sonolus 계정에 로그인되어 있지 않습니다.\n\n먼저 Sonolus 계정으로 로그인 후 재시도해 주십시오."
+        },
+        "NotEnoughGemsError": {
+          "Description": "보석이 충분하지 않습니다.\n\n먼저 보석을 더 구매 후 재시도해 주십시오."
+        },
+        "Confirmation": {
+          "Description": "\"{0}\" 제품을 구매합니다. 계속하시겠습니까?"
+        },
+        "Loading": "구매 중...",
+        "Error": "\"{0}\" 제품을 구매할 수 없습니다.\n\n인터넷 연결을 확인 후 재시도해 주십시오.",
+        "Success": {
+          "Title": "구매됨"
+        }
+      },
       "EditName": {
         "Loading": "이름을 수정하는 중...",
         "Error": "이름을 수정할 수 없습니다.\n\n이름이 규정 및 길이 제한을 준수하는지 확인하거나 인터넷 연결을 확인 후 재시도해 주십시오.",
@@ -791,6 +874,13 @@
         "Error": "프로필 사진을 수정할 수 없습니다.\n\n프로필 사진이 잘못되었는지 확인하거나 인터넷 연결을 확인 후 재시도해 주십시오.",
         "Success": {
           "Title": "프로필 사진 수정됨"
+        }
+      },
+      "EditBanner": {
+        "Loading": "배너 편집 중...",
+        "Error": "배너를 편집할 수 없습니다.\n\n배너가 규정을 준수하는지, 또는 인터넷 연결을 확인 후 재시도해 주십시오.",
+        "Success": {
+          "Title": "배너 편집됨"
         }
       },
       "EditAboutMe": {
@@ -2275,7 +2365,8 @@
     },
     "SelectTheme": {
       "Title": "테마 선택",
-      "Description": "테마 선택:"
+      "Description": "테마 선택:",
+      "Shop": "상점에서 더 많은 테마를 사용할 수 있습니다!"
     },
     "SelectClient": {
       "CustomServers": {
@@ -2514,7 +2605,7 @@
     "Home": {
       "Title": "홈",
       "Play": "플레이",
-      "Players": "플레이어",
+      "Shop": "상점",
       "Account": "계정",
       "Link": "링크",
       "About": "소개",
@@ -2523,18 +2614,6 @@
         "Title": "업데이트 가능",
         "Description": "{0} 버전의 Sonolus를 이용할 수 있습니다!\n\n웹사이트에서 확인하기:\nhttps://sonolus.com",
         "Open": "열기"
-      }
-    },
-    "Players": {
-      "Title": "플레이어",
-      "PlayerLookup": {
-        "Title": "플레이어 검색",
-        "Id": {
-          "Title": "플레이어 ID",
-          "Description": "플레이어 ID.",
-          "Placeholder": "플레이어 ID 입력..."
-        },
-        "Lookup": "검색"
       }
     },
     "Link": {
@@ -2560,6 +2639,49 @@
         "Description": "유효한 링크를 찾을 수 없습니다."
       }
     },
+    "Shop": {
+      "Title": "상점",
+      "Gems": {
+        "Title": "보석",
+        "NotLoggedIn": "로그인하여 보석을 확인하십시오!",
+        "BetaError": {
+          "Description": "현재 Sonolus 베타에서는 보석을 구매할 수 없습니다."
+        }
+      },
+      "General": {
+        "Title": "일반"
+      },
+      "Bundles": {
+        "Title": "한정 시간 묶음"
+      },
+      "Themes": {
+        "Title": "테마"
+      },
+      "Details": {
+        "Actions": {
+          "Purchase": "구매",
+          "Preview": "미리보기",
+          "Use": "사용"
+        },
+        "Description": {
+          "Title": "설명"
+        },
+        "Vip": {
+          "Description": "VIP는 귀하에게 광고 없는 Sonolus 경험을 제공합니다.\n\n구매하면 다음을 얻습니다.\nVIP {0}개"
+        },
+        "NameChange": {
+          "Description": "이름 변경권을 사용하여 귀하의 Sonolus 프로필 이름을 변경할 수 있습니다.\n\n구매하면 다음을 얻습니다.\n이름 변경권 {0}개"
+        },
+        "Themes": {
+          "Bundle": {
+            "Description": "이 테마로 Sonolus의 UI, 프로필 아바타, 배너를 꾸미고, 광고 없는 VIP Sonolus 경험을 누려보십시오.\n\n구매하면 다음을 얻습니다.\n\"{0}\" UI 테마\n\"{1}\" 아바타\n\"{2}\" 아바타 배경\n\"{3}\" 배너\nVIP {4}개"
+          },
+          "Single": {
+            "Description": "이 테마로 Sonolus의 UI, 프로필 아바타, 배너를 꾸며 보십시오.\n\n구매하면 다음을 얻습니다.\n\"{0}\" UI 테마\n\"{1}\" 아바타\n\"{2}\" 아바타 배경\n\"{3}\" 배너"
+          }
+        }
+      }
+    },
     "Account": {
       "Title": "계정",
       "MyAccount": {
@@ -2571,13 +2693,18 @@
         },
         "Profile": "프로필",
         "Logout": "로그아웃"
+      },
+      "Inventory": {
+        "Title": "인벤토리",
+        "NotLoggedIn": "로그인하여 인벤토리를 확인하십시오!"
       }
     },
     "UserProfile": {
       "Home": {
         "Main": {
           "EditName": "이름 수정",
-          "EditAvatar": "프로필 사진 수정"
+          "EditAvatar": "프로필 사진 수정",
+          "EditBanner": "배너 편집"
         },
         "AboutMe": {
           "Title": "내 소개"
@@ -2589,21 +2716,56 @@
       },
       "EditName": {
         "Title": "이름 수정",
+        "NoNameChangeError": {
+          "Description": "이름 변경권이 없습니다.\n\n먼저 이름 변경권을 구매 후 재시도해 주십시오."
+        },
         "Name": {
           "Title": "이름",
           "Description": "플레이어 이름.",
           "Placeholder": "플레이어 이름 입력..."
+        },
+        "Confirmation": {
+          "Description": "이름 변경권을 1개 소비합니다. 계속하시겠습니까?"
         }
       },
       "EditAvatar": {
         "Title": "프로필 사진 수정",
+        "Shop": "상점에서 더 많은 아바타를 사용할 수 있습니다!",
+        "Avatar": {
+          "Title": "아바타",
+          "Description": "아바타입니다.",
+          "Default": "기본"
+        },
         "Foreground": {
           "Title": "전경",
-          "Description": "아바타 전경."
+          "Description": "아바타 전경.",
+          "Player": "플레이어",
+          "Heart": "하트",
+          "Hat": "모자",
+          "Fish": "물고기",
+          "Paw": "젤리"
+        },
+        "ForegroundColor": {
+          "Title": "전경 색",
+          "Description": "아바타의 전경 색상입니다."
         },
         "Background": {
           "Title": "배경",
-          "Description": "아바타 배경."
+          "Description": "아바타 배경.",
+          "Default": "기본"
+        },
+        "BackgroundColor": {
+          "Title": "배경 색",
+          "Description": "아바타의 배경 색상입니다."
+        }
+      },
+      "EditBanner": {
+        "Title": "배너 편집",
+        "Shop": "상점에서 더 많은 배너를 사용할 수 있습니다!",
+        "Banner": {
+          "Title": "배너",
+          "Description": "배너입니다.",
+          "None": "없음"
         }
       },
       "EditAboutMe": {
@@ -3929,6 +4091,10 @@
           "Title": "항상 재검증",
           "Description": "끄는 것이 좋습니다.\n\nSonolus는 기본적으로 리소스가 오래된 후에만 재검증을 합니다. 이 기능을 켜면 리소스를 사용하기 전에 항상 재검증하게 됩니다."
         },
+        "Manage": "관리"
+      },
+      "Privacy": {
+        "Title": "개인정보",
         "Manage": "관리"
       },
       "Developer": {
