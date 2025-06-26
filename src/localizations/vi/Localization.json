@@ -559,6 +559,10 @@
     "CopySuccess": {
       "Title": "Đã sao chép"
     },
+    "Gem": "Đá quý",
+    "Vip": "VIP",
+    "NameChange": "Lượt Đổi tên",
+    "Owned": "Đã sở hữu",
     "Judgment": "Phán xét",
     "Accuracy": "Độ chính xác",
     "Grade": "Cấp",
@@ -729,6 +733,23 @@
       "Open": "Mở"
     }
   },
+  "Ad": {
+    "PostGame": {
+      "Fallback": {
+        "Shop": "Có sẵn trong Cửa hàng!"
+      }
+    },
+    "Tip": {
+      "Message": "Bạn muốn trải nghiệm không có quảng cáo trong Sonolus?\n\nVIP và gói thời gian giới hạn đang có sẵn trong Cửa hàng!"
+    }
+  },
+  "Billing": {
+    "GemPurchases": {
+      "Tip": {
+        "Message": "Bạn đã mua đá quý thành công.\n\nĐi tới Cửa hàng để nhận lấy!"
+      }
+    }
+  },
   "Themes": {
     "Dark": "Tối",
     "Light": "Sáng"
@@ -741,10 +762,42 @@
     "ServerVersionTooNewError": "Máy chủ này chỉ hỗ trợ phiên bản Sonolus {0}.\n\nVui lòng cập nhật ứng dụng Sonolus của bạn hoặc liên hệ với chủ sở hữu máy chủ để báo cáo sự cố."
   },
   "Clients": {
+    "Billing": {
+      "GemProducts": {
+        "Loading": "Đang tải vật phẩm đá quý...",
+        "Error": "Không thể tải vật phẩm đá quý.\n\nVui lòng kiểm tra kết nối internet và thử lại."
+      }
+    },
     "Content": {
       "Info": {
         "Loading": "Đang tải thông tin Sonolus...",
         "Error": "Không tải được thông tin Sonolus.\n\nVui lòng kiểm tra kết nối internet của bạn và thử lại."
+      },
+      "Theme": {
+        "Thumbnail": {
+          "Loading": "Đang tải chủ đề ảnh thu nhỏ...",
+          "Error": "Không thể tải chủ đề ảnh thu nhỏ của \"{0}\".\n\nVui lòng kiểm tra kết nối internet và thử lại."
+        },
+        "Background": {
+          "Loading": "Đang tải chủ đề background...",
+          "Error": "Không thể tải chủ đề background của \"{0}\".\n\nVui lòng kiểm tra kết nối internet và thử lại."
+        },
+        "Avatar": {
+          "Loading": "Đang tải chủ đề avatar...",
+          "Error": "Không thể tải chủ đề avatar của \"{0}\".\n\nVui lòng kiểm tra kết nối internet và thử lại."
+        },
+        "AvatarBackground": {
+          "Loading": "Đang tải chủ đề nền avatar...",
+          "Error": "Không thể tải chủ đề nền avatar của \"{0}\".\n\nVui lòng kiểm tra kết nối internet và thử lại."
+        },
+        "Banner": {
+          "Loading": "Đang tải chủ đề banner...",
+          "Error": "Không thể tải chủ đề banner của \"{0}\".\n\nVui lòng kiểm tra kết nối internet và thử lại."
+        },
+        "MultiplayerBanner": {
+          "Loading": "Đang tải chủ đề banner trong nhiều người chơi...",
+          "Error": "Không thể tải chủ đề banner trong nhiều người chơi của \"{0}\".\n\nVui lòng kiểm tra kết nối internet và thử lại."
+        }
       }
     },
     "I18n": {
@@ -779,6 +832,36 @@
           }
         }
       },
+      "UserInfo": {
+        "Loading": "Đang tải thông tin người dùng...",
+        "Error": "Không thể tải thông tin người dùng.\n\nVui lòng kiểm tra kết nối internet và thử lại."
+      },
+      "ClaimGems": {
+        "NotLoggedInError": {
+          "Description": "Bạn đã mua đá quý thành công, nhưng chưa đăng nhập tài khoản Sonolus.\n\nVui lòng đăng nhập tài khoản Sonolus và thử lại."
+        },
+        "Loading": "Đang nhận đá quý...",
+        "Error": "Không thể nhận đá quý.\n\nVui lòng kiểm tra kết nối internet và thử lại.",
+        "Success": {
+          "Title": "Đã nhận đá quý"
+        }
+      },
+      "Purchase": {
+        "NotLoggedInError": {
+          "Description": "Bạn chưa đăng nhập tài khoản Sonolus.\n\nVui lòng đăng nhập tài khoản Sonolus và thử lại."
+        },
+        "NotEnoughGemsError": {
+          "Description": "Bạn không đủ đá quý để mua thứ này.\n\nVui lòng mua thêm đá quý và thử lại."
+        },
+        "Confirmation": {
+          "Description": "Mua \"{0}\", tiếp tục chứ?"
+        },
+        "Loading": "Đang mua...",
+        "Error": "Không thể mua \"{0}\".\n\nVui lòng kiểm tra kết nối internet và thử lại.",
+        "Success": {
+          "Title": "Đã mua"
+        }
+      },
       "EditName": {
         "Loading": "Đang đổi tên...",
         "Error": "Không thể đổi tên.\n\nVui lòng kiểm tra nếu tên của bạn nằm trong giới hạn ký tự và không chứa những kí hiệu, hoặc kiểm tra kết nối mạng rồi thử lại.",
@@ -791,6 +874,13 @@
         "Error": "Không thể đổi avatar.\n\nVui lòng kiểm tra xem avatar của ban có phải tệp ảnh hay không hoặc kiểm tra lại kết nối mạng rồi thử lại.",
         "Success": {
           "Title": "Đã đổi avatar"
+        }
+      },
+      "EditBanner": {
+        "Loading": "Đang chỉnh sửa banner...",
+        "Error": "Không thể chỉnh sửa banner.\n\nVui lòng kiểm tra banner của bạn có hợp lệ không, hoặc kiểm tra kết nối internet và thử lại.",
+        "Success": {
+          "Title": "Đã chỉnh sửa Banner "
         }
       },
       "EditAboutMe": {
@@ -2275,7 +2365,8 @@
     },
     "SelectTheme": {
       "Title": "Chọn chủ đề",
-      "Description": "Chọn một chủ đề:"
+      "Description": "Chọn một chủ đề:",
+      "Shop": "Có sẵn nhiều chủ đề trong cửa hàng!"
     },
     "SelectClient": {
       "CustomServers": {
@@ -2514,7 +2605,7 @@
     "Home": {
       "Title": "Trang chủ",
       "Play": "Chơi",
-      "Players": "Người chơi",
+      "Shop": "Cửa hàng",
       "Account": "Tài khoản",
       "Link": "Liên kết",
       "About": "Giới thiệu",
@@ -2523,18 +2614,6 @@
         "Title": "Đã có bản cập nhập",
         "Description": "Sonolus hiện đã có phiên bản {0}!\n\nTruy cập website:\nhttps://sonolus.com",
         "Open": "Mở"
-      }
-    },
-    "Players": {
-      "Title": "Người chơi",
-      "PlayerLookup": {
-        "Title": "Tìm người chơi",
-        "Id": {
-          "Title": "ID người chơi",
-          "Description": "ID người chơi.",
-          "Placeholder": "Nhập ID người chơi..."
-        },
-        "Lookup": "Tìm"
       }
     },
     "Link": {
@@ -2560,6 +2639,49 @@
         "Description": "Không tìm thấy liên kết hợp lệ."
       }
     },
+    "Shop": {
+      "Title": "Cửa hàng",
+      "Gems": {
+        "Title": "Đá quý",
+        "NotLoggedIn": "Đăng nhập để xem đá quý của bạn!",
+        "BetaError": {
+          "Description": "Đá quý hiện không có sẵn để mua trong Sonolus Beta"
+        }
+      },
+      "General": {
+        "Title": "Chung"
+      },
+      "Bundles": {
+        "Title": "Gói có thời gian giới hạn"
+      },
+      "Themes": {
+        "Title": "Chủ đề"
+      },
+      "Details": {
+        "Actions": {
+          "Purchase": "Mua",
+          "Preview": "Xem trước",
+          "Use": "Sử dụng"
+        },
+        "Description": {
+          "Title": "Mô tả"
+        },
+        "Vip": {
+          "Description": "Gió VIP sẽ cho bạn một trải nghiệm không có quảng cáo trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nVIP x{0}"
+        },
+        "NameChange": {
+          "Description": "Lượt đổi tên có thể được dùng để thay đổi tên hồ sơ của bạn trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nLượt Đổi tên x{0}"
+        },
+        "Themes": {
+          "Bundle": {
+            "Description": "Cá nhân hóa giao diện người dùng Sonolus, hồ sơ avatar và hồ sơ banner của bạn với chủ đề này, với gói VIP bạn sẽ trải nghiệm không có quảng cáo trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\n\"{0}\" Chủ đề giao diện (UI)\n\"{1}\" Avatar\n\"{2}\" Nền Avatar\n\"{3}\" Banner\nVIP x{4}"
+          },
+          "Single": {
+            "Description": "Cá nhân hóa giao diện người dùng Sonolus, hồ sơ avatar và hồ sơ banner của bạn với chủ đề này.\n\nKhi mua, bạn sẽ nhận được:\n\"{0}\" Chủ đề giao diện (UI)\n\"{1}\" Avatar\n\"{2}\" Nền Avatar\n\"{3}\" Banner"
+          }
+        }
+      }
+    },
     "Account": {
       "Title": "Tài khoản",
       "MyAccount": {
@@ -2571,13 +2693,18 @@
         },
         "Profile": "Profile",
         "Logout": "Đăng xuất"
+      },
+      "Inventory": {
+        "Title": "Kho đồ",
+        "NotLoggedIn": "Đăng nhập để xem kho đồ của bạn!"
       }
     },
     "UserProfile": {
       "Home": {
         "Main": {
           "EditName": "Chỉnh sửa tên",
-          "EditAvatar": "Chỉnh Avatar"
+          "EditAvatar": "Chỉnh Avatar",
+          "EditBanner": "Chỉnh sửa Banner"
         },
         "AboutMe": {
           "Title": "Giới thiệu về tôi"
@@ -2589,21 +2716,56 @@
       },
       "EditName": {
         "Title": "Chỉnh sửa tên",
+        "NoNameChangeError": {
+          "Description": "Bạn không có lượt Đổi tên.\n\nVui lòng mua lượt Đổi tên trước và thử lại."
+        },
         "Name": {
           "Title": "Tên",
           "Description": "Tên người chơi.",
           "Placeholder": "Nhập tên người chơi..."
+        },
+        "Confirmation": {
+          "Description": "Sử dụng 1 lượt Đổi tên, tiếp tục chứ?"
         }
       },
       "EditAvatar": {
         "Title": "Chỉnh sửa Avatar",
+        "Shop": "Có sẵn nhiều avatar trong cửa hàng!",
+        "Avatar": {
+          "Title": "Avatar",
+          "Description": "Avatar.",
+          "Default": "Mặc định"
+        },
         "Foreground": {
-          "Title": "Tiền cảnh",
-          "Description": "Tiền cảnh Avatar"
+          "Title": "Foreground",
+          "Description": "Avatar foreground.",
+          "Player": "Người chơi",
+          "Heart": "Heart",
+          "Hat": "Hat",
+          "Fish": "Fish",
+          "Paw": "Paw"
+        },
+        "ForegroundColor": {
+          "Title": "Màu sắc Foreground",
+          "Description": "Màu sắc avatar foreground."
         },
         "Background": {
           "Title": "Background",
-          "Description": "Avatar background."
+          "Description": "Nền avatar.",
+          "Default": "Mặc định"
+        },
+        "BackgroundColor": {
+          "Title": "Màu sắc background ",
+          "Description": "Màu sắc nền avatar"
+        }
+      },
+      "EditBanner": {
+        "Title": "Chỉnh sửa Banner",
+        "Shop": "Có sẵn nhiều banner trong cửa hàng!",
+        "Banner": {
+          "Title": "Banner",
+          "Description": "Banner.",
+          "None": "Không có gì"
         }
       },
       "EditAboutMe": {
@@ -3752,7 +3914,7 @@
         },
         "LevelBgmQuality": {
           "Title": "Chất lượng nhạc nền (BGM) trong màn chơi",
-          "Description": "Khuyến nghị nên để chất lượng Cao.\n\nTheo mặc định, Sonolus sử dụng khả năng âm thanh gốc của hệ điều hành để có hiệu suất tốt nhất và chỉ giải mã BGM cấp độ nếu định dạng không được hỗ trợ gốc. BGM cấp độ sẽ được giải mã ở chất lượng này.",
+          "Description": "Khuyến nghị nên để Cao.\n\nTheo mặc định, Sonolus sử dụng khả năng âm thanh gốc của hệ điều hành để có hiệu suất tốt nhất và chỉ giải mã BGM cấp độ nếu định dạng không được hỗ trợ gốc. BGM cấp độ sẽ được giải mã ở chất lượng này.",
           "Options": {
             "Low": "Thấp",
             "Mid": "Trung",
@@ -3760,7 +3922,7 @@
           }
         },
         "PreviewBgmQuality": {
-          "Title": "Xem trước Chất lượng nhạc nền (BGM)",
+          "Title": "Chất lượng nhạc nền (BGM) xem trước",
           "Description": "Khuyến nghị nên để Trung.\n\nSonolus theo mặc định sử dụng khả năng âm thanh gốc của hệ điều hành để có hiệu suất tốt nhất và chỉ giải mã BGM xem trước nếu định dạng không được hỗ trợ gốc. BGM xem trước sẽ được giải mã ở chất lượng này.",
           "Options": {
             "Low": "Thấp",
@@ -3836,8 +3998,8 @@
           "Description": "Chủ đề màu sắc được sử dụng."
         },
         "Scale": {
-          "Title": "Tỷ lệ giao diện (UI)",
-          "Description": "Tỷ lệ giao diện (UI) cần sử dụng. Tăng nếu bạn gặp khó khăn khi đọc và giảm để hiển thị nhiều nội dung hơn trên màn hình cùng một lúc."
+          "Title": "Kích thước giao diện (UI)",
+          "Description": "Kích thước giao diện (UI) cần sử dụng. Tăng nếu bạn gặp khó khăn khi đọc và giảm để hiển thị nhiều nội dung hơn trên màn hình cùng một lúc."
         },
         "PerfectJudgmentColors": {
           "Title": "Màu sắc phán xét Perfect",
@@ -3927,8 +4089,12 @@
         "Title": "Cache",
         "AlwaysRevalidate": {
           "Title": "Luôn luôn xác thực lại",
-          "Description": "Khuyến nghị tắt.\n\nTheo mặc định, Sonolus chỉ xác thực lại các tài nguyên trực tuyến sau khi cũ. Khi bật, các tài nguyên trực tuyến luôn được xác thực lại trước khi sử dụng."
+          "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus chỉ xác thực lại các tài nguyên trực tuyến sau khi cũ. Khi bật, các tài nguyên trực tuyến luôn được xác thực lại trước khi sử dụng."
         },
+        "Manage": "Quản lý"
+      },
+      "Privacy": {
+        "Title": "Sự riêng tư",
         "Manage": "Quản lý"
       },
       "Developer": {
