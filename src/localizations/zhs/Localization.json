@@ -559,6 +559,10 @@
     "CopySuccess": {
       "Title": "已复制"
     },
+    "Gem": "宝石",
+    "Vip": "VIP",
+    "NameChange": "改名卡",
+    "Owned": "已拥有",
     "Judgment": "判定",
     "Accuracy": "准度",
     "Grade": "评级",
@@ -729,6 +733,23 @@
       "Open": "打开"
     }
   },
+  "Ad": {
+    "PostGame": {
+      "Fallback": {
+        "Shop": "已在商店有售！"
+      }
+    },
+    "Tip": {
+      "Message": "想要体验无广告的 Sonolus？\n\nVIP 与限时捆绑包在商店有售！"
+    }
+  },
+  "Billing": {
+    "GemPurchases": {
+      "Tip": {
+        "Message": "您已成功购买宝石。\n\n请前往商店查看他们！"
+      }
+    }
+  },
   "Themes": {
     "Dark": "暗色",
     "Light": "亮色"
@@ -741,10 +762,42 @@
     "ServerVersionTooNewError": "此服务器只支持版本为 {0} 的 Sonolus。\n\n请更新您的 Sonolus，或联系服务器运营汇报这个问题。"
   },
   "Clients": {
+    "Billing": {
+      "GemProducts": {
+        "Loading": "正在加载宝石商品...",
+        "Error": "加载宝石商品失败。\n\n请检查您的网络连接并重试。"
+      }
+    },
     "Content": {
       "Info": {
         "Loading": "正在加载 Sonolus 信息...",
         "Error": "加载 Sonolus 信息失败。\n\n请检查您的网络连接并重试。"
+      },
+      "Theme": {
+        "Thumbnail": {
+          "Loading": "正在加载主题缩略图..",
+          "Error": "加载主题 \"{0}\" 缩略图失败。\n\n请检查您的网络连接并重试。"
+        },
+        "Background": {
+          "Loading": "正在加载主题背景...",
+          "Error": "加载主题 \"{0}\" 背景失败。\n\n请检查您的网络连接并重试。"
+        },
+        "Avatar": {
+          "Loading": "正在加载主题头像...",
+          "Error": "加载主题 \"{0}\" 头像失败。\n\n请检查您的网络连接并重试。"
+        },
+        "AvatarBackground": {
+          "Loading": "正在加载主题头像背景...",
+          "Error": "加载主题 \"{0}\" 头像背景失败。\n\n请检查您的网络连接并重试。"
+        },
+        "Banner": {
+          "Loading": "正在加载主题横幅...",
+          "Error": "加载主题 \"{0}\" 横幅失败。\n\n请检查您的网络连接并重试。"
+        },
+        "MultiplayerBanner": {
+          "Loading": "正在加载主题多人游戏横幅...",
+          "Error": "加载主题 \"{0}\" 多人游戏横幅失败。\n\n请检查您的网络连接并重试。"
+        }
       }
     },
     "I18n": {
@@ -779,6 +832,36 @@
           }
         }
       },
+      "UserInfo": {
+        "Loading": "正在加载用户信息...",
+        "Error": "加载用户信息失败。\n\n请检查您的网络连接并重试。"
+      },
+      "ClaimGems": {
+        "NotLoggedInError": {
+          "Description": "您已成功购买宝石，但您还尚未使用 Sonolus 账户登录。\n\n请先使用您的 Sonolus 账号登录，然后重试。"
+        },
+        "Loading": "正在领取宝石...",
+        "Error": "领取宝石失败。\n\n请检查您的网络连接并重试。",
+        "Success": {
+          "Title": "已领取宝石"
+        }
+      },
+      "Purchase": {
+        "NotLoggedInError": {
+          "Description": "您未使用 Sonolus 账户登录。\n\n请先使用您的 Sonolus 帐户登录，然后重试。"
+        },
+        "NotEnoughGemsError": {
+          "Description": "您没有足够数量的宝石。\n\n请先购买更多宝石，然后重试。"
+        },
+        "Confirmation": {
+          "Description": "您将要购买 \"{0}\"，是否继续？"
+        },
+        "Loading": "正在购买...",
+        "Error": "购买 \"{0}\" 失败。\n\n请检查您的网络连接并重试。",
+        "Success": {
+          "Title": "已购买"
+        }
+      },
       "EditName": {
         "Loading": "正在编辑名字…",
         "Error": "编辑名字失败。\n\n请检查您的名字是否合法并在长度范围内，或检查您的网络连接并重试。",
@@ -791,6 +874,13 @@
         "Error": "编辑头像失败。\n\n请检查您的头像是否合法，或检查您的网络连接并重试。",
         "Success": {
           "Title": "头像已编辑"
+        }
+      },
+      "EditBanner": {
+        "Loading": "正在修改横幅...",
+        "Error": "修改横幅失败。\n\n请检查横幅是否合法，或检查您的网络连接并重试。",
+        "Success": {
+          "Title": "已修改横幅"
         }
       },
       "EditAboutMe": {
@@ -2275,7 +2365,8 @@
     },
     "SelectTheme": {
       "Title": "选择主题",
-      "Description": "选择一个主题："
+      "Description": "选择一个主题：",
+      "Shop": "更多主题在商店有售！"
     },
     "SelectClient": {
       "CustomServers": {
@@ -2514,7 +2605,7 @@
     "Home": {
       "Title": "主页",
       "Play": "开始",
-      "Players": "玩家",
+      "Shop": "商店",
       "Account": "账号",
       "Link": "链接",
       "About": "关于",
@@ -2523,18 +2614,6 @@
         "Title": "更新可用",
         "Description": "Sonolus 版本 {0} 更新！\n\n访问我们的网站：\nhttps://sonolus.com",
         "Open": "打开"
-      }
-    },
-    "Players": {
-      "Title": "玩家",
-      "PlayerLookup": {
-        "Title": "玩家查询",
-        "Id": {
-          "Title": "玩家 ID",
-          "Description": "玩家ID。",
-          "Placeholder": "输入玩家 ID…"
-        },
-        "Lookup": "查询"
       }
     },
     "Link": {
@@ -2560,6 +2639,49 @@
         "Description": "未找到有效链接。"
       }
     },
+    "Shop": {
+      "Title": "商店",
+      "Gems": {
+        "Title": "宝石",
+        "NotLoggedIn": "登录以查看您的宝石！",
+        "BetaError": {
+          "Description": "Sonolus beta 版本目前无法购买宝石。"
+        }
+      },
+      "General": {
+        "Title": "常规"
+      },
+      "Bundles": {
+        "Title": "限时捆绑包"
+      },
+      "Themes": {
+        "Title": "主题"
+      },
+      "Details": {
+        "Actions": {
+          "Purchase": "购买",
+          "Preview": "预览",
+          "Use": "使用"
+        },
+        "Description": {
+          "Title": "描述"
+        },
+        "Vip": {
+          "Description": "VIP 给予您无广告的 Sonolus 体验。\n\n购买后您将会获得：\nVIP x{0}"
+        },
+        "NameChange": {
+          "Description": "改名卡可以被用于修改您的 Sonolus 用户名。\n\n购买后您将会获得：\n改名卡 x{0}"
+        },
+        "Themes": {
+          "Bundle": {
+            "Description": "使用该主题个性化您的 Sonolus 用户界面、用户头像和个人资料横幅，并附赠 VIP 享受无广告的 Sonolus 体验。\n\n购买后您将会获得：\n\"{0}\" 用户界面主题\n\"{1}\" 头像\n\"{2}\" 头像背景\n\"{3}\" 横幅\nVIP x{4}"
+          },
+          "Single": {
+            "Description": "使用该主题个性化您的 Sonolus 用户界面、用户头像和个人资料横幅。\n\n购买后您将会获得：\n\"{0}\" 用户界面主题\n\"{1}\" 头像\n\"{2}\" 头像背景\n\"{3}\" 横幅"
+          }
+        }
+      }
+    },
     "Account": {
       "Title": "账号",
       "MyAccount": {
@@ -2571,13 +2693,18 @@
         },
         "Profile": "资料",
         "Logout": "登出"
+      },
+      "Inventory": {
+        "Title": "背包",
+        "NotLoggedIn": "登录以查看您的背包！"
       }
     },
     "UserProfile": {
       "Home": {
         "Main": {
           "EditName": "编辑名字",
-          "EditAvatar": "编辑头像"
+          "EditAvatar": "编辑头像",
+          "EditBanner": "修改横幅"
         },
         "AboutMe": {
           "Title": "关于我"
@@ -2589,21 +2716,56 @@
       },
       "EditName": {
         "Title": "编辑名字",
+        "NoNameChangeError": {
+          "Description": "您还没有改名卡。\n\n请先购买改名卡，然后重试"
+        },
         "Name": {
           "Title": "名字",
           "Description": "玩家名。",
           "Placeholder": "输入玩家名字…"
+        },
+        "Confirmation": {
+          "Description": "花费 1 个改名卡，是否继续？"
         }
       },
       "EditAvatar": {
         "Title": "编辑头像",
+        "Shop": "更多头像在商店有售！",
+        "Avatar": {
+          "Title": "头像",
+          "Description": "头像。",
+          "Default": "默认"
+        },
         "Foreground": {
           "Title": "前景",
-          "Description": "头像前景。"
+          "Description": "头像前景。",
+          "Player": "玩家",
+          "Heart": "爱心",
+          "Hat": "帽子",
+          "Fish": "鱼",
+          "Paw": "爪子"
+        },
+        "ForegroundColor": {
+          "Title": "前景色",
+          "Description": "头像前景色。"
         },
         "Background": {
           "Title": "背景",
-          "Description": "头像背景。"
+          "Description": "头像背景。",
+          "Default": "默认"
+        },
+        "BackgroundColor": {
+          "Title": "背景色",
+          "Description": "头像背景色。"
+        }
+      },
+      "EditBanner": {
+        "Title": "修改横幅",
+        "Shop": "更多横幅在商店有售！",
+        "Banner": {
+          "Title": "横幅",
+          "Description": "横幅。",
+          "None": "无"
         }
       },
       "EditAboutMe": {
@@ -3929,6 +4091,10 @@
           "Title": "总是验证",
           "Description": "建议设置为关闭。\n\n默认情况下，Sonolus 仅在资源过期后才会重新验证线上的资源。打开后，线上的资源在使用前始终会重新进行验证。"
         },
+        "Manage": "管理"
+      },
+      "Privacy": {
+        "Title": "隐私",
         "Manage": "管理"
       },
       "Developer": {
