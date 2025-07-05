@@ -191,7 +191,7 @@
     "#CONNECTOR_COLOR": "Màu sắc Connector",
     "#CONNECTOR_ALPHA": "Độ trong suốt Connector",
     "#CONNECTOR_ANIMATION": "Hoạt ảnh Connector",
-    "#SIMLINE": "Simultaneous Line",
+    "#SIMLINE": "Line nối nốt",
     "#SIMLINE_POSITION": "Vị trí Simultaneous Line",
     "#SIMLINE_SIZE": "Kích thước Simultaneous Line",
     "#SIMLINE_ROTATION": "Xoay Simultaneous Line",
