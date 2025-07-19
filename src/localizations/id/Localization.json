@@ -559,6 +559,10 @@
     "CopySuccess": {
       "Title": "Disalin"
     },
+    "Gem": "Gem",
+    "Vip": "VIP",
+    "NameChange": "Ganti Nama",
+    "Owned": "Dimiliki",
     "Judgment": "Penilaian",
     "Accuracy": "Akurasi",
     "Grade": "Nilai",
@@ -729,6 +733,23 @@
       "Open": "Buka"
     }
   },
+  "Ad": {
+    "PostGame": {
+      "Fallback": {
+        "Shop": "Tersedia di toko!"
+      }
+    },
+    "Tip": {
+      "Message": "Ingin pengalaman Sonolus tanpa iklan?\n\nVIP dan Bundel Waktu Terbatas tersedia di Toko!"
+    }
+  },
+  "Billing": {
+    "GemPurchases": {
+      "Tip": {
+        "Message": "Anda berhasil membeli gem.\n\nPergi ke Toko untuk mengeklaim mereka"
+      }
+    }
+  },
   "Themes": {
     "Dark": "Gelap",
     "Light": "Terang"
@@ -741,10 +762,42 @@
     "ServerVersionTooNewError": "Server ini hanya mendukung Sonolus versi {0}.\n\nSilakan perbarui aplikasi Sonolus Anda, atau hubungi pemilik server untuk melaporkan masalahnya."
   },
   "Clients": {
+    "Billing": {
+      "GemProducts": {
+        "Loading": "Memuat produk gem...",
+        "Error": "Gagal memuat produk gem.\n\nHarap cek koneksi internet anda dan coba lagi."
+      }
+    },
     "Content": {
       "Info": {
         "Loading": "Memuat info Sonolus...",
         "Error": "Gagal memuat info Sonolus.\n\nHarap cek koneksi internet anda dan coba lagi."
+      },
+      "Theme": {
+        "Thumbnail": {
+          "Loading": "Memuat thumbnail tema...",
+          "Error": "Gagal memuat thumbnail dari tema \"{0}\".\n\nHarap cek koneksi internet anda dan coba lagi."
+        },
+        "Background": {
+          "Loading": "Memuat latar belakang tema...",
+          "Error": "Gagal memuat latar belakang dari tema \"{0}\".\n\nHarap cek koneksi internet anda dan coba lagi."
+        },
+        "Avatar": {
+          "Loading": "Memuat avatar tema...",
+          "Error": "Gagal memuat avatar dari tema \"{0}\".\n\nHarap cek koneksi internet anda dan coba lagi."
+        },
+        "AvatarBackground": {
+          "Loading": "Memuat latar belakang avatar tema...",
+          "Error": "Gagal memuat latar belakang avatar dari tema \"{0}\".\n\nHarap cek koneksi internet anda dan coba lagi."
+        },
+        "Banner": {
+          "Loading": "Memuat banner tema...",
+          "Error": "Gagal memuat banner dari tema \"{0}\".\n\nHarap cek koneksi internet anda dan coba lagi."
+        },
+        "MultiplayerBanner": {
+          "Loading": "Memuat banner multipemain tema...",
+          "Error": "Gagal memuat banner multipemain dari tema \"{0}\".\n\nHarap cek koneksi internet anda dan coba lagi."
+        }
       }
     },
     "I18n": {
@@ -777,6 +830,42 @@
           "Old": {
             "Title": "Masuk"
           }
+        },
+        "Banned": {
+          "Description": "Akun Sonolus anda sudah diban."
+        },
+        "Deleted": {
+          "Description": "Kamu telah menghapus akun Sonolus kamu akhir akhir ini.\n\nHarap tunggu 7 hari setelah menghapus sebelum membuat akun Sonolus lain."
+        }
+      },
+      "UserInfo": {
+        "Loading": "Memuat info pengguna...",
+        "Error": "Gagal memuat info pengguna.\n\nHarap cek koneksi internet anda dan coba lagi."
+      },
+      "ClaimGems": {
+        "NotLoggedInError": {
+          "Description": "Anda berhasil membeli gem tapi anda belum masuk dengan akun Sonolus.\n\nHarap masuk dengan akun Sonolus anda terlebih dahulu dan coba lagi."
+        },
+        "Loading": "Mengeklaim gem...",
+        "Error": "Gagal mengeklaim gem.\n\nHarap cek koneksi internet anda dan coba lagi.",
+        "Success": {
+          "Title": "Gem Diklaim"
+        }
+      },
+      "Purchase": {
+        "NotLoggedInError": {
+          "Description": "Anda belum masuk dengan akun Sonolus.\n\nHarap masuk dengan akun Sonolus anda terlebih dahulu dan coba lagi."
+        },
+        "NotEnoughGemsError": {
+          "Description": "Kamu tidak memiliki gem yang cukup.\n\nHarap membeli lebih banyak gem terlebih dahulu dan coba lagi."
+        },
+        "Confirmation": {
+          "Description": "Membeli \"{0}\", lanjutkan?"
+        },
+        "Loading": "Membeli...",
+        "Error": "Gagal untuk membeli \"{0}\".\n\nHarap cek koneksi internet anda dan coba lagi.",
+        "Success": {
+          "Title": "Dibeli"
         }
       },
       "EditName": {
@@ -791,6 +880,13 @@
         "Error": "Gagal mengedit avatar.\n\nMohon periksa apakah avatar Anda legal, atau periksa koneksi internet Anda dan coba lagi.",
         "Success": {
           "Title": "Avatar Diedit"
+        }
+      },
+      "EditBanner": {
+        "Loading": "Mengedit banner...",
+        "Error": "Gagal untuk mengedit banner.\n\nHarap cek apakah banner anda legal, atau cek koneksi internet anda dan coba lagi.",
+        "Success": {
+          "Title": "Banner Diedit"
         }
       },
       "EditAboutMe": {
@@ -816,6 +912,13 @@
         "Error": "Gagal keluar.\n\nSilakan periksa koneksi internet Anda dan coba lagi.",
         "Success": {
           "Title": "Keluar"
+        }
+      },
+      "Delete": {
+        "Loading": "Menghapus akun...",
+        "Error": "Gagal untuk menghapus akun.\n\nHarap cek koneksi internet anda dan coba lagi.",
+        "Success": {
+          "Title": "Akun Dihapus"
         }
       }
     },
@@ -2275,7 +2378,8 @@
     },
     "SelectTheme": {
       "Title": "Pilih Tema",
-      "Description": "Pilih sebuah tema:"
+      "Description": "Pilih sebuah tema:",
+      "Shop": "Lebih banyak tema tersedia di toko!"
     },
     "SelectClient": {
       "CustomServers": {
@@ -2514,7 +2618,7 @@
     "Home": {
       "Title": "Home",
       "Play": "Main",
-      "Players": "Pemain",
+      "Shop": "Toko",
       "Account": "Akun",
       "Link": "Link",
       "About": "Tentang",
@@ -2523,18 +2627,6 @@
         "Title": "Pembaruan Tersedia",
         "Description": "Sonolus versi {0} tersedia!\n\nKunjungi website kami:\nhttps://sonolus.com",
         "Open": "Buka"
-      }
-    },
-    "Players": {
-      "Title": "Pemain",
-      "PlayerLookup": {
-        "Title": "Pencarian Pemain",
-        "Id": {
-          "Title": "ID Pemain",
-          "Description": "ID Pemain.",
-          "Placeholder": "Masukkan ID pemain..."
-        },
-        "Lookup": "Cari"
       }
     },
     "Link": {
@@ -2560,6 +2652,46 @@
         "Description": "Tidak ada link valid yang ditemukan."
       }
     },
+    "Shop": {
+      "Title": "Toko",
+      "Gems": {
+        "Title": "Gem",
+        "NotLoggedIn": "Masuk untuk melihat gem anda!"
+      },
+      "General": {
+        "Title": "Umum"
+      },
+      "Bundles": {
+        "Title": "Bundel Waktu Terbatas"
+      },
+      "Themes": {
+        "Title": "Tema"
+      },
+      "Details": {
+        "Actions": {
+          "Purchase": "Pembelian",
+          "Preview": "Pratinjau",
+          "Use": "Gunakan"
+        },
+        "Description": {
+          "Title": "Deskripsi"
+        },
+        "Vip": {
+          "Description": "VIP memberi anda pengalaman Sonolus tanpa iklan.\n\nDengan membeli, kamu akan mendapatkan:\nVIP x{0}"
+        },
+        "NameChange": {
+          "Description": "Ganti Nama dapat digunakan untuk mengubah nama profil Sonolus anda.\n\nDengan membeli, kamu akan mendapatkan:\nGanti Nama x{0}"
+        },
+        "Themes": {
+          "Bundle": {
+            "Description": "Personalisasikan UI Sonolus, avatar profil, dan banner profil anda dengan tema ini, dengan pengalaman Sonolus bebas iklan VIP.\n\nDengan membeli, kamu akan mendapatkan:\nTema UI \"{0}\"\nAvatar \"{1}\"\nLatar Belakang Avatar \"{2}\"\nBanner \"{3}\"\nVIP x{4}"
+          },
+          "Single": {
+            "Description": "Personalisasi UI Sonolus, avatar profil, dan banner profil anda dengan tema ini.\n\nDengan membeli, kamu akan mendapatkan:\nTema UI \"{0}\"\nAvatar \"{1}\"\nLatar Belakang Avatar \"{2}\"\nBanner \"{3}\""
+          }
+        }
+      }
+    },
     "Account": {
       "Title": "Akun",
       "MyAccount": {
@@ -2570,14 +2702,27 @@
           "Wechat": "Masuk dengan WeChat"
         },
         "Profile": "Profil",
-        "Logout": "Keluar"
+        "Logout": "Keluar",
+        "Delete": {
+          "Title": "Hapus",
+          "Confirmation": {
+            "Description": "Menghapus akan menghapus permanen semua data yang terasosiasi ke akun Sonolus kamu, meliputi profil, inventori, dan data server kustom. Data di server kustom dapat memerlukan hingga 7 hari untuk menyelesaikan penghapusan. Anda tidak akan bisa memulihkan akun yang sudah dihapus. Kamu tidak akan bisa membuat akun Sonolus lain menggunakan akun sign in yang sama dalam 7 hari.\n\nApakah kamu benar benar akan menghapus \"{0}\"?"
+          }
+        }
+      },
+      "Inventory": {
+        "Title": "Inventori",
+        "NotLoggedIn": "Masuk untuk melihat inventori anda!"
       }
     },
     "UserProfile": {
       "Home": {
         "Main": {
           "EditName": "Edit Nama",
-          "EditAvatar": "Edit Avatar"
+          "EditAvatar": "Edit Avatar",
+          "EditBanner": "Edit Banner",
+          "Block": "Block",
+          "Unblock": "Unblock"
         },
         "AboutMe": {
           "Title": "Tentang Saya"
@@ -2589,21 +2734,56 @@
       },
       "EditName": {
         "Title": "Edit Nama",
+        "NoNameChangeError": {
+          "Description": "Anda tidak memiliki Ganti Nama.\n\nHarap beli Ganti Nama terlebih dahulu dan coba lagi."
+        },
         "Name": {
           "Title": "Nama",
           "Description": "Nama pemain.",
           "Placeholder": "Masukkan nama pemain..."
+        },
+        "Confirmation": {
+          "Description": "Menggunakan 1 Ganti Nama, lanjutkan?"
         }
       },
       "EditAvatar": {
         "Title": "Edit Avatar",
+        "Shop": "Lebih banyak avatar tersedia di toko!",
+        "Avatar": {
+          "Title": "Avatar",
+          "Description": "Avatar.",
+          "Default": "Default"
+        },
         "Foreground": {
           "Title": "Foreground",
-          "Description": "Avatar foreground."
+          "Description": "Avatar foreground.",
+          "Player": "Pemain",
+          "Heart": "Hati",
+          "Hat": "Topi",
+          "Fish": "Ikan",
+          "Paw": "Cakar"
+        },
+        "ForegroundColor": {
+          "Title": "Warna Latar Depan",
+          "Description": "Warna latar depan Avatar."
         },
         "Background": {
           "Title": "Background",
-          "Description": "Avatar background."
+          "Description": "Avatar background.",
+          "Default": "Default"
+        },
+        "BackgroundColor": {
+          "Title": "Warna Latar Belakang",
+          "Description": "Warna latar belakang avatar."
+        }
+      },
+      "EditBanner": {
+        "Title": "Edit Banner",
+        "Shop": "Lebih banyak banner tersedia di toko!",
+        "Banner": {
+          "Title": "Banner",
+          "Description": "Banner.",
+          "None": "Tidak ada"
         }
       },
       "EditAboutMe": {
@@ -2633,6 +2813,15 @@
       "Title": "Tentang Sonolus",
       "Letter": {
         "Title": "Surat dari Pengembang"
+      },
+      "Support": {
+        "Title": "Dukungan",
+        "Description": "Untuk menghubungi dukungan, email: {0}",
+        "Email": "Email"
+      },
+      "Legal": {
+        "Title": "Legal",
+        "Description": "Dengan menggunakan Sonolus, Anda setuju untuk:"
       },
       "Music": {
         "Title": "Musik"
@@ -3929,6 +4118,10 @@
           "Title": "Selalu Validasi",
           "Description": "Direkomendasikan untuk dimatikan.\n\nSonolus secara default hanya memvalidasi ulang sumber daya online setelah kadaluarsa. Saat diaktifkan, sumber daya online selalu divalidasi ulang sebelum digunakan."
         },
+        "Manage": "Atur"
+      },
+      "Privacy": {
+        "Title": "Privasi",
         "Manage": "Atur"
       },
       "Developer": {
