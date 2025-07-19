@@ -830,6 +830,12 @@
           "Old": {
             "Title": "Conectado"
           }
+        },
+        "Banned": {
+          "Description": "Sua conta Sonolus foi banida."
+        },
+        "Deleted": {
+          "Description": "Você excluiu sua conta Sonolus recentemente.\n\nPor favor espere 7 dias depois da exclusão antes de criar outra conta Sonolus."
         }
       },
       "UserInfo": {
@@ -906,6 +912,13 @@
         "Error": "Falha ao sair.\n\nPor favor, verifique sua conexão com a internet e tente novamente.",
         "Success": {
           "Title": "Desconectado"
+        }
+      },
+      "Delete": {
+        "Loading": "Excluindo conta...",
+        "Error": "Falha ao excluir conta.\n\nPor favor verifique sua Internet e tente novamente.",
+        "Success": {
+          "Title": "Conta Excluída"
         }
       }
     },
@@ -2643,10 +2656,7 @@
       "Title": "Loja",
       "Gems": {
         "Title": "Gemas",
-        "NotLoggedIn": "Entre para ver suas gemas!",
-        "BetaError": {
-          "Description": "As gemas não estão disponíveis para compra no Sonolus beta no momento. "
-        }
+        "NotLoggedIn": "Entre para ver suas gemas!"
       },
       "General": {
         "Title": "Geral"
@@ -2692,7 +2702,13 @@
           "Wechat": "Entrar com WeChat"
         },
         "Profile": "Perfil",
-        "Logout": "Sair"
+        "Logout": "Sair",
+        "Delete": {
+          "Title": "Excluir",
+          "Confirmation": {
+            "Description": "Excluir vai deletar seu dados associados à sua conta Sonolus permanentemente, incluindo perfil, inventário, e dados nos servidores customização.\nDados em servidores customização podem levar em até 7 dias para completar a exclusão.\nVocê poderá recuperar a conta excluída.\nVocê não poderá criar outra conta Sonolus usando a mesma conta de login por 7 dias.\n\nTem certeza de que deseja excluir \"{0}\"?"
+          }
+        }
       },
       "Inventory": {
         "Title": "Inventário ",
@@ -2704,7 +2720,9 @@
         "Main": {
           "EditName": "Editar Nome",
           "EditAvatar": "Editar Avatar",
-          "EditBanner": "Editar Banner"
+          "EditBanner": "Editar Banner",
+          "Block": "Bloquear",
+          "Unblock": "Desbloquear"
         },
         "AboutMe": {
           "Title": "Sobre Mim"
@@ -2795,6 +2813,15 @@
       "Title": "Sobre Sonolus",
       "Letter": {
         "Title": "Uma carta do desenvolvedor "
+      },
+      "Support": {
+        "Title": "Suporte",
+        "Description": "Para contatar o suporte, email: {0}",
+        "Email": "Email"
+      },
+      "Legal": {
+        "Title": "Legal",
+        "Description": "Por usar Sonolus, você concorda que:"
       },
       "Music": {
         "Title": "Música "
