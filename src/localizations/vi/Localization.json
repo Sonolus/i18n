@@ -830,6 +830,12 @@
           "Old": {
             "Title": "Đăng nhập thành công"
           }
+        },
+        "Banned": {
+          "Description": "Tài khoản Sonolus của bạn đã bị cấm."
+        },
+        "Deleted": {
+          "Description": "Bạn đã từng xoá tài khoản Sonolus trước đây của mình.\n\nVui lòng đợi 7 ngày\ntrước khi tạo tài khoản Sonolus khác."
         }
       },
       "UserInfo": {
@@ -906,6 +912,13 @@
         "Error": "Không thể đăng xuất.\n\nVui lòng kiểm tra kết nối mạng rồi thử lại.",
         "Success": {
           "Title": "Đã đăng xuất"
+        }
+      },
+      "Delete": {
+        "Loading": "Đang xoá tài khoản...",
+        "Error": "Không thể xoá tài khoản.\n\nVui lòng kiểm tra kết nối internet và thử lại.",
+        "Success": {
+          "Title": "Đã xoá tài khoản"
         }
       }
     },
@@ -2585,8 +2598,8 @@
     },
     "EditColors": {
       "Foreground": {
-        "Title": "Tiền cảnh",
-        "Description": "Màu sắc tiền cảnh."
+        "Title": "Biểu tượng",
+        "Description": "Màu sắc biểu tượng."
       },
       "Background": {
         "Title": "Background",
@@ -2643,16 +2656,13 @@
       "Title": "Cửa hàng",
       "Gems": {
         "Title": "Đá quý",
-        "NotLoggedIn": "Đăng nhập để xem đá quý của bạn!",
-        "BetaError": {
-          "Description": "Đá quý hiện không có sẵn để mua trong Sonolus Beta"
-        }
+        "NotLoggedIn": "Đăng nhập để xem đá quý của bạn!"
       },
       "General": {
         "Title": "Chung"
       },
       "Bundles": {
-        "Title": "Gói có thời gian giới hạn"
+        "Title": "Gói giới hạn thời gian"
       },
       "Themes": {
         "Title": "Chủ đề"
@@ -2674,10 +2684,10 @@
         },
         "Themes": {
           "Bundle": {
-            "Description": "Cá nhân hóa giao diện người dùng Sonolus, hồ sơ avatar và hồ sơ banner của bạn với chủ đề này, với gói VIP bạn sẽ trải nghiệm không có quảng cáo trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\n\"{0}\" Chủ đề giao diện (UI)\n\"{1}\" Avatar\n\"{2}\" Nền Avatar\n\"{3}\" Banner\nVIP x{4}"
+            "Description": "Cá nhân hóa giao diện người dùng Sonolus, hồ sơ avatar và hồ sơ banner của bạn với chủ đề này, với gói VIP bạn sẽ trải nghiệm không có quảng cáo trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nChủ đề giao diện (UI) \"{0}\"\nAvatar \"{1}\"\nNền Avatar \"{2}\"\nBanner \"{3}\"\nVIP x{4}"
           },
           "Single": {
-            "Description": "Cá nhân hóa giao diện người dùng Sonolus, hồ sơ avatar và hồ sơ banner của bạn với chủ đề này.\n\nKhi mua, bạn sẽ nhận được:\n\"{0}\" Chủ đề giao diện (UI)\n\"{1}\" Avatar\n\"{2}\" Nền Avatar\n\"{3}\" Banner"
+            "Description": "Cá nhân hóa giao diện người dùng Sonolus, hồ sơ avatar và hồ sơ banner của bạn với chủ đề này.\n\nKhi mua, bạn sẽ nhận được:\nChủ đề giao diện (UI) \"{0}\"\nAvatar \"{1}\"\nNền Avatar \"{2}\"\nBanner \"{3}\""
           }
         }
       }
@@ -2692,7 +2702,13 @@
           "Wechat": "Đăng nhập bằng WeChat"
         },
         "Profile": "Profile",
-        "Logout": "Đăng xuất"
+        "Logout": "Đăng xuất",
+        "Delete": {
+          "Title": "Xoá tài khoản",
+          "Confirmation": {
+            "Description": "Việc xóa tài khoản sẽ xóa vĩnh viễn dữ liệu liên quan đến tài khoản Sonolus của bạn, bao gồm hồ sơ, kho dữ liệu và dữ liệu trên máy chủ tùy chỉnh. Quá trình xóa dữ liệu trên máy chủ tùy chỉnh có thể mất đến 7 ngày.\nBạn sẽ không thể khôi phục tài khoản đã xóa.\nBạn sẽ không thể tạo tài khoản Sonolus khác bằng cùng một tài khoản đăng nhập trong 7 ngày.\n\nBạn chắc có muốn xoá tài khoản \"{0}\"?"
+          }
+        }
       },
       "Inventory": {
         "Title": "Kho đồ",
@@ -2702,9 +2718,11 @@
     "UserProfile": {
       "Home": {
         "Main": {
-          "EditName": "Chỉnh sửa tên",
-          "EditAvatar": "Chỉnh Avatar",
-          "EditBanner": "Chỉnh sửa Banner"
+          "EditName": "Chỉnh sửa Tên",
+          "EditAvatar": "Chỉnh sửa Avatar",
+          "EditBanner": "Chỉnh sửa Banner",
+          "Block": "Chặn",
+          "Unblock": "Bỏ chặn"
         },
         "AboutMe": {
           "Title": "Giới thiệu về tôi"
@@ -2737,17 +2755,17 @@
           "Default": "Mặc định"
         },
         "Foreground": {
-          "Title": "Foreground",
-          "Description": "Avatar foreground.",
+          "Title": "Biểu tượng",
+          "Description": "Biểu tượng Avatar.",
           "Player": "Người chơi",
-          "Heart": "Heart",
-          "Hat": "Hat",
-          "Fish": "Fish",
-          "Paw": "Paw"
+          "Heart": "Trái tim",
+          "Hat": "Mũ",
+          "Fish": "Cá",
+          "Paw": "Bàn chân"
         },
         "ForegroundColor": {
-          "Title": "Màu sắc Foreground",
-          "Description": "Màu sắc avatar foreground."
+          "Title": "Màu sắc biểu tượng",
+          "Description": "Màu sắc biểu tượng avatar."
         },
         "Background": {
           "Title": "Background",
@@ -2795,6 +2813,15 @@
       "Title": "Giới thiệu về Sonolus",
       "Letter": {
         "Title": "Thư từ nhà phát triển"
+      },
+      "Support": {
+        "Title": "Hỗ trợ",
+        "Description": "Để liên hệ và hỗ trợ, hãy gửi email tới: {0}",
+        "Email": "Email"
+      },
+      "Legal": {
+        "Title": "Hợp pháp",
+        "Description": "Khi sử dụng Sonolus, bạn phải đồng ý:"
       },
       "Music": {
         "Title": "Âm nhạc"
@@ -4098,7 +4125,7 @@
         "Manage": "Quản lý"
       },
       "Developer": {
-        "Title": "Dành cho Nhà phát trển",
+        "Title": "Tùy chọn nhà phát triển",
         "ShowFps": {
           "Title": "Hiển thị FPS",
           "Description": "Hiển thị bộ đếm FPS ở góc dưới bên trái màn hình."
