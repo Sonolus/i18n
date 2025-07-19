@@ -830,6 +830,12 @@
                     "Old": {
                         "Title": "Signed in"
                     }
+                },
+                "Banned": {
+                    "Description": "Your Sonolus account has been banned."
+                },
+                "Deleted": {
+                    "Description": "You have recently deleted your Sonolus account.\n\nPlease wait 7 days after deletion before creating another Sonolus account."
                 }
             },
             "UserInfo": {
@@ -906,6 +912,13 @@
                 "Error": "Failed to sign out.\n\nPlease check your internet connection and try again.",
                 "Success": {
                     "Title": "Signed out"
+                }
+            },
+            "Delete": {
+                "Loading": "Deleting account...",
+                "Error": "Failed to delete account.\n\nPlease check your internet connection and try again.",
+                "Success": {
+                    "Title": "Deleted Account"
                 }
             }
         },
@@ -2643,10 +2656,7 @@
             "Title": "Shop",
             "Gems": {
                 "Title": "Gems",
-                "NotLoggedIn": "Sign in to see your gems!",
-                "BetaError": {
-                    "Description": "Gems are currently not available to purchase in Sonolus beta."
-                }
+                "NotLoggedIn": "Sign in to see your gems!"
             },
             "General": {
                 "Title": "General"
@@ -2692,7 +2702,13 @@
                     "Wechat": "Sign in with WeChat"
                 },
                 "Profile": "Profile",
-                "Logout": "Sign out"
+                "Logout": "Sign out",
+                "Delete": {
+                    "Title": "Delete",
+                    "Confirmation": {
+                        "Description": "Deleting will permanently delete data associated with your Sonolus account, including profile, inventory, and data in custom servers. Data in custom servers may take up to 7 days to complete deletion.\nYou will not be able to recover the deleted account.\nYou will not be able to create another Sonolus account using the same sign in account for 7 days.\n\nAre you sure to delete \"{0}\"?"
+                    }
+                }
             },
             "Inventory": {
                 "Title": "Inventory",
@@ -2704,7 +2720,9 @@
                 "Main": {
                     "EditName": "Edit Name",
                     "EditAvatar": "Edit Avatar",
-                    "EditBanner": "Edit Banner"
+                    "EditBanner": "Edit Banner",
+                    "Block": "Block",
+                    "Unblock": "Unblock"
                 },
                 "AboutMe": {
                     "Title": "About Me"
@@ -2795,6 +2813,15 @@
             "Title": "About Sonolus",
             "Letter": {
                 "Title": "A Letter from the Developer"
+            },
+            "Support": {
+                "Title": "Support",
+                "Description": "To contact support, email: {0}",
+                "Email": "Email"
+            },
+            "Legal": {
+                "Title": "Legal",
+                "Description": "By using Sonolus, you agree to:"
             },
             "Music": {
                 "Title": "Music"
