@@ -447,9 +447,9 @@
     "#SUBMIT": "제출",
     "#SUBMITTING": "제출 중",
     "#SUBMITTED": "제출됨",
-    "#EDIT": "편집",
-    "#EDITING": "편집 중",
-    "#EDITED": "편집됨",
+    "#EDIT": "수정",
+    "#EDITING": "수정 중",
+    "#EDITED": "수정됨",
     "#LIKE": "좋아요",
     "#LIKED": "좋아요 표시됨",
     "#DISLIKE": "싫어요",
@@ -526,7 +526,7 @@
     "None": "없음",
     "Select": "선택",
     "Reset": "초기화",
-    "Edit": "편집",
+    "Edit": "수정",
     "View": "보기",
     "Create": "생성",
     "Upload": "업로드",
@@ -679,42 +679,42 @@
       "Tween": "트윈",
       "Ease": {
         "Linear": "Linear",
-        "InSine": "Sine (인)",
-        "OutSine": "Sine (아웃)",
-        "InOutSine": "Sine (인-아웃)",
-        "OutInSine": "Sine (아웃-인)",
-        "InQuad": "Quad (인)",
-        "OutQuad": "Quad (아웃)",
-        "InOutQuad": "Quad (인-아웃)",
-        "OutInQuad": "Quad (아웃-인)",
-        "InCubic": "Cubic (인)",
-        "OutCubic": "Cubic (아웃)",
-        "InOutCubic": "Cubic (인-아웃)",
-        "OutInCubic": "Cubic (아웃-인)",
-        "InQuart": "Quart (인)",
-        "OutQuart": "Quart (아웃)",
-        "InOutQuart": "Quart (인-아웃)",
-        "OutInQuart": "Quart (아웃-인)",
-        "InQuint": "Quint (인)",
-        "OutQuint": "Quint (아웃)",
-        "InOutQuint": "Quint (인-아웃)",
-        "OutInQuint": "Quint (아웃-인)",
-        "InExpo": "Expo (인)",
-        "OutExpo": "Expo (아웃)",
-        "InOutExpo": "Expo (인-아웃)",
-        "OutInExpo": "Expo (아웃-인)",
-        "InCirc": "Circ (인)",
-        "OutCirc": "Circ (아웃)",
-        "InOutCirc": "Circ (인-아웃)",
-        "OutInCirc": "Circ (아웃-인)",
-        "InBack": "Back (인)",
-        "OutBack": "Back (아웃)",
-        "InOutBack": "Back (인-아웃)",
-        "OutInBack": "Back (아웃-인)",
-        "InElastic": "Elastic (인)",
-        "OutElastic": "Elastic (아웃)",
-        "InOutElastic": "Elastic (인-아웃)",
-        "OutInElastic": "Elastic (아웃-인)",
+        "InSine": "Sine(인)",
+        "OutSine": "Sine(아웃)",
+        "InOutSine": "Sine(인 아웃)",
+        "OutInSine": "Sine(아웃 인)",
+        "InQuad": "Quad(인)",
+        "OutQuad": "Quad(아웃)",
+        "InOutQuad": "Quad(인 아웃)",
+        "OutInQuad": "Quad(아웃 인)",
+        "InCubic": "Cubic(인)",
+        "OutCubic": "Cubic(아웃)",
+        "InOutCubic": "Cubic(인 아웃)",
+        "OutInCubic": "Cubic(아웃 인)",
+        "InQuart": "Quart(인)",
+        "OutQuart": "Quart(아웃)",
+        "InOutQuart": "Quart(인 아웃)",
+        "OutInQuart": "Quart(아웃 인)",
+        "InQuint": "Quint(인)",
+        "OutQuint": "Quint(아웃)",
+        "InOutQuint": "Quint(인 아웃)",
+        "OutInQuint": "Quint(아웃 인)",
+        "InExpo": "Expo(인)",
+        "OutExpo": "Expo(아웃)",
+        "InOutExpo": "Expo(인 아웃)",
+        "OutInExpo": "Expo(아웃 인)",
+        "InCirc": "Circ(인)",
+        "OutCirc": "Circ(아웃)",
+        "InOutCirc": "Circ(인 아웃)",
+        "OutInCirc": "Circ(아웃 인)",
+        "InBack": "Back(인)",
+        "OutBack": "Back(아웃)",
+        "InOutBack": "Back(인 아웃)",
+        "OutInBack": "Back(아웃 인)",
+        "InElastic": "Elastic(인)",
+        "OutElastic": "Elastic(아웃)",
+        "InOutElastic": "Elastic(인 아웃)",
+        "OutInElastic": "Elastic(아웃 인)",
         "None": "없음"
       }
     },
@@ -758,7 +758,7 @@
     "InternetConnectionError": "인터넷 연결이 없습니다.\n인터넷 연결을 확인하거나 Sonolus가 인터넷에 접근할 수 있는 지 확인 후 재시도해 주십시오.",
     "ServerConnectionError": "서버에 연결할 수 없습니다.\n서버 주소가 올바른지 확인하거나 인터넷 연결을 확인 후 재시도하거나 서버 소유자에게 문의해 주십시오.",
     "ServerHttpError": "서버 응답: {0}",
-    "ServerVersionTooOldError": "이 서버는 이전 버전의 Sonolus만 지원합니다 ({0}).\n서버가 업데이트될 때까지 기다리거나 서버 소유자에게 문의해 주십시오.",
+    "ServerVersionTooOldError": "이 서버는 이전 버전의 Sonolus({0})만 지원합니다.\n서버가 업데이트될 때까지 기다리거나 서버 소유자에게 문의해 주십시오.",
     "ServerVersionTooNewError": "이 서버는 {0} 버전의 Sonolus만 지원합니다.\n\nSonolus를 업데이트하거나 서버 소유자에게 문의해 주십시오."
   },
   "Clients": {
@@ -830,6 +830,12 @@
           "Old": {
             "Title": "로그인됨"
           }
+        },
+        "Banned": {
+          "Description": "귀하의 Sonolus 계정은 차단되었습니다."
+        },
+        "Deleted": {
+          "Description": "최근에 Sonolus 계정을 삭제하셨습니다.\n\n다른 Sonolus 계정을 만들기 위해서는 삭제 후 7일이 경과해야 합니다."
         }
       },
       "UserInfo": {
@@ -877,21 +883,21 @@
         }
       },
       "EditBanner": {
-        "Loading": "배너 편집 중...",
-        "Error": "배너를 편집할 수 없습니다.\n\n배너가 규정을 준수하는지, 또는 인터넷 연결을 확인 후 재시도해 주십시오.",
+        "Loading": "배너 수정 중...",
+        "Error": "배너를 수정할 수 없습니다.\n\n배너가 규정을 준수하는지, 또는 인터넷 연결을 확인 후 재시도해 주십시오.",
         "Success": {
-          "Title": "배너 편집됨"
+          "Title": "배너 수정됨"
         }
       },
       "EditAboutMe": {
-        "Loading": "내 소개를 수정하는 중...",
+        "Loading": "내 소개 수정 중...",
         "Error": "내 소개를 수정할 수 없습니다.\n\n내 소개가 규정 및 길이 제한을 준수하는지 확인하거나 인터넷 연결을 확인 후 재시도해 주십시오.",
         "Success": {
           "Title": "내 소개 수정됨"
         }
       },
       "EditFavorites": {
-        "Loading": "즐겨찾기를 수정하는 중...",
+        "Loading": "즐겨찾기 수정 중...",
         "Error": "즐겨찾기를 수정할 수 없습니다.\n\n즐겨찾기가 규정 및 길이 제한을 준수하는지 확인하거나 인터넷 연결을 확인 후 재시도해 주십시오.",
         "Success": {
           "Title": "즐겨찾기 수정됨"
@@ -902,10 +908,17 @@
         "Error": "Sonolus 인증 요청에 실패했습니다.\n\n인터넷 연결을 확인 후 재시도하거나 Sonolus 지원 팀에 문의해 주십시오."
       },
       "Logout": {
-        "Loading": "로그아웃 하는 중...",
+        "Loading": "로그아웃 중...",
         "Error": "로그아웃에 실패했습니다.\n\n인터넷 연결을 확인 후 재시도해 주십시오.",
         "Success": {
           "Title": "로그아웃됨"
+        }
+      },
+      "Delete": {
+        "Loading": "계정 삭제 중...",
+        "Error": "계정을 삭제할 수 없습니다.\n\n인터넷 연결을 확인 후 재시도해 주십시오.",
+        "Success": {
+          "Title": "삭제된 계정"
         }
       }
     },
@@ -2643,10 +2656,7 @@
       "Title": "상점",
       "Gems": {
         "Title": "보석",
-        "NotLoggedIn": "로그인하여 보석을 확인하십시오!",
-        "BetaError": {
-          "Description": "현재 Sonolus 베타에서는 보석을 구매할 수 없습니다."
-        }
+        "NotLoggedIn": "로그인하여 보석을 확인하십시오!"
       },
       "General": {
         "Title": "일반"
@@ -2692,7 +2702,13 @@
           "Wechat": "WeChat으로 로그인"
         },
         "Profile": "프로필",
-        "Logout": "로그아웃"
+        "Logout": "로그아웃",
+        "Delete": {
+          "Title": "삭제",
+          "Confirmation": {
+            "Description": "삭제하면 Sonolus 계정과 연관된 모든 데이터(프로필, 인벤토리, 맞춤 서버의 데이터 포함)가 영구적으로 삭제됩니다.\n맞춤 서버의 데이터 삭제는 최대 7일이 걸릴 수 있습니다.\n삭제된 계정은 복구할 수 없습니다.\n같은 로그인 계정을 사용하여 7일 동안 새로운 Sonolus 계정을 만들 수 없습니다.\n\n정말로 \"{0}\" 계정을 삭제하시겠습니까?\n"
+          }
+        }
       },
       "Inventory": {
         "Title": "인벤토리",
@@ -2704,7 +2720,9 @@
         "Main": {
           "EditName": "이름 수정",
           "EditAvatar": "프로필 사진 수정",
-          "EditBanner": "배너 편집"
+          "EditBanner": "배너 편집",
+          "Block": "차단",
+          "Unblock": "차단 해제"
         },
         "AboutMe": {
           "Title": "내 소개"
@@ -2795,6 +2813,15 @@
       "Title": "Sonolus 소개",
       "Letter": {
         "Title": "개발자의 메시지"
+      },
+      "Support": {
+        "Title": "지원",
+        "Description": "지원팀에 문의하려면 다음 이메일 주소로 연락하십시오: {0}",
+        "Email": "이메일"
+      },
+      "Legal": {
+        "Title": "법적 고지",
+        "Description": "Sonolus를 사용함으로써 다음 사항에 동의하게 됩니다:"
       },
       "Music": {
         "Title": "음악"
