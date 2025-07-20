@@ -830,6 +830,12 @@
           "Old": {
             "Title": "已登录"
           }
+        },
+        "Banned": {
+          "Description": "您的 Sonolus 账户已被封禁。"
+        },
+        "Deleted": {
+          "Description": "您最近删除了您的 Sonolus 账户。\n\n请在删除后等待 7 天，再创建新的 Sonolus 账户。"
         }
       },
       "UserInfo": {
@@ -906,6 +912,13 @@
         "Error": "登出失败。\n\n请检查您的网络连接并重试。",
         "Success": {
           "Title": "已登出"
+        }
+      },
+      "Delete": {
+        "Loading": "正在删除账户...",
+        "Error": "删除账户失败。\n\n请检查您的网络连接，然后重试。",
+        "Success": {
+          "Title": "账户已删除"
         }
       }
     },
@@ -2643,10 +2656,7 @@
       "Title": "商店",
       "Gems": {
         "Title": "宝石",
-        "NotLoggedIn": "登录以查看您的宝石！",
-        "BetaError": {
-          "Description": "Sonolus beta 版本目前无法购买宝石。"
-        }
+        "NotLoggedIn": "登录以查看您的宝石！"
       },
       "General": {
         "Title": "常规"
@@ -2692,7 +2702,13 @@
           "Wechat": "微信登录"
         },
         "Profile": "资料",
-        "Logout": "登出"
+        "Logout": "登出",
+        "Delete": {
+          "Title": "删除",
+          "Confirmation": {
+            "Description": "删除账户将会永久删除与您的 Sonolus 账户相关数据，包括个人资料，物品，以及自定义服务器中的数据。自定义服务器中的数据需要至多 7 天才能完全删除。\n\n您将无法恢复已删除的账户。\n\n在这 7 天内，您将不能创建新的 Sonolus 账户。\n\n您确定要删除 \"{0}\" 吗？"
+          }
+        }
       },
       "Inventory": {
         "Title": "背包",
@@ -2704,7 +2720,9 @@
         "Main": {
           "EditName": "编辑名字",
           "EditAvatar": "编辑头像",
-          "EditBanner": "修改横幅"
+          "EditBanner": "修改横幅",
+          "Block": "屏蔽",
+          "Unblock": "解除屏蔽"
         },
         "AboutMe": {
           "Title": "关于我"
@@ -2795,6 +2813,15 @@
       "Title": "关于 Sonolus",
       "Letter": {
         "Title": "来自开发者的一封信"
+      },
+      "Support": {
+        "Title": "客服",
+        "Description": "如需客服帮助，请电子邮件联系: {0}",
+        "Email": "邮箱"
+      },
+      "Legal": {
+        "Title": "使用条款",
+        "Description": "使用 Sonolus 即代表您同意以下条款:"
       },
       "Music": {
         "Title": "音乐"
