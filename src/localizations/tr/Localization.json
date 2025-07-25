@@ -832,6 +832,13 @@
           }
         }
       },
+      "Banned": {
+        "Description": "Sonolus hesabınız banlandı."
+                },
+      "Deleted": {
+            "Description": "Sonolus hesabınızı yakın zamanlarda sildiniz.\n\nLütfen yeni bir Sonolus hesabı açmadan önce 7 gün bekleyiniz."
+                }
+            },
       "UserInfo": {
         "Loading": "Kullanıcı bilgileri yükleniyor...",
         "Error": "Kullanıcı bilgileri yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
@@ -909,6 +916,14 @@
         }
       }
     },
+  "Delete": {
+                "Loading": "Hesabınız siliniyor...",
+                "Error": "Hesabınızı silmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
+                "Success": {
+                    "Title": "Hesap Silindi"
+                }
+            }
+        },
     "CustomServer": {
       "Authentication": {
         "NotLoggedInError": {
@@ -2693,7 +2708,13 @@
         },
         "Profile": "Profil",
         "Logout": "Oturumu Kapat"
-      },
+        "Delete": {
+                    "Title": "Sil",
+                    "Confirmation": {
+                        "Description": "Bu seçenek; profil, envanter ve özel sunuculardaki veriler dahil olmak üzere Sonolus hesabınızla ilişkili bütün verileri kalıcı olarak siler. Özel sunuculardaki verilerinizin silinmesi 7 gün kadar sürebilir..\nSilinen bir hesabı kurtaramazsınız.\nAynı oturum açma hesabını kullanarak 7 gün boyunca başka bir Sonolus hesabı oluşturamazsınız..\n\n\"{0}\" hesabınızı silmek istediğinize emin misiniz?"
+                    }
+                }
+         },
       "Inventory": {
         "Title": "Envanter",
         "NotLoggedIn": "Envanterinizi görmek için giriş yapın!"
@@ -2705,6 +2726,8 @@
           "EditName": "İsmini Düzenle",
           "EditAvatar": "Avatarını Düzenle",
           "EditBanner": "Afişi Düzenle"
+          "Block": "Engelle",
+          "Unblock": "Engeli Kaldır"
         },
         "AboutMe": {
           "Title": "Hakkımda"
@@ -2796,6 +2819,15 @@
       "Letter": {
         "Title": "Geliştiriciden Bir Mektup"
       },
+                "Support": {
+                "Title": "Destek",
+                "Description": "Destek ile iletişime geçmek için, email: {0}",
+                "Email": "Email"
+            },
+            "Legal": {
+                "Title": "Hukuki",
+                "Description": "Sonolus'u kullanarak, aşağıdakileri kabul etmiş olursunuz:"
+            },
       "Music": {
         "Title": "Müzik"
       },
