@@ -503,16 +503,16 @@
     "#HIDE": "Gizle",
     "#ALLOW": "İzin Ver",
     "#ALLOWED": "İzin Verildi",
-    "#DISALLOW": "İzin Verme",
+    "#DISALLOW": "İzin Verme ( - )",
     "#DISALLOWED": "İzin Verilmedi",
     "#APPROVE": "Onayla",
     "#APPROVED": "Onaylandı",
     "#DENY": "Reddet",
-    "#DENIED": "Kabul Edilmedi",
+    "#DENIED": "Reddedildi",
     "#ACCEPT": "Kabul Et",
     "#ACCEPTED": "Kabul Edildi",
     "#REJECT": "Geri Çevir",
-    "#REJECTED": "Reddedildi",
+    "#REJECTED": "Geri Çevirildi",
     "#STAR": "Yıldızla",
     "#STARRED": "Yıldızlandı"
   },
@@ -584,13 +584,13 @@
       "Calibrate": "Ayarla"
     },
     "MultiField": {
-      "Selected": "{0} Öge Seçildi",
+      "Selected": "{0} Öğe Seçildi",
       "AllSelected": "Hepsi Seçildi",
       "SelectAll": "Hepsini Seç",
       "SelectNone": "Hiçbirini Seçme"
     },
     "ItemFields": {
-      "Selected": "{0} Öge Seçildi",
+      "Selected": "{0} Öğe Seçildi",
       "NoSelected": {
         "Post": "Herhangi bir gönderi seçilmedi",
         "Playlist": "Herhangi bir çalma listesi seçilmedi",
@@ -830,6 +830,12 @@
           "Old": {
             "Title": "Oturum Açıldı"
           }
+        },
+        "Banned": {
+          "Description": "Sonolus hesabınız banlandı."
+        },
+        "Deleted": {
+          "Description": "Sonolus hesabınızı yakın zamanlarda sildiniz.\n\nLütfen yeni bir Sonolus hesabı açmadan önce 7 gün bekleyiniz."
         }
       },
       "UserInfo": {
@@ -907,6 +913,13 @@
         "Success": {
           "Title": "Oturum Kapatıldı"
         }
+      },
+      "Delete": {
+        "Loading": "Hesabınız siliniyor...",
+        "Error": "Hesabınızı silmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
+        "Success": {
+          "Title": "Hesap Silindi"
+        }
       }
     },
     "CustomServer": {
@@ -949,47 +962,47 @@
       "Server": {
         "Info": {
           "Loading": "Sunucu bilgisi yükleniyor...",
-          "Error": "\"{0}\" sunucusunun bilgisini yüklemede başarısız olundu.\n\nLütfen sunucu adresinin doğru olup olmadığın kontrol edin, internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" sunucusunun bilgisini yüklemede başarısız olundu."
         },
         "Banner": {
           "Loading": "Sunucu afişi yükleniyor...",
-          "Error": "\"{0}\" sunucusunun afişini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" sunucusunun afişini yüklemede başarısız olundu."
         }
       },
       "Post": {
         "Info": {
           "Loading": "Gönderilerin bilgileri yükleniyor...",
-          "Error": "\"{0}\" gönderilerinin bilgilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" gönderilerinin bilgilerini yüklemede başarısız olundu."
         },
         "Create": {
           "Loading": "Gönderi oluşturuluyor...",
-          "Error": "\"{0}\" içinde gönderi oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" içinde gönderi oluşturmasında başarısız olundu."
         },
         "List": {
           "Loading": "Gönderiler yükleniyor...",
-          "Error": "{0}. sayfadaki gönderiler yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "{0}. sayfadaki gönderiler yüklenemedi."
         },
         "Details": {
           "Loading": "Gönderi detayları yükleniyor...",
-          "Error": "\"{0}\" gönderisinin detayları yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" gönderisinin detayları yüklenmede başarısız olundu."
         },
         "Submit": {
           "Loading": "Talebiniz gönderiye gönderiliyor...",
-          "Error": "\"{0}\" gönderi talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" gönderi talebinizi göndermede başarısız olundu."
         },
         "Community": {
           "Info": {
             "Loading": "Gönderi topluluğu bilgileri yükleniyor...",
-            "Error": "\"{0}\" gönderi topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+            "Error": "\"{0}\" gönderi topluluğu bilgilerini yüklenmede başarısız olundu."
           },
           "Submit": {
             "Loading": "Gönderi topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini gönderi topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" içeriğini gönderi topluluğuna göndermede başarısız olundu."
           },
           "Comment": {
             "List": {
               "Loading": "Gönderi yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki gönderi yorumları yüklenmesinde başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+              "Error": "{0}. sayfadaki gönderi yorumları yüklenmesinde başarısız olundu."
             }
           }
         },
@@ -1001,105 +1014,105 @@
           "Record": {
             "List": {
               "Loading": "Gönderi kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki gönderi kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki gönderi kayıtlarını yüklemede başarısız olundu."
             },
             "Details": {
               "Loading": "Gönderi kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" gönderi kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "\"{0}\" gönderi kayıt detaylarını yüklemede başarısız olundu."
             }
           }
         },
         "Compatibility": {
           "Loading": "Gönderi uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" gönderisi mevcut Sonolus sürümüyle uyumlu değil.\n\nLütfen farklı bir gönderi kullanın, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" gönderisi mevcut Sonolus sürümüyle uyumlu değil."
         },
         "Thumbnail": {
           "Loading": "Gönderi önizleme resmi yükleniyor...",
-          "Error": "\"{0}\" gönderisinin önizleme resmini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" gönderisinin önizleme resmini yüklenmede başarısız olundu."
         }
       },
       "Playlist": {
         "Info": {
           "Loading": "Çalma listelerinin bilgileri yükleniyor...",
-          "Error": "\"{0}\" çalma listelerinin bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" çalma listelerinin bilgilerini yüklenmede başarısız olundu."
         },
         "Create": {
           "Loading": "Çalma listesi oluşturuluyor...",
-          "Error": "\"{0}\" içinde çalma listesi oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" içinde çalma listesi oluşturmasında başarısız olundu."
         },
         "List": {
           "Loading": "Çalma listeleri yükleniyor...",
-          "Error": "{0}. sayfadaki çalma listeleri yüklenmesinde başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "{0}. sayfadaki çalma listeleri yüklenmesinde başarısız olundu."
         },
         "Details": {
           "Loading": "Çalma listesi detayları yükleniyor...",
-          "Error": "\"{0}\" oynatma listesi detayları yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" oynatma listesi detayları yüklenemedi."
         },
         "Submit": {
           "Loading": "Talebiniz çalma listesine gönderiliyor...",
-          "Error": "\"{0}\" çalma listesi talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" çalma listesi talebinizi göndermede başarısız olundu."
         },
         "Community": {
           "Info": {
             "Loading": "Çalma listesi topluluğu bilgileri yükleniyor...",
-            "Error": "\"{0}\" çalma listesi topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+            "Error": "\"{0}\" çalma listesi topluluğu bilgilerini yüklenmede başarısız olundu."
           },
           "Submit": {
             "Loading": "Çalma listesi topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini çalma listesi topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" içeriğini çalma listesi topluluğuna göndermede başarısız olundu."
           },
           "Comment": {
             "List": {
               "Loading": "Çalma listesi yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki çalma listesi yorumlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki çalma listesi yorumlarını yüklemede başarısız olundu."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Çalma listesi liderler tablosu detayları yükleniyor...",
-            "Error": "\"{0}\" çalma listesi liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" çalma listesi liderler tablosu detaylarını yüklemede başarısız olundu."
           },
           "Record": {
             "List": {
               "Loading": "Çalma listesi kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki çalma listesi kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki çalma listesi kayıtlarını yüklemede başarısız olundu."
             },
             "Details": {
               "Loading": "Çalma listesi kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" çalma listesi kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "\"{0}\" çalma listesi kayıt detaylarını yüklemede başarısız olundu."
             }
           }
         },
         "Compatibility": {
           "Loading": "Çalma listesi uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" çalma listesi şu anki Sonolus sürümüyle uyumlu değil.\n\nLütfen farklı bir çalma listesi kullanın, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" çalma listesi şu anki Sonolus sürümüyle uyumlu değil."
         },
         "Thumbnail": {
           "Loading": "Çalma listesi önizleme resmi yükleniyor...",
-          "Error": "\"{0}\" oynatma listesi önizleme resmi yüklenmesinde başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" oynatma listesi önizleme resmi yüklenmesinde başarısız olundu."
         }
       },
       "Level": {
         "Info": {
           "Loading": "Seviyelerin bilgileri yükleniyor...",
-          "Error": "\"{0}\" seviyelerinin bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" seviyelerinin bilgilerini yüklenmede başarısız olundu."
         },
         "Create": {
           "Loading": "Seviye oluşturuluyor...",
-          "Error": "\"{0}\" içinde seviye oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" içinde seviye oluşturmasında başarısız olundu."
         },
         "List": {
           "Loading": "Seviyeler yükleniyor...",
-          "Error": "{0}. sayfadaki seviyeleri yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "{0}. sayfadaki seviyeleri yüklemede başarısız olundu."
         },
         "Details": {
           "Loading": "Seviye detayları yükleniyor...",
-          "Error": "\"{0}\" seviye detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" seviye detaylarını yüklemede başarısız olundu."
         },
         "Submit": {
           "Loading": "Talebiniz seviyeye gönderiliyor...",
-          "Error": "\"{0}\" seviye talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" seviye talebinizi göndermede başarısız olundu."
         },
         "Result": {
           "Info": {
@@ -1118,32 +1131,32 @@
         "Community": {
           "Info": {
             "Loading": "Seviye topluluğu bilgileri yükleniyor...",
-            "Error": "\"{0}\" seviye topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+            "Error": "\"{0}\" seviye topluluğu bilgilerini yüklenmede başarısız olundu."
           },
           "Submit": {
             "Loading": "Seviye topluluğa gönderiliyor...",
-            "Error": "\"{0}\" içeriğini seviye topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" içeriğini seviye topluluğuna göndermede başarısız olundu."
           },
           "Comment": {
             "List": {
               "Loading": "Seviye yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki seviye yorumlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki seviye yorumlarını yüklemede başarısız olundu."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Seviye liderler tablosu detayları yükleniyor...",
-            "Error": "\"{0}\" seviye liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" seviye liderler tablosu detaylarını yüklemede başarısız olundu."
           },
           "Record": {
             "List": {
               "Loading": "Seviye kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki seviye kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki seviye kayıtlarını yüklemede başarısız olundu."
             },
             "Details": {
               "Loading": "Seviye kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" seviye kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "\"{0}\" seviye kayıt detaylarını yüklemede başarısız olundu."
             }
           }
         },
@@ -1161,63 +1174,63 @@
         },
         "Preview": {
           "Loading": "Seviye önizlemesi yükleniyor...",
-          "Error": "\"{0}\" seviye önizlemesini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" seviye önizlemesini yüklemede başarısız olundu."
         },
         "Data": {
           "Loading": "Seviye verileri yükleniyor...",
-          "Error": "\"{0}\" seviye verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" seviye verilerini yüklemede başarısız olundu."
         }
       },
       "Skin": {
         "Info": {
           "Loading": "Dokuların bilgileri yükleniyor...",
-          "Error": "\"{0}\" dokularının bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" dokularının bilgilerini yüklenmede başarısız olundu."
         },
         "Create": {
           "Loading": "Doku oluşturuluyor...",
-          "Error": "\"{0}\" içinde doku oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" içinde doku oluşturmasında başarısız olundu."
         },
         "List": {
           "Loading": "Dokular yükleniyor...",
-          "Error": "{0}. sayfadaki dokuları yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "{0}. sayfadaki dokuları yüklemede başarısız olundu."
         },
         "Details": {
           "Loading": "Doku detayları yükleniyor...",
-          "Error": "\"{0}\" doku detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" doku detaylarını yüklemede başarısız olundu."
         },
         "Submit": {
           "Loading": "Talebiniz dokuya gönderiliyor...",
-          "Error": "\"{0}\" doku talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" doku talebinizi göndermede başarısız olundu."
         },
         "Community": {
           "Info": {
             "Loading": "Doku topluluğu bilgileri yükleniyor...",
-            "Error": "\"{0}\" doku topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+            "Error": "\"{0}\" doku topluluğu bilgilerini yüklenmede başarısız olundu."
           },
           "Submit": {
             "Loading": "Doku topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini doku topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" içeriğini doku topluluğuna göndermede başarısız olundu."
           },
           "Comment": {
             "List": {
               "Loading": "Doku yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki doku yorumlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki doku yorumlarını yüklemede başarısız olundu."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Doku liderler tablosu detayları yükleniyor...",
-            "Error": "\"{0}\" doku liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" doku liderler tablosu detaylarını yüklemede başarısız olundu."
           },
           "Record": {
             "List": {
               "Loading": "Doku kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki doku kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki doku kayıtlarını yüklemede başarısız olundu."
             },
             "Details": {
               "Loading": "Doku kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" doku kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "\"{0}\" doku kayıt detaylarını yüklemede başarısız olundu."
             }
           }
         },
@@ -1227,67 +1240,67 @@
         },
         "Thumbnail": {
           "Loading": "Doku önizleme görseli yükleniyor...",
-          "Error": "\"{0}\" doku önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" doku önizleme görselini yüklemede başarısız olundu."
         },
         "Data": {
           "Loading": "Doku verileri yükleniyor...",
-          "Error": "\"{0}\" doku verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" doku verilerini yüklemede başarısız olundu."
         },
         "Texture": {
           "Loading": "Doku yapısı yükleniyor...",
-          "Error": "\"{0}\" doku yapısını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" doku yapısını yüklemede başarısız olundu."
         }
       },
       "Background": {
         "Info": {
           "Loading": "Arkaplanların bilgileri yükleniyor...",
-          "Error": "\"{0}\" arkaplanlarının bilgilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" arkaplanlarının bilgilerini yüklemede başarısız olundu."
         },
         "Create": {
           "Loading": "Arkaplan oluşturuluyor...",
-          "Error": "\"{0}\" içinde arkaplan oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" içinde arkaplan oluşturmasında başarısız olundu."
         },
         "List": {
           "Loading": "Arkaplanlar yükleniyor...",
-          "Error": "{0}. sayfadaki arkaplanları yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "{0}. sayfadaki arkaplanları yüklemede başarısız olundu."
         },
         "Details": {
           "Loading": "Arkaplan detayları yükleniyor...",
-          "Error": "\"{0}\" arkaplan detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" arkaplan detaylarını yüklemede başarısız olundu."
         },
         "Submit": {
           "Loading": "Talebiniz arkaplana gönderiliyor...",
-          "Error": "\"{0}\" arkaplan talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" arkaplan talebinizi göndermede başarısız olundu."
         },
         "Community": {
           "Info": {
             "Loading": "Arkaplan topluluğu bilgileri yükleniyor...",
-            "Error": "\"{0}\" arkaplan topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+            "Error": "\"{0}\" arkaplan topluluğu bilgilerini yüklenmede başarısız olundu."
           },
           "Submit": {
             "Loading": "Arkaplan topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini arkaplan topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" içeriğini arkaplan topluluğuna göndermede başarısız olundu."
           },
           "Comment": {
             "List": {
               "Loading": "Arkaplan yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki arkaplan yorumlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki arkaplan yorumlarını yüklemede başarısız olundu."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Arkaplan liderler tablosu detayları yükleniyor...",
-            "Error": "\"{0}\" arkaplan liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" arkaplan liderler tablosu detaylarını yüklemede başarısız olundu."
           },
           "Record": {
             "List": {
               "Loading": "Arkaplan kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki arkaplan kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki arkaplan kayıtlarını yüklemede başarısız olundu."
             },
             "Details": {
               "Loading": "Arkaplan kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" arkaplan kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "\"{0}\" arkaplan kayıt detaylarını yüklemede başarısız olundu."
             }
           }
         },
@@ -1297,71 +1310,71 @@
         },
         "Thumbnail": {
           "Loading": "Arkaplan önizleme görseli yükleniyor...",
-          "Error": "\"{0}\" arkaplan önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" arkaplan önizleme görselini yüklemede başarısız olundu."
         },
         "Data": {
           "Loading": "Arkaplan verileri yükleniyor...",
-          "Error": "\"{0}\" arkaplan verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" arkaplan verilerini yüklemede başarısız olundu."
         },
         "Image": {
           "Loading": "Arkaplan görseli yükleniyor...",
-          "Error": "\"{0}\" arkaplan görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" arkaplan görselini yüklemede başarısız olundu."
         },
         "Configuration": {
           "Loading": "Arkaplan yapılandırması yükleniyor...",
-          "Error": "\"{0}\" arkaplan yapılandırmasını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" arkaplan yapılandırmasını yüklemede başarısız olundu."
         }
       },
       "Effect": {
         "Info": {
           "Loading": "Ses efekti bilgileri yükleniyor...",
-          "Error": "\"{0}\" ses efekti bilgilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" ses efekti bilgilerini yüklemede başarısız olundu."
         },
         "Create": {
           "Loading": "Ses efekti oluşturuluyor...",
-          "Error": "\"{0}\" içinde ses efekti oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" içinde ses efekti oluşturmasında başarısız olundu."
         },
         "List": {
           "Loading": "Ses efekti yükleniyor...",
-          "Error": "{0}. sayfadaki ses efektini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "{0}. sayfadaki ses efektini yüklemede başarısız olundu."
         },
         "Details": {
           "Loading": "Ses efekti detayları yükleniyor...",
-          "Error": "\"{0}\" ses efekti detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" ses efekti detaylarını yüklemede başarısız olundu."
         },
         "Submit": {
           "Loading": "Talebiniz ses efektine gönderiliyor...",
-          "Error": "\"{0}\" ses efekti talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" ses efekti talebinizi göndermede başarısız olundu."
         },
         "Community": {
           "Info": {
             "Loading": "Ses efekti topluluğu bilgileri yükleniyor...",
-            "Error": "\"{0}\" ses efekti topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+            "Error": "\"{0}\" ses efekti topluluğu bilgilerini yüklenmede başarısız olundu."
           },
           "Submit": {
             "Loading": "Ses efekti topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini ses efekti topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" içeriğini ses efekti topluluğuna göndermede başarısız olundu."
           },
           "Comment": {
             "List": {
               "Loading": "Ses efekti yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki ses efekti yorumlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki ses efekti yorumlarını yüklemede başarısız olundu."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Ses efekti liderler tablosu detayları yükleniyor...",
-            "Error": "\"{0}\" ses efekti liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" ses efekti liderler tablosu detaylarını yüklemede başarısız olundu."
           },
           "Record": {
             "List": {
               "Loading": "Ses efekti kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki ses efekti kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki ses efekti kayıtlarını yüklemede başarısız olundu."
             },
             "Details": {
               "Loading": "Ses efekti kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" ses efekti kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "\"{0}\" ses efekti kayıt detaylarını yüklemede başarısız olundu."
             }
           }
         },
@@ -1371,137 +1384,137 @@
         },
         "Thumbnail": {
           "Loading": "Ses efekti önizleme görseli yükleniyor...",
-          "Error": "\"{0}\" ses efekti önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" ses efekti önizleme görselini yüklemede başarısız olundu."
         },
         "Data": {
           "Loading": "Ses efekti verileri yükleniyor...",
-          "Error": "\"{0}\" ses efekti verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" ses efekti verilerini yüklemede başarısız olundu."
         },
         "Audio": {
           "Loading": "Ses efekti sesi yükleniyor...",
-          "Error": "\"{0}\" ses efekti sesini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" ses efekti sesini yüklemede başarısız olundu."
         }
       },
       "Particle": {
         "Info": {
           "Loading": "Partiküllerin bilgileri yükleniyor...",
-          "Error": "\"{0}\" partiküllerin bilgilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" partiküllerin bilgilerini yüklemede başarısız olundu."
         },
         "Create": {
           "Loading": "Partikül oluşturuluyor...",
-          "Error": "\"{0}\" içinde partikül oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" içinde partikül oluşturmasında başarısız olundu."
         },
         "List": {
           "Loading": "Partiküller yükleniyor...",
-          "Error": "{0}. sayfadaki partikülleri yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "{0}. sayfadaki partikülleri yüklemede başarısız olundu."
         },
         "Details": {
           "Loading": "Partikül detayları yükleniyor...",
-          "Error": "\"{0}\" partikül detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" partikül detaylarını yüklemede başarısız olundu."
         },
         "Submit": {
           "Loading": "Talebiniz partiküle gönderiliyor...",
-          "Error": "\"{0}\" partikül talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" partikül talebinizi göndermede başarısız olundu."
         },
         "Community": {
           "Info": {
             "Loading": "Partikül topluluğu bilgileri yükleniyor...",
-            "Error": "\"{0}\" partikül topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+            "Error": "\"{0}\" partikül topluluğu bilgilerini yüklenmede başarısız olundu."
           },
           "Submit": {
             "Loading": "Partikül topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini partikül topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" içeriğini partikül topluluğuna göndermede başarısız olundu."
           },
           "Comment": {
             "List": {
               "Loading": "Partikül yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki partikül yorumlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki partikül yorumlarını yüklemede başarısız olundu."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Partikül liderler tablosu detayları yükleniyor...",
-            "Error": "\"{0}\" partikül liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" partikül liderler tablosu detaylarını yüklemede başarısız olundu."
           },
           "Record": {
             "List": {
               "Loading": "Partikül kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki partikül kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki partikül kayıtlarını yüklemede başarısız olundu."
             },
             "Details": {
               "Loading": "Partikül kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" partikül kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "\"{0}\" partikül kayıt detaylarını yüklemede başarısız olundu."
             }
           }
         },
         "Compatibility": {
           "Loading": "Partikül uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" partikülü şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen başka bir partikülü kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
+          "Error": "\"{0}\" partikülü şu anki Sonolus sürümü ile uyumlu değil."
         },
         "Thumbnail": {
           "Loading": "Partikül önizleme görseli yükleniyor...",
-          "Error": "\"{0}\" partikül önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" partikül önizleme görselini yüklemede başarısız olundu."
         },
         "Data": {
           "Loading": "Partikül verileri yükleniyor...",
-          "Error": "\"{0}\" partikül verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" partikül verilerini yüklemede başarısız olundu."
         },
         "Texture": {
           "Loading": "Partikül dokusu yükleniyor...",
-          "Error": "\"{0}\" partikül dokusunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" partikül dokusunu yüklemede başarısız olundu."
         }
       },
       "Engine": {
         "Info": {
           "Loading": "Motorların bilgileri yükleniyor...",
-          "Error": "\"{0}\" motorların bilgilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" motorların bilgilerini yüklemede başarısız olundu."
         },
         "Create": {
           "Loading": "Motor oluşturuluyor...",
-          "Error": "\"{0}\" içinde motor oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" içinde motor oluşturmasında başarısız olundu."
         },
         "List": {
           "Loading": "Motorlar yükleniyor...",
-          "Error": "{0}. sayfadaki motorları yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "{0}. sayfadaki motorları yüklemede başarısız olundu."
         },
         "Details": {
           "Loading": "Motor detayları yükleniyor...",
-          "Error": "\"{0}\" motor detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" motor detaylarını yüklemede başarısız olundu."
         },
         "Submit": {
           "Loading": "Talebiniz motora gönderiliyor...",
-          "Error": "\"{0}\" motor talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" motor talebinizi göndermede başarısız olundu."
         },
         "Community": {
           "Info": {
             "Loading": "Motor topluluğu bilgileri yükleniyor...",
-            "Error": "\"{0}\" motor topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+            "Error": "\"{0}\" motor topluluğu bilgilerini yüklenmede başarısız olundu."
           },
           "Submit": {
             "Loading": "Motor topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini motor topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" içeriğini motor topluluğuna göndermede başarısız olundu."
           },
           "Comment": {
             "List": {
               "Loading": "Motor yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki motor yorumlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki motor yorumlarını yüklemede başarısız olundu."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Motor liderler tablosu detayları yükleniyor...",
-            "Error": "\"{0}\" motor liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" motor liderler tablosu detaylarını yüklemede başarısız olundu."
           },
           "Record": {
             "List": {
               "Loading": "Motor kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki motor kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki motor kayıtlarını yüklemede başarısız olundu."
             },
             "Details": {
               "Loading": "Motor kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" motor kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "\"{0}\" motor kayıt detaylarını yüklemede başarısız olundu."
             }
           }
         },
@@ -1511,83 +1524,83 @@
         },
         "Thumbnail": {
           "Loading": "Motor önizleme görseli yükleniyor...",
-          "Error": "\"{0}\" motor önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" motor önizleme görselini yüklemede başarısız olundu."
         },
         "PlayData": {
           "Loading": "Motor oyun modu verileri yükleniyor...",
-          "Error": "\"{0}\" motor oynama modunun verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" motor oynama modunun verilerini yüklemede başarısız olundu."
         },
         "WatchData": {
           "Loading": "Motor izleme modu verileri yükleniyor...",
-          "Error": "\"{0}\" motor izleme modunun verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" motor izleme modunun verilerini yüklemede başarısız olundu."
         },
         "PreviewData": {
           "Loading": "Motor önizleme modu verileri yükleniyor...",
-          "Error": "\"{0}\" motor önizleme modunun verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" motor önizleme modunun verilerini yüklemede başarısız olundu."
         },
         "TutorialData": {
           "Loading": "Motor öğretici modu verileri yükleniyor...",
-          "Error": "\"{0}\" motor öğretici modunun verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" motor öğretici modunun verilerini yüklemede başarısız olundu."
         },
         "Rom": {
           "Loading": "Motor ROM' u yükleniyor...",
-          "Error": "\"{0}\" motor ROM'unu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" motor ROM'unu yüklemede başarısız olundu."
         },
         "Configuration": {
           "Loading": "Motor yapılandırması yükleniyor...",
-          "Error": "\"{0}\" motor yapılandırmasını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" motor yapılandırmasını yüklemede başarısız olundu."
         }
       },
       "Replay": {
         "Info": {
           "Loading": "Tekrarların bilgileri yükleniyor...",
-          "Error": "\"{0}\" tekrarlarının bilgilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" tekrarlarının bilgilerini yüklemede başarısız olundu."
         },
         "Create": {
           "Loading": "Tekrar oluşturuluyor...",
-          "Error": "\"{0}\" içinde tekrar oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" içinde tekrar oluşturmasında başarısız olundu."
         },
         "List": {
           "Loading": "Tekrarlar yükleniyor...",
-          "Error": "{0}. sayfadaki tekrarlar yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "{0}. sayfadaki tekrarlar yüklenemedi."
         },
         "Details": {
           "Loading": "Kayıt detayları yükleniyor...",
-          "Error": "{0}. sayfadaki tekrarları yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "{0}. sayfadaki tekrarları yüklemede başarısız olundu."
         },
         "Submit": {
           "Loading": "Talebiniz tekrara gönderiliyor...",
-          "Error": "\"{0}\" tekrar talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" tekrar talebinizi göndermede başarısız olundu."
         },
         "Community": {
           "Info": {
             "Loading": "Tekrar topluluğu bilgileri yükleniyor...",
-            "Error": "\"{0}\" tekrar topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+            "Error": "\"{0}\" tekrar topluluğu bilgilerini yüklenmede başarısız olundu."
           },
           "Submit": {
             "Loading": "Tekrar topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini tekrar topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" içeriğini tekrar topluluğuna göndermede başarısız olundu."
           },
           "Comment": {
             "List": {
               "Loading": "Tekrar yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki tekrar yorumlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki tekrar yorumlarını yüklemede başarısız olundu."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Tekrar liderler tablosu detayları yükleniyor...",
-            "Error": "\"{0}\" tekrar liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" tekrar liderler tablosu detaylarını yüklemede başarısız olundu."
           },
           "Record": {
             "List": {
               "Loading": "Tekrar kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki tekrar kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki tekrar kayıtlarını yüklemede başarısız olundu."
             },
             "Details": {
               "Loading": "Tekrar kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" tekrar kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "\"{0}\" tekrar kayıt detaylarını yüklemede başarısız olundu."
             }
           }
         },
@@ -1597,63 +1610,63 @@
         },
         "Data": {
           "Loading": "Tekrar verileri yükleniyor...",
-          "Error": "\"{0}\" tekrar verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" tekrar verilerini yüklemede başarısız olundu."
         },
         "Configuration": {
           "Loading": "Tekrar yapılandırması yükleniyor...",
-          "Error": "\"{0}\" tekrar yapılandırmasını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" tekrar yapılandırmasını yüklemede başarısız olundu."
         }
       },
       "Room": {
         "Info": {
           "Loading": "Odaların bilgileri yükleniyor...",
-          "Error": "\"{0}\" odalarının bilgilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" odalarının bilgilerini yüklemede başarısız olundu."
         },
         "Create": {
           "Loading": "Oda oluşturuluyor...",
-          "Error": "\"{0}\" içinde oda oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" içinde oda oluşturmasında başarısız olundu."
         },
         "List": {
           "Loading": "Odalar yükleniyor...",
-          "Error": "{0}. sayfadaki odaları yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "{0}. sayfadaki odaları yüklemede başarısız olundu."
         },
         "Details": {
           "Loading": "Oda detayları yükleniyor...",
-          "Error": "\"{0}\" oda detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" oda detaylarını yüklemede başarısız olundu."
         },
         "Submit": {
           "Loading": "Talebiniz odaya gönderiliyor...",
-          "Error": "\"{0}\" oda talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          "Error": "\"{0}\" oda talebinizi göndermede başarısız olundu."
         },
         "Community": {
           "Info": {
             "Loading": "Oda topluluğu bilgileri yükleniyor...",
-            "Error": "\"{0}\" oda topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+            "Error": "\"{0}\" oda topluluğu bilgilerini yüklenmede başarısız olundu."
           },
           "Submit": {
             "Loading": "Oda topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini oda topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" içeriğini oda topluluğuna göndermede başarısız olundu."
           },
           "Comment": {
             "List": {
               "Loading": "Oda yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki oda yorumlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki oda yorumlarını yüklemede başarısız olundu."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Oda liderler tablosu detayları yükleniyor...",
-            "Error": "\"{0}\" oda liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            "Error": "\"{0}\" oda liderler tablosu detaylarını yüklemede başarısız olundu."
           },
           "Record": {
             "List": {
               "Loading": "Oda kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki oda kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "{0}. sayfadaki oda kayıtlarını yüklemede başarısız olundu."
             },
             "Details": {
               "Loading": "Oda kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" oda kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+              "Error": "\"{0}\" oda kayıt detaylarını yüklemede başarısız olundu."
             }
           }
         },
@@ -1663,15 +1676,15 @@
         },
         "Cover": {
           "Loading": "Oda seviyesi kapağı yükleniyor...",
-          "Error": "\"{0}\" oda seviyesi kapağını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" oda seviyesi kapağını yüklemede başarısız olundu."
         },
         "Bgm": {
           "Loading": "Oda sevyesi arkaplan müziği yükleniyor...",
-          "Error": "\"{0}\" oda seviyesi arkaplan müziğini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" oda seviyesi arkaplan müziğini yüklemede başarısız olundu."
         },
         "Preview": {
           "Loading": "Oda seviyesi önizlemesi yükleniyor...",
-          "Error": "\"{0}\" oda seviyesi önizlemesini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" oda seviyesi önizlemesini yüklemede başarısız olundu."
         }
       }
     },
@@ -2342,7 +2355,7 @@
       },
       "Login": {
         "Loading": "Giriş yapılıyor...",
-        "Error": "\"{0}\" harici hizmetinde oturum açılamadı.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin ya da sorunu bildirmek için servis sahibiyle iletişime geçin."
+        "Error": "\"{0}\" harici hizmetinde oturum açılamadı."
       },
       "Success": {
         "Title": "Giriş Yapıldı",
@@ -2643,10 +2656,7 @@
       "Title": "Mağaza",
       "Gems": {
         "Title": "Mücevherler",
-        "NotLoggedIn": "Mücevherlerinizi görmek için giriş yapın!",
-        "BetaError": {
-          "Description": "Mücevherler, Sonolus' un beta süresince satın almada mevcut değil."
-        }
+        "NotLoggedIn": "Mücevherlerinizi görmek için giriş yapın!"
       },
       "General": {
         "Title": "Genel"
@@ -2692,7 +2702,13 @@
           "Wechat": "WeChat ile giriş yap"
         },
         "Profile": "Profil",
-        "Logout": "Oturumu Kapat"
+        "Logout": "Oturumu Kapat",
+        "Delete": {
+          "Title": "Sil",
+          "Confirmation": {
+            "Description": "Bu seçenek; profil, envanter ve özel sunuculardaki veriler dahil olmak üzere Sonolus hesabınızla ilişkili bütün verileri kalıcı olarak siler. Özel sunuculardaki verilerinizin silinmesi 7 gün kadar sürebilir.\nSilinen bir hesabı kurtaramazsınız.\nAynı oturum açma hesabını kullanarak 7 gün boyunca başka bir Sonolus hesabı oluşturamazsınız.\n\n\"{0}\" hesabınızı silmek istediğinize emin misiniz?"
+          }
+        }
       },
       "Inventory": {
         "Title": "Envanter",
@@ -2704,7 +2720,9 @@
         "Main": {
           "EditName": "İsmini Düzenle",
           "EditAvatar": "Avatarını Düzenle",
-          "EditBanner": "Afişi Düzenle"
+          "EditBanner": "Afişi Düzenle",
+          "Block": "Engelle",
+          "Unblock": "Engeli kaldır"
         },
         "AboutMe": {
           "Title": "Hakkımda"
@@ -2795,6 +2813,15 @@
       "Title": "Sonolus Hakkında",
       "Letter": {
         "Title": "Geliştiriciden Bir Mektup"
+      },
+      "Support": {
+        "Title": "Destek",
+        "Description": "Destek ile iletişime geçmek için şu adrese e-posta gönderin: {0}",
+        "Email": "E-Posta"
+      },
+      "Legal": {
+        "Title": "Hukuki",
+        "Description": "Sonolus'u kullanarak şunları kabul etmiş olursunuz:"
       },
       "Music": {
         "Title": "Müzik"
