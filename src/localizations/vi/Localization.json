@@ -565,9 +565,9 @@
     "Owned": "Đã sở hữu",
     "Judgment": "Phán xét",
     "Accuracy": "Độ chính xác",
-    "Grade": "Cấp",
-    "ArcadeScore": "Điểm số Arcade",
-    "AccuracyScore": "Mức độ chính xác",
+    "Grade": "Hạng",
+    "ArcadeScore": "Tổng điểm số Arcade",
+    "AccuracyScore": "Độ chính xác",
     "Combo": "Combo",
     "Perfect": "Perfect",
     "Great": "Great",
@@ -740,7 +740,7 @@
       }
     },
     "Tip": {
-      "Message": "Bạn muốn trải nghiệm không có quảng cáo trong Sonolus?\n\nVIP và gói thời gian giới hạn đang có sẵn trong Cửa hàng!"
+      "Message": "Bạn muốn trải nghiệm không có quảng cáo trong Sonolus?\n\nVIP và gói giới hạn thời gian đang có sẵn trong Cửa hàng!"
     }
   },
   "Billing": {
@@ -4143,7 +4143,7 @@
           "Description": "Chế độ gỡ lỗi cho phép chạy mã gỡ lỗi cụ thể và hiển thị nhật ký gỡ lỗi ở góc dưới bên phải màn hình."
         },
         "DebugLogStyle": {
-          "Title": "Kiểu Nhật ký Gỡ lỗi",
+          "Title": "Phong cách Nhật ký Gỡ lỗi",
           "Description": "Kiểu nhật ký gỡ lỗi."
         },
         "DiagnosticLogs": {
