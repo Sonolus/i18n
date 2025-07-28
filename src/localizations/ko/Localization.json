@@ -23,31 +23,31 @@
     "#ENGINE": "엔진",
     "#REPLAY": "다시보기",
     "#ROOM": "방",
-    "#POST_THUMBNAIL": "미리보기 이미지",
-    "#PLAYLIST_THUMBNAIL": "미리보기 이미지",
+    "#POST_THUMBNAIL": "섬네일",
+    "#PLAYLIST_THUMBNAIL": "섬네일",
     "#LEVEL_COVER": "커버",
     "#LEVEL_BGM": "배경음악",
     "#LEVEL_PREVIEW": "미리보기",
     "#LEVEL_DATA": "데이터",
-    "#SKIN_THUMBNAIL": "미리보기 이미지",
+    "#SKIN_THUMBNAIL": "섬네일",
     "#SKIN_DATA": "데이터",
     "#SKIN_TEXTURE": "텍스처",
-    "#BACKGROUND_THUMBNAIL": "미리보기 이미지",
+    "#BACKGROUND_THUMBNAIL": "섬네일",
     "#BACKGROUND_IMAGE": "이미지",
     "#BACKGROUND_DATA": "데이터",
     "#BACKGROUND_CONFIGURATION": "구성",
-    "#EFFECT_THUMBNAIL": "미리보기 이미지",
+    "#EFFECT_THUMBNAIL": "섬네일",
     "#EFFECT_DATA": "데이터",
     "#EFFECT_AUDIO": "오디오",
-    "#PARTICLE_THUMBNAIL": "미리보기 이미지",
+    "#PARTICLE_THUMBNAIL": "섬네일",
     "#PARTICLE_DATA": "데이터",
     "#PARTICLE_TEXTURE": "텍스처",
-    "#ENGINE_THUMBNAIL": "미리보기 이미지",
+    "#ENGINE_THUMBNAIL": "섬네일",
     "#ENGINE_PLAYDATA": "플레이 데이터",
     "#ENGINE_WATCHDATA": "시청 데이터",
     "#ENGINE_PREVIEWDATA": "미리보기 데이터",
     "#ENGINE_TUTORIALDATA": "튜토리얼 데이터",
-    "#ENGINE_ROM": "ROM",
+    "#ENGINE_ROM": "롬",
     "#ENGINE_CONFIGURATION": "구성",
     "#REPLAY_DATA": "데이터",
     "#REPLAY_CONFIGURATION": "구성",
@@ -97,7 +97,7 @@
     "#SPEED": "레벨 속도",
     "#MIRROR": "대칭 레벨",
     "#RANDOM": "무작위",
-    "#HIDDEN": "숨김김",
+    "#HIDDEN": "숨김",
     "#JUDGMENT_STRICT": "엄격한 판정",
     "#JUDGMENT_LOOSE": "느슨한 판정",
     "#EFFECT_AUTO": "효과음 자동 재생",
@@ -260,9 +260,9 @@
     "#SPECIAL": "특별",
     "#KEYWORDS_PLACEHOLDER": "핵심 단어 입력...",
     "#NAME_PLACEHOLDER": "이름 입력...",
-    "#RATING_PLACEHOLDER": "레이팅 입력...",
-    "#RATING_MINIMUM_PLACEHOLDER": "최소 레이팅 입력...",
-    "#RATING_MAXIMUM_PLACEHOLDER": "최대 레이팅 입력...",
+    "#RATING_PLACEHOLDER": "난이도 입력...",
+    "#RATING_MINIMUM_PLACEHOLDER": "최소 난이도 입력...",
+    "#RATING_MAXIMUM_PLACEHOLDER": "최대 난이도 입력...",
     "#TITLE_PLACEHOLDER": "제목 입력...",
     "#SUBTITLE_PLACEHOLDER": "부제목 입력...",
     "#ARTISTS_PLACEHOLDER": "작곡가 입력...",
@@ -343,7 +343,7 @@
     "#RELATED": "관련",
     "#SAME_AUTHOR": "동일 제작자",
     "#SAME_ARTISTS": "동일 작곡가",
-    "#SAME_RATING": "동일 레이팅",
+    "#SAME_RATING": "동일 난이도",
     "#SAME_CATEGORY": "동일 범주",
     "#SAME_DIFFICULTY": "동일 난이도",
     "#SAME_GENRE": "동일 장르",
@@ -462,7 +462,7 @@
     "#REMOVE": "제거",
     "#REMOVING": "제거 중",
     "#REMOVED": "제거됨",
-    "#RESTORE": "복원",
+    "#RESTORE": "복구",
     "#RESTORING": "복구 중",
     "#RESTORED": "복구됨",
     "#CONFIRM": "확인",
@@ -505,9 +505,9 @@
     "#ALLOWED": "허용됨",
     "#DISALLOW": "비허용",
     "#DISALLOWED": "비허용됨",
-    "#APPROVE": "적용",
+    "#APPROVE": "승인",
     "#APPROVED": "승인됨",
-    "#DENY": "거부",
+    "#DENY": "거절",
     "#DENIED": "거절됨",
     "#ACCEPT": "수락",
     "#ACCEPTED": "수락됨",
@@ -869,14 +869,14 @@
         }
       },
       "EditName": {
-        "Loading": "이름을 수정하는 중...",
+        "Loading": "이름 수정 중...",
         "Error": "이름을 수정할 수 없습니다.\n\n이름이 규정 및 길이 제한을 준수하는지 확인하거나 인터넷 연결을 확인 후 재시도해 주십시오.",
         "Success": {
           "Title": "이름 수정됨"
         }
       },
       "EditAvatar": {
-        "Loading": "프로필 사진을 수정하는 중...",
+        "Loading": "프로필 사진 수정 중...",
         "Error": "프로필 사진을 수정할 수 없습니다.\n\n프로필 사진이 잘못되었는지 확인하거나 인터넷 연결을 확인 후 재시도해 주십시오.",
         "Success": {
           "Title": "프로필 사진 수정됨"
@@ -1028,7 +1028,7 @@
         },
         "Thumbnail": {
           "Loading": "게시물 미리보기 불러오는 중...",
-          "Error": "\"{0}\"의 게시물 미리보기 이미지를 불러올 수 없습니다."
+          "Error": "\"{0}\"의 게시물 섬네일를 불러올 수 없습니다."
         }
       },
       "Playlist": {
@@ -1090,7 +1090,7 @@
         },
         "Thumbnail": {
           "Loading": "재생목록 미리보기 불러오는 중...",
-          "Error": "\"{0}\"의 재생목록 미리보기 이미지를 불러올 수 없습니다."
+          "Error": "\"{0}\"의 재생목록 섬네일를 불러올 수 없습니다."
         }
       },
       "Level": {
@@ -1240,7 +1240,7 @@
         },
         "Thumbnail": {
           "Loading": "스킨 미리보기 불러오는 중...",
-          "Error": "\"{0}\"의 스킨 미리보기 이미지를 불러올 수 없습니다."
+          "Error": "\"{0}\"의 스킨 섬네일를 불러올 수 없습니다."
         },
         "Data": {
           "Loading": "스킨 데이터 불러오는 중...",
@@ -1310,7 +1310,7 @@
         },
         "Thumbnail": {
           "Loading": "배경 미리보기 불러오는 중...",
-          "Error": "\"{0}\"의 배경 미리보기 이미지를 불러올 수 없습니다."
+          "Error": "\"{0}\"의 배경 섬네일를 불러올 수 없습니다."
         },
         "Data": {
           "Loading": "배경 데이터 불러오는 중...",
@@ -1384,7 +1384,7 @@
         },
         "Thumbnail": {
           "Loading": "효과음 미리보기 불러오는 중...",
-          "Error": "\"{0}\"의 효과음 미리보기 이미지를 불러올 수 없습니다."
+          "Error": "\"{0}\"의 효과음 섬네일를 불러올 수 없습니다."
         },
         "Data": {
           "Loading": "효과음 데이터 불러오는 중...",
@@ -1454,7 +1454,7 @@
         },
         "Thumbnail": {
           "Loading": "입자 미리보기 불러오는 중...",
-          "Error": "\"{0}\"의 입자 미리보기 이미지를 불러올 수 없습니다."
+          "Error": "\"{0}\"의 입자 섬네일를 불러올 수 없습니다."
         },
         "Data": {
           "Loading": "입자 데이터 불러오는 중...",
@@ -1524,7 +1524,7 @@
         },
         "Thumbnail": {
           "Loading": "엔진 미리보기 불러오는 중...",
-          "Error": "\"{0}\"의 엔진 미리보기 이미지를 불러올 수 없습니다."
+          "Error": "\"{0}\"의 엔진 섬네일를 불러올 수 없습니다."
         },
         "PlayData": {
           "Loading": "엔진 플레이 모드 데이터 불러오는 중...",
@@ -1718,7 +1718,7 @@
         },
         "Thumbnail": {
           "Loading": "게시물 미리보기 불러오는 중...",
-          "Error": "\"{0}\"의 게시물 미리보기 이미지를 불러올 수 없습니다.\n\n게시물을 업데이트하거나 다른 게시물을 사용해 주십시오."
+          "Error": "\"{0}\"의 게시물 섬네일를 불러올 수 없습니다.\n\n게시물을 업데이트하거나 다른 게시물을 사용해 주십시오."
         }
       },
       "Playlist": {
@@ -1740,7 +1740,7 @@
         },
         "Thumbnail": {
           "Loading": "재생목록 미리보기 불러오는 중...",
-          "Error": "\"{0}\"의 재생목록 미리보기 이미지를 불러올 수 없습니다.\n\n재생목록을 업데이트하거나 다른 재생목록을 사용해 주십시오."
+          "Error": "\"{0}\"의 재생목록 섬네일를 불러올 수 없습니다.\n\n재생목록을 업데이트하거나 다른 재생목록을 사용해 주십시오."
         }
       },
       "Level": {
@@ -2037,8 +2037,8 @@
           "Error": "\"{0}\" 게시물은 현재 버전의 Sonolus와 호환되지 않습니다.\n\n꾸러미가 지원되지 않거나 손상됐을 수 있습니다."
         },
         "Thumbnail": {
-          "Loading": "게시물 미리보기 이미지 불러오는 중...",
-          "Error": "\"{0}\"의 게시물 미리보기 이미지를 불러올 수 없습니다.\n\n꾸러미가 지원되지 않거나 손상됐을 수 있습니다."
+          "Loading": "게시물 섬네일 불러오는 중...",
+          "Error": "\"{0}\"의 게시물 섬네일를 불러올 수 없습니다.\n\n꾸러미가 지원되지 않거나 손상됐을 수 있습니다."
         }
       },
       "Playlist": {
@@ -2059,8 +2059,8 @@
           "Error": "\"{0}\" 재생목록은 현재 버전의 Sonolus와 호환되지 않습니다.\n\n꾸러미가 지원되지 않거나 손상됐을 수 있습니다."
         },
         "Thumbnail": {
-          "Loading": "재생목록 미리보기 이미지 불러오는 중...",
-          "Error": "\"{0}\"의 재생목록 미리보기 이미지를 불러올 수 없습니다.\n\n꾸러미가 지원되지 않거나 손상됐을 수 있습니다."
+          "Loading": "재생목록 섬네일 불러오는 중...",
+          "Error": "\"{0}\"의 재생목록 섬네일를 불러올 수 없습니다.\n\n꾸러미가 지원되지 않거나 손상됐을 수 있습니다."
         }
       },
       "Level": {
@@ -2348,7 +2348,7 @@
   "Routes": {
     "ExternalLogin": {
       "NotLoggedInError": {
-        "Description": "Sonolus 계정에 로그인되어 있지 않습니다.\n\nSonolus 계정에 로그인 후 다시 시도해주시기 바랍니다."
+        "Description": "Sonolus 계정에 로그인되어 있지 않습니다.\n\nSonolus 계정에 로그인 후 재시도해 주십시오."
       },
       "Confirmation": {
         "Description": "다음 외부 서비스에 로그인 중입니다:\n{0}\n\n\"{1}\" 계정으로 로그인하시겠습니까?"
@@ -2561,49 +2561,49 @@
     "EditVisibility": {
       "Scale": {
         "Title": "크기",
-        "Description": "크기."
+        "Description": "크기입니다."
       },
       "Alpha": {
         "Title": "투명도",
-        "Description": "투명도."
+        "Description": "투명도입니다."
       }
     },
     "EditAnimation": {
       "Scale": {
         "Title": "크기",
-        "Description": "크기."
+        "Description": "크기입니다."
       },
       "Alpha": {
         "Title": "투명도",
-        "Description": "투명도."
+        "Description": "투명도입니다."
       }
     },
     "EditTween": {
       "From": {
         "Title": "시작",
-        "Description": "시작."
+        "Description": "트윈의 시작 값입니다."
       },
       "To": {
         "Title": "끝",
-        "Description": "끝."
+        "Description": "트윈의 끝 값입니다."
       },
       "Duration": {
         "Title": "길이",
-        "Description": "길이."
+        "Description": "트윈이 지속될 길이입니다."
       },
       "Ease": {
         "Title": "함수",
-        "Description": "함수."
+        "Description": "트윈에 사용될 함수입니다."
       }
     },
     "EditColors": {
       "Foreground": {
         "Title": "전경",
-        "Description": "전경 색."
+        "Description": "전경 색생입니다."
       },
       "Background": {
         "Title": "배경",
-        "Description": "배경 색."
+        "Description": "배경 색상입니다."
       }
     },
     "CalibrateAudio": {
@@ -2613,7 +2613,7 @@
     "CalibrateInput": {
       "Title": "입력 보정",
       "Description": "먼저 오디오 오프셋이 보정되었는지 확인한 후 손가락으로 누르며 입력을 보정하십시오.\n이런 설정이 없는 게임에 익숙하다면 0으로 두십시오.",
-      "Result": "추천 오프셋: {0} (±{1})"
+      "Result": "추천 오프셋: {0}(±{1})"
     },
     "Home": {
       "Title": "홈",
@@ -2677,14 +2677,14 @@
           "Title": "설명"
         },
         "Vip": {
-          "Description": "VIP는 귀하에게 광고 없는 Sonolus 경험을 제공합니다.\n\n구매하면 다음을 얻습니다.\nVIP {0}개"
+          "Description": "VIP는 귀하에게 광고 없는 Sonolus 경험을 제공합니다.\n\n구매하면 다음을 얻습니다.\nVIP {0}"
         },
         "NameChange": {
           "Description": "이름 변경권을 사용하여 귀하의 Sonolus 프로필 이름을 변경할 수 있습니다.\n\n구매하면 다음을 얻습니다.\n이름 변경권 {0}개"
         },
         "Themes": {
           "Bundle": {
-            "Description": "이 테마로 Sonolus의 UI, 프로필 아바타, 배너를 꾸미고, 광고 없는 VIP Sonolus 경험을 누려보십시오.\n\n구매하면 다음을 얻습니다.\n\"{0}\" UI 테마\n\"{1}\" 아바타\n\"{2}\" 아바타 배경\n\"{3}\" 배너\nVIP {4}개"
+            "Description": "이 테마로 Sonolus의 UI, 프로필 아바타, 배너를 꾸미고, 광고 없는 VIP Sonolus 경험을 누려보십시오.\n\n구매하면 다음을 얻습니다.\n\"{0}\" UI 테마\n\"{1}\" 아바타\n\"{2}\" 아바타 배경\n\"{3}\" 배너\nVIP {4}"
           },
           "Single": {
             "Description": "이 테마로 Sonolus의 UI, 프로필 아바타, 배너를 꾸며 보십시오.\n\n구매하면 다음을 얻습니다.\n\"{0}\" UI 테마\n\"{1}\" 아바타\n\"{2}\" 아바타 배경\n\"{3}\" 배너"
@@ -2739,7 +2739,7 @@
         },
         "Name": {
           "Title": "이름",
-          "Description": "플레이어 이름.",
+          "Description": "플레이어의 이름입니다.",
           "Placeholder": "플레이어 이름 입력..."
         },
         "Confirmation": {
@@ -2756,7 +2756,7 @@
         },
         "Foreground": {
           "Title": "전경",
-          "Description": "아바타 전경.",
+          "Description": "아바타의 전경입니다.",
           "Player": "플레이어",
           "Heart": "하트",
           "Hat": "모자",
@@ -2769,7 +2769,7 @@
         },
         "Background": {
           "Title": "배경",
-          "Description": "아바타 배경.",
+          "Description": "아바타의 배경입니다.",
           "Default": "기본"
         },
         "BackgroundColor": {
@@ -2848,7 +2848,7 @@
         "Room": "방",
         "Configuration": "구성",
         "CollectionUpdateConfirmation": {
-          "Description": "모음집의 일부 항목은 사용 전 업데이트해야 합니다.\n\n업데이트하시겠습니까?"
+          "Description": "사용하려면 모음집의 일부 항목을 업데이트해야 합니다.\n\n업데이트하시겠습니까?"
         },
         "SaveSuccess": {
           "Title": "서버 저장됨"
@@ -2866,7 +2866,7 @@
       },
       "Configuration": {
         "Tip": {
-          "Message": "구성은 이 서버에 대한 옵션을 포함합니다.\n\n엔진 및 노트 속도 같은 특정 레벨에 적용되는 옵션의 경우, 레벨을 선택 후  구성을 눌러 찾을 수 있습니다."
+          "Message": "구성은 이 서버에 대한 옵션을 포함합니다.\n\n엔진 및 노트 속도 같은 특정 레벨에 적용되는 옵션의 경우, 레벨을 선택 후 구성을 눌러 찾을 수 있습니다."
         },
         "Options": {
           "Title": "옵션",
@@ -2962,7 +2962,7 @@
         "Room": {
           "Title": "방",
           "Create": {
-            "Title": "Create Room",
+            "Title": "방 생성",
             "Success": {
               "Title": "방 생성됨"
             },
@@ -3141,8 +3141,8 @@
             },
             "Level": {
               "Bgm": {
-                "Loading": "레벨 BGM 디코딩 중...",
-                "Error": "\"{0}\" 레벨 BGM 디코딩에 실패했습니다.\n\n레벨 제작자에게 문의해 주십시오"
+                "Loading": "레벨 배경음 디코딩 중...",
+                "Error": "\"{0}\" 레벨 배경음 디코딩에 실패했습니다.\n\n레벨 제작자에게 문의해 주십시오"
               }
             },
             "Boot": {
@@ -3386,7 +3386,7 @@
             },
             "SecondaryMetricStyle": {
               "Title": "보조 측정값 스타일",
-              "Description": "보조 측정값의 스타일."
+              "Description": "보조 측정값의 스타일입니다."
             },
             "ProgressStyle": {
               "Title": "진행 바 스타일",
@@ -3398,7 +3398,7 @@
             },
             "TutorialInstructionStyle": {
               "Title": "튜토리얼 안내 스타일",
-              "Description": "튜토리얼 안내의 스타일."
+              "Description": "튜토리얼 안내의 스타일입니다."
             }
           },
           "Offsets": {
@@ -3418,11 +3418,11 @@
       "Resources": {
         "Post": {
           "Title": "게시물 자원",
-          "Thumbnail": "미리보기 이미지"
+          "Thumbnail": "섬네일"
         },
         "Playlist": {
           "Title": "재생목록 자원",
-          "Thumbnail": "미리보기 이미지"
+          "Thumbnail": "섬네일"
         },
         "Level": {
           "Title": "레벨 자원",
@@ -3433,37 +3433,37 @@
         },
         "Skin": {
           "Title": "스킨 자원",
-          "Thumbnail": "미리보기 이미지",
+          "Thumbnail": "섬네일",
           "Data": "데이터",
           "Texture": "텍스처"
         },
         "Background": {
           "Title": "배경 자원",
-          "Thumbnail": "미리보기 이미지",
+          "Thumbnail": "섬네일",
           "Image": "이미지",
           "Data": "데이터",
           "Configuration": "구성"
         },
         "Effect": {
           "Title": "효과 자원",
-          "Thumbnail": "미리보기 이미지",
+          "Thumbnail": "섬네일",
           "Data": "데이터",
           "Audio": "오디오"
         },
         "Particle": {
           "Title": "입자 자원",
-          "Thumbnail": "미리보기 이미지",
+          "Thumbnail": "섬네일",
           "Data": "데이터",
           "Texture": "텍스처"
         },
         "Engine": {
           "Title": "엔진 자원",
-          "Thumbnail": "미리보기 이미지",
+          "Thumbnail": "섬네일",
           "PlayData": "플레이 데이터",
           "WatchData": "시청 데이터",
           "PreviewData": "미리보기 데이터",
           "TutorialData": "튜토리얼 데이터",
-          "Rom": "ROM",
+          "Rom": "롬",
           "Configuration": "구성"
         },
         "Replay": {
@@ -4053,16 +4053,16 @@
           "Description": "음의 특수 판정의 색입니다."
         },
         "AllPerfectComboColors": {
-          "Title": "올 퍼펙트 콤보 색상",
-          "Description": "등급이 올 퍼펙트일 때의 콤보 색상입니다."
+          "Title": "완벽한 플레이 콤보 색상",
+          "Description": "등급이 완벽한 플레이일 때의 콤보 색상입니다."
         },
         "FullComboComboColors": {
           "Title": "풀 콤보 콤보 색상",
           "Description": "등급이 풀 콤보일 때의 콤보 색상입니다."
         },
         "PassComboColors": {
-          "Title": "Pass 콤보 색",
-          "Description": "Pass 등급일 때의 콤보 색입니다."
+          "Title": "통과 콤보 색",
+          "Description": "등급이 통과일 때의 콤보 색상입니다."
         },
         "FailComboColors": {
           "Title": "Fail 콤보 색",
@@ -4156,26 +4156,26 @@
       "Title": "저장소 관리",
       "Repository": {
         "Title": "저장소",
-        "Description": "저장소는 이 기기에서 사용할 수 있는 모든 리소스를 보관합니다.",
+        "Description": "저장소는 이 기기에서 사용할 수 있는 모든 자원을 보관합니다.",
         "Size": "크기: {0}"
       },
       "RepairRepository": {
         "Title": "저장소 복구",
         "Description": "모든 저장소 리소스의 손상된 파일을 확인하고 복구합니다.\n복구 후 모음집을 업데이트해야 할 수 있습니다.",
         "Repair": "복구",
-        "Loading": "저장소 복구 중 ({0})...",
+        "Loading": "저장소 복구 중({0})...",
         "Success": {
           "Title": "저장소 복구"
         }
       },
       "DeleteRepository": {
         "Title": "저장소 삭제",
-        "Description": "저장소 리소스를 삭제하면 Sonolus가 필요할 때 다시 다운로드하게 됩니다.",
+        "Description": "저장소 자원을 삭제하면 Sonolus가 필요할 때 다시 다운로드하게 됩니다.",
         "Delete": "삭제",
         "Confirmation": {
-          "Description": "정말 모든 저장소 리소스를 삭제합니까?"
+          "Description": "정말 모든 저장소 자원을 삭제합니까?"
         },
-        "Loading": "저장소 삭제 중 ({0})...",
+        "Loading": "저장소 삭제 중({0})...",
         "Success": {
           "Title": "저장소 삭제됨"
         }
@@ -4253,7 +4253,7 @@
             "Replay": {
               "Title": "다시보기",
               "Description": {
-                "Normal": "게임플레이가 녹화되었습니다. 생성을 눌러 다시보기를 생성하십시오.",
+                "Normal": "게임플레이가 녹화되었습니다. 생성을 눌러 다시보기를 생성할 수 있습니다.",
                 "HasUsedPause": "일시정지가 사용된 게임은 다시보기를 생성할 수 없습니다.",
                 "HasUsedSnapshot": "스냅샷이 사용된 게임은 다시보기를 생성할 수 없습니다."
               },
