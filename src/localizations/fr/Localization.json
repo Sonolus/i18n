@@ -548,7 +548,7 @@
     "Add": "Ajouter",
     "Import": "Importer",
     "Search": "Chercher",
-    "PullToRefresh": "Glisser pour Actualiser",
+    "PullToRefresh": "Tirez pour actualiser",
     "PullTip": "Astuce: glissez pour afficher plus",
     "Save": "Enregistrer",
     "Share": "Partager",
@@ -2622,7 +2622,7 @@
       "Account": "Compte",
       "Link": "Lien",
       "About": "À Propos",
-      "Settings": "Réglages",
+      "Settings": "Paramètres",
       "UpdateAvailable": {
         "Title": "Mise à Jour Disponible",
         "Description": "La version Sonolus {0} est disponible!\n\nVisitez notre site Web:\nhttps://sonolus.com",
@@ -3875,7 +3875,7 @@
       }
     },
     "Settings": {
-      "Title": "Réglages",
+      "Title": "Paramètres",
       "Tip": {
         "Message": "Les paramètres contiennent les options générales de l'appli Sonolus.\n\nPour les options spécifiques au moteur ou au niveau, comme la vitesse des notes, vous les trouverez dans la section Configuration après avoir accédé à un serveur et sélectionné un niveau."
       },
