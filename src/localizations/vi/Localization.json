@@ -98,8 +98,8 @@
     "#MIRROR": "Đảo ngược level",
     "#RANDOM": "Ngẫu nhiên",
     "#HIDDEN": "Ẩn",
-    "#JUDGMENT_STRICT": "Phán xét nghiêm ngặt",
-    "#JUDGMENT_LOOSE": "Phán xét lỏng lẻo",
+    "#JUDGMENT_STRICT": "Judgment nghiêm ngặt",
+    "#JUDGMENT_LOOSE": "Judgment lỏng lẻo",
     "#EFFECT_AUTO": "Âm thanh SFX tự động",
     "#STAGE": "Stage",
     "#STAGE_POSITION": "Vị trí Stage",
@@ -563,7 +563,7 @@
     "Vip": "VIP",
     "NameChange": "Lượt Đổi tên",
     "Owned": "Đã sở hữu",
-    "Judgment": "Phán xét",
+    "Judgment": "Judgment",
     "Accuracy": "Độ chính xác",
     "Grade": "Hạng",
     "ArcadeScore": "Tổng điểm số Arcade",
@@ -3357,24 +3357,24 @@
               "Description": "Chỉ số thứ cấp để hiển thị."
             },
             "JudgmentErrorStyle": {
-              "Title": "Phong cách lỗi phán xét",
-              "Description": "Kiểu phán xét lỗi. Phán xét lỗi tích cực ở bên trái, trong khi phán xét lỗi tiêu cực ở bên phải."
+              "Title": "Kiểu judgment error",
+              "Description": "Kiểu judgment error. Positive judgment error là ở bên trái, còn Negative judgment error là ở bên phải."
             },
             "JudgmentErrorPlacement": {
-              "Title": "Vị trí lỗi phán xét",
-              "Description": "Vị trí phán xét sai."
+              "Title": "Vị trí judgment error",
+              "Description": "Vị trí judgment error."
             },
             "JudgmentErrorMin": {
-              "Title": "Sai số phán xét tối thiểu",
-              "Description": "Lỗi phán xét tối thiểu. Chỉ những lỗi phán xét lớn hơn mức này mới được hiển thị."
+              "Title": "Judgment error tối thiểu",
+              "Description": "Judgment error tối thiểu. Chỉ những judgment error lớn hơn mức này mới được hiển thị."
             },
             "MenuStyle": {
               "Title": "Kiểu Menu",
               "Description": "Kiểu menu."
             },
             "JudgmentStyle": {
-              "Title": "Kiểu phán xét",
-              "Description": "Kiểu phán xét."
+              "Title": "Kiểu judgment",
+              "Description": "Kiểu judgment."
             },
             "ComboStyle": {
               "Title": "Kiểu Combo",
@@ -4029,28 +4029,28 @@
           "Description": "Kích thước giao diện (UI) cần sử dụng. Tăng nếu bạn gặp khó khăn khi đọc và giảm để hiển thị nhiều nội dung hơn trên màn hình cùng một lúc."
         },
         "PerfectJudgmentColors": {
-          "Title": "Màu sắc phán xét Perfect",
-          "Description": "Màu sắc phán xét cho Perfect."
+          "Title": "Màu sắc judgment Perfect",
+          "Description": "Màu sắc judgment cho Perfect."
         },
         "GreatJudgmentColors": {
-          "Title": "Màu sắc phán xét Great",
-          "Description": "Màu sắc phán xét cho Great."
+          "Title": "Màu sắc judgment Great",
+          "Description": "Màu sắc judgment cho Great."
         },
         "GoodJudgmentColors": {
-          "Title": "Màu sắc phán xét Good",
-          "Description": "Màu sắc phán xét cho Good."
+          "Title": "Màu sắc judgment Good",
+          "Description": "Màu sắc judgment cho Good."
         },
         "MissJudgmentColors": {
-          "Title": "Màu săc phán xét Miss",
-          "Description": "Màu sắc phán xét cho Miss."
+          "Title": "Màu sắc judgment Miss",
+          "Description": "Màu sắc judgment cho Miss."
         },
         "PositiveJudgmentErrorColors": {
-          "Title": "Màu sắc phán xét lỗi dương",
-          "Description": "Màu sắc phán xét cho các lỗi dương."
+          "Title": "Màu sắc Postitive judgment error ",
+          "Description": "Màu sắc judgment error cho postitive."
         },
         "NegativeJudgmentErrorColors": {
-          "Title": "Màu sắc phán xét lỗi âm",
-          "Description": "Màu sắc phán xét cho các lỗi âm."
+          "Title": "Màu sắc Negative judgment error ",
+          "Description": "Màu sắc judgment error cho negative."
         },
         "AllPerfectComboColors": {
           "Title": "Màu sắc Combo All Perfect",
@@ -4244,7 +4244,7 @@
           },
           "Result": {
             "TouchAbnormality": {
-              "Description": "Đã phát hiện {0} bất thường khi chạm trong quá trình chơi trò chơi. Điều này thường do các tính năng hệ thống như cử chỉ, tối ưu hóa cảm ứng và thông báo gây ra và có thể gây ra các vấn đề về phán đoán.\n\nĐể đảm bảo bạn có trải nghiệm chơi trò chơi tốt nhất, bạn nên giải quyết vấn đề này bằng cách điều chỉnh các cài đặt hệ thống có liên quan."
+              "Description": "Đã phát hiện {0} bất thường khi chạm trong quá trình chơi trò chơi. Điều này thường do các tính năng hệ thống như cử chỉ, tối ưu hóa cảm ứng và thông báo gây ra và có thể gây ra các vấn đề về judgment.\n\nĐể đảm bảo bạn có trải nghiệm chơi trò chơi tốt nhất, bạn nên giải quyết vấn đề này bằng cách điều chỉnh các cài đặt hệ thống có liên quan."
             },
             "Options": {
               "HasUsedPause": "Dừng",
@@ -4274,7 +4274,7 @@
         "Graphs": {
           "Title": "Đồ thị",
           "Judgment": {
-            "Title": "Biểu đồ phán xét"
+            "Title": "Biểu đồ judgment"
           },
           "Accuracy": {
             "Title": "Biểu đồ độ chính xác",
