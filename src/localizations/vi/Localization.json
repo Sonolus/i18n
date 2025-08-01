@@ -2608,12 +2608,12 @@
     },
     "CalibrateAudio": {
       "Title": "Hiệu chỉnh âm thanh",
-      "Description": "Hiệu chỉnh âm thanh bằng cách điều chỉnh Độ lệch âm thanh của thiết bị cho đến khi âm thanh và đồ họa được đồng bộ."
+      "Description": "Hiệu chỉnh âm thanh bằng cách điều chỉnh Độ trễ âm thanh của thiết bị cho đến khi âm thanh và đồ họa được đồng bộ."
     },
     "CalibrateInput": {
       "Title": "Hiệu chỉnh đầu vào",
-      "Description": "Hiệu chỉnh đầu vào bằng cách chạm bằng ngón tay của bạn. Vui lòng đảm bảo độ lệch âm thanh của bạn được hiệu chỉnh chính xác trước.\nNếu bạn đã quen với các trò chơi không cung cấp tùy chọn như vậy, bạn có thể để ở mức 0.",
-      "Result": "Khuyến nghị để độ lệch tầm: {0} (±{1})"
+      "Description": "Hiệu chỉnh đầu vào bằng cách chạm bằng ngón tay của bạn. Vui lòng đảm bảo độ trễ âm thanh của bạn được hiệu chỉnh chính xác trước.\nNếu bạn đã quen với các trò chơi không cung cấp tùy chọn như vậy, bạn có thể để ở mức 0.",
+      "Result": "Khuyến nghị để độ trễ tầm: {0} (±{1})"
     },
     "Home": {
       "Title": "Trang chủ",
@@ -3295,12 +3295,12 @@
           "Title": "Cấu hình cấp độ",
           "Offsets": {
             "LevelAudioOffset": {
-              "Title": "Độ lệch âm thanh",
-              "Description": "Độ lệch âm thanh này chỉ nên được sử dụng khi cấp độ này cụ thể không đồng bộ. Tăng nếu âm thanh của bạn quá trễ và giảm nếu âm thanh của bạn bị trễ."
+              "Title": "Độ trễ âm thanh",
+              "Description": "Độ trễ âm thanh này chỉ nên được sử dụng khi cấp độ này cụ thể không đồng bộ. Tăng nếu âm thanh của bạn quá trễ và giảm nếu âm thanh của bạn bị trễ."
             },
             "ServerAudioOffset": {
-              "Title": "Độ lệch âm thanh của máy chủ",
-              "Description": "Độ lệch âm thanh máy chủ này chỉ nên được sử dụng khi tất cả các cấp độ của máy chủ này không đồng bộ. Tăng nếu âm thanh của bạn quá trễ và giảm nếu âm thanh của bạn bị trẽ."
+              "Title": "Độ trễ âm thanh của máy chủ",
+              "Description": "Độ trễ âm thanh máy chủ này chỉ nên được sử dụng khi tất cả các cấp độ của máy chủ này không đồng bộ. Tăng nếu âm thanh của bạn quá trễ và giảm nếu âm thanh của bạn bị trẽ."
             }
           }
         },
@@ -3403,8 +3403,8 @@
           },
           "Offsets": {
             "EngineInputOffset": {
-              "Title": "Độ lệch đầu vào của Engine",
-              "Description": "Khuyến nghị nên để giá trị 0.\n\nĐộ lệch đầu vào bổ sung của động cơ này, chỉ nên sử dụng khi bạn gặp sự cố khi chơi động cơ này nói riêng. Tăng nếu đầu vào của bạn được đăng ký quá muộn và giảm nếu không."
+              "Title": "Độ trễ đầu vào của Engine",
+              "Description": "Khuyến nghị nên để giá trị 0.\n\nĐộ trễ đầu vào bổ sung của động cơ này, chỉ nên sử dụng khi bạn gặp sự cố khi chơi động cơ này nói riêng. Tăng nếu đầu vào của bạn được đăng ký quá muộn và giảm nếu không."
             }
           }
         },
@@ -4082,19 +4082,19 @@
         }
       },
       "Offsets": {
-        "Title": "Độ lệch đầu vào",
+        "Title": "Độ trễ đầu vào",
         "Device": {
           "Title": "Thiết bị",
-          "Description": "Sử dụng tính năng này để lưu các giá trị độ lệch đầu vào cho các trường hợp thiết bị khác nhau, chẳng hạn như khi phát bằng loa, tai nghe, Bluetooth, v.v.",
+          "Description": "Sử dụng tính năng này để lưu các giá trị độ trễ đầu vào cho các trường hợp thiết bị khác nhau, chẳng hạn như khi phát bằng loa, tai nghe, Bluetooth, v.v.",
           "Option": "Thiết bị {0}"
         },
         "DeviceAudioOffset": {
-          "Title": "Độ lệch âm thanh của thiết bị",
-          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐộ lệch âm thanh của kịch bản thiết bị của bạn. Đối với hầu hết các thiết bị sử dụng loa, 0 là độ lệch chính xác. Không khuyến nghị sử dụng Bluetooth. Tăng nếu âm thanh của bạn quá trễ và giảm nếu không."
+          "Title": "Độ trễ âm thanh của thiết bị",
+          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐộ trễ âm thanh của kịch bản thiết bị của bạn. Đối với hầu hết các thiết bị sử dụng loa, 0 là độ trễ chính xác. Không khuyến nghị sử dụng Bluetooth. Tăng nếu âm thanh của bạn quá trễ và giảm nếu không."
         },
         "DeviceInputOffset": {
-          "Title": "Độ lệch đầu vào của thiết bị",
-          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐộ lệch đầu vào của kịch bản thiết bị của bạn. Nếu bạn quen với các trò chơi không cung cấp tùy chọn như vậy, bạn có thể để ở mức 0. Tăng nếu đầu vào của bạn được đăng ký quá muộn và giảm nếu không."
+          "Title": "Độ trễ đầu vào của thiết bị",
+          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐộ trễ đầu vào của kịch bản thiết bị của bạn. Nếu bạn quen với các trò chơi không cung cấp tùy chọn như vậy, bạn có thể để ở mức 0. Tăng nếu đầu vào của bạn được đăng ký quá muộn và giảm nếu không."
         }
       },
       "Repository": {
@@ -4280,7 +4280,7 @@
             "Title": "Biểu đồ độ chính xác",
             "AbsValue": "Giá trị tương đối (Abs)",
             "Mean": "Trung bình",
-            "StDev": "Độ lệch chuẩn",
+            "StDev": "Độ trễ chuẩn",
             "Min": "Tối thiểu",
             "Max": "Tối đa"
           },
