@@ -13,7 +13,7 @@
     "#LOG": "Nhật ký",
     "#INQUIRY": "Yêu cầu",
     "#BANNER": "Banner",
-    "#POST": "Bài viết",
+    "#POST": "Bài đăng",
     "#PLAYLIST": "Danh sách phát",
     "#LEVEL": "Level",
     "#SKIN": "Skin",
@@ -592,7 +592,7 @@
     "ItemFields": {
       "Selected": "Đã chọn {0}",
       "NoSelected": {
-        "Post": "Không có bài viết nào được chọn",
+        "Post": "Không có bài đăng nào được chọn",
         "Playlist": "Không có danh sách phát nào được chọn",
         "Level": "Không có Level nào được chọn",
         "Skin": "Không có Skin nào được chọn",
@@ -971,7 +971,7 @@
       },
       "Post": {
         "Info": {
-          "Loading": "Đang tải thông tin bài viết...",
+          "Loading": "Đang tải thông tin bài đăng...",
           "Error": "Không tải được thông tin bài đăng của \"{0}\"."
         },
         "Create": {
@@ -979,11 +979,11 @@
           "Error": "Không thể tạo bài đăng trong \"{0}\"."
         },
         "List": {
-          "Loading": "Đang tải bài viết...",
-          "Error": "Không tải được bài viết ở trang {0}."
+          "Loading": "Đang tải bài đăng...",
+          "Error": "Không tải được bài đăng ở trang {0}."
         },
         "Details": {
-          "Loading": "Đang tải chi tiết bài viết...",
+          "Loading": "Đang tải chi tiết bài đăng...",
           "Error": "Không tải được thông tin chi tiết bài đăng của \"{0}\"."
         },
         "Submit": {
@@ -997,23 +997,23 @@
           },
           "Submit": {
             "Loading": "Đang gửi bài đăng tới cộng đồng...",
-            "Error": "Không thể gửi bài viết tới cộng đồng \"{0}\"."
+            "Error": "Không thể gửi bài đăng tới cộng đồng \"{0}\"."
           },
           "Comment": {
             "List": {
-              "Loading": "Đang tải bình luận bài viết...",
-              "Error": "Không tải được bình luận bài viết ở trang {0}."
+              "Loading": "Đang tải bình luận bài đăng...",
+              "Error": "Không tải được bình luận bài đăng ở trang {0}."
             }
           }
         },
         "Leaderboard": {
           "Details": {
-            "Loading": "Đang tải thông tin chi tiết về bảng xếp hạng bài viết...",
+            "Loading": "Đang tải thông tin chi tiết về bảng xếp hạng bài đăng...",
             "Error": "Không tải được thông tin chi tiết về bảng xếp hạng của \"{0}\"."
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu bài viết...",
+              "Loading": "Đang tải dữ liệu bài đăng...",
               "Error": "Không tải được dữ liệu bài đăng ở trang {0}."
             },
             "Details": {
@@ -1027,7 +1027,7 @@
           "Error": "Bài đăng \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng sử dụng bài đăng khác hoặc liên hệ với chủ sở hữu Server để báo cáo sự cố."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa của bài viết...",
+          "Loading": "Đang tải ảnh bìa của bài đăng...",
           "Error": "Không tải được ảnh bìa bài đăng của \"{0}\"."
         }
       },
@@ -1701,24 +1701,24 @@
       },
       "Post": {
         "Info": {
-          "Loading": "Đang tải thông tin bài viết...",
+          "Loading": "Đang tải thông tin bài đăng...",
           "Error": "Không tải được thông tin bài đăng của \"{0}\".\n\nBộ sưu tập của bạn có thể đã bị hỏng."
         },
         "List": {
-          "Loading": "Đang tải bài viết...",
-          "Error": "Không tải được bài viết ở trang {0}.\n\nBộ sưu tập của bạn có thể đã bị hỏng."
+          "Loading": "Đang tải bài đăng...",
+          "Error": "Không tải được bài đăng ở trang {0}.\n\nBộ sưu tập của bạn có thể đã bị hỏng."
         },
         "Details": {
-          "Loading": "Đang tải chi tiết bài viết...",
-          "Error": "Không tải được thông tin chi tiết bài viết của \"{0}\".\n\nBộ sưu tập của bạn có thể đã bị hỏng."
+          "Loading": "Đang tải chi tiết bài đăng...",
+          "Error": "Không tải được thông tin chi tiết bài đăng của \"{0}\".\n\nBộ sưu tập của bạn có thể đã bị hỏng."
         },
         "Compatibility": {
           "Loading": "Đang kiểm tra tính tương thích của bài đăng...",
           "Error": "Bài đăng \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng cập nhật bài đăng này hoặc sử dụng bài đăng khác."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa của bài viết...",
-          "Error": "Không tải được ảnh bìa bài viết của \"{0}\".\n\nVui lòng cập nhật bài đăng này hoặc sử dụng bài đăng khác."
+          "Loading": "Đang tải ảnh bìa của bài đăng...",
+          "Error": "Không tải được ảnh bìa bài đăng của \"{0}\".\n\nVui lòng cập nhật bài đăng này hoặc sử dụng bài đăng khác."
         }
       },
       "Playlist": {
@@ -2021,24 +2021,24 @@
       },
       "Post": {
         "Info": {
-          "Loading": "Đang tải thông tin bài viết...",
-          "Error": "Không tải được thông tin bài viết của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
+          "Loading": "Đang tải thông tin bài đăng...",
+          "Error": "Không tải được thông tin bài đăng của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "List": {
-          "Loading": "Đang tải bài viết...",
-          "Error": "Không tải được bài viết ở trang {0}.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
+          "Loading": "Đang tải bài đăng...",
+          "Error": "Không tải được bài đăng ở trang {0}.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Details": {
-          "Loading": "Đang tải chi tiết bài viết...",
-          "Error": "Không tải được thông tin chi tiết bài viết của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
+          "Loading": "Đang tải chi tiết bài đăng...",
+          "Error": "Không tải được thông tin chi tiết bài đăng của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Compatibility": {
-          "Loading": "Đang kiểm tra tính tương thích bài viết...",
-          "Error": "Bài viết \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
+          "Loading": "Đang kiểm tra tính tương thích bài đăng...",
+          "Error": "Bài đăng \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa của bài viết...",
-          "Error": "Không tải được ảnh bìa bài viết của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
+          "Loading": "Đang tải ảnh bìa của bài đăng...",
+          "Error": "Không tải được ảnh bìa bài đăng của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         }
       },
       "Playlist": {
@@ -2406,8 +2406,8 @@
       },
       "ToCreate": {
         "Post": {
-          "Title": "Tạo bài viết",
-          "Description": "Chọn một bộ sưu tập để tạo bài viết này."
+          "Title": "Tạo bài đăng",
+          "Description": "Chọn một bộ sưu tập để tạo bài đăng này."
         },
         "Playlist": {
           "Title": "Tạo danh sách phát",
@@ -2448,8 +2448,8 @@
       },
       "ToUse": {
         "Post": {
-          "Title": "Chọn bài viết",
-          "Description": "Chọn Server hoặc bộ sưu tập tùy chỉnh để sử dụng bài viết của Server hoặc bộ sưu tập đó."
+          "Title": "Chọn bài đăng",
+          "Description": "Chọn Server hoặc bộ sưu tập tùy chỉnh để sử dụng bài đăng của Server hoặc bộ sưu tập đó."
         },
         "Playlist": {
           "Title": "Chọn danh sách phát",
@@ -2797,7 +2797,7 @@
       "AddFavorite": {
         "Title": "Thêm mục yêu thích",
         "Description": "Chọn thể loại mục yêu thích để thêm:",
-        "Post": "Bài viết",
+        "Post": "Bài đăng",
         "Playlist": "Danh sách phát",
         "Level": "Level",
         "Skin": "Skin",
@@ -2836,7 +2836,7 @@
         "Login": "Đăng nhập",
         "Logout": "Đăng xuất",
         "Multiplayer": "Chơi nhiều người",
-        "Post": "Bài viết",
+        "Post": "Bài đăng",
         "Playlist": "Danh sách phát",
         "Level": "Level",
         "Skin": "Skin",
@@ -2879,11 +2879,11 @@
       "Infos": {
         "Advanced": "Nâng cao",
         "Post": {
-          "Title": "Bài viết",
+          "Title": "Bài đăng",
           "Create": {
-            "Title": "Tạo bài viết",
+            "Title": "Tạo bài đăng",
             "Success": {
-              "Title": "Bài viết đã tạo"
+              "Title": "Bài đăng đã tạo"
             }
           }
         },
@@ -2979,9 +2979,9 @@
           "Description": "Bạn có chắc chắn muốn xóa \"{0}\" không?"
         },
         "Post": {
-          "Title": "Bài viết",
+          "Title": "Bài đăng",
           "ShareSuccess": {
-            "Title": "Đã sao chép liên kết bài viết"
+            "Title": "Đã sao chép liên kết bài đăng"
           }
         },
         "Playlist": {
@@ -3070,7 +3070,7 @@
         },
         "Post": {
           "ShareSuccess": {
-            "Title": "Đã sao chép liên kết bài viết"
+            "Title": "Đã sao chép liên kết bài đăng"
           },
           "ActionSuccess": {
             "Title": "Đã gửi hành động sau"
@@ -3485,7 +3485,7 @@
       },
       "SaveInfos": {
         "Post": {
-          "Title": "Lưu bài viết"
+          "Title": "Lưu bài đăng"
         },
         "Playlist": {
           "Title": "Lưu danh sách phát"
@@ -3518,7 +3518,7 @@
       "Savers": {
         "Post": {
           "Success": {
-            "Title": "Đã lưu bài viết"
+            "Title": "Đã lưu bài đăng"
           }
         },
         "Playlist": {
@@ -3570,7 +3570,7 @@
       "Updaters": {
         "Post": {
           "Success": {
-            "Title": "Đã cập nhật bài viết"
+            "Title": "Đã cập nhật bài đăng"
           }
         },
         "Playlist": {
@@ -3621,7 +3621,7 @@
       },
       "CreateInfos": {
         "Post": {
-          "Title": "Thông tin bài viết"
+          "Title": "Thông tin bài đăng"
         },
         "Playlist": {
           "Title": "Thông tin danh sách phát"
@@ -3671,7 +3671,7 @@
       "Creators": {
         "Post": {
           "Success": {
-            "Title": "Đã tạo bài viết"
+            "Title": "Đã tạo bài đăng"
           }
         },
         "Playlist": {
