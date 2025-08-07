@@ -23,26 +23,26 @@
     "#ENGINE": "Engine",
     "#REPLAY": "Phát lại",
     "#ROOM": "Phòng",
-    "#POST_THUMBNAIL": "Ảnh bìa",
-    "#PLAYLIST_THUMBNAIL": "Ảnh bìa",
+    "#POST_THUMBNAIL": "Ảnh thu nhỏ",
+    "#PLAYLIST_THUMBNAIL": "Ảnh thu nhỏ",
     "#LEVEL_COVER": "Ảnh bìa",
     "#LEVEL_BGM": "Nhạc nền",
     "#LEVEL_PREVIEW": "Xem trước",
     "#LEVEL_DATA": "Dữ liệu",
-    "#SKIN_THUMBNAIL": "Ảnh bìa",
+    "#SKIN_THUMBNAIL": "Ảnh thu nhỏ",
     "#SKIN_DATA": "Dữ liệu",
     "#SKIN_TEXTURE": "Texture",
-    "#BACKGROUND_THUMBNAIL": "Ảnh bìa",
+    "#BACKGROUND_THUMBNAIL": "Ảnh thu nhỏ",
     "#BACKGROUND_IMAGE": "Hình ảnh",
     "#BACKGROUND_DATA": "Dữ liệu",
     "#BACKGROUND_CONFIGURATION": "Cấu hình",
-    "#EFFECT_THUMBNAIL": "Ảnh bìa",
+    "#EFFECT_THUMBNAIL": "Ảnh thu nhỏ",
     "#EFFECT_DATA": "Dữ liệu",
     "#EFFECT_AUDIO": "Âm thanh",
-    "#PARTICLE_THUMBNAIL": "Ảnh bìa",
+    "#PARTICLE_THUMBNAIL": "Ảnh thu nhỏ",
     "#PARTICLE_DATA": "Dữ liệu",
-    "#PARTICLE_TEXTURE": "Kết cấu",
-    "#ENGINE_THUMBNAIL": "Ảnh bìa",
+    "#PARTICLE_TEXTURE": "Texture",
+    "#ENGINE_THUMBNAIL": "Ảnh thu nhỏ",
     "#ENGINE_PLAYDATA": "Phát dữ liệu",
     "#ENGINE_WATCHDATA": "Xem dữ liệu",
     "#ENGINE_PREVIEWDATA": "Xem trước dữ liệu",
@@ -51,7 +51,7 @@
     "#ENGINE_CONFIGURATION": "Cấu hình",
     "#REPLAY_DATA": "Dữ liệu",
     "#REPLAY_CONFIGURATION": "Cấu hình",
-    "#ROOM_COVER": "Ảnh bìa",
+    "#ROOM_COVER": "Ảnh thu nhỏ",
     "#ROOM_BGM": "Nhạc nền",
     "#ROOM_PREVIEW": "Xem trước",
     "#GRADE": "Hạng",
@@ -108,10 +108,10 @@
     "#STAGE_DIRECTION": "Hướng Stage (giao diện chơi)",
     "#STAGE_ALPHA": "Độ trong suốt của Stage (giao diện chơi)",
     "#STAGE_ANIMATION": "Hoạt ảnh Stage (giao diện chơi)",
-    "#STAGE_TILT": "Nghiêng Stage (giao diện chơi)",
+    "#STAGE_TILT": "Độ nghiêng của Stage (giao diện chơi)",
     "#STAGE_COVER_VERTICAL": "Che phần bên trên Stage (giao diện chơi)",
-    "#STAGE_COVER_HORIZONTAL": "Bìa Stage (giao diện chơi) ngang",
-    "#STAGE_COVER_ALPHA": "Độ trong suốt của Bìa Stage (giao diện chơi)",
+    "#STAGE_COVER_HORIZONTAL": "Che ngang Stage (giao diện chơi)",
+    "#STAGE_COVER_ALPHA": "Độ trong suốt của tấm che Stage (giao diện chơi)",
     "#STAGE_ASPECTRATIO_LOCK": "Khoá tỷ lệ khung hình Stage (giao diện chơi)",
     "#STAGE_EFFECT": "Hiệu ứng Stage (giao diện chơi)",
     "#STAGE_EFFECT_POSITION": "Vị trí hiệu ứng Stage (giao diện chơi)",
@@ -835,7 +835,7 @@
           "Description": "Tài khoản Sonolus của bạn đã bị cấm."
         },
         "Deleted": {
-          "Description": "Bạn đã từng xoá tài khoản Sonolus trước đây của mình.\n\nVui lòng đợi 7 ngày\ntrước khi tạo tài khoản Sonolus khác."
+          "Description": "Bạn đã từng xoá tài khoản Sonolus trước đây của mình.\n\nVui lòng đợi 7 ngày trước khi tạo tài khoản Sonolus khác."
         }
       },
       "UserInfo": {
@@ -1027,8 +1027,8 @@
           "Error": "Bài đăng \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng sử dụng bài đăng khác hoặc liên hệ với chủ sở hữu Server để báo cáo sự cố."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa của bài đăng...",
-          "Error": "Không tải được ảnh bìa bài đăng của \"{0}\"."
+          "Loading": "Đang tải ảnh thu nhỏ của bài đăng...",
+          "Error": "Không tải được ảnh thu nhỏ bài đăng của \"{0}\"."
         }
       },
       "Playlist": {
@@ -1089,8 +1089,8 @@
           "Error": "Danh sách phát \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng sử dụng danh sách phát khác hoặc liên hệ với chủ sở hữu Server để báo cáo sự cố."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa danh sách phát...",
-          "Error": "Không tải được ảnh bìa danh sách phát của \"{0}\"."
+          "Loading": "Đang tải ảnh thu nhỏ danh sách phát...",
+          "Error": "Không tải được ảnh thu nhỏ danh sách phát của \"{0}\"."
         }
       },
       "Level": {
@@ -1166,7 +1166,7 @@
         },
         "Cover": {
           "Loading": "Đang tải ảnh bìa Level...",
-          "Error": "Không tải được bìa Level \"{0}\"."
+          "Error": "Không tải được ảnh bìa Level \"{0}\"."
         },
         "Bgm": {
           "Loading": "Đang tải nhạc nền Level...",
@@ -1240,7 +1240,7 @@
         },
         "Thumbnail": {
           "Loading": "Đang tải ảnh thu nhỏ của Skin...",
-          "Error": "Không tải được ảnh bìa của \"{0}\"."
+          "Error": "Không tải được ảnh thu nhỏ của \"{0}\"."
         },
         "Data": {
           "Loading": "Đang tải dữ liệu Skin...",
@@ -1309,8 +1309,8 @@
           "Error": "Background \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng sử dụng ảnh nền khác hoặc liên hệ với chủ sở hữu Server để báo cáo sự cố."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa ảnh nền...",
-          "Error": "Không tải được ảnh bìa ảnh nền của \"{0}\"."
+          "Loading": "Đang tải ảnh thu nhỏ ảnh nền...",
+          "Error": "Không tải được ảnh thu nhỏ ảnh nền của \"{0}\"."
         },
         "Data": {
           "Loading": "Đang tải dữ liệu ảnh nền...",
@@ -1383,8 +1383,8 @@
           "Error": "Âm thanh \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng sử dụng âm thanh hiệu ứng khác hoặc liên hệ với chủ sở hữu Server để báo cáo sự cố."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa âm thanh hiệu ứng...",
-          "Error": "Không tải được ảnh bìa âm thanh hiệu ứng của \"{0}\"."
+          "Loading": "Đang tải ảnh thu nhỏ âm thanh hiệu ứng...",
+          "Error": "Không tải được ảnh thu nhỏ âm thanh hiệu ứng của \"{0}\"."
         },
         "Data": {
           "Loading": "Đang tải dữ liệu âm thanh hiệu ứng...",
@@ -1453,8 +1453,8 @@
           "Error": "Particle \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng sử dụng Particle khác hoặc liên hệ với chủ sở hữu Server để báo cáo sự cố."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa của Particle...",
-          "Error": "Không tải được ảnh bìa Particle của \"{0}\"."
+          "Loading": "Đang tải ảnh thu nhỏ của Particle...",
+          "Error": "Không tải được ảnh thu nhỏ Particle của \"{0}\"."
         },
         "Data": {
           "Loading": "Đang tải dữ liệu Particle...",
@@ -1523,8 +1523,8 @@
           "Error": "Engine \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng sử dụng Engine khác hoặc liên hệ với chủ sở hữu Server để báo cáo sự cố."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa của Engine...",
-          "Error": "Không tải được ảnh bìa của Engine \"{0}\"."
+          "Loading": "Đang tải ảnh thu nhỏ của Engine...",
+          "Error": "Không tải được ảnh thu nhỏ của Engine \"{0}\"."
         },
         "PlayData": {
           "Loading": "Đang tải dữ liệu chế độ chơi Engine...",
@@ -1717,8 +1717,8 @@
           "Error": "Bài đăng \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng cập nhật bài đăng này hoặc sử dụng bài đăng khác."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa của bài đăng...",
-          "Error": "Không tải được ảnh bìa bài đăng của \"{0}\".\n\nVui lòng cập nhật bài đăng này hoặc sử dụng bài đăng khác."
+          "Loading": "Đang tải ảnh thu nhỏ của bài đăng...",
+          "Error": "Không tải được ảnh thu nhỏ bài đăng của \"{0}\".\n\nVui lòng cập nhật bài đăng này hoặc sử dụng bài đăng khác."
         }
       },
       "Playlist": {
@@ -1739,8 +1739,8 @@
           "Error": "Danh sách phát \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng cập nhật danh sách phát này hoặc sử dụng danh sách phát khác."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa danh sách phát...",
-          "Error": "Không tải được ảnh bìa danh sách phát của \"{0}\".\n\nVui lòng cập nhật danh sách phát này hoặc sử dụng danh sách phát khác."
+          "Loading": "Đang tải ảnh thu nhỏ danh sách phát...",
+          "Error": "Không tải được ảnh thu nhỏ danh sách phát của \"{0}\".\n\nVui lòng cập nhật danh sách phát này hoặc sử dụng danh sách phát khác."
         }
       },
       "Level": {
@@ -1795,8 +1795,8 @@
           "Error": "Skin \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng cập nhật Skin này hoặc sử dụng Skin khác."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa của Skin...",
-          "Error": "Không tải được ảnh bìa Skin của \"{0}\".\n\nVui lòng cập nhật Skin này hoặc sử dụng Skin khác."
+          "Loading": "Đang tải ảnh thu nhỏ của Skin...",
+          "Error": "Không tải được ảnh thu nhỏ Skin của \"{0}\".\n\nVui lòng cập nhật Skin này hoặc sử dụng Skin khác."
         },
         "Data": {
           "Loading": "Đang tải dữ liệu Skin...",
@@ -1825,8 +1825,8 @@
           "Error": "Background \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng cập nhật ảnh nền này hoặc sử dụng ảnh nền khác."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa ảnh nền...",
-          "Error": "Không tải được ảnh bìa ảnh nền của \"{0}\".\n\nVui lòng cập nhật hình ảnh nền này hoặc sử dụng hình ảnh nền khác."
+          "Loading": "Đang tải ảnh thu nhỏ của ảnh nền...",
+          "Error": "Không tải được ảnh thu nhỏ của ảnh nền của \"{0}\".\n\nVui lòng cập nhật hình ảnh nền này hoặc sử dụng hình ảnh nền khác."
         },
         "Data": {
           "Loading": "Đang tải dữ liệu ảnh nền...",
@@ -1859,8 +1859,8 @@
           "Error": "Âm thanh \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng cập nhật SFX này hoặc sử dụng SFX khác."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa âm thanh hiệu ứng...",
-          "Error": "Không tải được ảnh bìa âm thanh hiệu ứng của \"{0}\".\n\nVui lòng cập nhật SFX này hoặc sử dụng SFX khác."
+          "Loading": "Đang tải ảnh thu nhỏ âm thanh hiệu ứng...",
+          "Error": "Không tải được ảnh thu nhỏ âm thanh hiệu ứng của \"{0}\".\n\nVui lòng cập nhật SFX này hoặc sử dụng SFX khác."
         },
         "Data": {
           "Loading": "Đang tải dữ liệu âm thanh hiệu ứng...",
@@ -1889,8 +1889,8 @@
           "Error": "Particle \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng cập nhật Particle này hoặc sử dụng Particle khác."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa của Particle...",
-          "Error": "Không tải được ảnh bìa Particle của \"{0}\".\n\nVui lòng cập nhật Particle này hoặc sử dụng Particle khác."
+          "Loading": "Đang tải ảnh thu nhỏ của Particle...",
+          "Error": "Không tải được ảnh thu nhỏ Particle của \"{0}\".\n\nVui lòng cập nhật Particle này hoặc sử dụng Particle khác."
         },
         "Data": {
           "Loading": "Đang tải dữ liệu Particle...",
@@ -1919,8 +1919,8 @@
           "Error": "Engine \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng cập nhật Engine này hoặc sử dụng Engine khác."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa của Engine...",
-          "Error": "Không tải được ảnh bìa Engine của \"{0}\".\n\nVui lòng cập nhật Engine này hoặc sử dụng Engine khác."
+          "Loading": "Đang tải ảnh thu nhỏ của Engine...",
+          "Error": "Không tải được ảnh thu nhỏ Engine của \"{0}\".\n\nVui lòng cập nhật Engine này hoặc sử dụng Engine khác."
         },
         "PlayData": {
           "Loading": "Đang tải dữ liệu chế độ chơi Engine...",
@@ -2037,8 +2037,8 @@
           "Error": "Bài đăng \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa của bài đăng...",
-          "Error": "Không tải được ảnh bìa bài đăng của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
+          "Loading": "Đang tải ảnh thu nhỏ của bài đăng...",
+          "Error": "Không tải được ảnh thu nhỏ bài đăng của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         }
       },
       "Playlist": {
@@ -2059,8 +2059,8 @@
           "Error": "Danh sách phát \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa danh sách phát...",
-          "Error": "Không tải được ảnh bìa danh sách phát của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
+          "Loading": "Đang tải ảnh thu nhỏ danh sách phát...",
+          "Error": "Không tải được ảnh thu nhỏ danh sách phát của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         }
       },
       "Level": {
@@ -2081,7 +2081,7 @@
           "Error": "Level \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Cover": {
-          "Loading": "Đang tải ảnh bài Level...",
+          "Loading": "Đang tải ảnh bìa Level...",
           "Error": "Không tải được ảnh bìa Level của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Bgm": {
@@ -2115,8 +2115,8 @@
           "Error": "Skin \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa của Skin...",
-          "Error": "Không tải được ảnh bìa của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
+          "Loading": "Đang tải ảnh thu nhỏ của Skin...",
+          "Error": "Không tải được ảnh thu nhỏ của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Data": {
           "Loading": "Đang tải dữ liệu Skin...",
@@ -2145,8 +2145,8 @@
           "Error": "Background \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa ảnh nền...",
-          "Error": "Không tải được ảnh bìa ảnh nền của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
+          "Loading": "Đang tải ảnh thu nhỏ ảnh nền...",
+          "Error": "Không tải được ảnh thu nhỏ ảnh nền của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Data": {
           "Loading": "Đang tải dữ liệu ảnh nền...",
@@ -2179,8 +2179,8 @@
           "Error": "Âm thanh \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa âm thanh hiệu ứng...",
-          "Error": "Không tải được ảnh bìa âm thanh hiệu ứng của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
+          "Loading": "Đang tải ảnh thu nhỏ âm thanh hiệu ứng...",
+          "Error": "Không tải được ảnh thu nhỏ âm thanh hiệu ứng của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Data": {
           "Loading": "Đang tải dữ liệu âm thanh hiệu ứng..",
@@ -2209,8 +2209,8 @@
           "Error": "Particle \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa của Particle...",
-          "Error": "Không tải được ảnh bìa Particle của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
+          "Loading": "Đang tải ảnh thu nhỏ của Particle...",
+          "Error": "Không tải được ảnh thu nhỏ Particle của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Data": {
           "Loading": "Đang tải dữ liệu Particle...",
@@ -2239,8 +2239,8 @@
           "Error": "Engine \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Thumbnail": {
-          "Loading": "Đang tải ảnh bìa Engine...",
-          "Error": "Không tải được ảnh bìa Engine \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
+          "Loading": "Đang tải ảnh thu nhỏ Engine...",
+          "Error": "Không tải được ảnh thu nhỏ Engine \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "PlayData": {
           "Loading": "Đang tải dữ liệu chế độ chơi Engine...",
@@ -2528,7 +2528,7 @@
         "Placeholder": "Nhập mô tả bộ sưu tập..."
       },
       "Banner": {
-        "Title": "Ảnh bìa",
+        "Title": "Ảnh thu nhỏ",
         "Description": "Ảnh bìa tùy chọn cho bộ sưu tập."
       }
     },
@@ -2748,7 +2748,7 @@
       },
       "EditAvatar": {
         "Title": "Chỉnh sửa Ảnh đại diện",
-        "Shop": "Có sẵn nhiều Ảnh đại diện trong cửa hàng!",
+        "Shop": "Có sẵn nhiều Ảnh đại diện khác trong cửa hàng!",
         "Avatar": {
           "Title": "Ảnh đại diện",
           "Description": "Ảnh đại diện.",
@@ -2761,7 +2761,7 @@
           "Heart": "Trái tim",
           "Hat": "Mũ",
           "Fish": "Cá",
-          "Paw": "Bàn chân"
+          "Paw": "Bàn chân chó"
         },
         "ForegroundColor": {
           "Title": "Màu sắc biểu tượng",
@@ -2778,20 +2778,20 @@
         }
       },
       "EditBanner": {
-        "Title": "Chỉnh sửa Ảnh bìa",
-        "Shop": "Có sẵn nhiều Ảnh bìa trong cửa hàng!",
+        "Title": "Chỉnh sửa Banner",
+        "Shop": "Có sẵn nhiều Banner khác trong cửa hàng!",
         "Banner": {
-          "Title": "Ảnh bìa",
-          "Description": "Ảnh bìa.",
-          "None": "Không có gì"
+          "Title": "Banner",
+          "Description": "Banner hồ sơ.",
+          "None": "Không có"
         }
       },
       "EditAboutMe": {
-        "Title": "Chỉnh sửa Giới thiệu về tôi",
+        "Title": "Chỉnh sửa phần Giới thiệu về tôi",
         "AboutMe": {
           "Title": "Giới thiệu về tôi",
           "Description": "Một mô tả ngắn về bản thân bạn.",
-          "Placeholder": "Nhập thông tin về tôi..."
+          "Placeholder": "Nhập thông tin về bản thân..."
         }
       },
       "AddFavorite": {
@@ -2801,7 +2801,7 @@
         "Playlist": "Danh sách phát",
         "Level": "Level",
         "Skin": "Skin",
-        "Background": "Ảnh bìa",
+        "Background": "Ảnh nền",
         "Effect": "SFX",
         "Particle": "Particle",
         "Engine": "Engine",
@@ -2820,7 +2820,7 @@
         "Email": "Email"
       },
       "Legal": {
-        "Title": "Điều khoản",
+        "Title": "Điều khoản sử dụng",
         "Description": "Khi sử dụng Sonolus, bạn đồng ý với các điều khoản sau:"
       },
       "Music": {
@@ -2866,7 +2866,7 @@
       },
       "Configuration": {
         "Tip": {
-          "Message": "Cấu hình chứa các tùy chọn cho Server này.\n\nĐối với các tùy chọn cụ thể về Engine và Level như tốc độ note, bạn có thể tìm thấy chúng trong mục Cấu hình sau khi chọn Level."
+          "Message": "Cấu hình chứa các tùy chọn cho Server này.\n\nĐối với các tùy chọn cụ thể về Engine và Level như tốc độ Note, bạn có thể tìm thấy chúng trong mục Cấu hình sau khi chọn Level."
         },
         "Options": {
           "Title": "Tùy chọn",
@@ -3113,7 +3113,7 @@
               "Message": "Đây là lần đầu tiên bạn chơi Engine này, bạn có muốn xem hướng dẫn không?"
             },
             "ConfigurationTip": {
-              "Message": "Đây là lần đầu tiên bạn chơi Engine này, bạn có muốn cấu hình các tùy chọn như tốc độ note không?"
+              "Message": "Đây là lần đầu tiên bạn chơi Engine này, bạn có muốn cấu hình các tùy chọn như tốc độ Note không?"
             },
             "Effect": {
               "Audio": {
@@ -3146,13 +3146,13 @@
               }
             },
             "Boot": {
-              "Loading": "Đang chạy Level...",
+              "Loading": "Đang khởi động Level...",
               "Error": "Không khởi động được Level \"{0}\".\n\nVui lòng liên hệ với tác giả Level để báo cáo sự cố."
             }
           },
           "Preview": {
             "Boot": {
-              "Loading": "Đang chạy Level...",
+              "Loading": "Đang khởi động Level...",
               "Error": "Không khởi động được Level \"{0}\".\n\nVui lòng liên hệ với tác giả Level để báo cáo sự cố."
             }
           },
@@ -3177,8 +3177,8 @@
         "Background": {
           "Preview": {
             "Boot": {
-              "Loading": "Đang khởi động ảnh nền...",
-              "Error": "Không khởi động được ảnh nền \"{0}\".\n\nVui lòng liên hệ với tác giả ảnh nền để báo cáo sự cố."
+              "Loading": "Đang nạp ảnh nền...",
+              "Error": "Không nạp được ảnh nền \"{0}\".\n\nVui lòng liên hệ với tác giả ảnh nền để báo cáo sự cố."
             }
           },
           "ShareSuccess": {
@@ -3195,8 +3195,8 @@
               "Error": "Không giải mã được âm thanh hiệu ứng của \"{0}\".\n\nVui lòng liên hệ với tác giả âm thanh hiệu ứng để báo cáo sự cố."
             },
             "Boot": {
-              "Loading": "Đang khởi động âm thanh hiệu ứng...",
-              "Error": "Không khởi động được âm thanh hiệu ứng \"{0}\".\n\nVui lòng liên hệ với tác giả âm thanh hiệu ứng để báo cáo sự cố."
+              "Loading": "Đang nạp âm thanh hiệu ứng...",
+              "Error": "Không nạp được âm thanh hiệu ứng \"{0}\".\n\nVui lòng liên hệ với tác giả âm thanh hiệu ứng để báo cáo sự cố."
             }
           },
           "ShareSuccess": {
@@ -3296,11 +3296,11 @@
           "Offsets": {
             "LevelAudioOffset": {
               "Title": "Độ trễ âm thanh của Level",
-              "Description": "Độ trễ âm thanh này chỉ nên được điều chỉnh khi chỉ riêng Level này bị lệch nhạc so với note. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
+              "Description": "Độ trễ âm thanh này chỉ nên được điều chỉnh khi chỉ riêng Level này bị lệch nhạc so với Note. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
             },
             "ServerAudioOffset": {
               "Title": "Độ trễ âm thanh của Server",
-              "Description": "Độ trễ âm thanh của Server chỉ nên được sử dụng khi tất cả các Level trong Server này bị lệch nhạc so với note. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
+              "Description": "Độ trễ âm thanh của Server chỉ nên được sử dụng khi tất cả các Level trong Server này bị lệch nhạc so với Note. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
             }
           }
         },
@@ -3433,32 +3433,32 @@
         },
         "Skin": {
           "Title": "Tài nguyên Skin",
-          "Thumbnail": "Ảnh bìa",
+          "Thumbnail": "Ảnh thu nhỏ",
           "Data": "Dữ liệu",
-          "Texture": "Kết cấu"
+          "Texture": "Texture"
         },
         "Background": {
           "Title": "Tài nguyên ảnh nền",
-          "Thumbnail": "Ảnh bìa",
+          "Thumbnail": "Ảnh thu nhỏ",
           "Image": "Hình ảnh",
           "Data": "Dữ liệu",
           "Configuration": "Cấu hình"
         },
         "Effect": {
           "Title": "Tài nguyên hiệu ứng",
-          "Thumbnail": "Ảnh bìa",
+          "Thumbnail": "Ảnh thu nhỏ",
           "Data": "Dữ liệu",
           "Audio": "Âm thanh"
         },
         "Particle": {
           "Title": "Tài nguyên Particle",
-          "Thumbnail": "Ảnh bìa",
+          "Thumbnail": "Ảnh thu nhỏ",
           "Data": "Dữ liệu",
-          "Texture": "Kết cấu"
+          "Texture": "Texture"
         },
         "Engine": {
           "Title": "Tài nguyên Engine",
-          "Thumbnail": "Ảnh bìa",
+          "Thumbnail": "Ảnh thu nhỏ",
           "PlayData": "Phát dữ liệu",
           "WatchData": "Xem dữ liệu",
           "PreviewData": "Xem trước dữ liệu",
@@ -3753,7 +3753,7 @@
             "Description": "{0} đang chuẩn bị, {1} đã sẵn sàng, {2} đã bỏ qua...",
             "Actions": {
               "ConfigurationTip": {
-                "Message": "Đây là lần đầu tiên bạn chơi Engine này, bạn có muốn cấu hình các tùy chọn như tốc độ note không?"
+                "Message": "Đây là lần đầu tiên bạn chơi Engine này, bạn có muốn cấu hình các tùy chọn như tốc độ Note không?"
               },
               "Configuration": "Cấu hình",
               "Ready": "Sẵn sàng",
@@ -3877,18 +3877,18 @@
     "Settings": {
       "Title": "Cài đặt",
       "Tip": {
-        "Message": "Cài đặt chứa các tùy chọn chung cho ứng dụng Sonolus.\n\nĐối với các tùy chọn cụ thể về Engine và Level như tốc độ note, bạn có thể tìm thấy chúng trong mục Cấu hình sau khi vào Server và chọn Level."
+        "Message": "Cài đặt chứa các tùy chọn chung cho ứng dụng Sonolus.\n\nĐối với các tùy chọn cụ thể về Engine và Level như tốc độ Note, bạn có thể tìm thấy chúng trong mục Cấu hình sau khi vào Server và chọn Level."
       },
       "Graphics": {
         "Title": "Đồ họa",
         "TargetFps": {
           "Title": "Tốc độ khung hình (FPS)",
-          "Description": "Khuyến nghị nên để mặc định tốc độ khung hình của thiết bị.\n\nSonolus cho phép lựa chọn tốc độ khung hình tùy ý trên thiết bị của bạn, tuy nhiên sonolus không đảm bảo thiết bị đó có thể chạy được FPS đó.",
+          "Description": "Khuyến nghị nên để mặc định tốc độ khung hình của thiết bị.\n\nSonolus cho phép lựa chọn tốc độ khung hình tùy ý trên thiết bị của bạn, tuy nhiên Sonolus không đảm bảo thiết bị đó có thể chạy được FPS đó.",
           "Default": "Mặc định"
         },
         "RenderMode": {
           "Title": "Chế độ kết xuất (render)",
-          "Description": "Khuyến nghị nên để chế độ kết xuất chuẩn.\n\nChế độ kết xuất chuẩn cung cấp đồ họa chính xác, trong khi chế độ kết xuất nhẹ cung cấp đồ họa hơi không chính xác nhưng hiệu suất được cải thiện đáng kể.",
+          "Description": "Khuyến nghị nên để chế độ kết xuất chuẩn.\n\nChế độ kết xuất chuẩn cung cấp đồ họa chính xác, trong khi chế độ kết xuất nhẹ cung cấp đồ họa kém chính xác hơn nhưng hiệu năng được cải thiện đáng kể.",
           "Options": {
             "Standard": "Tiêu chuẩn",
             "Lightweight": "Nhẹ"
@@ -3896,11 +3896,11 @@
         },
         "RenderScale": {
           "Title": "Tỷ lệ kết xuất",
-          "Description": "Khuyến nghị nên để giá trị 100%.\n\nSonolus kết xuất ở tỷ lệ này và tăng hoặc giảm tỷ lệ theo kích thước độ phân giải. Tỷ lệ kết xuất cao hơn 100% có thể cải thiện đồ họa nhưng hiệu suất kém hơn, trong khi tỷ lệ kết xuất thấp hơn 100% cải thiện hiệu suất nhưng đồ họa kém hơn."
+          "Description": "Khuyến nghị nên để giá trị 100%.\n\nSonolus kết xuất ở tỷ lệ này và tăng hoặc giảm tỷ lệ theo kích thước độ phân giải. Tỷ lệ kết xuất cao hơn 100% có thể cải thiện đồ họa nhưng hiệu năng sẽ kém hơn, trong khi tỷ lệ kết xuất thấp hơn 100% cải thiện hiệu năng nhưng đồ họa kém hơn."
         },
         "AntiAliasing": {
           "Title": "Khử răng cưa (anti-aliasing)",
-          "Description": "Khuyến nghị nên tắt.\n\nKhử răng cưa sẽ cải thiện đồ họa bằng cách giảm thiểu hiện tượng nhiễu, đặc biệt là xung quanh các cạnh của hình ảnh, với cái giá phải trả là hiệu suất kém hơn."
+          "Description": "Khuyến nghị nên tắt.\n\nKhử răng cưa sẽ cải thiện đồ họa bằng cách giảm thiểu hiện tượng nhiễu, đặc biệt là xung quanh các cạnh của hình ảnh, tuy nhiên hiệu năng sẽ kém hơn."
         },
         "GpuParticleSystem": {
           "Title": "Hệ thống Particle GPU",
@@ -3926,8 +3926,8 @@
           "Description": "Âm lượng của UI."
         },
         "AlwaysDecodeLevelBgm": {
-          "Title": "Luôn luôn giải mã BGM Level",
-          "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus sử dụng khả năng âm thanh gốc của hệ điều hành để có hiệu suất tốt nhất và chỉ giải mã BGM Level nếu định dạng không được hỗ trợ gốc. Khi được bật, Sonolus luôn giải mã BGM."
+          "Title": "Luôn giải mã BGM Level",
+          "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus sẽ ưu tiên sử dụng bộ giải mã dựa trên phần cứng để đạt hiệu năng tốt nhất và chỉ dùng bộ giải mã dựa trên phần mềm nếu bộ giải mã dựa trên phần cứng không hỗ trợ định dạng mà BGM Level dùng. Khi được bật, Sonolus sẽ luôn giải mã BGM."
         },
         "PreviewBgm": {
           "Title": "Phát nhạc nền",
@@ -3941,7 +3941,7 @@
         },
         "LevelBgmQuality": {
           "Title": "Chất lượng nhạc nền trong Level",
-          "Description": "Khuyến nghị nên để Cao.\n\nTheo mặc định, Sonolus sử dụng bộ giải mã âm thanh gốc của hệ điều hành để có hiệu suất tốt nhất và chỉ giải mã BGM Level nếu định dạng không được hỗ trợ gốc. BGM Level sẽ được giải mã ở chất lượng này.",
+          "Description": "Khuyến nghị nên để mức Cao.\n\nTheo mặc định, Sonolus sẽ ưu tiên sử dụng bộ giải mã dựa trên phần cứng để đạt hiệu năng tốt nhất và chỉ dùng bộ giải mã dựa trên phần mềm nếu bộ giải mã dựa trên phần cứng không hỗ trợ định dạng mà BGM Level dùng. BGM Level sẽ được giải mã ở chất lượng này.",
           "Options": {
             "Low": "Thấp",
             "Mid": "Trung",
@@ -3950,7 +3950,7 @@
         },
         "PreviewBgmQuality": {
           "Title": "Chất lượng nhạc nền xem trước",
-          "Description": "Khuyến nghị nên để Trung.\n\nSonolus theo mặc định sử dụng khả năng âm thanh gốc của hệ điều hành để có hiệu suất tốt nhất và chỉ giải mã BGM xem trước nếu định dạng không được hỗ trợ gốc. BGM xem trước sẽ được giải mã ở chất lượng này.",
+          "Description": "Khuyến nghị nên để mức Trung.\n\nTheo mặc định, Sonolus sẽ ưu tiên sử dụng bộ giải mã dựa trên phần cứng để đạt hiệu năng tốt nhất và chỉ dùng bộ giải mã dựa trên phần mềm nếu bộ giải mã dựa trên phần cứng không hỗ trợ định dạng mà BGM Level dùng. BGM xem trước sẽ được giải mã ở chất lượng này.",
           "Options": {
             "Low": "Thấp",
             "Mid": "Trung",
@@ -3971,7 +3971,7 @@
         },
         "MultiplayerPreload": {
           "Title": "Tải trước chơi nhiều người",
-          "Description": "Khuyến nghị nên bật.\n\nTrong chế độ chơi nhiều người, hãy bắt đầu tải trước khi Level được xác nhận để cải thiện tốc độ tải."
+          "Description": "Khuyến nghị nên bật.\n\nTrong chế độ chơi nhiều người, bật tùy chọn này sẽ bắt đầu tải Level trước khi Level được xác nhận để cải thiện tốc độ."
         },
         "ReplayTitleTemplate": {
           "Title": "Mẫu tiêu đề bản phát lại",
