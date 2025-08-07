@@ -815,10 +815,10 @@
       }
     },
     "Service": {
-      "AuthenticationError": "Xác thực đăng nhập Sonolus của bạn đã hết hạn.\n\nVui lòng đăng nhập bằng tài khoản Sonolus của bạn và thử lại.",
+      "AuthenticationError": "Phiên đăng nhập Sonolus của bạn đã hết hạn.\n\nVui lòng đăng nhập lại bằng tài khoản Sonolus của bạn rồi thử lại.",
       "UserProfile": {
-        "Loading": "Đang tải Profile...",
-        "Error": "Không thể tải Profile của \"{0}\".\n\nVui lòng xem lại ID tài khoản, hoặc kiểm tra kết nối mạng rồi thử lại ."
+        "Loading": "Đang tải hồ sơ người chơi...",
+        "Error": "Không thể tải hồ sơ của người chơi \"{0}\".\n\nVui lòng xem lại ID tài khoản, hoặc kiểm tra kết nối mạng rồi thử lại ."
       },
       "Login": {
         "Loading": "Đang đăng nhập...",
@@ -936,7 +936,7 @@
           }
         },
         "Expired": {
-          "Description": "Phiên của bạn đã hết hạn.\n\nĐăng nhập lại bằng tài khoản \"{0}\" và tiếp tục?"
+          "Description": "Phiên đăng nhập Sonolus của bạn đã hết hạn.\n\nĐăng nhập lại bằng tài khoản \"{0}\" và tiếp tục?"
         },
         "Login": {
           "Loading": "Đang đăng nhập...",
