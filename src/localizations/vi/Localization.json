@@ -2735,7 +2735,7 @@
       "EditName": {
         "Title": "Chỉnh sửa tên",
         "NoNameChangeError": {
-          "Description": "Bạn không có đủ lượt Đổi tên.\n\nVui lòng mua lượt Đổi tên trước và thử lại."
+          "Description": "Bạn không có lượt Đổi tên.\n\nVui lòng mua lượt Đổi tên trước và thử lại."
         },
         "Name": {
           "Title": "Tên",
@@ -2821,7 +2821,7 @@
       },
       "Legal": {
         "Title": "Điều khoản sử dụng",
-        "Description": "Để tiếp tục sử dụng Sonolus, bạn phải đồng ý với các điều khoản sau:"
+        "Description": "Bằng việc tiếp tục sử dụng Sonolus, bạn đồng ý với các điều khoản sau:"
       },
       "Music": {
         "Title": "Âm nhạc"
