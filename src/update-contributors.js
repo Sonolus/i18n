@@ -23,6 +23,8 @@ const excludes = [
     'Nanashi',
     // - LittleYang0531
     '优秀的小杨同学',
+    // - DancyCat
+    'Nguyễn Ngọc Hiền',
 ]
 
 const contributors = [
