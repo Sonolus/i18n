@@ -832,8 +832,10 @@
           }
         },
         "Banned": {
+          "Description": "Su cuenta de Sonolus ha sido bloqueada."
         },
         "Deleted": {
+          "Description": "Has eliminado tu cuenta de Sonolus recientemente.\n\nEspera 7 días después de eliminarla antes de crear otra cuenta de Sonolus."
         }
       },
       "UserInfo": {
@@ -913,7 +915,10 @@
         }
       },
       "Delete": {
+        "Loading": "Eliminando cuenta...",
+        "Error": "No se pudo eliminar la cuenta.\n\nComprueba tu conexión a internet y vuelve a intentarlo.",
         "Success": {
+          "Title": "Cuenta eliminada"
         }
       }
     },
@@ -2699,7 +2704,9 @@
         "Profile": "Perfil",
         "Logout": "Cerrar sesión",
         "Delete": {
+          "Title": "Eliminar",
           "Confirmation": {
+            "Description": "Al eliminar, se borrarán los datos asociados a su cuenta de Sonolus permanentemente, incluyendo el perfil, el inventario y los datos en servidores personalizados. La eliminación completa de los datos en servidores personalizados puede tardar hasta 7 días.\nNo podrá recuperar la cuenta eliminada.\nNo podrá crear otra cuenta de Sonolus con la misma cuenta de inicio de sesión durante 7 días.\n\n¿Está seguro de eliminar \"{0}\"?"
           }
         }
       },
@@ -2713,7 +2720,9 @@
         "Main": {
           "EditName": "Editar nombre",
           "EditAvatar": "Editar avatar",
-          "EditBanner": "Editar banner"
+          "EditBanner": "Editar banner",
+          "Block": "Bloquear",
+          "Unblock": "Desbloquear"
         },
         "AboutMe": {
           "Title": "Acerca de mí"
@@ -2806,8 +2815,13 @@
         "Title": "Una carta del desarrollador"
       },
       "Support": {
+        "Title": "Soporte técnico",
+        "Description": "Para contactar con el soporte técnico, envíe un correo electrónico a: {0}",
+        "Email": "Correo electrónico"
       },
       "Legal": {
+        "Title": "Legal",
+        "Description": "Al utilizar Sonolus, usted acepta:"
       },
       "Music": {
         "Title": "Música"
