@@ -98,8 +98,8 @@
     "#MIRROR": "Mirror",
     "#RANDOM": "Ngẫu nhiên",
     "#HIDDEN": "Ẩn",
-    "#JUDGMENT_STRICT": "Judgement Khó",
-    "#JUDGMENT_LOOSE": "Judgement Dễ",
+    "#JUDGMENT_STRICT": "Judgment Khó",
+    "#JUDGMENT_LOOSE": "Judgment Dễ",
     "#EFFECT_AUTO": "Âm thanh hiệu ứng trong chế độ Tự động",
     "#STAGE": "Hiển thị Stage (giao diện chơi)",
     "#STAGE_POSITION": "Vị trí Stage (giao diện chơi)",
@@ -132,19 +132,19 @@
     "#LANE_EFFECT_ROTATION": "Hiệu ứng xoay Lane (đường di chuyển của Note)",
     "#LANE_EFFECT_DIRECTION": "Hướng hiệu ứng Lane (đường di chuyển của Note)",
     "#LANE_EFFECT_ALPHA": "Hiệu ứng Lane (đường di chuyển của Note) trong suốt",
-    "#JUDGELINE": "Hiển thị Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_POSITION": "Vị trí Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_SIZE": "Kích thước Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_ROTATION": "Xoay Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_DIRECTION": "Hướng Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_ALPHA": "Độ trong suốt Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_ANIMATION": "Hoạt ảnh Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_EFFECT": "Hiệu ứng Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_EFFECT_POSITION": "Vị trí hiệu ứng Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_EFFECT_SIZE": "Kích thước hiệu ứng Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_EFFECT_ROTATION": "Xoay hiệu ứng Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_EFFECT_DIRECTION": "Hiệu ứng Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_EFFECT_ALPHA": "Hiệu ứng Judgement Line (vạch kẻ bấm Note) trong suốt",
+    "#JUDGELINE": "Hiển thị Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_POSITION": "Vị trí Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_SIZE": "Kích thước Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_ROTATION": "Xoay Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_DIRECTION": "Hướng Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_ALPHA": "Độ trong suốt Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_ANIMATION": "Hoạt ảnh Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_EFFECT": "Hiệu ứng Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_EFFECT_POSITION": "Vị trí hiệu ứng Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_EFFECT_SIZE": "Kích thước hiệu ứng Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_EFFECT_ROTATION": "Xoay hiệu ứng Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_EFFECT_DIRECTION": "Hiệu ứng Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_EFFECT_ALPHA": "Hiệu ứng Judgment Line (vạch kẻ bấm Note) trong suốt",
     "#SLOT": "Hiển thị Slot (hiệu ứng sáng Note)",
     "#SLOT_POSITION": "Vị trí Slot (hiệu ứng sáng Note)",
     "#SLOT_SIZE": "Kích thước Slot (hiệu ứng sáng Note)",
@@ -563,7 +563,7 @@
     "Vip": "VIP",
     "NameChange": "Lượt Đổi tên",
     "Owned": "Đã sở hữu",
-    "Judgement": "Judgement",
+    "Judgment": "Judgment",
     "Accuracy": "Độ chính xác",
     "Grade": "Hạng",
     "ArcadeScore": "Điểm số",
@@ -650,7 +650,7 @@
 		"MissPercentage": "Miss %",
         "ErrorHeatmap": "Biểu đồ lỗi"
       },
-      "JudgementErrorStyle": {
+      "JudgmentErrorStyle": {
         "None": "Không có",
         "Late": "Late / Early",
         "Early": "Early / Late",
@@ -665,7 +665,7 @@
         "TriangleLeft": "◄ / ►",
         "TriangleRight": "► / ◄"
       },
-      "JudgementErrorPlacement": {
+      "JudgmentErrorPlacement": {
         "Left": "Trái",
         "Right": "Phải",
         "LeftRight": "Trái + Phải",
@@ -3356,25 +3356,25 @@
               "Title": "Chỉ số phụ",
               "Description": "Chỉ số phụ cần hiển thị (thường ở bên phải)."
             },
-            "JudgementErrorStyle": {
-              "Title": "Kiểu Judgement Error",
-              "Description": "Kiểu Judgement Error. Judgement Error dương là ở bên trái, còn Judgement Error âm là ở bên phải."
+            "JudgmentErrorStyle": {
+              "Title": "Kiểu Judgment Error",
+              "Description": "Kiểu Judgment Error. Judgment Error dương là ở bên trái, còn Judgment Error âm là ở bên phải."
             },
-            "JudgementErrorPlacement": {
-              "Title": "Vị trí Judgement Error",
-              "Description": "Vị trí Judgement Error."
+            "JudgmentErrorPlacement": {
+              "Title": "Vị trí Judgment Error",
+              "Description": "Vị trí Judgment Error."
             },
-            "JudgementErrorMin": {
-              "Title": "Judgement Error tối thiểu",
-              "Description": "Judgement Error tối thiểu. Chỉ những Judgement Error lớn hơn mức này mới được hiển thị."
+            "JudgmentErrorMin": {
+              "Title": "Judgment Error tối thiểu",
+              "Description": "Judgment Error tối thiểu. Chỉ những Judgment Error lớn hơn mức này mới được hiển thị."
             },
             "MenuStyle": {
               "Title": "Kiểu Menu",
               "Description": "Kiểu Menu."
             },
-            "JudgementStyle": {
-              "Title": "Kiểu Judgement",
-              "Description": "Kiểu Judgement."
+            "JudgmentStyle": {
+              "Title": "Kiểu Judgment",
+              "Description": "Kiểu Judgment."
             },
             "ComboStyle": {
               "Title": "Kiểu Combo",
@@ -4028,33 +4028,33 @@
           "Title": "Kích thước giao diện (UI)",
           "Description": "Kích thước giao diện (UI) cần sử dụng. Tăng nếu bạn gặp khó khăn khi đọc và giảm để hiển thị nhiều nội dung hơn trên màn hình cùng một lúc."
         },
-        "PerfectJudgementColors": {
-          "Title": "Màu sắc Perfect Judgement",
-          "Description": "Màu sắc Judgement cho Perfect."
+        "PerfectJudgmentColors": {
+          "Title": "Màu sắc Perfect Judgment",
+          "Description": "Màu sắc Judgment cho Perfect."
         },
-        "GreatJudgementColors": {
-          "Title": "Màu sắc Great Judgement",
-          "Description": "Màu sắc Judgement cho Great."
+        "GreatJudgmentColors": {
+          "Title": "Màu sắc Great Judgment",
+          "Description": "Màu sắc Judgment cho Great."
         },
-        "GoodJudgementColors": {
-          "Title": "Màu sắc Good Judgement",
-          "Description": "Màu sắc Judgement cho Good."
+        "GoodJudgmentColors": {
+          "Title": "Màu sắc Good Judgment",
+          "Description": "Màu sắc Judgment cho Good."
         },
-        "MissJudgementColors": {
-          "Title": "Màu sắc Miss Judgement",
-          "Description": "Màu sắc Judgement cho Miss."
+        "MissJudgmentColors": {
+          "Title": "Màu sắc Miss Judgment",
+          "Description": "Màu sắc Judgment cho Miss."
         },
-        "PositiveJudgementErrorColors": {
-          "Title": "Màu sắc Judgement Error dương",
-          "Description": "Màu sắc Judgement Error dương."
+        "PositiveJudgmentErrorColors": {
+          "Title": "Màu sắc Judgment Error dương",
+          "Description": "Màu sắc Judgment Error dương."
         },
-        "NegativeJudgementErrorColors": {
-          "Title": "Màu sắc Judgement Error âm",
-          "Description": "Màu sắc Judgement Error âm."
+        "NegativeJudgmentErrorColors": {
+          "Title": "Màu sắc Judgment Error âm",
+          "Description": "Màu sắc Judgment Error âm."
         },
         "AllPerfectComboColors": {
           "Title": "Màu sắc Combo hạng All Perfect",
-          "Description": "Mầu sắc Combo khi đang đạt All Perfect"
+          "Description": "Màu sắc Combo khi đang đạt All Perfect"
         },
         "FullComboComboColors": {
           "Title": "Màu sắc Combo hạng Full Combo",
@@ -4062,7 +4062,7 @@
         },
         "PassComboColors": {
           "Title": "Màu sắc Combo hạng Pass",
-          "Description": "Mầu sắc Combo khi đang đạt Pass"
+          "Description": "Màu sắc Combo khi đang đạt Pass"
         },
         "FailComboColors": {
           "Title": "Màu săc Combo hạng Fail",
@@ -4244,7 +4244,7 @@
           },
           "Result": {
             "TouchAbnormality": {
-              "Description": "Đã phát hiện {0} điểm chạm bất thường trong quá trình chơi. Điều này thường do các tính năng hệ thống như cử chỉ, tối ưu hóa cảm ứng và thông báo gây ra và có thể gây ra các vấn đề về Judgement.\n\nĐể đảm bảo bạn có trải nghiệm chơi trò chơi tốt nhất, bạn nên điều chỉnh các cài đặt hệ thống có liên quan."
+              "Description": "Đã phát hiện {0} điểm chạm bất thường trong quá trình chơi. Điều này thường do các tính năng hệ thống như cử chỉ, tối ưu hóa cảm ứng và thông báo gây ra và có thể gây ra các vấn đề về Judgment.\n\nĐể đảm bảo bạn có trải nghiệm chơi trò chơi tốt nhất, bạn nên điều chỉnh các cài đặt hệ thống có liên quan."
             },
             "Options": {
               "HasUsedPause": "Tạm dừng",
@@ -4273,8 +4273,8 @@
         "Title": "Kết quả",
         "Graphs": {
           "Title": "Đồ thị",
-          "Judgement": {
-            "Title": "Biểu đồ Judgement"
+          "Judgment": {
+            "Title": "Biểu đồ Judgment"
           },
           "Accuracy": {
             "Title": "Biểu đồ độ chính xác",
