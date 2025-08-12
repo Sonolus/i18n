@@ -98,8 +98,8 @@
     "#MIRROR": "Mirror",
     "#RANDOM": "Ngẫu nhiên",
     "#HIDDEN": "Ẩn",
-    "#JUDGMENT_STRICT": "Judgement Khó",
-    "#JUDGMENT_LOOSE": "Judgement Dễ",
+    "#JUDGMENT_STRICT": "Judgment Khó",
+    "#JUDGMENT_LOOSE": "Judgment Dễ",
     "#EFFECT_AUTO": "Âm thanh hiệu ứng trong chế độ Tự động",
     "#STAGE": "Hiển thị Stage (giao diện chơi)",
     "#STAGE_POSITION": "Vị trí Stage (giao diện chơi)",
@@ -132,19 +132,19 @@
     "#LANE_EFFECT_ROTATION": "Hiệu ứng xoay Lane (đường di chuyển của Note)",
     "#LANE_EFFECT_DIRECTION": "Hướng hiệu ứng Lane (đường di chuyển của Note)",
     "#LANE_EFFECT_ALPHA": "Hiệu ứng Lane (đường di chuyển của Note) trong suốt",
-    "#JUDGELINE": "Hiển thị Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_POSITION": "Vị trí Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_SIZE": "Kích thước Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_ROTATION": "Xoay Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_DIRECTION": "Hướng Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_ALPHA": "Độ trong suốt Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_ANIMATION": "Hoạt ảnh Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_EFFECT": "Hiệu ứng Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_EFFECT_POSITION": "Vị trí hiệu ứng Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_EFFECT_SIZE": "Kích thước hiệu ứng Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_EFFECT_ROTATION": "Xoay hiệu ứng Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_EFFECT_DIRECTION": "Hiệu ứng Judgement Line (vạch kẻ bấm Note)",
-    "#JUDGELINE_EFFECT_ALPHA": "Hiệu ứng Judgement Line (vạch kẻ bấm Note) trong suốt",
+    "#JUDGELINE": "Hiển thị Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_POSITION": "Vị trí Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_SIZE": "Kích thước Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_ROTATION": "Xoay Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_DIRECTION": "Hướng Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_ALPHA": "Độ trong suốt Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_ANIMATION": "Hoạt ảnh Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_EFFECT": "Hiệu ứng Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_EFFECT_POSITION": "Vị trí hiệu ứng Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_EFFECT_SIZE": "Kích thước hiệu ứng Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_EFFECT_ROTATION": "Xoay hiệu ứng Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_EFFECT_DIRECTION": "Hiệu ứng Judgment Line (vạch kẻ bấm Note)",
+    "#JUDGELINE_EFFECT_ALPHA": "Hiệu ứng Judgment Line (vạch kẻ bấm Note) trong suốt",
     "#SLOT": "Hiển thị Slot (hiệu ứng sáng Note)",
     "#SLOT_POSITION": "Vị trí Slot (hiệu ứng sáng Note)",
     "#SLOT_SIZE": "Kích thước Slot (hiệu ứng sáng Note)",
@@ -202,7 +202,7 @@
     "#PREVIEW_SCALE_VERTICAL": "Xem trước Tỷ lệ dọc",
     "#PREVIEW_SCALE_HORIZONTAL": "Xem trước Tỷ lệ ngang",
     "#PREVIEW_TIME": "Xem trước thời gian",
-    "#PREVIEW_SCORE": "Xem trước Điểm",
+    "#PREVIEW_SCORE": "Xem trước điểm",
     "#PREVIEW_BPM": "Xem trước BPM",
     "#PREVIEW_TIMESCALE": "Xem trước thang thời gian",
     "#PREVIEW_BEAT": "Xem trước nhịp",
@@ -303,18 +303,18 @@
     "#MINUTE_PAST": "{0} phút trước",
     "#SECOND_PAST": "{0} giây trước",
     "#MILLISECOND_PAST": "{0} ms trước",
-    "#YEAR_FUTURE": "Trong {0} năm",
-    "#MONTH_FUTURE": "Trong {0} tháng",
-    "#DAY_FUTURE": "Trong {0} ngày",
-    "#HOUR_FUTURE": "Trong {0} giờ",
-    "#MINUTE_FUTURE": "Trong {0} phút",
-    "#SECOND_FUTURE": "Trong {0} giây",
-    "#MILLISECOND_FUTURE": "Trong {0} ms",
+    "#YEAR_FUTURE": "{0} năm tới",
+    "#MONTH_FUTURE": "{0} tháng tới",
+    "#DAY_FUTURE": "{0} ngày tới",
+    "#HOUR_FUTURE": "{0} giờ tới",
+    "#MINUTE_FUTURE": "{0} phút tới",
+    "#SECOND_FUTURE": "{0} giây tới",
+    "#MILLISECOND_FUTURE": "{0} ms tới",
     "#TAP": "Bấm",
     "#TAP_HOLD": "Bấm và giữ",
     "#TAP_RELEASE": "Bấm và thả",
     "#TAP_FLICK": "Bấm và vuốt",
-    "#TAP_SLIDE": "Bấm và Trượt",
+    "#TAP_SLIDE": "Bấm và trượt",
     "#HOLD": "Giữ",
     "#HOLD_SLIDE": "Giữ và trượt",
     "#HOLD_FOLLOW": "Giữ và di chuyển theo",
@@ -374,7 +374,7 @@
     "#SHORT_VERSION": "Phiên bản ngắn",
     "#LONG_VERSION": "Phiên bản dài",
     "#LIVE_VERSION": "Phiên bản live",
-    "#REPORT": "Báo cáo",
+    "#REPORT": "Tố cáo",
     "#REASON": "Lý do",
     "#ILLEGAL_ACTIVITIES": "Hoạt động bất hợp pháp",
     "#CHEATING": "Gian lận",
@@ -480,7 +480,7 @@
     "#DISAGREE": "Không đồng ý",
     "#DISAGREED": "Đã không đồng ý",
     "#LOCK": "Khóa",
-    "#LOCKED": "Đã khóa",
+    "#LOCKED": "Bị khóa",
     "#UNLOCK": "Mở khóa",
     "#UNLOCKED": "Đã mở khóa",
     "#PIN": "Ghim",
@@ -534,7 +534,7 @@
     "Cancel": "Hủy",
     "Confirm": "Xác nhận",
     "Retry": "Thử lại",
-    "Ok": "Ok",
+    "Ok": "OK",
     "Tip": {
       "Title": "Mẹo"
     },
@@ -563,11 +563,11 @@
     "Vip": "VIP",
     "NameChange": "Lượt Đổi tên",
     "Owned": "Đã sở hữu",
-    "Judgement": "Judgement",
+    "Judgment": "Judgment",
     "Accuracy": "Độ chính xác",
     "Grade": "Hạng",
     "ArcadeScore": "Điểm số",
-    "AccuracyScore": "Điểm chính xác",
+    "AccuracyScore": "Độ chính xác",
     "Combo": "Combo",
     "Perfect": "Perfect",
     "Great": "Great",
@@ -639,7 +639,7 @@
       "Metric": {
         "Arcade": "Điểm số",
         "ArcadePercentage": "Điểm số %",
-        "Accuracy": "Điểm chính xác",
+        "Accuracy": "Độ chính xác",
         "AccuracyPercentage": "Độ chính xác %",
         "Life": "HP",
 		"Perfect": "Perfect",
@@ -650,7 +650,7 @@
 		"MissPercentage": "Miss %",
         "ErrorHeatmap": "Biểu đồ lỗi"
       },
-      "JudgementErrorStyle": {
+      "JudgmentErrorStyle": {
         "None": "Không có",
         "Late": "Late / Early",
         "Early": "Early / Late",
@@ -665,7 +665,7 @@
         "TriangleLeft": "◄ / ►",
         "TriangleRight": "► / ◄"
       },
-      "JudgementErrorPlacement": {
+      "JudgmentErrorPlacement": {
         "Left": "Trái",
         "Right": "Phải",
         "LeftRight": "Trái + Phải",
@@ -2260,7 +2260,7 @@
         },
         "Rom": {
           "Loading": "Đang tải ROM Engine...",
-          "Error": "Không tải được rom Engine của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
+          "Error": "Không tải được ROM Engine của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc bị hỏng."
         },
         "Configuration": {
           "Loading": "Đang tải cấu hình Engine...",
@@ -2339,7 +2339,7 @@
     }
   },
   "Title": {
-    "TapToStart": "Nhấn để Bắt đầu chơi"
+    "TapToStart": "Nhấn để bắt đầu"
   },
   "Layout": {
     "Refresh": "Làm mới",
@@ -2706,13 +2706,13 @@
         "Delete": {
           "Title": "Xoá tài khoản",
           "Confirmation": {
-            "Description": "Việc xóa tài khoản sẽ xóa vĩnh viễn dữ liệu liên quan đến tài khoản Sonolus của bạn, bao gồm hồ sơ, kho đồ và dữ liệu trên Server trò chơi. Quá trình xóa dữ liệu trên Server trò chơi có thể mất đến 7 ngày.\nBạn sẽ không thể khôi phục tài khoản đã xóa.\nBạn sẽ không thể tạo tài khoản Sonolus khác bằng cùng một tài khoản đăng nhập trong 7 ngày.\n\nBạn có chắc muốn xoá tài khoản \"{0}\"?"
+            "Description": "Việc xóa tài khoản sẽ xóa vĩnh viễn dữ liệu liên quan đến tài khoản Sonolus của bạn, bao gồm hồ sơ, kho vật phẩm và dữ liệu trên Server trò chơi. Quá trình xóa dữ liệu trên Server trò chơi có thể mất đến 7 ngày.\nBạn sẽ không thể khôi phục tài khoản đã xóa.\nBạn sẽ không thể tạo tài khoản Sonolus khác bằng cùng một tài khoản đăng nhập trong 7 ngày.\n\nBạn có chắc muốn xoá tài khoản \"{0}\"?"
           }
         }
       },
       "Inventory": {
-        "Title": "Kho đồ",
-        "NotLoggedIn": "Đăng nhập để xem kho đồ của bạn!"
+        "Title": "Kho vật phẩm",
+        "NotLoggedIn": "Đăng nhập để xem kho vật phẩm của bạn!"
       }
     },
     "UserProfile": {
@@ -2883,7 +2883,7 @@
           "Create": {
             "Title": "Tạo bài đăng",
             "Success": {
-              "Title": "Bài đăng đã tạo"
+              "Title": "Đã tạo bài đăng"
             }
           }
         },
@@ -3356,25 +3356,25 @@
               "Title": "Chỉ số phụ",
               "Description": "Chỉ số phụ cần hiển thị (thường ở bên phải)."
             },
-            "JudgementErrorStyle": {
-              "Title": "Kiểu Judgement Error",
-              "Description": "Kiểu Judgement Error. Judgement Error dương là ở bên trái, còn Judgement Error âm là ở bên phải."
+            "JudgmentErrorStyle": {
+              "Title": "Kiểu Judgment Error",
+              "Description": "Kiểu Judgment Error. Judgment Error dương là ở bên trái, còn Judgment Error âm là ở bên phải."
             },
-            "JudgementErrorPlacement": {
-              "Title": "Vị trí Judgement Error",
-              "Description": "Vị trí Judgement Error."
+            "JudgmentErrorPlacement": {
+              "Title": "Vị trí Judgment Error",
+              "Description": "Vị trí Judgment Error."
             },
-            "JudgementErrorMin": {
-              "Title": "Judgement Error tối thiểu",
-              "Description": "Judgement Error tối thiểu. Chỉ những Judgement Error lớn hơn mức này mới được hiển thị."
+            "JudgmentErrorMin": {
+              "Title": "Judgment Error tối thiểu",
+              "Description": "Judgment Error tối thiểu. Chỉ những Judgment Error lớn hơn mức này mới được hiển thị."
             },
             "MenuStyle": {
               "Title": "Kiểu Menu",
               "Description": "Kiểu Menu."
             },
-            "JudgementStyle": {
-              "Title": "Kiểu Judgement",
-              "Description": "Kiểu Judgement."
+            "JudgmentStyle": {
+              "Title": "Kiểu Judgment",
+              "Description": "Kiểu Judgment."
             },
             "ComboStyle": {
               "Title": "Kiểu Combo",
@@ -3480,7 +3480,7 @@
       },
       "ResourceExporters": {
         "Success": {
-          "Title": "Tài nguyên đã xuất"
+          "Title": "Đã xuất tài nguyên"
         }
       },
       "SaveInfos": {
@@ -3858,17 +3858,17 @@
               "Description": "Bạn có chắc chắn muốn đổi tên phòng thành {0} không?"
             },
             "UpdateLeadConfirmation": {
-              "Description": "Bạn có chắc chắn muốn đổi phòng dẫn tới {0} không?"
+              "Description": "Bạn có chắc chắn muốn đổi người dẫn phòng thành {0} không?"
             },
             "KickConfirmation": {
-              "Description": "Bạn có chắc chắn muốn đá (kick) {0} ra khỏi phòng không?"
+              "Description": "Bạn có chắc chắn muốn đá {0} ra khỏi phòng không?"
             },
-            "AddedToBlacklistSuccess": "Người chơi bị chặn",
-            "RemovedFromBlacklistSuccess": "Người chơi đã bỏ chặn",
+            "AddedToBlacklistSuccess": "Đã chặn người chơi",
+            "RemovedFromBlacklistSuccess": "Đã bỏ chặn người chơi",
             "Report": {
-              "Title": "Báo cáo người chơi",
-              "Description": "Báo cáo người chơi {0}:",
-              "Success": "Người chơi đã báo cáo"
+              "Title": "Tố cáo người chơi",
+              "Description": "Tố cáo người chơi {0}:",
+              "Success": "Đã tố cáo người chơi"
             }
           }
         }
@@ -3883,12 +3883,12 @@
         "Title": "Đồ họa",
         "TargetFps": {
           "Title": "Tốc độ khung hình (FPS)",
-          "Description": "Khuyến nghị nên để mặc định tốc độ khung hình của thiết bị.\n\nSonolus cho phép lựa chọn tốc độ khung hình tùy ý trên thiết bị của bạn, tuy nhiên Sonolus không đảm bảo thiết bị đó có thể chạy được FPS đó.",
+          "Description": "Khuyến nghị nên đặt theo tần số quét mặc định của màn hình thiết bị.\n\nSonolus cho phép lựa chọn tốc độ khung hình tùy ý trên thiết bị của bạn, tuy nhiên Sonolus không đảm bảo thiết bị có thể chạy được FPS đó.",
           "Default": "Mặc định"
         },
         "RenderMode": {
           "Title": "Chế độ kết xuất (render)",
-          "Description": "Khuyến nghị nên để chế độ kết xuất chuẩn.\n\nChế độ kết xuất chuẩn cung cấp đồ họa chính xác, trong khi chế độ kết xuất nhẹ cung cấp đồ họa kém chính xác hơn nhưng hiệu năng được cải thiện đáng kể.",
+          "Description": "Khuyến nghị nên để chế độ kết xuất Tiêu chuẩn.\n\nChế độ kết xuất Tiêu chuẩn cung cấp đồ họa chính xác, trong khi chế độ kết xuất Nhẹ cung cấp đồ họa kém chính xác hơn nhưng hiệu năng được cải thiện đáng kể.",
           "Options": {
             "Standard": "Tiêu chuẩn",
             "Lightweight": "Nhẹ"
@@ -3903,7 +3903,7 @@
           "Description": "Khuyến nghị nên tắt.\n\nKhử răng cưa sẽ cải thiện đồ họa bằng cách giảm thiểu hiện tượng nhiễu, đặc biệt là xung quanh các cạnh của hình ảnh, tuy nhiên hiệu năng sẽ kém hơn."
         },
         "GpuParticleSystem": {
-          "Title": "Hệ thống Particle GPU",
+          "Title": "Sử dụng hệ thống Particle GPU",
           "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus sử dụng hệ thống Particle CPU. Khi bật, hệ thống Particle GPU sẽ được sử dụng thay thế. Đối với hầu hết các thiết bị di động, GPU yếu hơn CPU và do đó không khuyến khích sử dụng."
         },
         "IgnoreNotch": {
@@ -3914,16 +3914,16 @@
       "Audio": {
         "Title": "Âm thanh",
         "BgmVolume": {
-          "Title": "Âm lượng của nhạc nền",
-          "Description": "Âm lượng của nhạc nền."
+          "Title": "Âm lượng nhạc nền",
+          "Description": "Âm lượng nhạc nền."
         },
         "SfxVolume": {
-          "Title": "Âm lượng của âm thanh hiệu ứng",
-          "Description": "Âm lượng của âm thanh hiệu ứng."
+          "Title": "Âm lượng SFX",
+          "Description": "Âm lượng SFX."
         },
         "UIVolume": {
           "Title": "Âm lượng UI",
-          "Description": "Âm lượng của UI."
+          "Description": "Âm lượng UI."
         },
         "AlwaysDecodeLevelBgm": {
           "Title": "Luôn giải mã BGM Level",
@@ -3998,8 +3998,8 @@
           "Description": "Tự động gửi lại nội dung bản phát lại tới Server nếu được hỗ trợ."
         },
         "ShowReplayTouches": {
-          "Title": "Hiển thị chạm trong bản phát lại",
-          "Description": "Hiển thị các lần chạm khi xem lại."
+          "Title": "Hiển thị điểm chạm trong bản phát lại",
+          "Description": "Hiển thị các điểm chạm khi xem lại."
         },
         "OverwriteReplayOptions": {
           "Title": "Ghi đè tùy chọn bản phát lại",
@@ -4028,48 +4028,48 @@
           "Title": "Kích thước giao diện (UI)",
           "Description": "Kích thước giao diện (UI) cần sử dụng. Tăng nếu bạn gặp khó khăn khi đọc và giảm để hiển thị nhiều nội dung hơn trên màn hình cùng một lúc."
         },
-        "PerfectJudgementColors": {
-          "Title": "Màu sắc Perfect Judgement",
-          "Description": "Màu sắc Judgement cho Perfect."
+        "PerfectJudgmentColors": {
+          "Title": "Màu sắc Perfect Judgment",
+          "Description": "Màu sắc Judgment cho Perfect."
         },
-        "GreatJudgementColors": {
-          "Title": "Màu sắc Great Judgement",
-          "Description": "Màu sắc Judgement cho Great."
+        "GreatJudgmentColors": {
+          "Title": "Màu sắc Great Judgment",
+          "Description": "Màu sắc Judgment cho Great."
         },
-        "GoodJudgementColors": {
-          "Title": "Màu sắc Good Judgement",
-          "Description": "Màu sắc Judgement cho Good."
+        "GoodJudgmentColors": {
+          "Title": "Màu sắc Good Judgment",
+          "Description": "Màu sắc Judgment cho Good."
         },
-        "MissJudgementColors": {
-          "Title": "Màu sắc Miss Judgement",
-          "Description": "Màu sắc Judgement cho Miss."
+        "MissJudgmentColors": {
+          "Title": "Màu sắc Miss Judgment",
+          "Description": "Màu sắc Judgment cho Miss."
         },
-        "PositiveJudgementErrorColors": {
-          "Title": "Màu sắc Judgement Error dương",
-          "Description": "Màu sắc Judgement Error dương."
+        "PositiveJudgmentErrorColors": {
+          "Title": "Màu sắc Judgment Error dương",
+          "Description": "Màu sắc Judgment Error dương."
         },
-        "NegativeJudgementErrorColors": {
-          "Title": "Màu sắc Judgement Error âm",
-          "Description": "Màu sắc Judgement Error âm."
+        "NegativeJudgmentErrorColors": {
+          "Title": "Màu sắc Judgment Error âm",
+          "Description": "Màu sắc Judgment Error âm."
         },
         "AllPerfectComboColors": {
-          "Title": "Màu sắc Combo All Perfect",
-          "Description": "Mầu sắc Combo Khi đạt được All Perfect"
+          "Title": "Màu sắc Combo hạng All Perfect",
+          "Description": "Màu sắc Combo khi đang đạt All Perfect"
         },
         "FullComboComboColors": {
-          "Title": "Mầu sắc Combo Full Combo",
-          "Description": "Màu sắc Combo khi đạt được Full Combo"
+          "Title": "Màu sắc Combo hạng Full Combo",
+          "Description": "Màu sắc Combo khi đang đạt Full Combo"
         },
         "PassComboColors": {
-          "Title": "Màu sắc Combo Pass",
-          "Description": "Mầu sắc Combo khi đạt được Pass"
+          "Title": "Màu sắc Combo hạng Pass",
+          "Description": "Màu sắc Combo khi đang đạt Pass"
         },
         "FailComboColors": {
-          "Title": "Màu săc Combo Fail",
-          "Description": "Màu sắc Combo khi chỉ đạt được Fail"
+          "Title": "Màu săc Combo hạng Fail",
+          "Description": "Màu sắc Combo khi chỉ còn đạt được Fail"
         },
         "BoldComboNumber": {
-          "Title": "Số Combo in đậm",
+          "Title": "In đậm số Combo",
           "Description": "Sử dụng phông chữ đậm cho số combo."
         },
         "ShowZeroCombo": {
@@ -4082,7 +4082,7 @@
         }
       },
       "Offsets": {
-        "Title": "Độ trễ đầu vào",
+        "Title": "Cấu hình độ trễ",
         "Device": {
           "Title": "Thiết bị",
           "Description": "Sử dụng tính năng này để lưu các giá trị độ trễ đầu vào cho các trường hợp thiết bị khác nhau, chẳng hạn như khi phát bằng loa, tai nghe, Bluetooth, v.v.",
@@ -4127,7 +4127,7 @@
       "Developer": {
         "Title": "Tùy chọn nhà phát triển",
         "ShowFps": {
-          "Title": "Hiển thị FPS",
+          "Title": "Hiển thị bộ đếm FPS",
           "Description": "Hiển thị bộ đếm FPS ở góc dưới bên trái màn hình."
         },
         "FpsStyle": {
@@ -4143,11 +4143,11 @@
           "Description": "Chế độ gỡ lỗi cho phép chạy mã gỡ lỗi cụ thể và hiển thị nhật ký gỡ lỗi ở góc dưới bên phải màn hình."
         },
         "DebugLogStyle": {
-          "Title": "Kiểu Nhật ký gỡ lỗi",
+          "Title": "Kiểu nhật ký gỡ lỗi",
           "Description": "Kiểu nhật ký gỡ lỗi."
         },
         "DiagnosticLogs": {
-          "Title": "Nhật ký chẩn đoán",
+          "Title": "Nhật ký chẩn đoán lỗi",
           "Description": "Nhật ký chẩn đoán giúp khắc phục sự cố với Sonolus."
         }
       }
@@ -4212,7 +4212,7 @@
       }
     },
     "DiagnosticLogs": {
-      "Title": "Nhật ký chẩn đoán"
+      "Title": "Nhật ký chẩn đoán lỗi"
     }
   },
   "Runtimes": {
@@ -4244,11 +4244,11 @@
           },
           "Result": {
             "TouchAbnormality": {
-              "Description": "Đã phát hiện {0} điểm chạm bất thường trong quá trình chơi. Điều này thường do các tính năng hệ thống như cử chỉ, tối ưu hóa cảm ứng và thông báo gây ra và có thể gây ra các vấn đề về Judgement.\n\nĐể đảm bảo bạn có trải nghiệm chơi trò chơi tốt nhất, bạn nên điều chỉnh các cài đặt hệ thống có liên quan."
+              "Description": "Đã phát hiện {0} điểm chạm bất thường trong quá trình chơi. Điều này thường do các tính năng hệ thống như cử chỉ, tối ưu hóa cảm ứng và thông báo gây ra và có thể gây ra các vấn đề về Judgment.\n\nĐể đảm bảo bạn có trải nghiệm chơi trò chơi tốt nhất, bạn nên điều chỉnh các cài đặt hệ thống có liên quan."
             },
             "Options": {
-              "HasUsedPause": "Dừng",
-              "HasUsedSnapshot": "Snapshot"
+              "HasUsedPause": "Tạm dừng",
+              "HasUsedSnapshot": "Điểm lưu"
             },
             "Replay": {
               "Title": "Phát lại",
@@ -4259,7 +4259,7 @@
               },
               "Submit": {
                 "Confirmation": {
-                  "Description": "Bản phát lại của bạn đã được tạo và lưu thành công.\n\nBạn có muốn gửi bản phát lại đến Server \"{0}\" không?"
+                  "Description": "Bản phát lại của bạn đã được tạo và lưu thành công.\n\nBạn có muốn gửi bản phát lại của bạn đến Server \"{0}\" không?"
                 },
                 "Success": {
                   "Title": "Đã gửi kết quả Level"
@@ -4273,16 +4273,16 @@
         "Title": "Kết quả",
         "Graphs": {
           "Title": "Đồ thị",
-          "Judgement": {
-            "Title": "Biểu đồ Judgement"
+          "Judgment": {
+            "Title": "Biểu đồ Judgment"
           },
           "Accuracy": {
             "Title": "Biểu đồ độ chính xác",
             "AbsValue": "Giá trị tuyệt đối",
             "Mean": "Giá trị trung bình",
             "StDev": "Độ lệch chuẩn",
-            "Min": "Tối thiểu",
-            "Max": "Tối đa"
+            "Min": "Giá trị nhỏ nhất",
+            "Max": "Giá trị lớn nhất"
           },
           "Bucket": {
             "Title": "Biểu đồ nhóm"
