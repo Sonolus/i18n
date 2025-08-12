@@ -374,7 +374,7 @@
     "#SHORT_VERSION": "Phiên bản ngắn",
     "#LONG_VERSION": "Phiên bản dài",
     "#LIVE_VERSION": "Phiên bản live",
-    "#REPORT": "Báo cáo",
+    "#REPORT": "Tố cáo",
     "#REASON": "Lý do",
     "#ILLEGAL_ACTIVITIES": "Hoạt động bất hợp pháp",
     "#CHEATING": "Gian lận",
@@ -534,7 +534,7 @@
     "Cancel": "Hủy",
     "Confirm": "Xác nhận",
     "Retry": "Thử lại",
-    "Ok": "Ok",
+    "Ok": "OK",
     "Tip": {
       "Title": "Mẹo"
     },
@@ -3480,7 +3480,7 @@
       },
       "ResourceExporters": {
         "Success": {
-          "Title": "Tài nguyên đã xuất"
+          "Title": "Đã xuất tài nguyên"
         }
       },
       "SaveInfos": {
@@ -3863,12 +3863,12 @@
             "KickConfirmation": {
               "Description": "Bạn có chắc chắn muốn đá {0} ra khỏi phòng không?"
             },
-            "AddedToBlacklistSuccess": "Người chơi bị chặn",
-            "RemovedFromBlacklistSuccess": "Người chơi đã bỏ chặn",
+            "AddedToBlacklistSuccess": "Đã chặn người chơi",
+            "RemovedFromBlacklistSuccess": "Đã bỏ chặn người chơi",
             "Report": {
-              "Title": "Báo cáo người chơi",
-              "Description": "Báo cáo người chơi {0}:",
-              "Success": "Người chơi đã báo cáo"
+              "Title": "Tố cáo người chơi",
+              "Description": "Tố cáo người chơi {0}:",
+              "Success": "Đã tố cáo người chơi"
             }
           }
         }
