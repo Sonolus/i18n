@@ -386,11 +386,11 @@
     "#DNF": "Không hoàn thành",
     "#SUGGESTIONS": "Đề xuất",
     "#SUGGESTIONS_PER_PLAYER": "Số lượng đề xuất cho mỗi người chơi",
-    "#MATCH_SCORING": "Tiêu chí tính điểm",
-    "#MATCH_TIEBREAKER": "Tiêu chí phụ nếu hòa",
+    "#MATCH_SCORING": "Cách tính điểm",
+    "#MATCH_TIEBREAKER": "Cách tính điểm phụ nếu hòa",
     "#MATCH_COUNT": "Số trận đấu",
     "#MATCH_LIMIT": "Giới hạn điểm trận đấu",
-    "#ROUND_SCORING": "Tiêu chí tính điểm",
+    "#ROUND_SCORING": "Tiêu chí xếp hạng",
     "#ROUND_TIEBREAKER": "Tiêu chí phụ nếu hòa",
     "#ROUND_COUNT": "Số vòng đấu",
     "#ROUND_LIMIT": "Giới hạn vòng đấu",
@@ -3887,7 +3887,7 @@
           "Default": "Mặc định"
         },
         "RenderMode": {
-          "Title": "Chế độ kết xuất (render)",
+          "Title": "Chế độ kết xuất (Render)",
           "Description": "Khuyến nghị nên để chế độ kết xuất Tiêu chuẩn.\n\nChế độ kết xuất Tiêu chuẩn cung cấp đồ họa chính xác, trong khi chế độ kết xuất Nhẹ cung cấp đồ họa kém chính xác hơn nhưng hiệu năng được cải thiện đáng kể.",
           "Options": {
             "Standard": "Tiêu chuẩn",
@@ -3899,7 +3899,7 @@
           "Description": "Khuyến nghị nên để giá trị 100%.\n\nSonolus kết xuất ở tỷ lệ này và tăng hoặc giảm tỷ lệ theo kích thước độ phân giải. Tỷ lệ kết xuất cao hơn 100% có thể cải thiện đồ họa nhưng hiệu năng sẽ kém hơn, trong khi tỷ lệ kết xuất thấp hơn 100% sẽ cải thiện hiệu năng nhưng đổi lại đồ họa sẽ kém hơn."
         },
         "AntiAliasing": {
-          "Title": "Khử răng cưa (anti-aliasing)",
+          "Title": "Khử răng cưa (Anti-aliasing)",
           "Description": "Khuyến nghị nên tắt.\n\nKhử răng cưa sẽ cải thiện đồ họa bằng cách giảm thiểu hiện tượng nhiễu, đặc biệt là xung quanh các cạnh của hình ảnh, tuy nhiên hiệu năng sẽ kém hơn."
         },
         "GpuParticleSystem": {
@@ -3907,7 +3907,7 @@
           "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus sử dụng hệ thống Particle CPU. Khi bật, hệ thống Particle GPU sẽ được sử dụng thay thế. Đối với hầu hết các thiết bị di động, GPU yếu hơn CPU và do đó không khuyến khích sử dụng."
         },
         "IgnoreNotch": {
-          "Title": "Bỏ qua tai thỏ điện thoại (notch)",
+          "Title": "Bỏ qua tai thỏ điện thoại (Notch)",
           "Description": "Theo mặc định, Sonolus sẽ tránh hiển thị giao diện trên vùng tai thỏ (camera trước) của điện thoại để đảm bảo không có vùng nào của giao diện bị che khuất. Khi được bật, Sonolus sẽ không còn tránh vùng tai thỏ nữa, nếu điện thoại của bạn có vùng tai thỏ rộng thì có khả năng một phần giao diện sẽ bị che khuất. Chỉ nên bật nếu màn hình máy bạn có vùng tai thỏ hẹp / giọt nước và bạn muốn game sẽ hiển thị giao diện ở chính giữa màn hình."
         }
       },
