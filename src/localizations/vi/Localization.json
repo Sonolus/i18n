@@ -783,12 +783,12 @@
           "Error": "Không thể tải chủ đề ảnh nền của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
         },
         "Avatar": {
-          "Loading": "Đang tải chủ đề avatar...",
-          "Error": "Không thể tải chủ đề avatar của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Loading": "Đang tải chủ đề ảnh đại diện...",
+          "Error": "Không thể tải chủ đề ảnh đại diện của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
         },
         "AvatarBackground": {
-          "Loading": "Đang tải chủ đề nền avatar...",
-          "Error": "Không thể tải chủ đề nền avatar của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Loading": "Đang tải chủ đề nền ảnh đại diện...",
+          "Error": "Không thể tải chủ đề nền ảnh đại diện của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
         },
         "Banner": {
           "Loading": "Đang tải chủ đề banner...",
@@ -876,10 +876,10 @@
         }
       },
       "EditAvatar": {
-        "Loading": "Đang đổi avatar...",
-        "Error": "Không thể đổi avatar.\n\nVui lòng kiểm tra xem avatar của ban có phải tệp ảnh hay không, hoặc kiểm tra lại kết nối Internet và thử lại.",
+        "Loading": "Đang thay đổi ảnh đại diện...",
+        "Error": "Không thể thay đổi ảnh đại diện.\n\nVui lòng kiểm tra xem ảnh đại diện của bạn có phải là file ảnh hay không, hoặc kiểm tra lại kết nối Internet và thử lại.",
         "Success": {
-          "Title": "Đã đổi avatar"
+          "Title": "Đã thay đổi ảnh đại diện"
         }
       },
       "EditBanner": {
@@ -2684,10 +2684,10 @@
         },
         "Themes": {
           "Bundle": {
-            "Description": "Cá nhân hóa giao diện người dùng Sonolus, ảnh đại diện hồ sơ và ảnh bìa hồ sơ của bạn với chủ đề này, với gói VIP bạn sẽ trải nghiệm không có quảng cáo trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nChủ đề giao diện (UI) \"{0}\"\nAvatar \"{1}\"\nNền Avatar \"{2}\"\nBanner \"{3}\"\nVIP x{4}"
+            "Description": "Cá nhân hóa giao diện người dùng Sonolus, ảnh đại diện hồ sơ và ảnh bìa hồ sơ của bạn với chủ đề này, với gói VIP bạn sẽ trải nghiệm không có quảng cáo trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nChủ đề giao diện (UI) \"{0}\"\nẢnh đại diện \"{1}\"\nNền ảnh đại diện \"{2}\"\nẢnh bìa \"{3}\"\nVIP x{4}"
           },
           "Single": {
-            "Description": "Cá nhân hóa giao diện người dùng Sonolus, ảnh đại diện hồ sơ và ảnh bìa hồ sơ của bạn với chủ đề này.\n\nKhi mua, bạn sẽ nhận được:\nChủ đề giao diện (UI) \"{0}\"\nAvatar \"{1}\"\nNền Avatar \"{2}\"\nBanner \"{3}\""
+            "Description": "Cá nhân hóa giao diện người dùng Sonolus, ảnh đại diện hồ sơ và ảnh bìa hồ sơ của bạn với chủ đề này.\n\nKhi mua, bạn sẽ nhận được:\nChủ đề giao diện (UI) \"{0}\"\nẢnh đại diện \"{1}\"\nNền ảnh đại diện \"{2}\"\nẢnh bìa \"{3}\""
           }
         }
       }
@@ -2759,9 +2759,9 @@
           "Description": "Biểu tượng Ảnh đại diện.",
           "Player": "Người chơi",
           "Heart": "Trái tim",
-          "Hat": "Mũ",
-          "Fish": "Cá",
-          "Paw": "Bàn chân chó"
+          "Hat": "Cái Mũ",
+          "Fish": "Con cá",
+          "Paw": "Bàn chân động vật"
         },
         "ForegroundColor": {
           "Title": "Màu sắc biểu tượng",
@@ -2821,7 +2821,7 @@
       },
       "Legal": {
         "Title": "Điều khoản sử dụng",
-        "Description": "Bằng việc tiếp tục sử dụng Sonolus, bạn đồng ý với các điều khoản sau:"
+        "Description": "Bằng việc tiếp tục sử dụng Sonolus, bạn đã đồng ý với các điều khoản sau:"
       },
       "Music": {
         "Title": "Âm nhạc"
@@ -3791,24 +3791,24 @@
           },
           "Quick": {
             "Hello": {
-              "Title": "Xin chào",
-              "Text": "Xin chào!"
+              "Title": "Lời xin chào",
+              "Text": "Xin chào mọi người!"
             },
             "Glhf": {
-              "Title": "Glhf",
-              "Text": "Chúc may mắn và vui vẻ nhé!"
+              "Title": "Lời chúc",
+              "Text": "Chúc bạn may mắn và chơi game vui nhé!"
             },
             "Gg": {
-              "Title": "GG",
+              "Title": "Lời khen ngợi",
               "Text": "Good game!"
             },
             "Ns": {
-              "Title": "Ns",
+              "Title": "Kheo điểm số",
               "Text": "Điểm số tuyệt vời!"
             },
             "Ty": {
-              "Title": "Ty",
-              "Text": "Cảm ơn!"
+              "Title": "Lời cảm ơn",
+              "Text": "Cảm ơn bạn!"
             }
           },
           "System": {
@@ -4090,7 +4090,7 @@
         },
         "DeviceAudioOffset": {
           "Title": "Độ trễ âm thanh của thiết bị",
-          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐộ trễ âm thanh của thiết bị của bạn. Đối với hầu hết các thiết bị sử dụng loa ngoài, 0 là độ trễ chính xác. Không khuyến nghị sử dụng Bluetooth. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
+          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐộ trễ âm thanh của thiết bị của bạn. Đối với hầu hết các thiết bị sử dụng loa ngoài, mức 0 là độ trễ tiêu chuẩn. Không khuyến nghị sử dụng Bluetooth. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
         },
         "DeviceInputOffset": {
           "Title": "Độ trễ đầu vào của thiết bị",
@@ -4101,7 +4101,7 @@
         "Title": "Kho lưu trữ",
         "AutoClean": {
           "Title": "Tự động dọn dẹp",
-          "Description": "Tự động dọn dẹp kho lưu trữ khi khởi chạy bằng cách xóa các tài nguyên cũ nhất.",
+          "Description": "Tự động dọn dẹp kho lưu trữ khi khởi chạy bằng cách xóa các tài nguyên cũ.",
           "Options": {
             "OneHundredMB": "100MB",
             "FiveHundredMB": "500MB",
