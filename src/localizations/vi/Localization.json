@@ -1,4 +1,3 @@
-{
   "Meta": {
     "Name": "vi",
     "Title": "Tiếng Việt (Vietnamese)"
@@ -3803,8 +3802,8 @@
               "Text": "Good game!"
             },
             "Ns": {
-              "Title": "Kheo điểm số",
-              "Text": "Điểm số tuyệt vời!"
+              "Title": "Khen điểm số",
+              "Text": "Điểm số tuyệt vời đó!"
             },
             "Ty": {
               "Title": "Lời cảm ơn",
