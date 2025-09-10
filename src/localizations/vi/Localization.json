@@ -2705,7 +2705,7 @@
         "Delete": {
           "Title": "Xoá tài khoản",
           "Confirmation": {
-            "Description": "Việc xóa tài khoản sẽ xóa vĩnh viễn dữ liệu liên quan đến tài khoản Sonolus của bạn, bao gồm hồ sơ, kho vật phẩm và dữ liệu trên Server trò chơi. Quá trình xóa dữ liệu trên Server trò chơi có thể mất đến 7 ngày.\nBạn sẽ không thể khôi phục được tài khoản đã xóa.\nBạn sẽ không thể tạo được tài khoản Sonolus khác trước khi có hiệu lực sau 7 ngày.\n\nBạn có chắc muốn xoá tài khoản \"{0}\"?"
+            "Description": "Việc xóa tài khoản sẽ xóa vĩnh viễn dữ liệu liên quan đến tài khoản Sonolus của bạn, bao gồm hồ sơ, kho vật phẩm và dữ liệu trên Server trò chơi. Quá trình xóa dữ liệu trên Server trò chơi có thể mất đến 7 ngày.\nBạn sẽ không thể khôi phục được tài khoản đã bị xóa, cũng như sẽ không thể tạo được tài khoản Sonolus khác sau 7 ngày.\n\nBạn có chắc muốn xoá tài khoản \"{0}\"?"
           }
         }
       },
