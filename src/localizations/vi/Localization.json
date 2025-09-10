@@ -2624,7 +2624,7 @@
       "Settings": "Cài đặt",
       "UpdateAvailable": {
         "Title": "Đã có bản cập nhật",
-        "Description": "Sonolus hiện đã có phiên bản {0}!\n\nTruy cập website:\nhttps://sonolus.com",
+        "Description": "Sonolus hiện đã có phiên bản mới {0}!\n\nTruy cập website:\nhttps://sonolus.com",
         "Open": "Mở"
       }
     },
@@ -2676,14 +2676,14 @@
           "Title": "Mô tả"
         },
         "Vip": {
-          "Description": "Gói VIP sẽ cho bạn một trải nghiệm không có quảng cáo trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nVIP x{0}"
+          "Description": "Gói VIP cho phép bạn trải nghiệm không có quảng cáo trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nVIP x{0}"
         },
         "NameChange": {
           "Description": "Lượt đổi tên có thể được dùng để thay đổi tên hồ sơ của bạn trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nLượt Đổi tên x{0}"
         },
         "Themes": {
           "Bundle": {
-            "Description": "Cá nhân hóa giao diện người dùng Sonolus, ảnh đại diện hồ sơ và ảnh bìa hồ sơ của bạn với chủ đề này, với gói VIP bạn sẽ trải nghiệm không có quảng cáo trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nChủ đề giao diện (UI) \"{0}\"\nẢnh đại diện \"{1}\"\nNền ảnh đại diện \"{2}\"\nẢnh bìa \"{3}\"\nVIP x{4}"
+            "Description": "Cá nhân hóa giao diện người dùng Sonolus, ảnh đại diện hồ sơ và ảnh bìa hồ sơ của bạn với chủ đề này, đi kèm với đó là gói VIP cho phép trải nghiệm không có quảng cáo trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nChủ đề giao diện (UI) \"{0}\"\nẢnh đại diện \"{1}\"\nNền ảnh đại diện \"{2}\"\nẢnh bìa \"{3}\"\nVIP x{4}"
           },
           "Single": {
             "Description": "Cá nhân hóa giao diện người dùng Sonolus, ảnh đại diện hồ sơ và ảnh bìa hồ sơ của bạn với chủ đề này.\n\nKhi mua, bạn sẽ nhận được:\nChủ đề giao diện (UI) \"{0}\"\nẢnh đại diện \"{1}\"\nNền ảnh đại diện \"{2}\"\nẢnh bìa \"{3}\""
@@ -2705,7 +2705,7 @@
         "Delete": {
           "Title": "Xoá tài khoản",
           "Confirmation": {
-            "Description": "Việc xóa tài khoản sẽ xóa vĩnh viễn dữ liệu liên quan đến tài khoản Sonolus của bạn, bao gồm hồ sơ, kho vật phẩm và dữ liệu trên Server trò chơi. Quá trình xóa dữ liệu trên Server trò chơi có thể mất đến 7 ngày.\nBạn sẽ không thể khôi phục tài khoản đã xóa.\nBạn sẽ không thể tạo tài khoản Sonolus khác bằng cùng một tài khoản đăng nhập trong 7 ngày.\n\nBạn có chắc muốn xoá tài khoản \"{0}\"?"
+            "Description": "Việc xóa tài khoản sẽ xóa vĩnh viễn dữ liệu liên quan đến tài khoản Sonolus của bạn, bao gồm hồ sơ, kho vật phẩm và dữ liệu trên Server trò chơi. Quá trình xóa dữ liệu trên Server trò chơi có thể mất đến 7 ngày.\nBạn sẽ không thể khôi phục được tài khoản đã xóa.\nBạn sẽ không thể tạo được tài khoản Sonolus khác trước khi có hiệu lực sau 7 ngày.\n\nBạn có chắc muốn xoá tài khoản \"{0}\"?"
           }
         }
       },
@@ -2826,7 +2826,7 @@
         "Title": "Âm nhạc"
       },
       "Translation": {
-        "Title": "Bản dịch",
+        "Title": "Dịch thuật",
         "Description": "Hãy giúp dịch Sonolus sang ngôn ngữ của bạn!\nhttps://github.com/Sonolus/i18n\n\nCảm ơn tất cả những người đóng góp:"
       }
     },
