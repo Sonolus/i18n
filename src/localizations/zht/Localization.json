@@ -4,6 +4,15 @@
     "Title": "繁體中文 (Traditional Chinese)"
   },
   "Texts": {
+    "#CUSTOM_SERVER": "自訂伺服器",
+    "#COLLECTION": "收藏夾",
+    "#SERVER": "伺服器",
+    "#ADDRESS": "位址",
+    "#EXPIRATION": "到期",
+    "#STORAGE": "儲存",
+    "#LOG": "Log",
+    "#INQUIRY": "查詢",
+    "#BANNER": "橫幅",
     "#POST": "貼文",
     "#PLAYLIST": "播放清單",
     "#LEVEL": "關卡",
@@ -14,6 +23,37 @@
     "#ENGINE": "引擎",
     "#REPLAY": "重播",
     "#ROOM": "房間",
+    "#POST_THUMBNAIL": "縮圖",
+    "#PLAYLIST_THUMBNAIL": "縮圖",
+    "#LEVEL_COVER": "封面",
+    "#LEVEL_BGM": "BGM",
+    "#LEVEL_PREVIEW": "預覽",
+    "#LEVEL_DATA": "資料",
+    "#SKIN_THUMBNAIL": "縮圖",
+    "#SKIN_DATA": "資料",
+    "#SKIN_TEXTURE": "紋理",
+    "#BACKGROUND_THUMBNAIL": "縮圖",
+    "#BACKGROUND_IMAGE": "圖像",
+    "#BACKGROUND_DATA": "資料",
+    "#BACKGROUND_CONFIGURATION": "配置",
+    "#EFFECT_THUMBNAIL": "縮圖",
+    "#EFFECT_DATA": "資料",
+    "#EFFECT_AUDIO": "音頻",
+    "#PARTICLE_THUMBNAIL": "縮圖",
+    "#PARTICLE_DATA": "資料",
+    "#PARTICLE_TEXTURE": "紋理",
+    "#ENGINE_THUMBNAIL": "縮圖",
+    "#ENGINE_PLAYDATA": "遊玩數據",
+    "#ENGINE_WATCHDATA": "觀看數據",
+    "#ENGINE_PREVIEWDATA": "預覽數據",
+    "#ENGINE_TUTORIALDATA": "教程數據",
+    "#ENGINE_ROM": "ROM",
+    "#ENGINE_CONFIGURATION": "配置",
+    "#REPLAY_DATA": "資料",
+    "#REPLAY_CONFIGURATION": "配置",
+    "#ROOM_COVER": "封面",
+    "#ROOM_BGM": "BGM",
+    "#ROOM_PREVIEW": "預覽",
     "#GRADE": "評級",
     "#ARCADE_SCORE": "街機分數",
     "#ACCURACY_SCORE": "準確率分數",
@@ -22,6 +62,8 @@
     "#GREAT": "Great",
     "#GOOD": "Good",
     "#MISS": "Miss",
+    "#FILTER": "篩選",
+    "#SORT": "分類",
     "#KEYWORDS": "關鍵字",
     "#NAME": "名稱",
     "#RATING": "評分",
@@ -32,9 +74,11 @@
     "#ARTISTS": "藝術家",
     "#TIME": "時間",
     "#AUTHOR": "作者",
+    "#DESCRIPTION": "描述",
     "#GENRE": "風格",
     "#TYPE": "類型",
     "#CATEGORY": "類別",
+    "#STATUS": "狀態",
     "#LANGUAGE": "語言",
     "#DIFFICULTY": "難易度",
     "#VERSION": "版本",
@@ -155,6 +199,15 @@
     "#SIMLINE_COLOR": "同步操作線顏色",
     "#SIMLINE_ALPHA": "同步操作線透明度",
     "#SIMLINE_ANIMATION": "同步操作線動畫",
+    "#PREVIEW_SCALE_VERTICAL": "預覽垂直比例",
+    "#PREVIEW_SCALE_HORIZONTAL": "預覽水平比例",
+    "#PREVIEW_TIME": "預覽時間",
+    "#PREVIEW_SCORE": "預覽分數",
+    "#PREVIEW_BPM": "預覽BPM",
+    "#PREVIEW_TIMESCALE": "預覽時間尺度",
+    "#PREVIEW_BEAT": "預覽節拍",
+    "#PREVIEW_MEASURE": "預覽尺度",
+    "#PREVIEW_COMBO": "預覽組合",
     "#NONE": "無",
     "#ANY": "任何",
     "#ALL": "全部",
@@ -215,6 +268,7 @@
     "#ARTISTS_PLACEHOLDER": "輸入藝術家...",
     "#TIME_PLACEHOLDER": "輸入時間...",
     "#AUTHOR_PLACEHOLDER": "輸入作者...",
+    "#DESCRIPTION_PLACEHOLDER": "輸入描述...",
     "#GENRE_PLACEHOLDER": "輸入風格...",
     "#TYPE_PLACEHOLDER": "輸入類型...",
     "#CATEGORY_PLACEHOLDER": "輸入類別...",
@@ -235,8 +289,27 @@
     "#PERMISSION_PLACEHOLDER": "輸入權限...",
     "#USER_PLACEHOLDER": "輸入用戶...",
     "#PERCENTAGE_UNIT": "{0}%",
+    "#YEAR_UNIT": "{0} 年",
+    "#MONTH_UNIT": "{0} 月",
+    "#DAY_UNIT": "{0} 日",
+    "#HOUR_UNIT": "{0} 時",
+    "#MINUTE_UNIT": "{0} 分",
     "#SECOND_UNIT": "{0} 秒",
     "#MILLISECOND_UNIT": "{0} 毫秒",
+    "#YEAR_PAST": "{0} 年前",
+    "#MONTH_PAST": "{0} 月前",
+    "#DAY_PAST": "{0} 日前",
+    "#HOUR_PAST": "{0} 時前",
+    "#MINUTE_PAST": "{0} 分前",
+    "#SECOND_PAST": "{0} 秒前",
+    "#MILLISECOND_PAST": "{0} 毫秒前",
+    "#YEAR_FUTURE": "{0} 年內",
+    "#MONTH_FUTURE": "{0} 月內",
+    "#DAY_FUTURE": "{0} 日內",
+    "#HOUR_FUTURE": "{0} 時內",
+    "#MINUTE_FUTURE": "{0} 分內",
+    "#SECOND_FUTURE": "{0} 秒內",
+    "#MILLISECOND_FUTURE": "{0} 毫秒內",
     "#TAP": "點擊",
     "#TAP_HOLD": "點擊並按住",
     "#TAP_RELEASE": "點擊並放開",
@@ -329,6 +402,11 @@
     "#DISQUALIFIED": "不合格",
     "#RANKING": "排行",
     "#SCORE": "分數",
+    "#OWNER": "擁有者",
+    "#ADMIN": "管理員",
+    "#MODERATOR": "主持人",
+    "#REVIEWER": "評審",
+    "#BANNED": "已封鎖",
     "#PLAYER": "玩家",
     "#SPECTATOR": "觀眾",
     "#REFEREE": "裁判",
@@ -456,6 +534,10 @@
     "Cancel": "取消",
     "Confirm": "確認",
     "Retry": "重試",
+    "Ok": "Ok",
+    "Tip": {
+      "Title": "提示"
+    },
     "Error": {
       "Title": "錯誤"
     },
@@ -467,6 +549,7 @@
     "Import": "匯入",
     "Search": "搜尋",
     "PullToRefresh": "下拉刷新",
+    "PullTip": "提示：下拉查看更多",
     "Save": "儲存",
     "Share": "分享",
     "Export": "匯出",
@@ -476,6 +559,10 @@
     "CopySuccess": {
       "Title": "已複製"
     },
+    "Gem": "Gem",
+    "Vip": "VIP",
+    "NameChange": "改名卡",
+    "Owned": "擁有",
     "Judgment": "判定",
     "Accuracy": "準確率",
     "Grade": "評級",
@@ -486,6 +573,7 @@
     "Great": "Great",
     "Good": "Good",
     "Miss": "Miss",
+    "RequiredOption": "這是必要選項。",
     "StandardOption": "這是一個標準選項。",
     "AdvancedOption": "此選項適用於進階玩家。",
     "Colors": "顏色",
@@ -564,6 +652,8 @@
       },
       "JudgmentErrorStyle": {
         "None": "無",
+        "Late": "晚/早",
+        "Early": "早/晚",
         "Plus": "+ / -",
         "Minus": "- / +",
         "ArrowUp": "↑ / ↓",
@@ -576,9 +666,13 @@
         "TriangleRight": "► / ◄"
       },
       "JudgmentErrorPlacement": {
-        "Both": "兩邊",
         "Left": "左",
-        "Right": "右"
+        "Right": "右",
+        "LeftRight": "左 + 右",
+        "Top": "上",
+        "Bottom": "下",
+        "TopBottom": "上 + 下",
+        "Center": "中"
       },
       "Visibility": "可見度",
       "Animation": "動畫",
@@ -639,6 +733,23 @@
       "Open": "開啟"
     }
   },
+  "Ad": {
+    "PostGame": {
+      "Fallback": {
+        "Shop": "店內有售！"
+      }
+    },
+    "Tip": {
+      "Message": "想要無廣告的 Sonolus 體驗？\n\nVIP 套餐和限時套餐現已在商店發售！"
+    }
+  },
+  "Billing": {
+    "GemPurchases": {
+      "Tip": {
+        "Message": "您已成功購買寶石。\n\n前往商店領取！"
+      }
+    }
+  },
   "Themes": {
     "Dark": "深色",
     "Light": "淺色"
@@ -651,18 +762,56 @@
     "ServerVersionTooNewError": "此伺服器僅支援 Sonolus 版本 {0}。\n\n請更新您的 Sonolus 應用程序，或聯絡伺服器擁有者報告問題。"
   },
   "Clients": {
-    "Master": {
+    "Billing": {
+      "GemProducts": {
+        "Loading": "正在加載寶石產品...",
+        "Error": "無法載入寶石產品。\n\n請檢查您的網路連接，然後重試。"
+      }
+    },
+    "Content": {
       "Info": {
-        "Loading": "正在載入Sonolus的資訊…",
-        "Error": "無法載入 Sonolus 的資訊。\n\n請檢查您的網路連接，然後重試。"
+        "Loading": "正在載入 Sonolus 資訊...",
+        "Error": "無法載入 Sonolus 資訊。\n\n請檢查您的網路連接，然後重試。"
       },
+      "Theme": {
+        "Thumbnail": {
+          "Loading": "正在載入主題縮圖...",
+          "Error": "無法載入\"{0}\"的主題縮圖。\n\n請檢查您的網路連接，然後重試。"
+        },
+        "Background": {
+          "Loading": "正在載入主題背景...",
+          "Error": "無法載入\"{0}\"的主題背景。\n\n請檢查您的網路連接，然後重試。"
+        },
+        "Avatar": {
+          "Loading": "正在載入主題頭像...",
+          "Error": "無法載入\"{0}\"的主題頭像。\n\n請檢查您的網路連接，然後重試。"
+        },
+        "AvatarBackground": {
+          "Loading": "正在載入主題頭像背景...",
+          "Error": "無法載入\"{0}\"的主題頭像背景。\n\n請檢查您的網路連接，然後重試。"
+        },
+        "Banner": {
+          "Loading": "正在載入主題橫幅...",
+          "Error": "無法載入\"{0}\"的主題橫幅。\n\n請檢查您的網路連接，然後重試。"
+        },
+        "MultiplayerBanner": {
+          "Loading": "正在載入主題多人遊戲橫幅...",
+          "Error": "無法載入\"{0}\"的主題多人遊戲橫幅。\n\n請檢查您的網路連接，然後重試。"
+        }
+      }
+    },
+    "I18n": {
       "List": {
-        "Loading": "正在載入語言清單…",
-        "Error": "無法載入語言清單。\n\n請檢查您的網路連接，然後重試。"
+        "Loading": "正在載入語言...",
+        "Error": "無法載入語言。\n\n請檢查您的網路連接，然後重試。"
       },
       "Localization": {
-        "Loading": "正在載入語言…",
-        "Error": "無法載入語言\"{0}\"。\n\n請檢查您的網路連接，然後重試。"
+        "Loading": "正在載入語言...",
+        "Error": "無法載入\"{0}\"。\n\n請檢查您的網路連接，然後重試。"
+      },
+      "Contributors": {
+        "Loading": "正在載入貢獻者...",
+        "Error": "無法載入貢獻者。\n\n請檢查您的網路連接，然後重試。"
       }
     },
     "Service": {
@@ -681,6 +830,42 @@
           "Old": {
             "Title": "登入成功"
           }
+        },
+        "Banned": {
+          "Description": "您的 Sonolus 帳戶已被禁止。"
+        },
+        "Deleted": {
+          "Description": "您最近刪除了您的 Sonolus 帳戶。\n\n請在刪除後等待 7 天，使得再建立另一個 Sonolus 帳戶。"
+        }
+      },
+      "UserInfo": {
+        "Loading": "正在載入用戶資訊...",
+        "Error": "無法載入用戶資訊。\n\n請檢查您的網路連接，然後重試。"
+      },
+      "ClaimGems": {
+        "NotLoggedInError": {
+          "Description": "您已成功購買寶石，但尚未使用 Sonolus 帳戶登入。\n\n請先使用您的 Sonolus 帳戶登錄，然後再試一次。"
+        },
+        "Loading": "領取寶石...",
+        "Error": "領取寶石失敗。\n\n請檢查您的網路連接，然後重試。",
+        "Success": {
+          "Title": "已領取寶石"
+        }
+      },
+      "Purchase": {
+        "NotLoggedInError": {
+          "Description": "您尚未使用 Sonolus 帳號登入。\n\n請先使用您的 Sonolus 帳戶登錄，然後再試一次。"
+        },
+        "NotEnoughGemsError": {
+          "Description": "您的寶石不足。\n\n請先購買更多寶石，然後再試一次。"
+        },
+        "Confirmation": {
+          "Description": "確定購買\"{0}\"？"
+        },
+        "Loading": "買購!!!!!中...",
+        "Error": "無法購買\"{0}\"。\n\n請檢查您的網路連接，然後重試。",
+        "Success": {
+          "Title": "已買購"
         }
       },
       "EditName": {
@@ -697,6 +882,13 @@
           "Title": "頭像編輯成功"
         }
       },
+      "EditBanner": {
+        "Loading": "正在編輯橫幅...",
+        "Error": "無法編輯橫幅。\n\n請檢查您的橫幅是否合法，或檢查您的網路連接，然後重試。",
+        "Success": {
+          "Title": "已編輯橫幅"
+        }
+      },
       "EditAboutMe": {
         "Loading": "正在編輯關於我...",
         "Error": "無法編輯關於我。\n\n請檢查你的關於我是否符合規範和在限制大小內，或檢查你的網路連線並再試一次。",
@@ -704,15 +896,8 @@
           "Title": "關於我編輯成功"
         }
       },
-      "EditSocialLinks": {
-        "Loading": "正在編輯社交連結...",
-        "Error": "編輯社交連接失敗。\n\n請檢查您的社交連接是否合法且在長度限制內，或檢查您的網路連線並重試。",
-        "Success": {
-          "Title": "社交連接已編輯"
-        }
-      },
       "EditFavorites": {
-        "Loading": "正在編輯收藏夾...",
+        "Loading": "正在編輯收藏...",
         "Error": "無法編輯收藏。\n\n請檢查您的收藏是否合法且在長度限制內，或檢查您的網路連線並重試。",
         "Success": {
           "Title": "收藏已編輯"
@@ -727,6 +912,13 @@
         "Error": "無法登出。\n\n請檢查您的網路連線，然後再試一次。",
         "Success": {
           "Title": "登出成功"
+        }
+      },
+      "Delete": {
+        "Loading": "正在刪除帳戶...",
+        "Error": "刪除帳戶失敗。\n\n請檢查您的網路連接，然後重試。",
+        "Success": {
+          "Title": "已刪除帳戶"
         }
       }
     },
@@ -1383,7 +1575,7 @@
         "Community": {
           "Info": {
             "Loading": "正在載入重播社群資訊...",
-            "Error": "無法載入「{0}」的重播社群資訊。"
+            "Error": "無法載入\"{0}\"的重播社群資訊。"
           },
           "Submit": {
             "Loading": "正在提交給重播社群...",
@@ -2025,8 +2217,8 @@
           "Error": "無法載入粒子效果\"{0}\"的數據。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Texture": {
-          "Loading": "正在載入粒子效果材質…",
-          "Error": "粒子\"{0}\"的材質與當前的 Sonolus 版本不相容。\n\n你的收藏包可能不受支持或已損壞。"
+          "Loading": "正在載入粒子效果紋理…",
+          "Error": "粒子\"{0}\"的紋理與當前的 Sonolus 版本不相容。\n\n你的收藏包可能不受支持或已損壞。"
         }
       },
       "Engine": {
@@ -2186,7 +2378,8 @@
     },
     "SelectTheme": {
       "Title": "選擇主題",
-      "Description": "選擇一個主題："
+      "Description": "選擇一個主題：",
+      "Shop": "商店中有更多主題可供選擇！"
     },
     "SelectClient": {
       "CustomServers": {
@@ -2208,46 +2401,8 @@
         "Description": "選擇一個自訂伺服器或是收藏已開始遊戲。"
       },
       "ToSave": {
-        "Post": {
-          "Title": "儲存貼文",
-          "Description": "選擇一個收藏來儲存這篇文章。"
-        },
-        "Playlist": {
-          "Title": "儲存播放清單",
-          "Description": "選擇一個收藏來儲存該播放清單。"
-        },
-        "Level": {
-          "Title": "儲存關卡",
-          "Description": "選擇一個收藏以儲存此關卡。"
-        },
-        "Skin": {
-          "Title": "儲存外觀",
-          "Description": "選擇一個收藏來儲存這個外觀。"
-        },
-        "Background": {
-          "Title": "儲存關卡",
-          "Description": "選擇一個收藏以儲存此背景。"
-        },
-        "Effect": {
-          "Title": "儲存效果",
-          "Description": "選擇一個收藏以儲存此效果。"
-        },
-        "Particle": {
-          "Title": "儲存粒子",
-          "Description": "選擇一個收藏來儲存這個粒子。"
-        },
-        "Engine": {
-          "Title": "儲存引擎",
-          "Description": "選擇一個收藏來儲存這個引擎。"
-        },
-        "Replay": {
-          "Title": "儲存重播",
-          "Description": "選擇一個收藏來儲存該重播。"
-        },
-        "Room": {
-          "Title": "儲存房間",
-          "Description": "選擇一個集合來保存該房間。"
-        }
+        "Title": "保存收藏",
+        "Description": "選擇一個收藏夾來保存收藏。"
       },
       "ToCreate": {
         "Post": {
@@ -2334,8 +2489,8 @@
         }
       },
       "ToAddFavorite": {
-        "Title": "新增至收藏夾",
-        "Description": "選擇一個自訂伺服器以將其項目新增至收藏夾。"
+        "Title": "新增至收藏",
+        "Description": "選擇一個自訂伺服器以將其項目新增至收藏。"
       }
     },
     "EditCustomServer": {
@@ -2366,6 +2521,15 @@
         "Title": "名稱",
         "Description": "取任何名稱都可以喔！",
         "Placeholder": "輸入收藏名稱..."
+      },
+      "Description": {
+        "Title": "描述",
+        "Description": "可為此收藏夾填寫描述。",
+        "Placeholder": "輸入收藏夾描述..."
+      },
+      "Banner": {
+        "Title": "橫幅",
+        "Description": "可為此橫幅填寫描述。"
       }
     },
     "ImportScp": {
@@ -2454,26 +2618,15 @@
     "Home": {
       "Title": "主頁",
       "Play": "遊玩",
-      "Players": "玩家",
+      "Shop": "商店",
       "Account": "帳號",
       "Link": "連結",
+      "About": "關於",
       "Settings": "設定",
       "UpdateAvailable": {
         "Title": "有可用更新",
         "Description": "Sonolus {0} 版本已發佈！\n\n請瀏覽我們的網站：\nhttps://sonolus.com",
         "Open": "打開"
-      }
-    },
-    "Players": {
-      "Title": "玩家",
-      "PlayerLookup": {
-        "Title": "尋找玩家",
-        "Id": {
-          "Title": "玩家ID",
-          "Description": "玩家的ID。",
-          "Placeholder": "輸入玩家ID..."
-        },
-        "Lookup": "尋找"
       }
     },
     "Link": {
@@ -2499,6 +2652,46 @@
         "Description": "未找到有效連結。"
       }
     },
+    "Shop": {
+      "Title": "商店",
+      "Gems": {
+        "Title": "Gems",
+        "NotLoggedIn": "登入即可查看您的Gems！"
+      },
+      "General": {
+        "Title": "常規"
+      },
+      "Bundles": {
+        "Title": "限時禮包"
+      },
+      "Themes": {
+        "Title": "主題"
+      },
+      "Details": {
+        "Actions": {
+          "Purchase": "購買",
+          "Preview": "預覽",
+          "Use": "使用"
+        },
+        "Description": {
+          "Title": "描述"
+        },
+        "Vip": {
+          "Description": "VIP 為您提供無廣告的 Sonolus 體驗...\n購買後，您將獲得：\nVIP x{0}"
+        },
+        "NameChange": {
+          "Description": "姓名卡可用於更改您的 Sonolus 個人資料名稱。\n\n購買後，您將獲得：\n姓名卡 x{0}"
+        },
+        "Themes": {
+          "Bundle": {
+            "Description": "使用此主題個人化您的 Sonolus 使用者介面、個人資料頭像和橫幅，享受 VIP 無廣告 Sonolus 體驗...\n\n購買後，您將獲得：\n\"{0}\" 主題\n\"{1}\" 頭像\n\"{2}\" 頭像背景\n\"{3}\" 橫幅\nVIP x{4}"
+          },
+          "Single": {
+            "Description": "使用此主題個人化您的 Sonolus 使用者介面、個人資料頭像和個人資料橫幅。\n\n購買後，您將獲得：\n\"{0}\" 主題\n\"{1}\" 頭像\n\"{2}\" 頭像背景\n\"{3}\" 橫幅"
+          }
+        }
+      }
+    },
     "Account": {
       "Title": "帳號",
       "MyAccount": {
@@ -2509,24 +2702,30 @@
           "Wechat": "使用WeChat登入"
         },
         "Profile": "簡介",
-        "Logout": "登出"
+        "Logout": "登出",
+        "Delete": {
+          "Title": "刪除",
+          "Confirmation": {
+            "Description": "刪除操作將永久刪除與您的 Sonolus 帳戶相關的數據，包括個人資料、庫存和自訂伺服器中的資料。自訂伺服器中的資料可能需要長達 7 天才能完成刪除。\n您將無法恢復已刪除的帳戶。\n您將無法在 7 天內使用相同登入帳戶建立其他 Sonolus 帳戶。\n\n您確定要刪除\"{0}\"嗎？"
+          }
+        }
+      },
+      "Inventory": {
+        "Title": "庫存",
+        "NotLoggedIn": "登入查看您的庫存！"
       }
     },
     "UserProfile": {
       "Home": {
         "Main": {
           "EditName": "編輯名稱",
-          "EditAvatar": "編輯頭像"
+          "EditAvatar": "編輯頭像",
+          "EditBanner": "編輯橫幅",
+          "Block": "封鎖",
+          "Unblock": "解除封鎖"
         },
         "AboutMe": {
           "Title": "關於我"
-        },
-        "SocialLinks": {
-          "Title": "社交連結",
-          "None": "沒有社交連結。",
-          "OpenConfirmation": {
-            "Description": "此社交連結導向：\n{0}\n\n你確定要前往嗎？"
-          }
         },
         "Favorites": {
           "Title": "收藏",
@@ -2535,21 +2734,56 @@
       },
       "EditName": {
         "Title": "編輯名稱",
+        "NoNameChangeError": {
+          "Description": "您沒有改名卡。\n\n請先購買改名卡，然後再試一次。"
+        },
         "Name": {
           "Title": "名稱",
           "Description": "玩家名稱。",
           "Placeholder": "輸入玩家名稱..."
+        },
+        "Confirmation": {
+          "Description": "花費1張改名卡，繼續嗎？"
         }
       },
       "EditAvatar": {
         "Title": "編輯頭像",
+        "Shop": "商店中有更多頭像可供選擇！",
+        "Avatar": {
+          "Title": "頭像",
+          "Description": "頭像。",
+          "Default": "預設"
+        },
         "Foreground": {
           "Title": "前景",
-          "Description": "頭像前景。"
+          "Description": "頭像前景。",
+          "Player": "人",
+          "Heart": "心",
+          "Hat": "帽",
+          "Fish": "魚",
+          "Paw": "爪"
+        },
+        "ForegroundColor": {
+          "Title": "主色",
+          "Description": "頭像主題色。"
         },
         "Background": {
           "Title": "背景",
-          "Description": "頭像背景。"
+          "Description": "頭像背景。",
+          "Default": "預設"
+        },
+        "BackgroundColor": {
+          "Title": "背景顏色",
+          "Description": "頭像背景顏色。"
+        }
+      },
+      "EditBanner": {
+        "Title": "編輯橫幅",
+        "Shop": "商店裡有更多橫幅可供選擇！",
+        "Banner": {
+          "Title": "橫幅",
+          "Description": "橫幅。",
+          "None": "無"
         }
       },
       "EditAboutMe": {
@@ -2558,19 +2792,6 @@
           "Title": "關於我",
           "Description": "關於您自己的簡短介紹。",
           "Placeholder": "輸入關於我..."
-        }
-      },
-      "AddSocialLink": {
-        "Title": "增加社交連接",
-        "SocialLinkTitle": {
-          "Title": "標題",
-          "Description": "標題。",
-          "Placeholder": "輸入社交連接標題..."
-        },
-        "SocialLinkAddress": {
-          "Title": "網址",
-          "Description": "要連結到的網址（\"https://...\"）。",
-          "Placeholder": "輸入社交連接..."
         }
       },
       "AddFavorite": {
@@ -2586,6 +2807,28 @@
         "Engine": "引擎",
         "Replay": "重播",
         "Room": "房間"
+      }
+    },
+    "About": {
+      "Title": "關於 Sonolus",
+      "Letter": {
+        "Title": "開發者來信"
+      },
+      "Support": {
+        "Title": "支援",
+        "Description": "若要聯繫支援人員，請發送電子郵件：{0}",
+        "Email": "電子郵件"
+      },
+      "Legal": {
+        "Title": "法規",
+        "Description": "使用 Sonolus 即表示您同意："
+      },
+      "Music": {
+        "Title": "音樂"
+      },
+      "Translation": {
+        "Title": "翻譯",
+        "Description": "幫助將 Sonolus 翻譯成您的語言！（也包括繁體中文）\nhttps://github.com/Sonolus/i18n\n\n感謝所有貢獻者："
       }
     },
     "Server": {
@@ -2622,6 +2865,9 @@
         "Confirmation": "您確定要提交\"{0}\"嗎？"
       },
       "Configuration": {
+        "Tip": {
+          "Message": "特殊配置包含在此伺服器的選項。\n\n對於引擎和關卡特定的選項（例如音符速度），您可以在選擇關卡後在配置中找到它們。"
+        },
         "Options": {
           "Title": "選項",
           "AutoLogin": {
@@ -2799,7 +3045,8 @@
           "Watch": "觀看",
           "Preview": "預覽",
           "Tutorial": "教學",
-          "Configuration": "設定"
+          "Configuration": "設定",
+          "Resources": "資源"
         },
         "DeleteConfirmation": {
           "Description": "您確定要刪除\"{0}\"嗎？"
@@ -2862,6 +3109,12 @@
         },
         "Level": {
           "Play": {
+            "TutorialTip": {
+              "Message": "這是您第一次遊玩這個遊戲（引擎），您想查看它的教學嗎？"
+            },
+            "ConfigurationTip": {
+              "Message": "這是您第一次玩這個遊戲（引擎），您想更改它的配置選項，例如音符速度嗎？"
+            },
             "Effect": {
               "Audio": {
                 "Loading": "正在解碼SFX片段…",
@@ -3162,6 +3415,106 @@
           "Title": "房間配置"
         }
       },
+      "Resources": {
+        "Post": {
+          "Title": "貼文資源",
+          "Thumbnail": "縮圖"
+        },
+        "Playlist": {
+          "Title": "播放清單資源",
+          "Thumbnail": "縮圖"
+        },
+        "Level": {
+          "Title": "關卡資源",
+          "Cover": "封面",
+          "Bgm": "BGM",
+          "Preview": "預覽",
+          "Data": "數據"
+        },
+        "Skin": {
+          "Title": "外觀資源",
+          "Thumbnail": "縮圖",
+          "Data": "數據",
+          "Texture": "紋理"
+        },
+        "Background": {
+          "Title": "背景資源",
+          "Thumbnail": "縮圖",
+          "Image": "影像",
+          "Data": "數據",
+          "Configuration": "配置"
+        },
+        "Effect": {
+          "Title": "效果資源",
+          "Thumbnail": "縮圖",
+          "Data": "數據",
+          "Audio": "音頻"
+        },
+        "Particle": {
+          "Title": "粒子資源",
+          "Thumbnail": "縮圖",
+          "Data": "數據",
+          "Texture": "紋理"
+        },
+        "Engine": {
+          "Title": "引擎資源",
+          "Thumbnail": "縮圖",
+          "PlayData": "遊玩數據",
+          "WatchData": "觀看數據",
+          "PreviewData": "預覽數據",
+          "TutorialData": "教程數據",
+          "Rom": "ROM",
+          "Configuration": "配置"
+        },
+        "Replay": {
+          "Title": "重播資源",
+          "Data": "數據",
+          "Configuration": "配置"
+        },
+        "Room": {
+          "Title": "房間資源",
+          "Cover": "封面",
+          "Bgm": "BGM",
+          "Preview": "預覽"
+        }
+      },
+      "ResourceExporters": {
+        "Success": {
+          "Title": "資源導出"
+        }
+      },
+      "SaveInfos": {
+        "Post": {
+          "Title": "儲存貼文"
+        },
+        "Playlist": {
+          "Title": "儲存播放清單"
+        },
+        "Level": {
+          "Title": "儲存關卡"
+        },
+        "Skin": {
+          "Title": "儲存外觀"
+        },
+        "Background": {
+          "Title": "儲存背景"
+        },
+        "Effect": {
+          "Title": "儲存效果"
+        },
+        "Particle": {
+          "Title": "儲存粒子"
+        },
+        "Engine": {
+          "Title": "儲存引擎"
+        },
+        "Replay": {
+          "Title": "儲存重播"
+        },
+        "Room": {
+          "Title": "儲存房間"
+        }
+      },
       "Savers": {
         "Post": {
           "Success": {
@@ -3373,6 +3726,9 @@
         "ExitConfirmation": {
           "Description": "您確定要離開房間嗎？"
         },
+        "Tip": {
+          "Message": "提示：可在標籤之間切換"
+        },
         "Play": {
           "Options": {
             "Title": "選項"
@@ -3396,6 +3752,9 @@
             },
             "Description": "{0}準備中，{1}已準備，{2}已跳過...",
             "Actions": {
+              "ConfigurationTip": {
+                "Message": "這是您第一次玩這個遊戲（引擎），您想更改它的配置選項，例如音符速度嗎？"
+              },
               "Configuration": "配置",
               "Ready": "準備",
               "Skip": "跳過",
@@ -3517,11 +3876,15 @@
     },
     "Settings": {
       "Title": "設定",
+      "Tip": {
+        "Message": "設定包含 Sonolus 應用的常規選項。\n\n對於引擎和關卡特定的選項（例如音符速度），您可以在進入伺服器並選擇關卡後在「配置」中找到它們。"
+      },
       "Graphics": {
         "Title": "圖像",
         "TargetFps": {
           "Title": "目標FPS",
-          "Description": "推薦設定為您裝置的螢幕更新率。\n\nSonolus將在此目標FPS下運行，但如果設備性能無法滿足要求，則可能無法達到。"
+          "Description": "推薦設定為您裝置的螢幕更新率。\n\nSonolus將在此目標FPS下運行，但如果設備性能無法滿足要求，則可能無法達到。",
+          "Default": "預設"
         },
         "RenderMode": {
           "Title": "渲染模式",
@@ -3537,13 +3900,7 @@
         },
         "AntiAliasing": {
           "Title": "抗鋸齒",
-          "Description": "推薦設定為關閉。\n\n抗鋸齒透過最大限度地減少鋸齒（尤其是精靈邊緣周圍的鋸齒）來改善圖形，但代價是性能會變差。",
-          "Options": {
-            "Off": "關",
-            "TwoX": "2倍",
-            "FourX": "4倍",
-            "EightX": "8倍"
-          }
+          "Description": "推薦設定為關閉。\n\n抗鋸齒透過最大限度地減少鋸齒（尤其是精靈邊緣周圍的鋸齒）來改善圖形，但代價是性能會變差。"
         },
         "GpuParticleSystem": {
           "Title": "GPU粒子引擎",
@@ -3578,6 +3935,7 @@
           "Options": {
             "List": "清單",
             "Details": "詳細資訊",
+            "Result": "結果",
             "Multiplayer": "多人遊戲"
           }
         },
@@ -3606,6 +3964,11 @@
           "Title": "取消暫停延遲",
           "Description": "取消暫停時的倒數時長。"
         },
+        "FavoriteCollection": {
+          "Title": "收藏夾",
+          "Description": "用於保存收藏的收藏夾。\n\n如果未選擇任何收藏夾，則系統將自動建立預設收藏夾。",
+          "DefaultName": "收藏"
+        },
         "MultiplayerPreload": {
           "Title": "多人遊戲預載",
           "Description": "建議開啟。\n\n在多人遊戲中，一旦確認關卡就開始預先加載，以提高加載速度。"
@@ -3625,6 +3988,15 @@
           "Description": "建立重播時的描述範本。\n\n特殊參數可用，並將被替換為相應的值。",
           "Placeholder": "輸入描述範本..."
         },
+        "ReplayCollection": {
+          "Title": "重播收藏夾",
+          "Description": "用於保存重播的收藏夾。\n\n如果未選擇收藏夾，系統將自動建立預設收藏夾。",
+          "DefaultName": "重播"
+        },
+        "AutoSubmitReplay": {
+          "Title": "自動提交重播",
+          "Description": "如果支援此功能，則自動將重播提交到伺服器。"
+        },
         "ShowReplayTouches": {
           "Title": "顯示重播觸摸點",
           "Description": "觀看重播時顯示觸摸點。"
@@ -3632,6 +4004,10 @@
         "OverwriteReplayOptions": {
           "Title": "覆蓋重播選項",
           "Description": "觀看重播時用您自己的選項覆蓋。"
+        },
+        "TouchAbnormalityDetection": {
+          "Title": "觸碰異常偵測",
+          "Description": "建議開啟。\n\n遊戲過程中偵測觸碰的異常。"
         }
       },
       "UI": {
@@ -3742,6 +4118,10 @@
           "Title": "始終重新確認",
           "Description": "推薦關閉。\n\n預設情況下，Sonolus 僅在過時後重新驗證線上資源。開啟後，線上資源在使用前始終會重新驗證。"
         },
+        "Manage": "管理"
+      },
+      "Privacy": {
+        "Title": "隱私",
         "Manage": "管理"
       },
       "Developer": {
@@ -3863,6 +4243,9 @@
             }
           },
           "Result": {
+            "TouchAbnormality": {
+              "Description": "遊戲過程中偵測到 {0} 處觸控異常。這通常是由手勢、觸控優化和通知等系統功能引起的，可能會導致判定問題。\n\n為確保您獲得最佳遊戲體驗，建議您透過調整裝置相關系統設定來解決此問題。"
+            },
             "Options": {
               "HasUsedPause": "暫停",
               "HasUsedSnapshot": "選段重玩"
