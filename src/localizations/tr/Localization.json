@@ -249,8 +249,15 @@
     "#YELLOW": "Sarı",
     "#PURPLE": "Mor",
     "#CYAN": "Camgöbeği",
+    "#SIMPLE": "Basit",
+    "#EASY": "Kolay",
     "#NORMAL": "Normal",
+    "#HARD": "Zor",
+    "#EXPERT": "Uzman",
+    "#MASTER": "Usta",
     "#PRO": "Pro",
+    "#TECHNICAL": "Teknik",
+    "#SPECIAL": "Özel",
     "#KEYWORDS_PLACEHOLDER": "Anahtar kelimeleri gir...",
     "#NAME_PLACEHOLDER": "İsim girin...",
     "#RATING_PLACEHOLDER": "Derece girin...",
@@ -282,8 +289,12 @@
     "#PERMISSION_PLACEHOLDER": "İzinleri girin...",
     "#USER_PLACEHOLDER": "Kullanıcıyı girin...",
     "#PERCENTAGE_UNIT": "%{0}",
+    "#YEAR_UNIT": "{0} y",
+    "#MONTH_UNIT": "{0} a",
+    "#DAY_UNIT": "{0} g",
     "#HOUR_UNIT": "{0} s",
     "#MINUTE_UNIT": "{0} d",
+    "#SECOND_UNIT": "{0} sn",
     "#MILLISECOND_UNIT": "{0} ms",
     "#YEAR_PAST": "{0} yıl önce",
     "#MONTH_PAST": "{0} ay önce",
@@ -472,7 +483,9 @@
     "#LOCKED": "Kilitli",
     "#UNLOCK": "Kilidini Aç",
     "#UNLOCKED": "Kilidi Açıldı",
+    "#PIN": "Sabitle",
     "#PINNED": "Sabitlendi",
+    "#UNPIN": "Sabitlemelerden kaldır",
     "#UNPINNED": "Sabitlenme Kaldırıldı",
     "#FOLLOW": "Takip Et",
     "#FOLLOWING": "Sonraki",
@@ -490,6 +503,7 @@
     "#HIDE": "Gizle",
     "#ALLOW": "İzin Ver",
     "#ALLOWED": "İzin Verildi",
+    "#DISALLOW": "İzin Verme",
     "#DISALLOWED": "İzin Verilmedi",
     "#APPROVE": "Onayla",
     "#APPROVED": "Onaylandı",
@@ -610,6 +624,7 @@
         "Effect": "Bu ses efekti, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir ses efektini kullanın.",
         "Particle": "Bu partikül, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir partikülü kullanın.",
         "Engine": "Bu motor, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir motoru kullanın.",
+        "Replay": "Bu tekrar, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir tekrarı kullanın.",
         "Room": "Bu oda, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir odayı kullanın."
       }
     },
@@ -780,6 +795,8 @@
           "Error": "\"{0}\" tema afişi yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
         },
         "MultiplayerBanner": {
+          "Loading": "Çok oyunculu Tema afişi yükleniyor...",
+          "Error": "\"{0}\" çok oyunculu tema başlığı yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
         }
       }
     },
@@ -1148,10 +1165,12 @@
           "Error": "\"{0}\" seviyesi şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen başka bir seviyeyi kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
         },
         "Cover": {
-          "Loading": "Seviye albüm kapağı yükleniyor..."
+          "Loading": "Seviye albüm kapağı yükleniyor...",
+          "Error": "\"{0}\" seviye kapağı yüklenemedi."
         },
         "Bgm": {
-          "Loading": "Seviye arkaplan müziği yükleniyor..."
+          "Loading": "Seviye arkaplan müziği yükleniyor...",
+          "Error": "\"{0}\" seviye arkaplan müziğini yüklemede başarısız olundu."
         },
         "Preview": {
           "Loading": "Seviye önizlemesi yükleniyor...",
@@ -3994,7 +4013,8 @@
       "UI": {
         "Title": "Kullanıcı Arayüzü (UI)",
         "UILocalization": {
-          "Title": "Arayüz Dili"
+          "Title": "Arayüz Dili",
+          "Description": "Arayüz için kullanılacak dil."
         },
         "ContentLocalization": {
           "Title": "İçerik Dili",
