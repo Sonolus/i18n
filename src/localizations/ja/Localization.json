@@ -88,9 +88,11 @@
     "#ADDITIONAL_INFORMATION": "追加情報",
     "#TIMEZONE": "タイムゾーン",
     "#REGION": "地域",
+    "#TAG": "タグ",
     "#CONTENT": "内容",
     "#COMMENT": "コメント",
     "#MESSAGE": "メッセージ",
+    "#NOTIFICATION": "通知",
     "#ROLE": "ロール",
     "#PERMISSION": "権限",
     "#USER": "ユーザー",
@@ -208,6 +210,8 @@
     "#PREVIEW_BEAT": "プレビュー：拍子",
     "#PREVIEW_MEASURE": "プレビュー：小節",
     "#PREVIEW_COMBO": "プレビュー：コンボ",
+    "#ON": "ON",
+    "#OFF": "OFF",
     "#NONE": "無し",
     "#ANY": "未指定",
     "#ALL": "全て",
@@ -258,6 +262,7 @@
     "#PRO": "Pro",
     "#TECHNICAL": "Technical",
     "#SPECIAL": "Special",
+    "#APPEND": "Append",
     "#KEYWORDS_PLACEHOLDER": "キーワードを入力...",
     "#NAME_PLACEHOLDER": "名称を入力...",
     "#RATING_PLACEHOLDER": "難易度を入力...",
@@ -373,6 +378,7 @@
     "#INSTRUMENTAL": "Inst.",
     "#SHORT_VERSION": "ショートバージョン",
     "#LONG_VERSION": "ロングバージョン",
+    "#FULL_VERSION": "フルバージョン",
     "#LIVE_VERSION": "ライブバージョン",
     "#REPORT": "通報",
     "#REASON": "理由",
@@ -433,6 +439,10 @@
     "#TEAM_CYAN": "水チーム",
     "#TEAM_WHITE": "白チーム",
     "#TEAM_BLACK": "黒チーム",
+    "#ADD": "追加",
+    "#ADDED": "追加済",
+    "#CREATE": "作成",
+    "#CREATED": "作成済",
     "#REPLY": "返信",
     "#REPLIED": "返信済",
     "#REVIEW": "レビュー",
@@ -1988,19 +1998,19 @@
         },
         "Compatibility": {
           "Loading": "部屋の互換性を確認中...",
-          "Error": "部屋 \"{0}\" は現在の Sonolus バージョンと互換性がありません。\n\nこの部屋を更新するか、別の部屋を使用してください。oom."
+          "Error": "部屋 \"{0}\" は現在の Sonolus バージョンと互換性がありません。\n\nこの部屋を更新するか、別の部屋を使用してください。"
         },
         "Cover": {
           "Loading": "部屋のジャケットを読み込み中...",
-          "Error": "{0} の部屋のジャケットの読み込みに失敗しました。\n\nこの部屋を更新するか、別の部屋を使用してください。oom."
+          "Error": "{0} の部屋のジャケットの読み込みに失敗しました。\n\nこの部屋を更新するか、別の部屋を使用してください。"
         },
         "Bgm": {
           "Loading": "レベルのBGMを読み込み中...",
-          "Error": "{0} のレベルのBGMの読み込みに失敗しました。\n\nこの部屋を更新するか、別の部屋を使用してください。oom."
+          "Error": "{0} のレベルのBGMの読み込みに失敗しました。\n\nこの部屋を更新するか、別の部屋を使用してください。"
         },
         "Preview": {
           "Loading": "レベルのプレビューを読み込み中...",
-          "Error": "{0} のレベルのプレビューの読み込みに失敗しました。\n\nこの部屋を更新するか、別の部屋を使用してください。oom."
+          "Error": "{0} のレベルのプレビューの読み込みに失敗しました。\n\nこの部屋を更新するか、別の部屋を使用してください。"
         }
       }
     },
