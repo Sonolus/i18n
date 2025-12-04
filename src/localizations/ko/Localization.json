@@ -3931,9 +3931,13 @@
           "Title": "효과음 볼륨",
           "Description": "효과음의 볼륨입니다."
         },
-        "UIVolume": {
-          "Title": "UI 음량",
-          "Description": "UI의 음량입니다."
+        "UIBgmVolume": {
+          "Title": "UI 배경 음량",
+          "Description": "UI 배경 음량입니다."
+        },
+        "UISfxVolume": {
+          "Title": "UI 효과 음량",
+          "Description": "UI 효과 음량입니다."
         },
         "AlwaysDecodeLevelBgm": {
           "Title": "레벨 음악 항상 디코딩",
