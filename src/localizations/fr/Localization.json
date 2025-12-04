@@ -3931,9 +3931,13 @@
           "Title": "Volume des Effets Sonores",
           "Description": "Volume des effets sonores."
         },
-        "UIVolume": {
-          "Title": "Volume de l'Interface Utilisateur",
-          "Description": "Volume de l'interface utilisateur."
+        "UIBgmVolume": {
+          "Title": "Volume de la Musique de l'Interface ",
+          "Description": "Volume de la musique de l'interface utilisateur présente dans certains menus."
+        },
+        "UISfxVolume": {
+          "Title": "Volume des Effets Sonores de l'Interface ",
+          "Description": "Volume des effets sonores de l'interface utilisateur."
         },
         "AlwaysDecodeLevelBgm": {
           "Title": "Toujours Décoder la Musique du Niveau",
