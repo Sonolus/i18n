@@ -88,11 +88,11 @@
     "#ADDITIONAL_INFORMATION": "Thông tin bổ sung",
     "#TIMEZONE": "Múi giờ",
     "#REGION": "Khu vực",
-	"#TAG": "Thẻ",
+    "#TAG": "Thẻ",
     "#CONTENT": "Nội dung",
     "#COMMENT": "Bình luận",
     "#MESSAGE": "Tin nhắn",
-	"#NOTIFICATION": "Thông báo",
+    "#NOTIFICATION": "Thông báo",
     "#ROLE": "Vai trò",
     "#PERMISSION": "Quyền",
     "#USER": "Người dùng",
@@ -210,7 +210,7 @@
     "#PREVIEW_BEAT": "Xem trước nhịp",
     "#PREVIEW_MEASURE": "Xem trước ô nhịp",
     "#PREVIEW_COMBO": "Xem trước Combo",
-	"#ON": "Bật",
+    "#ON": "Bật",
     "#OFF": "Tắt",
     "#NONE": "Không có",
     "#ANY": "Bất kì",
@@ -262,7 +262,7 @@
     "#PRO": "Pro",
     "#TECHNICAL": "Technical",
     "#SPECIAL": "Special",
-	"#APPEND": "Append",
+    "#APPEND": "Append",
     "#KEYWORDS_PLACEHOLDER": "Nhập từ khóa...",
     "#NAME_PLACEHOLDER": "Nhập tên...",
     "#RATING_PLACEHOLDER": "Nhập Cấp độ khó...",
@@ -378,7 +378,7 @@
     "#INSTRUMENTAL": "Nhạc cụ",
     "#SHORT_VERSION": "Phiên bản ngắn",
     "#LONG_VERSION": "Phiên bản dài",
-	"#FULL_VERSION": "Phiên bản đầy đủ",
+    "#FULL_VERSION": "Phiên bản đầy đủ",
     "#LIVE_VERSION": "Phiên bản live",
     "#REPORT": "Tố cáo",
     "#REASON": "Lý do",
@@ -439,7 +439,7 @@
     "#TEAM_CYAN": "Đội Xanh Lam",
     "#TEAM_WHITE": "Đội Trắng",
     "#TEAM_BLACK": "Đội Đen",
-	"#ADD": "Thêm",
+    "#ADD": "Thêm",
     "#ADDED": "Đã thêm",
     "#CREATE": "Tạo mới",
     "#CREATED": "Đã tạo",
@@ -652,12 +652,12 @@
         "Accuracy": "Độ chính xác",
         "AccuracyPercentage": "Độ chính xác %",
         "Life": "HP",
-		"Perfect": "Perfect",
-		"PerfectPercentage": "Perfect %",
-		"GreatGoodMiss": "Great + Good + Miss",
-		"GreatGoodMissPercentage": "Great + Good + Miss %",
-		"Miss": "Miss",
-		"MissPercentage": "Miss %",
+        "Perfect": "Perfect",
+        "PerfectPercentage": "Perfect %",
+        "GreatGoodMiss": "Great + Good + Miss",
+        "GreatGoodMissPercentage": "Great + Good + Miss %",
+        "Miss": "Miss",
+        "MissPercentage": "Miss %",
         "ErrorHeatmap": "Biểu đồ lỗi"
       },
       "JudgmentErrorStyle": {
@@ -3931,9 +3931,13 @@
           "Title": "Âm lượng SFX",
           "Description": "Âm lượng SFX."
         },
-        "UIVolume": {
-          "Title": "Âm lượng UI",
-          "Description": "Âm lượng UI."
+        "UIBgmVolume": {
+          "Title": "Âm lượng BGM của UI",
+          "Description": "Điều chỉnh âm lượng BGM của UI game (tránh nhầm lẫn với BGM của chart)"
+        },
+        "UISfxVolume": {
+          "Title": "Âm lượng SFX của UI",
+          "Description": "Điều chỉnh âm lượng SFX của UI game (tránh nhầm lẫn với SFX của chart)"
         },
         "AlwaysDecodeLevelBgm": {
           "Title": "Luôn giải mã BGM Level",
