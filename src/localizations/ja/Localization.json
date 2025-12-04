@@ -3931,9 +3931,13 @@
           "Title": "SE音量",
           "Description": "SEの音量。"
         },
-        "UIVolume": {
-          "Title": "UI音量",
-          "Description": "UI（ボタンを押したとき等）の音量。"
+        "UIBgmVolume": {
+          "Title": "メニューのBGM音量",
+          "Description": "メニューでのBGM音量。"
+        },
+        "UISfxVolume": {
+          "Title": "メニューのSE音量",
+          "Description": "メニューでのSE音量。"
         },
         "AlwaysDecodeLevelBgm": {
           "Title": "レベルのBGMを常にデコード",
