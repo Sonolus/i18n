@@ -3931,9 +3931,13 @@
           "Title": "音效音量",
           "Description": "音效音量。"
         },
-        "UIVolume": {
-          "Title": "用户界面音量",
-          "Description": "UI 音量。"
+        "UIBgmVolume": {
+          "Title": "UI音乐音量",
+          "Description": "用户界面音乐的音量。"
+        },
+        "UISfxVolume": {
+          "Title": "UI音效音量",
+          "Description": "用户界面音效音量"
         },
         "AlwaysDecodeLevelBgm": {
           "Title": "总是解码关卡音乐",
