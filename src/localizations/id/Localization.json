@@ -3931,9 +3931,13 @@
           "Title": "Volume SFX",
           "Description": "Volume dari SFX."
         },
-        "UIVolume": {
-          "Title": "Volume UI",
-          "Description": "Volume dari UI."
+        "UIBgmVolume": {
+          "Title": "Volume BGM UI",
+          "Description": "Volume dari BGM UI."
+        },
+        "UISfxVolume": {
+          "Title": "Volume SFX UI",
+          "Description": "Volume dari SFX UI."
         },
         "AlwaysDecodeLevelBgm": {
           "Title": "Selalu Decode BGM Level",
