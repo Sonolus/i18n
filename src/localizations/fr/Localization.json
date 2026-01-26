@@ -88,9 +88,11 @@
     "#ADDITIONAL_INFORMATION": "Autres Informations",
     "#TIMEZONE": "Fuseau Horaire",
     "#REGION": "Région",
+    "#TAG": "Mots-clés",
     "#CONTENT": "Contenu",
     "#COMMENT": "Commentaire",
     "#MESSAGE": "Message",
+    "#NOTIFICATION": "Notification",
     "#ROLE": "Rôle",
     "#PERMISSION": "Autorisation",
     "#USER": "Utilisateur",
@@ -208,6 +210,8 @@
     "#PREVIEW_BEAT": "Aperçu du Rythme",
     "#PREVIEW_MEASURE": "Aperçu des Mesures",
     "#PREVIEW_COMBO": "Aperçu du Combo",
+    "#ON": "Activé",
+    "#OFF": "Désactivé",
     "#NONE": "Aucun",
     "#ANY": "N'importe lequel",
     "#ALL": "Tous",
@@ -258,7 +262,8 @@
     "#PRO": "Pro",
     "#TECHNICAL": "Technique",
     "#SPECIAL": "Spécial",
-    "#KEYWORDS_PLACEHOLDER": "Entrez des mot-clés…",
+    "#APPEND": "Append",
+    "#KEYWORDS_PLACEHOLDER": "Entrez des mots-clés…",
     "#NAME_PLACEHOLDER": "Entrez le nom…",
     "#RATING_PLACEHOLDER": "Entrez une notation…",
     "#RATING_MINIMUM_PLACEHOLDER": "Entrez la notation minimale…",
@@ -373,6 +378,7 @@
     "#INSTRUMENTAL": "Instrumentale",
     "#SHORT_VERSION": "Version Courte",
     "#LONG_VERSION": "Version Longue",
+    "#FULL_VERSION": "Version Complète",
     "#LIVE_VERSION": "Version Live",
     "#REPORT": "Signaler",
     "#REASON": "Raison",
@@ -433,6 +439,10 @@
     "#TEAM_CYAN": "Équipe Cyan",
     "#TEAM_WHITE": "Équipe Blanche",
     "#TEAM_BLACK": "Équipe Noire",
+    "#ADD": "Ajouter",
+    "#ADDED": "Ajouté",
+    "#CREATE": "Créer",
+    "#CREATED": "Créé",
     "#REPLY": "Répondre",
     "#REPLIED": "Répondu",
     "#REVIEW": "Examiner",
@@ -1391,7 +1401,7 @@
           "Error": "Échec du chargement des données de l'effet sonore \"{0}\"."
         },
         "Audio": {
-          "Loading": "Chargement de l'audiode l'effet sonore…",
+          "Loading": "Chargement de l'audio de l'effet sonore…",
           "Error": "Échec du chargement de l'audio de l'effet sonore \"{0}\"."
         }
       },
@@ -3052,21 +3062,21 @@
           "Description": "Voulez-vous vraiment supprimer \"{0}\" ?"
         },
         "Tags": {
-          "Title": "Mots-clés",
-          "NoTags": "Pas de Mots-clés"
+          "Title": "Étiquettes",
+          "NoTags": "Aucune étiquette"
         },
         "Description": {
           "Title": "Description",
-          "NoDescription": "Aucune Description"
+          "NoDescription": "Aucune description"
         },
         "Community": {
           "Title": "Communauté",
-          "NoComments": "Aucun Commentaire"
+          "NoComments": "Aucun commentaire"
         },
         "Leaderboard": {
           "Title": "Classement",
           "NoRecords": "Aucun enregistrement",
-          "NoReplays": "Aucun Replay"
+          "NoReplays": "Aucun replay"
         },
         "Post": {
           "ShareSuccess": {
@@ -3921,9 +3931,13 @@
           "Title": "Volume des Effets Sonores",
           "Description": "Volume des effets sonores."
         },
-        "UIVolume": {
-          "Title": "Volume de l'Interface Utilisateur",
-          "Description": "Volume de l'interface utilisateur."
+        "UIBgmVolume": {
+          "Title": "Volume de la Musique de l'Interface ",
+          "Description": "Volume de la musique de l'interface utilisateur présente dans certains menus."
+        },
+        "UISfxVolume": {
+          "Title": "Volume des Effets Sonores de l'Interface ",
+          "Description": "Volume des effets sonores de l'interface utilisateur."
         },
         "AlwaysDecodeLevelBgm": {
           "Title": "Toujours Décoder la Musique du Niveau",

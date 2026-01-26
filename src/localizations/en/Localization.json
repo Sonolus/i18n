@@ -22,6 +22,7 @@
         "#PARTICLE": "Particle",
         "#ENGINE": "Engine",
         "#REPLAY": "Replay",
+        "#USER": "User",
         "#ROOM": "Room",
         "#POST_THUMBNAIL": "Thumbnail",
         "#PLAYLIST_THUMBNAIL": "Thumbnail",
@@ -62,6 +63,8 @@
         "#GREAT": "Great",
         "#GOOD": "Good",
         "#MISS": "Miss",
+        "#JUDGMENT": "Judgment",
+        "#ACCURACY": "Accuracy",
         "#FILTER": "Filter",
         "#SORT": "Sort",
         "#KEYWORDS": "Keywords",
@@ -74,6 +77,8 @@
         "#ARTISTS": "Artists",
         "#TIME": "Time",
         "#AUTHOR": "Author",
+        "#COAUTHOR": "Coauthor",
+        "#COLLABORATOR": "Collaborator",
         "#DESCRIPTION": "Description",
         "#GENRE": "Genre",
         "#TYPE": "Type",
@@ -88,12 +93,15 @@
         "#ADDITIONAL_INFORMATION": "Additional Information",
         "#TIMEZONE": "Timezone",
         "#REGION": "Region",
+        "#TAG": "Tag",
+        "#INCLUDE_TAG": "Include Tag",
+        "#EXCLUDE_TAG": "Exclude Tag",
         "#CONTENT": "Content",
         "#COMMENT": "Comment",
         "#MESSAGE": "Message",
+        "#NOTIFICATION": "Notification",
         "#ROLE": "Role",
         "#PERMISSION": "Permission",
-        "#USER": "User",
         "#SPEED": "Level Speed",
         "#MIRROR": "Mirror Level",
         "#RANDOM": "Random",
@@ -101,6 +109,7 @@
         "#JUDGMENT_STRICT": "Strict Judgment",
         "#JUDGMENT_LOOSE": "Loose Judgment",
         "#EFFECT_AUTO": "Auto SFX",
+        "#HAPTIC": "Haptic",
         "#STAGE": "Stage",
         "#STAGE_POSITION": "Stage Position",
         "#STAGE_SIZE": "Stage Size",
@@ -208,6 +217,15 @@
         "#PREVIEW_BEAT": "Preview Beat",
         "#PREVIEW_MEASURE": "Preview Measure",
         "#PREVIEW_COMBO": "Preview Combo",
+        "#UI": "UI",
+        "#UI_METRIC": "UI Metric",
+        "#UI_PRIMARY_METRIC": "UI Primary Metric",
+        "#UI_SECONDARY_METRIC": "UI Secondary Metric",
+        "#UI_JUDGMENT": "UI Judgment",
+        "#UI_Combo": "UI Combo",
+        "#UI_Menu": "UI Menu",
+        "#ON": "ON",
+        "#OFF": "OFF",
         "#NONE": "None",
         "#ANY": "Any",
         "#ALL": "All",
@@ -258,6 +276,18 @@
         "#PRO": "Pro",
         "#TECHNICAL": "Technical",
         "#SPECIAL": "Special",
+        "#APPEND": "Append",
+        "#POST_PLACEHOLDER": "Enter post...",
+        "#PLAYLIST_PLACEHOLDER": "Enter playlist...",
+        "#LEVEL_PLACEHOLDER": "Enter level...",
+        "#SKIN_PLACEHOLDER": "Enter skin...",
+        "#BACKGROUND_PLACEHOLDER": "Enter background...",
+        "#EFFECT_PLACEHOLDER": "Enter SFX...",
+        "#PARTICLE_PLACEHOLDER": "Enter particle...",
+        "#ENGINE_PLACEHOLDER": "Enter engine...",
+        "#REPLAY_PLACEHOLDER": "Enter replay...",
+        "#USER_PLACEHOLDER": "Enter user...",
+        "#ROOM_PLACEHOLDER": "Enter room...",
         "#KEYWORDS_PLACEHOLDER": "Enter keywords...",
         "#NAME_PLACEHOLDER": "Enter name...",
         "#RATING_PLACEHOLDER": "Enter rating...",
@@ -268,6 +298,8 @@
         "#ARTISTS_PLACEHOLDER": "Enter artists...",
         "#TIME_PLACEHOLDER": "Enter time...",
         "#AUTHOR_PLACEHOLDER": "Enter author...",
+        "#COAUTHOR_PLACEHOLDER": "Enter coauthor...",
+        "#COLLABORATOR_PLACEHOLDER": "Enter collaborator...",
         "#DESCRIPTION_PLACEHOLDER": "Enter description...",
         "#GENRE_PLACEHOLDER": "Enter genre...",
         "#TYPE_PLACEHOLDER": "Enter type...",
@@ -287,29 +319,28 @@
         "#MESSAGE_PLACEHOLDER": "Enter message...",
         "#ROLE_PLACEHOLDER": "Enter role...",
         "#PERMISSION_PLACEHOLDER": "Enter permission...",
-        "#USER_PLACEHOLDER": "Enter user...",
         "#PERCENTAGE_UNIT": "{0}%",
-        "#YEAR_UNIT": "{0} yr",
-        "#MONTH_UNIT": "{0} mo",
-        "#DAY_UNIT": "{0} d",
-        "#HOUR_UNIT": "{0} h",
-        "#MINUTE_UNIT": "{0} m",
-        "#SECOND_UNIT": "{0} s",
-        "#MILLISECOND_UNIT": "{0} ms",
-        "#YEAR_PAST": "{0} yr ago",
-        "#MONTH_PAST": "{0} mo ago",
-        "#DAY_PAST": "{0} d ago",
-        "#HOUR_PAST": "{0} h ago",
-        "#MINUTE_PAST": "{0} m ago",
-        "#SECOND_PAST": "{0} s ago",
-        "#MILLISECOND_PAST": "{0} ms ago",
-        "#YEAR_FUTURE": "In {0} yr",
-        "#MONTH_FUTURE": "In {0} mo",
-        "#DAY_FUTURE": "In {0} d",
-        "#HOUR_FUTURE": "In {0} h",
-        "#MINUTE_FUTURE": "In {0} m",
-        "#SECOND_FUTURE": "In {0} s",
-        "#MILLISECOND_FUTURE": "In {0} ms",
+        "#YEAR_UNIT": "{0}yr",
+        "#MONTH_UNIT": "{0}mo",
+        "#DAY_UNIT": "{0}d",
+        "#HOUR_UNIT": "{0}h",
+        "#MINUTE_UNIT": "{0}m",
+        "#SECOND_UNIT": "{0}s",
+        "#MILLISECOND_UNIT": "{0}ms",
+        "#YEAR_PAST": "{0}yr ago",
+        "#MONTH_PAST": "{0}mo ago",
+        "#DAY_PAST": "{0}d ago",
+        "#HOUR_PAST": "{0}h ago",
+        "#MINUTE_PAST": "{0}m ago",
+        "#SECOND_PAST": "{0}s ago",
+        "#MILLISECOND_PAST": "{0}ms ago",
+        "#YEAR_FUTURE": "In {0}yr",
+        "#MONTH_FUTURE": "In {0}mo",
+        "#DAY_FUTURE": "In {0}d",
+        "#HOUR_FUTURE": "In {0}h",
+        "#MINUTE_FUTURE": "In {0}m",
+        "#SECOND_FUTURE": "In {0}s",
+        "#MILLISECOND_FUTURE": "In {0}ms",
         "#TAP": "Tap",
         "#TAP_HOLD": "Tap and Hold",
         "#TAP_RELEASE": "Tap and Release",
@@ -330,6 +361,7 @@
         "#POPULAR": "Popular",
         "#FEATURED": "Featured",
         "#COMPETITIVE": "Competitive",
+        "#TOURNAMENT": "Tournament",
         "#HOLIDAY": "Holiday",
         "#LIMITED": "Limited",
         "#ANNOUNCEMENT": "Announcement",
@@ -373,7 +405,16 @@
         "#INSTRUMENTAL": "Instrumental",
         "#SHORT_VERSION": "Short Version",
         "#LONG_VERSION": "Long Version",
+        "#CUT_VERSION": "Cut Version",
+        "#FULL_VERSION": "Full Version",
+        "#EXTENDED_VERSION": "Extended Version",
         "#LIVE_VERSION": "Live Version",
+        "#EXPLICIT": "Explicit",
+        "#MULTI_FINGER": "Multi Finger",
+        "#FULL_HAND": "Full Hand",
+        "#CROSS_HAND": "Cross Hand",
+        "#GIMMICK": "Gimmick",
+        "#COLLABORATION": "Collaboration",
         "#REPORT": "Report",
         "#REASON": "Reason",
         "#ILLEGAL_ACTIVITIES": "Illegal Activities",
@@ -433,6 +474,10 @@
         "#TEAM_CYAN": "Team Cyan",
         "#TEAM_WHITE": "Team White",
         "#TEAM_BLACK": "Team Black",
+        "#ADD": "Add",
+        "#ADDED": "Added",
+        "#CREATE": "Create",
+        "#CREATED": "Created",
         "#REPLY": "Reply",
         "#REPLIED": "Replied",
         "#REVIEW": "Review",
@@ -601,6 +646,7 @@
                 "Particle": "No particle selected",
                 "Engine": "No engine selected",
                 "Replay": "No replay selected",
+                "User": "No user selected",
                 "Room": "No room selected"
             },
             "NoSource": {
@@ -613,6 +659,7 @@
                 "Particle": "This particle cannot be selected because it does not have a source server.\n\nPlease use a different particle, or contact particle author to report the problem.",
                 "Engine": "This engine cannot be selected because it does not have a source server.\n\nPlease use a different engine, or contact engine author to report the problem.",
                 "Replay": "This replay cannot be selected because it does not have a source server.\n\nPlease use a different replay, or contact replay author to report the problem.",
+                "User": "This user cannot be selected because it does not have a source server.\n\nPlease use a different user, or contact user author to report the problem.",
                 "Room": "This room cannot be selected because it does not have a source server.\n\nPlease use a different room, or contact room author to report the problem."
             },
             "NoOtherServers": {
@@ -625,11 +672,27 @@
                 "Particle": "This particle cannot be selected because it is from a different server.\n\nPlease use a different particle from the same server.",
                 "Engine": "This engine cannot be selected because it is from a different server.\n\nPlease use a different engine from the same server.",
                 "Replay": "This replay cannot be selected because it is from a different server.\n\nPlease use a different replay from the same server.",
+                "User": "This user cannot be selected because it is from a different server.\n\nPlease use a different user from the same server.",
                 "Room": "This room cannot be selected because it is from a different server.\n\nPlease use a different room from the same server."
             }
         },
         "FileField": {
-            "NoSelected": "No file selected"
+            "NoSelected": "No file selected",
+            "Validation": {
+                "Invalid": "Invalid file.\n\nPlease select a different file.",
+                "MinSize": "File too small.\n\nPlease select a different file.",
+                "MaxSize": "File too large.\n\nPlease select a different file.",
+                "Image": {
+                    "MinWidth": "Image width too small.\n\nPlease select a different file.",
+                    "MaxWidth": "Image width too large.\n\nPlease select a different file.",
+                    "MinHeight": "Image height too small.\n\nPlease select a different file.",
+                    "MaxHeight": "Image height too large.\n\nPlease select a different file."
+                },
+                "Audio": {
+                    "MinLength": "Audio length too short.\n\nPlease select a different file.",
+                    "MaxLength": "Audio length too long.\n\nPlease select a different file."
+                }
+            }
         },
         "PullToLoad": {
             "None": "Nothing more to load",
@@ -1617,6 +1680,64 @@
                     "Error": "Failed to load replay configuration of \"{0}\"."
                 }
             },
+            "User": {
+                "Info": {
+                    "Loading": "Loading users info...",
+                    "Error": "Failed to load users info of \"{0}\"."
+                },
+                "Create": {
+                    "Loading": "Creating user...",
+                    "Error": "Failed to create user in \"{0}\"."
+                },
+                "List": {
+                    "Loading": "Loading users...",
+                    "Error": "Failed to load users at page {0}."
+                },
+                "Details": {
+                    "Loading": "Loading user details...",
+                    "Error": "Failed to load user details of \"{0}\"."
+                },
+                "Submit": {
+                    "Loading": "Submitting to user...",
+                    "Error": "Failed to submit to user \"{0}\"."
+                },
+                "Community": {
+                    "Info": {
+                        "Loading": "Loading user community info...",
+                        "Error": "Failed to load user community info of \"{0}\"."
+                    },
+                    "Submit": {
+                        "Loading": "Submitting to user community...",
+                        "Error": "Failed to submit to user community of \"{0}\"."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading user comments...",
+                            "Error": "Failed to load user comments at page {0}."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Details": {
+                        "Loading": "Loading user leaderboard details...",
+                        "Error": "Failed to load user leaderboard details of \"{0}\"."
+                    },
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading user records...",
+                            "Error": "Failed to load user records at page {0}."
+                        },
+                        "Details": {
+                            "Loading": "Loading user record details...",
+                            "Error": "Failed to load user record details of \"{0}\"."
+                        }
+                    }
+                },
+                "Compatibility": {
+                    "Loading": "Checking user compatibility...",
+                    "Error": "User \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different user, or contact server owner to report the problem."
+                }
+            },
             "Room": {
                 "Info": {
                     "Loading": "Loading rooms info...",
@@ -1973,6 +2094,24 @@
                     "Error": "Failed to load replay configuration of \"{0}\".\n\nPlease update this replay, or use a different replay."
                 }
             },
+            "User": {
+                "Info": {
+                    "Loading": "Loading users info...",
+                    "Error": "Failed to load users info of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "List": {
+                    "Loading": "Loading users...",
+                    "Error": "Failed to load users at page {0}.\n\nYour collection may be corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading user details...",
+                    "Error": "Failed to load user details of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking user compatibility...",
+                    "Error": "User \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this user, or use a different user."
+                }
+            },
             "Room": {
                 "Info": {
                     "Loading": "Loading rooms info...",
@@ -2293,6 +2432,24 @@
                     "Error": "Failed to load replay configuration of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 }
             },
+            "User": {
+                "Info": {
+                    "Loading": "Loading users info...",
+                    "Error": "Failed to load users info of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "List": {
+                    "Loading": "Loading users...",
+                    "Error": "Failed to load users at page {0}.\n\nYour package may be unsupported or corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading user details...",
+                    "Error": "Failed to load user details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking user compatibility...",
+                    "Error": "User \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
+                }
+            },
             "Room": {
                 "Info": {
                     "Loading": "Loading rooms info...",
@@ -2441,6 +2598,10 @@
                     "Title": "Create Replay",
                     "Description": "Select a collection to create this replay."
                 },
+                "User": {
+                    "Title": "Create User",
+                    "Description": "Select a collection to create this user."
+                },
                 "Room": {
                     "Title": "Create Room",
                     "Description": "Select a collection to create this room."
@@ -2482,6 +2643,10 @@
                 "Replay": {
                     "Title": "Select Replay",
                     "Description": "Select a custom server or collection to use its replays."
+                },
+                "User": {
+                    "Title": "Select User",
+                    "Description": "Select a custom server or collection to use its users."
                 },
                 "Room": {
                     "Title": "Select Room",
@@ -2806,6 +2971,7 @@
                 "Particle": "Particle",
                 "Engine": "Engine",
                 "Replay": "Replay",
+                "User": "User",
                 "Room": "Room"
             }
         },
@@ -2845,6 +3011,7 @@
                 "Particle": "Particles",
                 "Engine": "Engines",
                 "Replay": "Replays",
+                "User": "Users",
                 "Room": "Rooms",
                 "Configuration": "Configuration",
                 "CollectionUpdateConfirmation": {
@@ -2959,6 +3126,15 @@
                         }
                     }
                 },
+                "User": {
+                    "Title": "Users",
+                    "Create": {
+                        "Title": "Create User",
+                        "Success": {
+                            "Title": "User Created"
+                        }
+                    }
+                },
                 "Room": {
                     "Title": "Rooms",
                     "Create": {
@@ -3030,6 +3206,12 @@
                     "Title": "Replays",
                     "ShareSuccess": {
                         "Title": "Replays Link Copied"
+                    }
+                },
+                "User": {
+                    "Title": "Users",
+                    "ShareSuccess": {
+                        "Title": "Users Link Copied"
                     }
                 },
                 "Room": {
@@ -3275,6 +3457,17 @@
                         "Title": "Level"
                     }
                 },
+                "User": {
+                    "ShareSuccess": {
+                        "Title": "User Link Copied"
+                    },
+                    "ActionSuccess": {
+                        "Title": "User Action Submitted"
+                    },
+                    "Profile": {
+                        "Title": "Profile"
+                    }
+                },
                 "Room": {
                     "ShareSuccess": {
                         "Title": "Room Link Copied"
@@ -3411,6 +3604,9 @@
                 "Replay": {
                     "Title": "Replay Configuration"
                 },
+                "User": {
+                    "Title": "User Configuration"
+                },
                 "Room": {
                     "Title": "Room Configuration"
                 }
@@ -3471,6 +3667,9 @@
                     "Data": "Data",
                     "Configuration": "Configuration"
                 },
+                "User": {
+                    "Title": "User Resources"
+                },
                 "Room": {
                     "Title": "Room Resources",
                     "Cover": "Cover",
@@ -3510,6 +3709,9 @@
                 },
                 "Replay": {
                     "Title": "Save Replay"
+                },
+                "User": {
+                    "Title": "Save User"
                 },
                 "Room": {
                     "Title": "Save Room"
@@ -3559,6 +3761,11 @@
                 "Replay": {
                     "Success": {
                         "Title": "Replay Saved"
+                    }
+                },
+                "User": {
+                    "Success": {
+                        "Title": "User Saved"
                     }
                 },
                 "Room": {
@@ -3613,6 +3820,11 @@
                         "Title": "Replay Updated"
                     }
                 },
+                "User": {
+                    "Success": {
+                        "Title": "User Updated"
+                    }
+                },
                 "Room": {
                     "Success": {
                         "Title": "Room Updated"
@@ -3664,6 +3876,9 @@
                         }
                     }
                 },
+                "User": {
+                    "Title": "User Info"
+                },
                 "Room": {
                     "Title": "Room Info"
                 }
@@ -3712,6 +3927,11 @@
                 "Replay": {
                     "Success": {
                         "Title": "Replay Created"
+                    }
+                },
+                "User": {
+                    "Success": {
+                        "Title": "User Created"
                     }
                 },
                 "Room": {
@@ -3921,9 +4141,13 @@
                     "Title": "SFX Volume",
                     "Description": "Volume of SFX."
                 },
-                "UIVolume": {
-                    "Title": "UI Volume",
-                    "Description": "Volume of UI."
+                "UIBgmVolume": {
+                    "Title": "UI BGM Volume",
+                    "Description": "Volume of UI BGM."
+                },
+                "UISfxVolume": {
+                    "Title": "UI SFX Volume",
+                    "Description": "Volume of UI SFX."
                 },
                 "AlwaysDecodeLevelBgm": {
                     "Title": "Always Decode Level BGM",
@@ -4075,6 +4299,10 @@
                 "ShowZeroCombo": {
                     "Title": "Show Zero Combo",
                     "Description": "Show combo when combo is zero."
+                },
+                "MetricAnimation": {
+                    "Title": "Metric Animation",
+                    "Description": "Animation of metrics."
                 },
                 "TouchStyle": {
                     "Title": "Touch Style",

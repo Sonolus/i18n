@@ -72,7 +72,7 @@
     "#TITLE": "Başlık",
     "#SUBTITLE": "Alt Başlık",
     "#ARTISTS": "Sanatçılar",
-    "#TIME": "Saat",
+    "#TIME": "Zaman",
     "#AUTHOR": "Yaratıcı",
     "#DESCRIPTION": "Açıklama",
     "#GENRE": "Tür",
@@ -86,7 +86,7 @@
     "#LENGTH_MINIMUM": "Minimum Uzunluk",
     "#LENGTH_MAXIMUM": "Maksimum Uzunluk",
     "#ADDITIONAL_INFORMATION": "Ek Bilgiler",
-    "#TIMEZONE": "Saat Dilimi",
+    "#TIMEZONE": "Zaman Dilimi",
     "#REGION": "Bölge",
     "#CONTENT": "İçerik",
     "#COMMENT": "Yorum",
@@ -249,15 +249,15 @@
     "#YELLOW": "Sarı",
     "#PURPLE": "Mor",
     "#CYAN": "Camgöbeği",
-    "#SIMPLE": "Simple",
-    "#EASY": "Easy",
+    "#SIMPLE": "Basit",
+    "#EASY": "Kolay",
     "#NORMAL": "Normal",
-    "#HARD": "Hard",
-    "#EXPERT": "Expert",
-    "#MASTER": "Master",
+    "#HARD": "Zor",
+    "#EXPERT": "Uzman",
+    "#MASTER": "Usta",
     "#PRO": "Pro",
-    "#TECHNICAL": "Technical",
-    "#SPECIAL": "Special",
+    "#TECHNICAL": "Teknik",
+    "#SPECIAL": "Özel",
     "#KEYWORDS_PLACEHOLDER": "Anahtar kelimeleri gir...",
     "#NAME_PLACEHOLDER": "İsim girin...",
     "#RATING_PLACEHOLDER": "Derece girin...",
@@ -289,12 +289,12 @@
     "#PERMISSION_PLACEHOLDER": "İzinleri girin...",
     "#USER_PLACEHOLDER": "Kullanıcıyı girin...",
     "#PERCENTAGE_UNIT": "%{0}",
-    "#YEAR_UNIT": "{0} yıl",
-    "#MONTH_UNIT": "{0} ay",
-    "#DAY_UNIT": "{0} gün",
+    "#YEAR_UNIT": "{0} y",
+    "#MONTH_UNIT": "{0} a",
+    "#DAY_UNIT": "{0} g",
     "#HOUR_UNIT": "{0} s",
     "#MINUTE_UNIT": "{0} d",
-    "#SECOND_UNIT": "{0} s",
+    "#SECOND_UNIT": "{0} sn",
     "#MILLISECOND_UNIT": "{0} ms",
     "#YEAR_PAST": "{0} yıl önce",
     "#MONTH_PAST": "{0} ay önce",
@@ -483,9 +483,9 @@
     "#LOCKED": "Kilitli",
     "#UNLOCK": "Kilidini Aç",
     "#UNLOCKED": "Kilidi Açıldı",
-    "#PIN": "Pinle",
+    "#PIN": "Sabitle",
     "#PINNED": "Sabitlendi",
-    "#UNPIN": "Pinlerden Çıkar",
+    "#UNPIN": "Sabitlemelerden kaldır",
     "#UNPINNED": "Sabitlenme Kaldırıldı",
     "#FOLLOW": "Takip Et",
     "#FOLLOWING": "Sonraki",
@@ -503,7 +503,7 @@
     "#HIDE": "Gizle",
     "#ALLOW": "İzin Ver",
     "#ALLOWED": "İzin Verildi",
-    "#DISALLOW": "İzin Verme ( - )",
+    "#DISALLOW": "İzin Verme",
     "#DISALLOWED": "İzin Verilmedi",
     "#APPROVE": "Onayla",
     "#APPROVED": "Onaylandı",
@@ -562,7 +562,7 @@
     "Gem": "Mücevher",
     "Vip": "VIP",
     "NameChange": "İsim Değişikliği",
-    "Owned": "Sahip Olunan",
+    "Owned": "Sahip Olundu",
     "Judgment": "Yargı",
     "Accuracy": "Kesinlik",
     "Grade": "Rapor",
@@ -624,7 +624,7 @@
         "Effect": "Bu ses efekti, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir ses efektini kullanın.",
         "Particle": "Bu partikül, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir partikülü kullanın.",
         "Engine": "Bu motor, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir motoru kullanın.",
-        "Replay": "Bu bu tekrar, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir tekrarı kullanın.",
+        "Replay": "Bu tekrar, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir tekrarı kullanın.",
         "Room": "Bu oda, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir odayı kullanın."
       }
     },
@@ -795,8 +795,8 @@
           "Error": "\"{0}\" tema afişi yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
         },
         "MultiplayerBanner": {
-          "Loading": "Tema çok oyunculu afişi yükleniyor...",
-          "Error": "\"{0}\" tema çok oyunculu başlığı yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+          "Loading": "Çok oyunculu Tema afişi yükleniyor...",
+          "Error": "\"{0}\" çok oyunculu tema başlığı yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
         }
       }
     },
@@ -1166,11 +1166,11 @@
         },
         "Cover": {
           "Loading": "Seviye albüm kapağı yükleniyor...",
-          "Error": "\"{0}\" seviye albüm kapağını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" seviye kapağı yüklenemedi."
         },
         "Bgm": {
           "Loading": "Seviye arkaplan müziği yükleniyor...",
-          "Error": "\"{0}\" seviye arkaplan müziğini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" seviye arkaplan müziğini yüklemede başarısız olundu."
         },
         "Preview": {
           "Loading": "Seviye önizlemesi yükleniyor...",
@@ -2684,7 +2684,7 @@
         },
         "Themes": {
           "Bundle": {
-            "Description": "Bu temayla Sonolus kullanıcı arayüzünüzü, profil avatarınızı ve profil afişinizi kişiselleştirin ve VIP reklamsız Sonolus deneyimi yaşayın.\n\nSatın alarak şunları elde edeceksiniz:\n\"{0}\" Arayüz Teması\n\"{1}\" Avatar\n\"{2}\" Avatar Arkaplanı\n\"{3}\" Afiş\nVIP x{4}"
+            "Description": "Bu temayla Sonolus kullanıcı arayüzünüzü, profil avatarınızı ve profil afişinizi kişiselleştirebilirsiniz! Bunlarla birlikte, VIP ile reklamsız bir Sonolus deneyimi yaşayın!\n\nSatın alarak şunları elde edeceksiniz:\n\"{0}\" Arayüz Teması\n\"{1}\" Avatar\n\"{2}\" Avatar Arkaplanı\n\"{3}\" Afiş\nVIP x{4}"
           },
           "Single": {
             "Description": "Bu tema ile Sonolus kullanıcı arayüzünüzü, profil avatarınızı ve profil afişinizi kişiselleştirin.\n\nSatın alarak şunları elde edeceksiniz:\n\"{0}\" Arayüz Teması\n\"{1}\" Avatar\n\"{2}\" Avatar Arkaplanı\n\"{3}\" Afiş"
@@ -3117,14 +3117,14 @@
             },
             "Effect": {
               "Audio": {
-                "Loading": "Ses efektinin sesi deşifre ediliyor...",
-                "Error": "\"{0}\" ses efektinin sesini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
+                "Loading": "Ses efektinin sesi çözümleniyor...",
+                "Error": "\"{0}\" ses efektini çözümlemede başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
               }
             },
             "Level": {
               "Bgm": {
-                "Loading": "Seviye arkaplan müziği deşifre ediliyor...",
-                "Error": "\"{0}\" seviye arkaplan müziğini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
+                "Loading": "Seviye arkaplan müziği çözümleniyor...",
+                "Error": "\"{0}\" seviye arkaplan müziğini çözümlemekte başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
               }
             },
             "Boot": {
@@ -3135,14 +3135,14 @@
           "Watch": {
             "Effect": {
               "Audio": {
-                "Loading": "Ses efektinin sesi deşifre ediliyor...",
-                "Error": "\"{0}\" ses efektinin sesini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
+                "Loading": "Ses efektinin sesi çözümleniyor...",
+                "Error": "\"{0}\" ses efektinin sesini çözümlemekte başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
               }
             },
             "Level": {
               "Bgm": {
-                "Loading": "Seviye arkaplan müziği deşifre ediliyor...",
-                "Error": "\"{0}\" seviye arkaplan müziğini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
+                "Loading": "Seviye arkaplan müziği çzümleniyor...",
+                "Error": "\"{0}\" seviye arkaplan müziğini çözümlemekte başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
               }
             },
             "Boot": {
@@ -3191,8 +3191,8 @@
         "Effect": {
           "Preview": {
             "Audio": {
-              "Loading": "Ses efektinin sesi deşifre ediliyor...",
-              "Error": "\"{0}\" ses efektinin sesini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
+              "Loading": "Ses efektinin sesi çözümleniyor...",
+              "Error": "\"{0}\" ses efektinin sesini çözümlemekte başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
             },
             "Boot": {
               "Loading": "Ses efekti önyükleniyor...",
@@ -3218,8 +3218,8 @@
           "Tutorial": {
             "Effect": {
               "Audio": {
-                "Loading": "Ses efektinin sesi deşifre ediliyor...",
-                "Error": "\"{0}\" ses efektinin sesini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
+                "Loading": "Ses efektinin sesi çözümleniyor...",
+                "Error": "\"{0}\" ses efektinin sesini çözümlemekte başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
               }
             },
             "Boot": {
@@ -3250,14 +3250,14 @@
           "Watch": {
             "Effect": {
               "Audio": {
-                "Loading": "Ses efektinin sesi deşifre ediliyor...",
-                "Error": "\"{0}\" ses efektinin sesini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
+                "Loading": "Ses efektinin sesi çözümleniyor...",
+                "Error": "\"{0}\" ses efektinin sesini çözümlemekte başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
               }
             },
             "Level": {
               "Bgm": {
-                "Loading": "Arkaplan müziği deşifre ediliyor...",
-                "Error": "\"{0}\" seviyesinin arkaplan müziğini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
+                "Loading": "Arkaplan müziği çözümleniyor...",
+                "Error": "\"{0}\" seviyesinin arkaplan müziğini çözümlemekte başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
               }
             },
             "Boot": {
@@ -3389,8 +3389,8 @@
               "Description": "İkinci ölçek biçimi ayarı."
             },
             "ProgressStyle": {
-              "Title": "İzleme Çubuğu Biçimi",
-              "Description": "İzleme Çubuğu biçimi ayarı."
+              "Title": "İlerleme Çubuğu Biçimi",
+              "Description": "İlerleme çubuğu biçimi ayarı."
             },
             "TutorialNavigationStyle": {
               "Title": "Öğretici Gezinme Biçimi",
@@ -3926,8 +3926,8 @@
           "Description": "Arayüz ses efektlerinin ses düzeyi."
         },
         "AlwaysDecodeLevelBgm": {
-          "Title": "Her Zaman Seviye Ses Efektini Deşifre Et",
-          "Description": "Kapatılması önerilir.\n\nSonolus, varsayılan olarak en iyi performans için işletim sisteminin yerel ses özelliklerini kullanır ve yalnızca format yerel olarak desteklenmiyorsa seviye arkaplan müziğinin kodunu çözer. Açıldığı zaman Sonolus her zaman seviye ses efektini deşifre eder."
+          "Title": "Her Zaman Seviye Ses Efektini Çözümle",
+          "Description": "Kapatılması önerilir.\n\nSonolus, varsayılan olarak en iyi performans için işletim sisteminin yerel ses özelliklerini kullanır ve yalnızca format yerel olarak desteklenmiyorsa seviye arkaplan müziğini çözümler. Açıldığı zaman Sonolus her zaman seviye ses efektini çözümler."
         },
         "PreviewBgm": {
           "Title": "Arkaplan Müziği Önizlemesi",
@@ -3941,7 +3941,7 @@
         },
         "LevelBgmQuality": {
           "Title": "Seviye Arkaplan Müziği Kalitesi",
-          "Description": "Yüksek ayarda kullanılması önerilir.\n\nSonolus, varsayılan olarak en iyi performans için işletim sisteminin yerel ses özelliklerini kullanır ve yalnızca format yerel olarak desteklenmiyorsa seviye arkaplan müziğinin kodunu çözer. Seviye arkaplan müziği bu kalitede çözülecektir.",
+          "Description": "Yüksek ayarda kullanılması önerilir.\n\nSonolus, varsayılan olarak en iyi performans için işletim sisteminin yerel ses özelliklerini kullanır ve yalnızca format yerel olarak desteklenmiyorsa seviye arkaplan müziğini çözümler. Seviye arkaplan müziği bu kalitede çözülecektir.",
           "Options": {
             "Low": "Az",
             "Mid": "Orta",
@@ -3950,7 +3950,7 @@
         },
         "PreviewBgmQuality": {
           "Title": "Arkaplan Müziği Önizlemesi Kalitesi",
-          "Description": "Orta ayarda kullanılması önerilir.\n\nSonolus, varsayılan olarak en iyi performans için işletim sisteminin yerel ses özelliklerini kullanır ve yalnızca format yerel olarak desteklenmiyorsa önizleme arkaplan müziğinin kodunu çözer. Önizleme arkaplan müziği bu kalitede çözülecektir.",
+          "Description": "Orta ayarda kullanılması önerilir.\n\nSonolus, varsayılan olarak en iyi performans için işletim sisteminin yerel ses özelliklerini kullanır ve yalnızca format yerel olarak desteklenmiyorsa önizleme arkaplan müziğini çözümler. Önizleme arkaplan müziği bu kalitede çözülecektir.",
           "Options": {
             "Low": "Az",
             "Mid": "Orta",
@@ -4014,7 +4014,7 @@
         "Title": "Kullanıcı Arayüzü (UI)",
         "UILocalization": {
           "Title": "Arayüz Dili",
-          "Description": "Aratyüz için kullanılacak dil."
+          "Description": "Arayüz için kullanılacak dil."
         },
         "ContentLocalization": {
           "Title": "İçerik Dili",
@@ -4125,7 +4125,7 @@
         "Manage": "Yönetin"
       },
       "Developer": {
-        "Title": "Yapımcı",
+        "Title": "Geliştirici",
         "ShowFps": {
           "Title": "FPS' i Göster",
           "Description": "Ekranın sol alt kısmında FPS sayacını göster."

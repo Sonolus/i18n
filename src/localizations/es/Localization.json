@@ -88,9 +88,11 @@
     "#ADDITIONAL_INFORMATION": "Información adicional",
     "#TIMEZONE": "Zona horaria",
     "#REGION": "Región",
+    "#TAG": "Etiqueta",
     "#CONTENT": "Contenido",
     "#COMMENT": "Comentar",
     "#MESSAGE": "Mensaje",
+    "#NOTIFICATION": "Notificación",
     "#ROLE": "Rol",
     "#PERMISSION": "Permiso",
     "#USER": "Usuario",
@@ -208,6 +210,8 @@
     "#PREVIEW_BEAT": "Previsualizar ritmo",
     "#PREVIEW_MEASURE": "Previsualizar medida",
     "#PREVIEW_COMBO": "Previsualizar combo",
+    "#ON": "ON",
+    "#OFF": "OFF",
     "#NONE": "Ninguno",
     "#ANY": "Cualquiera",
     "#ALL": "Todos",
@@ -258,6 +262,7 @@
     "#PRO": "Pro",
     "#TECHNICAL": "Técnico",
     "#SPECIAL": "Especial",
+    "#APPEND": "Append",
     "#KEYWORDS_PLACEHOLDER": "Introduzca palabras claves...",
     "#NAME_PLACEHOLDER": "Introduzca el nombre...",
     "#RATING_PLACEHOLDER": "Introduzca la calificación...",
@@ -373,6 +378,7 @@
     "#INSTRUMENTAL": "Instrumental",
     "#SHORT_VERSION": "Versión corta",
     "#LONG_VERSION": "Versión larga",
+    "#FULL_VERSION": "Versión completa",
     "#LIVE_VERSION": "Versión en vivo",
     "#REPORT": "Reportar",
     "#REASON": "Motivo",
@@ -433,6 +439,10 @@
     "#TEAM_CYAN": "Equipo Cian",
     "#TEAM_WHITE": "Equipo Blanco",
     "#TEAM_BLACK": "Equipo Negro",
+    "#ADD": "Agregar",
+    "#ADDED": "Agregado",
+    "#CREATE": "Crear",
+    "#CREATED": "Creado",
     "#REPLY": "Responder",
     "#REPLIED": "Respondido",
     "#REVIEW": "Reseñar",
@@ -3921,9 +3931,13 @@
           "Title": "Volumen de los efectos de sonido",
           "Description": "Volumen de los efectos de sonido."
         },
-        "UIVolume": {
-          "Title": "Volumen de la interfaz",
-          "Description": "Volumen de la interfaz."
+        "UIBgmVolume": {
+          "Title": "Volumen de la música",
+          "Description": "Volumen de la música de la interfaz."
+        },
+        "UISfxVolume": {
+          "Title": "Volumen de los efectos",
+          "Description": "Volumen de los efectos de la interfaz."
         },
         "AlwaysDecodeLevelBgm": {
           "Title": "Siempre decodificar música del nivel",

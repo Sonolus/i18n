@@ -88,9 +88,11 @@
     "#ADDITIONAL_INFORMATION": "Informasi Tambahan",
     "#TIMEZONE": "Zona Waktu",
     "#REGION": "Wilayah",
+    "#TAG": "Tag",
     "#CONTENT": "Konten",
     "#COMMENT": "Komen",
     "#MESSAGE": "Pesan",
+    "#NOTIFICATION": "Notifikasi",
     "#ROLE": "Peran",
     "#PERMISSION": "Izin",
     "#USER": "User",
@@ -208,6 +210,8 @@
     "#PREVIEW_BEAT": "Beat Pratinjau",
     "#PREVIEW_MEASURE": "Measure Pratinjau",
     "#PREVIEW_COMBO": "Kombo Pratinjau",
+    "#ON": "ON",
+    "#OFF": "OFF",
     "#NONE": "Tidak Ada",
     "#ANY": "Bebas",
     "#ALL": "Semua",
@@ -258,6 +262,7 @@
     "#PRO": "Pro",
     "#TECHNICAL": "Technical",
     "#SPECIAL": "Special",
+    "#APPEND": "Append",
     "#KEYWORDS_PLACEHOLDER": "Masukkan kata kunci...",
     "#NAME_PLACEHOLDER": "Masukkan nama...",
     "#RATING_PLACEHOLDER": "Masukkan rating...",
@@ -373,6 +378,7 @@
     "#INSTRUMENTAL": "Instrumental",
     "#SHORT_VERSION": "Versi Pendek",
     "#LONG_VERSION": "Versi Panjang",
+    "#FULL_VERSION": "Versi Penuh",
     "#LIVE_VERSION": "Versi Live",
     "#REPORT": "Lapor",
     "#REASON": "Alasan",
@@ -433,6 +439,10 @@
     "#TEAM_CYAN": "Tim Cyan",
     "#TEAM_WHITE": "Tim Putih",
     "#TEAM_BLACK": "Tim Hitam",
+    "#ADD": "Tambah",
+    "#ADDED": "Ditambahkan",
+    "#CREATE": "Buat",
+    "#CREATED": "Dibuat",
     "#REPLY": "Balas",
     "#REPLIED": "Membalas",
     "#REVIEW": "Ulasan",
@@ -3921,9 +3931,13 @@
           "Title": "Volume SFX",
           "Description": "Volume dari SFX."
         },
-        "UIVolume": {
-          "Title": "Volume UI",
-          "Description": "Volume dari UI."
+        "UIBgmVolume": {
+          "Title": "Volume BGM UI",
+          "Description": "Volume dari BGM UI."
+        },
+        "UISfxVolume": {
+          "Title": "Volume SFX UI",
+          "Description": "Volume dari SFX UI."
         },
         "AlwaysDecodeLevelBgm": {
           "Title": "Selalu Decode BGM Level",

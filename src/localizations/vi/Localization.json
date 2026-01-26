@@ -88,9 +88,11 @@
     "#ADDITIONAL_INFORMATION": "Thông tin bổ sung",
     "#TIMEZONE": "Múi giờ",
     "#REGION": "Khu vực",
+    "#TAG": "Thẻ",
     "#CONTENT": "Nội dung",
     "#COMMENT": "Bình luận",
     "#MESSAGE": "Tin nhắn",
+    "#NOTIFICATION": "Thông báo",
     "#ROLE": "Vai trò",
     "#PERMISSION": "Quyền",
     "#USER": "Người dùng",
@@ -208,6 +210,8 @@
     "#PREVIEW_BEAT": "Xem trước nhịp",
     "#PREVIEW_MEASURE": "Xem trước ô nhịp",
     "#PREVIEW_COMBO": "Xem trước Combo",
+    "#ON": "Bật",
+    "#OFF": "Tắt",
     "#NONE": "Không có",
     "#ANY": "Bất kì",
     "#ALL": "Tất cả",
@@ -258,6 +262,7 @@
     "#PRO": "Pro",
     "#TECHNICAL": "Technical",
     "#SPECIAL": "Special",
+    "#APPEND": "Append",
     "#KEYWORDS_PLACEHOLDER": "Nhập từ khóa...",
     "#NAME_PLACEHOLDER": "Nhập tên...",
     "#RATING_PLACEHOLDER": "Nhập Cấp độ khó...",
@@ -373,6 +378,7 @@
     "#INSTRUMENTAL": "Nhạc cụ",
     "#SHORT_VERSION": "Phiên bản ngắn",
     "#LONG_VERSION": "Phiên bản dài",
+    "#FULL_VERSION": "Phiên bản đầy đủ",
     "#LIVE_VERSION": "Phiên bản live",
     "#REPORT": "Tố cáo",
     "#REASON": "Lý do",
@@ -433,6 +439,10 @@
     "#TEAM_CYAN": "Đội Xanh Lam",
     "#TEAM_WHITE": "Đội Trắng",
     "#TEAM_BLACK": "Đội Đen",
+    "#ADD": "Thêm",
+    "#ADDED": "Đã thêm",
+    "#CREATE": "Tạo mới",
+    "#CREATED": "Đã tạo",
     "#REPLY": "Trả lời",
     "#REPLIED": "Đã trả lời",
     "#REVIEW": "Đánh giá",
@@ -642,12 +652,12 @@
         "Accuracy": "Độ chính xác",
         "AccuracyPercentage": "Độ chính xác %",
         "Life": "HP",
-		"Perfect": "Perfect",
-		"PerfectPercentage": "Perfect %",
-		"GreatGoodMiss": "Great + Good + Miss",
-		"GreatGoodMissPercentage": "Great + Good + Miss %",
-		"Miss": "Miss",
-		"MissPercentage": "Miss %",
+        "Perfect": "Perfect",
+        "PerfectPercentage": "Perfect %",
+        "GreatGoodMiss": "Great + Good + Miss",
+        "GreatGoodMissPercentage": "Great + Good + Miss %",
+        "Miss": "Miss",
+        "MissPercentage": "Miss %",
         "ErrorHeatmap": "Biểu đồ lỗi"
       },
       "JudgmentErrorStyle": {
@@ -783,12 +793,12 @@
           "Error": "Không thể tải chủ đề ảnh nền của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
         },
         "Avatar": {
-          "Loading": "Đang tải chủ đề avatar...",
-          "Error": "Không thể tải chủ đề avatar của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Loading": "Đang tải chủ đề ảnh đại diện...",
+          "Error": "Không thể tải chủ đề ảnh đại diện của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
         },
         "AvatarBackground": {
-          "Loading": "Đang tải chủ đề nền avatar...",
-          "Error": "Không thể tải chủ đề nền avatar của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Loading": "Đang tải chủ đề nền ảnh đại diện...",
+          "Error": "Không thể tải chủ đề nền ảnh đại diện của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
         },
         "Banner": {
           "Loading": "Đang tải chủ đề banner...",
@@ -876,10 +886,10 @@
         }
       },
       "EditAvatar": {
-        "Loading": "Đang đổi avatar...",
-        "Error": "Không thể đổi avatar.\n\nVui lòng kiểm tra xem avatar của ban có phải tệp ảnh hay không, hoặc kiểm tra lại kết nối Internet và thử lại.",
+        "Loading": "Đang thay đổi ảnh đại diện...",
+        "Error": "Không thể thay đổi ảnh đại diện.\n\nVui lòng kiểm tra xem ảnh đại diện của bạn có phải là file ảnh hay không, hoặc kiểm tra lại kết nối Internet và thử lại.",
         "Success": {
-          "Title": "Đã đổi avatar"
+          "Title": "Đã thay đổi ảnh đại diện"
         }
       },
       "EditBanner": {
@@ -2625,7 +2635,7 @@
       "Settings": "Cài đặt",
       "UpdateAvailable": {
         "Title": "Đã có bản cập nhật",
-        "Description": "Sonolus hiện đã có phiên bản {0}!\n\nTruy cập website:\nhttps://sonolus.com",
+        "Description": "Sonolus hiện đã có phiên bản mới {0}!\n\nTruy cập website:\nhttps://sonolus.com",
         "Open": "Mở"
       }
     },
@@ -2677,17 +2687,17 @@
           "Title": "Mô tả"
         },
         "Vip": {
-          "Description": "Gói VIP sẽ cho bạn một trải nghiệm không có quảng cáo trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nVIP x{0}"
+          "Description": "Gói VIP cho phép bạn trải nghiệm không có quảng cáo trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nVIP x{0}"
         },
         "NameChange": {
           "Description": "Lượt đổi tên có thể được dùng để thay đổi tên hồ sơ của bạn trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nLượt Đổi tên x{0}"
         },
         "Themes": {
           "Bundle": {
-            "Description": "Cá nhân hóa giao diện người dùng Sonolus, ảnh đại diện hồ sơ và ảnh bìa hồ sơ của bạn với chủ đề này, với gói VIP bạn sẽ trải nghiệm không có quảng cáo trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nChủ đề giao diện (UI) \"{0}\"\nAvatar \"{1}\"\nNền Avatar \"{2}\"\nBanner \"{3}\"\nVIP x{4}"
+            "Description": "Cá nhân hóa giao diện người dùng Sonolus, ảnh đại diện hồ sơ và ảnh bìa hồ sơ của bạn với chủ đề này, đi kèm với đó là gói VIP cho phép trải nghiệm không có quảng cáo trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nChủ đề giao diện (UI) \"{0}\"\nẢnh đại diện \"{1}\"\nNền ảnh đại diện \"{2}\"\nẢnh bìa \"{3}\"\nVIP x{4}"
           },
           "Single": {
-            "Description": "Cá nhân hóa giao diện người dùng Sonolus, ảnh đại diện hồ sơ và ảnh bìa hồ sơ của bạn với chủ đề này.\n\nKhi mua, bạn sẽ nhận được:\nChủ đề giao diện (UI) \"{0}\"\nAvatar \"{1}\"\nNền Avatar \"{2}\"\nBanner \"{3}\""
+            "Description": "Cá nhân hóa giao diện người dùng Sonolus, ảnh đại diện hồ sơ và ảnh bìa hồ sơ của bạn với chủ đề này.\n\nKhi mua, bạn sẽ nhận được:\nChủ đề giao diện (UI) \"{0}\"\nẢnh đại diện \"{1}\"\nNền ảnh đại diện \"{2}\"\nẢnh bìa \"{3}\""
           }
         }
       }
@@ -2706,7 +2716,7 @@
         "Delete": {
           "Title": "Xoá tài khoản",
           "Confirmation": {
-            "Description": "Việc xóa tài khoản sẽ xóa vĩnh viễn dữ liệu liên quan đến tài khoản Sonolus của bạn, bao gồm hồ sơ, kho vật phẩm và dữ liệu trên Server trò chơi. Quá trình xóa dữ liệu trên Server trò chơi có thể mất đến 7 ngày.\nBạn sẽ không thể khôi phục tài khoản đã xóa.\nBạn sẽ không thể tạo tài khoản Sonolus khác bằng cùng một tài khoản đăng nhập trong 7 ngày.\n\nBạn có chắc muốn xoá tài khoản \"{0}\"?"
+            "Description": "Việc xóa tài khoản sẽ xóa vĩnh viễn dữ liệu liên quan đến tài khoản Sonolus của bạn, bao gồm hồ sơ, kho vật phẩm và dữ liệu trên Server trò chơi. Quá trình xóa dữ liệu trên Server trò chơi có thể mất đến 7 ngày.\nBạn sẽ không thể khôi phục được tài khoản đã bị xóa, cũng như sẽ không thể tạo được tài khoản Sonolus khác sau 7 ngày.\n\nBạn có chắc muốn xoá tài khoản \"{0}\"?"
           }
         }
       },
@@ -2759,9 +2769,9 @@
           "Description": "Biểu tượng Ảnh đại diện.",
           "Player": "Người chơi",
           "Heart": "Trái tim",
-          "Hat": "Mũ",
-          "Fish": "Cá",
-          "Paw": "Bàn chân chó"
+          "Hat": "Cái mũ",
+          "Fish": "Con cá",
+          "Paw": "Bàn chân động vật"
         },
         "ForegroundColor": {
           "Title": "Màu sắc biểu tượng",
@@ -2821,13 +2831,13 @@
       },
       "Legal": {
         "Title": "Điều khoản sử dụng",
-        "Description": "Bằng việc tiếp tục sử dụng Sonolus, bạn đồng ý với các điều khoản sau:"
+        "Description": "Bằng việc tiếp tục sử dụng Sonolus, bạn đã đồng ý với các điều khoản sau:"
       },
       "Music": {
         "Title": "Âm nhạc"
       },
       "Translation": {
-        "Title": "Bản dịch",
+        "Title": "Dịch thuật",
         "Description": "Hãy giúp dịch Sonolus sang ngôn ngữ của bạn!\nhttps://github.com/Sonolus/i18n\n\nCảm ơn tất cả những người đóng góp:"
       }
     },
@@ -3791,24 +3801,24 @@
           },
           "Quick": {
             "Hello": {
-              "Title": "Xin chào",
-              "Text": "Xin chào!"
+              "Title": "Lời chào",
+              "Text": "Xin chào mọi người!"
             },
             "Glhf": {
-              "Title": "Glhf",
-              "Text": "Chúc may mắn và vui vẻ nhé!"
+              "Title": "Lời chúc",
+              "Text": "Chúc bạn may mắn và chơi game vui nhé!"
             },
             "Gg": {
               "Title": "GG",
-              "Text": "Good game!"
+              "Text": "Chơi game tốt đấy!"
             },
             "Ns": {
-              "Title": "Ns",
-              "Text": "Điểm số tuyệt vời!"
+              "Title": "Khen điểm số",
+              "Text": "Điểm số tuyệt vời đấy!"
             },
             "Ty": {
-              "Title": "Ty",
-              "Text": "Cảm ơn!"
+              "Title": "Lời cảm ơn",
+              "Text": "Cảm ơn bạn!"
             }
           },
           "System": {
@@ -3887,7 +3897,7 @@
           "Default": "Mặc định"
         },
         "RenderMode": {
-          "Title": "Chế độ kết xuất (render)",
+          "Title": "Chế độ kết xuất (Render)",
           "Description": "Khuyến nghị nên để chế độ kết xuất Tiêu chuẩn.\n\nChế độ kết xuất Tiêu chuẩn cung cấp đồ họa chính xác, trong khi chế độ kết xuất Nhẹ cung cấp đồ họa kém chính xác hơn nhưng hiệu năng được cải thiện đáng kể.",
           "Options": {
             "Standard": "Tiêu chuẩn",
@@ -3899,7 +3909,7 @@
           "Description": "Khuyến nghị nên để giá trị 100%.\n\nSonolus kết xuất ở tỷ lệ này và tăng hoặc giảm tỷ lệ theo kích thước độ phân giải. Tỷ lệ kết xuất cao hơn 100% có thể cải thiện đồ họa nhưng hiệu năng sẽ kém hơn, trong khi tỷ lệ kết xuất thấp hơn 100% sẽ cải thiện hiệu năng nhưng đổi lại đồ họa sẽ kém hơn."
         },
         "AntiAliasing": {
-          "Title": "Khử răng cưa (anti-aliasing)",
+          "Title": "Khử răng cưa (Anti-aliasing)",
           "Description": "Khuyến nghị nên tắt.\n\nKhử răng cưa sẽ cải thiện đồ họa bằng cách giảm thiểu hiện tượng nhiễu, đặc biệt là xung quanh các cạnh của hình ảnh, tuy nhiên hiệu năng sẽ kém hơn."
         },
         "GpuParticleSystem": {
@@ -3907,7 +3917,7 @@
           "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus sử dụng hệ thống Particle CPU. Khi bật, hệ thống Particle GPU sẽ được sử dụng thay thế. Đối với hầu hết các thiết bị di động, GPU yếu hơn CPU và do đó không khuyến khích sử dụng."
         },
         "IgnoreNotch": {
-          "Title": "Bỏ qua tai thỏ điện thoại (notch)",
+          "Title": "Bỏ qua tai thỏ điện thoại (Notch)",
           "Description": "Theo mặc định, Sonolus sẽ tránh hiển thị giao diện trên vùng tai thỏ (camera trước) của điện thoại để đảm bảo không có vùng nào của giao diện bị che khuất. Khi được bật, Sonolus sẽ không còn tránh vùng tai thỏ nữa, nếu điện thoại của bạn có vùng tai thỏ rộng thì có khả năng một phần giao diện sẽ bị che khuất. Chỉ nên bật nếu màn hình máy bạn có vùng tai thỏ hẹp / giọt nước và bạn muốn game sẽ hiển thị giao diện ở chính giữa màn hình."
         }
       },
@@ -3921,9 +3931,13 @@
           "Title": "Âm lượng SFX",
           "Description": "Âm lượng SFX."
         },
-        "UIVolume": {
-          "Title": "Âm lượng UI",
-          "Description": "Âm lượng UI."
+        "UIBgmVolume": {
+          "Title": "Âm lượng BGM của UI",
+          "Description": "Điều chỉnh âm lượng BGM của UI game (tránh nhầm lẫn với BGM của chart)"
+        },
+        "UISfxVolume": {
+          "Title": "Âm lượng SFX của UI",
+          "Description": "Điều chỉnh âm lượng SFX của UI game (tránh nhầm lẫn với SFX của chart)"
         },
         "AlwaysDecodeLevelBgm": {
           "Title": "Luôn giải mã BGM Level",
@@ -4090,7 +4104,7 @@
         },
         "DeviceAudioOffset": {
           "Title": "Độ trễ âm thanh của thiết bị",
-          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐộ trễ âm thanh của thiết bị của bạn. Đối với hầu hết các thiết bị sử dụng loa ngoài, 0 là độ trễ chính xác. Không khuyến nghị sử dụng Bluetooth. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
+          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐộ trễ âm thanh của thiết bị của bạn. Đối với hầu hết các thiết bị sử dụng loa ngoài, mức 0 là độ trễ tiêu chuẩn. Không khuyến nghị sử dụng Bluetooth. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
         },
         "DeviceInputOffset": {
           "Title": "Độ trễ đầu vào của thiết bị",
@@ -4101,7 +4115,7 @@
         "Title": "Kho lưu trữ",
         "AutoClean": {
           "Title": "Tự động dọn dẹp",
-          "Description": "Tự động dọn dẹp kho lưu trữ khi khởi chạy bằng cách xóa các tài nguyên cũ nhất.",
+          "Description": "Tự động dọn dẹp kho lưu trữ khi khởi chạy bằng cách xóa các tài nguyên cũ.",
           "Options": {
             "OneHundredMB": "100MB",
             "FiveHundredMB": "500MB",
