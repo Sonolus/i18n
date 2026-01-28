@@ -4472,7 +4472,7 @@
           },
           "Result": {
             "TouchAbnormality": {
-              "Description": "Đã phát hiện {0} điểm chạm bất thường trong quá trình chơi. Điều này thường do các tính năng hệ thống như cử chỉ, tối ưu hóa cảm ứng và thông báo gây ra và có thể gây ra các vấn đề về phán định.\n\nĐể đảm bảo bạn có trải nghiệm chơi trò chơi tốt nhất, bạn nên điều chỉnh các cài đặt hệ thống có liên quan."
+              "Description": "Đã phát hiện {0} điểm chạm bất thường trong quá trình chơi. Điều này thường do các tính năng hệ thống như cử chỉ, tối ưu hóa cảm ứng, thông báo,… và có thể gây ảnh hưởng đến kết quả chơi.\n\nĐể đảm bảo bạn có trải nghiệm chơi trò chơi tốt nhất, bạn nên điều chỉnh các cài đặt hệ thống có liên quan."
             },
             "Options": {
               "HasUsedPause": "Tạm dừng",
