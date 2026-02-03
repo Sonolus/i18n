@@ -154,12 +154,12 @@
     "#SLOT_DIRECTION": "Hướng Slot",
     "#SLOT_ALPHA": "Độ trong suốt Slot",
     "#SLOT_ANIMATION": "Hoạt ảnh Slot",
-    "#SLOT_EFFECT": "Hiển thị hiệu ứng sáng Note khi nhấn",
-    "#SLOT_EFFECT_POSITION": "Vị trí hiệu ứng sáng Note khi nhấn",
-    "#SLOT_EFFECT_SIZE": "Kích thước hiệu ứng sáng Note khi nhấn",
-    "#SLOT_EFFECT_ROTATION": "Xoay hiệu ứng sáng Note khi nhấn",
-    "#SLOT_EFFECT_DIRECTION": "Hướng hiệu ứng sáng Note khi nhấn",
-    "#SLOT_EFFECT_ALPHA": "Độ trong suốt của hiệu ứng sáng Note khi nhấn",
+    "#SLOT_EFFECT": "Hiển thị hiệu ứng sáng Note khi ấn",
+    "#SLOT_EFFECT_POSITION": "Vị trí hiệu ứng sáng Note khi ấn",
+    "#SLOT_EFFECT_SIZE": "Kích thước hiệu ứng sáng Note khi ấn",
+    "#SLOT_EFFECT_ROTATION": "Xoay hiệu ứng sáng Note khi ấn",
+    "#SLOT_EFFECT_DIRECTION": "Hướng hiệu ứng sáng Note khi ấn",
+    "#SLOT_EFFECT_ALPHA": "Độ trong suốt của hiệu ứng sáng Note khi ấn",
     "#NOTE": "Hiển thị Note",
     "#NOTE_SPEED": "Tốc độ Note",
     "#NOTE_SPEED_RANDOM": "Tốc độ Note ngẫu nhiên",
@@ -193,14 +193,14 @@
     "#CONNECTOR_COLOR": "Màu sắc phần thân Note giữ",
     "#CONNECTOR_ALPHA": "Độ trong suốt phần thân Note giữ",
     "#CONNECTOR_ANIMATION": "Hoạt ảnh phần thân Note giữ",
-    "#SIMLINE": "Hiển thị đường kẻ nối các Note cần nhấn cùng lúc",
-    "#SIMLINE_POSITION": "Vị trí đường kẻ nối các Note cần nhấn cùng lúc",
-    "#SIMLINE_SIZE": "Kích thước đường kẻ nối các Note cần nhấn cùng lúc",
-    "#SIMLINE_ROTATION": "Xoay đường kẻ nối các Note cần nhấn cùng lúc",
-    "#SIMLINE_DIRECTION": "Hướng đường kẻ nối các Note cần nhấn cùng lúc",
-    "#SIMLINE_COLOR": "Màu sắc đường kẻ nối các Note cần nhấn cùng lúc",
-    "#SIMLINE_ALPHA": "Độ trong suốt đường kẻ nối các Note cần nhấn cùng lúc",
-    "#SIMLINE_ANIMATION": "Hoạt ảnh đường kẻ nối các Note cần nhấn cùng lúc",
+    "#SIMLINE": "Hiển thị đường kẻ nối các Note cần ấn cùng lúc",
+    "#SIMLINE_POSITION": "Vị trí đường kẻ nối các Note cần ấn cùng lúc",
+    "#SIMLINE_SIZE": "Kích thước đường kẻ nối các Note cần ấn cùng lúc",
+    "#SIMLINE_ROTATION": "Xoay đường kẻ nối các Note cần ấn cùng lúc",
+    "#SIMLINE_DIRECTION": "Hướng đường kẻ nối các Note cần ấn cùng lúc",
+    "#SIMLINE_COLOR": "Màu sắc đường kẻ nối các Note cần ấn cùng lúc",
+    "#SIMLINE_ALPHA": "Độ trong suốt đường kẻ nối các Note cần ấn cùng lúc",
+    "#SIMLINE_ANIMATION": "Hoạt ảnh đường kẻ nối các Note cần ấn cùng lúc",
     "#PREVIEW_SCALE_VERTICAL": "Xem trước thang âm dọc",
     "#PREVIEW_SCALE_HORIZONTAL": "Xem trước thang âm ngang",
     "#PREVIEW_TIME": "Xem trước thời gian",
@@ -4254,27 +4254,27 @@
         },
         "PerfectJudgmentColors": {
           "Title": "Màu sắc phán định Perfect",
-          "Description": "Màu sắc phán định cho Perfect."
+          "Description": "Màu sắc của chỉ báo phán định Perfect."
         },
         "GreatJudgmentColors": {
           "Title": "Màu sắc phán định Great",
-          "Description": "Màu sắc phán định cho Great."
+          "Description": "Màu sắc của chỉ báo phán định Great."
         },
         "GoodJudgmentColors": {
           "Title": "Màu sắc phán định Good",
-          "Description": "Màu sắc phán định cho Good."
+          "Description": "Màu sắc của chỉ báo phán định Good."
         },
         "MissJudgmentColors": {
           "Title": "Màu sắc phán định Miss",
-          "Description": "Màu sắc phán định cho Miss."
+          "Description": "Màu sắc của chỉ báo phán định Miss."
         },
         "PositiveJudgmentErrorColors": {
           "Title": "Màu sắc sai số phán định dương",
-          "Description": "Màu sắc sai số phán định dương."
+          "Description": "Màu sắc của chỉ báo sai số phán định dương."
         },
         "NegativeJudgmentErrorColors": {
           "Title": "Màu sắc sai số phán định âm",
-          "Description": "Màu sắc sai số phán định âm."
+          "Description": "Màu sắc của chỉ báo sai số phán định âm."
         },
         "AllPerfectComboColors": {
           "Title": "Màu sắc Combo hạng All Perfect",
