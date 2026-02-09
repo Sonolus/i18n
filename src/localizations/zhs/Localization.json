@@ -328,7 +328,7 @@
     "#SECOND_UNIT": "{0}秒",
     "#MILLISECOND_UNIT": "{0}毫秒",
     "#YEAR_PAST": "{0}年前",
-    "#MONTH_PAST": "{0}月前",
+    "#MONTH_PAST": "{0}个月前",
     "#DAY_PAST": "{0}天前",
     "#HOUR_PAST": "{0}时前",
     "#MINUTE_PAST": "{0}分前",
@@ -409,11 +409,11 @@
     "#FULL_VERSION": "完整版",
     "#EXTENDED_VERSION": "扩展版",
     "#LIVE_VERSION": "现场版",
-    "#EXPLICIT": "未删减版",
+    "#EXPLICIT": "E标",
     "#MULTI_FINGER": "多指",
     "#FULL_HAND": "全手",
     "#CROSS_HAND": "换手",
-    "#GIMMICK": "噱头",
+    "#GIMMICK": "特效",
     "#COLLABORATION": "合作",
     "#REPORT": "报告",
     "#REASON": "原因",
@@ -3462,7 +3462,7 @@
             "Title": "用户链接已复制"
           },
           "ActionSuccess": {
-            "Title": "用户行为提交"
+            "Title": "用户操作已提交"
           },
           "Profile": {
             "Title": "个人资料"
