@@ -338,7 +338,7 @@
     "#MONTH_FUTURE": "{0}月内",
     "#DAY_FUTURE": "{0}天内",
     "#HOUR_FUTURE": "{0}时内",
-    "#MINUTE_FUTURE": "{0}月内",
+    "#MINUTE_FUTURE": "{0}分内",
     "#SECOND_FUTURE": "{0}秒内",
     "#MILLISECOND_FUTURE": "{0}毫秒内",
     "#TAP": "轻击",
