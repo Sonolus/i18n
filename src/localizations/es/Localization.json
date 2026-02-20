@@ -22,6 +22,7 @@
     "#PARTICLE": "Partícula",
     "#ENGINE": "Motor",
     "#REPLAY": "Repetición",
+    "#USER": "Usuario",
     "#ROOM": "Sala",
     "#POST_THUMBNAIL": "Miniatura",
     "#PLAYLIST_THUMBNAIL": "Miniatura",
@@ -62,6 +63,8 @@
     "#GREAT": "Great",
     "#GOOD": "Good",
     "#MISS": "Miss",
+    "#JUDGMENT": "Juicio",
+    "#ACCURACY": "Precisión",
     "#FILTER": "Filtros",
     "#SORT": "Orden",
     "#KEYWORDS": "Palabras clave",
@@ -74,6 +77,8 @@
     "#ARTISTS": "Artistas",
     "#TIME": "Tiempo",
     "#AUTHOR": "Autor(a)",
+    "#COAUTHOR": "Coautor",
+    "#COLLABORATOR": "Colaborador",
     "#DESCRIPTION": "Descripción",
     "#GENRE": "Género",
     "#TYPE": "Tipo",
@@ -89,13 +94,14 @@
     "#TIMEZONE": "Zona horaria",
     "#REGION": "Región",
     "#TAG": "Etiqueta",
+    "#INCLUDE_TAG": "Incluir etiqueta",
+    "#EXCLUDE_TAG": "Excluir etiqueta",
     "#CONTENT": "Contenido",
     "#COMMENT": "Comentar",
     "#MESSAGE": "Mensaje",
     "#NOTIFICATION": "Notificación",
     "#ROLE": "Rol",
     "#PERMISSION": "Permiso",
-    "#USER": "Usuario",
     "#SPEED": "Velocidad del nivel",
     "#MIRROR": "Espejo",
     "#RANDOM": "Aleatorio",
@@ -103,6 +109,7 @@
     "#JUDGMENT_STRICT": "Juicio estricto",
     "#JUDGMENT_LOOSE": "Juicio flexible",
     "#EFFECT_AUTO": "Efectos de sonido en automático",
+    "#HAPTIC": "Háptico",
     "#STAGE": "Escenario",
     "#STAGE_POSITION": "Posición del escenario",
     "#STAGE_SIZE": "Tamaño del escenario",
@@ -210,6 +217,13 @@
     "#PREVIEW_BEAT": "Previsualizar ritmo",
     "#PREVIEW_MEASURE": "Previsualizar medida",
     "#PREVIEW_COMBO": "Previsualizar combo",
+    "#UI": "Interfaz",
+    "#UI_METRIC": "Métrica de interfaz",
+    "#UI_PRIMARY_METRIC": "Métrica principal de interfaz",
+    "#UI_SECONDARY_METRIC": "Métrica secundaria de interfaz",
+    "#UI_JUDGMENT": "Juicio de interfaz",
+    "#UI_Combo": "Combo de interfaz",
+    "#UI_Menu": "Menú de interfaz",
     "#ON": "ON",
     "#OFF": "OFF",
     "#NONE": "Ninguno",
@@ -263,6 +277,17 @@
     "#TECHNICAL": "Técnico",
     "#SPECIAL": "Especial",
     "#APPEND": "Append",
+    "#POST_PLACEHOLDER": "Introduzca publicación...",
+    "#PLAYLIST_PLACEHOLDER": "Introduzca lista de reproducción...",
+    "#LEVEL_PLACEHOLDER": "Introduzca nivel...",
+    "#SKIN_PLACEHOLDER": "Introduzca skin...",
+    "#BACKGROUND_PLACEHOLDER": "Introduzca fondo...",
+    "#EFFECT_PLACEHOLDER": "Introduzca efecto de sonido...",
+    "#PARTICLE_PLACEHOLDER": "Introduzca partícula...",
+    "#ENGINE_PLACEHOLDER": "Introduzca motor...",
+    "#REPLAY_PLACEHOLDER": "Introduzca repetición...",
+    "#USER_PLACEHOLDER": "Introduzca el usuario...",
+    "#ROOM_PLACEHOLDER": "Introduzca sala...",
     "#KEYWORDS_PLACEHOLDER": "Introduzca palabras claves...",
     "#NAME_PLACEHOLDER": "Introduzca el nombre...",
     "#RATING_PLACEHOLDER": "Introduzca la calificación...",
@@ -273,6 +298,8 @@
     "#ARTISTS_PLACEHOLDER": "Introduzca los artistas...",
     "#TIME_PLACEHOLDER": "Introduzca la hora...",
     "#AUTHOR_PLACEHOLDER": "Introduzca el autor...",
+    "#COAUTHOR_PLACEHOLDER": "Introduzca coautor...",
+    "#COLLABORATOR_PLACEHOLDER": "Introduzca colaborador...",
     "#DESCRIPTION_PLACEHOLDER": "Introduzca una descripción...",
     "#GENRE_PLACEHOLDER": "Introduzca el género...",
     "#TYPE_PLACEHOLDER": "Introduzca el tipo...",
@@ -292,29 +319,28 @@
     "#MESSAGE_PLACEHOLDER": "Introduzca el mensaje...",
     "#ROLE_PLACEHOLDER": "Introduzca el rol...",
     "#PERMISSION_PLACEHOLDER": "Introduzca el permiso...",
-    "#USER_PLACEHOLDER": "Introduzca el usuario...",
     "#PERCENTAGE_UNIT": "{0}%",
-    "#YEAR_UNIT": "{0} a",
-    "#MONTH_UNIT": "{0} m",
-    "#DAY_UNIT": "{0} d",
-    "#HOUR_UNIT": "{0} h",
-    "#MINUTE_UNIT": "{0} min",
-    "#SECOND_UNIT": "{0} s",
-    "#MILLISECOND_UNIT": "{0} ms",
-    "#YEAR_PAST": "hace {0} años",
-    "#MONTH_PAST": "hace {0} meses",
-    "#DAY_PAST": "hace {0} d",
-    "#HOUR_PAST": "hace {0} h",
-    "#MINUTE_PAST": "hace {0} m",
-    "#SECOND_PAST": "hace {0} s",
-    "#MILLISECOND_PAST": "hace {0} ms",
-    "#YEAR_FUTURE": "En {0} años",
-    "#MONTH_FUTURE": "En {0} meses",
-    "#DAY_FUTURE": "En {0} d",
-    "#HOUR_FUTURE": "En {0} h",
-    "#MINUTE_FUTURE": "En {0} m",
-    "#SECOND_FUTURE": "En {0} s",
-    "#MILLISECOND_FUTURE": "En {0} ms",
+    "#YEAR_UNIT": "{0}a",
+    "#MONTH_UNIT": "{0}m",
+    "#DAY_UNIT": "{0}d",
+    "#HOUR_UNIT": "{0}h",
+    "#MINUTE_UNIT": "{0}min",
+    "#SECOND_UNIT": "{0}s",
+    "#MILLISECOND_UNIT": "{0}ms",
+    "#YEAR_PAST": "Hace {0}a",
+    "#MONTH_PAST": "Hace {0}m",
+    "#DAY_PAST": "Hace {0}d",
+    "#HOUR_PAST": "Hace {0}h",
+    "#MINUTE_PAST": "Hace {0}min",
+    "#SECOND_PAST": "Hace {0}s",
+    "#MILLISECOND_PAST": "Hace {0}ms",
+    "#YEAR_FUTURE": "En {0}a",
+    "#MONTH_FUTURE": "En {0}m",
+    "#DAY_FUTURE": "En {0}d",
+    "#HOUR_FUTURE": "En {0}h",
+    "#MINUTE_FUTURE": "En {0}min",
+    "#SECOND_FUTURE": "En {0}s",
+    "#MILLISECOND_FUTURE": "En {0}ms",
     "#TAP": "Tocar",
     "#TAP_HOLD": "Tocar y mantener",
     "#TAP_RELEASE": "Tocar y soltar",
@@ -335,6 +361,7 @@
     "#POPULAR": "Populares",
     "#FEATURED": "Destacados",
     "#COMPETITIVE": "Competitivos",
+    "#TOURNAMENT": "Torneo",
     "#HOLIDAY": "Festivos",
     "#LIMITED": "Limitados",
     "#ANNOUNCEMENT": "Anuncio",
@@ -378,8 +405,16 @@
     "#INSTRUMENTAL": "Instrumental",
     "#SHORT_VERSION": "Versión corta",
     "#LONG_VERSION": "Versión larga",
+    "#CUT_VERSION": "Versión recortada",
     "#FULL_VERSION": "Versión completa",
+    "#EXTENDED_VERSION": "Versión extendida",
     "#LIVE_VERSION": "Versión en vivo",
+    "#EXPLICIT": "Explícito",
+    "#MULTI_FINGER": "Varios dedos",
+    "#FULL_HAND": "Mano completa",
+    "#CROSS_HAND": "Mano cruzada",
+    "#GIMMICK": "Mecánica",
+    "#COLLABORATION": "Colaboración",
     "#REPORT": "Reportar",
     "#REASON": "Motivo",
     "#ILLEGAL_ACTIVITIES": "Actividades ilegales",
@@ -611,6 +646,7 @@
         "Particle": "No se ha seleccionado ninguna partícula",
         "Engine": "No se ha seleccionado ningún motor",
         "Replay": "No se ha seleccionado ninguna repetición",
+        "User": "Ningún usuario seleccionado",
         "Room": "No se ha seleccionado ninguna sala"
       },
       "NoSource": {
@@ -623,6 +659,7 @@
         "Particle": "No se puede seleccionar esta partícula porque no tiene un servidor de origen.\n\nUtilice una partícula diferente o comuníquese con el autor de la partícula para reportar el problema.",
         "Engine": "No se puede seleccionar este motor porque no tiene un servidor de origen.\n\nUtilice un motor diferente o comuníquese con el autor del motor para reportar el problema.",
         "Replay": "No se puede seleccionar esta repetición porque no tiene un servidor de origen.\n\nUtilice una repetición diferente o comuníquese con el autor de la repetición para reportar el problema.",
+        "User": "No se puede seleccionar este usuario porque no tiene un servidor de origen.\n\nUtilice un usuario diferente o contacte con el autor del usuario para informar del problema.",
         "Room": "No se puede seleccionar esta sala porque no tiene un servidor de origen.\n\nUtilice una sala diferente o comuníquese con el autor de la sala para reportar el problema."
       },
       "NoOtherServers": {
@@ -635,11 +672,27 @@
         "Particle": "No se puede seleccionar esta partícula porque proviene de un servidor diferente.\n\nUtilice una partícula diferente del mismo servidor.",
         "Engine": "No se puede seleccionar este motor porque pertenece a un servidor diferente.\n\nUtilice un motor diferente del mismo servidor.",
         "Replay": "No se puede seleccionar esta repetición porque es de un servidor diferente.\n\nUtilice una repetición diferente del mismo servidor.",
+        "User": "No se puede seleccionar este usuario porque pertenece a otro servidor.\n\nUtilice un usuario diferente del mismo servidor.",
         "Room": "No se puede seleccionar esta sala porque pertenece a un servidor diferente.\n\nUtilice una sala diferente del mismo servidor."
       }
     },
     "FileField": {
-      "NoSelected": "No hay ningún archivo seleccionado"
+      "NoSelected": "No hay ningún archivo seleccionado",
+      "Validation": {
+        "Invalid": "Archivo inválido.\n\nSeleccione otro archivo.",
+        "MinSize": "El archivo es demasiado pequeño.\n\nSeleccione otro archivo.",
+        "MaxSize": "El archivo es demasiado grande.\n\nSeleccione otro archivo.",
+        "Image": {
+          "MinWidth": "El ancho de la imagen es demasiado pequeño.\n\nSeleccione otro archivo.",
+          "MaxWidth": "El ancho de la imagen es demasiado grande.\n\nSeleccione otro archivo.",
+          "MinHeight": "La altura de la imagen es demasiado pequeña.\n\nSeleccione otro archivo.",
+          "MaxHeight": "La altura de la imagen es demasiado grande.\n\nSeleccione otro archivo."
+        },
+        "Audio": {
+          "MinLength": "La duración del audio es demasiado corta.\n\nSeleccione otro archivo.",
+          "MaxLength": "La duración del audio es demasiado larga.\n\nSeleccione otro archivo."
+        }
+      }
     },
     "PullToLoad": {
       "None": "Nada más que cargar",
@@ -1627,6 +1680,64 @@
           "Error": "No se pudo cargar la configuración de la repetición \"{0}\"."
         }
       },
+      "User": {
+        "Info": {
+          "Loading": "Cargando información de los usuarios...",
+          "Error": "No se pudo cargar la información de los usuarios de \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Creando usuario...",
+          "Error": "No se pudo crear el usuario en \"{0}\"."
+        },
+        "List": {
+          "Loading": "Cargando usuarios...",
+          "Error": "No se pudieron cargar usuarios en la página {0}."
+        },
+        "Details": {
+          "Loading": "Cargando detalles del usuario...",
+          "Error": "No se pudieron cargar los detalles del usuario \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Enviando al usuario...",
+          "Error": "No se pudo enviar al usuario \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Cargando infomación de la comunidad del usuario...",
+            "Error": "No se pudo cargar la información de la comunidad del usuario \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Enviando a la comunidad del usuario...",
+            "Error": "No se pudo enviar a la comunidad del usuario \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Cargando comentarios del usuario...",
+              "Error": "No se pudieron cargar los comentarios del usuario en la página {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Cargando detalles de la tabla de clasificación del usuario...",
+            "Error": "No se pudieron cargar los detalles de la tabla de clasificación del usuario \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Cargando registros del usuario...",
+              "Error": "No se pudieron cargar los registros de usuario en la página {0}."
+            },
+            "Details": {
+              "Loading": "Cargando detalles del registro del usuario...",
+              "Error": "No se pudieron cargar los detalles del registro del usuario \"{0}\"."
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "Comprobando compatibilidad del usuario...",
+          "Error": "El usuario \"{0}\" no es compatible con la versión actual de Sonolus.\n\nUtilice un usuario diferente o contacte al propietario del servidor para informar del problema."
+        }
+      },
       "Room": {
         "Info": {
           "Loading": "Cargando información de las salas...",
@@ -1983,6 +2094,24 @@
           "Error": "No se pudo cargar la configuración de la repetición de \"{0}\".\n\nActualice esta repetición o utilice una repetición diferente."
         }
       },
+      "User": {
+        "Info": {
+          "Loading": "Cargando información de los usuarios...",
+          "Error": "No se pudo cargar la información de los usuarios de \"{0}\".\n\nEs posible que tu colección esté dañada."
+        },
+        "List": {
+          "Loading": "Cargando usuarios...",
+          "Error": "No se pudieron cargar los usuarios en la página {0}.\n\nEs posible que tu colección esté dañada."
+        },
+        "Details": {
+          "Loading": "Cargando detalles del usuario...",
+          "Error": "No se pudieron cargar los detalles del usuario \"{0}\".\n\nEs posible que tu colección esté dañada."
+        },
+        "Compatibility": {
+          "Loading": "Comprobando compatibilidad del usuario...",
+          "Error": "El usuario \"{0}\" no es compatible con la versión actual de Sonolus.\n\nActualice este usuario o utilice uno diferente."
+        }
+      },
       "Room": {
         "Info": {
           "Loading": "Cargando información de las salas...",
@@ -2303,6 +2432,24 @@
           "Error": "No se pudo cargar la configuración de la repetición de \"{0}\".\n\nEs posible que su paquete no sea compatible o esté dañado."
         }
       },
+      "User": {
+        "Info": {
+          "Loading": "Cargando información de los usuarios...",
+          "Error": "No se pudo cargar la información de los usuarios de \"{0}\".\n\nEs posible que su paquete no sea compatible o esté dañado."
+        },
+        "List": {
+          "Loading": "Cargando usuarios...",
+          "Error": "No se pudieron cargar los usuarios en la página {0}.\n\nEs posible que su paquete no sea compatible o esté dañado."
+        },
+        "Details": {
+          "Loading": "Cargando detalles del usuario...",
+          "Error": "No se pudieron cargar los datos del usuario \"{0}\".\n\nEs posible que su paquete no sea compatible o esté dañado."
+        },
+        "Compatibility": {
+          "Loading": "Comprobando compatibilidad del usuario...",
+          "Error": "El usuario \"{0}\" no es compatible con la versión actual de Sonolus.\n\nEs posible que su paquete no sea compatible o esté dañado."
+        }
+      },
       "Room": {
         "Info": {
           "Loading": "Cargando información de las salas...",
@@ -2451,6 +2598,10 @@
           "Title": "Crear repetición",
           "Description": "Selecciona una colección para crear esta repetición."
         },
+        "User": {
+          "Title": "Crear usuario",
+          "Description": "Seleccione una colección para crear este usuario."
+        },
         "Room": {
           "Title": "Crear sala",
           "Description": "Seleccione una colección para crear esta sala."
@@ -2492,6 +2643,10 @@
         "Replay": {
           "Title": "Seleccionar repetición",
           "Description": "Seleccione un servidor o colección personalizado para usar sus repeticiones."
+        },
+        "User": {
+          "Title": "Seleccionar usuario",
+          "Description": "Seleccione un servidor o colección personalizado para utilizar sus usuarios."
         },
         "Room": {
           "Title": "Seleccionar sala",
@@ -2816,6 +2971,7 @@
         "Particle": "Partícula",
         "Engine": "Motor",
         "Replay": "Repetición",
+        "User": "Usuario",
         "Room": "Sala"
       }
     },
@@ -2855,6 +3011,7 @@
         "Particle": "Partículas",
         "Engine": "Motores",
         "Replay": "Repeticiones",
+        "User": "Usuarios",
         "Room": "Salas",
         "Configuration": "Configuración",
         "CollectionUpdateConfirmation": {
@@ -2969,6 +3126,15 @@
             }
           }
         },
+        "User": {
+          "Title": "Usuarios",
+          "Create": {
+            "Title": "Crear usuario",
+            "Success": {
+              "Title": "Usuario creado"
+            }
+          }
+        },
         "Room": {
           "Title": "Salas",
           "Create": {
@@ -3040,6 +3206,12 @@
           "Title": "Repeticiones",
           "ShareSuccess": {
             "Title": "Enlace de repeticiones copiado"
+          }
+        },
+        "User": {
+          "Title": "Usuarios",
+          "ShareSuccess": {
+            "Title": "Enlace de usuarios copiado"
           }
         },
         "Room": {
@@ -3285,6 +3457,17 @@
             "Title": "Nivel"
           }
         },
+        "User": {
+          "ShareSuccess": {
+            "Title": "Enlace de usuario copiado"
+          },
+          "ActionSuccess": {
+            "Title": "Acción del usuario enviada"
+          },
+          "Profile": {
+            "Title": "Perfil"
+          }
+        },
         "Room": {
           "ShareSuccess": {
             "Title": "Enlace de sala copiado"
@@ -3421,6 +3604,9 @@
         "Replay": {
           "Title": "Configuración de la repetición"
         },
+        "User": {
+          "Title": "Configuración de usuario"
+        },
         "Room": {
           "Title": "Configuración de la sala"
         }
@@ -3481,6 +3667,9 @@
           "Data": "Datos",
           "Configuration": "Configuración"
         },
+        "User": {
+          "Title": "Recursos de usuario"
+        },
         "Room": {
           "Title": "Recursos de la sala",
           "Cover": "Carátula",
@@ -3520,6 +3709,9 @@
         },
         "Replay": {
           "Title": "Guardar repetición"
+        },
+        "User": {
+          "Title": "Guardar usuario"
         },
         "Room": {
           "Title": "Guardar sala"
@@ -3569,6 +3761,11 @@
         "Replay": {
           "Success": {
             "Title": "Repetición guardada"
+          }
+        },
+        "User": {
+          "Success": {
+            "Title": "Usuario guardado"
           }
         },
         "Room": {
@@ -3623,6 +3820,11 @@
             "Title": "Repetición actualizada"
           }
         },
+        "User": {
+          "Success": {
+            "Title": "Usuario actualizado"
+          }
+        },
         "Room": {
           "Success": {
             "Title": "Habitación actualizada"
@@ -3674,6 +3876,9 @@
             }
           }
         },
+        "User": {
+          "Title": "Información del usuario"
+        },
         "Room": {
           "Title": "Información de la sala"
         }
@@ -3722,6 +3927,11 @@
         "Replay": {
           "Success": {
             "Title": "Repetición creada"
+          }
+        },
+        "User": {
+          "Success": {
+            "Title": "Usuario creado"
           }
         },
         "Room": {
@@ -4089,6 +4299,10 @@
         "ShowZeroCombo": {
           "Title": "Mostrar combo cero",
           "Description": "Mostrar combo cuando el combo es cero."
+        },
+        "MetricAnimation": {
+          "Title": "Animación de métricas",
+          "Description": "Animación de las métricas."
         },
         "TouchStyle": {
           "Title": "Estilo táctil",

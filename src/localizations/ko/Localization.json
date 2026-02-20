@@ -22,6 +22,7 @@
     "#PARTICLE": "입자",
     "#ENGINE": "엔진",
     "#REPLAY": "다시보기",
+    "#USER": "사용자",
     "#ROOM": "방",
     "#POST_THUMBNAIL": "섬네일",
     "#PLAYLIST_THUMBNAIL": "섬네일",
@@ -62,6 +63,8 @@
     "#GREAT": "Great",
     "#GOOD": "Good",
     "#MISS": "Miss",
+    "#JUDGMENT": "판정",
+    "#ACCURACY": "정확도",
     "#FILTER": "필터",
     "#SORT": "정렬",
     "#KEYWORDS": "검색어",
@@ -74,6 +77,8 @@
     "#ARTISTS": "작곡가",
     "#TIME": "시간",
     "#AUTHOR": "제작자",
+    "#COAUTHOR": "부 작성자",
+    "#COLLABORATOR": "협력자",
     "#DESCRIPTION": "설명",
     "#GENRE": "장르",
     "#TYPE": "유형",
@@ -89,13 +94,14 @@
     "#TIMEZONE": "시간대",
     "#REGION": "지역",
     "#TAG": "태그",
+    "#INCLUDE_TAG": "포함 태그",
+    "#EXCLUDE_TAG": "제외 태그",
     "#CONTENT": "콘텐츠",
     "#COMMENT": "댓글",
     "#MESSAGE": "메시지",
     "#NOTIFICATION": "알림",
     "#ROLE": "역할",
     "#PERMISSION": "권한",
-    "#USER": "사용자",
     "#SPEED": "레벨 속도",
     "#MIRROR": "대칭 레벨",
     "#RANDOM": "무작위",
@@ -103,6 +109,7 @@
     "#JUDGMENT_STRICT": "엄격한 판정",
     "#JUDGMENT_LOOSE": "느슨한 판정",
     "#EFFECT_AUTO": "효과음 자동 재생",
+    "#HAPTIC": "햅틱",
     "#STAGE": "무대",
     "#STAGE_POSITION": "무대 위치",
     "#STAGE_SIZE": "무대 크기",
@@ -210,6 +217,13 @@
     "#PREVIEW_BEAT": "비트 미리보기",
     "#PREVIEW_MEASURE": "측정 미리보기",
     "#PREVIEW_COMBO": "콤보 미리보기",
+    "#UI": "UI",
+    "#UI_METRIC": "UI 측정",
+    "#UI_PRIMARY_METRIC": "UI 주 측정",
+    "#UI_SECONDARY_METRIC": "UI 보조 측정",
+    "#UI_JUDGMENT": "UI 판정",
+    "#UI_Combo": "UI 콤보",
+    "#UI_Menu": "UI 메뉴",
     "#ON": "켜짐",
     "#OFF": "꺼짐",
     "#NONE": "없음",
@@ -263,6 +277,17 @@
     "#TECHNICAL": "Technical",
     "#SPECIAL": "특별",
     "#APPEND": "추가",
+    "#POST_PLACEHOLDER": "게시물 입력...",
+    "#PLAYLIST_PLACEHOLDER": "재생목록 입력...",
+    "#LEVEL_PLACEHOLDER": "레벨 입력...",
+    "#SKIN_PLACEHOLDER": "스킨 입력...",
+    "#BACKGROUND_PLACEHOLDER": "배경 입력...",
+    "#EFFECT_PLACEHOLDER": "효과음 입력...",
+    "#PARTICLE_PLACEHOLDER": "입자 입력...",
+    "#ENGINE_PLACEHOLDER": "엔진 입력...",
+    "#REPLAY_PLACEHOLDER": "다시보기 입력...",
+    "#USER_PLACEHOLDER": "사용자 입력...",
+    "#ROOM_PLACEHOLDER": "방 입력...",
     "#KEYWORDS_PLACEHOLDER": "핵심 단어 입력...",
     "#NAME_PLACEHOLDER": "이름 입력...",
     "#RATING_PLACEHOLDER": "난이도 입력...",
@@ -273,6 +298,8 @@
     "#ARTISTS_PLACEHOLDER": "작곡가 입력...",
     "#TIME_PLACEHOLDER": "시간 입력...",
     "#AUTHOR_PLACEHOLDER": "제작자 입력...",
+    "#COAUTHOR_PLACEHOLDER": "부 작성자 입력...",
+    "#COLLABORATOR_PLACEHOLDER": "협력자 입력...",
     "#DESCRIPTION_PLACEHOLDER": "설명 입력...",
     "#GENRE_PLACEHOLDER": "장르 입력...",
     "#TYPE_PLACEHOLDER": "유형 입력...",
@@ -292,10 +319,9 @@
     "#MESSAGE_PLACEHOLDER": "메시지 입력...",
     "#ROLE_PLACEHOLDER": "역할 입력...",
     "#PERMISSION_PLACEHOLDER": "권한 입력...",
-    "#USER_PLACEHOLDER": "사용자 입력...",
     "#PERCENTAGE_UNIT": "{0}%",
     "#YEAR_UNIT": "{0}년",
-    "#MONTH_UNIT": "{0}월",
+    "#MONTH_UNIT": "{0}개월",
     "#DAY_UNIT": "{0}일",
     "#HOUR_UNIT": "{0}시간",
     "#MINUTE_UNIT": "{0}분",
@@ -335,6 +361,7 @@
     "#POPULAR": "인기",
     "#FEATURED": "추천",
     "#COMPETITIVE": "호환성",
+    "#TOURNAMENT": "토너먼트",
     "#HOLIDAY": "연휴",
     "#LIMITED": "제한됨",
     "#ANNOUNCEMENT": "공지",
@@ -378,8 +405,16 @@
     "#INSTRUMENTAL": "연주곡",
     "#SHORT_VERSION": "짧은 버전",
     "#LONG_VERSION": "긴 버전",
+    "#CUT_VERSION": "컷 버전",
     "#FULL_VERSION": "풀 버전",
+    "#EXTENDED_VERSION": "확장 버전",
     "#LIVE_VERSION": "라이브 버전",
+    "#EXPLICIT": "노골적",
+    "#MULTI_FINGER": "여러 손가락",
+    "#FULL_HAND": "손 전체",
+    "#CROSS_HAND": "손 교차",
+    "#GIMMICK": "기믹",
+    "#COLLABORATION": "협력",
     "#REPORT": "신고",
     "#REASON": "사유",
     "#ILLEGAL_ACTIVITIES": "불법 행위",
@@ -611,6 +646,7 @@
         "Particle": "선택된 입자 없음",
         "Engine": "선택된 엔진 없음",
         "Replay": "선택된 다시보기 없음",
+        "User": "선택된 사용자 없음",
         "Room": "선택된 방 없음"
       },
       "NoSource": {
@@ -623,6 +659,7 @@
         "Particle": "이 입자는 원본 서버가 없어 선택될 수 없습니다.\n\n다른 입자를 사용하거나 입자 소유자에게 문의해 주십시오.",
         "Engine": "이 엔진은 원본 서버가 없어 선택될 수 없습니다.\n\n다른 엔진을 사용하거나 엔진 소유자에게 문의해 주십시오.",
         "Replay": "이 다시보기는 원본 서버가 없어 선택될 수 없습니다.\n\n다른 다시보기를 사용하거나 다시보기 소유자에게 문의해 주십시오.",
+        "User": "이 사용자는 소속된 서버가 없어 선택할 수 없습니다.\n\n다른 사용자를 선택하거나 사용자 작성자에게 문제를 보고해 주십시오.",
         "Room": "이 방은 원본 서버가 없어 선택될 수 없습니다.\n\n다른 방을 사용하거나 방 소유자에게 문의해 주십시오."
       },
       "NoOtherServers": {
@@ -635,11 +672,27 @@
         "Particle": "다른 서버의 입자를 선택할 수 없습니다.\n\n같은 서버의 다른 입자를 사용해 주십시오.",
         "Engine": "다른 서버의 엔진을 선택할 수 없습니다.\n\n같은 서버의 다른 엔진을 사용해 주십시오.",
         "Replay": "다른 서버의 다시보기를 선택할 수 없습니다.\n\n같은 서버의 다른 다시보기를 사용해 주십시오.",
+        "User": "이 사용자는 다른 서버에 소속되어 있기 때문에 선택할 수 없습니다.\n\n같은 서버에서 다른 사용자를 선택해 주십시오.",
         "Room": "다른 서버의 방을 선택할 수 없습니다.\n\n같은 서버의 다른 방을 사용해 주십시오."
       }
     },
     "FileField": {
-      "NoSelected": "선택된 파일 없음"
+      "NoSelected": "선택된 파일 없음",
+      "Validation": {
+        "Invalid": "잘못된 파일입니다.\n\n다른 파일을 선택해 주십시오.",
+        "MinSize": "파일이 너무 작습니다.\n\n다른 파일을 선택해 주십시오.",
+        "MaxSize": "파일이 너무 큽니다.\n\n다른 파일을 선택해 주십시오.",
+        "Image": {
+          "MinWidth": "이미지 가로 크기가 너무 작습니다.\n\n다른 파일을 선택해 주십시오.",
+          "MaxWidth": "이미지 가로 크기가 너무 큽니다.\n\n다른 파일을 선택해 주십시오.",
+          "MinHeight": "이미지 세로 크기가 너무 작습니다.\n\n다른 파일을 선택해 주십시오.",
+          "MaxHeight": "이미지 세로 크기가 너무 큽니다.\n\n다른 파일을 선택해 주십시오."
+        },
+        "Audio": {
+          "MinLength": "오디오 길이가 너무 짧습니다.\n\n다른 파일을 선택해 주십시오.",
+          "MaxLength": "오디오 길이가 너무 깁니다.\n\n다른 파일을 선택해 주십시오."
+        }
+      }
     },
     "PullToLoad": {
       "None": "불러올 항목 없음",
@@ -1627,6 +1680,64 @@
           "Error": "\"{0}\"의 다시보기 구성을 불러올 수 없습니다."
         }
       },
+      "User": {
+        "Info": {
+          "Loading": "사용자 정보 불러오는 중...",
+          "Error": "\"{0}\"의 사용자 정보를 불러올 수 없습니다."
+        },
+        "Create": {
+          "Loading": "사용자 생성 중...",
+          "Error": "\"{0}\"에서 사용자를 생성할 수 없습니다."
+        },
+        "List": {
+          "Loading": "사용자 불러오는 중...",
+          "Error": "{0}페이지에서 사용자를 불러올 수 없습니다."
+        },
+        "Details": {
+          "Loading": "사용자 세부사항 불러오는 중...",
+          "Error": "\"{0}\"의 사용자 세부사항을 불러올 수 없습니다."
+        },
+        "Submit": {
+          "Loading": "사용자에게 제출 중...",
+          "Error": "\"{0}\" 사용자에게 제출할 수 없습니다."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "사용자 커뮤니티 정보 불러오는 중...",
+            "Error": "\"{0}\"의 사용자 커뮤니티 정보를 불러올 수 없습니다."
+          },
+          "Submit": {
+            "Loading": "사용자 커뮤니티에 제출 중...",
+            "Error": "\"{0}\"의 사용자 커뮤니티에 제출할 수 없습니다."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "사용자 댓글 불러오는 중...",
+              "Error": "{0}페이지에서 사용자 댓글을 불러올 수 없습니다."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "사용자 순위표 세부사항 불러오는 중...",
+            "Error": "\"{0}\"의 사용자 순위표 세부사항을 불러올 수 없습니다."
+          },
+          "Record": {
+            "List": {
+              "Loading": "사용자 기록 불러오는 중...",
+              "Error": "{0}페이지에서 사용자 기록을 불러올 수 없습니다."
+            },
+            "Details": {
+              "Loading": "사용자 기록 세부사항 불러오는 중...",
+              "Error": "\"{0}\"의 사용자 세부사항을 불러올 수 없습니다."
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "사용자 호환성 확인 중...",
+          "Error": "\"{0}\" 사용자는 현재 버전의 Sonolus와 호환되지 않습니다.\n\n다른 사용자를 이용하거나 서버 소유자에게 문제를 보고해 주십시오."
+        }
+      },
       "Room": {
         "Info": {
           "Loading": "방 정보 불러오는 중...",
@@ -1983,6 +2094,24 @@
           "Error": "\"{0}\"의 다시보기 구성을 불러올 수 없습니다.\n\n다시보기를 업데이트하거나 다른 다시보기를 사용해 주십시오."
         }
       },
+      "User": {
+        "Info": {
+          "Loading": "사용자 정보 불러오는 중...",
+          "Error": "\"{0}\"의 사용자 정보를 불러올 수 없습니다.\n\n모음집이 손상됐을 수 있습니다."
+        },
+        "List": {
+          "Loading": "사용자 불러오는 중...",
+          "Error": "{0}페이지에서 사용자를 불러올 수 없습니다.\n\n모음집이 손상됐을 수 있습니다."
+        },
+        "Details": {
+          "Loading": "사용자 세부사항 불러오는 중...",
+          "Error": "\"{0}\"의 사용자 세부사항을 불러올 수 없습니다.\n\n모음집이 손상됐을 수 있습니다."
+        },
+        "Compatibility": {
+          "Loading": "사용자 호환성 확인 중...",
+          "Error": "\"{0}\" 사용자는 현재 버전의 Sonolus와 호환되지 않습니다.\n\n이 사용자를 업데이트하거나 다른 사용자를 이용해 주십시오."
+        }
+      },
       "Room": {
         "Info": {
           "Loading": "방 정보 불러오는 중...",
@@ -2303,6 +2432,24 @@
           "Error": "\"{0}\"의 다시보기 구성을 불러올 수 없습니다.\n\n꾸러미가 지원되지 않거나 손상됐을 수 있습니다."
         }
       },
+      "User": {
+        "Info": {
+          "Loading": "사용자 정보 불러오는 중...",
+          "Error": "\"{0}\"의 사용자 정보를 불러올 수 없습니다.\n\n꾸러미가 지원되지 않거나 손상됐을 수 있습니다."
+        },
+        "List": {
+          "Loading": "사용자 불러오는 중...",
+          "Error": "{0}페이지에서 사용자를 불러올 수 없습니다.\n\n꾸러미가 지원되지 않거나 손상됐을 수 있습니다."
+        },
+        "Details": {
+          "Loading": "사용자 세부사항 불러오는 중...",
+          "Error": "\"{0}\"의 사용자 세부사항을 불러올 수 없습니다.\n\n꾸러미가 지원되지 않거나 손상됐을 수 있습니다."
+        },
+        "Compatibility": {
+          "Loading": "사용자 호환성 확인 중...",
+          "Error": "\"{0}\" 사용자는 현재 버전의 Sonolus와 호환되지 않습니다.\n\n꾸러미가 지원되지 않거나 손상됐을 수 있습니다."
+        }
+      },
       "Room": {
         "Info": {
           "Loading": "방 정보 불러오는 중...",
@@ -2451,6 +2598,10 @@
           "Title": "다시보기 생성",
           "Description": "다시보기를 생성할 모음집을 선택하십시오."
         },
+        "User": {
+          "Title": "사용자 생성",
+          "Description": "이 사용자를 생성할 모음집을 선택하십시오."
+        },
         "Room": {
           "Title": "방 생성",
           "Description": "방을 생성할 모음집을 선택하십시오."
@@ -2492,6 +2643,10 @@
         "Replay": {
           "Title": "다시보기 선택",
           "Description": "다시보기를 사용할 맞춤 서버 또는 모음집을 선택하십시오."
+        },
+        "User": {
+          "Title": "사용자 선택",
+          "Description": "사용자를 사용할 맞춤 서버나 모음집을 선택하십시오."
         },
         "Room": {
           "Title": "방 선택",
@@ -2816,6 +2971,7 @@
         "Particle": "입자",
         "Engine": "엔진",
         "Replay": "다시보기",
+        "User": "사용자",
         "Room": "방"
       }
     },
@@ -2855,6 +3011,7 @@
         "Particle": "입자",
         "Engine": "엔진",
         "Replay": "다시보기",
+        "User": "사용자",
         "Room": "방",
         "Configuration": "구성",
         "CollectionUpdateConfirmation": {
@@ -2969,6 +3126,15 @@
             }
           }
         },
+        "User": {
+          "Title": "사용자",
+          "Create": {
+            "Title": "사용자 생성",
+            "Success": {
+              "Title": "사용자 생성됨"
+            }
+          }
+        },
         "Room": {
           "Title": "방",
           "Create": {
@@ -3040,6 +3206,12 @@
           "Title": "다시보기",
           "ShareSuccess": {
             "Title": "다시보기 링크 복사됨"
+          }
+        },
+        "User": {
+          "Title": "사용자",
+          "ShareSuccess": {
+            "Title": "사용자 링크 복사됨"
           }
         },
         "Room": {
@@ -3285,6 +3457,17 @@
             "Title": "레벨"
           }
         },
+        "User": {
+          "ShareSuccess": {
+            "Title": "사용자 링크 복사됨"
+          },
+          "ActionSuccess": {
+            "Title": "사용자 행동 제출됨"
+          },
+          "Profile": {
+            "Title": "프로필"
+          }
+        },
         "Room": {
           "ShareSuccess": {
             "Title": "방 링크 복사됨"
@@ -3421,6 +3604,9 @@
         "Replay": {
           "Title": "다시보기 구성"
         },
+        "User": {
+          "Title": "사용자 구성"
+        },
         "Room": {
           "Title": "방 구성"
         }
@@ -3481,6 +3667,9 @@
           "Data": "데이터",
           "Configuration": "구성"
         },
+        "User": {
+          "Title": "사용자 자원"
+        },
         "Room": {
           "Title": "방 자원",
           "Cover": "커버",
@@ -3520,6 +3709,9 @@
         },
         "Replay": {
           "Title": "다시보기 저장"
+        },
+        "User": {
+          "Title": "사용자 저장"
         },
         "Room": {
           "Title": "방 저장"
@@ -3569,6 +3761,11 @@
         "Replay": {
           "Success": {
             "Title": "다시보기 저장됨"
+          }
+        },
+        "User": {
+          "Success": {
+            "Title": "사용자 저장됨"
           }
         },
         "Room": {
@@ -3623,6 +3820,11 @@
             "Title": "다시보기 업데이트됨"
           }
         },
+        "User": {
+          "Success": {
+            "Title": "사용자 업데이트됨"
+          }
+        },
         "Room": {
           "Success": {
             "Title": "방 업데이트됨"
@@ -3674,6 +3876,9 @@
             }
           }
         },
+        "User": {
+          "Title": "사용자 정보"
+        },
         "Room": {
           "Title": "방 정보"
         }
@@ -3722,6 +3927,11 @@
         "Replay": {
           "Success": {
             "Title": "다시보기 생성됨"
+          }
+        },
+        "User": {
+          "Success": {
+            "Title": "사용자 생성됨"
           }
         },
         "Room": {
@@ -4089,6 +4299,10 @@
         "ShowZeroCombo": {
           "Title": "0콤보 표시",
           "Description": "콤보가 0일 때 콤보를 표시합니다."
+        },
+        "MetricAnimation": {
+          "Title": "측정 애니메이션",
+          "Description": "측정의 애니메이션입니다."
         },
         "TouchStyle": {
           "Title": "터치 스타일",

@@ -22,6 +22,7 @@
     "#PARTICLE": "パーティクル",
     "#ENGINE": "エンジン",
     "#REPLAY": "リプレイ",
+    "#USER": "ユーザー",
     "#ROOM": "部屋",
     "#POST_THUMBNAIL": "サムネイル",
     "#PLAYLIST_THUMBNAIL": "サムネイル",
@@ -62,6 +63,8 @@
     "#GREAT": "Great",
     "#GOOD": "Good",
     "#MISS": "Miss",
+    "#JUDGMENT": "判定",
+    "#ACCURACY": "精度",
     "#FILTER": "フィルター",
     "#SORT": "ソート",
     "#KEYWORDS": "キーワード",
@@ -73,7 +76,9 @@
     "#SUBTITLE": "サブタイトル",
     "#ARTISTS": "アーティスト名",
     "#TIME": "時間",
-    "#AUTHOR": "作者名",
+    "#AUTHOR": "作成者",
+    "#COAUTHOR": "共同作成者",
+    "#COLLABORATOR": "コラボレーター",
     "#DESCRIPTION": "説明",
     "#GENRE": "ジャンル名",
     "#TYPE": "タイプ",
@@ -89,13 +94,14 @@
     "#TIMEZONE": "タイムゾーン",
     "#REGION": "地域",
     "#TAG": "タグ",
+    "#INCLUDE_TAG": "含めるタグ",
+    "#EXCLUDE_TAG": "含めないタグ",
     "#CONTENT": "内容",
     "#COMMENT": "コメント",
     "#MESSAGE": "メッセージ",
     "#NOTIFICATION": "通知",
     "#ROLE": "ロール",
     "#PERMISSION": "権限",
-    "#USER": "ユーザー",
     "#SPEED": "レベル再生速度",
     "#MIRROR": "レベルを反転",
     "#RANDOM": "ランダム",
@@ -103,6 +109,7 @@
     "#JUDGMENT_STRICT": "判定ハードモード",
     "#JUDGMENT_LOOSE": "判定イージーモード",
     "#EFFECT_AUTO": "自動SE",
+    "#HAPTIC": "振動",
     "#STAGE": "ステージの表示",
     "#STAGE_POSITION": "ステージの位置",
     "#STAGE_SIZE": "ステージの大きさ",
@@ -210,6 +217,13 @@
     "#PREVIEW_BEAT": "プレビュー：拍子",
     "#PREVIEW_MEASURE": "プレビュー：小節",
     "#PREVIEW_COMBO": "プレビュー：コンボ",
+    "#UI": "UI",
+    "#UI_METRIC": "UI：ステータス",
+    "#UI_PRIMARY_METRIC": "UI：メインステータス",
+    "#UI_SECONDARY_METRIC": "UI：サブステータス",
+    "#UI_JUDGMENT": "UI：判定",
+    "#UI_Combo": "UI：コンボ",
+    "#UI_Menu": "UI：メニュー",
     "#ON": "ON",
     "#OFF": "OFF",
     "#NONE": "無し",
@@ -263,6 +277,17 @@
     "#TECHNICAL": "Technical",
     "#SPECIAL": "Special",
     "#APPEND": "Append",
+    "#POST_PLACEHOLDER": "投稿を入力...",
+    "#PLAYLIST_PLACEHOLDER": "プレイリストを入力...",
+    "#LEVEL_PLACEHOLDER": "レベルを入力...",
+    "#SKIN_PLACEHOLDER": "スキンを入力...",
+    "#BACKGROUND_PLACEHOLDER": "背景を入力...",
+    "#EFFECT_PLACEHOLDER": "SEを入力...",
+    "#PARTICLE_PLACEHOLDER": "パーティクルを入力...",
+    "#ENGINE_PLACEHOLDER": "エンジンを入力...",
+    "#REPLAY_PLACEHOLDER": "リプレイを入力...",
+    "#USER_PLACEHOLDER": "ユーザーを入力...",
+    "#ROOM_PLACEHOLDER": "部屋を入力...",
     "#KEYWORDS_PLACEHOLDER": "キーワードを入力...",
     "#NAME_PLACEHOLDER": "名称を入力...",
     "#RATING_PLACEHOLDER": "難易度を入力...",
@@ -273,6 +298,8 @@
     "#ARTISTS_PLACEHOLDER": "アーティスト名を入力...",
     "#TIME_PLACEHOLDER": "時間を入力...",
     "#AUTHOR_PLACEHOLDER": "作者名を入力...",
+    "#COAUTHOR_PLACEHOLDER": "共同作成者を入力...",
+    "#COLLABORATOR_PLACEHOLDER": "コラボレーターを入力...",
     "#DESCRIPTION_PLACEHOLDER": "説明を入力...",
     "#GENRE_PLACEHOLDER": "ジャンル名を入力...",
     "#TYPE_PLACEHOLDER": "タイプを入力...",
@@ -292,29 +319,28 @@
     "#MESSAGE_PLACEHOLDER": "メッセージを入力...",
     "#ROLE_PLACEHOLDER": "ロールを入力...",
     "#PERMISSION_PLACEHOLDER": "権限を入力...",
-    "#USER_PLACEHOLDER": "ユーザーを入力...",
     "#PERCENTAGE_UNIT": "{0}%",
-    "#YEAR_UNIT": "{0} 年",
-    "#MONTH_UNIT": "{0} 月",
-    "#DAY_UNIT": "{0} 日",
-    "#HOUR_UNIT": "{0} 時間",
-    "#MINUTE_UNIT": "{0} 分",
-    "#SECOND_UNIT": "{0} 秒",
-    "#MILLISECOND_UNIT": "{0} ms",
-    "#YEAR_PAST": "{0} 年前",
-    "#MONTH_PAST": "{0} 月前",
-    "#DAY_PAST": "{0} 日前",
-    "#HOUR_PAST": "{0} 時間前",
-    "#MINUTE_PAST": "{0} 分前",
-    "#SECOND_PAST": "{0} 秒前",
-    "#MILLISECOND_PAST": "{0} ms 前",
-    "#YEAR_FUTURE": "{0} 年後",
-    "#MONTH_FUTURE": "{0} 月後",
-    "#DAY_FUTURE": "{0} 日後",
-    "#HOUR_FUTURE": "{0} 時間後",
-    "#MINUTE_FUTURE": "{0} 分後",
-    "#SECOND_FUTURE": "{0} 秒後",
-    "#MILLISECOND_FUTURE": "{0} ms 後",
+    "#YEAR_UNIT": "{0}年",
+    "#MONTH_UNIT": "{0}月",
+    "#DAY_UNIT": "{0}日",
+    "#HOUR_UNIT": "{0}時間",
+    "#MINUTE_UNIT": "{0}分",
+    "#SECOND_UNIT": "{0}秒",
+    "#MILLISECOND_UNIT": "{0}ミリ秒",
+    "#YEAR_PAST": "{0}年前",
+    "#MONTH_PAST": "{0}月前",
+    "#DAY_PAST": "{0}日前",
+    "#HOUR_PAST": "{0}時間前",
+    "#MINUTE_PAST": "{0}分前",
+    "#SECOND_PAST": "{0}秒前",
+    "#MILLISECOND_PAST": "{0}ミリ秒前",
+    "#YEAR_FUTURE": "{0}年後",
+    "#MONTH_FUTURE": "{0}月後",
+    "#DAY_FUTURE": "{0}日後",
+    "#HOUR_FUTURE": "{0}時間後",
+    "#MINUTE_FUTURE": "{0}分後",
+    "#SECOND_FUTURE": "{0}秒後",
+    "#MILLISECOND_FUTURE": "{0}ミリ秒後",
     "#TAP": "タップ",
     "#TAP_HOLD": "タップ→長押し",
     "#TAP_RELEASE": "タップ→離す",
@@ -335,6 +361,7 @@
     "#POPULAR": "人気",
     "#FEATURED": "特集",
     "#COMPETITIVE": "競技",
+    "#TOURNAMENT": "トーナメント",
     "#HOLIDAY": "ホリデー",
     "#LIMITED": "限定",
     "#ANNOUNCEMENT": "お知らせ",
@@ -378,8 +405,16 @@
     "#INSTRUMENTAL": "Inst.",
     "#SHORT_VERSION": "ショートバージョン",
     "#LONG_VERSION": "ロングバージョン",
+    "#CUT_VERSION": "カットバージョン",
     "#FULL_VERSION": "フルバージョン",
+    "#EXTENDED_VERSION": "拡張バージョン",
     "#LIVE_VERSION": "ライブバージョン",
+    "#EXPLICIT": "R-18",
+    "#MULTI_FINGER": "多指",
+    "#FULL_HAND": "片手処理",
+    "#CROSS_HAND": "交差",
+    "#GIMMICK": "ギミック",
+    "#COLLABORATION": "コラボレーション",
     "#REPORT": "通報",
     "#REASON": "理由",
     "#ILLEGAL_ACTIVITIES": "違法行為",
@@ -611,6 +646,7 @@
         "Particle": "パーティクルが選択されていません",
         "Engine": "エンジンが選択されていません",
         "Replay": "リプレイが選択されていません",
+        "User": "ユーザーが選択されていません",
         "Room": "部屋が選択されていません"
       },
       "NoSource": {
@@ -623,6 +659,7 @@
         "Particle": "このパーティクルには取得元のサーバー情報がありません。\n\n別のパーティクルを選択するか、サーバーの管理者にお問い合わせください。",
         "Engine": "このエンジンには取得元のサーバー情報がありません。\n\n別のエンジンを選択するか、サーバーの管理者にお問い合わせください。",
         "Replay": "このリプレイには取得元のサーバー情報がありません。\n\n別のリプレイを選択するか、サーバーの管理者にお問い合わせください。",
+        "User": "このユーザーには取得元のサーバー情報がありません。\n\n別のユーザーを選択するか、サーバーの管理者にお問い合わせください。",
         "Room": "この部屋には取得元のサーバー情報がありません。\n\n別の部屋を選択するか、サーバーの管理者にお問い合わせください。"
       },
       "NoOtherServers": {
@@ -635,11 +672,27 @@
         "Particle": "このパーティクルは別のサーバーにあるため選択できません。\n\n同じサーバーのパーティクルを選択してください。",
         "Engine": "このエンジンは別のサーバーにあるため選択できません。\n\n同じサーバーのエンジンを選択してください。",
         "Replay": "このリプレイは別のサーバーにあるため選択できません。\n\n同じサーバーのリプレイを選択してください。",
+        "User": "このユーザーは別のサーバーにあるため選択できません。\n\n同じサーバーのユーザーを選択してください。",
         "Room": "この部屋は別のサーバーにあるため選択できません。\n\n同じサーバーの部屋を選択してください。"
       }
     },
     "FileField": {
-      "NoSelected": "ファイルが選択されていません"
+      "NoSelected": "ファイルが選択されていません",
+      "Validation": {
+        "Invalid": "ファイルが無効です。\n\n他のファイルを選択してください。",
+        "MinSize": "ファイルが小さすぎます。\n\n他のファイルを選択してください。",
+        "MaxSize": "ファイルが大きすぎます。\n\n他のファイルを選択してください。",
+        "Image": {
+          "MinWidth": "画像の幅が小さすぎます。\n\n他のファイルを選択してください。",
+          "MaxWidth": "画像の幅が大きすぎます。\n\n他のファイルを選択してください。",
+          "MinHeight": "画像の高さが小さすぎます。\n\n他のファイルを選択してください。",
+          "MaxHeight": "画像の高さが大きすぎます。\n\n他のファイルを選択してください。"
+        },
+        "Audio": {
+          "MinLength": "音源の長さが短すぎます。\n\n他のファイルを選択してください。",
+          "MaxLength": "音源の長さが長すぎます。\n\n他のファイルを選択してください。"
+        }
+      }
     },
     "PullToLoad": {
       "None": "この先には何もありません",
@@ -1627,6 +1680,64 @@
           "Error": "\"{0}\"のリプレイ設定の読み込みに失敗しました。"
         }
       },
+      "User": {
+        "Info": {
+          "Loading": "ユーザーの情報を読み込み中...",
+          "Error": "{0}のユーザーの情報の読み込みに失敗しました。"
+        },
+        "Create": {
+          "Loading": "ユーザーを作成中...",
+          "Error": "{0}のユーザーの作成に失敗しました。"
+        },
+        "List": {
+          "Loading": "ユーザーを読み込み中...",
+          "Error": "{0}ページ目のユーザーの読み込みに失敗しました。"
+        },
+        "Details": {
+          "Loading": "ユーザーの詳細を読み込み中...",
+          "Error": "{0}のユーザーの詳細の読み込みに失敗しました。"
+        },
+        "Submit": {
+          "Loading": "ユーザーに送信中...",
+          "Error": "{0}のユーザーへの送信に失敗しました。"
+        },
+        "Community": {
+          "Info": {
+            "Loading": "ユーザーコミュニティの情報を読み込み中...",
+            "Error": "{0}のユーザーコミュニティの情報の読み込みに失敗しました。"
+          },
+          "Submit": {
+            "Loading": "ユーザーコミュニティに送信中...",
+            "Error": "{0}のユーザーコミュニティへの送信に失敗しました。"
+          },
+          "Comment": {
+            "List": {
+              "Loading": "ユーザーコメントを読み込み中...",
+              "Error": "{0}のユーザーコメントの読み込み中に失敗しました。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "ユーザーランキングの詳細を読み込み中...",
+            "Error": "{0}のユーザーランキングの詳細の読み込みに失敗しました。"
+          },
+          "Record": {
+            "List": {
+              "Loading": "ユーザーの記録を読み込み中...",
+              "Error": "{0}ページ目のユーザーの記録の読み込みに失敗しました。"
+            },
+            "Details": {
+              "Loading": "ユーザーの記録の詳細を読み込み中...",
+              "Error": "{0}ページ目のユーザーの記録の詳細の読み込みに失敗しました。"
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "ユーザーの互換性を確認中...",
+          "Error": "ユーザー{0}は現在のSonolusバージョンと互換性がありません。\n\n別のユーザーを選択するか、サーバーの管理者にお問い合わせ下さい。"
+        }
+      },
       "Room": {
         "Info": {
           "Loading": "部屋情報を読み込み中...",
@@ -1983,6 +2094,24 @@
           "Error": "\"{0}\"のリプレイ設定の読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のリプレイをご利用ください。"
         }
       },
+      "User": {
+        "Info": {
+          "Loading": "ユーザーの情報を読み込み中...",
+          "Error": "{0}のユーザーの情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "List": {
+          "Loading": "ユーザーを読み込み中...",
+          "Error": "{0}ページ目のユーザーの情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Details": {
+          "Loading": "ユーザーの詳細を読み込み中...",
+          "Error": "{0}のユーザーの情報の詳細の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Compatibility": {
+          "Loading": "ユーザーの互換性を確認中...",
+          "Error": "ユーザー{0}は現在のSonolusバージョンと互換性がありません。\n\nこのユーザーを更新するか、別のユーザーを使用してください。"
+        }
+      },
       "Room": {
         "Info": {
           "Loading": "部屋情報を読み込み中...",
@@ -2303,6 +2432,24 @@
           "Error": "{0} のリプレイの設定の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
         }
       },
+      "User": {
+        "Info": {
+          "Loading": "ユーザー情報を読み込み中...",
+          "Error": "{0}のユーザーの情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "List": {
+          "Loading": "ユーザーを読み込み中...",
+          "Error": "{0}ページ目のユーザーの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。\n"
+        },
+        "Details": {
+          "Loading": "ユーザーの詳細を読み込み中...",
+          "Error": "\"{0}\" のユーザーの詳細の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。\n"
+        },
+        "Compatibility": {
+          "Loading": "ユーザーの互換性を確認中...",
+          "Error": "ユーザー \"{0}\" は現在のSonolusバージョンと互換性がありません。\n\n別のユーザーを選択するか、サーバーの管理者にお問い合わせ下さい。"
+        }
+      },
       "Room": {
         "Info": {
           "Loading": "部屋の情報を読み込み中...",
@@ -2451,6 +2598,10 @@
           "Title": "リプレイの作成",
           "Description": "このリプレイを作成するコレクションを選択してください。"
         },
+        "User": {
+          "Title": "ユーザーを作成",
+          "Description": "このユーザーを作成するコレクションを選択してください。"
+        },
         "Room": {
           "Title": "部屋の作成",
           "Description": "この部屋を作成するコレクションを選択してください。"
@@ -2492,6 +2643,10 @@
         "Replay": {
           "Title": "リプレイの選択",
           "Description": "リプレイを使用するカスタムサーバーまたはコレクションを選択してください。"
+        },
+        "User": {
+          "Title": "ユーザーを選択",
+          "Description": "このユーザーを利用するカスタムサーバー、またはコレクションを選択してください。"
         },
         "Room": {
           "Title": "部屋の選択",
@@ -2816,6 +2971,7 @@
         "Particle": "パーティクル",
         "Engine": "エンジン",
         "Replay": "リプレイ",
+        "User": "ユーザー",
         "Room": "部屋"
       }
     },
@@ -2855,6 +3011,7 @@
         "Particle": "パーティクル",
         "Engine": "エンジン",
         "Replay": "リプレイ",
+        "User": "ユーザーリスト",
         "Room": "部屋",
         "Configuration": "設定",
         "CollectionUpdateConfirmation": {
@@ -2969,6 +3126,15 @@
             }
           }
         },
+        "User": {
+          "Title": "ユーザー",
+          "Create": {
+            "Title": "ユーザーを作成",
+            "Success": {
+              "Title": "ユーザーを作成しました"
+            }
+          }
+        },
         "Room": {
           "Title": "部屋",
           "Create": {
@@ -3040,6 +3206,12 @@
           "Title": "リプレイ一覧",
           "ShareSuccess": {
             "Title": "リプレイ一覧のリンクをコピーしました"
+          }
+        },
+        "User": {
+          "Title": "ユーザーリスト",
+          "ShareSuccess": {
+            "Title": "ユーザーリストのリンクをコピーしました"
           }
         },
         "Room": {
@@ -3285,6 +3457,17 @@
             "Title": "レベル"
           }
         },
+        "User": {
+          "ShareSuccess": {
+            "Title": "ユーザーのリンクをコピーしました"
+          },
+          "ActionSuccess": {
+            "Title": "ユーザーの登録設定が送信されました"
+          },
+          "Profile": {
+            "Title": "プロフィール"
+          }
+        },
         "Room": {
           "ShareSuccess": {
             "Title": "部屋のリンクをコピーしました"
@@ -3421,6 +3604,9 @@
         "Replay": {
           "Title": "リプレイ設定"
         },
+        "User": {
+          "Title": "ユーザー設定"
+        },
         "Room": {
           "Title": "部屋設定"
         }
@@ -3481,6 +3667,9 @@
           "Data": "データ",
           "Configuration": "設定"
         },
+        "User": {
+          "Title": "ユーザーリソース"
+        },
         "Room": {
           "Title": "リソース",
           "Cover": "カバー",
@@ -3520,6 +3709,9 @@
         },
         "Replay": {
           "Title": "リプレイを保存"
+        },
+        "User": {
+          "Title": "ユーザーを保存"
         },
         "Room": {
           "Title": "部屋を保存"
@@ -3569,6 +3761,11 @@
         "Replay": {
           "Success": {
             "Title": "リプレイを保存しました"
+          }
+        },
+        "User": {
+          "Success": {
+            "Title": "ユーザーを保存しました"
           }
         },
         "Room": {
@@ -3623,6 +3820,11 @@
             "Title": "リプレイを更新しました"
           }
         },
+        "User": {
+          "Success": {
+            "Title": "ユーザーを更新しました"
+          }
+        },
         "Room": {
           "Success": {
             "Title": "部屋を更新しました"
@@ -3674,6 +3876,9 @@
             }
           }
         },
+        "User": {
+          "Title": "ユーザーの情報"
+        },
         "Room": {
           "Title": "部屋情報"
         }
@@ -3722,6 +3927,11 @@
         "Replay": {
           "Success": {
             "Title": "リプレイを作成しました"
+          }
+        },
+        "User": {
+          "Success": {
+            "Title": "ユーザーを作成しました"
           }
         },
         "Room": {
@@ -4089,6 +4299,10 @@
         "ShowZeroCombo": {
           "Title": "0コンボを表示する",
           "Description": "0コンボを表示します。"
+        },
+        "MetricAnimation": {
+          "Title": "ステータスのアニメーション",
+          "Description": "ステータスのアニメーション。"
         },
         "TouchStyle": {
           "Title": "タッチ表示のスタイル",

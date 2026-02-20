@@ -22,6 +22,7 @@
     "#PARTICLE": "粒子效果",
     "#ENGINE": "引擎",
     "#REPLAY": "回放",
+    "#USER": "用户",
     "#ROOM": "房间",
     "#POST_THUMBNAIL": "缩略图",
     "#PLAYLIST_THUMBNAIL": "缩略图",
@@ -62,6 +63,8 @@
     "#GREAT": "Great",
     "#GOOD": "Good",
     "#MISS": "Miss",
+    "#JUDGMENT": "判定",
+    "#ACCURACY": "精准度",
     "#FILTER": "过滤器",
     "#SORT": "排序",
     "#KEYWORDS": "关键字",
@@ -74,6 +77,8 @@
     "#ARTISTS": "艺术家",
     "#TIME": "时间",
     "#AUTHOR": "作者",
+    "#COAUTHOR": "共同所有者",
+    "#COLLABORATOR": "合作者",
     "#DESCRIPTION": "描述",
     "#GENRE": "风格",
     "#TYPE": "类型",
@@ -89,13 +94,14 @@
     "#TIMEZONE": "时区",
     "#REGION": "地区",
     "#TAG": "标签",
+    "#INCLUDE_TAG": "包含标签",
+    "#EXCLUDE_TAG": "排除标签",
     "#CONTENT": "内容",
     "#COMMENT": "评论",
     "#MESSAGE": "消息",
     "#NOTIFICATION": "消息",
     "#ROLE": "角色",
     "#PERMISSION": "权限",
-    "#USER": "用户",
     "#SPEED": "关卡速度",
     "#MIRROR": "镜像关卡",
     "#RANDOM": "随机",
@@ -103,6 +109,7 @@
     "#JUDGMENT_STRICT": "严格判定",
     "#JUDGMENT_LOOSE": "宽松判定",
     "#EFFECT_AUTO": "自动音效",
+    "#HAPTIC": "触觉反馈",
     "#STAGE": "舞台",
     "#STAGE_POSITION": "舞台位置",
     "#STAGE_SIZE": "舞台尺寸",
@@ -210,6 +217,13 @@
     "#PREVIEW_BEAT": "预览节拍",
     "#PREVIEW_MEASURE": "预览刻度",
     "#PREVIEW_COMBO": "预览连击",
+    "#UI": "UI",
+    "#UI_METRIC": "UI 指标",
+    "#UI_PRIMARY_METRIC": "UI 主要指标",
+    "#UI_SECONDARY_METRIC": "UI 次要指标",
+    "#UI_JUDGMENT": "UI判断",
+    "#UI_Combo": "UI连击",
+    "#UI_Menu": "UI菜单",
     "#ON": "开",
     "#OFF": "关",
     "#NONE": "无",
@@ -263,6 +277,17 @@
     "#TECHNICAL": "专业",
     "#SPECIAL": "特殊",
     "#APPEND": "附加",
+    "#POST_PLACEHOLDER": "输入帖子...",
+    "#PLAYLIST_PLACEHOLDER": "输入游玩列表...",
+    "#LEVEL_PLACEHOLDER": "输入关卡...",
+    "#SKIN_PLACEHOLDER": "输入皮肤...",
+    "#BACKGROUND_PLACEHOLDER": "输入背景...",
+    "#EFFECT_PLACEHOLDER": "输入音效...",
+    "#PARTICLE_PLACEHOLDER": "输入粒子效果...",
+    "#ENGINE_PLACEHOLDER": "输入引擎...",
+    "#REPLAY_PLACEHOLDER": "输入回放...",
+    "#USER_PLACEHOLDER": "输入用户...",
+    "#ROOM_PLACEHOLDER": "输入房间...",
     "#KEYWORDS_PLACEHOLDER": "输入关键字...",
     "#NAME_PLACEHOLDER": "输入名称...",
     "#RATING_PLACEHOLDER": "输入评级...",
@@ -273,6 +298,8 @@
     "#ARTISTS_PLACEHOLDER": "输入艺术家...",
     "#TIME_PLACEHOLDER": "输入时间...",
     "#AUTHOR_PLACEHOLDER": "输入作者...",
+    "#COAUTHOR_PLACEHOLDER": "输入共同所有者...",
+    "#COLLABORATOR_PLACEHOLDER": "输入合作者...",
     "#DESCRIPTION_PLACEHOLDER": "输入描述...",
     "#GENRE_PLACEHOLDER": "输入风格...",
     "#TYPE_PLACEHOLDER": "输入类型...",
@@ -292,29 +319,28 @@
     "#MESSAGE_PLACEHOLDER": "输入消息...",
     "#ROLE_PLACEHOLDER": "输入角色...",
     "#PERMISSION_PLACEHOLDER": "输入权限...",
-    "#USER_PLACEHOLDER": "输入用户...",
     "#PERCENTAGE_UNIT": "{0}%",
-    "#YEAR_UNIT": "{0} 年",
-    "#MONTH_UNIT": "{0} 月",
-    "#DAY_UNIT": "{0} 天",
-    "#HOUR_UNIT": "{0} 时",
-    "#MINUTE_UNIT": "{0} 分",
-    "#SECOND_UNIT": "{0} 秒",
-    "#MILLISECOND_UNIT": "{0} 毫秒",
-    "#YEAR_PAST": "{0} 年以前",
-    "#MONTH_PAST": "{0} 月以前",
-    "#DAY_PAST": "{0} 天以前",
-    "#HOUR_PAST": "{0} 时以前",
-    "#MINUTE_PAST": "{0} 分以前",
-    "#SECOND_PAST": "{0} 秒以前",
-    "#MILLISECOND_PAST": "{0} 毫秒以前",
-    "#YEAR_FUTURE": "{0} 年后",
-    "#MONTH_FUTURE": "{0} 月后",
-    "#DAY_FUTURE": "{0} 天后",
-    "#HOUR_FUTURE": "{0} 时后",
-    "#MINUTE_FUTURE": "{0} 分后",
-    "#SECOND_FUTURE": "{0} 秒后",
-    "#MILLISECOND_FUTURE": "{0} 毫秒后",
+    "#YEAR_UNIT": "{0}年",
+    "#MONTH_UNIT": "{0}月",
+    "#DAY_UNIT": "{0}天",
+    "#HOUR_UNIT": "{0}时",
+    "#MINUTE_UNIT": "{0}分",
+    "#SECOND_UNIT": "{0}秒",
+    "#MILLISECOND_UNIT": "{0}毫秒",
+    "#YEAR_PAST": "{0}年前",
+    "#MONTH_PAST": "{0}个月前",
+    "#DAY_PAST": "{0}天前",
+    "#HOUR_PAST": "{0}时前",
+    "#MINUTE_PAST": "{0}分前",
+    "#SECOND_PAST": "{0}秒前",
+    "#MILLISECOND_PAST": "{0}毫秒前",
+    "#YEAR_FUTURE": "{0}年内",
+    "#MONTH_FUTURE": "{0}月内",
+    "#DAY_FUTURE": "{0}天内",
+    "#HOUR_FUTURE": "{0}时内",
+    "#MINUTE_FUTURE": "{0}分内",
+    "#SECOND_FUTURE": "{0}秒内",
+    "#MILLISECOND_FUTURE": "{0}毫秒内",
     "#TAP": "轻击",
     "#TAP_HOLD": "轻击并按住",
     "#TAP_RELEASE": "轻击后松开",
@@ -335,6 +361,7 @@
     "#POPULAR": "人气",
     "#FEATURED": "精选",
     "#COMPETITIVE": "竞赛",
+    "#TOURNAMENT": "锦标赛",
     "#HOLIDAY": "节日",
     "#LIMITED": "限制",
     "#ANNOUNCEMENT": "公告",
@@ -378,8 +405,16 @@
     "#INSTRUMENTAL": "纯音乐",
     "#SHORT_VERSION": "短版",
     "#LONG_VERSION": "长版",
+    "#CUT_VERSION": "剪切版",
     "#FULL_VERSION": "完整版",
+    "#EXTENDED_VERSION": "扩展版",
     "#LIVE_VERSION": "现场版",
+    "#EXPLICIT": "E标",
+    "#MULTI_FINGER": "多指",
+    "#FULL_HAND": "全手",
+    "#CROSS_HAND": "换手",
+    "#GIMMICK": "特效",
+    "#COLLABORATION": "合作",
     "#REPORT": "报告",
     "#REASON": "原因",
     "#ILLEGAL_ACTIVITIES": "非法活动",
@@ -611,6 +646,7 @@
         "Particle": "没有粒子效果被选中",
         "Engine": "没有引擎被选中",
         "Replay": "没有回放被选中",
+        "User": "未选择用户",
         "Room": "没有房间被选中"
       },
       "NoSource": {
@@ -623,6 +659,7 @@
         "Particle": "该粒子效果无法被选中，因为它没有源服务器。\n\n请使用不同的粒子效果，或联系帖子作者报告此问题。",
         "Engine": "该引擎无法被选中，因为它没有源服务器。\n\n请使用不同的引擎，或联系帖子作者报告此问题。",
         "Replay": "该回放无法被选中，因为它没有源服务器。\n\n请使用不同的回放，或联系帖子作者报告此问题。",
+        "User": "因为没有源服务器，此用户无法被选中。\n\n请选择其他用户，或联系该用户的创建者报告此问题。",
         "Room": "该房间无法被选中，因为它没有源服务器。\n\n请使用不同的房间，或联系帖子作者报告此问题。"
       },
       "NoOtherServers": {
@@ -635,11 +672,27 @@
         "Particle": "该粒子效果无法被选中，因为它来自不同的服务器。\n\n请使用来自同一服务器的粒子效果。",
         "Engine": "该引擎无法被选中，因为它来自不同的服务器。\n\n请使用来自同一服务器的引擎。",
         "Replay": "该回放无法被选中，因为它来自不同的服务器。\n\n请使用来自同一服务器的回放。",
+        "User": "因为来自不同的服务器，此用户无法被选中。\n\n请选择同一服务器上的其他用户。",
         "Room": "该房间无法被选中，因为它来自不同的服务器。\n\n请使用来自同一服务器的房间。"
       }
     },
     "FileField": {
-      "NoSelected": "没有文件被选中"
+      "NoSelected": "没有文件被选中",
+      "Validation": {
+        "Invalid": "文件无效。\n\n请选择其他文件。",
+        "MinSize": "文件太小。\n\n请选择其他文件。",
+        "MaxSize": "文件过大。\n\n请选择其他文件。",
+        "Image": {
+          "MinWidth": "图片宽度过小。\n\n请选择其他文件。",
+          "MaxWidth": "图片宽度过大。\n\n请选择其他文件。",
+          "MinHeight": "图片高度过小。\n\n请选择其他文件。",
+          "MaxHeight": "图片高度过大。\n\n请选择其他文件。"
+        },
+        "Audio": {
+          "MinLength": "音频文件过短。\n\n请选择其他文件。",
+          "MaxLength": "音频文件过长。\n\n请选择其他文件。"
+        }
+      }
     },
     "PullToLoad": {
       "None": "无更多内容",
@@ -1627,6 +1680,64 @@
           "Error": "加载“{0}”的回放配置失败。"
         }
       },
+      "User": {
+        "Info": {
+          "Loading": "正在加载用户信息...",
+          "Error": "无法加载用户“{0}”的信息。"
+        },
+        "Create": {
+          "Loading": "创建用户...",
+          "Error": "创建用户“{0}”失败。"
+        },
+        "List": {
+          "Loading": "正在加载用户...",
+          "Error": "加载第 {0} 页的关卡失败。"
+        },
+        "Details": {
+          "Loading": "正在加载用户详情...",
+          "Error": "无法加载用户“{0}”的用户详情。"
+        },
+        "Submit": {
+          "Loading": "提交到用户……",
+          "Error": "提交给用户“{0}”失败。"
+        },
+        "Community": {
+          "Info": {
+            "Loading": "正在加载用户社区信息...",
+            "Error": "无法加载用户“{0}”的社区信息。"
+          },
+          "Submit": {
+            "Loading": "提交至用户社区信息……",
+            "Error": "提交到用户“{0}”社区失败。"
+          },
+          "Comment": {
+            "List": {
+              "Loading": "正在加载用户评论……",
+              "Error": "加载用户评论的第{0}页失败。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "正在加载用户排行榜详情……",
+            "Error": "无法加载用户“{0}”的排行榜详细信息。"
+          },
+          "Record": {
+            "List": {
+              "Loading": "正在加载用户记录...",
+              "Error": "加载用户成绩的第{0}页失败。"
+            },
+            "Details": {
+              "Loading": "正在加载用户记录详情...",
+              "Error": "无法加载用户“{0}”的详细成绩信息。"
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "正在检查用户兼容性……",
+          "Error": "用户“{0}”与当前 Sonolus 版本不兼容。\n\n请选择其他用户，或联系服务器所有者报告此问题。"
+        }
+      },
       "Room": {
         "Info": {
           "Loading": "正在加载房间信息...",
@@ -1983,6 +2094,24 @@
           "Error": "加载“{0}”的回放配置失败。\n\n请更新这个回放，或观看另一个回放。"
         }
       },
+      "User": {
+        "Info": {
+          "Loading": "正在加载用户信息...",
+          "Error": "无法加载用户“{0}”的信息。\n\n您的收藏包可能已损坏。"
+        },
+        "List": {
+          "Loading": "正在加载用户...",
+          "Error": "加载用户数据的第 {0} 页失败。\n\n您的收藏包可能已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载用户详情...",
+          "Error": "无法加载用户“{0}”的详细信息。\n\n您的收藏包可能已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查用户兼容性...",
+          "Error": "用户“{0}”与当前 Sonolus 版本不兼容。\n\n请更新此用户，或选择其他用户。"
+        }
+      },
       "Room": {
         "Info": {
           "Loading": "正在加载房间信息...",
@@ -2303,6 +2432,24 @@
           "Error": "加载“{0}”的回放配置失败。\n\n您的收藏包可能不受支持或已损坏。"
         }
       },
+      "User": {
+        "Info": {
+          "Loading": "正在加载用户信息...",
+          "Error": "无法加载用户“{0}”的信息。\n\n您的软件包可能不受支持或已损坏。"
+        },
+        "List": {
+          "Loading": "正在加载用户...",
+          "Error": "加载用户数据的第 {0} 页失败。\n\n您的软件包可能不受支持或已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载用户详情...",
+          "Error": "无法加载用户“{0}”的详细信息。\n\n您的软件包可能不受支持或已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查用户兼容性...",
+          "Error": "用户“{0}”与当前 Sonolus 版本不兼容。\n\n您的软件包可能不受支持或已损坏。"
+        }
+      },
       "Room": {
         "Info": {
           "Loading": "正在加载房间信息...",
@@ -2451,6 +2598,10 @@
           "Title": "创建回放",
           "Description": "选择一个收藏来创建这个收藏。"
         },
+        "User": {
+          "Title": "创建用户",
+          "Description": "选择一个收藏包来创建这个用户。"
+        },
         "Room": {
           "Title": "创建房间",
           "Description": "选择一个收藏来创建这个房间。"
@@ -2492,6 +2643,10 @@
         "Replay": {
           "Title": "选择回放",
           "Description": "选择一个自定义服务器或收藏来使用这个回放。"
+        },
+        "User": {
+          "Title": "选择用户",
+          "Description": "选择一个自定义服务器或收藏包以使用其用户。"
         },
         "Room": {
           "Title": "选择房间",
@@ -2816,6 +2971,7 @@
         "Particle": "粒子效果",
         "Engine": "引擎",
         "Replay": "回放",
+        "User": "用户",
         "Room": "房间"
       }
     },
@@ -2855,6 +3011,7 @@
         "Particle": "粒子效果",
         "Engine": "引擎",
         "Replay": "回放",
+        "User": "用户",
         "Room": "房间",
         "Configuration": "设置",
         "CollectionUpdateConfirmation": {
@@ -2969,6 +3126,15 @@
             }
           }
         },
+        "User": {
+          "Title": "用户",
+          "Create": {
+            "Title": "创建用户",
+            "Success": {
+              "Title": "用户已创建"
+            }
+          }
+        },
         "Room": {
           "Title": "房间",
           "Create": {
@@ -3040,6 +3206,12 @@
           "Title": "回放",
           "ShareSuccess": {
             "Title": "回放链接已复制"
+          }
+        },
+        "User": {
+          "Title": "用户",
+          "ShareSuccess": {
+            "Title": "复制用户链接"
           }
         },
         "Room": {
@@ -3285,6 +3457,17 @@
             "Title": "关卡"
           }
         },
+        "User": {
+          "ShareSuccess": {
+            "Title": "用户链接已复制"
+          },
+          "ActionSuccess": {
+            "Title": "用户操作已提交"
+          },
+          "Profile": {
+            "Title": "个人资料"
+          }
+        },
         "Room": {
           "ShareSuccess": {
             "Title": "房间链接已复制"
@@ -3421,6 +3604,9 @@
         "Replay": {
           "Title": "回放配置"
         },
+        "User": {
+          "Title": "用户配置"
+        },
         "Room": {
           "Title": "房间配置"
         }
@@ -3481,6 +3667,9 @@
           "Data": "回放数据",
           "Configuration": "回放配置"
         },
+        "User": {
+          "Title": "用户资源"
+        },
         "Room": {
           "Title": "房间资源",
           "Cover": "封面图",
@@ -3520,6 +3709,9 @@
         },
         "Replay": {
           "Title": "保存回放"
+        },
+        "User": {
+          "Title": "保存用户"
         },
         "Room": {
           "Title": "保存房间"
@@ -3569,6 +3761,11 @@
         "Replay": {
           "Success": {
             "Title": "回放已保存"
+          }
+        },
+        "User": {
+          "Success": {
+            "Title": "用户已保存"
           }
         },
         "Room": {
@@ -3623,6 +3820,11 @@
             "Title": "回放已更新"
           }
         },
+        "User": {
+          "Success": {
+            "Title": "用户已更新"
+          }
+        },
         "Room": {
           "Success": {
             "Title": "房间已更新"
@@ -3674,6 +3876,9 @@
             }
           }
         },
+        "User": {
+          "Title": "用户信息"
+        },
         "Room": {
           "Title": "房间信息"
         }
@@ -3722,6 +3927,11 @@
         "Replay": {
           "Success": {
             "Title": "回放已创建"
+          }
+        },
+        "User": {
+          "Success": {
+            "Title": "用户已创建"
           }
         },
         "Room": {
@@ -4089,6 +4299,10 @@
         "ShowZeroCombo": {
           "Title": "显示零连击",
           "Description": "当连击为 0 时显示连击数字。"
+        },
+        "MetricAnimation": {
+          "Title": "指标动画",
+          "Description": "指标可视化演变。"
         },
         "TouchStyle": {
           "Title": "触摸点样式",
