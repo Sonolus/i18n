@@ -531,7 +531,7 @@
     "#COLLABORATOR": "Người hợp tác",
     "#INCLUDE_TAG": "Các thẻ cần bao gồm",
     "#EXCLUDE_TAG": "Các thẻ cần loại trừ",
-    "#HAPTIC": "Rung khi ấn phím",
+    "#HAPTIC": "Rung khi nhấn phím",
     "#UI": "Giao diện",
     "#UI_METRIC": "Hiển thị chỉ số",
     "#UI_PRIMARY_METRIC": "Hiển thị chỉ số chính",
