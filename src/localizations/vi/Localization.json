@@ -99,7 +99,7 @@
     "#SPEED": "Tốc độ nhạc",
     "#MIRROR": "Mirror (Lật ngược theo trục dọc)",
     "#RANDOM": "Ngẫu nhiên",
-    "#HIDDEN": "Ẩn",
+    "#HIDDEN": "Tường chắn phía trên vạch phán định",
     "#JUDGMENT_STRICT": "Phán định Khó",
     "#JUDGMENT_LOOSE": "Phán định Dễ",
     "#EFFECT_AUTO": "SFX trong chế độ Tự động",
@@ -111,9 +111,9 @@
     "#STAGE_ALPHA": "Độ trong suốt của sàn chơi",
     "#STAGE_ANIMATION": "Hoạt ảnh sàn chơi",
     "#STAGE_TILT": "Độ nghiêng của sàn chơi",
-    "#STAGE_COVER_VERTICAL": "Che phần bên trên sàn chơi",
-    "#STAGE_COVER_HORIZONTAL": "Che ngang sàn chơi",
-    "#STAGE_COVER_ALPHA": "Độ trong suốt của tấm che sàn chơi",
+    "#STAGE_COVER_VERTICAL": "Tường chắn phía trên sàn chơi",
+    "#STAGE_COVER_HORIZONTAL": "Tường chắn ngang sàn chơi",
+    "#STAGE_COVER_ALPHA": "Độ trong suốt của tường chắn sàn chơi",
     "#STAGE_ASPECTRATIO_LOCK": "Khoá tỷ lệ khung hình sàn chơi",
     "#STAGE_EFFECT": "Hiệu ứng sàn chơi",
     "#STAGE_EFFECT_POSITION": "Vị trí hiệu ứng sàn chơi",
@@ -531,7 +531,7 @@
     "#COLLABORATOR": "Người hợp tác",
     "#INCLUDE_TAG": "Các thẻ cần bao gồm",
     "#EXCLUDE_TAG": "Các thẻ cần loại trừ",
-    "#HAPTIC": "Rung khi ấn phím",
+    "#HAPTIC": "Rung khi nhấn phím",
     "#UI": "Giao diện",
     "#UI_METRIC": "Hiển thị chỉ số",
     "#UI_PRIMARY_METRIC": "Hiển thị chỉ số chính",
@@ -619,7 +619,7 @@
     "Good": "Good",
     "Miss": "Miss",
     "RequiredOption": "Đây là tùy chọn bắt buộc.",
-    "StandardOption": "Đây là tùy chọn tiêu chuẩn.\nTùy chọn này sẽ được phản ánh ở màn hình Kết quả nếu được đặt khác với giá trị mặc định.",
+    "StandardOption": "Tùy chọn này sẽ được hiển thị ở màn hình Kết quả nếu đặt khác mặc định.",
     "AdvancedOption": "Tùy chọn này chỉ dành cho người chơi nâng cao.",
     "Colors": "Màu sắc",
     "ColorField": {
@@ -782,7 +782,7 @@
       }
     },
     "AutoExit": {
-      "Title": "Tự động thoát",
+      "Title": "Tự động Dừng cuộc chơi",
       "Description": "Tự động kết thúc lượt chơi khi không còn khả năng đạt được hạng nhất định.",
       "Options": {
         "Off": "Tắt",
@@ -3957,8 +3957,8 @@
             "Title": "Lựa chọn",
             "Description": {
               "Lead": "Bạn đang lựa chọn...",
-              "Other": "{0} đang chọn...",
-              "Room": "Phòng đang được chọn..."
+              "Other": "{0} đang lựa chọn...",
+              "Room": "Phòng đang lựa chọn..."
             },
             "Actions": {
               "Select": "Lựa chọn"
@@ -4289,7 +4289,7 @@
           "Description": "Màu sắc Combo khi đang đạt Pass"
         },
         "FailComboColors": {
-          "Title": "Màu săc Combo hạng Fail",
+          "Title": "Màu sắc Combo hạng Fail",
           "Description": "Màu sắc Combo khi chỉ còn đạt được Fail"
         },
         "BoldComboNumber": {
