@@ -22,6 +22,7 @@
     "#PARTICLE": "Particle",
     "#ENGINE": "Engine",
     "#REPLAY": "Phát lại",
+    "#USER": "Người dùng",
     "#ROOM": "Phòng",
     "#POST_THUMBNAIL": "Ảnh thu nhỏ",
     "#PLAYLIST_THUMBNAIL": "Ảnh thu nhỏ",
@@ -62,10 +63,13 @@
     "#GREAT": "Great",
     "#GOOD": "Good",
     "#MISS": "Miss",
+    "#JUDGMENT": "Phán định",
+    "#ACCURACY": "Độ chính xác",
     "#FILTER": "Bộ lọc",
     "#SORT": "Sắp xếp theo",
     "#KEYWORDS": "Từ khoá",
     "#NAME": "Tên",
+    "#SOURCE": "Nguồn",
     "#RATING": "Đánh giá",
     "#RATING_MINIMUM": "Cấp độ khó tối thiểu",
     "#RATING_MAXIMUM": "Cấp độ khó tối đa",
@@ -74,6 +78,8 @@
     "#ARTISTS": "Nghệ sĩ",
     "#TIME": "Thời gian",
     "#AUTHOR": "Tác giả",
+    "#COAUTHOR": "Đồng tác giả",
+    "#COLLABORATOR": "Người hợp tác",
     "#DESCRIPTION": "Mô tả",
     "#GENRE": "Thể loại nhạc",
     "#TYPE": "Loại",
@@ -89,13 +95,14 @@
     "#TIMEZONE": "Múi giờ",
     "#REGION": "Khu vực",
     "#TAG": "Thẻ",
+    "#INCLUDE_TAG": "Các thẻ cần bao gồm",
+    "#EXCLUDE_TAG": "Các thẻ cần loại trừ",
     "#CONTENT": "Nội dung",
     "#COMMENT": "Bình luận",
     "#MESSAGE": "Tin nhắn",
     "#NOTIFICATION": "Thông báo",
     "#ROLE": "Vai trò",
     "#PERMISSION": "Quyền",
-    "#USER": "Người dùng",
     "#SPEED": "Tốc độ nhạc",
     "#MIRROR": "Mirror (Lật ngược theo trục dọc)",
     "#RANDOM": "Ngẫu nhiên",
@@ -103,6 +110,7 @@
     "#JUDGMENT_STRICT": "Phán định Khó",
     "#JUDGMENT_LOOSE": "Phán định Dễ",
     "#EFFECT_AUTO": "SFX trong chế độ Tự động",
+    "#HAPTIC": "Rung khi nhấn phím",
     "#STAGE": "Hiển thị sàn chơi (Stage)",
     "#STAGE_POSITION": "Vị trí sàn chơi",
     "#STAGE_SIZE": "Kích thước sàn chơi",
@@ -210,6 +218,13 @@
     "#PREVIEW_BEAT": "Xem trước nhịp",
     "#PREVIEW_MEASURE": "Xem trước ô nhịp",
     "#PREVIEW_COMBO": "Xem trước Combo",
+    "#UI": "Giao diện",
+    "#UI_METRIC": "Hiển thị chỉ số",
+    "#UI_PRIMARY_METRIC": "Hiển thị chỉ số chính",
+    "#UI_SECONDARY_METRIC": "Hiển thị chỉ số phụ",
+    "#UI_JUDGMENT": "Hiển thị chỉ báo phán định",
+    "#UI_Combo": "Hiển thị Combo",
+    "#UI_Menu": "Hiển thị Menu",
     "#ON": "Bật",
     "#OFF": "Tắt",
     "#NONE": "Không có",
@@ -263,6 +278,17 @@
     "#TECHNICAL": "Technical",
     "#SPECIAL": "Special",
     "#APPEND": "Append",
+    "#POST_PLACEHOLDER": "Nhập bài đăng...",
+    "#PLAYLIST_PLACEHOLDER": "Nhập danh sách phát...",
+    "#LEVEL_PLACEHOLDER": "Nhập màn chơi...",
+    "#SKIN_PLACEHOLDER": "Nhập Skin...",
+    "#BACKGROUND_PLACEHOLDER": "Nhập ảnh nền...",
+    "#EFFECT_PLACEHOLDER": "Nhập SFX...",
+    "#PARTICLE_PLACEHOLDER": "Nhập Particle...",
+    "#ENGINE_PLACEHOLDER": "Nhập engine...",
+    "#REPLAY_PLACEHOLDER": "Nhập bản phát lại...",
+    "#USER_PLACEHOLDER": "Nhập người dùng...",
+    "#ROOM_PLACEHOLDER": "Nhập phòng...",
     "#KEYWORDS_PLACEHOLDER": "Nhập từ khóa...",
     "#NAME_PLACEHOLDER": "Nhập tên...",
     "#RATING_PLACEHOLDER": "Nhập đánh giá...",
@@ -273,6 +299,8 @@
     "#ARTISTS_PLACEHOLDER": "Nghệ sĩ tham gia...",
     "#TIME_PLACEHOLDER": "Nhập thời gian...",
     "#AUTHOR_PLACEHOLDER": "Nhập tên tác giả...",
+    "#COAUTHOR_PLACEHOLDER": "Nhập đồng tác giả...",
+    "#COLLABORATOR_PLACEHOLDER": "Nhập người hợp tác...",
     "#DESCRIPTION_PLACEHOLDER": "Nhập mô tả...",
     "#GENRE_PLACEHOLDER": "Nhập thể loại nhạc...",
     "#TYPE_PLACEHOLDER": "Nhập thể loại...",
@@ -292,7 +320,6 @@
     "#MESSAGE_PLACEHOLDER": "Nhập tin nhắn...",
     "#ROLE_PLACEHOLDER": "Nhập vai trò...",
     "#PERMISSION_PLACEHOLDER": "Nhập quyền...",
-    "#USER_PLACEHOLDER": "Nhập người dùng...",
     "#PERCENTAGE_UNIT": "{0}%",
     "#YEAR_UNIT": "{0} năm",
     "#MONTH_UNIT": "{0} tháng",
@@ -335,6 +362,7 @@
     "#POPULAR": "Phổ biến",
     "#FEATURED": "Nổi bật",
     "#COMPETITIVE": "Cạnh tranh",
+    "#TOURNAMENT": "Giải đấu",
     "#HOLIDAY": "Ngày lễ",
     "#LIMITED": "Giới hạn",
     "#ANNOUNCEMENT": "Thông báo",
@@ -378,8 +406,17 @@
     "#INSTRUMENTAL": "Nhạc không lời",
     "#SHORT_VERSION": "Phiên bản ngắn",
     "#LONG_VERSION": "Phiên bản dài",
+    "#CUT_VERSION": "Phiên bản rút ngắn",
     "#FULL_VERSION": "Phiên bản đầy đủ",
+    "#EXTENDED_VERSION": "Phiên bản kéo dài",
     "#LIVE_VERSION": "Phiên bản live",
+    "#MEDLEY": "Liên khúc",
+    "#EXPLICIT": "Nội dung người lớn",
+    "#MULTI_FINGER": "Cần nhiều hơn 2 ngón",
+    "#FULL_HAND": "Cần cả bàn tay",
+    "#CROSS_HAND": "Cần chéo tay",
+    "#GIMMICK": "Có hiệu ứng lạ (Gimmick)",
+    "#COLLABORATION": "Hợp tác (Collab)",
     "#REPORT": "Tố cáo",
     "#REASON": "Nguyên nhân tố cáo",
     "#ILLEGAL_ACTIVITIES": "Hoạt động bất hợp pháp",
@@ -524,42 +561,7 @@
     "#REJECT": "Từ chối",
     "#REJECTED": "Đã từ chối",
     "#STAR": "Gắn sao",
-    "#STARRED": "Đã gắn sao",
-    "#JUDGMENT": "Phán định",
-    "#ACCURACY": "Độ chính xác",
-    "#COAUTHOR": "Đồng tác giả",
-    "#COLLABORATOR": "Người hợp tác",
-    "#INCLUDE_TAG": "Các thẻ cần bao gồm",
-    "#EXCLUDE_TAG": "Các thẻ cần loại trừ",
-    "#HAPTIC": "Rung khi nhấn phím",
-    "#UI": "Giao diện",
-    "#UI_METRIC": "Hiển thị chỉ số",
-    "#UI_PRIMARY_METRIC": "Hiển thị chỉ số chính",
-    "#UI_SECONDARY_METRIC": "Hiển thị chỉ số phụ",
-    "#UI_JUDGMENT": "Hiển thị chỉ báo phán định",
-    "#UI_Combo": "Hiển thị Combo",
-    "#UI_Menu": "Hiển thị Menu",
-    "#POST_PLACEHOLDER": "Nhập bài đăng...",
-    "#PLAYLIST_PLACEHOLDER": "Nhập danh sách phát...",
-    "#LEVEL_PLACEHOLDER": "Nhập màn chơi...",
-    "#SKIN_PLACEHOLDER": "Nhập Skin...",
-    "#BACKGROUND_PLACEHOLDER": "Nhập ảnh nền...",
-    "#EFFECT_PLACEHOLDER": "Nhập SFX...",
-    "#PARTICLE_PLACEHOLDER": "Nhập Particle...",
-    "#ENGINE_PLACEHOLDER": "Nhập engine...",
-    "#REPLAY_PLACEHOLDER": "Nhập bản phát lại...",
-    "#ROOM_PLACEHOLDER": "Nhập phòng...",
-    "#COAUTHOR_PLACEHOLDER": "Nhập đồng tác giả...",
-    "#COLLABORATOR_PLACEHOLDER": "Nhập người hợp tác...",
-    "#TOURNAMENT": "Giải đấu",
-    "#CUT_VERSION": "Phiên bản rút ngắn",
-    "#EXTENDED_VERSION": "Phiên bản kéo dài",
-    "#EXPLICIT": "Nội dung người lớn",
-    "#MULTI_FINGER": "Cần nhiều hơn 2 ngón",
-    "#FULL_HAND": "Cần cả bàn tay",
-    "#CROSS_HAND": "Cần chéo tay",
-    "#GIMMICK": "Có hiệu ứng lạ (Gimmick)",
-    "#COLLABORATION": "Hợp tác (Collab)"
+    "#STARRED": "Đã gắn sao"
   },
   "Common": {
     "Separator": ",",
@@ -646,8 +648,8 @@
         "Particle": "Không có Particle nào được chọn",
         "Engine": "Không có Engine được chọn",
         "Replay": "Không có bản phát lại được chọn",
-        "Room": "Không có phòng nào được chọn",
-        "User": "Không có người dùng nào được chọn"
+        "User": "Không có người dùng nào được chọn",
+        "Room": "Không có phòng nào được chọn"
       },
       "NoSource": {
         "Post": "Không thể chọn bài đăng này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng bài đăng khác hoặc liên hệ với tác giả bài đăng để báo cáo sự cố.",
@@ -659,8 +661,8 @@
         "Particle": "Không thể chọn Particle này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng một Particle khác hoặc liên hệ với tác giả Particle để báo cáo sự cố.",
         "Engine": "Không thể chọn Engine này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng một Engine khác hoặc liên hệ với tác giả Engine để báo cáo sự cố.",
         "Replay": "Không thể chọn bản phát lại này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng bản phát lại khác hoặc liên hệ với tác giả bản phát lại để báo cáo sự cố.",
-        "Room": "Không thể chọn phòng này vì không có ở trong nguồn Server.\n\nVui lòng sử dụng phòng khác hoặc liên hệ với tác giả phòng để báo cáo sự cố.",
-        "User": "Không thể chọn người dùng này vì không có ở trong nguồn Server.\n\nVui lòng sử dụng người khác hoặc liên hệ với tác giả người dùng để báo cáo sự cố."
+        "User": "Không thể chọn người dùng này vì không có ở trong nguồn Server.\n\nVui lòng sử dụng người khác hoặc liên hệ với tác giả người dùng để báo cáo sự cố.",
+        "Room": "Không thể chọn phòng này vì không có ở trong nguồn Server.\n\nVui lòng sử dụng phòng khác hoặc liên hệ với tác giả phòng để báo cáo sự cố."
       },
       "NoOtherServers": {
         "Post": "Không thể chọn bài đăng này vì nó đến từ một Server khác.\n\nVui lòng sử dụng một bài đăng khác từ cùng một Server.",
@@ -672,8 +674,8 @@
         "Particle": "Không thể chọn Particle này vì nó đến từ một Server khác.\n\nVui lòng sử dụng một Particle khác từ cùng một Server.",
         "Engine": "Không thể chọn Engine này vì nó đến từ một Server khác.\n\nVui lòng sử dụng một Engine khác từ cùng một Server.",
         "Replay": "Không thể chọn bản phát lại này vì nó đến từ một Server khác.\n\nVui lòng sử dụng bản phát lại khác từ cùng một Server.",
-        "Room": "Không thể chọn phòng này vì nó nằm trên một Server khác.\n\nVui lòng sử dụng một phòng khác từ cùng một Server.",
-        "User": "Không thể chọn người dùng này vì nó nằm trên một Server khác.\n\nVui lòng sử dụng một người dùng khác từ cùng một Server."
+        "User": "Không thể chọn người dùng này vì nó nằm trên một Server khác.\n\nVui lòng sử dụng một người dùng khác từ cùng một Server.",
+        "Room": "Không thể chọn phòng này vì nó nằm trên một Server khác.\n\nVui lòng sử dụng một phòng khác từ cùng một Server."
       }
     },
     "FileField": {
@@ -968,7 +970,8 @@
       },
       "Authenticate": {
         "Loading": "Đang yêu cầu xác thực Sonolus...",
-        "Error": "Không thể yêu cầu xác thực từ Sonolus.\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại hoặc liên hệ với Sonolus để báo cáo sự cố."
+        "Error": "Không thể yêu cầu xác thực từ Sonolus.\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại hoặc liên hệ với Sonolus để báo cáo sự cố.",
+        "TimeError": "Đồng hồ máy bạn có thể không chính xác\n\nHãy sửa lại ngày giờ hiện tại của máy cho đúng thực tế. Nếu ngày giờ đúng, thì hãy liên hệ hỗ trợ của Sonolus để báo cáo vấn đề."
       },
       "Logout": {
         "Loading": "Đang đăng xuất...",
@@ -1012,6 +1015,9 @@
       "Multiplayer": {
         "NotLoggedInError": {
           "Description": "Chế độ Chơi nhiều người yêu cầu đăng nhập, nhưng bạn chưa đăng nhập bằng tài khoản Sonolus.\n\nVui lòng đăng nhập bằng tài khoản Sonolus của bạn và thử lại."
+        },
+        "AlreadyInRoomError": {
+          "Description": "Bạn đã ở trong phòng nhiều người chơi rồi."
         },
         "CreateRoom": {
           "Loading": "Đang tạo phòng...",
@@ -1680,6 +1686,64 @@
           "Error": "Không tải được cấu hình bản phát lại của \"{0}\"."
         }
       },
+      "User": {
+        "Info": {
+          "Loading": "Đang tải thông tin người dùng...",
+          "Error": "Không tải được thông tin người dùng của \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Đang tạo người dùng...",
+          "Error": "Không tạo được người dùng của \"{0}\"."
+        },
+        "List": {
+          "Loading": "Đang tải người dùng...",
+          "Error": "Không tải được người dùng của \"{0}\"."
+        },
+        "Details": {
+          "Loading": "Đang tải thông tin người dùng...",
+          "Error": "Không tải được thông tin người dùng của \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Đang gửi đến người dùng...",
+          "Error": "Không gửi được đến người dùng của \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Đang tải thông tin cộng đồng người dùng...",
+            "Error": "Không tải được thông tin cộng đồng người dùng của \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Đang gửi đến cộng đồng người dùng...",
+            "Error": "Không gửi được đến cộng đồng người dùng của \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Đang tải bình luận người dùng...",
+              "Error": "Không tải được bình luận người dùng của \"{0}\"."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Đang tải thông tin bảng xếp hạng người dùng...",
+            "Error": "Không tải được thông tin bảng xếp hạng người dùng của \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Đang tải dữ liệu người dùng...",
+              "Error": "Không tải được dữ liệu người dùng của \"{0}\"."
+            },
+            "Details": {
+              "Loading": "Đang tải thông tin dữ liệu người dùng...",
+              "Error": "Không tải được thông tin dữ liệu người dùng của \"{0}\"."
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "Đang kiểm tra tính tương thích của người dùng...",
+          "Error": "Người dùng \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nnVui lòng sử dụng người dùng khác hoặc liên hệ với chủ Server để báo cáo sự cố."
+        }
+      },
       "Room": {
         "Info": {
           "Loading": "Đang tải thông tin phòng...",
@@ -1748,64 +1812,6 @@
         "Preview": {
           "Loading": "Đang tải bản xem trước ở màn chơi phòng...",
           "Error": "Không tải được bản xem trước màn chơi phòng của \"{0}\"."
-        }
-      },
-      "User": {
-        "Info": {
-          "Loading": "Đang tải thông tin người dùng...",
-          "Error": "Không tải được thông tin người dùng của \"{0}\"."
-        },
-        "Create": {
-          "Loading": "Đang tạo người dùng...",
-          "Error": "Không tạo được người dùng của \"{0}\"."
-        },
-        "List": {
-          "Loading": "Đang tải người dùng...",
-          "Error": "Không tải được người dùng của \"{0}\"."
-        },
-        "Details": {
-          "Loading": "Đang tải thông tin người dùng...",
-          "Error": "Không tải được thông tin người dùng của \"{0}\"."
-        },
-        "Submit": {
-          "Loading": "Đang gửi đến người dùng...",
-          "Error": "Không gửi được đến người dùng của \"{0}\"."
-        },
-        "Community": {
-          "Info": {
-            "Loading": "Đang tải thông tin cộng đồng người dùng...",
-            "Error": "Không tải được thông tin cộng đồng người dùng của \"{0}\"."
-          },
-          "Submit": {
-            "Loading": "Đang gửi đến cộng đồng người dùng...",
-            "Error": "Không gửi được đến cộng đồng người dùng của \"{0}\"."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Đang tải bình luận người dùng...",
-              "Error": "Không tải được bình luận người dùng của \"{0}\"."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Details": {
-            "Loading": "Đang tải thông tin bảng xếp hạng người dùng...",
-            "Error": "Không tải được thông tin bảng xếp hạng người dùng của \"{0}\"."
-          },
-          "Record": {
-            "List": {
-              "Loading": "Đang tải dữ liệu người dùng...",
-              "Error": "Không tải được dữ liệu người dùng của \"{0}\"."
-            },
-            "Details": {
-              "Loading": "Đang tải thông tin dữ liệu người dùng...",
-              "Error": "Không tải được thông tin dữ liệu người dùng của \"{0}\"."
-            }
-          }
-        },
-        "Compatibility": {
-          "Loading": "Đang kiểm tra tính tương thích của người dùng...",
-          "Error": "Người dùng \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nnVui lòng sử dụng người dùng khác hoặc liên hệ với chủ Server để báo cáo sự cố."
         }
       }
     },
@@ -2094,6 +2100,24 @@
           "Error": "Không tải được cấu hình bản phát lại của \"{0}\".\n\nVui lòng cập nhật bản phát lại này hoặc sử dụng bản phát lại khác."
         }
       },
+      "User": {
+        "Info": {
+          "Loading": "Đang tải thông tin người dùng...",
+          "Error": "Không tải được thông tin người dùng của \"{0}\".\n\nBộ sưu tập của bạn có thể đã bị hỏng."
+        },
+        "List": {
+          "Loading": "Đang tải người dùng...",
+          "Error": "Không tải được người dùng ở trang {0}.\n\nBộ sưu tập của bạn có thể đã bị hỏng."
+        },
+        "Details": {
+          "Loading": "Đang tải thông tin người dùng...",
+          "Error": "Không tải được thông tin người dùng của \"{0}\".\n\nBộ sưu tập của bạn có thể đã bị hỏng."
+        },
+        "Compatibility": {
+          "Loading": "Đang kiểm tra tính tương thích của người dùng...",
+          "Error": "Người dùng \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nBộ sưu tập của bạn có thể đã bị hỏng."
+        }
+      },
       "Room": {
         "Info": {
           "Loading": "Đang tải thông tin phòng...",
@@ -2122,24 +2146,6 @@
         "Preview": {
           "Loading": "Đang tải bản xem trước màn chơi phòng...",
           "Error": "Không tải được bản xem trước màn chơi phòng của \"{0}\".\n\nVui lòng cập nhật phòng này hoặc sử dụng phòng khác."
-        }
-      },
-      "User": {
-        "Info": {
-          "Loading": "Đang tải thông tin người dùng...",
-          "Error": "Không tải được thông tin người dùng của \"{0}\".\n\nBộ sưu tập của bạn có thể đã bị hỏng."
-        },
-        "List": {
-          "Loading": "Đang tải người dùng...",
-          "Error": "Không tải được người dùng ở trang {0}.\n\nBộ sưu tập của bạn có thể đã bị hỏng."
-        },
-        "Details": {
-          "Loading": "Đang tải thông tin người dùng...",
-          "Error": "Không tải được thông tin người dùng của \"{0}\".\n\nBộ sưu tập của bạn có thể đã bị hỏng."
-        },
-        "Compatibility": {
-          "Loading": "Đang kiểm tra tính tương thích của người dùng...",
-          "Error": "Người dùng \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nBộ sưu tập của bạn có thể đã bị hỏng."
         }
       }
     },
@@ -2432,6 +2438,24 @@
           "Error": "Không tải được cấu hình bản phát lại của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc đã bị hỏng."
         }
       },
+      "User": {
+        "Info": {
+          "Loading": "Đang tải thông tin người dùng...",
+          "Error": "Không tải được thông tin người dùng của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc đã bị hỏng."
+        },
+        "List": {
+          "Loading": "Đang tải người dùng...",
+          "Error": "Không tải được người dùng ở trang {0}.\n\nGói của bạn có thể không được hỗ trợ hoặc đã bị hỏng."
+        },
+        "Details": {
+          "Loading": "Đang tải thông tin người dùng...",
+          "Error": "Không tải được thông tin người dùng của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc đã bị hỏng."
+        },
+        "Compatibility": {
+          "Loading": "Đang kiểm tra tính tương thích của người dùng...",
+          "Error": "Người dùng \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nGói của bạn có thể không được hỗ trợ hoặc đã bị hỏng."
+        }
+      },
       "Room": {
         "Info": {
           "Loading": "Đang tải thông tin phòng...",
@@ -2460,24 +2484,6 @@
         "Preview": {
           "Loading": "Đang tải bản xem trước màn chơi phòng...",
           "Error": "Không tải được bản xem trước cmàn chơi phòng của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc đã bị hỏng."
-        }
-      },
-      "User": {
-        "Info": {
-          "Loading": "Đang tải thông tin người dùng...",
-          "Error": "Không tải được thông tin người dùng của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc đã bị hỏng."
-        },
-        "List": {
-          "Loading": "Đang tải người dùng...",
-          "Error": "Không tải được người dùng ở trang {0}.\n\nGói của bạn có thể không được hỗ trợ hoặc đã bị hỏng."
-        },
-        "Details": {
-          "Loading": "Đang tải thông tin người dùng...",
-          "Error": "Không tải được thông tin người dùng của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc đã bị hỏng."
-        },
-        "Compatibility": {
-          "Loading": "Đang kiểm tra tính tương thích của người dùng...",
-          "Error": "Người dùng \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nGói của bạn có thể không được hỗ trợ hoặc đã bị hỏng."
         }
       }
     },
@@ -2598,13 +2604,13 @@
           "Title": "Tạo bản phát lại",
           "Description": "Chọn một bộ sưu tập để tạo bản phát lại này."
         },
-        "Room": {
-          "Title": "Tạo phòng",
-          "Description": "Chọn một bộ sưu tập để tạo phòng này."
-        },
         "User": {
           "Title": "Tạo người dùng",
           "Description": "Chọn một bộ sưu tập để tạo người dùng này."
+        },
+        "Room": {
+          "Title": "Tạo phòng",
+          "Description": "Chọn một bộ sưu tập để tạo phòng này."
         }
       },
       "ToUse": {
@@ -2644,13 +2650,13 @@
           "Title": "Chọn bản phát lại",
           "Description": "Chọn Server hoặc bộ sưu tập tùy chỉnh để sử dụng tính năng bản phát lại."
         },
-        "Room": {
-          "Title": "Chọn phòng",
-          "Description": "Chọn Server hoặc bộ sưu tập tùy chỉnh để sử dụng các phòng trong đó."
-        },
         "User": {
           "Title": "Chọn người dùng",
           "Description": "Chọn Server hoặc bộ sưu tập tùy chỉnh để sử dụng người dùng trong đó."
+        },
+        "Room": {
+          "Title": "Chọn phòng",
+          "Description": "Chọn Server hoặc bộ sưu tập tùy chỉnh để sử dụng các phòng trong đó."
         }
       },
       "ToAddFavorite": {
@@ -2971,8 +2977,8 @@
         "Particle": "Particle",
         "Engine": "Engine",
         "Replay": "Bản phát lại",
-        "Room": "Phòng",
-        "User": "Người dùng"
+        "User": "Người dùng",
+        "Room": "Phòng"
       }
     },
     "About": {
@@ -3001,7 +3007,6 @@
       "Home": {
         "Login": "Đăng nhập",
         "Logout": "Đăng xuất",
-        "Multiplayer": "Chơi nhiều người",
         "Post": "Bài đăng",
         "Playlist": "Danh sách phát",
         "Level": "Màn chơi",
@@ -3011,6 +3016,7 @@
         "Particle": "Particle",
         "Engine": "Engine",
         "Replay": "Bản phát lại",
+        "User": "Người dùng",
         "Room": "Phòng",
         "Configuration": "Cấu hình",
         "CollectionUpdateConfirmation": {
@@ -3021,8 +3027,7 @@
         },
         "ShareSuccess": {
           "Title": "Đã sao chép đường đẫn"
-        },
-        "User": "Người dùng"
+        }
       },
       "Search": {
         "Title": "Tìm kiếm"
@@ -3126,6 +3131,15 @@
             }
           }
         },
+        "User": {
+          "Title": "Người dùng",
+          "Create": {
+            "Title": "Tạo người dùng",
+            "Success": {
+              "Title": "Đã tạo người dùng"
+            }
+          }
+        },
         "Room": {
           "Title": "Phòng",
           "Create": {
@@ -3136,15 +3150,6 @@
             "Description": "Khi tạo phòng \"{0}\", bạn có thể mời người khác chơi cùng bằng cách chia sẻ liên kết phòng.",
             "ShareSuccess": {
               "Title": "Đã sao chép liên kết phòng"
-            }
-          }
-        },
-        "User": {
-          "Title": "Người dùng",
-          "Create": {
-            "Title": "Tạo người dùng",
-            "Success": {
-              "Title": "Đã tạo người dùng"
             }
           }
         }
@@ -3208,16 +3213,16 @@
             "Title": "Đã sao chép liên kết bản phát lại"
           }
         },
-        "Room": {
-          "Title": "Phòng",
-          "ShareSuccess": {
-            "Title": "Đã sao chép liên kết phòng"
-          }
-        },
         "User": {
           "Title": "Người dùng",
           "ShareSuccess": {
             "Title": "Đã sao chép liên kết người dùng"
+          }
+        },
+        "Room": {
+          "Title": "Phòng",
+          "ShareSuccess": {
+            "Title": "Đã sao chép liên kết phòng"
           }
         }
       },
@@ -3291,6 +3296,9 @@
         },
         "Level": {
           "Play": {
+            "MultiplayerConfirmation": {
+              "Description": "Bạn đang ở trong phòng nhiều người chơi, nhưng cái này sẽ chỉ cho bạn chơi một mình.\n\nBạn có chắc muốn chơi một mình không?"
+            },
             "TutorialTip": {
               "Message": "Đây là lần đầu tiên bạn chơi Engine này, bạn có muốn xem hướng dẫn không?"
             },
@@ -3457,14 +3465,6 @@
             "Title": "Màn chơi"
           }
         },
-        "Room": {
-          "ShareSuccess": {
-            "Title": "Đã sao chép liên kết đến phòng"
-          },
-          "ActionSuccess": {
-            "Title": "Đã gửi Phòng"
-          }
-        },
         "User": {
           "ShareSuccess": {
             "Title": "Đã sao chép liên kết người dùng"
@@ -3474,6 +3474,14 @@
           },
           "Profile": {
             "Title": "Hồ sơ"
+          }
+        },
+        "Room": {
+          "ShareSuccess": {
+            "Title": "Đã sao chép liên kết đến phòng"
+          },
+          "ActionSuccess": {
+            "Title": "Đã gửi Phòng"
           }
         }
       },
@@ -3604,11 +3612,11 @@
         "Replay": {
           "Title": "Cấu hình bản phát lại"
         },
-        "Room": {
-          "Title": "Cấu hình phòng"
-        },
         "User": {
           "Title": "Cấu hình người dùng"
+        },
+        "Room": {
+          "Title": "Cấu hình phòng"
         }
       },
       "Resources": {
@@ -3667,14 +3675,14 @@
           "Data": "Dữ liệu",
           "Configuration": "Cấu hình"
         },
+        "User": {
+          "Title": "Tài nguyên người dùng"
+        },
         "Room": {
           "Title": "Tài nguyên phòng",
           "Cover": "Ảnh bìa",
           "Bgm": "Nhạc nền",
           "Preview": "Xem trước"
-        },
-        "User": {
-          "Title": "Tài nguyên người dùng"
         }
       },
       "ResourceExporters": {
@@ -3710,11 +3718,11 @@
         "Replay": {
           "Title": "Lưu bản phát lại"
         },
-        "Room": {
-          "Title": "Lưu phòng"
-        },
         "User": {
           "Title": "Lưu người dùng"
+        },
+        "Room": {
+          "Title": "Lưu phòng"
         }
       },
       "Savers": {
@@ -3763,14 +3771,14 @@
             "Title": "Đã lưu bản phát lại"
           }
         },
-        "Room": {
-          "Success": {
-            "Title": "Đã lưu phòng"
-          }
-        },
         "User": {
           "Success": {
             "Title": "Đã lưu người dùng"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "Đã lưu phòng"
           }
         }
       },
@@ -3820,14 +3828,14 @@
             "Title": "Đã cập nhật bản phát lại"
           }
         },
-        "Room": {
-          "Success": {
-            "Title": "Đã cập nhật phòng"
-          }
-        },
         "User": {
           "Success": {
             "Title": "Đã cập nhật người dùng"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "Đã cập nhật phòng"
           }
         }
       },
@@ -3876,11 +3884,11 @@
             }
           }
         },
-        "Room": {
-          "Title": "Thông tin phòng"
-        },
         "User": {
           "Title": "Thông tin người dùng"
+        },
+        "Room": {
+          "Title": "Thông tin phòng"
         }
       },
       "Creators": {
@@ -3929,14 +3937,14 @@
             "Title": "Đã tạo bản phát lại"
           }
         },
-        "Room": {
-          "Success": {
-            "Title": "Đã tạo phòng"
-          }
-        },
         "User": {
           "Success": {
             "Title": "Đã tạo người dùng"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "Đã tạo phòng"
           }
         }
       },
@@ -4128,7 +4136,11 @@
         },
         "IgnoreNotch": {
           "Title": "Bỏ qua tai thỏ điện thoại (Notch)",
-          "Description": "Theo mặc định, Sonolus sẽ tránh hiển thị giao diện trên vùng tai thỏ (camera trước) của điện thoại để đảm bảo không có vùng nào của giao diện bị che khuất. Khi được bật, Sonolus sẽ không còn tránh vùng tai thỏ nữa, nếu điện thoại của bạn có vùng tai thỏ rộng thì có khả năng một phần giao diện sẽ bị che khuất. Chỉ nên bật nếu màn hình máy bạn có vùng tai thỏ hẹp / giọt nước và bạn muốn game sẽ hiển thị giao diện ở chính giữa màn hình."
+          "Description": "Theo mặc định, Sonolus sẽ tránh hiển thị giao diện trên vùng tai thỏ (camera trước) của điện thoại để đảm bảo không có vùng nào của giao diện bị che khuất. Khi được bật, Sonolus sẽ không còn tránh vùng tai thỏ nữa, nếu điện thoại của bạn có vùng tai thỏ rộng thì có khả năng một phần giao diện sẽ bị che khuất. Chỉ nên bật nếu màn hình máy bạn có vùng tai thỏ hẹp / giọt nước và bạn muốn game sẽ hiển thị giao diện ở chính giữa màn hình.",
+          "Options": {
+            "Horizontal": "Ngang",
+            "Vertical": "Dọc"
+          }
         }
       },
       "Audio": {
@@ -4300,13 +4312,13 @@
           "Title": "Hiển thị 0 Combo",
           "Description": "Hiển thị combo kể cả khi combo bằng 0."
         },
-        "TouchStyle": {
-          "Title": "Kiểu chỉ báo điểm chạm cảm ứng",
-          "Description": "Tùy chỉnh kích thước và độ trong suốt của chỉ báo điểm chạm cảm ứng."
-        },
         "MetricAnimation": {
           "Title": "Hoạt ảnh chỉ số",
           "Description": "Hoạt ảnh chỉ số."
+        },
+        "TouchStyle": {
+          "Title": "Kiểu chỉ báo điểm chạm cảm ứng",
+          "Description": "Tùy chỉnh kích thước và độ trong suốt của chỉ báo điểm chạm cảm ứng."
         }
       },
       "Offsets": {
@@ -4369,6 +4381,10 @@
         "DebugMode": {
           "Title": "Chế độ gỡ lỗi (Debug Mode)",
           "Description": "Chế độ gỡ lỗi cho phép chạy mã gỡ lỗi cụ thể và hiển thị nhật ký gỡ lỗi ở góc dưới bên phải màn hình."
+        },
+        "RecordPerformanceData": {
+          "Title": "Ghi lại dữ liệu hiệu suất",
+          "Description": "Ghi lại dữ liệu hiệu suất trong chế độ gỡ lỗi\n\nTính năng này sẽ có thể làm chậm Sonolus!"
         },
         "DebugLogStyle": {
           "Title": "Kiểu nhật ký gỡ lỗi",
@@ -4471,6 +4487,10 @@
             }
           },
           "Result": {
+            "AutoExit": {
+              "Title": "Tự động thoát",
+              "Message": "Màn chơi đã dừng bởi vì bạn có tùy chọn Tự động thoát đang bật\n\nBạn có thể tắt tính năng Tự động thoát trong Cài đặt."
+            },
             "TouchAbnormality": {
               "Description": "Đã phát hiện {0} điểm chạm bất thường trong quá trình chơi. Điều này thường do các tính năng hệ thống như cử chỉ, tối ưu hóa cảm ứng và thông báo gây ra và có thể gây ra các vấn đề về phán định.\n\nĐể đảm bảo bạn có trải nghiệm chơi trò chơi tốt nhất, bạn nên điều chỉnh các cài đặt hệ thống có liên quan."
             },
