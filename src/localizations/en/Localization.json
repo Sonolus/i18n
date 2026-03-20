@@ -69,6 +69,7 @@
         "#SORT": "Sort",
         "#KEYWORDS": "Keywords",
         "#NAME": "Name",
+        "#SOURCE": "Source",
         "#RATING": "Rating",
         "#RATING_MINIMUM": "Minimum Rating",
         "#RATING_MAXIMUM": "Maximum Rating",
@@ -409,6 +410,7 @@
         "#FULL_VERSION": "Full Version",
         "#EXTENDED_VERSION": "Extended Version",
         "#LIVE_VERSION": "Live Version",
+        "#MEDLEY": "Medley",
         "#EXPLICIT": "Explicit",
         "#MULTI_FINGER": "Multi Finger",
         "#FULL_HAND": "Full Hand",
@@ -968,7 +970,8 @@
             },
             "Authenticate": {
                 "Loading": "Requesting Sonolus authentication...",
-                "Error": "Failed to request authentication from Sonolus.\n\nPlease check your internet connection and try again, or contact Sonolus to report the problem."
+                "Error": "Failed to request authentication from Sonolus.\n\nPlease check your internet connection and try again, or contact Sonolus to report the problem.",
+                "TimeError": "Your system time is incorrect.\n\nPlease change your system time, or contact Sonolus to report the problem."
             },
             "Logout": {
                 "Loading": "Signing out...",
@@ -1012,6 +1015,9 @@
             "Multiplayer": {
                 "NotLoggedInError": {
                     "Description": "Multiplayer requires sign in but you are not signed in with a Sonolus account.\n\nPlease sign in with your Sonolus account first and try again."
+                },
+                "AlreadyInRoomError": {
+                    "Description": "You are already in a multiplayer room."
                 },
                 "CreateRoom": {
                     "Loading": "Creating room...",
@@ -3001,7 +3007,6 @@
             "Home": {
                 "Login": "Sign In",
                 "Logout": "Sign Out",
-                "Multiplayer": "Multiplayer",
                 "Post": "Posts",
                 "Playlist": "Playlists",
                 "Level": "Levels",
@@ -3291,6 +3296,9 @@
                 },
                 "Level": {
                     "Play": {
+                        "MultiplayerConfirmation": {
+                            "Description": "You are currently in a multiplayer room, and this will start playing alone.\n\nAre your sure to play alone?"
+                        },
                         "TutorialTip": {
                             "Message": "This is your first time playing the engine, would you like to view its tutorial?"
                         },
@@ -4128,7 +4136,11 @@
                 },
                 "IgnoreNotch": {
                     "Title": "Ignore Notch",
-                    "Description": "Sonolus by default takes into account device's notches to ensure graphics are always visible. When turned on, Sonolus instead ignores notches and renders fullscreen, which may result in graphics being partially obscured."
+                    "Description": "Sonolus by default takes into account device's notches to ensure graphics are always visible. When turned on, Sonolus instead ignores notches and renders fullscreen, which may result in graphics being partially obscured.",
+                    "Options": {
+                        "Horizontal": "Horizontal",
+                        "Vertical": "Vertical"
+                    }
                 }
             },
             "Audio": {
@@ -4370,6 +4382,10 @@
                     "Title": "Debug Mode",
                     "Description": "Debug mode enables debug specific code to run, and shows debug log on bottom right of screen."
                 },
+                "RecordPerformanceData": {
+                    "Title": "Record Performance Data",
+                    "Description": "Record performance data in debug mode.\n\nThis may reduce Sonolus performance."
+                },
                 "DebugLogStyle": {
                     "Title": "Debug Log Style",
                     "Description": "Style of debug log."
@@ -4471,6 +4487,10 @@
                         }
                     },
                     "Result": {
+                        "AutoExit": {
+                            "Title": "Auto Exit",
+                            "Message": "Gameplay ended because you have Auto Exit enabled.\n\nYou can turn off Auto Exit in Settings."
+                        },
                         "TouchAbnormality": {
                             "Description": "There were {0} touch abnormalities detected during gameplay. This is commonly caused by system features such as gesture, touch optimization, and notifications, and may cause judgment issues.\n\nTo ensure you have the best gameplay experience, it is recommended to resolve this issue by adjusting relevant system settings."
                         },
