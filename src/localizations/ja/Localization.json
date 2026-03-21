@@ -69,6 +69,7 @@
     "#SORT": "ソート",
     "#KEYWORDS": "キーワード",
     "#NAME": "名称",
+    "#SOURCE": "ソース",
     "#RATING": "難易度",
     "#RATING_MINIMUM": "最低難易度",
     "#RATING_MAXIMUM": "最高難易度",
@@ -409,6 +410,7 @@
     "#FULL_VERSION": "フルバージョン",
     "#EXTENDED_VERSION": "拡張バージョン",
     "#LIVE_VERSION": "ライブバージョン",
+    "#MEDLEY": "メドレー",
     "#EXPLICIT": "R-18",
     "#MULTI_FINGER": "多指",
     "#FULL_HAND": "片手処理",
@@ -968,7 +970,8 @@
       },
       "Authenticate": {
         "Loading": "Sonolus認証をリクエスト中...",
-        "Error": "Sonolus認証に失敗しました。\n\nインターネット接続を確認してもう一度お試しください。"
+        "Error": "Sonolus認証に失敗しました。\n\nインターネット接続を確認してもう一度お試しください。",
+        "TimeError": "システムの時刻が正しくありません。\n\nシステムの時刻を変更するか、Sonolusに連絡し、問題を報告してください。"
       },
       "Logout": {
         "Loading": "サインアウト中...",
@@ -1012,6 +1015,9 @@
       "Multiplayer": {
         "NotLoggedInError": {
           "Description": "マルチプレイに参加するにはログインが必要ですが、Sonolusアカウントでログインしていません。\n\nSonolusアカウントでログインしてからもう一度お試しください。"
+        },
+        "AlreadyInRoomError": {
+          "Description": "すでにマルチプレイの部屋にいます。"
         },
         "CreateRoom": {
           "Loading": "部屋を作成中...",
@@ -3001,7 +3007,6 @@
       "Home": {
         "Login": "ログイン",
         "Logout": "ログアウト",
-        "Multiplayer": "マルチプレイ",
         "Post": "投稿",
         "Playlist": "プレイリスト",
         "Level": "レベル",
@@ -3291,6 +3296,9 @@
         },
         "Level": {
           "Play": {
+            "MultiplayerConfirmation": {
+              "Description": "現在マルチプレイ部屋にいますが、これから一人でプレイを開始します。\n\n本当に一人でプレイしますか？"
+            },
             "TutorialTip": {
               "Message": "このエンジンで初めてプレイするようです。チュートリアルを表示しますか？"
             },
@@ -4128,7 +4136,11 @@
         },
         "IgnoreNotch": {
           "Title": "ノッチを無視",
-          "Description": "Sonolusはデバイスのノッチを考慮してグラフィックが常に見えるようにします。ノッチを無視すると、グラフィックが一部隠れる可能性があります。"
+          "Description": "Sonolusはデバイスのノッチを考慮してグラフィックが常に見えるようにします。ノッチを無視すると、グラフィックが一部隠れる可能性があります。",
+          "Options": {
+            "Horizontal": "水平",
+            "Vertical": "垂直"
+          }
         }
       },
       "Audio": {
@@ -4370,6 +4382,10 @@
           "Title": "デバッグモード",
           "Description": "デバッグモードを有効にすると、デバッグ用のコードが実行され、画面右下にデバッグログが表示されます。"
         },
+        "RecordPerformanceData": {
+          "Title": "パフォーマンスデータの記録",
+          "Description": "デバッグモードでパフォーマンスデータを記録します。\n\nこれにより、Sonolusのパフォーマンスが低下する可能性があります。"
+        },
         "DebugLogStyle": {
           "Title": "デバッグログのスタイル",
           "Description": "デバッグログのスタイルを設定します。"
@@ -4471,6 +4487,10 @@
             }
           },
           "Result": {
+            "AutoExit": {
+              "Title": "自動終了",
+              "Message": "自動終了が有効になっているため、ゲームプレイが終了しました。\n\n設定で自動終了をオフにすることができます。"
+            },
             "TouchAbnormality": {
               "Description": "タッチの異常が {0} 件検出されました。これは、ジェスチャー、タッチ最適化、通知などのシステム機能が原因であることが多く、判定に影響を与える可能性があります。\n\nゲームプレイの体験を向上させるために、関連するシステム設定を調整してこの問題を解決することをお勧めします。"
             },
