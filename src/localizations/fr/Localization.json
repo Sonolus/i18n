@@ -69,6 +69,7 @@
     "#SORT": "Trier",
     "#KEYWORDS": "Mots-clés",
     "#NAME": "Nom",
+    "#SOURCE": "Source",
     "#RATING": "Notation",
     "#RATING_MINIMUM": "Note Minimale",
     "#RATING_MAXIMUM": "Note Maximale",
@@ -409,6 +410,7 @@
     "#FULL_VERSION": "Version Complète",
     "#EXTENDED_VERSION": "Version Étendue",
     "#LIVE_VERSION": "Version Live",
+    "#MEDLEY": "Compilation",
     "#EXPLICIT": "Explicit",
     "#MULTI_FINGER": "Multi-doigts",
     "#FULL_HAND": "Main Entière",
@@ -968,7 +970,8 @@
       },
       "Authenticate": {
         "Loading": "Demande d'authentification Sonolus…",
-        "Error": "Échec de la demande d'authentification à Sonolus.\n\nVérifiez votre connexion Internet et réessayez, ou contactez Sonolus pour signaler le problème."
+        "Error": "Échec de la demande d'authentification à Sonolus.\n\nVérifiez votre connexion Internet et réessayez, ou contactez Sonolus pour signaler le problème.",
+        "TimeError": "L'heure de votre système est incorrecte.\n\nVeuillez modifier l'heure de votre système ou contacter Sonolus pour signaler le problème."
       },
       "Logout": {
         "Loading": "Déconnexion…",
@@ -1012,6 +1015,9 @@
       "Multiplayer": {
         "NotLoggedInError": {
           "Description": "Le mode multijoueur nécessite une connexion à un compte Sonolus.\n\nVeuillez d'abord vous connecter avec votre compte Sonolus et réessayer."
+        },
+        "AlreadyInRoomError": {
+          "Description": "Vous êtes déjà dans une salle multijoueur."
         },
         "CreateRoom": {
           "Loading": "Création de la Salle…",
@@ -3001,7 +3007,6 @@
       "Home": {
         "Login": "Se Connecter",
         "Logout": "Se Déconnecter",
-        "Multiplayer": "Multijoueur",
         "Post": "Publications",
         "Playlist": "Playlists",
         "Level": "Niveaux",
@@ -3291,6 +3296,9 @@
         },
         "Level": {
           "Play": {
+            "MultiplayerConfirmation": {
+              "Description": "Vous êtes actuellement dans une salle multijoueur, et cela vous fera jouer seul.\n\nÊtes-vous sûr de vouloir jouer seul ?"
+            },
             "TutorialTip": {
               "Message": "C'est la première fois que vous jouez avec ce moteur, souhaitez-vous voir son tutoriel?"
             },
@@ -4128,7 +4136,11 @@
         },
         "IgnoreNotch": {
           "Title": "Ignorer l'Encoche",
-          "Description": "Par défaut, Sonolus prend en compte les encoches de l'appareil pour s'assurer que les graphiques sont toujours visibles. Lorsque cette option est activée, Sonolus ignore les encoches et s'affiche en plein écran, ce qui peut entraîner un obscurcissement partiel des graphiques."
+          "Description": "Par défaut, Sonolus prend en compte les encoches de l'appareil pour s'assurer que les graphiques sont toujours visibles. Lorsque cette option est activée, Sonolus ignore les encoches et s'affiche en plein écran, ce qui peut entraîner un obscurcissement partiel des graphiques.",
+          "Options": {
+            "Horizontal": "Horizontale",
+            "Vertical": "Verticale"
+          }
         }
       },
       "Audio": {
@@ -4370,6 +4382,10 @@
           "Title": "Mode Débogage",
           "Description": "Le mode débogage permet d'exécuter un code spécifique au débogage et affiche le journal de débogage en bas à droite de l'écran."
         },
+        "RecordPerformanceData": {
+          "Title": "Enregistrer les Données de Performance",
+          "Description": "Enregistrer les données de performance en mode débogage.\n\nCela peut réduire les performances de Sonolus."
+        },
         "DebugLogStyle": {
           "Title": "Style du Journal de Débogage",
           "Description": "Style du journal de débogage."
@@ -4471,6 +4487,10 @@
             }
           },
           "Result": {
+            "AutoExit": {
+              "Title": "Sortie Auto",
+              "Message": "La partie s'est terminée car la Sortie Automatique est activée.\n\nVous pouvez désactiver la Sortie Automatique dans les paramètres."
+            },
             "TouchAbnormality": {
               "Description": "{0} anomalies tactiles ont été détectées pendant le jeu. Ce problème est généralement dû à des fonctionnalités système telles que les gestes, l'optimisation tactile ou les notifications, et peut entraîner des problèmes de jugement.\n\nPour une expérience de jeu optimale, il est recommandé de résoudre ce problème en modifiant les paramètres système concernés."
             },
