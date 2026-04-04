@@ -69,6 +69,7 @@
     "#SORT": "Orden",
     "#KEYWORDS": "Palabras clave",
     "#NAME": "Nombre",
+    "#SOURCE": "Fuente",
     "#RATING": "Clasificación",
     "#RATING_MINIMUM": "Clasificación mínima",
     "#RATING_MAXIMUM": "Clasificación máxima",
@@ -409,6 +410,7 @@
     "#FULL_VERSION": "Versión completa",
     "#EXTENDED_VERSION": "Versión extendida",
     "#LIVE_VERSION": "Versión en vivo",
+    "#MEDLEY": "Medley",
     "#EXPLICIT": "Explícito",
     "#MULTI_FINGER": "Varios dedos",
     "#FULL_HAND": "Mano completa",
@@ -968,7 +970,8 @@
       },
       "Authenticate": {
         "Loading": "Solicitando autenticación de Sonolus...",
-        "Error": "No se pudo solicitar la autenticación de Sonolus.\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con Sonolus para informar el problema."
+        "Error": "No se pudo solicitar la autenticación de Sonolus.\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con Sonolus para informar el problema.",
+        "TimeError": "La hora de su sistema es incorrecta.\n\nCambie la hora de su sistema o póngase en contacto con Sonolus para informar del problema."
       },
       "Logout": {
         "Loading": "Cerrando sesión...",
@@ -1012,6 +1015,9 @@
       "Multiplayer": {
         "NotLoggedInError": {
           "Description": "El modo multijugador requiere iniciar sesión, pero no has iniciado sesión con una cuenta de Sonolus.\n\nPrimero inicie sesión con su cuenta de Sonolus y vuelva a intentarlo."
+        },
+        "AlreadyInRoomError": {
+          "Description": "Ya te encuentras en una sala multijugador."
         },
         "CreateRoom": {
           "Loading": "Creando sala...",
@@ -3001,7 +3007,6 @@
       "Home": {
         "Login": "Iniciar sesión",
         "Logout": "Cerrar sesión",
-        "Multiplayer": "Multijugador",
         "Post": "Publicaciones",
         "Playlist": "Listas de reproducción",
         "Level": "Niveles",
@@ -3291,6 +3296,9 @@
         },
         "Level": {
           "Play": {
+            "MultiplayerConfirmation": {
+              "Description": "Actualmente te encuentras en una sala multijugador y comenzarás a jugar en solitario.\n\n¿Estás seguro de que quieres jugar solo?"
+            },
             "TutorialTip": {
               "Message": "Esta es tu primera vez jugando con este motor, ¿te gustaría ver su tutorial?"
             },
@@ -4128,7 +4136,11 @@
         },
         "IgnoreNotch": {
           "Title": "Ignorar Notch",
-          "Description": "De forma predeterminada, Sonolus tiene en cuenta el notch del dispositivo para garantizar que los gráficos estén siempre visibles. Cuando está activado, Sonolus ignora el notch y se muestra en pantalla completa, lo que puede provocar que los gráficos queden parcialmente obstruidos."
+          "Description": "De forma predeterminada, Sonolus tiene en cuenta el notch del dispositivo para garantizar que los gráficos estén siempre visibles. Cuando está activado, Sonolus ignora el notch y se muestra en pantalla completa, lo que puede provocar que los gráficos queden parcialmente obstruidos.",
+          "Options": {
+            "Horizontal": "Horizontal",
+            "Vertical": "Vertical"
+          }
         }
       },
       "Audio": {
@@ -4370,6 +4382,10 @@
           "Title": "Modo Debug",
           "Description": "El modo debug permite ejecutar código específico de depuración y muestra el registro de depuración en la parte inferior derecha de la pantalla."
         },
+        "RecordPerformanceData": {
+          "Title": "Registrar datos de rendimiento",
+          "Description": "Registra los datos de rendimiento en modo de depuración.\n\nEsto podría reducir el rendimiento de Sonolus."
+        },
         "DebugLogStyle": {
           "Title": "Estilo de registro de debug",
           "Description": "Estilo de registro de debug."
@@ -4471,6 +4487,10 @@
             }
           },
           "Result": {
+            "AutoExit": {
+              "Title": "Salir automáticamente",
+              "Message": "El juego finalizó porque tenías activada la opción para salir automáticamente.\n\nPuedes desactivar esta opción en Ajustes."
+            },
             "TouchAbnormality": {
               "Description": "Se detectaron {0} anomalías táctiles durante el juego. Esto suele deberse a funciones del sistema como los gestos, la optimización táctil y las notificaciones, y puede causar problemas de criterio.\n\nPara garantizar la mejor experiencia de juego, se recomienda solucionar este problema ajustando la configuración del sistema."
             },
