@@ -106,7 +106,7 @@
     "#SPEED": "Tốc độ nhạc",
     "#MIRROR": "Mirror (Lật ngang)",
     "#RANDOM": "Ngẫu nhiên",
-    "#HIDDEN": "Tường chắn phía trên vạch phán định",
+    "#HIDDEN": "Tường chắn vạch phán định",
     "#JUDGMENT_STRICT": "Phán định Khó",
     "#JUDGMENT_LOOSE": "Phán định Dễ",
     "#EFFECT_AUTO": "Phát SFX tự động trong chế độ Chơi",
@@ -503,8 +503,8 @@
     "#DISLIKED": "Đã không thích",
     "#BOOKMARK": "Đánh dấu",
     "#BOOKMARKED": "Đã đánh dấu",
-    "#DELETE": "Xóa bỏ",
-    "#DELETING": "Đang xóa bỏ",
+    "#DELETE": "Xóa",
+    "#DELETING": "Đang xóa",
     "#DELETED": "Đã xóa",
     "#REMOVE": "Xoá",
     "#REMOVING": "Đang xoá",
@@ -900,7 +900,7 @@
           "Description": "Tài khoản Sonolus của bạn đã bị cấm."
         },
         "Deleted": {
-          "Description": "Bạn đã từng xoá tài khoản Sonolus trước đây của mình.\n\nVui lòng đợi 7 ngày trước khi tạo tài khoản Sonolus khác."
+          "Description": "Bạn vừa xoá tài khoản Sonolus của mình gần đây.\n\nVui lòng đợi 7 ngày kể từ khi xóa tài khoản trước khi tạo tài khoản Sonolus khác."
         }
       },
       "UserInfo": {
@@ -2877,7 +2877,7 @@
         "Delete": {
           "Title": "Xoá tài khoản",
           "Confirmation": {
-            "Description": "Việc xóa tài khoản sẽ xóa vĩnh viễn dữ liệu liên quan đến tài khoản Sonolus của bạn, bao gồm hồ sơ, kho vật phẩm và dữ liệu trên Server trò chơi. Quá trình xóa dữ liệu trên Server trò chơi có thể mất đến 7 ngày.\nBạn sẽ không thể khôi phục được tài khoản đã bị xóa, cũng như sẽ không thể tạo được tài khoản Sonolus khác sau 7 ngày.\n\nBạn có chắc muốn xoá tài khoản \"{0}\"?"
+            "Description": "Việc xóa tài khoản sẽ xóa vĩnh viễn dữ liệu liên quan đến tài khoản Sonolus của bạn, bao gồm hồ sơ, kho vật phẩm và dữ liệu trên Server trò chơi. Quá trình xóa dữ liệu trên Server trò chơi có thể mất đến 7 ngày.\nBạn sẽ không thể khôi phục được tài khoản đã bị xóa, cũng như sẽ không thể tạo được tài khoản Sonolus khác trong vòng 7 ngày kể từ khi xóa.\n\nBạn có chắc muốn xoá tài khoản \"{0}\"?"
           }
         }
       },
@@ -3260,7 +3260,7 @@
             "Title": "Đã sao chép liên kết bài đăng"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi hành động sau"
+            "Title": "Đã gửi hành động bài đăng"
           }
         },
         "Playlist": {
@@ -3268,7 +3268,7 @@
             "Title": "Đã sao chép liên kết danh sách phát"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi danh sách phát"
+            "Title": "Đã gửi hành động danh sách phát"
           },
           "Watch": {
             "Multiple": {
@@ -3350,7 +3350,7 @@
             "Title": "Đã sao chép liên kết màn chơi"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi màn chơi"
+            "Title": "Đã gửi hành động màn chơi"
           },
           "Engine": {
             "Title": "Engine"
@@ -3361,7 +3361,7 @@
             "Title": "Đã sao chép liên kết Skin"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi Skin"
+            "Title": "Đã gửi hành động Skin"
           }
         },
         "Background": {
@@ -3375,7 +3375,7 @@
             "Title": "Đã sao chép liên kết ảnh nền"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi Ảnh nền"
+            "Title": "Đã gửi hành động Ảnh nền"
           }
         },
         "Effect": {
@@ -3393,7 +3393,7 @@
             "Title": "Đã sao chép liên kết hiệu ứng"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi Hiệu ứng âm"
+            "Title": "Đã gửi hành động SFX"
           }
         },
         "Particle": {
@@ -3401,7 +3401,7 @@
             "Title": "Đã sao chép liên kết Particle"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi Particle"
+            "Title": "Đã gửi hành động Particle"
           }
         },
         "Engine": {
@@ -3421,7 +3421,7 @@
             "Title": "Đã sao chép liên kết Engine"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi Engine"
+            "Title": "Đã gửi hành động Engine"
           },
           "Skin": {
             "Title": "Skin"
