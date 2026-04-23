@@ -63,6 +63,7 @@
     "#GREAT": "Great",
     "#GOOD": "Good",
     "#MISS": "Miss",
+    "#JUDGMENT": "判斷",
     "#ACCURACY": "準確率",
     "#FILTER": "篩選",
     "#SORT": "分類",
@@ -278,9 +279,11 @@
     "#SPECIAL": "Special",
     "#APPEND": "Append",
     "#POST_PLACEHOLDER": "輸入貼文...",
+    "#PLAYLIST_PLACEHOLDER": "輸入播放清單...",
     "#LEVEL_PLACEHOLDER": "輸入關卡...",
     "#SKIN_PLACEHOLDER": "輸入皮膚…",
     "#BACKGROUND_PLACEHOLDER": "輸入背景...",
+    "#EFFECT_PLACEHOLDER": "輸入音效…",
     "#PARTICLE_PLACEHOLDER": "輸入粒子…",
     "#ENGINE_PLACEHOLDER": "輸入引擎…",
     "#REPLAY_PLACEHOLDER": "輸入回放…",
@@ -359,6 +362,7 @@
     "#POPULAR": "熱門",
     "#FEATURED": "精選",
     "#COMPETITIVE": "競賽",
+    "#TOURNAMENT": "比賽",
     "#HOLIDAY": "假日",
     "#LIMITED": "限定",
     "#ANNOUNCEMENT": "公告",
@@ -402,10 +406,16 @@
     "#INSTRUMENTAL": "純音樂",
     "#SHORT_VERSION": "短版本",
     "#LONG_VERSION": "長版本",
+    "#CUT_VERSION": "剪輯版",
     "#FULL_VERSION": "完整版",
     "#EXTENDED_VERSION": "延長版",
     "#LIVE_VERSION": "現場版",
     "#MEDLEY": "組曲",
+    "#EXPLICIT": "明確的",
+    "#MULTI_FINGER": "多指",
+    "#FULL_HAND": "滿手",
+    "#CROSS_HAND": "十字手",
+    "#GIMMICK": "手法",
     "#COLLABORATION": "合作",
     "#REPORT": "回報",
     "#REASON": "原因",
@@ -651,6 +661,7 @@
         "Particle": "無法選擇該粒子，因為它沒有來源伺服器。\n\n請使用不同的粒子，或聯絡粒子作者回報問題。",
         "Engine": "無法選擇該引擎，因為它沒有來源伺服器。\n\n請使用不同的引擎，或聯絡引擎作者報告問題。",
         "Replay": "無法選擇此重播，因為它沒有來源伺服器。\n\n請使用不同的重播，或聯絡重播作者回報問題。",
+        "User": "該用戶無法被選中，因為它沒有來源伺服器。\n\n請使用其他用戶，或聯絡用戶作者回報此問題。",
         "Room": "無法選擇該房間，因為它沒有來源伺服器。\n\n請使用其他房間，或聯絡房間作者回報問題。"
       },
       "NoOtherServers": {
@@ -663,15 +674,25 @@
         "Particle": "無法選擇該粒子，因為它來自不同的伺服器。\n\n請使用同一伺服器的不同粒子。",
         "Engine": "無法選擇該引擎，因為它來自不同的伺服器。\n\n請使用同一台伺服器的不同引擎。",
         "Replay": "無法選擇此重播，因為它來自不同的伺服器。\n\n請使用來自同一伺服器的不同重播。",
+        "User": "此用戶無法選擇，因為它來自不同的伺服器。\n\n請使用同一伺服器上的其他使用者。",
         "Room": "無法選擇該房間，因為它來自不同的伺服器。\n\n請使用同一伺服器的不同房間。"
       }
     },
     "FileField": {
       "NoSelected": "未選擇文件",
       "Validation": {
+        "Invalid": "文件無效。\n\n請選擇其他文件。",
+        "MinSize": "文件太小。\n\n請選擇其他文件。",
+        "MaxSize": "文件過大。\n\n請選擇其他文件。",
         "Image": {
+          "MinWidth": "圖片寬度過窄。\n\n請選擇其他文件。",
+          "MaxWidth": "圖片寬度過大。\n\n請選擇其他文件。",
+          "MinHeight": "圖片高度過低。\n\n請選擇其他文件。",
+          "MaxHeight": "圖片高度過大。\n\n請選擇其他文件。"
         },
         "Audio": {
+          "MinLength": "音訊檔案過短。\n\n請選擇其他文件。",
+          "MaxLength": "音訊檔案過長。\n\n請選擇其他文件。"
         }
       }
     },
@@ -1667,27 +1688,38 @@
       },
       "User": {
         "Info": {
+          "Loading": "正在載入用戶資訊...",
           "Error": "無法載入使用者 \"{0}\" 的資訊。"
         },
         "Create": {
+          "Loading": "建立用戶...",
+          "Error": "在“{0}”中建立使用者失敗。"
         },
         "List": {
+          "Loading": "正在載入用戶...",
+          "Error": "頁面 {0} 上的使用者載入失敗。"
         },
         "Details": {
+          "Loading": "正在載入用戶詳情...",
+          "Error": "無法載入使用者「{0}」的詳細資料。"
         },
         "Submit": {
+          "Loading": "提交給用戶...",
           "Error": "提交給使用者 \"{0}\" 失敗。"
         },
         "Community": {
           "Info": {
+            "Loading": "正在載入用戶社群資訊...",
             "Error": "無法載入使用者社群資訊 \"{0}\" 。"
           },
           "Submit": {
+            "Loading": "提交給使用者社群…",
             "Error": "未能提交給使用者社群 \"{0}\" 。"
           },
           "Comment": {
             "List": {
-              "Loading": "正在載入用戶評論…"
+              "Loading": "正在載入用戶評論…",
+              "Error": "第 {0} 頁的使用者評論載入失敗。"
             }
           }
         },
@@ -1698,12 +1730,17 @@
           },
           "Record": {
             "List": {
+              "Loading": "正在載入使用者記錄...",
+              "Error": "載入第 {0} 頁的使用者記錄失敗。"
             },
             "Details": {
+              "Loading": "正在載入使用者記錄詳情...",
+              "Error": "無法載入使用者記錄“{0}”的詳細資訊。"
             }
           }
         },
         "Compatibility": {
+          "Loading": "正在檢查使用者相容性...",
           "Error": "使用者 \"{0}\" 與目前 Sonolus 版本不相容。\n\n請使用其他使用者登錄，或聯絡伺服器擁有者回報此問題。"
         }
       },
@@ -2065,14 +2102,19 @@
       },
       "User": {
         "Info": {
+          "Loading": "正在載入用戶資訊...",
           "Error": "無法載入使用者 \"{0}\" 的資訊。\n\n您的集合可能已損壞。"
         },
         "List": {
+          "Loading": "正在載入用戶...",
+          "Error": "第 {0} 頁的用戶資料載入失敗。\n\n您的集合可能已損壞。"
         },
         "Details": {
+          "Loading": "正在載入用戶詳情...",
           "Error": "無法載入使用者 \"{0}\" 的詳細資料。\n\n您的集合可能已損壞。"
         },
         "Compatibility": {
+          "Loading": "正在檢查用戶相容性…",
           "Error": "使用者 \"{0}\" 與目前 Sonolus 版本不相容。\n\n請更新此用戶，或使用其他用戶。"
         }
       },
@@ -2398,14 +2440,19 @@
       },
       "User": {
         "Info": {
+          "Loading": "正在載入用戶資訊...",
           "Error": "無法載入使用者 \"{0}\" 的資訊。\n\n您的軟體包可能不受支援或已損壞。"
         },
         "List": {
+          "Loading": "正在載入用戶...",
+          "Error": "第 {0} 頁的用戶資料載入失敗。\n\n您的軟體包可能不受支援或已損壞。"
         },
         "Details": {
+          "Loading": "正在載入用戶詳情...",
           "Error": "無法載入使用者 \"{0}\" 的詳細資料。\n\n您的軟體包可能不受支援或已損壞。"
         },
         "Compatibility": {
+          "Loading": "正在檢查使用者相容性...",
           "Error": "使用者 \"{0}\" 與目前 Sonolus 版本不相容。\n\n您的軟體包可能不受支援或已損壞。"
         }
       },
@@ -2558,7 +2605,8 @@
           "Description": "選擇一個集合來建立此重播。"
         },
         "User": {
-          "Title": "建立用戶"
+          "Title": "建立用戶",
+          "Description": "選擇要建立此使用者的集合。"
         },
         "Room": {
           "Title": "建立房間",
@@ -2603,6 +2651,8 @@
           "Description": "選擇自訂伺服器或收藏以使用其重播。"
         },
         "User": {
+          "Title": "選擇用戶",
+          "Description": "選擇自訂伺服器或集合以使用其使用者。"
         },
         "Room": {
           "Title": "選擇房間",
@@ -2966,6 +3016,7 @@
         "Particle": "粒子",
         "Engine": "引擎",
         "Replay": "重播",
+        "User": "使用者",
         "Room": "房間",
         "Configuration": "配置",
         "CollectionUpdateConfirmation": {
@@ -3081,6 +3132,7 @@
           }
         },
         "User": {
+          "Title": "使用者",
           "Create": {
             "Title": "建立用戶",
             "Success": {
@@ -3162,7 +3214,9 @@
           }
         },
         "User": {
+          "Title": "使用者",
           "ShareSuccess": {
+            "Title": "用戶連結已複製"
           }
         },
         "Room": {
@@ -3413,11 +3467,13 @@
         },
         "User": {
           "ShareSuccess": {
+            "Title": "用戶連結已複製"
           },
           "ActionSuccess": {
             "Title": "用戶操作已提交"
           },
           "Profile": {
+            "Title": "輪廓"
           }
         },
         "Room": {
@@ -3557,6 +3613,7 @@
           "Title": "重播配置"
         },
         "User": {
+          "Title": "使用者配置"
         },
         "Room": {
           "Title": "房間配置"
@@ -3619,6 +3676,7 @@
           "Configuration": "配置"
         },
         "User": {
+          "Title": "使用者資源"
         },
         "Room": {
           "Title": "房間資源",
@@ -3661,6 +3719,7 @@
           "Title": "儲存重播"
         },
         "User": {
+          "Title": "儲存用戶"
         },
         "Room": {
           "Title": "儲存房間"
@@ -3714,6 +3773,7 @@
         },
         "User": {
           "Success": {
+            "Title": "用戶已儲存"
           }
         },
         "Room": {
@@ -3770,6 +3830,7 @@
         },
         "User": {
           "Success": {
+            "Title": "使用者更新"
           }
         },
         "Room": {
@@ -3824,6 +3885,7 @@
           }
         },
         "User": {
+          "Title": "使用者資訊"
         },
         "Room": {
           "Title": "房間資訊"
@@ -4092,9 +4154,11 @@
           "Description": "SFX的音量。"
         },
         "UIBgmVolume": {
+          "Title": "UI BGM 音量",
           "Description": "UI的背景音樂音量。"
         },
         "UISfxVolume": {
+          "Title": "UI SFX 音量",
           "Description": "UI的音效音量。"
         },
         "AlwaysDecodeLevelBgm": {
@@ -4249,6 +4313,8 @@
           "Description": "當連擊為零時依然顯示連擊數。"
         },
         "MetricAnimation": {
+          "Title": "度量動畫",
+          "Description": "指標動畫。"
         },
         "TouchStyle": {
           "Title": "觸碰圖示風格",
