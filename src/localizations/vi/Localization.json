@@ -821,7 +821,7 @@
   },
   "Web": {
     "InternetConnectionError": "Không có kết nối Internet.\nVui lòng kiểm tra kết nối Internet của bạn hoặc kiểm tra quyền truy cập Internet của Sonolus và thử lại.",
-    "ServerConnectionError": "Không thể kết nối tới Server.\nVui lòng kiểm tra xem địa chỉ Server có đúng không, kiểm tra kết nối Internet của bạn và thử lại hoặc liên hệ với chủ Server để báo cáo sự cố.",
+    "ServerConnectionError": "Không thể kết nối đến Server.\nVui lòng kiểm tra xem địa chỉ Server có đúng không, kiểm tra kết nối Internet của bạn và thử lại hoặc liên hệ với chủ Server để báo cáo sự cố.",
     "ServerHttpError": "Phản hồi của Server: {0}",
     "ServerVersionTooOldError": "Server này chỉ hỗ trợ phiên bản cũ của Sonolus ({0}).\nVui lòng đợi Server được cập nhật hoặc liên hệ với chủ Server để báo cáo sự cố.",
     "ServerVersionTooNewError": "Server này chỉ hỗ trợ phiên bản Sonolus {0}.\n\nVui lòng cập nhật ứng dụng Sonolus của bạn hoặc liên hệ với chủ Server để báo cáo sự cố."
@@ -1065,8 +1065,8 @@
             "Error": "Không tải được thông tin bài đăng cộng đồng của \"{0}\"."
           },
           "Submit": {
-            "Loading": "Đang gửi bài đăng tới cộng đồng...",
-            "Error": "Không thể gửi bài đăng tới cộng đồng \"{0}\"."
+            "Loading": "Đang gửi bài đăng đến cộng đồng...",
+            "Error": "Không thể gửi bài đăng đến cộng đồng \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1118,8 +1118,8 @@
           "Error": "Không tải được thông tin chi tiết về danh sách phát của \"{0}\"."
         },
         "Submit": {
-          "Loading": "Đang gửi tới danh sách phát...",
-          "Error": "Không thể gửi tới danh sách phát \"{0}\"."
+          "Loading": "Đang gửi đến danh sách phát...",
+          "Error": "Không thể gửi đến danh sách phát \"{0}\"."
         },
         "Community": {
           "Info": {
@@ -1127,8 +1127,8 @@
             "Error": "Không tải được thông tin cộng đồng danh sách phát của \"{0}\"."
           },
           "Submit": {
-            "Loading": "Đang gửi tới cộng đồng danh sách phát...",
-            "Error": "Không thể gửi tới cộng đồng danh sách phát của \"{0}\"."
+            "Loading": "Đang gửi đến cộng đồng danh sách phát...",
+            "Error": "Không thể gửi đến cộng đồng danh sách phát của \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1194,7 +1194,7 @@
           },
           "Submit": {
             "Loading": "Đang gửi kết quả màn chơi...",
-            "Error": "Không thể gửi kết quả màn chơi tới \"{0}\"."
+            "Error": "Không thể gửi kết quả màn chơi đến \"{0}\"."
           }
         },
         "Community": {
@@ -1203,8 +1203,8 @@
             "Error": "Không tải được thông tin cộng đồng của màn chơi \"{0}\"."
           },
           "Submit": {
-            "Loading": "Đang gửi tới cộng đồng màn chơi...",
-            "Error": "Không thể gửi tới cộng đồng màn chơi \"{0}\"."
+            "Loading": "Đang gửi đến cộng đồng màn chơi...",
+            "Error": "Không thể gửi đến cộng đồng màn chơi \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1277,8 +1277,8 @@
             "Error": "Không tải được thông tin Skin cộng đồng của \"{0}\"."
           },
           "Submit": {
-            "Loading": "Đang gửi tới Skin cộng đồng...",
-            "Error": "Không thể gửi tới Skin cộng đồng của \"{0}\"."
+            "Loading": "Đang gửi đến Skin cộng đồng...",
+            "Error": "Không thể gửi đến Skin cộng đồng của \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1339,7 +1339,7 @@
         },
         "Submit": {
           "Loading": "Đang gửi đến ảnh nền...",
-          "Error": "Không thể gửi tới ảnh nền \"{0}\"."
+          "Error": "Không thể gửi đến ảnh nền \"{0}\"."
         },
         "Community": {
           "Info": {
@@ -1347,8 +1347,8 @@
             "Error": "Không tải được thông tin ảnh nền cộng đồng của \"{0}\"."
           },
           "Submit": {
-            "Loading": "Đang gửi tới ảnh nền cộng đồng...",
-            "Error": "Không thể gửi tới ảnh nền cộng đồng của \"{0}\"."
+            "Loading": "Đang gửi đến ảnh nền cộng đồng...",
+            "Error": "Không thể gửi đến ảnh nền cộng đồng của \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1412,8 +1412,8 @@
           "Error": "Không tải được chi tiết SFX của \"{0}\"."
         },
         "Submit": {
-          "Loading": "Đang gửi tới SFX...",
-          "Error": "Không thể gửi tới SFX \"{0}\"."
+          "Loading": "Đang gửi đến SFX...",
+          "Error": "Không thể gửi đến SFX \"{0}\"."
         },
         "Community": {
           "Info": {
@@ -1421,8 +1421,8 @@
             "Error": "Không tải được thông tin cộng đồng SFX của \"{0}\"."
           },
           "Submit": {
-            "Loading": "Đang gửi tới cộng đồng SFX...",
-            "Error": "Không thể gửi tới cộng đồng SFX của \"{0}\"."
+            "Loading": "Đang gửi đến cộng đồng SFX...",
+            "Error": "Không thể gửi đến cộng đồng SFX của \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1483,7 +1483,7 @@
         },
         "Submit": {
           "Loading": "Đang gửi đến Particle...",
-          "Error": "Không thể gửi tới Particle \"{0}\"."
+          "Error": "Không thể gửi đến Particle \"{0}\"."
         },
         "Community": {
           "Info": {
@@ -1491,8 +1491,8 @@
             "Error": "Không tải được thông tin cộng đồng Particle của \"{0}\"."
           },
           "Submit": {
-            "Loading": "Gửi tới cộng đồng Particle...",
-            "Error": "Không thể gửi tới cộng đồng Particle của \"{0}\"."
+            "Loading": "Đang gửi đến cộng đồng Particle...",
+            "Error": "Không thể gửi đến cộng đồng Particle của \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1552,8 +1552,8 @@
           "Error": "Không tải được thông tin chi tiết về Engine của \"{0}\"."
         },
         "Submit": {
-          "Loading": "Đang gửi tới Engine...",
-          "Error": "Không thể gửi tới Engine \"{0}\"."
+          "Loading": "Đang gửi đến Engine...",
+          "Error": "Không thể gửi đến Engine \"{0}\"."
         },
         "Community": {
           "Info": {
@@ -1561,8 +1561,8 @@
             "Error": "Không tải được thông tin cộng đồng Engine của \"{0}\"."
           },
           "Submit": {
-            "Loading": "Đang gửi tới cộng đồng Engine...",
-            "Error": "Không thể gửi tới cộng đồng Engine của \"{0}\"."
+            "Loading": "Đang gửi đến cộng đồng Engine...",
+            "Error": "Không thể gửi đến cộng đồng Engine của \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1638,7 +1638,7 @@
           "Error": "Không tải được thông tin chi tiết về bản phát lại của \"{0}\"."
         },
         "Submit": {
-          "Loading": "Đang gửi tới bản phát lại...",
+          "Loading": "Đang gửi đến bản phát lại...",
           "Error": "Không thể gửi bản phát lại\"{0}\"."
         },
         "Community": {
@@ -1647,8 +1647,8 @@
             "Error": "Không tải được thông tin cộng đồng bản phát lại của \"{0}\"."
           },
           "Submit": {
-            "Loading": "Đang gửi tới cộng đồng bản phát lại...",
-            "Error": "Không thể gửi tới cộng đồng bản phát lại của \"{0}\"."
+            "Loading": "Đang gửi đến cộng đồng bản phát lại...",
+            "Error": "Không thể gửi đến cộng đồng bản phát lại của \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1771,8 +1771,8 @@
             "Error": "Không tải được thông tin cộng đồng trong phòng của \"{0}\"."
           },
           "Submit": {
-            "Loading": "Đang gửi tới cộng đồng phòng...",
-            "Error": "Không thể gửi bài tới cộng đồng phòng \"{0}\"."
+            "Loading": "Đang gửi đến cộng đồng phòng...",
+            "Error": "Không thể gửi bài đến cộng đồng phòng \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -2136,7 +2136,7 @@
           "Error": "Phòng \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng cập nhật phòng này hoặc sử dụng phòng khác."
         },
         "Cover": {
-          "Loading": "Đâng tải ảnh bìa ở màn chơi phòng...",
+          "Loading": "Đang tải ảnh bìa ở màn chơi phòng...",
           "Error": "Không tải được ảnh bìa ở màn chơi phòng của \"{0}\".\n\nVui lòng cập nhật phòng này hoặc sử dụng phòng khác."
         },
         "Bgm": {
@@ -2526,7 +2526,7 @@
       }
     },
     "JumpToPage": {
-      "Title": "Nhảy tới trang",
+      "Title": "Nhảy đến trang",
       "Page": {
         "Title": "Trang",
         "Description": "Số trang.",
@@ -2848,7 +2848,7 @@
           "Title": "Mô tả"
         },
         "Vip": {
-          "Description": "Gói VIP cho phép bạn trải nghiệm không có quảng cáo trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nVIP x{0}"
+          "Description": "Gói VIP cho phép bạn trải nghiệm Sonolus không có quảng cáo.\n\nKhi mua, bạn sẽ nhận được:\nVIP x{0}"
         },
         "NameChange": {
           "Description": "Lượt đổi tên có thể được dùng để thay đổi tên hồ sơ của bạn trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nLượt Đổi tên x{0}"
@@ -2988,7 +2988,7 @@
       },
       "Support": {
         "Title": "Hỗ trợ",
-        "Description": "Để liên hệ và hỗ trợ, hãy gửi email tới: {0}",
+        "Description": "Để liên hệ và hỗ trợ, hãy gửi email đến: {0}",
         "Email": "Email"
       },
       "Legal": {
@@ -3260,7 +3260,7 @@
             "Title": "Đã sao chép liên kết bài đăng"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi hành động bài đăng"
+            "Title": "Đã gửi đến bài đăng"
           }
         },
         "Playlist": {
@@ -3268,7 +3268,7 @@
             "Title": "Đã sao chép liên kết danh sách phát"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi hành động danh sách phát"
+            "Title": "Đã gửi đến danh sách phát"
           },
           "Watch": {
             "Multiple": {
@@ -3307,13 +3307,13 @@
             },
             "Effect": {
               "Audio": {
-                "Loading": "Giải mã SFX...",
+                "Loading": "Đang giải mã SFX...",
                 "Error": "Không giải mã được SFX của \"{0}\".\n\nVui lòng liên hệ với tác giả SFX để báo cáo sự cố."
               }
             },
             "Level": {
               "Bgm": {
-                "Loading": "Giải mã nhạc nền màn chơi...",
+                "Loading": "Đang giải mã nhạc nền màn chơi...",
                 "Error": "Không giải mã được nhạc nền màn chơi \"{0}\".\n\nVui lòng liên hệ với tác giả màn chơi để báo cáo sự cố."
               }
             },
@@ -3325,13 +3325,13 @@
           "Watch": {
             "Effect": {
               "Audio": {
-                "Loading": "Giải mã SFX...",
+                "Loading": "Đang giải mã SFX...",
                 "Error": "Không giải mã được SFX của \"{0}\".\n\nVui lòng liên hệ với tác giả SFX để báo cáo sự cố."
               }
             },
             "Level": {
               "Bgm": {
-                "Loading": "Giải mã nhạc nền màn chơi...",
+                "Loading": "Đang giải mã nhạc nền màn chơi...",
                 "Error": "Không giải mã được nhạc nền màn chơi \"{0}\".\n\nVui lòng liên hệ với tác giả màn chơi để báo cáo sự cố."
               }
             },
@@ -3350,7 +3350,7 @@
             "Title": "Đã sao chép liên kết màn chơi"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi hành động màn chơi"
+            "Title": "Đã gửi đến màn chơi"
           },
           "Engine": {
             "Title": "Engine"
@@ -3361,7 +3361,7 @@
             "Title": "Đã sao chép liên kết Skin"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi hành động Skin"
+            "Title": "Đã gửi đến Skin"
           }
         },
         "Background": {
@@ -3375,13 +3375,13 @@
             "Title": "Đã sao chép liên kết ảnh nền"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi hành động Ảnh nền"
+            "Title": "Đã gửi đến Ảnh nền"
           }
         },
         "Effect": {
           "Preview": {
             "Audio": {
-              "Loading": "Giải mã SFX...",
+              "Loading": "Đang giải mã SFX...",
               "Error": "Không giải mã được SFX của \"{0}\".\n\nVui lòng liên hệ với tác giả SFX để báo cáo sự cố."
             },
             "Boot": {
@@ -3393,7 +3393,7 @@
             "Title": "Đã sao chép liên kết hiệu ứng"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi hành động SFX"
+            "Title": "Đã gửi đến SFX"
           }
         },
         "Particle": {
@@ -3401,14 +3401,14 @@
             "Title": "Đã sao chép liên kết Particle"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi hành động Particle"
+            "Title": "Đã gửi đến Particle"
           }
         },
         "Engine": {
           "Tutorial": {
             "Effect": {
               "Audio": {
-                "Loading": "Giải mã SFX...",
+                "Loading": "Đang giải mã SFX...",
                 "Error": "Không giải mã được SFX của \"{0}\".\n\nVui lòng liên hệ với tác giả SFX để báo cáo sự cố."
               }
             },
@@ -3421,7 +3421,7 @@
             "Title": "Đã sao chép liên kết Engine"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi hành động Engine"
+            "Title": "Đã gửi đến Engine"
           },
           "Skin": {
             "Title": "Skin"
@@ -3440,13 +3440,13 @@
           "Watch": {
             "Effect": {
               "Audio": {
-                "Loading": "Giải mã SFX...",
+                "Loading": "Đang giải mã SFX...",
                 "Error": "Không giải mã được SFX của \"{0}\".\n\nVui lòng liên hệ với tác giả SFX để báo cáo sự cố."
               }
             },
             "Level": {
               "Bgm": {
-                "Loading": "Giải mã nhạc nền màn chơi...",
+                "Loading": "Đang giải mã nhạc nền màn chơi...",
                 "Error": "Không giải mã được nhạc nền màn chơi \"{0}\".\n\nVui lòng liên hệ với tác giả màn chơi để báo cáo sự cố."
               }
             },
@@ -3470,7 +3470,7 @@
             "Title": "Đã sao chép liên kết người dùng"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi hành động người dùng"
+            "Title": "Đã gửi đến người dùng"
           },
           "Profile": {
             "Title": "Hồ sơ"
@@ -4001,7 +4001,7 @@
               "Finish": {
                 "Title": "Hoàn thành",
                 "Confirmation": {
-                  "Description": "Bạn có chắc chắn muốn hoàn thành không?\n\nNgười chơi vẫn đang chơi sẽ mất kết quả."
+                  "Description": "Bạn có chắc chắn muốn hoàn thành không?\n\nNhững người vẫn đang chơi sẽ mất kết quả."
                 }
               }
             }
@@ -4226,16 +4226,16 @@
         },
         "ReplayCollection": {
           "Title": "Bộ sưu tập bản phát lại",
-          "Description": "Bộ sưu tập để lưu lại các bản phát lại.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định sẽ được tự động tạo.",
+          "Description": "Bộ sưu tập để lưu các bản phát lại.\n\nNếu không có bộ sưu tập nào được chọn, một bộ sưu tập mặc định sẽ được tự động tạo.",
           "DefaultName": "Bản phát lại"
         },
         "AutoSubmitReplay": {
           "Title": "Tự động gửi bản phát lại",
-          "Description": "Tự động gửi nội dung bản phát lại tới Server nếu được hỗ trợ."
+          "Description": "Tự động gửi nội dung bản phát lại đến Server nếu được hỗ trợ."
         },
         "ShowReplayTouches": {
           "Title": "Hiển thị điểm chạm trong bản phát lại",
-          "Description": "Hiển thị các điểm chạm khi xem lại."
+          "Description": "Hiển thị các điểm chạm khi xem bản phát lại."
         },
         "OverwriteReplayOptions": {
           "Title": "Ghi đè cấu hình bản phát lại",
