@@ -1087,7 +1087,7 @@
             },
             "Details": {
               "Loading": "Đang tải thông tin chi tiết về bài đăng...",
-              "Error": "Không tải được thông tin chi tiết về dữ liệu danh sách bài đăng của \"{0}\"."
+              "Error": "Không tải được thông tin chi tiết về bản ghi bài đăng của \"{0}\"."
             }
           }
         },
@@ -1144,12 +1144,12 @@
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu danh sách phát...",
-              "Error": "Không tải được dữ liệu danh sách phát ở trang {0}."
+              "Loading": "Đang tải bản ghi danh sách phát...",
+              "Error": "Không tải được bản ghi danh sách phát ở trang {0}."
             },
             "Details": {
-              "Loading": "Đang tải thông tin chi tiết về dữ liệu danh sách phát...",
-              "Error": "Không tải được thông tin chi tiết về dữ liệu danh sách phát của \"{0}\"."
+              "Loading": "Đang tải thông tin chi tiết về bản ghi danh sách phát...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi danh sách phát của \"{0}\"."
             }
           }
         },
@@ -1220,12 +1220,12 @@
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu danh sách màn chơi...",
-              "Error": "Không tải được dữ liệu danh sách màn chơi ở trang {0}."
+              "Loading": "Đang tải bản ghi màn chơi...",
+              "Error": "Không tải được bản ghi màn chơi ở trang {0}."
             },
             "Details": {
-              "Loading": "Đang tải thông tin chi tiết về dữ liệu danh sách màn chơi...",
-              "Error": "Không tải được thông tin chi tiết về dữ liệu danh sách màn chơi của \"{0}\"."
+              "Loading": "Đang tải thông tin chi tiết về bản ghi màn chơi...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi màn chơi của \"{0}\"."
             }
           }
         },
@@ -1294,12 +1294,12 @@
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu danh sách Skin...",
-              "Error": "Không tải được dữ liệu danh sách Skin ở trang {0}."
+              "Loading": "Đang tải bản ghi Skin...",
+              "Error": "Không tải được bản ghi Skin ở trang {0}."
             },
             "Details": {
-              "Loading": "Đang tải thông tin chi tiết về dữ liệu danh sách Skin...",
-              "Error": "Không tải được thông tin chi tiết về dữ liệu danh sách Skin của \"{0}\"."
+              "Loading": "Đang tải thông tin chi tiết về bản ghi Skin...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi Skin của \"{0}\"."
             }
           }
         },
@@ -1364,12 +1364,12 @@
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu danh sách ảnh nền...",
-              "Error": "Không tải được dữ liệu danh sách ảnh nền ở trang {0}."
+              "Loading": "Đang tải bản ghi ảnh nền...",
+              "Error": "Không tải được bản ghi ảnh nền ở trang {0}."
             },
             "Details": {
-              "Loading": "Đang tải thông tin chi tiết về dữ liệu danh sách ảnh nền...",
-              "Error": "Không tải được thông tin chi tiết về dữ liệu danh sách ảnh nền của \"{0}\"."
+              "Loading": "Đang tải thông tin chi tiết về bản ghi ảnh nền...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi ảnh nền của \"{0}\"."
             }
           }
         },
@@ -1438,12 +1438,12 @@
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu danh sách SFX...",
-              "Error": "Không tải được dữ liệu danh sách SFX ở trang {0}."
+              "Loading": "Đang tải bản ghi SFX...",
+              "Error": "Không tải được bản ghi SFX ở trang {0}."
             },
             "Details": {
-              "Loading": "Đang tải chi tiết dữ liệu danh sách SFX...",
-              "Error": "Không tải được chi tiết dữ liệu danh sách SFX của \"{0}\"."
+              "Loading": "Đang tải chi tiết bản ghi SFX...",
+              "Error": "Không tải được chi tiết bản ghi SFX của \"{0}\"."
             }
           }
         },
@@ -1508,12 +1508,12 @@
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu danh sách Particle...",
-              "Error": "Không tải được dữ liệu danh sách Particle ở trang {0}."
+              "Loading": "Đang tải bản ghi Particle...",
+              "Error": "Không tải được bản ghi Particle ở trang {0}."
             },
             "Details": {
-              "Loading": "Đang tải thông tin chi tiết về dữ liệu danh sách Particle...",
-              "Error": "Không tải được thông tin chi tiết về dữ liệu danh sách Particle của \"{0}\"."
+              "Loading": "Đang tải thông tin chi tiết về bản ghi Particle...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi Particle của \"{0}\"."
             }
           }
         },
@@ -1578,12 +1578,12 @@
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu danh sách Engine...",
-              "Error": "Không tải được dữ liệu danh sách Engine ở trang {0}."
+              "Loading": "Đang tải bản ghi Engine...",
+              "Error": "Không tải được bản ghi Engine ở trang {0}."
             },
             "Details": {
-              "Loading": "Đang tải thông tin chi tiết về dữ liệu danh sách Engine...",
-              "Error": "Không tải được thông tin chi tiết về dữ liệu danh sách Engine của \"{0}\"."
+              "Loading": "Đang tải thông tin chi tiết về bản ghi Engine...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi Engine của \"{0}\"."
             }
           }
         },
@@ -1664,12 +1664,12 @@
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu danh sách bản phát lại...",
-              "Error": "Không tải được dữ liệu danh sách bản phát lại ở trang {0}."
+              "Loading": "Đang tải bản ghi bản phát lại...",
+              "Error": "Không tải được bản ghi bản phát lại ở trang {0}."
             },
             "Details": {
-              "Loading": "Đang tải thông tin chi tiết về dữ liệu danh sách bản phát lại...",
-              "Error": "Không tải được thông tin chi tiết về dữ liệu danh sách bản phát lại của \"{0}\"."
+              "Loading": "Đang tải thông tin chi tiết về bản ghi bản phát lại...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi bản phát lại của \"{0}\"."
             }
           }
         },
@@ -1788,12 +1788,12 @@
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu danh sách phòng...",
-              "Error": "Không tải được dữ liệu danh sách phòng ở trang {0}."
+              "Loading": "Đang tải bản ghi phòng...",
+              "Error": "Không tải được bản ghi phòng ở trang {0}."
             },
             "Details": {
-              "Loading": "Đang tải thông tin chi tiết về dữ liệu danh sách phòng...",
-              "Error": "Không tải được thông tin chi tiết về dữ liệu danh sách phòng của \"{0}\"."
+              "Loading": "Đang tải thông tin chi tiết về bản ghi phòng...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi phòng của \"{0}\"."
             }
           }
         },
