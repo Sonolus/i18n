@@ -596,7 +596,7 @@
     "Import": "Nhập file",
     "Search": "Tìm kiếm",
     "PullToRefresh": "Kéo xuống để tải lại",
-    "PullTip": "Mẹo: Kéo xuống đế xem thêm",
+    "PullTip": "Mẹo: Kéo xuống để xem thêm",
     "Save": "Lưu",
     "Share": "Chia sẻ",
     "Export": "Xuất file",
@@ -840,30 +840,30 @@
       },
       "Theme": {
         "Thumbnail": {
-          "Loading": "Đang tải chủ đề ảnh bìa...",
-          "Error": "Không thể tải chủ đề ảnh bìa của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Loading": "Đang tải ảnh thu nhỏ của chủ đề...",
+          "Error": "Không thể tải ảnh thu nhỏ của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
         },
         "Background": {
-          "Loading": "Đang tải chủ đề ảnh nền...",
-          "Error": "Không thể tải chủ đề ảnh nền của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Loading": "Đang tải ảnh nền của chủ đề...",
+          "Error": "Không thể tải ảnh nền của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
         },
         "Avatar": {
-          "Loading": "Đang tải chủ đề Avatar​...",
-          "Error": "Không thể tải chủ đề Avatar​ của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Loading": "Đang tải Avatar của chủ đề...",
+          "Error": "Không thể tải Avatar của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
         },
         "AvatarBackground": {
-          "Loading": "Đang tải chủ đề nền Avatar​...",
-          "Error": "Không thể tải chủ đề nền Avatar​ của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Loading": "Đang tải nền Avatar của chủ đề...",
+          "Error": "Không thể tải nền Avatar của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
         },
         "Banner": {
-          "Loading": "Đang tải chủ đề Banner​...",
-          "Error": "Không thể tải chủ đề Banner​ của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Loading": "Đang tải Banner của chủ đề...",
+          "Error": "Không thể tải Banner của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
         },
         "MultiplayerBanner": {
-          "Loading": "Đang tải chủ đề Banner​ trong chế độ nhiều người chơi...",
-          "Error": "Không thể tải chủ đề Banner​ trong chế độ nhiều người chơi của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Loading": "Đang tải Banner của chủ đề trong chế độ nhiều người chơi...",
+          "Error": "Không thể tải Banner của chủ đề \"{0}\" trong chế độ nhiều người chơi.\n\nVui lòng kiểm tra kết nối Internet và thử lại."
         }
-      }
+			}
     },
     "I18n": {
       "List": {
@@ -4105,7 +4105,7 @@
     "Settings": {
       "Title": "Cài đặt",
       "Tip": {
-        "Message": "Cài đặt chứa các tùy chọn chung cho ứng dụng Sonolus.\n\nĐối với các tùy chọn cụ thể của Engine và màn chơi như tốc độ Note, bạn có thể thiết lập trong mục [Cấu hình] sau khi vào Server và chọn màn chơi."
+        "Message": "Cài đặt chứa các tùy chọn chung của Sonolus.\n\nĐối với các tùy chọn cụ thể của Engine và màn chơi như tốc độ Note, bạn có thể thiết lập trong mục \"Cấu hình\" sau khi vào Server và chọn màn chơi."
       },
       "Graphics": {
         "Title": "Đồ họa",
@@ -4116,7 +4116,7 @@
         },
         "RenderMode": {
           "Title": "Chế độ kết xuất (Render)",
-          "Description": "Khuyến nghị nên để chế độ kết xuất Tiêu chuẩn.\n\nChế độ kết xuất Tiêu chuẩn cung cấp đồ họa chính xác, trong khi chế độ kết xuất Nhẹ cung cấp đồ họa kém chính xác hơn nhưng hiệu năng được cải thiện đáng kể.",
+          "Description": "Khuyến nghị nên để chế độ kết xuất Tiêu chuẩn.\n\nChế độ kết xuất Tiêu chuẩn cung cấp đồ họa chính xác, trong khi chế độ kết xuất Nhẹ cung cấp đồ họa kém chính xác hơn nhưng đổi lại hiệu năng được cải thiện đáng kể.",
           "Options": {
             "Standard": "Tiêu chuẩn",
             "Lightweight": "Nhẹ"
