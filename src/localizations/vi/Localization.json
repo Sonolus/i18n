@@ -181,14 +181,14 @@
     "#NOTE_EFFECT": "Hiển thị hiệu ứng Note khi nhấn",
     "#NOTE_EFFECT_POSITION": "Vị trí hiệu ứng Note",
     "#NOTE_EFFECT_SIZE": "Kích thước hiệu ứng Note",
-    "#NOTE_EFFECT_ROTATION": "Hiệu ứng xoay Note",
+    "#NOTE_EFFECT_ROTATION": "Xoay hiệu ứng Note",
     "#NOTE_EFFECT_DIRECTION": "Hướng hiệu ứng Note",
-    "#NOTE_EFFECT_COLOR": "Màu sắc Note",
+    "#NOTE_EFFECT_COLOR": "Màu sắc hiệu ứng Note",
     "#NOTE_EFFECT_ALPHA": "Độ trong suốt Note",
     "#MARKER": "Hiển thị Marker",
     "#MARKER_POSITION": "Vị trí Marker",
     "#MARKER_SIZE": "Kích thước Marker",
-    "#MARKER_ROTATION": "Xoay Marker ",
+    "#MARKER_ROTATION": "Xoay Marker",
     "#MARKER_DIRECTION": "Hướng Marker",
     "#MARKER_COLOR": "Màu sắc Marker",
     "#MARKER_ALPHA": "Độ trong suốt Marker",
@@ -3513,12 +3513,12 @@
           "Image": {
             "Title": "Hình ảnh",
             "Blur": {
-              "Title": "Làm mờ",
+              "Title": "Độ mờ",
               "Description": "Làm mờ ảnh nền để giảm mất tập trung."
             },
             "Mask": {
-              "Title": "Mặt nạ",
-              "Description": "Sử dụng mặt nạ để làm mờ hoặc tô màu cho hình ảnh nền."
+              "Title": "Màu sắc lớp phủ",
+              "Description": "Sử dụng lớp phủ để làm mờ đục hoặc tô màu cho ảnh nền."
             }
           }
         },
