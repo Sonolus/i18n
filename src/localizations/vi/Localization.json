@@ -12,7 +12,7 @@
     "#STORAGE": "Bộ nhớ",
     "#LOG": "Nhật ký",
     "#INQUIRY": "Yêu cầu",
-    "#BANNER": "Banner",
+    "#BANNER": "Banner​",
     "#POST": "Bài đăng",
     "#PLAYLIST": "Danh sách phát",
     "#LEVEL": "Màn chơi",
@@ -52,7 +52,7 @@
     "#ENGINE_CONFIGURATION": "Cấu hình",
     "#REPLAY_DATA": "Dữ liệu",
     "#REPLAY_CONFIGURATION": "Cấu hình",
-    "#ROOM_COVER": "Ảnh thu nhỏ",
+    "#ROOM_COVER": "Ảnh bìa",
     "#ROOM_BGM": "Nhạc nền",
     "#ROOM_PREVIEW": "Xem trước",
     "#GRADE": "Hạng",
@@ -88,15 +88,15 @@
     "#LANGUAGE": "Ngôn ngữ",
     "#DIFFICULTY": "Độ khó",
     "#VERSION": "Phiên bản",
-    "#LENGTH": "Thời lượng",
-    "#LENGTH_MINIMUM": "Thời lượng tối thiểu",
-    "#LENGTH_MAXIMUM": "Thời lượng tối đa",
+    "#LENGTH": "Độ dài",
+    "#LENGTH_MINIMUM": "Độ dài tối thiểu",
+    "#LENGTH_MAXIMUM": "Độ dài tối đa",
     "#ADDITIONAL_INFORMATION": "Thông tin bổ sung",
     "#TIMEZONE": "Múi giờ",
     "#REGION": "Khu vực",
-    "#TAG": "Thẻ",
-    "#INCLUDE_TAG": "Các thẻ cần bao gồm",
-    "#EXCLUDE_TAG": "Các thẻ cần loại trừ",
+    "#TAG": "Tag",
+    "#INCLUDE_TAG": "Bao gồm các Tag",
+    "#EXCLUDE_TAG": "Loại trừ các Tag",
     "#CONTENT": "Nội dung",
     "#COMMENT": "Bình luận",
     "#MESSAGE": "Tin nhắn",
@@ -106,10 +106,10 @@
     "#SPEED": "Tốc độ nhạc",
     "#MIRROR": "Mirror (Lật ngang)",
     "#RANDOM": "Ngẫu nhiên",
-    "#HIDDEN": "Tường chắn phía trên vạch phán định",
+    "#HIDDEN": "Tường ẩn",
     "#JUDGMENT_STRICT": "Phán định Khó",
     "#JUDGMENT_LOOSE": "Phán định Dễ",
-    "#EFFECT_AUTO": "Tự động phát SFX trong chế độ Chơi",
+    "#EFFECT_AUTO": "Phát SFX tự động trong chế độ Chơi",
     "#HAPTIC": "Rung khi nhấn phím",
     "#STAGE": "Hiển thị sàn chơi (Stage)",
     "#STAGE_POSITION": "Vị trí sàn chơi",
@@ -119,9 +119,9 @@
     "#STAGE_ALPHA": "Độ trong suốt của sàn chơi",
     "#STAGE_ANIMATION": "Hoạt ảnh sàn chơi",
     "#STAGE_TILT": "Độ nghiêng của sàn chơi",
-    "#STAGE_COVER_VERTICAL": "Tường chắn phía trên sàn chơi",
-    "#STAGE_COVER_HORIZONTAL": "Tường chắn ngang sàn chơi",
-    "#STAGE_COVER_ALPHA": "Độ trong suốt của tường chắn sàn chơi",
+    "#STAGE_COVER_VERTICAL": "Kích thước tường chắn dọc",
+    "#STAGE_COVER_HORIZONTAL": "Kích thước tường chắn ngang",
+    "#STAGE_COVER_ALPHA": "Độ trong suốt của tường chắn",
     "#STAGE_ASPECTRATIO_LOCK": "Khoá tỷ lệ khung hình sàn chơi",
     "#STAGE_EFFECT": "Hiệu ứng sàn chơi",
     "#STAGE_EFFECT_POSITION": "Vị trí hiệu ứng sàn chơi",
@@ -129,19 +129,19 @@
     "#STAGE_EFFECT_ROTATION": "Hiệu ứng xoay sàn chơi",
     "#STAGE_EFFECT_DIRECTION": "Hướng hiệu ứng sàn chơi",
     "#STAGE_EFFECT_ALPHA": "Độ trong suốt của hiệu ứng sàn chơi",
-    "#LANE": "Hiển thị đường di chuyển của Note",
-    "#LANE_POSITION": "Vị trí đường di chuyển của Note",
-    "#LANE_SIZE": "Kích thước đường di chuyển của Note",
-    "#LANE_ROTATION": "Xoay đường di chuyển của Note",
-    "#LANE_DIRECTION": "Hướng đường di chuyển của Note",
-    "#LANE_ALPHA": "Độ trong suốt đường di chuyển của Note",
-    "#LANE_ANIMATION": "Hoạt ảnh đường di chuyển của Note",
-    "#LANE_EFFECT": "Hiệu ứng đường di chuyển của Note",
-    "#LANE_EFFECT_POSITION": "Vị trí hiệu ứng đường di chuyển của Note",
-    "#LANE_EFFECT_SIZE": "Kích thước hiệu ứng đường di chuyển của Note",
-    "#LANE_EFFECT_ROTATION": "Hiệu ứng xoay đường di chuyển của Note",
-    "#LANE_EFFECT_DIRECTION": "Hướng hiệu ứng đường di chuyển của Note",
-    "#LANE_EFFECT_ALPHA": "Độ trong suốt của hiệu ứng đường di chuyển của Note",
+    "#LANE": "Hiển thị làn đường Note",
+    "#LANE_POSITION": "Vị trí làn đường Note",
+    "#LANE_SIZE": "Kích thước làn đường Note",
+    "#LANE_ROTATION": "Xoay làn đường Note",
+    "#LANE_DIRECTION": "Hướng làn đường Note",
+    "#LANE_ALPHA": "Độ trong suốt làn đường Note",
+    "#LANE_ANIMATION": "Hoạt ảnh làn đường Note",
+    "#LANE_EFFECT": "Hiệu ứng làn đường Note",
+    "#LANE_EFFECT_POSITION": "Vị trí hiệu ứng làn đường Note",
+    "#LANE_EFFECT_SIZE": "Kích thước hiệu ứng làn đường Note",
+    "#LANE_EFFECT_ROTATION": "Hiệu ứng xoay làn đường Note",
+    "#LANE_EFFECT_DIRECTION": "Hướng hiệu ứng làn đường Note",
+    "#LANE_EFFECT_ALPHA": "Độ trong suốt của hiệu ứng làn đường Note",
     "#JUDGELINE": "Hiển thị vạch phán định",
     "#JUDGELINE_POSITION": "Vị trí vạch phán định",
     "#JUDGELINE_SIZE": "Kích thước vạch phán định",
@@ -154,7 +154,7 @@
     "#JUDGELINE_EFFECT_SIZE": "Kích thước hiệu ứng vạch phán định",
     "#JUDGELINE_EFFECT_ROTATION": "Xoay hiệu ứng vạch phán định",
     "#JUDGELINE_EFFECT_DIRECTION": "Hướng hiệu ứng vạch phán định",
-    "#JUDGELINE_EFFECT_ALPHA": "Hiệu ứng vạch phán định trong suốt",
+    "#JUDGELINE_EFFECT_ALPHA": "Độ trong suốt của hiệu ứng vạch phán định",
     "#SLOT": "Hiển thị Slot",
     "#SLOT_POSITION": "Vị trí Slot",
     "#SLOT_SIZE": "Kích thước Slot",
@@ -162,12 +162,12 @@
     "#SLOT_DIRECTION": "Hướng Slot",
     "#SLOT_ALPHA": "Độ trong suốt Slot",
     "#SLOT_ANIMATION": "Hoạt ảnh Slot",
-    "#SLOT_EFFECT": "Hiển thị hiệu ứng sáng Note khi nhấn",
-    "#SLOT_EFFECT_POSITION": "Vị trí hiệu ứng sáng Note khi nhấn",
-    "#SLOT_EFFECT_SIZE": "Kích thước hiệu ứng sáng Note khi nhấn",
-    "#SLOT_EFFECT_ROTATION": "Xoay hiệu ứng sáng Note khi nhấn",
-    "#SLOT_EFFECT_DIRECTION": "Hướng hiệu ứng sáng Note khi nhấn",
-    "#SLOT_EFFECT_ALPHA": "Độ trong suốt của hiệu ứng sáng Note khi nhấn",
+    "#SLOT_EFFECT": "Hiển thị hiệu ứng Slot",
+    "#SLOT_EFFECT_POSITION": "Vị trí hiệu ứng Slot",
+    "#SLOT_EFFECT_SIZE": "Kích thước hiệu ứng Slot",
+    "#SLOT_EFFECT_ROTATION": "Xoay hiệu ứng Slot",
+    "#SLOT_EFFECT_DIRECTION": "Hướng hiệu ứng Slot",
+    "#SLOT_EFFECT_ALPHA": "Độ trong suốt của hiệu ứng Slot",
     "#NOTE": "Hiển thị Note",
     "#NOTE_SPEED": "Tốc độ Note",
     "#NOTE_SPEED_RANDOM": "Tốc độ Note ngẫu nhiên",
@@ -178,17 +178,17 @@
     "#NOTE_COLOR": "Màu sắc Note",
     "#NOTE_ALPHA": "Độ trong suốt Note",
     "#NOTE_ANIMATION": "Hoạt ảnh Note",
-    "#NOTE_EFFECT": "Hiệu ứng Note",
+    "#NOTE_EFFECT": "Hiển thị hiệu ứng Note khi nhấn",
     "#NOTE_EFFECT_POSITION": "Vị trí hiệu ứng Note",
     "#NOTE_EFFECT_SIZE": "Kích thước hiệu ứng Note",
-    "#NOTE_EFFECT_ROTATION": "Hiệu ứng xoay Note",
+    "#NOTE_EFFECT_ROTATION": "Xoay hiệu ứng Note",
     "#NOTE_EFFECT_DIRECTION": "Hướng hiệu ứng Note",
-    "#NOTE_EFFECT_COLOR": "Màu sắc Note",
+    "#NOTE_EFFECT_COLOR": "Màu sắc hiệu ứng Note",
     "#NOTE_EFFECT_ALPHA": "Độ trong suốt Note",
     "#MARKER": "Hiển thị Marker",
     "#MARKER_POSITION": "Vị trí Marker",
     "#MARKER_SIZE": "Kích thước Marker",
-    "#MARKER_ROTATION": "Xoay Marker ",
+    "#MARKER_ROTATION": "Xoay Marker",
     "#MARKER_DIRECTION": "Hướng Marker",
     "#MARKER_COLOR": "Màu sắc Marker",
     "#MARKER_ALPHA": "Độ trong suốt Marker",
@@ -201,23 +201,23 @@
     "#CONNECTOR_COLOR": "Màu sắc phần thân Note giữ",
     "#CONNECTOR_ALPHA": "Độ trong suốt phần thân Note giữ",
     "#CONNECTOR_ANIMATION": "Hoạt ảnh phần thân Note giữ",
-    "#SIMLINE": "Hiển thị đường vạch nối các Note cần nhấn cùng lúc",
-    "#SIMLINE_POSITION": "Vị trí đường vạch nối các Note cần nhấn cùng lúc",
-    "#SIMLINE_SIZE": "Kích thước đường vạch nối các Note cần nhấn cùng lúc",
-    "#SIMLINE_ROTATION": "Xoay đường vạch nối các Note cần nhấn cùng lúc",
-    "#SIMLINE_DIRECTION": "Hướng đường vạch nối các Note cần nhấn cùng lúc",
-    "#SIMLINE_COLOR": "Màu sắc đường vạch nối các Note cần nhấn cùng lúc",
-    "#SIMLINE_ALPHA": "Độ trong suốt đường vạch nối các Note cần nhấn cùng lúc",
-    "#SIMLINE_ANIMATION": "Hoạt ảnh đường vạch nối các Note cần nhấn cùng lúc",
-    "#PREVIEW_SCALE_VERTICAL": "Xem trước thang âm dọc",
-    "#PREVIEW_SCALE_HORIZONTAL": "Xem trước thang âm ngang",
-    "#PREVIEW_TIME": "Xem trước thời gian",
-    "#PREVIEW_SCORE": "Xem trước điểm",
-    "#PREVIEW_BPM": "Xem trước BPM",
-    "#PREVIEW_TIMESCALE": "Xem trước Timescale",
-    "#PREVIEW_BEAT": "Xem trước nhịp",
-    "#PREVIEW_MEASURE": "Xem trước ô nhịp",
-    "#PREVIEW_COMBO": "Xem trước Combo",
+    "#SIMLINE": "Hiển thị đường nối các Note đồng thời",
+    "#SIMLINE_POSITION": "Vị trí đường nối các Note đồng thời",
+    "#SIMLINE_SIZE": "Kích thước đường nối các Note đồng thời",
+    "#SIMLINE_ROTATION": "Xoay đường nối các Note đồng thời",
+    "#SIMLINE_DIRECTION": "Hướng đường nối các Note đồng thời",
+    "#SIMLINE_COLOR": "Màu sắc đường nối các Note đồng thời",
+    "#SIMLINE_ALPHA": "Độ trong suốt đường nối các Note đồng thời",
+    "#SIMLINE_ANIMATION": "Hoạt ảnh đường nối các Note đồng thời",
+    "#PREVIEW_SCALE_VERTICAL": "Tỉ lệ giãn dọc trong chế độ Xem trước",
+    "#PREVIEW_SCALE_HORIZONTAL": "Tỉ lệ giãn ngang trong chế độ Xem trước",
+    "#PREVIEW_TIME": "Hiển thị mốc thời gian trong chế độ Xem trước",
+    "#PREVIEW_SCORE": "Hiển thị điểm số trong chế độ Xem trước",
+    "#PREVIEW_BPM": "Hiển thị nhịp độ (BPM) trong chế độ Xem trước",
+    "#PREVIEW_TIMESCALE": "Hiển thị Timescale trong chế độ Xem trước",
+    "#PREVIEW_BEAT": "Hiển thị vạch chia phách trong chế độ Xem trước",
+    "#PREVIEW_MEASURE": "Hiển thị số thứ tự ô nhịp trong chế độ Xem trước",
+    "#PREVIEW_COMBO": "Hiển thị mốc Combo trong chế độ Xem trước",
     "#UI": "Giao diện",
     "#UI_METRIC": "Hiển thị chỉ số",
     "#UI_PRIMARY_METRIC": "Hiển thị chỉ số chính",
@@ -307,9 +307,9 @@
     "#CATEGORY_PLACEHOLDER": "Nhập danh mục...",
     "#LANGUAGE_PLACEHOLDER": "Nhập ngôn ngữ...",
     "#DIFFICULTY_PLACEHOLDER": "Nhập độ khó...",
-    "#LENGTH_PLACEHOLDER": "Nhập thời lượng...",
-    "#LENGTH_MINIMUM_PLACEHOLDER": "Nhập thời lượng tối thiểu...",
-    "#LENGTH_MAXIMUM_PLACEHOLDER": "Nhập thời lượng tối đa...",
+    "#LENGTH_PLACEHOLDER": "Nhập độ dài...",
+    "#LENGTH_MINIMUM_PLACEHOLDER": "Nhập độ dài tối thiểu...",
+    "#LENGTH_MAXIMUM_PLACEHOLDER": "Nhập độ dài tối đa...",
     "#ADDITIONAL_INFORMATION_PLACEHOLDER": "Nhập thông tin bổ sung...",
     "#TIMEZONE_PLACEHOLDER": "Nhập múi giờ...",
     "#REGION_PLACEHOLDER": "Nhập khu vực...",
@@ -415,7 +415,7 @@
     "#MULTI_FINGER": "Cần nhiều hơn 2 ngón",
     "#FULL_HAND": "Cần cả bàn tay",
     "#CROSS_HAND": "Cần chéo tay",
-    "#GIMMICK": "Có hiệu ứng lạ (Gimmick)",
+    "#GIMMICK": "Hiệu ứng đặc biệt (Gimmick)",
     "#COLLABORATION": "Hợp tác (Collab)",
     "#REPORT": "Tố cáo",
     "#REASON": "Nguyên nhân tố cáo",
@@ -503,8 +503,8 @@
     "#DISLIKED": "Đã không thích",
     "#BOOKMARK": "Đánh dấu",
     "#BOOKMARKED": "Đã đánh dấu",
-    "#DELETE": "Xóa bỏ",
-    "#DELETING": "Đang xóa bỏ",
+    "#DELETE": "Xóa",
+    "#DELETING": "Đang xóa",
     "#DELETED": "Đã xóa",
     "#REMOVE": "Xoá",
     "#REMOVING": "Đang xoá",
@@ -596,7 +596,7 @@
     "Import": "Nhập file",
     "Search": "Tìm kiếm",
     "PullToRefresh": "Kéo xuống để tải lại",
-    "PullTip": "Mẹo: Kéo xuống đế xem thêm",
+    "PullTip": "Mẹo: Kéo xuống để xem thêm",
     "Save": "Lưu",
     "Share": "Chia sẻ",
     "Export": "Xuất file",
@@ -821,7 +821,7 @@
   },
   "Web": {
     "InternetConnectionError": "Không có kết nối Internet.\nVui lòng kiểm tra kết nối Internet của bạn hoặc kiểm tra quyền truy cập Internet của Sonolus và thử lại.",
-    "ServerConnectionError": "Không thể kết nối tới Server.\nVui lòng kiểm tra xem địa chỉ Server có đúng không, kiểm tra kết nối Internet của bạn và thử lại hoặc liên hệ với chủ Server để báo cáo sự cố.",
+    "ServerConnectionError": "Không thể kết nối đến Server.\nVui lòng kiểm tra địa chỉ Server có đúng không, kiểm tra kết nối Internet của bạn và thử lại hoặc liên hệ với chủ Server để báo cáo sự cố.",
     "ServerHttpError": "Phản hồi của Server: {0}",
     "ServerVersionTooOldError": "Server này chỉ hỗ trợ phiên bản cũ của Sonolus ({0}).\nVui lòng đợi Server được cập nhật hoặc liên hệ với chủ Server để báo cáo sự cố.",
     "ServerVersionTooNewError": "Server này chỉ hỗ trợ phiên bản Sonolus {0}.\n\nVui lòng cập nhật ứng dụng Sonolus của bạn hoặc liên hệ với chủ Server để báo cáo sự cố."
@@ -840,30 +840,30 @@
       },
       "Theme": {
         "Thumbnail": {
-          "Loading": "Đang tải chủ đề ảnh bìa...",
-          "Error": "Không thể tải chủ đề ảnh bìa của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Loading": "Đang tải ảnh thu nhỏ của chủ đề...",
+          "Error": "Không thể tải ảnh thu nhỏ của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
         },
         "Background": {
-          "Loading": "Đang tải chủ đề ảnh nền...",
-          "Error": "Không thể tải chủ đề ảnh nền của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Loading": "Đang tải ảnh nền của chủ đề...",
+          "Error": "Không thể tải ảnh nền của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
         },
         "Avatar": {
-          "Loading": "Đang tải chủ đề ảnh đại diện...",
-          "Error": "Không thể tải chủ đề ảnh đại diện của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Loading": "Đang tải Avatar của chủ đề...",
+          "Error": "Không thể tải Avatar của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
         },
         "AvatarBackground": {
-          "Loading": "Đang tải chủ đề nền ảnh đại diện...",
-          "Error": "Không thể tải chủ đề nền ảnh đại diện của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Loading": "Đang tải nền Avatar của chủ đề...",
+          "Error": "Không thể tải nền Avatar của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
         },
         "Banner": {
-          "Loading": "Đang tải chủ đề banner...",
-          "Error": "Không thể tải chủ đề banner của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Loading": "Đang tải Banner của chủ đề...",
+          "Error": "Không thể tải Banner của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
         },
         "MultiplayerBanner": {
-          "Loading": "Đang tải chủ đề banner trong nhiều người chơi...",
-          "Error": "Không thể tải chủ đề banner trong nhiều người chơi của \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Loading": "Đang tải Banner của chủ đề trong chế độ nhiều người chơi...",
+          "Error": "Không thể tải Banner của chủ đề \"{0}\" trong chế độ nhiều người chơi.\n\nVui lòng kiểm tra kết nối Internet và thử lại."
         }
-      }
+			}
     },
     "I18n": {
       "List": {
@@ -900,7 +900,7 @@
           "Description": "Tài khoản Sonolus của bạn đã bị cấm."
         },
         "Deleted": {
-          "Description": "Bạn đã từng xoá tài khoản Sonolus trước đây của mình.\n\nVui lòng đợi 7 ngày trước khi tạo tài khoản Sonolus khác."
+          "Description": "Bạn vừa xoá tài khoản Sonolus của mình gần đây.\n\nVui lòng đợi 7 ngày kể từ khi xóa tài khoản trước khi tạo tài khoản Sonolus khác."
         }
       },
       "UserInfo": {
@@ -941,29 +941,29 @@
         }
       },
       "EditAvatar": {
-        "Loading": "Đang thay đổi ảnh đại diện...",
-        "Error": "Không thể thay đổi ảnh đại diện.\n\nVui lòng kiểm tra xem ảnh đại diện của bạn có phải là file ảnh hay không, hoặc kiểm tra lại kết nối Internet và thử lại.",
+        "Loading": "Đang thay đổi Avatar​...",
+        "Error": "Không thể thay đổi Avatar​.\n\nVui lòng kiểm tra Avatar​ của bạn có phải là file ảnh hay không, hoặc kiểm tra lại kết nối Internet và thử lại.",
         "Success": {
-          "Title": "Đã thay đổi ảnh đại diện"
+          "Title": "Đã thay đổi Avatar​"
         }
       },
       "EditBanner": {
-        "Loading": "Đang chỉnh sửa banner...",
-        "Error": "Không thể chỉnh sửa banner.\n\nVui lòng kiểm tra banner của bạn có hợp lệ không, hoặc kiểm tra lại kết nối Internet và thử lại.",
+        "Loading": "Đang chỉnh sửa Banner​...",
+        "Error": "Không thể chỉnh sửa Banner​.\n\nVui lòng kiểm tra Banner​ của bạn có hợp lệ không, hoặc kiểm tra lại kết nối Internet và thử lại.",
         "Success": {
           "Title": "Đã chỉnh sửa Banner "
         }
       },
       "EditAboutMe": {
-        "Loading": "Đang sửa thông tin...",
-        "Error": "Không thể sửa thông tin. \n\nVui lòng kiểm tra lại nếu có ký tự đặc biệt và vẫn trong giới hạn ký tự, hoặc kiểm tra lại kết nối Internet và thử lại.",
+        "Loading": "Đang chỉnh sửa thông tin...",
+        "Error": "Không thể sửa thông tin. \n\nVui lòng kiểm tra thông tin của bạn có hợp lệ và vẫn trong giới hạn ký tự không, hoặc kiểm tra lại kết nối Internet và thử lại.",
         "Success": {
           "Title": "Đã sửa thông tin"
         }
       },
       "EditFavorites": {
-        "Loading": "Đang sửa mục yêu thích...",
-        "Error": "Không thể sửa mục yêu thích.\n\nVui lòng kiểm tra xem mục yêu thích của bạn có phù hợp và trong giới hạn kí tự, hoặc kiểm tra lại kết nối Internet và thử lại.",
+        "Loading": "Đang chỉnh sửa mục yêu thích...",
+        "Error": "Không thể sửa mục yêu thích.\n\nVui lòng kiểm tra mục yêu thích của bạn có hợp lệ và vẫn trong giới hạn không, hoặc kiểm tra lại kết nối Internet và thử lại.",
         "Success": {
           "Title": "Đã sửa mục yêu thích"
         }
@@ -1034,8 +1034,8 @@
           "Error": "Không tải được thông tin Server của \"{0}\"."
         },
         "Banner": {
-          "Loading": "Đang tải banner Server...",
-          "Error": "Không tải được banner Server của \"{0}\"."
+          "Loading": "Đang tải Banner​ Server...",
+          "Error": "Không tải được Banner​ Server của \"{0}\"."
         }
       },
       "Post": {
@@ -1065,8 +1065,8 @@
             "Error": "Không tải được thông tin bài đăng cộng đồng của \"{0}\"."
           },
           "Submit": {
-            "Loading": "Đang gửi bài đăng tới cộng đồng...",
-            "Error": "Không thể gửi bài đăng tới cộng đồng \"{0}\"."
+            "Loading": "Đang gửi bài đăng đến cộng đồng...",
+            "Error": "Không thể gửi bài đăng đến cộng đồng \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1087,7 +1087,7 @@
             },
             "Details": {
               "Loading": "Đang tải thông tin chi tiết về bài đăng...",
-              "Error": "Không tải được thông tin chi tiết về dữ liệu danh sách bài đăng của \"{0}\"."
+              "Error": "Không tải được thông tin chi tiết về bản ghi bài đăng của \"{0}\"."
             }
           }
         },
@@ -1118,8 +1118,8 @@
           "Error": "Không tải được thông tin chi tiết về danh sách phát của \"{0}\"."
         },
         "Submit": {
-          "Loading": "Đang gửi tới danh sách phát...",
-          "Error": "Không thể gửi tới danh sách phát \"{0}\"."
+          "Loading": "Đang gửi đến danh sách phát...",
+          "Error": "Không thể gửi đến danh sách phát \"{0}\"."
         },
         "Community": {
           "Info": {
@@ -1127,8 +1127,8 @@
             "Error": "Không tải được thông tin cộng đồng danh sách phát của \"{0}\"."
           },
           "Submit": {
-            "Loading": "Đang gửi tới cộng đồng danh sách phát...",
-            "Error": "Không thể gửi tới cộng đồng danh sách phát của \"{0}\"."
+            "Loading": "Đang gửi đến cộng đồng danh sách phát...",
+            "Error": "Không thể gửi đến cộng đồng danh sách phát của \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1144,12 +1144,12 @@
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu danh sách phát...",
-              "Error": "Không tải được dữ liệu danh sách phát ở trang {0}."
+              "Loading": "Đang tải bản ghi danh sách phát...",
+              "Error": "Không tải được bản ghi danh sách phát ở trang {0}."
             },
             "Details": {
-              "Loading": "Đang tải thông tin chi tiết về dữ liệu danh sách phát...",
-              "Error": "Không tải được thông tin chi tiết về dữ liệu danh sách phát của \"{0}\"."
+              "Loading": "Đang tải thông tin chi tiết về bản ghi danh sách phát...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi danh sách phát của \"{0}\"."
             }
           }
         },
@@ -1194,7 +1194,7 @@
           },
           "Submit": {
             "Loading": "Đang gửi kết quả màn chơi...",
-            "Error": "Không thể gửi kết quả màn chơi tới \"{0}\"."
+            "Error": "Không thể gửi kết quả màn chơi đến \"{0}\"."
           }
         },
         "Community": {
@@ -1203,8 +1203,8 @@
             "Error": "Không tải được thông tin cộng đồng của màn chơi \"{0}\"."
           },
           "Submit": {
-            "Loading": "Đang gửi tới cộng đồng màn chơi...",
-            "Error": "Không thể gửi tới cộng đồng màn chơi \"{0}\"."
+            "Loading": "Đang gửi đến cộng đồng màn chơi...",
+            "Error": "Không thể gửi đến cộng đồng màn chơi \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1220,12 +1220,12 @@
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu danh sách màn chơi...",
-              "Error": "Không tải được dữ liệu danh sách màn chơi ở trang {0}."
+              "Loading": "Đang tải bản ghi màn chơi...",
+              "Error": "Không tải được bản ghi màn chơi ở trang {0}."
             },
             "Details": {
-              "Loading": "Đang tải thông tin chi tiết về dữ liệu danh sách màn chơi...",
-              "Error": "Không tải được thông tin chi tiết về dữ liệu danh sách màn chơi của \"{0}\"."
+              "Loading": "Đang tải thông tin chi tiết về bản ghi màn chơi...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi màn chơi của \"{0}\"."
             }
           }
         },
@@ -1277,8 +1277,8 @@
             "Error": "Không tải được thông tin Skin cộng đồng của \"{0}\"."
           },
           "Submit": {
-            "Loading": "Đang gửi tới Skin cộng đồng...",
-            "Error": "Không thể gửi tới Skin cộng đồng của \"{0}\"."
+            "Loading": "Đang gửi đến Skin cộng đồng...",
+            "Error": "Không thể gửi đến Skin cộng đồng của \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1294,12 +1294,12 @@
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu danh sách Skin...",
-              "Error": "Không tải được dữ liệu danh sách Skin ở trang {0}."
+              "Loading": "Đang tải bản ghi Skin...",
+              "Error": "Không tải được bản ghi Skin ở trang {0}."
             },
             "Details": {
-              "Loading": "Đang tải thông tin chi tiết về dữ liệu danh sách Skin...",
-              "Error": "Không tải được thông tin chi tiết về dữ liệu danh sách Skin của \"{0}\"."
+              "Loading": "Đang tải thông tin chi tiết về bản ghi Skin...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi Skin của \"{0}\"."
             }
           }
         },
@@ -1339,7 +1339,7 @@
         },
         "Submit": {
           "Loading": "Đang gửi đến ảnh nền...",
-          "Error": "Không thể gửi tới ảnh nền \"{0}\"."
+          "Error": "Không thể gửi đến ảnh nền \"{0}\"."
         },
         "Community": {
           "Info": {
@@ -1347,8 +1347,8 @@
             "Error": "Không tải được thông tin ảnh nền cộng đồng của \"{0}\"."
           },
           "Submit": {
-            "Loading": "Đang gửi tới ảnh nền cộng đồng...",
-            "Error": "Không thể gửi tới ảnh nền cộng đồng của \"{0}\"."
+            "Loading": "Đang gửi đến ảnh nền cộng đồng...",
+            "Error": "Không thể gửi đến ảnh nền cộng đồng của \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1364,12 +1364,12 @@
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu danh sách ảnh nền...",
-              "Error": "Không tải được dữ liệu danh sách ảnh nền ở trang {0}."
+              "Loading": "Đang tải bản ghi ảnh nền...",
+              "Error": "Không tải được bản ghi ảnh nền ở trang {0}."
             },
             "Details": {
-              "Loading": "Đang tải thông tin chi tiết về dữ liệu danh sách ảnh nền...",
-              "Error": "Không tải được thông tin chi tiết về dữ liệu danh sách ảnh nền của \"{0}\"."
+              "Loading": "Đang tải thông tin chi tiết về bản ghi ảnh nền...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi ảnh nền của \"{0}\"."
             }
           }
         },
@@ -1412,8 +1412,8 @@
           "Error": "Không tải được chi tiết SFX của \"{0}\"."
         },
         "Submit": {
-          "Loading": "Đang gửi tới SFX...",
-          "Error": "Không thể gửi tới SFX \"{0}\"."
+          "Loading": "Đang gửi đến SFX...",
+          "Error": "Không thể gửi đến SFX \"{0}\"."
         },
         "Community": {
           "Info": {
@@ -1421,8 +1421,8 @@
             "Error": "Không tải được thông tin cộng đồng SFX của \"{0}\"."
           },
           "Submit": {
-            "Loading": "Đang gửi tới cộng đồng SFX...",
-            "Error": "Không thể gửi tới cộng đồng SFX của \"{0}\"."
+            "Loading": "Đang gửi đến cộng đồng SFX...",
+            "Error": "Không thể gửi đến cộng đồng SFX của \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1438,12 +1438,12 @@
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu danh sách SFX...",
-              "Error": "Không tải được dữ liệu danh sách SFX ở trang {0}."
+              "Loading": "Đang tải bản ghi SFX...",
+              "Error": "Không tải được bản ghi SFX ở trang {0}."
             },
             "Details": {
-              "Loading": "Đang tải chi tiết dữ liệu danh sách SFX...",
-              "Error": "Không tải được chi tiết dữ liệu danh sách SFX của \"{0}\"."
+              "Loading": "Đang tải chi tiết bản ghi SFX...",
+              "Error": "Không tải được chi tiết bản ghi SFX của \"{0}\"."
             }
           }
         },
@@ -1483,7 +1483,7 @@
         },
         "Submit": {
           "Loading": "Đang gửi đến Particle...",
-          "Error": "Không thể gửi tới Particle \"{0}\"."
+          "Error": "Không thể gửi đến Particle \"{0}\"."
         },
         "Community": {
           "Info": {
@@ -1491,8 +1491,8 @@
             "Error": "Không tải được thông tin cộng đồng Particle của \"{0}\"."
           },
           "Submit": {
-            "Loading": "Gửi tới cộng đồng Particle...",
-            "Error": "Không thể gửi tới cộng đồng Particle của \"{0}\"."
+            "Loading": "Đang gửi đến cộng đồng Particle...",
+            "Error": "Không thể gửi đến cộng đồng Particle của \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1508,12 +1508,12 @@
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu danh sách Particle...",
-              "Error": "Không tải được dữ liệu danh sách Particle ở trang {0}."
+              "Loading": "Đang tải bản ghi Particle...",
+              "Error": "Không tải được bản ghi Particle ở trang {0}."
             },
             "Details": {
-              "Loading": "Đang tải thông tin chi tiết về dữ liệu danh sách Particle...",
-              "Error": "Không tải được thông tin chi tiết về dữ liệu danh sách Particle của \"{0}\"."
+              "Loading": "Đang tải thông tin chi tiết về bản ghi Particle...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi Particle của \"{0}\"."
             }
           }
         },
@@ -1552,8 +1552,8 @@
           "Error": "Không tải được thông tin chi tiết về Engine của \"{0}\"."
         },
         "Submit": {
-          "Loading": "Đang gửi tới Engine...",
-          "Error": "Không thể gửi tới Engine \"{0}\"."
+          "Loading": "Đang gửi đến Engine...",
+          "Error": "Không thể gửi đến Engine \"{0}\"."
         },
         "Community": {
           "Info": {
@@ -1561,8 +1561,8 @@
             "Error": "Không tải được thông tin cộng đồng Engine của \"{0}\"."
           },
           "Submit": {
-            "Loading": "Đang gửi tới cộng đồng Engine...",
-            "Error": "Không thể gửi tới cộng đồng Engine của \"{0}\"."
+            "Loading": "Đang gửi đến cộng đồng Engine...",
+            "Error": "Không thể gửi đến cộng đồng Engine của \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1578,12 +1578,12 @@
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu danh sách Engine...",
-              "Error": "Không tải được dữ liệu danh sách Engine ở trang {0}."
+              "Loading": "Đang tải bản ghi Engine...",
+              "Error": "Không tải được bản ghi Engine ở trang {0}."
             },
             "Details": {
-              "Loading": "Đang tải thông tin chi tiết về dữ liệu danh sách Engine...",
-              "Error": "Không tải được thông tin chi tiết về dữ liệu danh sách Engine của \"{0}\"."
+              "Loading": "Đang tải thông tin chi tiết về bản ghi Engine...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi Engine của \"{0}\"."
             }
           }
         },
@@ -1638,7 +1638,7 @@
           "Error": "Không tải được thông tin chi tiết về bản phát lại của \"{0}\"."
         },
         "Submit": {
-          "Loading": "Đang gửi tới bản phát lại...",
+          "Loading": "Đang gửi đến bản phát lại...",
           "Error": "Không thể gửi bản phát lại\"{0}\"."
         },
         "Community": {
@@ -1647,8 +1647,8 @@
             "Error": "Không tải được thông tin cộng đồng bản phát lại của \"{0}\"."
           },
           "Submit": {
-            "Loading": "Đang gửi tới cộng đồng bản phát lại...",
-            "Error": "Không thể gửi tới cộng đồng bản phát lại của \"{0}\"."
+            "Loading": "Đang gửi đến cộng đồng bản phát lại...",
+            "Error": "Không thể gửi đến cộng đồng bản phát lại của \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1664,12 +1664,12 @@
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu danh sách bản phát lại...",
-              "Error": "Không tải được dữ liệu danh sách bản phát lại ở trang {0}."
+              "Loading": "Đang tải bản ghi bản phát lại...",
+              "Error": "Không tải được bản ghi bản phát lại ở trang {0}."
             },
             "Details": {
-              "Loading": "Đang tải thông tin chi tiết về dữ liệu danh sách bản phát lại...",
-              "Error": "Không tải được thông tin chi tiết về dữ liệu danh sách bản phát lại của \"{0}\"."
+              "Loading": "Đang tải thông tin chi tiết về bản ghi bản phát lại...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi bản phát lại của \"{0}\"."
             }
           }
         },
@@ -1771,8 +1771,8 @@
             "Error": "Không tải được thông tin cộng đồng trong phòng của \"{0}\"."
           },
           "Submit": {
-            "Loading": "Đang gửi tới cộng đồng phòng...",
-            "Error": "Không thể gửi bài tới cộng đồng phòng \"{0}\"."
+            "Loading": "Đang gửi đến cộng đồng phòng...",
+            "Error": "Không thể gửi bài đến cộng đồng phòng \"{0}\"."
           },
           "Comment": {
             "List": {
@@ -1788,12 +1788,12 @@
           },
           "Record": {
             "List": {
-              "Loading": "Đang tải dữ liệu danh sách phòng...",
-              "Error": "Không tải được dữ liệu danh sách phòng ở trang {0}."
+              "Loading": "Đang tải bản ghi phòng...",
+              "Error": "Không tải được bản ghi phòng ở trang {0}."
             },
             "Details": {
-              "Loading": "Đang tải thông tin chi tiết về dữ liệu danh sách phòng...",
-              "Error": "Không tải được thông tin chi tiết về dữ liệu danh sách phòng của \"{0}\"."
+              "Loading": "Đang tải thông tin chi tiết về bản ghi phòng...",
+              "Error": "Không tải được thông tin chi tiết về bản ghi phòng của \"{0}\"."
             }
           }
         },
@@ -1822,8 +1822,8 @@
           "Error": "Không tải được thông tin bộ sưu tập của \"{0}\".\n\nBộ sưu tập của bạn có thể đã bị hỏng."
         },
         "Banner": {
-          "Loading": "Đang tải banner bộ sưu tập...",
-          "Error": "Không tải được banner bộ sưu tập của \"{0}\".\n\nBộ sưu tập của bạn có thể đã bị hỏng."
+          "Loading": "Đang tải Banner​ bộ sưu tập...",
+          "Error": "Không tải được Banner​ bộ sưu tập của \"{0}\".\n\nBộ sưu tập của bạn có thể đã bị hỏng."
         }
       },
       "Post": {
@@ -2136,7 +2136,7 @@
           "Error": "Phòng \"{0}\" không tương thích với phiên bản Sonolus hiện tại.\n\nVui lòng cập nhật phòng này hoặc sử dụng phòng khác."
         },
         "Cover": {
-          "Loading": "Đâng tải ảnh bìa ở màn chơi phòng...",
+          "Loading": "Đang tải ảnh bìa ở màn chơi phòng...",
           "Error": "Không tải được ảnh bìa ở màn chơi phòng của \"{0}\".\n\nVui lòng cập nhật phòng này hoặc sử dụng phòng khác."
         },
         "Bgm": {
@@ -2160,8 +2160,8 @@
           "Error": "Không tải được thông tin gói SCP của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc đã bị hỏng."
         },
         "Banner": {
-          "Loading": "Đang tải banner gói SCP...",
-          "Error": "Không tải được banner gói SCP của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc đã bị hỏng."
+          "Loading": "Đang tải Banner​ gói SCP...",
+          "Error": "Không tải được Banner​ gói SCP của \"{0}\".\n\nGói của bạn có thể không được hỗ trợ hoặc đã bị hỏng."
         }
       },
       "Post": {
@@ -2526,7 +2526,7 @@
       }
     },
     "JumpToPage": {
-      "Title": "Nhảy tới trang",
+      "Title": "Nhảy đến trang",
       "Page": {
         "Title": "Trang",
         "Description": "Số trang.",
@@ -2699,8 +2699,8 @@
         "Placeholder": "Nhập mô tả bộ sưu tập..."
       },
       "Banner": {
-        "Title": "Ảnh thu nhỏ",
-        "Description": "Ảnh bìa tùy chọn cho bộ sưu tập."
+        "Title": "Banner​",
+        "Description": "Banner​ tùy chọn cho bộ sưu tập."
       }
     },
     "ImportScp": {
@@ -2759,8 +2759,8 @@
         "Description": "Đến."
       },
       "Duration": {
-        "Title": "Độ dài",
-        "Description": "Độ dài."
+        "Title": "Thời lượng",
+        "Description": "Thời lượng."
       },
       "Ease": {
         "Title": "Chuyển động",
@@ -2783,8 +2783,8 @@
     },
     "CalibrateInput": {
       "Title": "Hiệu chỉnh đầu vào",
-      "Description": "Hiệu chỉnh đầu vào bằng cách bấm vào màn hình theo nhịp. Hãy đảm bảo độ trễ âm thanh của bạn được hiệu chỉnh chính xác trước.\nNếu bạn đã quen với các trò chơi không cung cấp tùy chọn như vậy, bạn có thể để ở mức 0.",
-      "Result": "Khuyến nghị để độ trễ tầm: {0} (±{1})"
+      "Description": "Hiệu chỉnh đầu vào bằng cách nhấn vào màn hình theo nhịp. Hãy đảm bảo độ trễ âm thanh của bạn đã được hiệu chỉnh chính xác trước.\nNếu bạn đã quen với các trò chơi không cung cấp tùy chọn như vậy, bạn có thể để ở mức 0.",
+      "Result": "Khuyến nghị thiết lập độ trễ khoảng: {0} (±{1})"
     },
     "Home": {
       "Title": "Trang chủ",
@@ -2848,17 +2848,17 @@
           "Title": "Mô tả"
         },
         "Vip": {
-          "Description": "Gói VIP cho phép bạn trải nghiệm không có quảng cáo trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nVIP x{0}"
+          "Description": "Gói VIP cho phép bạn trải nghiệm Sonolus không có quảng cáo.\n\nKhi mua, bạn sẽ nhận được:\nVIP x{0}"
         },
         "NameChange": {
-          "Description": "Lượt đổi tên có thể được dùng để thay đổi tên hồ sơ của bạn trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nLượt Đổi tên x{0}"
+          "Description": "Sử dụng Lượt Đổi tên để được một lần thay đổi tên hồ sơ của bạn trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nLượt Đổi tên x{0}"
         },
         "Themes": {
           "Bundle": {
-            "Description": "Cá nhân hóa giao diện người dùng Sonolus, ảnh đại diện hồ sơ và ảnh bìa hồ sơ của bạn với chủ đề này, đi kèm với đó là gói VIP cho phép trải nghiệm không có quảng cáo trong Sonolus.\n\nKhi mua, bạn sẽ nhận được:\nChủ đề giao diện \"{0}\"\nẢnh đại diện \"{1}\"\nNền ảnh đại diện \"{2}\"\nẢnh bìa \"{3}\"\nVIP x{4}"
+            "Description": "Cá nhân hóa giao diện người dùng Sonolus, Avatar​ và Banner​ hồ sơ Sonolus của bạn với chủ đề này; đi kèm với đó là gói VIP cho phép trải nghiệm Sonolus không có quảng cáo.\n\nKhi mua, bạn sẽ nhận được:\nChủ đề giao diện \"{0}\"\nAvatar​ \"{1}\"\nNền Avatar​ \"{2}\"\nBanner​ \"{3}\"\nVIP x{4}"
           },
           "Single": {
-            "Description": "Cá nhân hóa giao diện người dùng Sonolus, ảnh đại diện hồ sơ và ảnh bìa hồ sơ của bạn với chủ đề này.\n\nKhi mua, bạn sẽ nhận được:\nChủ đề giao diện \"{0}\"\nẢnh đại diện \"{1}\"\nNền ảnh đại diện \"{2}\"\nẢnh bìa \"{3}\""
+            "Description": "Cá nhân hóa giao diện người dùng Sonolus, Avatar​ và Banner​ hồ sơ Sonolus của bạn với chủ đề này.\n\nKhi mua, bạn sẽ nhận được:\nChủ đề giao diện \"{0}\"\nAvatar​ \"{1}\"\nNền Avatar​ \"{2}\"\nBanner​ \"{3}\""
           }
         }
       }
@@ -2877,7 +2877,7 @@
         "Delete": {
           "Title": "Xoá tài khoản",
           "Confirmation": {
-            "Description": "Việc xóa tài khoản sẽ xóa vĩnh viễn dữ liệu liên quan đến tài khoản Sonolus của bạn, bao gồm hồ sơ, kho vật phẩm và dữ liệu trên Server trò chơi. Quá trình xóa dữ liệu trên Server trò chơi có thể mất đến 7 ngày.\nBạn sẽ không thể khôi phục được tài khoản đã bị xóa, cũng như sẽ không thể tạo được tài khoản Sonolus khác sau 7 ngày.\n\nBạn có chắc muốn xoá tài khoản \"{0}\"?"
+            "Description": "Việc xóa tài khoản sẽ xóa vĩnh viễn dữ liệu liên quan đến tài khoản Sonolus của bạn, bao gồm hồ sơ, kho vật phẩm và dữ liệu trên Server trò chơi. Quá trình xóa dữ liệu trên Server trò chơi có thể mất đến 7 ngày.\nBạn sẽ không thể khôi phục được tài khoản đã bị xóa, cũng như sẽ không thể tạo được tài khoản Sonolus khác trong vòng 7 ngày kể từ khi xóa.\n\nBạn có chắc muốn xoá tài khoản \"{0}\"?"
           }
         }
       },
@@ -2889,9 +2889,9 @@
     "UserProfile": {
       "Home": {
         "Main": {
-          "EditName": "Chỉnh sửa Tên",
-          "EditAvatar": "Chỉnh sửa Ảnh đại diện",
-          "EditBanner": "Chỉnh sửa Ảnh bìa",
+          "EditName": "Đổi tên",
+          "EditAvatar": "Đổi Avatar​",
+          "EditBanner": "Đổi Banner​",
           "Block": "Chặn",
           "Unblock": "Bỏ chặn"
         },
@@ -2906,7 +2906,7 @@
       "EditName": {
         "Title": "Chỉnh sửa tên",
         "NoNameChangeError": {
-          "Description": "Bạn không có lượt Đổi tên.\n\nVui lòng mua lượt Đổi tên trước và thử lại."
+          "Description": "Bạn không có Lượt Đổi tên.\n\nVui lòng mua lượt Đổi tên trước và thử lại."
         },
         "Name": {
           "Title": "Tên",
@@ -2914,20 +2914,20 @@
           "Placeholder": "Nhập tên người chơi..."
         },
         "Confirmation": {
-          "Description": "Sử dụng 1 lượt Đổi tên, tiếp tục chứ?"
+          "Description": "Xác nhận sử dụng 1 Lượt Đổi tên?"
         }
       },
       "EditAvatar": {
-        "Title": "Chỉnh sửa Ảnh đại diện",
-        "Shop": "Có sẵn nhiều Ảnh đại diện khác trong cửa hàng!",
+        "Title": "Chỉnh sửa Avatar​",
+        "Shop": "Có sẵn nhiều Avatar​ khác trong cửa hàng!",
         "Avatar": {
-          "Title": "Ảnh đại diện",
-          "Description": "Ảnh đại diện.",
+          "Title": "Avatar​",
+          "Description": "Avatar​.",
           "Default": "Mặc định"
         },
         "Foreground": {
           "Title": "Biểu tượng",
-          "Description": "Biểu tượng Ảnh đại diện.",
+          "Description": "Hình biểu tượng Avatar​.",
           "Player": "Người chơi",
           "Heart": "Trái tim",
           "Hat": "Cái mũ",
@@ -2936,24 +2936,24 @@
         },
         "ForegroundColor": {
           "Title": "Màu sắc biểu tượng",
-          "Description": "Màu sắc biểu tượng ảnh đại diện."
+          "Description": "Màu sắc biểu tượng Avatar​."
         },
         "Background": {
           "Title": "Ảnh nền",
-          "Description": "Nền ảnh đại diện.",
+          "Description": "Nền Avatar​.",
           "Default": "Mặc định"
         },
         "BackgroundColor": {
           "Title": "Màu sắc ảnh nền",
-          "Description": "Màu sắc nền ảnh đại diện."
+          "Description": "Màu sắc nền Avatar​."
         }
       },
       "EditBanner": {
-        "Title": "Chỉnh sửa Banner",
-        "Shop": "Có sẵn nhiều Banner khác trong cửa hàng!",
+        "Title": "Chỉnh sửa Banner​",
+        "Shop": "Có sẵn nhiều Banner​ khác trong cửa hàng!",
         "Banner": {
-          "Title": "Banner",
-          "Description": "Banner hồ sơ.",
+          "Title": "Banner​",
+          "Description": "Banner​ hồ sơ.",
           "None": "Không có"
         }
       },
@@ -2988,7 +2988,7 @@
       },
       "Support": {
         "Title": "Hỗ trợ",
-        "Description": "Để liên hệ và hỗ trợ, hãy gửi email tới: {0}",
+        "Description": "Để liên hệ và hỗ trợ, hãy gửi email đến: {0}",
         "Email": "Email"
       },
       "Legal": {
@@ -3260,7 +3260,7 @@
             "Title": "Đã sao chép liên kết bài đăng"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi hành động sau"
+            "Title": "Đã gửi đến bài đăng"
           }
         },
         "Playlist": {
@@ -3268,7 +3268,7 @@
             "Title": "Đã sao chép liên kết danh sách phát"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi danh sách phát"
+            "Title": "Đã gửi đến danh sách phát"
           },
           "Watch": {
             "Multiple": {
@@ -3307,13 +3307,13 @@
             },
             "Effect": {
               "Audio": {
-                "Loading": "Giải mã SFX...",
+                "Loading": "Đang giải mã SFX...",
                 "Error": "Không giải mã được SFX của \"{0}\".\n\nVui lòng liên hệ với tác giả SFX để báo cáo sự cố."
               }
             },
             "Level": {
               "Bgm": {
-                "Loading": "Giải mã nhạc nền màn chơi...",
+                "Loading": "Đang giải mã nhạc nền màn chơi...",
                 "Error": "Không giải mã được nhạc nền màn chơi \"{0}\".\n\nVui lòng liên hệ với tác giả màn chơi để báo cáo sự cố."
               }
             },
@@ -3325,13 +3325,13 @@
           "Watch": {
             "Effect": {
               "Audio": {
-                "Loading": "Giải mã SFX...",
+                "Loading": "Đang giải mã SFX...",
                 "Error": "Không giải mã được SFX của \"{0}\".\n\nVui lòng liên hệ với tác giả SFX để báo cáo sự cố."
               }
             },
             "Level": {
               "Bgm": {
-                "Loading": "Giải mã nhạc nền màn chơi...",
+                "Loading": "Đang giải mã nhạc nền màn chơi...",
                 "Error": "Không giải mã được nhạc nền màn chơi \"{0}\".\n\nVui lòng liên hệ với tác giả màn chơi để báo cáo sự cố."
               }
             },
@@ -3350,7 +3350,7 @@
             "Title": "Đã sao chép liên kết màn chơi"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi màn chơi"
+            "Title": "Đã gửi đến màn chơi"
           },
           "Engine": {
             "Title": "Engine"
@@ -3361,7 +3361,7 @@
             "Title": "Đã sao chép liên kết Skin"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi Skin"
+            "Title": "Đã gửi đến Skin"
           }
         },
         "Background": {
@@ -3375,13 +3375,13 @@
             "Title": "Đã sao chép liên kết ảnh nền"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi Ảnh nền"
+            "Title": "Đã gửi đến Ảnh nền"
           }
         },
         "Effect": {
           "Preview": {
             "Audio": {
-              "Loading": "Giải mã SFX...",
+              "Loading": "Đang giải mã SFX...",
               "Error": "Không giải mã được SFX của \"{0}\".\n\nVui lòng liên hệ với tác giả SFX để báo cáo sự cố."
             },
             "Boot": {
@@ -3393,7 +3393,7 @@
             "Title": "Đã sao chép liên kết hiệu ứng"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi Hiệu ứng âm"
+            "Title": "Đã gửi đến SFX"
           }
         },
         "Particle": {
@@ -3401,14 +3401,14 @@
             "Title": "Đã sao chép liên kết Particle"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi Particle"
+            "Title": "Đã gửi đến Particle"
           }
         },
         "Engine": {
           "Tutorial": {
             "Effect": {
               "Audio": {
-                "Loading": "Giải mã SFX...",
+                "Loading": "Đang giải mã SFX...",
                 "Error": "Không giải mã được SFX của \"{0}\".\n\nVui lòng liên hệ với tác giả SFX để báo cáo sự cố."
               }
             },
@@ -3421,7 +3421,7 @@
             "Title": "Đã sao chép liên kết Engine"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi Engine"
+            "Title": "Đã gửi đến Engine"
           },
           "Skin": {
             "Title": "Skin"
@@ -3440,13 +3440,13 @@
           "Watch": {
             "Effect": {
               "Audio": {
-                "Loading": "Giải mã SFX...",
+                "Loading": "Đang giải mã SFX...",
                 "Error": "Không giải mã được SFX của \"{0}\".\n\nVui lòng liên hệ với tác giả SFX để báo cáo sự cố."
               }
             },
             "Level": {
               "Bgm": {
-                "Loading": "Giải mã nhạc nền màn chơi...",
+                "Loading": "Đang giải mã nhạc nền màn chơi...",
                 "Error": "Không giải mã được nhạc nền màn chơi \"{0}\".\n\nVui lòng liên hệ với tác giả màn chơi để báo cáo sự cố."
               }
             },
@@ -3470,7 +3470,7 @@
             "Title": "Đã sao chép liên kết người dùng"
           },
           "ActionSuccess": {
-            "Title": "Đã gửi hành động người dùng"
+            "Title": "Đã gửi đến người dùng"
           },
           "Profile": {
             "Title": "Hồ sơ"
@@ -3513,12 +3513,12 @@
           "Image": {
             "Title": "Hình ảnh",
             "Blur": {
-              "Title": "Làm mờ",
+              "Title": "Độ mờ",
               "Description": "Làm mờ ảnh nền để giảm mất tập trung."
             },
             "Mask": {
-              "Title": "Mặt nạ",
-              "Description": "Sử dụng mặt nạ để làm mờ hoặc tô màu cho hình ảnh nền."
+              "Title": "Màu sắc lớp phủ",
+              "Description": "Sử dụng lớp phủ để làm mờ đục hoặc tô màu cho ảnh nền."
             }
           }
         },
@@ -4001,7 +4001,7 @@
               "Finish": {
                 "Title": "Hoàn thành",
                 "Confirmation": {
-                  "Description": "Bạn có chắc chắn muốn hoàn thành không?\n\nNgười chơi vẫn đang chơi sẽ mất kết quả."
+                  "Description": "Bạn có chắc chắn muốn hoàn thành không?\n\nNhững người vẫn đang chơi sẽ mất kết quả."
                 }
               }
             }
@@ -4105,7 +4105,7 @@
     "Settings": {
       "Title": "Cài đặt",
       "Tip": {
-        "Message": "Cài đặt chứa các tùy chọn chung cho ứng dụng Sonolus.\n\nĐối với các tùy chọn cụ thể của Engine và màn chơi như tốc độ Note, bạn có thể thiết lập trong mục [Cấu hình] sau khi vào Server và chọn màn chơi."
+        "Message": "Cài đặt chứa các tùy chọn chung của Sonolus.\n\nĐối với các tùy chọn cụ thể của Engine và màn chơi như tốc độ Note, bạn có thể thiết lập trong mục \"Cấu hình\" sau khi vào Server và chọn màn chơi."
       },
       "Graphics": {
         "Title": "Đồ họa",
@@ -4116,7 +4116,7 @@
         },
         "RenderMode": {
           "Title": "Chế độ kết xuất (Render)",
-          "Description": "Khuyến nghị nên để chế độ kết xuất Tiêu chuẩn.\n\nChế độ kết xuất Tiêu chuẩn cung cấp đồ họa chính xác, trong khi chế độ kết xuất Nhẹ cung cấp đồ họa kém chính xác hơn nhưng hiệu năng được cải thiện đáng kể.",
+          "Description": "Khuyến nghị nên để chế độ kết xuất Tiêu chuẩn.\n\nChế độ kết xuất Tiêu chuẩn cung cấp đồ họa chính xác, trong khi chế độ kết xuất Nhẹ cung cấp đồ họa kém chính xác hơn nhưng đổi lại hiệu năng được cải thiện đáng kể.",
           "Options": {
             "Standard": "Tiêu chuẩn",
             "Lightweight": "Nhẹ"
@@ -4226,16 +4226,16 @@
         },
         "ReplayCollection": {
           "Title": "Bộ sưu tập bản phát lại",
-          "Description": "Bộ sưu tập để lưu lại các bản phát lại.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định sẽ được tự động tạo.",
+          "Description": "Bộ sưu tập để lưu các bản phát lại.\n\nNếu không có bộ sưu tập nào được chọn, một bộ sưu tập mặc định sẽ được tự động tạo.",
           "DefaultName": "Bản phát lại"
         },
         "AutoSubmitReplay": {
           "Title": "Tự động gửi bản phát lại",
-          "Description": "Tự động gửi nội dung bản phát lại tới Server nếu được hỗ trợ."
+          "Description": "Tự động gửi nội dung bản phát lại đến Server nếu được hỗ trợ."
         },
         "ShowReplayTouches": {
           "Title": "Hiển thị điểm chạm trong bản phát lại",
-          "Description": "Hiển thị các điểm chạm khi xem lại."
+          "Description": "Hiển thị các điểm chạm khi xem bản phát lại."
         },
         "OverwriteReplayOptions": {
           "Title": "Ghi đè cấu hình bản phát lại",
@@ -4492,7 +4492,7 @@
               "Message": "Lượt chơi đã kết thúc vì Tự động Dừng cuộc chơi đang BẬT.\n\nBạn có thể tắt tính năng Tự động Dừng cuộc chơi trong Cài đặt."
             },
             "TouchAbnormality": {
-              "Description": "Đã phát hiện {0} điểm chạm bất thường trong quá trình chơi. Điều này thường do các tính năng hệ thống như cử chỉ, tối ưu hóa cảm ứng và thông báo gây ra và có thể gây ra các vấn đề về phán định.\n\nĐể đảm bảo bạn có trải nghiệm chơi trò chơi tốt nhất, bạn nên điều chỉnh các cài đặt hệ thống có liên quan."
+              "Description": "Đã phát hiện {0} điểm chạm bất thường trong quá trình chơi. Điều này thường do các tính năng hệ thống như cử chỉ, tối ưu hóa cảm ứng hay thông báo gây ra, và có thể gây ảnh hưởng đến độ chính xác.\n\nĐể đảm bảo bạn có trải nghiệm chơi trò chơi tốt nhất, bạn nên điều chỉnh các cài đặt hệ thống có liên quan."
             },
             "Options": {
               "HasUsedPause": "Tạm dừng",
