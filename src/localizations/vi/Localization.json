@@ -3239,8 +3239,8 @@
           "Description": "Bạn có chắc chắn muốn xóa \"{0}\" không?"
         },
         "Tags": {
-          "Title": "Thẻ",
-          "NoTags": "Không có thẻ"
+          "Title": "Tag",
+          "NoTags": "Không có Tag"
         },
         "Description": {
           "Title": "Mô tả",
@@ -3558,16 +3558,16 @@
               "Description": "Chỉ số phụ cần hiển thị (thường ở bên phải)."
             },
             "JudgmentErrorStyle": {
-              "Title": "Kiểu sai số phán định",
-              "Description": "Kiểu sai số phán định. Bên trái là sai số phán định dương, bên phải là sai số phán định âm."
+              "Title": "Kiểu chỉ báo sai số phán định",
+              "Description": "Chọn kiểu chỉ báo sai số phán định muốn hiển thị.\n\nChỉ báo bên trái dấu chéo sẽ được hiển thị khi nhấn Note quá trễ (mặc định Late). Chỉ báo bên phải dấu chéo sẽ được hiển thị khi nhấn Note quá sớm (mặc định Early)."
             },
             "JudgmentErrorPlacement": {
-              "Title": "Vị trí hiển thị sai số phán định",
-              "Description": "Vị trí hiển thị sai số phán định."
+              "Title": "Vị trí hiển thị chỉ báo sai số phán định",
+              "Description": "Vị trí hiển thị chỉ báo sai số phán định, so với vị trí phán định."
             },
             "JudgmentErrorMin": {
               "Title": "Sai số phán định tối thiểu",
-              "Description": "Thiết lập sai số phán định tối thiểu. Chỉ những sai số phán định lớn hơn mức này mới được hiển thị."
+              "Description": "Thiết lập sai số phán định tối thiểu. Nếu sai số khi nhấn Note nhỏ hơn mức này thì chỉ báo sai số phán định sẽ không hiển thị."
             },
             "MenuStyle": {
               "Title": "Kiểu nút Menu",
@@ -3590,8 +3590,8 @@
               "Description": "Tùy chỉnh kích thước và độ trong suốt của Chỉ số phụ."
             },
             "ProgressStyle": {
-              "Title": "Kiểu thanh tiến trình trong chế độ Xem trước",
-              "Description": "Tùy chỉnh kích thước và độ trong suốt của thanh tiến trình trong chế độ Xem trước."
+              "Title": "Kiểu thanh tiến trình trong chế độ Xem",
+              "Description": "Tùy chỉnh kích thước và độ trong suốt của thanh tiến trình trong chế độ Xem (bao gồm cả Xem trước nếu có)."
             },
             "TutorialNavigationStyle": {
               "Title": "Kiểu nút điều hướng trong chế độ Hướng dẫn",
@@ -4281,12 +4281,12 @@
           "Description": "Màu sắc của chỉ báo phán định Miss."
         },
         "PositiveJudgmentErrorColors": {
-          "Title": "Màu sắc sai số phán định dương",
-          "Description": "Màu sắc của chỉ báo sai số phán định dương."
+          "Title": "Màu sắc sai số phán định quá trễ (Late)",
+          "Description": "Màu sắc của chỉ báo khi nhấn Note quá trễ."
         },
         "NegativeJudgmentErrorColors": {
-          "Title": "Màu sắc sai số phán định âm",
-          "Description": "Màu sắc của chỉ báo sai số phán định âm."
+          "Title": "Màu sắc sai số phán định quá sớm (Early)",
+          "Description": "Màu sắc của chỉ báo khi nhấn Note quá sớm."
         },
         "AllPerfectComboColors": {
           "Title": "Màu sắc Combo hạng All Perfect",
@@ -4313,8 +4313,8 @@
           "Description": "Hiển thị combo kể cả khi combo bằng 0."
         },
         "MetricAnimation": {
-          "Title": "Hoạt ảnh chỉ số",
-          "Description": "Hoạt ảnh chỉ số."
+          "Title": "Hiển thị hoạt ảnh chỉ số",
+          "Description": "Hiển thị hoạt ảnh nhấp nháy bên trong thanh chỉ số."
         },
         "TouchStyle": {
           "Title": "Kiểu chỉ báo điểm chạm cảm ứng",
