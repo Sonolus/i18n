@@ -3559,7 +3559,7 @@
             },
             "JudgmentErrorStyle": {
               "Title": "Kiểu chỉ báo sai số phán định",
-              "Description": "Chọn kiểu chỉ báo sai số phán định muốn hiển thị.\n\nChỉ báo bên trái dấu chéo sẽ được hiển thị khi nhấn Note quá trễ (mặc định Late). Chỉ báo bên phải dấu chéo sẽ được hiển thị khi nhấn Note quá sớm (mặc định Early)."
+              "Description": "Chọn kiểu chỉ báo sai số phán định muốn hiển thị.\n\nChỉ báo bên trái dấu gạch chéo sẽ được hiển thị khi nhấn Note quá trễ (mặc định Late). Chỉ báo bên phải dấu gạch chéo sẽ được hiển thị khi nhấn Note quá sớm (mặc định Early)."
             },
             "JudgmentErrorPlacement": {
               "Title": "Vị trí hiển thị chỉ báo sai số phán định",
@@ -4281,11 +4281,11 @@
           "Description": "Màu sắc của chỉ báo phán định Miss."
         },
         "PositiveJudgmentErrorColors": {
-          "Title": "Màu sắc sai số phán định quá trễ (Late)",
+          "Title": "Màu sắc sai số phán định Late",
           "Description": "Màu sắc của chỉ báo khi nhấn Note quá trễ."
         },
         "NegativeJudgmentErrorColors": {
-          "Title": "Màu sắc sai số phán định quá sớm (Early)",
+          "Title": "Màu sắc sai số phán định Early",
           "Description": "Màu sắc của chỉ báo khi nhấn Note quá sớm."
         },
         "AllPerfectComboColors": {
