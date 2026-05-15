@@ -4068,7 +4068,7 @@
           "Title": "Bảng điểm",
           "Actions": {
             "Reset": {
-              "Title": "Đặt lại (Reset)",
+              "Title": "Đặt lại",
               "Confirmation": {
                 "Description": "Bạn có chắc chắn muốn đặt lại bảng điểm không?"
               }
