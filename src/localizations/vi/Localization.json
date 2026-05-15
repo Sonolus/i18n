@@ -3023,7 +3023,7 @@
           "Description": "Một số mục trong bộ sưu tập cần được cập nhật trước khi sử dụng.\n\nBạn có muốn cập nhật ngay không?"
         },
         "SaveSuccess": {
-          "Title": "Đã lưu server"
+          "Title": "Đã lưu Server"
         },
         "ShareSuccess": {
           "Title": "Đã sao chép đường đẫn"
@@ -3513,7 +3513,7 @@
           "Image": {
             "Title": "Hình ảnh",
             "Blur": {
-              "Title": "Độ mờ",
+              "Title": "Độ mờ ảnh nền",
               "Description": "Làm mờ ảnh nền để giảm mất tập trung."
             },
             "Mask": {
