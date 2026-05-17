@@ -830,7 +830,7 @@
     "Billing": {
       "GemProducts": {
         "Loading": "Đang tải vật phẩm đá quý...",
-        "Error": "Không thể tải vật phẩm đá quý.\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+        "Error": "Không thể tải vật phẩm đá quý.\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại."
       }
     },
     "Content": {
@@ -841,27 +841,27 @@
       "Theme": {
         "Thumbnail": {
           "Loading": "Đang tải ảnh thu nhỏ của chủ đề...",
-          "Error": "Không thể tải ảnh thu nhỏ của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Error": "Không thể tải ảnh thu nhỏ của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại."
         },
         "Background": {
           "Loading": "Đang tải ảnh nền của chủ đề...",
-          "Error": "Không thể tải ảnh nền của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Error": "Không thể tải ảnh nền của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại."
         },
         "Avatar": {
           "Loading": "Đang tải Avatar của chủ đề...",
-          "Error": "Không thể tải Avatar của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Error": "Không thể tải Avatar của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại."
         },
         "AvatarBackground": {
           "Loading": "Đang tải nền Avatar của chủ đề...",
-          "Error": "Không thể tải nền Avatar của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Error": "Không thể tải nền Avatar của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại."
         },
         "Banner": {
           "Loading": "Đang tải Banner của chủ đề...",
-          "Error": "Không thể tải Banner của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Error": "Không thể tải Banner của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại."
         },
         "MultiplayerBanner": {
           "Loading": "Đang tải Banner của chủ đề trong chế độ nhiều người chơi...",
-          "Error": "Không thể tải Banner của chủ đề \"{0}\" trong chế độ nhiều người chơi.\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Error": "Không thể tải Banner của chủ đề \"{0}\" trong chế độ nhiều người chơi.\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại."
         }
 			}
     },
@@ -887,7 +887,7 @@
       },
       "Login": {
         "Loading": "Đang đăng nhập...",
-        "Error": "Không thể đăng nhập.\n\nVui lòng kiểm tra lại kết nối mạng rồi thử lại.",
+        "Error": "Không thể đăng nhập.\n\nVui lòng kiểm tra kết nối mạng rồi thử lại.",
         "Success": {
           "New": {
             "Title": "Đăng ký tài khoản thành công"
@@ -905,14 +905,14 @@
       },
       "UserInfo": {
         "Loading": "Đang tải thông tin người dùng...",
-        "Error": "Không thể tải thông tin người dùng.\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+        "Error": "Không thể tải thông tin người dùng.\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại."
       },
       "ClaimGems": {
         "NotLoggedInError": {
           "Description": "Bạn đã mua đá quý thành công, nhưng chưa đăng nhập tài khoản Sonolus.\n\nVui lòng đăng nhập tài khoản Sonolus và thử lại."
         },
         "Loading": "Đang nhận đá quý...",
-        "Error": "Không thể nhận đá quý.\n\nVui lòng kiểm tra kết nối Internet và thử lại.",
+        "Error": "Không thể nhận đá quý.\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã nhận đá quý"
         }
@@ -928,7 +928,7 @@
           "Description": "Xác nhận mua \"{0}\"?"
         },
         "Loading": "Đang mua...",
-        "Error": "Không thể mua \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại.",
+        "Error": "Không thể mua \"{0}\".\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã mua"
         }
@@ -942,28 +942,28 @@
       },
       "EditAvatar": {
         "Loading": "Đang thay đổi Avatar​...",
-        "Error": "Không thể thay đổi Avatar​.\n\nVui lòng kiểm tra Avatar​ của bạn có phải là file ảnh hay không, hoặc kiểm tra lại kết nối Internet và thử lại.",
+        "Error": "Không thể thay đổi Avatar​.\n\nVui lòng kiểm tra Avatar​ của bạn có phải là file ảnh hay không, hoặc kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã thay đổi Avatar​"
         }
       },
       "EditBanner": {
         "Loading": "Đang chỉnh sửa Banner​...",
-        "Error": "Không thể chỉnh sửa Banner​.\n\nVui lòng kiểm tra Banner​ của bạn có hợp lệ không, hoặc kiểm tra lại kết nối Internet và thử lại.",
+        "Error": "Không thể chỉnh sửa Banner​.\n\nVui lòng kiểm tra Banner​ của bạn có hợp lệ không, hoặc kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã chỉnh sửa Banner "
         }
       },
       "EditAboutMe": {
         "Loading": "Đang chỉnh sửa thông tin...",
-        "Error": "Không thể sửa thông tin. \n\nVui lòng kiểm tra thông tin của bạn có hợp lệ và vẫn trong giới hạn ký tự không, hoặc kiểm tra lại kết nối Internet và thử lại.",
+        "Error": "Không thể sửa thông tin. \n\nVui lòng kiểm tra thông tin của bạn có hợp lệ và vẫn trong giới hạn ký tự không, hoặc kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã sửa thông tin"
         }
       },
       "EditFavorites": {
         "Loading": "Đang chỉnh sửa mục yêu thích...",
-        "Error": "Không thể sửa mục yêu thích.\n\nVui lòng kiểm tra mục yêu thích của bạn có hợp lệ và vẫn trong giới hạn không, hoặc kiểm tra lại kết nối Internet và thử lại.",
+        "Error": "Không thể sửa mục yêu thích.\n\nVui lòng kiểm tra mục yêu thích của bạn có hợp lệ và vẫn trong giới hạn không, hoặc kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã sửa mục yêu thích"
         }
@@ -975,14 +975,14 @@
       },
       "Logout": {
         "Loading": "Đang đăng xuất...",
-        "Error": "Không thể đăng xuất.\n\nVui lòng kiểm tra lại kết nối Internet và thử lại.",
+        "Error": "Không thể đăng xuất.\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã đăng xuất"
         }
       },
       "Delete": {
         "Loading": "Đang xoá tài khoản...",
-        "Error": "Không thể xoá tài khoản.\n\nVui lòng kiểm tra kết nối Internet và thử lại.",
+        "Error": "Không thể xoá tài khoản.\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã xoá tài khoản"
         }
