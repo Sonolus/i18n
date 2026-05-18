@@ -3559,7 +3559,7 @@
             },
             "JudgmentErrorStyle": {
               "Title": "Kiểu chỉ báo sai số phán định",
-              "Description": "Chọn kiểu chỉ báo sai số phán định muốn hiển thị.\n\nChỉ báo bên trái dấu gạch chéo sẽ được hiển thị khi nhấn Note quá trễ (Late). Chỉ báo bên phải dấu gạch chéo sẽ được hiển thị khi nhấn Note quá sớm (Early)."
+              "Description": "Chọn kiểu chỉ báo sai số phán định muốn hiển thị.\n\nChỉ báo bên trái dấu gạch chéo sẽ được hiển thị khi nhấn Note quá trễ (mặc định Late). Chỉ báo bên phải dấu gạch chéo sẽ được hiển thị khi nhấn Note quá sớm (mặc định Early)."
             },
             "JudgmentErrorPlacement": {
               "Title": "Vị trí hiển thị chỉ báo sai số phán định",
@@ -4306,11 +4306,11 @@
         },
         "BoldComboNumber": {
           "Title": "In đậm số Combo",
-          "Description": "Sử dụng phông chữ đậm cho số combo."
+          "Description": "Sử dụng phông chữ đậm cho số Combo."
         },
         "ShowZeroCombo": {
           "Title": "Hiển thị 0 Combo",
-          "Description": "Hiển thị combo kể cả khi combo bằng 0."
+          "Description": "Hiển thị số Combo kể cả khi Combo bằng 0."
         },
         "MetricAnimation": {
           "Title": "Hiển thị hoạt ảnh chỉ số",
@@ -4324,8 +4324,8 @@
       "Offsets": {
         "Title": "Cấu hình độ trễ",
         "Device": {
-          "Title": "Thiết bị",
-          "Description": "Sử dụng tính năng này để lưu các giá trị độ trễ đầu vào cho các trường hợp thiết bị khác nhau, chẳng hạn như khi phát bằng loa, tai nghe, Bluetooth, v.v.",
+          "Title": "Chọn cấu hình thiết bị",
+          "Description": "Sử dụng tính năng này để lưu các giá trị độ trễ âm thanh và đầu vào cho các thiết bị khác nhau, chẳng hạn như khi phát bằng loa, tai nghe, Bluetooth, v.v.",
           "Option": "Thiết bị {0}"
         },
         "DeviceAudioOffset": {
