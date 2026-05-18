@@ -883,11 +883,11 @@
       "AuthenticationError": "Phiên đăng nhập Sonolus của bạn đã hết hạn.\n\nVui lòng đăng nhập lại bằng tài khoản Sonolus của bạn rồi thử lại.",
       "UserProfile": {
         "Loading": "Đang tải hồ sơ người dùng...",
-        "Error": "Không thể tải hồ sơ của người dùng \"{0}\".\n\nVui lòng xem lại ID tài khoản, hoặc kiểm tra kết nối mạng rồi thử lại ."
+        "Error": "Không thể tải hồ sơ của người dùng \"{0}\".\n\nVui lòng xem lại ID tài khoản, hoặc kiểm tra kết nối Internet của bạn và thử lại ."
       },
       "Login": {
         "Loading": "Đang đăng nhập...",
-        "Error": "Không thể đăng nhập.\n\nVui lòng kiểm tra kết nối mạng rồi thử lại.",
+        "Error": "Không thể đăng nhập.\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "New": {
             "Title": "Đăng ký tài khoản thành công"
@@ -935,7 +935,7 @@
       },
       "EditName": {
         "Loading": "Đang đổi tên...",
-        "Error": "Không thể đổi tên.\n\nVui lòng kiểm tra nếu tên của bạn nằm trong giới hạn ký tự và không chứa ký hiệu đặc biệt, hoặc kiểm tra kết nối mạng rồi thử lại.",
+        "Error": "Không thể đổi tên.\n\nVui lòng kiểm tra nếu tên của bạn nằm trong giới hạn ký tự và không chứa ký hiệu đặc biệt, hoặc kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã đổi tên"
         }
