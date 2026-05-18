@@ -942,21 +942,21 @@
       },
       "EditAvatar": {
         "Loading": "Đang thay đổi Avatar​...",
-        "Error": "Không thể thay đổi Avatar​.\n\nVui lòng kiểm tra Avatar​ của bạn có phải là file ảnh hay không, hoặc kiểm tra kết nối Internet của bạn và thử lại.",
+        "Error": "Không thể thay đổi Avatar​.\n\nVui lòng kiểm tra Avatar​ của bạn có phải là file ảnh hợp lệ hay không, hoặc kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã thay đổi Avatar​"
         }
       },
       "EditBanner": {
         "Loading": "Đang chỉnh sửa Banner​...",
-        "Error": "Không thể chỉnh sửa Banner​.\n\nVui lòng kiểm tra Banner​ của bạn có hợp lệ không, hoặc kiểm tra kết nối Internet của bạn và thử lại.",
+        "Error": "Không thể chỉnh sửa Banner​.\n\nVui lòng kiểm tra Banner​ của bạn có phải là file ảnh hợp lệ hay không, hoặc kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã chỉnh sửa Banner "
         }
       },
       "EditAboutMe": {
         "Loading": "Đang chỉnh sửa thông tin...",
-        "Error": "Không thể sửa thông tin. \n\nVui lòng kiểm tra thông tin của bạn có hợp lệ và vẫn trong giới hạn ký tự không, hoặc kiểm tra kết nối Internet của bạn và thử lại.",
+        "Error": "Không thể sửa thông tin. \n\nVui lòng kiểm tra thông tin của bạn có hợp lệ và vẫn trong giới hạn ký tự hay không, hoặc kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã sửa thông tin"
         }
