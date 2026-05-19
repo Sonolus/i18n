@@ -2498,7 +2498,7 @@
   },
   "DeepLink": {
     "Invalid": {
-      "Description": "Đường dẫn \"{0}\" hiện không hợp lệ..\n\nVui lòng sử dụng một đường dẫn khác."
+      "Description": "Liên kết \"{0}\" không hợp lệ..\n\nVui lòng sử dụng một liên kết khác."
     }
   },
   "Title": {
@@ -3026,7 +3026,7 @@
           "Title": "Đã lưu Server"
         },
         "ShareSuccess": {
-          "Title": "Đã sao chép đường đẫn"
+          "Title": "Đã sao chép liên kết"
         }
       },
       "Search": {
