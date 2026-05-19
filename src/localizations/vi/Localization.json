@@ -4115,7 +4115,7 @@
           "Default": "Mặc định"
         },
         "RenderMode": {
-          "Title": "Chế độ kết xuất (Render)",
+          "Title": "Chế độ kết xuất",
           "Description": "Khuyến nghị nên để chế độ kết xuất Tiêu chuẩn.\n\nChế độ kết xuất Tiêu chuẩn cung cấp đồ họa chính xác, trong khi chế độ kết xuất Nhẹ cung cấp đồ họa kém chính xác hơn nhưng đổi lại hiệu năng được cải thiện đáng kể.",
           "Options": {
             "Standard": "Tiêu chuẩn",
@@ -4136,7 +4136,7 @@
         },
         "IgnoreNotch": {
           "Title": "Bỏ qua vùng khuyết máy ảnh",
-          "Description": "Sonolus sẽ mặc định tránh hiển thị đồ họa trên vùng khuyết máy ảnh (camera trước) của thiết bị để đảm bảo các thành phần đồ họa đều được hiển thị đầy đủ. Khi được bật, Sonolus sẽ không còn tránh vùng khuyết này nữa, vì vậy có khả năng một phần đồ họa sẽ bị che khuất.\n\nChỉ nên bật nếu màn hình thiết bị của bạn có tai thỏ hẹp / giọt nước và bạn muốn đồ họa được hiển thị ở chính giữa màn hình.",
+          "Description": "Sonolus sẽ mặc định tránh hiển thị đồ họa trên vùng khuyết máy ảnh (camera trước) của thiết bị để đảm bảo các thành phần đồ họa đều được hiển thị đầy đủ. Khi bật, Sonolus sẽ không còn tránh vùng khuyết này nữa, vì vậy có khả năng một phần đồ họa sẽ bị che khuất.\n\nChỉ nên bật nếu màn hình thiết bị của bạn có tai thỏ hẹp / giọt nước và bạn muốn đồ họa được hiển thị ở chính giữa màn hình.",
           "Options": {
             "Horizontal": "Ngang",
             "Vertical": "Dọc"
@@ -4155,7 +4155,7 @@
         },
         "UIBgmVolume": {
           "Title": "Âm lượng nhạc nền giao diện",
-          "Description": "Điều chỉnh âm lượng nhạc nền trong giao diện ứng dụng Sonolus."
+          "Description": "Điều chỉnh âm lượng nhạc nền của giao diện ứng dụng Sonolus."
         },
         "UISfxVolume": {
           "Title": "Âm lượng SFX giao diện",
