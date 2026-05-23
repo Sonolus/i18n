@@ -441,8 +441,8 @@
     "#MULTI_FINGER": "Cần nhiều hơn 2 ngón",
     "#FULL_HAND": "Cần cả bàn tay",
     "#CROSS_HAND": "Cần chéo tay",
-    "#GIMMICK": "Hiệu ứng đặc biệt (Gimmick)",
- 	"#EPILEPSY": "Có chớp nháy (Epilepsy)",
+    "#GIMMICK": "Hiệu ứng đặc biệt",
+ 	"#EPILEPSY": "Hoạt ảnh chớp nháy",
     "#COLLABORATION": "Hợp tác (Collab)",
     "#REPORT": "Tố cáo",
     "#REASON": "Nguyên nhân tố cáo",
@@ -4330,8 +4330,8 @@
           "Description": "Màu sắc Combo khi chỉ còn đạt được Fail"
         },
 		"ThinJudgmentComboOutline": {
-		  "Title": "Sử dụng đường viền mỏng",
-		  "Description": "Sử dụng đường viền mỏng cho chỉ báo phán định và số Combo."
+		  "Title": "Đường viền mỏng cho chỉ báo",
+		  "Description": "Sử dụng font chữ với đường viền mỏng cho chỉ báo phán định và số Combo."
 	    },
         "BoldComboNumber": {
           "Title": "In đậm số Combo",
