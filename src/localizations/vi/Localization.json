@@ -533,9 +533,9 @@
     "#DELETE": "Xóa",
     "#DELETING": "Đang xóa",
     "#DELETED": "Đã xóa",
-    "#REMOVE": "Xoá",
-    "#REMOVING": "Đang xoá",
-    "#REMOVED": "Đã xoá",
+    "#REMOVE": "Xóa",
+    "#REMOVING": "Đang xóa",
+    "#REMOVED": "Đã xóa",
     "#RESTORE": "Khôi phục",
     "#RESTORING": "Đang khôi phục",
     "#RESTORED": "Đã khôi phục",
@@ -926,7 +926,7 @@
           "Description": "Tài khoản Sonolus của bạn đã bị cấm."
         },
         "Deleted": {
-          "Description": "Bạn vừa xoá tài khoản Sonolus của mình gần đây.\n\nVui lòng đợi 7 ngày kể từ khi xóa tài khoản trước khi tạo tài khoản Sonolus khác."
+          "Description": "Bạn vừa xóa tài khoản Sonolus của mình gần đây.\n\nVui lòng đợi 7 ngày kể từ khi xóa tài khoản trước khi tạo tài khoản Sonolus khác."
         }
       },
       "UserInfo": {
@@ -1007,10 +1007,10 @@
         }
       },
       "Delete": {
-        "Loading": "Đang xoá tài khoản...",
-        "Error": "Không thể xoá tài khoản.\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại.",
+        "Loading": "Đang xóa tài khoản...",
+        "Error": "Không thể xóa tài khoản.\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
-          "Title": "Đã xoá tài khoản"
+          "Title": "Đã xóa tài khoản"
         }
       }
     },
@@ -2901,9 +2901,9 @@
         "Profile": "Hồ sơ",
         "Logout": "Đăng xuất",
         "Delete": {
-          "Title": "Xoá tài khoản",
+          "Title": "Xóa tài khoản",
           "Confirmation": {
-            "Description": "Việc xóa tài khoản sẽ xóa vĩnh viễn dữ liệu liên quan đến tài khoản Sonolus của bạn, bao gồm hồ sơ, kho vật phẩm và dữ liệu trên Server trò chơi. Quá trình xóa dữ liệu trên Server trò chơi có thể mất đến 7 ngày.\nBạn sẽ không thể khôi phục được tài khoản đã bị xóa, cũng như sẽ không thể tạo được tài khoản Sonolus khác trong vòng 7 ngày kể từ khi xóa.\n\nBạn có chắc muốn xoá tài khoản \"{0}\"?"
+            "Description": "Việc xóa tài khoản sẽ xóa vĩnh viễn dữ liệu liên quan đến tài khoản Sonolus của bạn, bao gồm hồ sơ, kho vật phẩm và dữ liệu trên Server trò chơi. Quá trình xóa dữ liệu trên Server trò chơi có thể mất đến 7 ngày.\nBạn sẽ không thể khôi phục được tài khoản đã bị xóa, cũng như sẽ không thể tạo được tài khoản Sonolus khác trong vòng 7 ngày kể từ khi xóa.\n\nBạn có chắc muốn xóa tài khoản \"{0}\"?"
           }
         }
       },
