@@ -4,6 +4,28 @@
     "Title": "Tiếng Việt (Vietnamese)"
   },
   "Texts": {
+	"#PREFIX_LIST": "- ",
+	"#PREFIX_QUOTE": "> ",
+	"#SEPARATOR_SPACE": " ",
+	"#SEPARATOR_COMMA": ", ",
+	"#SEPARATOR_COLON": ": ",
+	"#SEPARATOR_AND": " & ",
+	"#SEPARATOR_PLUS": " + ",
+	"#SEPARATOR_SLASH": " / ",
+	"#SEPARATOR_LESSER": " < ",
+	"#SEPARATOR_GREATER": " > ",
+	"#SEPARATOR_QUOTE_SINGLE_LEFT": "'",
+	"#SEPARATOR_QUOTE_SINGLE_RIGHT": "'",
+	"#SEPARATOR_QUOTE_DOUBLE_LEFT": "\"",
+	"#SEPARATOR_QUOTE_DOUBLE_RIGHT": "\"",
+	"#SEPARATOR_PARENTHESIS_LEFT": "(",
+	"#SEPARATOR_PARENTHESIS_RIGHT": ")",
+	"#SEPARATOR_BRACKET_LEFT": "[",
+	"#SEPARATOR_BRACKET_RIGHT": "]",
+	"#SURROUND_QUOTES_SINGLE": "'{0}'",
+	"#SURROUND_QUOTES_DOUBLE": "\"{0}\"",
+	"#SURROUND_PARENTHESES": "({0})",
+	"#SURROUND_BRACKETS": "[{0}]",
     "#CUSTOM_SERVER": "Server trò chơi",
     "#COLLECTION": "Bộ sưu tập",
     "#SERVER": "Server",
@@ -13,6 +35,7 @@
     "#LOG": "Nhật ký",
     "#INQUIRY": "Yêu cầu",
     "#BANNER": "Banner​",
+ 	"#ICON": "Icon",
     "#POST": "Bài đăng",
     "#PLAYLIST": "Danh sách phát",
     "#LEVEL": "Màn chơi",
@@ -80,6 +103,9 @@
     "#AUTHOR": "Tác giả",
     "#COAUTHOR": "Đồng tác giả",
     "#COLLABORATOR": "Người hợp tác",
+  	"#LYRICIST": "Lời",
+	"#COMPOSER": "Nhạc",
+	"#ARRANGER": "Phối khí",
     "#DESCRIPTION": "Mô tả",
     "#GENRE": "Thể loại nhạc",
     "#TYPE": "Loại",
@@ -416,6 +442,7 @@
     "#FULL_HAND": "Cần cả bàn tay",
     "#CROSS_HAND": "Cần chéo tay",
     "#GIMMICK": "Hiệu ứng đặc biệt (Gimmick)",
+ 	"#EPILEPSY": "Có chớp nháy (Epilepsy)",
     "#COLLABORATION": "Hợp tác (Collab)",
     "#REPORT": "Tố cáo",
     "#REASON": "Nguyên nhân tố cáo",
@@ -564,7 +591,6 @@
     "#STARRED": "Đã gắn sao"
   },
   "Common": {
-    "Separator": ",",
     "Loading": "Đang tải...",
     "Help": "Trợ giúp",
     "More": "Nhiều hơn",
@@ -3155,7 +3181,6 @@
         }
       },
       "Lists": {
-        "SearchOption": "{0}: {1}",
         "DeleteConfirmation": {
           "Description": "Bạn có chắc chắn muốn xóa \"{0}\" không?"
         },
@@ -4304,6 +4329,10 @@
           "Title": "Màu sắc Combo hạng Fail",
           "Description": "Màu sắc Combo khi chỉ còn đạt được Fail"
         },
+		"ThinJudgmentComboOutline": {
+		  "Title": "Sử dụng đường viền mỏng",
+		  "Description": "Sử dụng đường viền mỏng cho chỉ báo phán định và số Combo."
+	    },
         "BoldComboNumber": {
           "Title": "In đậm số Combo",
           "Description": "Sử dụng phông chữ đậm cho số Combo."
