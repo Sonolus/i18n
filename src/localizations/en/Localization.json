@@ -4,6 +4,28 @@
         "Title": "English (English)"
     },
     "Texts": {
+        "#PREFIX_LIST": "- ",
+        "#PREFIX_QUOTE": "> ",
+        "#SEPARATOR_SPACE": " ",
+        "#SEPARATOR_COMMA": ", ",
+        "#SEPARATOR_COLON": ": ",
+        "#SEPARATOR_AND": " & ",
+        "#SEPARATOR_PLUS": " + ",
+        "#SEPARATOR_SLASH": " / ",
+        "#SEPARATOR_LESSER": " < ",
+        "#SEPARATOR_GREATER": " > ",
+        "#SEPARATOR_QUOTE_SINGLE_LEFT": "'",
+        "#SEPARATOR_QUOTE_SINGLE_RIGHT": "'",
+        "#SEPARATOR_QUOTE_DOUBLE_LEFT": "\"",
+        "#SEPARATOR_QUOTE_DOUBLE_RIGHT": "\"",
+        "#SEPARATOR_PARENTHESIS_LEFT": "(",
+        "#SEPARATOR_PARENTHESIS_RIGHT": ")",
+        "#SEPARATOR_BRACKET_LEFT": "[",
+        "#SEPARATOR_BRACKET_RIGHT": "]",
+        "#SURROUND_QUOTES_SINGLE": "'{0}'",
+        "#SURROUND_QUOTES_DOUBLE": "\"{0}\"",
+        "#SURROUND_PARENTHESES": "({0})",
+        "#SURROUND_BRACKETS": "[{0}]",
         "#CUSTOM_SERVER": "Custom Server",
         "#COLLECTION": "Collection",
         "#SERVER": "Server",
@@ -13,6 +35,7 @@
         "#LOG": "Log",
         "#INQUIRY": "Inquiry",
         "#BANNER": "Banner",
+        "#ICON": "Icon",
         "#POST": "Post",
         "#PLAYLIST": "Playlist",
         "#LEVEL": "Level",
@@ -80,6 +103,9 @@
         "#AUTHOR": "Author",
         "#COAUTHOR": "Coauthor",
         "#COLLABORATOR": "Collaborator",
+        "#LYRICIST": "Lyricist",
+        "#COMPOSER": "Composer",
+        "#ARRANGER": "Arranger",
         "#DESCRIPTION": "Description",
         "#GENRE": "Genre",
         "#TYPE": "Type",
@@ -416,6 +442,7 @@
         "#FULL_HAND": "Full Hand",
         "#CROSS_HAND": "Cross Hand",
         "#GIMMICK": "Gimmick",
+        "#EPILEPSY": "Epilepsy",
         "#COLLABORATION": "Collaboration",
         "#REPORT": "Report",
         "#REASON": "Reason",
@@ -564,7 +591,6 @@
         "#STARRED": "Starred"
     },
     "Common": {
-        "Separator": ", ",
         "Loading": "Loading...",
         "Help": "Help",
         "More": "More",
@@ -3155,7 +3181,6 @@
                 }
             },
             "Lists": {
-                "SearchOption": "{0}: {1}",
                 "DeleteConfirmation": {
                     "Description": "Are you sure to delete \"{0}\"?"
                 },
@@ -4303,6 +4328,10 @@
                 "FailComboColors": {
                     "Title": "Fail Combo Colors",
                     "Description": "Combo colors when grade is Fail."
+                },
+                "ThinJudgmentComboOutline": {
+                    "Title": "Thin Judgment Combo Outline",
+                    "Description": "Use thin outline for judgment and combo."
                 },
                 "BoldComboNumber": {
                     "Title": "Bold Combo Number",
