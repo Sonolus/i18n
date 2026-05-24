@@ -2795,12 +2795,12 @@
     },
     "EditColors": {
       "Foreground": {
-        "Title": "Biểu tượng",
-        "Description": "Màu sắc biểu tượng."
+        "Title": "Màu chữ",
+        "Description": "Chọn màu chữ."
       },
       "Background": {
-        "Title": "Ảnh nền",
-        "Description": "Màu sắc ảnh nền."
+        "Title": "Màu đường viền",
+        "Description": "Chọn màu đường viền bao quanh các chữ."
       }
     },
     "CalibrateAudio": {
