@@ -4201,8 +4201,8 @@
           }
         },
         "LevelBgmQuality": {
-          "Title": "Chất lượng nhạc nền trong màn chơi",
-          "Description": "Khuyến nghị nên để mức Cao.\n\nTheo mặc định, Sonolus sẽ ưu tiên sử dụng bộ giải mã dựa trên phần cứng để đạt hiệu năng tốt nhất và chỉ dùng bộ giải mã dựa trên phần mềm nếu bộ giải mã dựa trên phần cứng không hỗ trợ định dạng mà nhạc nền màn chơi dùng. Nhạc nền màn chơi sẽ được giải mã ở chất lượng này.",
+          "Title": "Chất lượng nhạc nền màn chơi",
+          "Description": "Khuyến nghị nên để mức Cao.\n\nTheo mặc định, Sonolus sẽ ưu tiên sử dụng bộ giải mã dựa trên phần cứng để đạt hiệu năng tốt nhất và chỉ dùng bộ giải mã dựa trên phần mềm nếu bộ giải mã dựa trên phần cứng không hỗ trợ định dạng mà nhạc nền màn chơi sử dụng. Nhạc nền màn chơi sẽ được giải mã ở chất lượng này.",
           "Options": {
             "Low": "Thấp",
             "Mid": "Trung",
@@ -4211,7 +4211,7 @@
         },
         "PreviewBgmQuality": {
           "Title": "Chất lượng nhạc nền xem trước",
-          "Description": "Khuyến nghị nên để mức Trung.\n\nTheo mặc định, Sonolus sẽ ưu tiên sử dụng bộ giải mã dựa trên phần cứng để đạt hiệu năng tốt nhất và chỉ dùng bộ giải mã dựa trên phần mềm nếu bộ giải mã dựa trên phần cứng không hỗ trợ định dạng mà nhạc nền màn chơi dùng. Nhạc nền xem trước sẽ được giải mã ở chất lượng này.",
+          "Description": "Khuyến nghị nên để mức Trung.\n\nTheo mặc định, Sonolus sẽ ưu tiên sử dụng bộ giải mã dựa trên phần cứng để đạt hiệu năng tốt nhất và chỉ dùng bộ giải mã dựa trên phần mềm nếu bộ giải mã dựa trên phần cứng không hỗ trợ định dạng mà nhạc nền màn chơi sử dụng. Nhạc nền xem trước sẽ được giải mã ở chất lượng này.",
           "Options": {
             "Low": "Thấp",
             "Mid": "Trung",
