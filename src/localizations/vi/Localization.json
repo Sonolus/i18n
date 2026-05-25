@@ -4160,8 +4160,8 @@
           "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus sử dụng hệ thống Particle CPU. Khi bật, hệ thống Particle GPU sẽ được sử dụng thay thế. Đối với hầu hết các thiết bị di động, GPU yếu hơn CPU và do đó không khuyến khích sử dụng."
         },
         "IgnoreNotch": {
-          "Title": "Bỏ qua vùng khuyết máy ảnh",
-          "Description": "Sonolus sẽ mặc định tránh hiển thị đồ họa trên vùng khuyết máy ảnh (camera trước) của thiết bị để đảm bảo các thành phần đồ họa đều được hiển thị đầy đủ. Khi bật, Sonolus sẽ không còn tránh vùng khuyết này nữa, vì vậy có khả năng một phần đồ họa sẽ bị che khuất.\n\nChỉ nên bật nếu màn hình thiết bị của bạn có tai thỏ hẹp / giọt nước và bạn muốn đồ họa được hiển thị ở chính giữa màn hình.",
+          "Title": "Bỏ qua vùng tai thỏ",
+          "Description": "Sonolus sẽ mặc định tránh hiển thị đồ họa trên vùng tai thỏ (camera trước) của thiết bị để đảm bảo các thành phần đồ họa đều được hiển thị đầy đủ. Khi bật, Sonolus sẽ không còn tránh vùng này nữa, vì vậy có khả năng một phần đồ họa sẽ bị che khuất.\n\nChỉ nên bật nếu màn hình thiết bị của bạn có tai thỏ hẹp / giọt nước và bạn muốn đồ họa được hiển thị ở chính giữa màn hình.",
           "Options": {
             "Horizontal": "Ngang",
             "Vertical": "Dọc"
