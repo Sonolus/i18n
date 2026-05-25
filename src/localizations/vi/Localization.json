@@ -4227,7 +4227,7 @@
         },
         "FavoriteCollection": {
           "Title": "Bộ sưu tập yêu thích",
-          "Description": "Bộ sưu tập để lưu mục yêu thích.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định [Yêu thích] sẽ được tạo tự động.",
+          "Description": "Bộ sưu tập để lưu mục yêu thích.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định \"Yêu thích\" sẽ được tạo tự động.",
           "DefaultName": "Yêu thích"
         },
         "MultiplayerPreload": {
@@ -4251,7 +4251,7 @@
         },
         "ReplayCollection": {
           "Title": "Bộ sưu tập bản phát lại",
-          "Description": "Bộ sưu tập để lưu các bản phát lại.\n\nNếu không có bộ sưu tập nào được chọn, một bộ sưu tập mặc định sẽ được tự động tạo.",
+          "Description": "Bộ sưu tập để lưu các bản phát lại.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định \"Bản phát lại\" sẽ được tạo tự động.",
           "DefaultName": "Bản phát lại"
         },
         "AutoSubmitReplay": {
@@ -4274,7 +4274,7 @@
       "UI": {
         "Title": "Giao diện",
         "UILocalization": {
-          "Title": "Ngôn ngữ hiển thị",
+          "Title": "Ngôn ngữ giao diện",
           "Description": "Chọn ngôn ngữ hiển thị trong giao diện Sonolus."
         },
         "ContentLocalization": {
@@ -4287,7 +4287,7 @@
         },
         "Scale": {
           "Title": "Kích thước giao diện",
-          "Description": "Kích thước giao diện Sonolus. Tăng nếu bạn gặp khó khăn khi đọc và giảm để hiển thị nhiều nội dung hơn trên màn hình cùng một lúc."
+          "Description": "Điều chỉnh kích thước giao diện Sonolus. Tăng nếu bạn gặp khó khăn khi đọc và giảm để hiển thị nhiều nội dung hơn trên màn hình cùng một lúc."
         },
         "PerfectJudgmentColors": {
           "Title": "Màu sắc phán định Perfect",
@@ -4331,7 +4331,7 @@
         },
 		"ThinJudgmentComboOutline": {
 		  "Title": "Đường viền mỏng cho chỉ báo",
-		  "Description": "Sử dụng font chữ với đường viền mỏng cho chỉ báo phán định và số Combo."
+		  "Description": "Sử dụng phông chữ với đường viền mỏng cho chỉ báo phán định và số Combo."
 	    },
         "BoldComboNumber": {
           "Title": "In đậm số Combo",
