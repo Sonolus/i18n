@@ -767,7 +767,7 @@
       },
       "Visibility": "Hiển thị",
       "Animation": "Hoạt ảnh",
-      "Tween": "Chuyển động",
+      "Tween": "Tween",
       "Ease": {
         "Linear": "Linear",
         "InSine": "Sine (In)",
