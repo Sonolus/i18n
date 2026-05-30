@@ -235,8 +235,8 @@
     "#SIMLINE_COLOR": "Màu sắc đường nối các Note đồng thời",
     "#SIMLINE_ALPHA": "Độ trong suốt đường nối các Note đồng thời",
     "#SIMLINE_ANIMATION": "Hoạt ảnh đường nối các Note đồng thời",
-    "#PREVIEW_SCALE_VERTICAL": "Tỉ lệ giãn dọc trong chế độ Xem trước",
-    "#PREVIEW_SCALE_HORIZONTAL": "Tỉ lệ giãn ngang trong chế độ Xem trước",
+    "#PREVIEW_SCALE_VERTICAL": "Tỷ lệ giãn dọc trong chế độ Xem trước",
+    "#PREVIEW_SCALE_HORIZONTAL": "Tỷ lệ giãn ngang trong chế độ Xem trước",
     "#PREVIEW_TIME": "Hiển thị mốc thời gian trong chế độ Xem trước",
     "#PREVIEW_SCORE": "Hiển thị điểm số trong chế độ Xem trước",
     "#PREVIEW_BPM": "Hiển thị nhịp độ (BPM) trong chế độ Xem trước",
@@ -2757,40 +2757,40 @@
     },
     "EditVisibility": {
       "Scale": {
-        "Title": "Tỉ lệ",
-        "Description": "Tỉ lệ."
+        "Title": "Kích thước",
+        "Description": "Chỉnh kích thước."
       },
       "Alpha": {
         "Title": "Độ trong suốt",
-        "Description": "Độ trong suốt."
+        "Description": "Chỉnh độ trong suốt."
       }
     },
     "EditAnimation": {
       "Scale": {
-        "Title": "Tỉ lệ",
-        "Description": "Tỉ lệ."
+        "Title": "Kích thước",
+        "Description": "Chỉnh kích thước."
       },
       "Alpha": {
-        "Title": "Độ trong suốt.",
-        "Description": "Độ trong suốt."
+        "Title": "Độ trong suốt",
+        "Description": "Chỉnh độ trong suốt."
       }
     },
     "EditTween": {
       "From": {
-        "Title": "Từ",
-        "Description": "Từ."
+        "Title": "Bắt đầu",
+        "Description": "Chọn giá trị bắt đầu."
       },
       "To": {
-        "Title": "Đến",
-        "Description": "Đến."
+        "Title": "Kết thúc",
+        "Description": "Chọn giá trị kết thúc."
       },
       "Duration": {
         "Title": "Thời lượng",
-        "Description": "Thời lượng."
+        "Description": "Chọn thời lượng hoạt ảnh."
       },
       "Ease": {
-        "Title": "Chuyển động",
-        "Description": "Chuyển động."
+        "Title": "Kiểu chuyển động",
+        "Description": "Chọn kiểu hàm biến đổi chuyển động."
       }
     },
     "EditColors": {
