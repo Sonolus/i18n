@@ -4,6 +4,27 @@
     "Title": "Français (French)"
   },
   "Texts": {
+    "#PREFIX_LIST": "- ",
+    "#PREFIX_QUOTE": "> ",
+    "#SEPARATOR_COMMA": ", ",
+    "#SEPARATOR_COLON": ": ",
+    "#SEPARATOR_AND": " et ",
+    "#SEPARATOR_PLUS": " + ",
+    "#SEPARATOR_SLASH": " / ",
+    "#SEPARATOR_LESSER": " < ",
+    "#SEPARATOR_GREATER": " > ",
+    "#SEPARATOR_QUOTE_SINGLE_LEFT": "'",
+    "#SEPARATOR_QUOTE_SINGLE_RIGHT": "'",
+    "#SEPARATOR_QUOTE_DOUBLE_LEFT": "\"",
+    "#SEPARATOR_QUOTE_DOUBLE_RIGHT": "\"",
+    "#SEPARATOR_PARENTHESIS_LEFT": "(",
+    "#SEPARATOR_PARENTHESIS_RIGHT": ")",
+    "#SEPARATOR_BRACKET_LEFT": "[",
+    "#SEPARATOR_BRACKET_RIGHT": "]",
+    "#SURROUND_QUOTES_SINGLE": "'{0}'",
+    "#SURROUND_QUOTES_DOUBLE": "\"{0}\"",
+    "#SURROUND_PARENTHESES": "({0})",
+    "#SURROUND_BRACKETS": "[{0}]",
     "#CUSTOM_SERVER": "Serveur Personnalisé",
     "#COLLECTION": "Collection",
     "#SERVER": "Serveur",
@@ -13,6 +34,7 @@
     "#LOG": "Journaux",
     "#INQUIRY": "Demande",
     "#BANNER": "Bannière",
+    "#ICON": "Icône",
     "#POST": "Publication",
     "#PLAYLIST": "Playlist",
     "#LEVEL": "Niveau",
@@ -80,6 +102,9 @@
     "#AUTHOR": "Auteur",
     "#COAUTHOR": "Coauteur",
     "#COLLABORATOR": "Collaborateur",
+    "#LYRICIST": "Parolier",
+    "#COMPOSER": "Compositeur",
+    "#ARRANGER": "Arrangeur",
     "#DESCRIPTION": "Description",
     "#GENRE": "Genre",
     "#TYPE": "Type",
@@ -202,7 +227,7 @@
     "#CONNECTOR_ALPHA": "Transparence des Connecteurs",
     "#CONNECTOR_ANIMATION": "Animation des Connecteurs",
     "#SIMLINE": "Lignes Simultanées",
-    "#SIMLINE_POSITION": "Simultaneous Line Position",
+    "#SIMLINE_POSITION": "Position des Lignes Simultanées",
     "#SIMLINE_SIZE": "Taille des Lignes Simultanées",
     "#SIMLINE_ROTATION": "Rotation des Lignes Simultanées",
     "#SIMLINE_DIRECTION": "Direction des Lignes Simultanées",
@@ -331,7 +356,7 @@
     "#YEAR_PAST": "Il y a {0} a",
     "#MONTH_PAST": "Il y a {0} m.",
     "#DAY_PAST": "Il y a {0} j",
-    "#HOUR_PAST": "Il y a {0} j",
+    "#HOUR_PAST": "il y a {0} h",
     "#MINUTE_PAST": "Il y a {0} min",
     "#SECOND_PAST": "Il y a {0} s",
     "#MILLISECOND_PAST": "Il y a {0} ms",
@@ -416,6 +441,7 @@
     "#FULL_HAND": "Main Entière",
     "#CROSS_HAND": "Mains Croisées",
     "#GIMMICK": "Gimmick",
+    "#EPILEPSY": "Épilepsie",
     "#COLLABORATION": "Collaboration",
     "#REPORT": "Signaler",
     "#REASON": "Raison",
@@ -564,7 +590,6 @@
     "#STARRED": "Étoilé"
   },
   "Common": {
-    "Separator": ",",
     "Loading": "Chargement…",
     "Help": "Aide",
     "More": "Plus",
@@ -3155,7 +3180,6 @@
         }
       },
       "Lists": {
-        "SearchOption": "{0}: {1}",
         "DeleteConfirmation": {
           "Description": "Voulez-vous vraiment supprimer \"{0}\" ?"
         },
@@ -4303,6 +4327,10 @@
         "FailComboColors": {
           "Title": "Couleurs du Fail",
           "Description": "Couleurs du combo quand le grade est Fail."
+        },
+        "ThinJudgmentComboOutline": {
+          "Title": "Contour Fin du Jugement et Combo",
+          "Description": "Utiliser un contour fin pour le jugement et le combo."
         },
         "BoldComboNumber": {
           "Title": "Combo en Gras",
