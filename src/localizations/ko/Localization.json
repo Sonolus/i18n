@@ -4,6 +4,27 @@
     "Title": "한국어 (Korean)"
   },
   "Texts": {
+    "#PREFIX_LIST": "- ",
+    "#PREFIX_QUOTE": "> ",
+    "#SEPARATOR_COMMA": ", ",
+    "#SEPARATOR_COLON": ": ",
+    "#SEPARATOR_AND": " & ",
+    "#SEPARATOR_PLUS": " + ",
+    "#SEPARATOR_SLASH": " / ",
+    "#SEPARATOR_LESSER": " < ",
+    "#SEPARATOR_GREATER": " > ",
+    "#SEPARATOR_QUOTE_SINGLE_LEFT": "'",
+    "#SEPARATOR_QUOTE_SINGLE_RIGHT": "'",
+    "#SEPARATOR_QUOTE_DOUBLE_LEFT": "\"",
+    "#SEPARATOR_QUOTE_DOUBLE_RIGHT": "\"",
+    "#SEPARATOR_PARENTHESIS_LEFT": "(",
+    "#SEPARATOR_PARENTHESIS_RIGHT": ")",
+    "#SEPARATOR_BRACKET_LEFT": "[",
+    "#SEPARATOR_BRACKET_RIGHT": "]",
+    "#SURROUND_QUOTES_SINGLE": "'{0}'",
+    "#SURROUND_QUOTES_DOUBLE": "\"{0}\"",
+    "#SURROUND_PARENTHESES": "({0})",
+    "#SURROUND_BRACKETS": "[{0}]",
     "#CUSTOM_SERVER": "맞춤 서버",
     "#COLLECTION": "모음집",
     "#SERVER": "서버",
@@ -13,6 +34,7 @@
     "#LOG": "기록",
     "#INQUIRY": "문의",
     "#BANNER": "배너",
+    "#ICON": "아이콘",
     "#POST": "게시물",
     "#PLAYLIST": "재생목록",
     "#LEVEL": "레벨",
@@ -80,6 +102,9 @@
     "#AUTHOR": "제작자",
     "#COAUTHOR": "부 작성자",
     "#COLLABORATOR": "협력자",
+    "#LYRICIST": "작사",
+    "#COMPOSER": "작곡가",
+    "#ARRANGER": "편곡",
     "#DESCRIPTION": "설명",
     "#GENRE": "장르",
     "#TYPE": "유형",
@@ -416,6 +441,7 @@
     "#FULL_HAND": "손 전체",
     "#CROSS_HAND": "손 교차",
     "#GIMMICK": "기믹",
+    "#EPILEPSY": "간질",
     "#COLLABORATION": "협력",
     "#REPORT": "신고",
     "#REASON": "사유",
@@ -564,7 +590,6 @@
     "#STARRED": "별표됨"
   },
   "Common": {
-    "Separator": ", ",
     "Loading": "불러오는 중...",
     "Help": "도움말",
     "More": "더 보기",
@@ -3155,7 +3180,6 @@
         }
       },
       "Lists": {
-        "SearchOption": "{0}: {1}",
         "DeleteConfirmation": {
           "Description": "정말 \"{0}\" 아이템을 삭제합니까?"
         },
@@ -4303,6 +4327,10 @@
         "FailComboColors": {
           "Title": "Fail 콤보 색",
           "Description": "Fail 등급일 때의 콤보 색상입니다."
+        },
+        "ThinJudgmentComboOutline": {
+          "Title": "얇은 판정 콤보 외곽선",
+          "Description": "판정과 콤보에 얇은 외곽선을 사용합니다."
         },
         "BoldComboNumber": {
           "Title": "굵은 콤보 숫자",
