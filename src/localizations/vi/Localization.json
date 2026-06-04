@@ -4,6 +4,28 @@
     "Title": "Tiếng Việt (Vietnamese)"
   },
   "Texts": {
+	"#PREFIX_LIST": "- ",
+	"#PREFIX_QUOTE": "┃ ",
+	"#SEPARATOR_SPACE": " ",
+	"#SEPARATOR_COMMA": ", ",
+	"#SEPARATOR_COLON": ": ",
+	"#SEPARATOR_AND": " & ",
+	"#SEPARATOR_PLUS": " + ",
+	"#SEPARATOR_SLASH": " / ",
+	"#SEPARATOR_LESSER": " < ",
+	"#SEPARATOR_GREATER": " > ",
+	"#SEPARATOR_QUOTE_SINGLE_LEFT": "‘",
+	"#SEPARATOR_QUOTE_SINGLE_RIGHT": "’",
+	"#SEPARATOR_QUOTE_DOUBLE_LEFT": "“",
+	"#SEPARATOR_QUOTE_DOUBLE_RIGHT": "”",
+	"#SEPARATOR_PARENTHESIS_LEFT": "(",
+	"#SEPARATOR_PARENTHESIS_RIGHT": ")",
+	"#SEPARATOR_BRACKET_LEFT": "[",
+	"#SEPARATOR_BRACKET_RIGHT": "]",
+	"#SURROUND_QUOTES_SINGLE": "‘{0}’",
+	"#SURROUND_QUOTES_DOUBLE": "“{0}”",
+	"#SURROUND_PARENTHESES": "({0})",
+	"#SURROUND_BRACKETS": "[{0}]",
     "#CUSTOM_SERVER": "Server trò chơi",
     "#COLLECTION": "Bộ sưu tập",
     "#SERVER": "Server",
@@ -13,6 +35,7 @@
     "#LOG": "Nhật ký",
     "#INQUIRY": "Yêu cầu",
     "#BANNER": "Banner​",
+ 	"#ICON": "Icon",
     "#POST": "Bài đăng",
     "#PLAYLIST": "Danh sách phát",
     "#LEVEL": "Màn chơi",
@@ -67,7 +90,7 @@
     "#ACCURACY": "Độ chính xác",
     "#FILTER": "Bộ lọc",
     "#SORT": "Sắp xếp theo",
-    "#KEYWORDS": "Từ khoá",
+    "#KEYWORDS": "Từ khóa",
     "#NAME": "Tên",
     "#SOURCE": "Nguồn",
     "#RATING": "Đánh giá",
@@ -80,6 +103,9 @@
     "#AUTHOR": "Tác giả",
     "#COAUTHOR": "Đồng tác giả",
     "#COLLABORATOR": "Người hợp tác",
+  	"#LYRICIST": "Lời",
+	"#COMPOSER": "Nhạc",
+	"#ARRANGER": "Phối khí",
     "#DESCRIPTION": "Mô tả",
     "#GENRE": "Thể loại nhạc",
     "#TYPE": "Loại",
@@ -122,7 +148,7 @@
     "#STAGE_COVER_VERTICAL": "Kích thước tường chắn dọc",
     "#STAGE_COVER_HORIZONTAL": "Kích thước tường chắn ngang",
     "#STAGE_COVER_ALPHA": "Độ trong suốt của tường chắn",
-    "#STAGE_ASPECTRATIO_LOCK": "Khoá tỷ lệ khung hình sàn chơi",
+    "#STAGE_ASPECTRATIO_LOCK": "Khóa tỷ lệ khung hình sàn chơi",
     "#STAGE_EFFECT": "Hiệu ứng sàn chơi",
     "#STAGE_EFFECT_POSITION": "Vị trí hiệu ứng sàn chơi",
     "#STAGE_EFFECT_SIZE": "Kích thước hiệu ứng sàn chơi",
@@ -178,7 +204,7 @@
     "#NOTE_COLOR": "Màu sắc Note",
     "#NOTE_ALPHA": "Độ trong suốt Note",
     "#NOTE_ANIMATION": "Hoạt ảnh Note",
-    "#NOTE_EFFECT": "Hiển thị hiệu ứng Note khi nhấn",
+    "#NOTE_EFFECT": "Hiển thị hiệu ứng Note",
     "#NOTE_EFFECT_POSITION": "Vị trí hiệu ứng Note",
     "#NOTE_EFFECT_SIZE": "Kích thước hiệu ứng Note",
     "#NOTE_EFFECT_ROTATION": "Xoay hiệu ứng Note",
@@ -209,8 +235,8 @@
     "#SIMLINE_COLOR": "Màu sắc đường nối các Note đồng thời",
     "#SIMLINE_ALPHA": "Độ trong suốt đường nối các Note đồng thời",
     "#SIMLINE_ANIMATION": "Hoạt ảnh đường nối các Note đồng thời",
-    "#PREVIEW_SCALE_VERTICAL": "Tỉ lệ giãn dọc trong chế độ Xem trước",
-    "#PREVIEW_SCALE_HORIZONTAL": "Tỉ lệ giãn ngang trong chế độ Xem trước",
+    "#PREVIEW_SCALE_VERTICAL": "Tỷ lệ giãn dọc trong chế độ Xem trước",
+    "#PREVIEW_SCALE_HORIZONTAL": "Tỷ lệ giãn ngang trong chế độ Xem trước",
     "#PREVIEW_TIME": "Hiển thị mốc thời gian trong chế độ Xem trước",
     "#PREVIEW_SCORE": "Hiển thị điểm số trong chế độ Xem trước",
     "#PREVIEW_BPM": "Hiển thị nhịp độ (BPM) trong chế độ Xem trước",
@@ -230,7 +256,7 @@
     "#NONE": "Không có",
     "#ANY": "Bất kì",
     "#ALL": "Tất cả",
-    "#OTHERS": "Người khác",
+    "#OTHERS": "Khác",
     "#SHORT": "Ngắn",
     "#LONG": "Dài",
     "#HIGH": "Cao",
@@ -415,7 +441,8 @@
     "#MULTI_FINGER": "Cần nhiều hơn 2 ngón",
     "#FULL_HAND": "Cần cả bàn tay",
     "#CROSS_HAND": "Cần chéo tay",
-    "#GIMMICK": "Hiệu ứng đặc biệt (Gimmick)",
+    "#GIMMICK": "Hiệu ứng đặc biệt",
+ 	"#EPILEPSY": "Hoạt ảnh chớp nháy",
     "#COLLABORATION": "Hợp tác (Collab)",
     "#REPORT": "Tố cáo",
     "#REASON": "Nguyên nhân tố cáo",
@@ -506,9 +533,9 @@
     "#DELETE": "Xóa",
     "#DELETING": "Đang xóa",
     "#DELETED": "Đã xóa",
-    "#REMOVE": "Xoá",
-    "#REMOVING": "Đang xoá",
-    "#REMOVED": "Đã xoá",
+    "#REMOVE": "Xóa",
+    "#REMOVING": "Đang xóa",
+    "#REMOVED": "Đã xóa",
     "#RESTORE": "Khôi phục",
     "#RESTORING": "Đang khôi phục",
     "#RESTORED": "Đã khôi phục",
@@ -564,7 +591,6 @@
     "#STARRED": "Đã gắn sao"
   },
   "Common": {
-    "Separator": ",",
     "Loading": "Đang tải...",
     "Help": "Trợ giúp",
     "More": "Nhiều hơn",
@@ -741,7 +767,7 @@
       },
       "Visibility": "Hiển thị",
       "Animation": "Hoạt ảnh",
-      "Tween": "Chuyển động",
+      "Tween": "Chuyển tiếp",
       "Ease": {
         "Linear": "Linear",
         "InSine": "Sine (In)",
@@ -830,7 +856,7 @@
     "Billing": {
       "GemProducts": {
         "Loading": "Đang tải vật phẩm đá quý...",
-        "Error": "Không thể tải vật phẩm đá quý.\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+        "Error": "Không thể tải vật phẩm đá quý.\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại."
       }
     },
     "Content": {
@@ -841,27 +867,27 @@
       "Theme": {
         "Thumbnail": {
           "Loading": "Đang tải ảnh thu nhỏ của chủ đề...",
-          "Error": "Không thể tải ảnh thu nhỏ của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Error": "Không thể tải ảnh thu nhỏ của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại."
         },
         "Background": {
           "Loading": "Đang tải ảnh nền của chủ đề...",
-          "Error": "Không thể tải ảnh nền của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Error": "Không thể tải ảnh nền của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại."
         },
         "Avatar": {
           "Loading": "Đang tải Avatar của chủ đề...",
-          "Error": "Không thể tải Avatar của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Error": "Không thể tải Avatar của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại."
         },
         "AvatarBackground": {
           "Loading": "Đang tải nền Avatar của chủ đề...",
-          "Error": "Không thể tải nền Avatar của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Error": "Không thể tải nền Avatar của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại."
         },
         "Banner": {
           "Loading": "Đang tải Banner của chủ đề...",
-          "Error": "Không thể tải Banner của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Error": "Không thể tải Banner của chủ đề \"{0}\".\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại."
         },
         "MultiplayerBanner": {
           "Loading": "Đang tải Banner của chủ đề trong chế độ nhiều người chơi...",
-          "Error": "Không thể tải Banner của chủ đề \"{0}\" trong chế độ nhiều người chơi.\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+          "Error": "Không thể tải Banner của chủ đề \"{0}\" trong chế độ nhiều người chơi.\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại."
         }
 			}
     },
@@ -883,11 +909,11 @@
       "AuthenticationError": "Phiên đăng nhập Sonolus của bạn đã hết hạn.\n\nVui lòng đăng nhập lại bằng tài khoản Sonolus của bạn rồi thử lại.",
       "UserProfile": {
         "Loading": "Đang tải hồ sơ người dùng...",
-        "Error": "Không thể tải hồ sơ của người dùng \"{0}\".\n\nVui lòng xem lại ID tài khoản, hoặc kiểm tra kết nối mạng rồi thử lại ."
+        "Error": "Không thể tải hồ sơ của người dùng \"{0}\".\n\nVui lòng xem lại ID tài khoản, hoặc kiểm tra kết nối Internet của bạn và thử lại ."
       },
       "Login": {
         "Loading": "Đang đăng nhập...",
-        "Error": "Không thể đăng nhập.\n\nVui lòng kiểm tra lại kết nối mạng rồi thử lại.",
+        "Error": "Không thể đăng nhập.\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "New": {
             "Title": "Đăng ký tài khoản thành công"
@@ -900,19 +926,19 @@
           "Description": "Tài khoản Sonolus của bạn đã bị cấm."
         },
         "Deleted": {
-          "Description": "Bạn vừa xoá tài khoản Sonolus của mình gần đây.\n\nVui lòng đợi 7 ngày kể từ khi xóa tài khoản trước khi tạo tài khoản Sonolus khác."
+          "Description": "Bạn vừa xóa tài khoản Sonolus của mình gần đây.\n\nVui lòng đợi 7 ngày kể từ khi xóa tài khoản trước khi tạo tài khoản Sonolus khác."
         }
       },
       "UserInfo": {
         "Loading": "Đang tải thông tin người dùng...",
-        "Error": "Không thể tải thông tin người dùng.\n\nVui lòng kiểm tra kết nối Internet và thử lại."
+        "Error": "Không thể tải thông tin người dùng.\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại."
       },
       "ClaimGems": {
         "NotLoggedInError": {
           "Description": "Bạn đã mua đá quý thành công, nhưng chưa đăng nhập tài khoản Sonolus.\n\nVui lòng đăng nhập tài khoản Sonolus và thử lại."
         },
         "Loading": "Đang nhận đá quý...",
-        "Error": "Không thể nhận đá quý.\n\nVui lòng kiểm tra kết nối Internet và thử lại.",
+        "Error": "Không thể nhận đá quý.\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã nhận đá quý"
         }
@@ -928,42 +954,42 @@
           "Description": "Xác nhận mua \"{0}\"?"
         },
         "Loading": "Đang mua...",
-        "Error": "Không thể mua \"{0}\".\n\nVui lòng kiểm tra kết nối Internet và thử lại.",
+        "Error": "Không thể mua \"{0}\".\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã mua"
         }
       },
       "EditName": {
         "Loading": "Đang đổi tên...",
-        "Error": "Không thể đổi tên.\n\nVui lòng kiểm tra nếu tên của bạn nằm trong giới hạn ký tự và không chứa ký hiệu đặc biệt, hoặc kiểm tra kết nối mạng rồi thử lại.",
+        "Error": "Không thể đổi tên.\n\nVui lòng kiểm tra nếu tên của bạn nằm trong giới hạn ký tự và không chứa ký hiệu đặc biệt, hoặc kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã đổi tên"
         }
       },
       "EditAvatar": {
         "Loading": "Đang thay đổi Avatar​...",
-        "Error": "Không thể thay đổi Avatar​.\n\nVui lòng kiểm tra Avatar​ của bạn có phải là file ảnh hay không, hoặc kiểm tra lại kết nối Internet và thử lại.",
+        "Error": "Không thể thay đổi Avatar​.\n\nVui lòng kiểm tra Avatar​ của bạn có phải là file ảnh hợp lệ hay không, hoặc kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã thay đổi Avatar​"
         }
       },
       "EditBanner": {
         "Loading": "Đang chỉnh sửa Banner​...",
-        "Error": "Không thể chỉnh sửa Banner​.\n\nVui lòng kiểm tra Banner​ của bạn có hợp lệ không, hoặc kiểm tra lại kết nối Internet và thử lại.",
+        "Error": "Không thể chỉnh sửa Banner​.\n\nVui lòng kiểm tra Banner​ của bạn có phải là file ảnh hợp lệ hay không, hoặc kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã chỉnh sửa Banner "
         }
       },
       "EditAboutMe": {
         "Loading": "Đang chỉnh sửa thông tin...",
-        "Error": "Không thể sửa thông tin. \n\nVui lòng kiểm tra thông tin của bạn có hợp lệ và vẫn trong giới hạn ký tự không, hoặc kiểm tra lại kết nối Internet và thử lại.",
+        "Error": "Không thể sửa thông tin. \n\nVui lòng kiểm tra thông tin của bạn có hợp lệ và vẫn trong giới hạn ký tự hay không, hoặc kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã sửa thông tin"
         }
       },
       "EditFavorites": {
         "Loading": "Đang chỉnh sửa mục yêu thích...",
-        "Error": "Không thể sửa mục yêu thích.\n\nVui lòng kiểm tra mục yêu thích của bạn có hợp lệ và vẫn trong giới hạn không, hoặc kiểm tra lại kết nối Internet và thử lại.",
+        "Error": "Không thể sửa mục yêu thích.\n\nVui lòng kiểm tra mục yêu thích của bạn có hợp lệ và vẫn trong giới hạn không, hoặc kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã sửa mục yêu thích"
         }
@@ -975,16 +1001,16 @@
       },
       "Logout": {
         "Loading": "Đang đăng xuất...",
-        "Error": "Không thể đăng xuất.\n\nVui lòng kiểm tra lại kết nối Internet và thử lại.",
+        "Error": "Không thể đăng xuất.\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
           "Title": "Đã đăng xuất"
         }
       },
       "Delete": {
-        "Loading": "Đang xoá tài khoản...",
-        "Error": "Không thể xoá tài khoản.\n\nVui lòng kiểm tra kết nối Internet và thử lại.",
+        "Loading": "Đang xóa tài khoản...",
+        "Error": "Không thể xóa tài khoản.\n\nVui lòng kiểm tra kết nối Internet của bạn và thử lại.",
         "Success": {
-          "Title": "Đã xoá tài khoản"
+          "Title": "Đã xóa tài khoản"
         }
       }
     },
@@ -2498,7 +2524,7 @@
   },
   "DeepLink": {
     "Invalid": {
-      "Description": "Đường dẫn \"{0}\" hiện không hợp lệ..\n\nVui lòng sử dụng một đường dẫn khác."
+      "Description": "Liên kết \"{0}\" không hợp lệ..\n\nVui lòng sử dụng một liên kết khác."
     }
   },
   "Title": {
@@ -2731,50 +2757,50 @@
     },
     "EditVisibility": {
       "Scale": {
-        "Title": "Tỉ lệ",
-        "Description": "Tỉ lệ."
+        "Title": "Kích thước",
+        "Description": "Chỉnh kích thước."
       },
       "Alpha": {
         "Title": "Độ trong suốt",
-        "Description": "Độ trong suốt."
+        "Description": "Chỉnh độ trong suốt."
       }
     },
     "EditAnimation": {
       "Scale": {
-        "Title": "Tỉ lệ",
-        "Description": "Tỉ lệ."
+        "Title": "Kích thước",
+        "Description": "Chỉnh kích thước."
       },
       "Alpha": {
-        "Title": "Độ trong suốt.",
-        "Description": "Độ trong suốt."
+        "Title": "Độ trong suốt",
+        "Description": "Chỉnh độ trong suốt."
       }
     },
     "EditTween": {
       "From": {
-        "Title": "Từ",
-        "Description": "Từ."
+        "Title": "Bắt đầu",
+        "Description": "Chọn giá trị bắt đầu."
       },
       "To": {
-        "Title": "Đến",
-        "Description": "Đến."
+        "Title": "Kết thúc",
+        "Description": "Chọn giá trị kết thúc."
       },
       "Duration": {
         "Title": "Thời lượng",
-        "Description": "Thời lượng."
+        "Description": "Chọn thời lượng hoạt ảnh."
       },
       "Ease": {
-        "Title": "Chuyển động",
-        "Description": "Chuyển động."
+        "Title": "Kiểu chuyển động",
+        "Description": "Chọn kiểu hàm biến đổi chuyển động."
       }
     },
     "EditColors": {
       "Foreground": {
-        "Title": "Biểu tượng",
-        "Description": "Màu sắc biểu tượng."
+        "Title": "Màu chữ",
+        "Description": "Chọn màu chữ."
       },
       "Background": {
-        "Title": "Ảnh nền",
-        "Description": "Màu sắc ảnh nền."
+        "Title": "Màu đường viền",
+        "Description": "Chọn màu đường viền bao quanh các chữ."
       }
     },
     "CalibrateAudio": {
@@ -2875,9 +2901,9 @@
         "Profile": "Hồ sơ",
         "Logout": "Đăng xuất",
         "Delete": {
-          "Title": "Xoá tài khoản",
+          "Title": "Xóa tài khoản",
           "Confirmation": {
-            "Description": "Việc xóa tài khoản sẽ xóa vĩnh viễn dữ liệu liên quan đến tài khoản Sonolus của bạn, bao gồm hồ sơ, kho vật phẩm và dữ liệu trên Server trò chơi. Quá trình xóa dữ liệu trên Server trò chơi có thể mất đến 7 ngày.\nBạn sẽ không thể khôi phục được tài khoản đã bị xóa, cũng như sẽ không thể tạo được tài khoản Sonolus khác trong vòng 7 ngày kể từ khi xóa.\n\nBạn có chắc muốn xoá tài khoản \"{0}\"?"
+            "Description": "Việc xóa tài khoản sẽ xóa vĩnh viễn dữ liệu liên quan đến tài khoản Sonolus của bạn, bao gồm hồ sơ, kho vật phẩm và dữ liệu trên Server trò chơi. Quá trình xóa dữ liệu trên Server trò chơi có thể mất đến 7 ngày.\nBạn sẽ không thể khôi phục được tài khoản đã bị xóa, cũng như sẽ không thể tạo được tài khoản Sonolus khác trong vòng 7 ngày kể từ khi xóa.\n\nBạn có chắc muốn xóa tài khoản \"{0}\"?"
           }
         }
       },
@@ -3023,10 +3049,10 @@
           "Description": "Một số mục trong bộ sưu tập cần được cập nhật trước khi sử dụng.\n\nBạn có muốn cập nhật ngay không?"
         },
         "SaveSuccess": {
-          "Title": "Đã lưu server"
+          "Title": "Đã lưu Server"
         },
         "ShareSuccess": {
-          "Title": "Đã sao chép đường đẫn"
+          "Title": "Đã sao chép liên kết"
         }
       },
       "Search": {
@@ -3155,7 +3181,6 @@
         }
       },
       "Lists": {
-        "SearchOption": "{0}: {1}",
         "DeleteConfirmation": {
           "Description": "Bạn có chắc chắn muốn xóa \"{0}\" không?"
         },
@@ -3239,8 +3264,8 @@
           "Description": "Bạn có chắc chắn muốn xóa \"{0}\" không?"
         },
         "Tags": {
-          "Title": "Thẻ",
-          "NoTags": "Không có thẻ"
+          "Title": "Tag",
+          "NoTags": "Không có Tag"
         },
         "Description": {
           "Title": "Mô tả",
@@ -3513,7 +3538,7 @@
           "Image": {
             "Title": "Hình ảnh",
             "Blur": {
-              "Title": "Độ mờ",
+              "Title": "Độ mờ ảnh nền",
               "Description": "Làm mờ ảnh nền để giảm mất tập trung."
             },
             "Mask": {
@@ -3551,31 +3576,31 @@
           "UI": {
             "PrimaryMetric": {
               "Title": "Chỉ số chính",
-              "Description": "Chỉ số chính cần hiển thị (thường ở bên trái)."
+              "Description": "Chọn chỉ số chính cần hiển thị (thường ở bên trái màn hình)."
             },
             "SecondaryMetric": {
               "Title": "Chỉ số phụ",
-              "Description": "Chỉ số phụ cần hiển thị (thường ở bên phải)."
+              "Description": "Chọn chỉ số phụ cần hiển thị (thường ở bên phải màn hình)."
             },
             "JudgmentErrorStyle": {
-              "Title": "Kiểu sai số phán định",
-              "Description": "Kiểu sai số phán định. Bên trái là sai số phán định dương, bên phải là sai số phán định âm."
+              "Title": "Kiểu chỉ báo sai số phán định",
+              "Description": "Chọn kiểu chỉ báo sai số phán định muốn hiển thị.\n\nChỉ báo bên trái dấu gạch chéo sẽ được hiển thị khi nhấn Note quá trễ (mặc định Late). Chỉ báo bên phải dấu gạch chéo sẽ được hiển thị khi nhấn Note quá sớm (mặc định Early)."
             },
             "JudgmentErrorPlacement": {
-              "Title": "Vị trí hiển thị sai số phán định",
-              "Description": "Vị trí hiển thị sai số phán định."
+              "Title": "Vị trí hiển thị chỉ báo sai số phán định",
+              "Description": "Chọn vị trí để hiển thị chỉ báo sai số phán định so với vị trí phán định."
             },
             "JudgmentErrorMin": {
               "Title": "Sai số phán định tối thiểu",
-              "Description": "Thiết lập sai số phán định tối thiểu. Chỉ những sai số phán định lớn hơn mức này mới được hiển thị."
+              "Description": "Nếu sai số phán định khi nhấn Note nhỏ hơn mức này thì chỉ báo sai số phán định sẽ không được hiển thị."
             },
             "MenuStyle": {
               "Title": "Kiểu nút Menu",
               "Description": "Tùy chỉnh kích thước và độ trong suốt của nút Menu."
             },
             "JudgmentStyle": {
-              "Title": "Kiểu phán định",
-              "Description": "Tùy chỉnh kiểu hoạt ảnh, kích thước và độ trong suốt của phán định."
+              "Title": "Kiểu chỉ báo phán định",
+              "Description": "Tùy chỉnh kiểu hoạt ảnh, kích thước và độ trong suốt của chỉ báo phán định."
             },
             "ComboStyle": {
               "Title": "Kiểu Combo",
@@ -3590,16 +3615,16 @@
               "Description": "Tùy chỉnh kích thước và độ trong suốt của Chỉ số phụ."
             },
             "ProgressStyle": {
-              "Title": "Kiểu thanh tiến trình trong chế độ Xem trước",
-              "Description": "Tùy chỉnh kích thước và độ trong suốt của thanh tiến trình trong chế độ Xem trước."
+              "Title": "Kiểu thanh tiến trình trong chế độ Xem",
+              "Description": "Tùy chỉnh kích thước và độ trong suốt của thanh tiến trình trong chế độ Xem (bao gồm cả Xem trước nếu có)."
             },
             "TutorialNavigationStyle": {
               "Title": "Kiểu nút điều hướng trong chế độ Hướng dẫn",
               "Description": "Tùy chỉnh kích thước và độ trong suốt của nút điều hướng trong chế độ Hướng dẫn."
             },
             "TutorialInstructionStyle": {
-              "Title": "Kiểu dòng chữ trong chế độ Hướng dẫn",
-              "Description": "Tùy chỉnh kích thước và độ trong suốt của dòng chữ trong chế độ Hướng dẫn."
+              "Title": "Kiểu dòng hướng dẫn trong chế độ Hướng dẫn",
+              "Description": "Tùy chỉnh kích thước và độ trong suốt của dòng hướng dẫn trong chế độ Hướng dẫn."
             }
           },
           "Offsets": {
@@ -4068,7 +4093,7 @@
           "Title": "Bảng điểm",
           "Actions": {
             "Reset": {
-              "Title": "Đặt lại (Reset)",
+              "Title": "Đặt lại",
               "Confirmation": {
                 "Description": "Bạn có chắc chắn muốn đặt lại bảng điểm không?"
               }
@@ -4115,7 +4140,7 @@
           "Default": "Mặc định"
         },
         "RenderMode": {
-          "Title": "Chế độ kết xuất (Render)",
+          "Title": "Chế độ kết xuất",
           "Description": "Khuyến nghị nên để chế độ kết xuất Tiêu chuẩn.\n\nChế độ kết xuất Tiêu chuẩn cung cấp đồ họa chính xác, trong khi chế độ kết xuất Nhẹ cung cấp đồ họa kém chính xác hơn nhưng đổi lại hiệu năng được cải thiện đáng kể.",
           "Options": {
             "Standard": "Tiêu chuẩn",
@@ -4135,8 +4160,8 @@
           "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus sử dụng hệ thống Particle CPU. Khi bật, hệ thống Particle GPU sẽ được sử dụng thay thế. Đối với hầu hết các thiết bị di động, GPU yếu hơn CPU và do đó không khuyến khích sử dụng."
         },
         "IgnoreNotch": {
-          "Title": "Bỏ qua tai thỏ điện thoại (Notch)",
-          "Description": "Theo mặc định, Sonolus sẽ tránh hiển thị giao diện trên vùng tai thỏ (camera trước) của điện thoại để đảm bảo không có vùng nào của giao diện bị che khuất. Khi được bật, Sonolus sẽ không còn tránh vùng tai thỏ nữa, nếu điện thoại của bạn có vùng tai thỏ rộng thì có khả năng một phần giao diện sẽ bị che khuất. Chỉ nên bật nếu màn hình máy bạn có vùng tai thỏ hẹp / giọt nước và bạn muốn game sẽ hiển thị giao diện ở chính giữa màn hình.",
+          "Title": "Bỏ qua vùng tai thỏ",
+          "Description": "Sonolus sẽ mặc định tránh hiển thị đồ họa trên vùng tai thỏ (camera trước) của thiết bị để đảm bảo các thành phần đồ họa đều được hiển thị đầy đủ. Khi bật, Sonolus sẽ không còn tránh vùng này nữa, vì vậy có khả năng một phần đồ họa sẽ bị che khuất.\n\nChỉ nên bật nếu màn hình thiết bị của bạn có tai thỏ hẹp / giọt nước và bạn muốn đồ họa được hiển thị ở chính giữa màn hình.",
           "Options": {
             "Horizontal": "Ngang",
             "Vertical": "Dọc"
@@ -4155,7 +4180,7 @@
         },
         "UIBgmVolume": {
           "Title": "Âm lượng nhạc nền giao diện",
-          "Description": "Điều chỉnh âm lượng nhạc nền trong giao diện ứng dụng Sonolus."
+          "Description": "Điều chỉnh âm lượng nhạc nền của giao diện ứng dụng Sonolus."
         },
         "UISfxVolume": {
           "Title": "Âm lượng SFX giao diện",
@@ -4176,8 +4201,8 @@
           }
         },
         "LevelBgmQuality": {
-          "Title": "Chất lượng nhạc nền trong màn chơi",
-          "Description": "Khuyến nghị nên để mức Cao.\n\nTheo mặc định, Sonolus sẽ ưu tiên sử dụng bộ giải mã dựa trên phần cứng để đạt hiệu năng tốt nhất và chỉ dùng bộ giải mã dựa trên phần mềm nếu bộ giải mã dựa trên phần cứng không hỗ trợ định dạng mà nhạc nền màn chơi dùng. Nhạc nền màn chơi sẽ được giải mã ở chất lượng này.",
+          "Title": "Chất lượng nhạc nền màn chơi",
+          "Description": "Khuyến nghị nên để mức Cao.\n\nTheo mặc định, Sonolus sẽ ưu tiên sử dụng bộ giải mã dựa trên phần cứng để đạt hiệu năng tốt nhất và chỉ dùng bộ giải mã dựa trên phần mềm nếu bộ giải mã dựa trên phần cứng không hỗ trợ định dạng mà nhạc nền màn chơi sử dụng. Nhạc nền màn chơi sẽ được giải mã ở chất lượng này.",
           "Options": {
             "Low": "Thấp",
             "Mid": "Trung",
@@ -4186,7 +4211,7 @@
         },
         "PreviewBgmQuality": {
           "Title": "Chất lượng nhạc nền xem trước",
-          "Description": "Khuyến nghị nên để mức Trung.\n\nTheo mặc định, Sonolus sẽ ưu tiên sử dụng bộ giải mã dựa trên phần cứng để đạt hiệu năng tốt nhất và chỉ dùng bộ giải mã dựa trên phần mềm nếu bộ giải mã dựa trên phần cứng không hỗ trợ định dạng mà nhạc nền màn chơi dùng. Nhạc nền xem trước sẽ được giải mã ở chất lượng này.",
+          "Description": "Khuyến nghị nên để mức Trung.\n\nTheo mặc định, Sonolus sẽ ưu tiên sử dụng bộ giải mã dựa trên phần cứng để đạt hiệu năng tốt nhất và chỉ dùng bộ giải mã dựa trên phần mềm nếu bộ giải mã dựa trên phần cứng không hỗ trợ định dạng mà nhạc nền màn chơi sử dụng. Nhạc nền xem trước sẽ được giải mã ở chất lượng này.",
           "Options": {
             "Low": "Thấp",
             "Mid": "Trung",
@@ -4202,7 +4227,7 @@
         },
         "FavoriteCollection": {
           "Title": "Bộ sưu tập yêu thích",
-          "Description": "Bộ sưu tập để lưu mục yêu thích.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định [Yêu thích] sẽ được tạo tự động.",
+          "Description": "Bộ sưu tập để lưu mục yêu thích.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định \"Yêu thích\" sẽ được tạo tự động.",
           "DefaultName": "Yêu thích"
         },
         "MultiplayerPreload": {
@@ -4226,7 +4251,7 @@
         },
         "ReplayCollection": {
           "Title": "Bộ sưu tập bản phát lại",
-          "Description": "Bộ sưu tập để lưu các bản phát lại.\n\nNếu không có bộ sưu tập nào được chọn, một bộ sưu tập mặc định sẽ được tự động tạo.",
+          "Description": "Bộ sưu tập để lưu các bản phát lại.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định \"Bản phát lại\" sẽ được tạo tự động.",
           "DefaultName": "Bản phát lại"
         },
         "AutoSubmitReplay": {
@@ -4250,19 +4275,19 @@
         "Title": "Giao diện",
         "UILocalization": {
           "Title": "Ngôn ngữ giao diện",
-          "Description": "Ngôn ngữ sử dụng cho giao diện."
+          "Description": "Chọn ngôn ngữ hiển thị trong giao diện Sonolus."
         },
         "ContentLocalization": {
-          "Title": "Ngôn ngữ nội dung",
-          "Description": "Ngôn ngữ nội dung. Server trò chơi có thể cung cấp nội dung bằng ngôn ngữ này nếu có."
+          "Title": "Ngôn ngữ Server",
+          "Description": "Chọn ngôn ngữ sử dụng trong Server. Server trò chơi sẽ cung cấp nội dung bằng ngôn ngữ này nếu có."
         },
         "Theme": {
-          "Title": "Chủ đề",
-          "Description": "Chủ đề màu sắc được sử dụng."
+          "Title": "Chủ đề giao diện",
+          "Description": "Chọn chủ đề giao diện Sonolus."
         },
         "Scale": {
           "Title": "Kích thước giao diện",
-          "Description": "Kích thước giao diện ứng dụng Sonolus. Tăng nếu bạn gặp khó khăn khi đọc và giảm để hiển thị nhiều nội dung hơn trên màn hình cùng một lúc."
+          "Description": "Điều chỉnh kích thước giao diện Sonolus. Tăng nếu bạn gặp khó khăn khi đọc và giảm để hiển thị nhiều nội dung hơn trên màn hình cùng một lúc."
         },
         "PerfectJudgmentColors": {
           "Title": "Màu sắc phán định Perfect",
@@ -4281,12 +4306,12 @@
           "Description": "Màu sắc của chỉ báo phán định Miss."
         },
         "PositiveJudgmentErrorColors": {
-          "Title": "Màu sắc sai số phán định dương",
-          "Description": "Màu sắc của chỉ báo sai số phán định dương."
+          "Title": "Màu sắc sai số phán định Late",
+          "Description": "Màu sắc của chỉ báo nhấn Note quá trễ."
         },
         "NegativeJudgmentErrorColors": {
-          "Title": "Màu sắc sai số phán định âm",
-          "Description": "Màu sắc của chỉ báo sai số phán định âm."
+          "Title": "Màu sắc sai số phán định Early",
+          "Description": "Màu sắc của chỉ báo nhấn Note quá sớm."
         },
         "AllPerfectComboColors": {
           "Title": "Màu sắc Combo hạng All Perfect",
@@ -4304,17 +4329,21 @@
           "Title": "Màu sắc Combo hạng Fail",
           "Description": "Màu sắc Combo khi chỉ còn đạt được Fail"
         },
+		"ThinJudgmentComboOutline": {
+		  "Title": "Đường viền mỏng cho chỉ báo",
+		  "Description": "Sử dụng phông chữ với đường viền mỏng cho chỉ báo phán định và số Combo."
+	    },
         "BoldComboNumber": {
           "Title": "In đậm số Combo",
-          "Description": "Sử dụng phông chữ đậm cho số combo."
+          "Description": "Sử dụng phông chữ đậm cho số Combo."
         },
         "ShowZeroCombo": {
           "Title": "Hiển thị 0 Combo",
-          "Description": "Hiển thị combo kể cả khi combo bằng 0."
+          "Description": "Hiển thị số Combo kể cả khi Combo bằng 0."
         },
         "MetricAnimation": {
-          "Title": "Hoạt ảnh chỉ số",
-          "Description": "Hoạt ảnh chỉ số."
+          "Title": "Hiển thị hoạt ảnh chỉ số",
+          "Description": "Hiển thị hoạt ảnh nhấp nháy bên trong thanh chỉ số."
         },
         "TouchStyle": {
           "Title": "Kiểu chỉ báo điểm chạm cảm ứng",
@@ -4324,8 +4353,8 @@
       "Offsets": {
         "Title": "Cấu hình độ trễ",
         "Device": {
-          "Title": "Thiết bị",
-          "Description": "Sử dụng tính năng này để lưu các giá trị độ trễ đầu vào cho các trường hợp thiết bị khác nhau, chẳng hạn như khi phát bằng loa, tai nghe, Bluetooth, v.v.",
+          "Title": "Chọn cấu hình thiết bị",
+          "Description": "Sử dụng tính năng này để lưu các giá trị độ trễ âm thanh và đầu vào cho các thiết bị khác nhau, chẳng hạn như khi phát bằng loa, tai nghe, Bluetooth, v.v.",
           "Option": "Thiết bị {0}"
         },
         "DeviceAudioOffset": {
