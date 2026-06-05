@@ -4073,7 +4073,7 @@
             "Options": "Đã thay đổi tùy chọn phòng.",
             "Level": "Đã thay đổi màn chơi thành {0}.",
             "LevelOptions": "Đã thay đổi tùy chọn màn chơi.",
-            "AutoExit": "Đã thay đổi chế độ thoát tự động.",
+            "AutoExit": "Đã thay đổi chế độ Tự động dừng.",
             "Connected": {
               "Self": "Đã kết nối.",
               "Other": "{0} đã kết nối."
@@ -4279,7 +4279,7 @@
         },
         "ContentLocalization": {
           "Title": "Ngôn ngữ Server",
-          "Description": "Chọn ngôn ngữ sử dụng trong Server. Server trò chơi sẽ cung cấp nội dung bằng ngôn ngữ này nếu có."
+          "Description": "Chọn ngôn ngữ sử dụng trong Server.\n\nServer trò chơi sẽ cung cấp nội dung bằng ngôn ngữ này nếu có."
         },
         "Theme": {
           "Title": "Chủ đề giao diện",
