@@ -4,6 +4,27 @@
     "Title": "日本語 (Japanese)"
   },
   "Texts": {
+    "#PREFIX_LIST": "- ",
+    "#PREFIX_QUOTE": "> ",
+    "#SEPARATOR_COMMA": "、 ",
+    "#SEPARATOR_COLON": ": ",
+    "#SEPARATOR_AND": " & ",
+    "#SEPARATOR_PLUS": " + ",
+    "#SEPARATOR_SLASH": " / ",
+    "#SEPARATOR_LESSER": " < ",
+    "#SEPARATOR_GREATER": " > ",
+    "#SEPARATOR_QUOTE_SINGLE_LEFT": "'",
+    "#SEPARATOR_QUOTE_SINGLE_RIGHT": "'",
+    "#SEPARATOR_QUOTE_DOUBLE_LEFT": "\"",
+    "#SEPARATOR_QUOTE_DOUBLE_RIGHT": "\"",
+    "#SEPARATOR_PARENTHESIS_LEFT": "(",
+    "#SEPARATOR_PARENTHESIS_RIGHT": ")",
+    "#SEPARATOR_BRACKET_LEFT": "[",
+    "#SEPARATOR_BRACKET_RIGHT": "]",
+    "#SURROUND_QUOTES_SINGLE": "'{0}'",
+    "#SURROUND_QUOTES_DOUBLE": "\"{0}\"",
+    "#SURROUND_PARENTHESES": "({0})",
+    "#SURROUND_BRACKETS": "[{0}]",
     "#CUSTOM_SERVER": "カスタムサーバー",
     "#COLLECTION": "コレクション",
     "#SERVER": "サーバー",
@@ -13,6 +34,7 @@
     "#LOG": "ログ",
     "#INQUIRY": "問い合わせ",
     "#BANNER": "バナー",
+    "#ICON": "アイコン",
     "#POST": "投稿",
     "#PLAYLIST": "プレイリスト",
     "#LEVEL": "レベル",
@@ -80,6 +102,9 @@
     "#AUTHOR": "作成者",
     "#COAUTHOR": "共同作成者",
     "#COLLABORATOR": "コラボレーター",
+    "#LYRICIST": "作詞",
+    "#COMPOSER": "作曲",
+    "#ARRANGER": "編曲",
     "#DESCRIPTION": "説明",
     "#GENRE": "ジャンル名",
     "#TYPE": "タイプ",
@@ -416,6 +441,7 @@
     "#FULL_HAND": "片手処理",
     "#CROSS_HAND": "交差",
     "#GIMMICK": "ギミック",
+    "#EPILEPSY": "点滅",
     "#COLLABORATION": "コラボレーション",
     "#REPORT": "通報",
     "#REASON": "理由",
@@ -564,7 +590,6 @@
     "#STARRED": "スター済"
   },
   "Common": {
-    "Separator": "、",
     "Loading": "ロード中...",
     "Help": "ヘルプ",
     "More": "もっと見る",
@@ -3155,7 +3180,6 @@
         }
       },
       "Lists": {
-        "SearchOption": "{0}：{1}",
         "DeleteConfirmation": {
           "Description": "「{0}」を削除してもよろしいですか?"
         },
@@ -4303,6 +4327,10 @@
         "FailComboColors": {
           "Title": "Fail時の色",
           "Description": "Fail時のコンボ表記の色を設定します。"
+        },
+        "ThinJudgmentComboOutline": {
+          "Title": "細いコンボ判定の枠",
+          "Description": "細いコンボ判定枠を使います。"
         },
         "BoldComboNumber": {
           "Title": "コンボ表記を太字にする",
