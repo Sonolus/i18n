@@ -678,17 +678,17 @@
         "Room": "Không có phòng nào được chọn"
       },
       "NoSource": {
-        "Post": "Không thể chọn bài đăng này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng bài đăng khác hoặc liên hệ với tác giả bài đăng để báo cáo sự cố.",
-        "Playlist": "Không thể chọn danh sách phát này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng danh sách phát khác hoặc liên hệ với tác giả danh sách phát để báo cáo sự cố.",
-        "Level": "Không thể chọn màn chơi này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng màn chơi khác hoặc liên hệ với tác giả màn chơi để báo cáo sự cố.",
-        "Skin": "Không thể chọn Skin này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng giao diện khác hoặc liên hệ với tác giả giao diện để báo cáo sự cố.",
-        "Background": "Không thể chọn ảnh nền này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng ảnh nền khác hoặc liên hệ với tác giả ảnh nền để báo cáo sự cố.",
-        "Effect": "Không thể chọn SFX này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng SFX khác hoặc liên hệ với tác giả SFX để báo cáo sự cố.",
-        "Particle": "Không thể chọn Particle này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng một Particle khác hoặc liên hệ với tác giả Particle để báo cáo sự cố.",
-        "Engine": "Không thể chọn Engine này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng một Engine khác hoặc liên hệ với tác giả Engine để báo cáo sự cố.",
-        "Replay": "Không thể chọn bản phát lại này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng bản phát lại khác hoặc liên hệ với tác giả bản phát lại để báo cáo sự cố.",
-        "User": "Không thể chọn người dùng này vì không có ở trong nguồn Server.\n\nVui lòng sử dụng người khác hoặc liên hệ với tác giả người dùng để báo cáo sự cố.",
-        "Room": "Không thể chọn phòng này vì không có ở trong nguồn Server.\n\nVui lòng sử dụng phòng khác hoặc liên hệ với tác giả phòng để báo cáo sự cố."
+        "Post": "Không thể chọn bài đăng này vì nó không có Server nguồn.\n\nVui lòng sử dụng bài đăng khác hoặc liên hệ với tác giả bài đăng để báo cáo sự cố.",
+        "Playlist": "Không thể chọn danh sách phát này vì nó không có Server nguồn.\n\nVui lòng sử dụng danh sách phát khác hoặc liên hệ với tác giả danh sách phát để báo cáo sự cố.",
+        "Level": "Không thể chọn màn chơi này vì nó không có Server nguồn.\n\nVui lòng sử dụng màn chơi khác hoặc liên hệ với tác giả màn chơi để báo cáo sự cố.",
+        "Skin": "Không thể chọn Skin này vì nó không có Server nguồn.\n\nVui lòng sử dụng giao diện khác hoặc liên hệ với tác giả giao diện để báo cáo sự cố.",
+        "Background": "Không thể chọn ảnh nền này vì nó không có Server nguồn.\n\nVui lòng sử dụng ảnh nền khác hoặc liên hệ với tác giả ảnh nền để báo cáo sự cố.",
+        "Effect": "Không thể chọn SFX này vì nó không có Server nguồn.\n\nVui lòng sử dụng SFX khác hoặc liên hệ với tác giả SFX để báo cáo sự cố.",
+        "Particle": "Không thể chọn Particle này vì nó không có Server nguồn.\n\nVui lòng sử dụng một Particle khác hoặc liên hệ với tác giả Particle để báo cáo sự cố.",
+        "Engine": "Không thể chọn Engine này vì nó không có Server nguồn.\n\nVui lòng sử dụng một Engine khác hoặc liên hệ với tác giả Engine để báo cáo sự cố.",
+        "Replay": "Không thể chọn bản phát lại này vì nó không có Server nguồn.\n\nVui lòng sử dụng bản phát lại khác hoặc liên hệ với tác giả bản phát lại để báo cáo sự cố.",
+        "User": "Không thể chọn người dùng này vì nó không có Server nguồn.\n\nVui lòng sử dụng người khác hoặc liên hệ với tác giả người dùng để báo cáo sự cố.",
+        "Room": "Không thể chọn phòng này vì nó không có Server nguồn.\n\nVui lòng sử dụng phòng khác hoặc liên hệ với tác giả phòng để báo cáo sự cố."
       },
       "NoOtherServers": {
         "Post": "Không thể chọn bài đăng này vì nó đến từ một Server khác.\n\nVui lòng sử dụng một bài đăng khác từ cùng một Server.",
@@ -699,9 +699,9 @@
         "Effect": "Không thể chọn SFX này vì nó đến từ một Server khác.\n\nVui lòng sử dụng một SFX khác từ cùng một Server.",
         "Particle": "Không thể chọn Particle này vì nó đến từ một Server khác.\n\nVui lòng sử dụng một Particle khác từ cùng một Server.",
         "Engine": "Không thể chọn Engine này vì nó đến từ một Server khác.\n\nVui lòng sử dụng một Engine khác từ cùng một Server.",
-        "Replay": "Không thể chọn bản phát lại này vì nó đến từ một Server khác.\n\nVui lòng sử dụng bản phát lại khác từ cùng một Server.",
-        "User": "Không thể chọn người dùng này vì nó nằm trên một Server khác.\n\nVui lòng sử dụng một người dùng khác từ cùng một Server.",
-        "Room": "Không thể chọn phòng này vì nó nằm trên một Server khác.\n\nVui lòng sử dụng một phòng khác từ cùng một Server."
+        "Replay": "Không thể chọn bản phát lại này vì nó đến từ một Server khác.\n\nVui lòng sử dụng một bản phát lại khác từ cùng một Server.",
+        "User": "Không thể chọn người dùng này vì nó đến từ một Server khác.\n\nVui lòng sử dụng một người dùng khác từ cùng một Server.",
+        "Room": "Không thể chọn phòng này vì nó đến từ một Server khác.\n\nVui lòng sử dụng một phòng khác từ cùng một Server."
       }
     },
     "FileField": {
@@ -2789,8 +2789,8 @@
         "Description": "Chọn thời lượng hoạt ảnh."
       },
       "Ease": {
-        "Title": "Kiểu chuyển động",
-        "Description": "Chọn kiểu hàm biến đổi chuyển động."
+        "Title": "Kiểu chuyển tiếp",
+        "Description": "Chọn kiểu hàm biến đổi chuyển tiếp."
       }
     },
     "EditColors": {
@@ -4086,7 +4086,7 @@
           "Actions": {
             "Lock": "Khóa",
             "Unlock": "Mở khóa",
-            "Clear": "Dọn dẹp"
+            "Clear": "Xóa hết"
           }
         },
         "Scoreboard": {
@@ -4335,7 +4335,7 @@
 	    },
         "BoldComboNumber": {
           "Title": "In đậm số Combo",
-          "Description": "Sử dụng phông chữ đậm cho số Combo."
+          "Description": "Sử dụng phông chữ in đậm cho số Combo."
         },
         "ShowZeroCombo": {
           "Title": "Hiển thị 0 Combo",
