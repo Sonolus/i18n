@@ -678,17 +678,17 @@
         "Room": "Không có phòng nào được chọn"
       },
       "NoSource": {
-        "Post": "Không thể chọn bài đăng này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng bài đăng khác hoặc liên hệ với tác giả bài đăng để báo cáo sự cố.",
-        "Playlist": "Không thể chọn danh sách phát này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng danh sách phát khác hoặc liên hệ với tác giả danh sách phát để báo cáo sự cố.",
-        "Level": "Không thể chọn màn chơi này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng màn chơi khác hoặc liên hệ với tác giả màn chơi để báo cáo sự cố.",
-        "Skin": "Không thể chọn Skin này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng giao diện khác hoặc liên hệ với tác giả giao diện để báo cáo sự cố.",
-        "Background": "Không thể chọn ảnh nền này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng ảnh nền khác hoặc liên hệ với tác giả ảnh nền để báo cáo sự cố.",
-        "Effect": "Không thể chọn SFX này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng SFX khác hoặc liên hệ với tác giả SFX để báo cáo sự cố.",
-        "Particle": "Không thể chọn Particle này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng một Particle khác hoặc liên hệ với tác giả Particle để báo cáo sự cố.",
-        "Engine": "Không thể chọn Engine này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng một Engine khác hoặc liên hệ với tác giả Engine để báo cáo sự cố.",
-        "Replay": "Không thể chọn bản phát lại này vì nó không có ở trong nguồn Server.\n\nVui lòng sử dụng bản phát lại khác hoặc liên hệ với tác giả bản phát lại để báo cáo sự cố.",
-        "User": "Không thể chọn người dùng này vì không có ở trong nguồn Server.\n\nVui lòng sử dụng người khác hoặc liên hệ với tác giả người dùng để báo cáo sự cố.",
-        "Room": "Không thể chọn phòng này vì không có ở trong nguồn Server.\n\nVui lòng sử dụng phòng khác hoặc liên hệ với tác giả phòng để báo cáo sự cố."
+        "Post": "Không thể chọn bài đăng này vì nó không có Server nguồn.\n\nVui lòng sử dụng bài đăng khác hoặc liên hệ với tác giả bài đăng để báo cáo sự cố.",
+        "Playlist": "Không thể chọn danh sách phát này vì nó không có Server nguồn.\n\nVui lòng sử dụng danh sách phát khác hoặc liên hệ với tác giả danh sách phát để báo cáo sự cố.",
+        "Level": "Không thể chọn màn chơi này vì nó không có Server nguồn.\n\nVui lòng sử dụng màn chơi khác hoặc liên hệ với tác giả màn chơi để báo cáo sự cố.",
+        "Skin": "Không thể chọn Skin này vì nó không có Server nguồn.\n\nVui lòng sử dụng giao diện khác hoặc liên hệ với tác giả giao diện để báo cáo sự cố.",
+        "Background": "Không thể chọn ảnh nền này vì nó không có Server nguồn.\n\nVui lòng sử dụng ảnh nền khác hoặc liên hệ với tác giả ảnh nền để báo cáo sự cố.",
+        "Effect": "Không thể chọn SFX này vì nó không có Server nguồn.\n\nVui lòng sử dụng SFX khác hoặc liên hệ với tác giả SFX để báo cáo sự cố.",
+        "Particle": "Không thể chọn Particle này vì nó không có Server nguồn.\n\nVui lòng sử dụng một Particle khác hoặc liên hệ với tác giả Particle để báo cáo sự cố.",
+        "Engine": "Không thể chọn Engine này vì nó không có Server nguồn.\n\nVui lòng sử dụng một Engine khác hoặc liên hệ với tác giả Engine để báo cáo sự cố.",
+        "Replay": "Không thể chọn bản phát lại này vì nó không có Server nguồn.\n\nVui lòng sử dụng bản phát lại khác hoặc liên hệ với tác giả bản phát lại để báo cáo sự cố.",
+        "User": "Không thể chọn người dùng này vì nó không có Server nguồn.\n\nVui lòng sử dụng người khác hoặc liên hệ với tác giả người dùng để báo cáo sự cố.",
+        "Room": "Không thể chọn phòng này vì nó không có Server nguồn.\n\nVui lòng sử dụng phòng khác hoặc liên hệ với tác giả phòng để báo cáo sự cố."
       },
       "NoOtherServers": {
         "Post": "Không thể chọn bài đăng này vì nó đến từ một Server khác.\n\nVui lòng sử dụng một bài đăng khác từ cùng một Server.",
@@ -699,9 +699,9 @@
         "Effect": "Không thể chọn SFX này vì nó đến từ một Server khác.\n\nVui lòng sử dụng một SFX khác từ cùng một Server.",
         "Particle": "Không thể chọn Particle này vì nó đến từ một Server khác.\n\nVui lòng sử dụng một Particle khác từ cùng một Server.",
         "Engine": "Không thể chọn Engine này vì nó đến từ một Server khác.\n\nVui lòng sử dụng một Engine khác từ cùng một Server.",
-        "Replay": "Không thể chọn bản phát lại này vì nó đến từ một Server khác.\n\nVui lòng sử dụng bản phát lại khác từ cùng một Server.",
-        "User": "Không thể chọn người dùng này vì nó nằm trên một Server khác.\n\nVui lòng sử dụng một người dùng khác từ cùng một Server.",
-        "Room": "Không thể chọn phòng này vì nó nằm trên một Server khác.\n\nVui lòng sử dụng một phòng khác từ cùng một Server."
+        "Replay": "Không thể chọn bản phát lại này vì nó đến từ một Server khác.\n\nVui lòng sử dụng một bản phát lại khác từ cùng một Server.",
+        "User": "Không thể chọn người dùng này vì nó đến từ một Server khác.\n\nVui lòng sử dụng một người dùng khác từ cùng một Server.",
+        "Room": "Không thể chọn phòng này vì nó đến từ một Server khác.\n\nVui lòng sử dụng một phòng khác từ cùng một Server."
       }
     },
     "FileField": {
@@ -2789,8 +2789,8 @@
         "Description": "Chọn thời lượng hoạt ảnh."
       },
       "Ease": {
-        "Title": "Kiểu chuyển động",
-        "Description": "Chọn kiểu hàm biến đổi chuyển động."
+        "Title": "Kiểu chuyển tiếp",
+        "Description": "Chọn kiểu hàm biến đổi chuyển tiếp."
       }
     },
     "EditColors": {
@@ -2800,7 +2800,7 @@
       },
       "Background": {
         "Title": "Màu đường viền",
-        "Description": "Chọn màu đường viền bao quanh các chữ."
+        "Description": "Chọn màu đường viền bao quanh chữ."
       }
     },
     "CalibrateAudio": {
@@ -3522,11 +3522,11 @@
           "Offsets": {
             "LevelAudioOffset": {
               "Title": "Độ trễ âm thanh của màn chơi",
-              "Description": "Độ trễ âm thanh này chỉ nên được điều chỉnh khi chỉ riêng màn chơi này bị lệch nhạc so với Note. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
+              "Description": "Độ trễ âm thanh của màn chơi chỉ nên được điều chỉnh khi chỉ riêng màn chơi này bị lệch nhạc so với Note. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
             },
             "ServerAudioOffset": {
               "Title": "Độ trễ âm thanh của Server",
-              "Description": "Độ trễ âm thanh của Server chỉ nên được sử dụng khi tất cả các màn chơi trong Server này bị lệch nhạc so với Note. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
+              "Description": "Độ trễ âm thanh của Server chỉ nên được điều chỉnh khi tất cả các màn chơi trong Server này đều bị lệch nhạc so với Note. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
             }
           }
         },
@@ -3630,7 +3630,7 @@
           "Offsets": {
             "EngineInputOffset": {
               "Title": "Độ trễ đầu vào của Engine",
-              "Description": "Khuyến nghị nên để giá trị 0.\n\nĐiều chỉnh độ trễ đầu vào bổ sung của Engine này, chỉ nên sử dụng khi bạn gặp sự cố khi chơi Engine này nói riêng. Tăng nếu quá trễ và giảm nếu quá sớm."
+              "Description": "Khuyến nghị nên để giá trị 0.\n\nĐiều chỉnh độ trễ đầu vào bổ sung cho Engine này, tăng nếu quá trễ và giảm nếu quá sớm. Chỉ nên điều chỉnh khi đầu vào bị trễ trên Engine này nói riêng."
             }
           }
         },
@@ -3688,11 +3688,11 @@
         "Engine": {
           "Title": "Tài nguyên Engine",
           "Thumbnail": "Ảnh thu nhỏ",
-          "PlayData": "Phát dữ liệu",
-          "WatchData": "Xem dữ liệu",
-          "PreviewData": "Xem trước dữ liệu",
-          "TutorialData": "Dữ liệu hướng dẫn",
-          "Rom": "Bộ nhớ trong",
+          "PlayData": "Dữ liệu Chơi",
+          "WatchData": "Dữ liệu Xem",
+          "PreviewData": "Dữ liệu Xem trước",
+          "TutorialData": "Dữ liệu Hướng dẫn",
+          "Rom": "ROM",
           "Configuration": "Cấu hình"
         },
         "Replay": {
@@ -4073,7 +4073,7 @@
             "Options": "Đã thay đổi tùy chọn phòng.",
             "Level": "Đã thay đổi màn chơi thành {0}.",
             "LevelOptions": "Đã thay đổi tùy chọn màn chơi.",
-            "AutoExit": "Đã thay đổi chế độ thoát tự động.",
+            "AutoExit": "Đã thay đổi chế độ Tự động dừng.",
             "Connected": {
               "Self": "Đã kết nối.",
               "Other": "{0} đã kết nối."
@@ -4086,7 +4086,7 @@
           "Actions": {
             "Lock": "Khóa",
             "Unlock": "Mở khóa",
-            "Clear": "Dọn dẹp"
+            "Clear": "Xóa hết"
           }
         },
         "Scoreboard": {
@@ -4188,7 +4188,7 @@
         },
         "AlwaysDecodeLevelBgm": {
           "Title": "Luôn giải mã nhạc nền màn chơi",
-          "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus sẽ ưu tiên sử dụng bộ giải mã dựa trên phần cứng để đạt hiệu năng tốt nhất và chỉ dùng bộ giải mã dựa trên phần mềm nếu bộ giải mã dựa trên phần cứng không hỗ trợ định dạng mà nhạc nền màn chơi dùng. Khi được bật, Sonolus sẽ luôn giải mã nhạc nền."
+          "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus sẽ sử dụng tính năng âm thanh gốc của hệ điều hành để đạt hiệu năng tốt nhất, và chỉ tự giải mã nhạc nền nếu định dạng đó không được hệ điều hành hỗ trợ sẵn. Khi bật, Sonolus sẽ luôn tự giải mã nhạc nền."
         },
         "PreviewBgm": {
           "Title": "Vị trí phát nhạc nền màn chơi",
@@ -4202,7 +4202,7 @@
         },
         "LevelBgmQuality": {
           "Title": "Chất lượng nhạc nền màn chơi",
-          "Description": "Khuyến nghị nên để mức Cao.\n\nTheo mặc định, Sonolus sẽ ưu tiên sử dụng bộ giải mã dựa trên phần cứng để đạt hiệu năng tốt nhất và chỉ dùng bộ giải mã dựa trên phần mềm nếu bộ giải mã dựa trên phần cứng không hỗ trợ định dạng mà nhạc nền màn chơi sử dụng. Nhạc nền màn chơi sẽ được giải mã ở chất lượng này.",
+          "Description": "Khuyến nghị nên để mức Cao.\n\nTheo mặc định, Sonolus sẽ sử dụng tính năng âm thanh gốc của hệ điều hành để đạt hiệu năng tốt nhất, và chỉ tự giải mã nhạc nền nếu định dạng đó không được hệ điều hành hỗ trợ sẵn. Nhạc nền màn chơi sẽ được Sonolus giải mã ở chất lượng này.",
           "Options": {
             "Low": "Thấp",
             "Mid": "Trung",
@@ -4211,7 +4211,7 @@
         },
         "PreviewBgmQuality": {
           "Title": "Chất lượng nhạc nền xem trước",
-          "Description": "Khuyến nghị nên để mức Trung.\n\nTheo mặc định, Sonolus sẽ ưu tiên sử dụng bộ giải mã dựa trên phần cứng để đạt hiệu năng tốt nhất và chỉ dùng bộ giải mã dựa trên phần mềm nếu bộ giải mã dựa trên phần cứng không hỗ trợ định dạng mà nhạc nền màn chơi sử dụng. Nhạc nền xem trước sẽ được giải mã ở chất lượng này.",
+          "Description": "Khuyến nghị nên để mức Trung.\n\nTheo mặc định, Sonolus sẽ sử dụng tính năng âm thanh gốc của hệ điều hành để đạt hiệu năng tốt nhất, và chỉ tự giải mã nhạc nền nếu định dạng đó không được hệ điều hành hỗ trợ sẵn. Nhạc nền xem trước sẽ được Sonolus giải mã ở chất lượng này.",
           "Options": {
             "Low": "Thấp",
             "Mid": "Trung",
@@ -4227,7 +4227,7 @@
         },
         "FavoriteCollection": {
           "Title": "Bộ sưu tập yêu thích",
-          "Description": "Bộ sưu tập để lưu mục yêu thích.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định \"Yêu thích\" sẽ được tạo tự động.",
+          "Description": "Chọn bộ sưu tập để lưu mục yêu thích.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định “Yêu thích” sẽ được tạo tự động.",
           "DefaultName": "Yêu thích"
         },
         "MultiplayerPreload": {
@@ -4236,22 +4236,22 @@
         },
         "ReplayTitleTemplate": {
           "Title": "Mẫu tiêu đề bản phát lại",
-          "Description": "Mẫu tiêu đề khi tạo bản phát lại.\n\nCó sẵn các tham số đặc biệt và sẽ được thay thế bằng các giá trị tương ứng.",
+          "Description": "Mẫu tiêu đề khi tạo bản phát lại.\n\nBạn có thể chèn các tham số đặc biệt phía trên, Sonolus sẽ tự động thay thế chúng bằng các giá trị tương ứng.",
           "Placeholder": "Nhập mẫu tiêu đề..."
         },
         "ReplaySubtitleTemplate": {
           "Title": "Mẫu phụ đề bản phát lại",
-          "Description": "Mẫu phụ đề khi tạo bản phát lại.\n\nCác tham số đặc biệt có sẵn và sẽ được thay thế bằng các giá trị tương ứng.",
+          "Description": "Mẫu phụ đề khi tạo bản phát lại.\n\nBạn có thể chèn các tham số đặc biệt phía trên, Sonolus sẽ tự động thay thế chúng bằng các giá trị tương ứng.",
           "Placeholder": "Nhập mẫu phụ đề..."
         },
         "ReplayDescriptionTemplate": {
           "Title": "Mẫu mô tả bản phát lại",
-          "Description": "Mẫu mô tả khi tạo bản phát lại.\n\nCác tham số đặc biệt có sẵn và sẽ được thay thế bằng các giá trị tương ứng.",
+          "Description": "Mẫu mô tả khi tạo bản phát lại.\n\nBạn có thể chèn các tham số đặc biệt phía trên, Sonolus sẽ tự động thay thế chúng bằng các giá trị tương ứng.",
           "Placeholder": "Nhập mẫu mô tả..."
         },
         "ReplayCollection": {
           "Title": "Bộ sưu tập bản phát lại",
-          "Description": "Bộ sưu tập để lưu các bản phát lại.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định \"Bản phát lại\" sẽ được tạo tự động.",
+          "Description": "Chọn bộ sưu tập để lưu các bản phát lại.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định “Bản phát lại” sẽ được tạo tự động.",
           "DefaultName": "Bản phát lại"
         },
         "AutoSubmitReplay": {
@@ -4279,7 +4279,7 @@
         },
         "ContentLocalization": {
           "Title": "Ngôn ngữ Server",
-          "Description": "Chọn ngôn ngữ sử dụng trong Server. Server trò chơi sẽ cung cấp nội dung bằng ngôn ngữ này nếu có."
+          "Description": "Chọn ngôn ngữ sử dụng trong Server.\n\nServer trò chơi sẽ cung cấp nội dung bằng ngôn ngữ này nếu có."
         },
         "Theme": {
           "Title": "Chủ đề giao diện",
@@ -4335,7 +4335,7 @@
 	    },
         "BoldComboNumber": {
           "Title": "In đậm số Combo",
-          "Description": "Sử dụng phông chữ đậm cho số Combo."
+          "Description": "Sử dụng phông chữ in đậm cho số Combo."
         },
         "ShowZeroCombo": {
           "Title": "Hiển thị 0 Combo",
@@ -4359,11 +4359,11 @@
         },
         "DeviceAudioOffset": {
           "Title": "Độ trễ âm thanh của thiết bị",
-          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐiều chỉnh độ trễ âm thanh của thiết bị của bạn. Đối với hầu hết các thiết bị sử dụng loa ngoài, mức 0 là độ trễ tiêu chuẩn. Không khuyến nghị sử dụng Bluetooth. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
+          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐiều chỉnh độ trễ âm thanh của thiết bị, tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm. Đối với hầu hết các thiết bị, 0ms là độ trễ tiêu chuẩn khi sử dụng loa ngoài. Không khuyến nghị sử dụng Bluetooth."
         },
         "DeviceInputOffset": {
           "Title": "Độ trễ đầu vào của thiết bị",
-          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐiều chỉnh độ trễ đầu vào của thiết bị của bạn. Nếu bạn quen với các trò chơi không cung cấp tùy chọn như vậy, bạn có thể để ở mức 0. Tăng nếu quá trễ và giảm nếu quá sớm."
+          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐiều chỉnh độ trễ đầu vào của thiết bị, tăng nếu quá trễ và giảm nếu quá sớm. Nếu bạn đã chơi quen các trò chơi không có tùy chọn này, bạn có thể để ở mức 0."
         }
       },
       "Repository": {
