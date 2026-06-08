@@ -105,7 +105,7 @@
     "#COLLABORATOR": "Người hợp tác",
   	"#LYRICIST": "Lời",
 	"#COMPOSER": "Nhạc",
-	"#ARRANGER": "Biên khúc",
+	"#ARRANGER": "Phối khí",
     "#DESCRIPTION": "Mô tả",
     "#GENRE": "Thể loại nhạc",
     "#TYPE": "Loại",
@@ -2800,7 +2800,7 @@
       },
       "Background": {
         "Title": "Màu đường viền",
-        "Description": "Chọn màu đường viền bao quanh các chữ."
+        "Description": "Chọn màu đường viền bao quanh chữ."
       }
     },
     "CalibrateAudio": {
