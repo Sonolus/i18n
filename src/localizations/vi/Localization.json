@@ -3630,7 +3630,7 @@
           "Offsets": {
             "EngineInputOffset": {
               "Title": "Độ trễ đầu vào của Engine",
-              "Description": "Khuyến nghị nên để giá trị 0.\n\nĐiều chỉnh độ trễ đầu vào bổ sung cho Engine này, chỉ nên điều chỉnh khi đầu vào bị tính trễ trên Engine này nói riêng. Tăng nếu quá trễ và giảm nếu quá sớm."
+              "Description": "Khuyến nghị nên để giá trị 0.\n\nĐiều chỉnh độ trễ đầu vào bổ sung cho Engine này, tăng nếu quá trễ và giảm nếu quá sớm. Chỉ nên điều chỉnh khi đầu vào bị trễ trên Engine này nói riêng."
             }
           }
         },
@@ -3688,11 +3688,11 @@
         "Engine": {
           "Title": "Tài nguyên Engine",
           "Thumbnail": "Ảnh thu nhỏ",
-          "PlayData": "Phát dữ liệu",
-          "WatchData": "Xem dữ liệu",
-          "PreviewData": "Xem trước dữ liệu",
-          "TutorialData": "Dữ liệu hướng dẫn",
-          "Rom": "Bộ nhớ trong",
+          "PlayData": "Dữ liệu Chơi",
+          "WatchData": "Dữ liệu Xem",
+          "PreviewData": "Dữ liệu Xem trước",
+          "TutorialData": "Dữ liệu Hướng dẫn",
+          "Rom": "ROM",
           "Configuration": "Cấu hình"
         },
         "Replay": {
@@ -4188,7 +4188,7 @@
         },
         "AlwaysDecodeLevelBgm": {
           "Title": "Luôn giải mã nhạc nền màn chơi",
-          "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus sẽ ưu tiên sử dụng bộ giải mã dựa trên phần cứng để đạt hiệu năng tốt nhất và chỉ dùng bộ giải mã dựa trên phần mềm nếu bộ giải mã dựa trên phần cứng không hỗ trợ định dạng mà nhạc nền màn chơi dùng. Khi được bật, Sonolus sẽ luôn giải mã nhạc nền."
+          "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus sẽ sử dụng tính năng âm thanh gốc của hệ điều hành để đạt hiệu năng tốt nhất, và chỉ tự giải mã nhạc nền nếu định dạng đó không được hệ điều hành hỗ trợ sẵn. Khi bật, Sonolus sẽ luôn tự giải mã nhạc nền."
         },
         "PreviewBgm": {
           "Title": "Vị trí phát nhạc nền màn chơi",
@@ -4202,7 +4202,7 @@
         },
         "LevelBgmQuality": {
           "Title": "Chất lượng nhạc nền màn chơi",
-          "Description": "Khuyến nghị nên để mức Cao.\n\nTheo mặc định, Sonolus sẽ ưu tiên sử dụng bộ giải mã dựa trên phần cứng để đạt hiệu năng tốt nhất và chỉ dùng bộ giải mã dựa trên phần mềm nếu bộ giải mã dựa trên phần cứng không hỗ trợ định dạng mà nhạc nền màn chơi sử dụng. Nhạc nền màn chơi sẽ được giải mã ở chất lượng này.",
+          "Description": "Khuyến nghị nên để mức Cao.\n\nTheo mặc định, Sonolus sẽ sử dụng tính năng âm thanh gốc của hệ điều hành để đạt hiệu năng tốt nhất, và chỉ tự giải mã nhạc nền nếu định dạng đó không được hệ điều hành hỗ trợ sẵn. Nhạc nền màn chơi sẽ được Sonolus giải mã ở chất lượng này.",
           "Options": {
             "Low": "Thấp",
             "Mid": "Trung",
@@ -4211,7 +4211,7 @@
         },
         "PreviewBgmQuality": {
           "Title": "Chất lượng nhạc nền xem trước",
-          "Description": "Khuyến nghị nên để mức Trung.\n\nTheo mặc định, Sonolus sẽ ưu tiên sử dụng bộ giải mã dựa trên phần cứng để đạt hiệu năng tốt nhất và chỉ dùng bộ giải mã dựa trên phần mềm nếu bộ giải mã dựa trên phần cứng không hỗ trợ định dạng mà nhạc nền màn chơi sử dụng. Nhạc nền xem trước sẽ được giải mã ở chất lượng này.",
+          "Description": "Khuyến nghị nên để mức Trung.\n\nTheo mặc định, Sonolus sẽ sử dụng tính năng âm thanh gốc của hệ điều hành để đạt hiệu năng tốt nhất, và chỉ tự giải mã nhạc nền nếu định dạng đó không được hệ điều hành hỗ trợ sẵn. Nhạc nền xem trước sẽ được Sonolus giải mã ở chất lượng này.",
           "Options": {
             "Low": "Thấp",
             "Mid": "Trung",
@@ -4227,7 +4227,7 @@
         },
         "FavoriteCollection": {
           "Title": "Bộ sưu tập yêu thích",
-          "Description": "Bộ sưu tập để lưu mục yêu thích.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định \"Yêu thích\" sẽ được tạo tự động.",
+          "Description": "Chọn bộ sưu tập để lưu mục yêu thích.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định “Yêu thích” sẽ được tạo tự động.",
           "DefaultName": "Yêu thích"
         },
         "MultiplayerPreload": {
@@ -4236,22 +4236,22 @@
         },
         "ReplayTitleTemplate": {
           "Title": "Mẫu tiêu đề bản phát lại",
-          "Description": "Mẫu tiêu đề khi tạo bản phát lại.\n\nCó sẵn các tham số đặc biệt và sẽ được thay thế bằng các giá trị tương ứng.",
+          "Description": "Mẫu tiêu đề khi tạo bản phát lại.\n\nBạn có thể chèn các tham số đặc biệt phía trên, Sonolus sẽ tự động thay thế chúng bằng các giá trị tương ứng.",
           "Placeholder": "Nhập mẫu tiêu đề..."
         },
         "ReplaySubtitleTemplate": {
           "Title": "Mẫu phụ đề bản phát lại",
-          "Description": "Mẫu phụ đề khi tạo bản phát lại.\n\nCác tham số đặc biệt có sẵn và sẽ được thay thế bằng các giá trị tương ứng.",
+          "Description": "Mẫu phụ đề khi tạo bản phát lại.\n\nBạn có thể chèn các tham số đặc biệt phía trên, Sonolus sẽ tự động thay thế chúng bằng các giá trị tương ứng.",
           "Placeholder": "Nhập mẫu phụ đề..."
         },
         "ReplayDescriptionTemplate": {
           "Title": "Mẫu mô tả bản phát lại",
-          "Description": "Mẫu mô tả khi tạo bản phát lại.\n\nCác tham số đặc biệt có sẵn và sẽ được thay thế bằng các giá trị tương ứng.",
+          "Description": "Mẫu mô tả khi tạo bản phát lại.\n\nBạn có thể chèn các tham số đặc biệt phía trên, Sonolus sẽ tự động thay thế chúng bằng các giá trị tương ứng.",
           "Placeholder": "Nhập mẫu mô tả..."
         },
         "ReplayCollection": {
           "Title": "Bộ sưu tập bản phát lại",
-          "Description": "Bộ sưu tập để lưu các bản phát lại.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định \"Bản phát lại\" sẽ được tạo tự động.",
+          "Description": "Chọn bộ sưu tập để lưu các bản phát lại.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định “Bản phát lại” sẽ được tạo tự động.",
           "DefaultName": "Bản phát lại"
         },
         "AutoSubmitReplay": {
@@ -4359,11 +4359,11 @@
         },
         "DeviceAudioOffset": {
           "Title": "Độ trễ âm thanh của thiết bị",
-          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐiều chỉnh độ trễ âm thanh của thiết bị. Đối với hầu hết các thiết bị, 0ms là độ trễ tiêu chuẩn khi sử dụng loa ngoài. Không khuyến nghị sử dụng Bluetooth. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
+          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐiều chỉnh độ trễ âm thanh của thiết bị, tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm. Đối với hầu hết các thiết bị, 0ms là độ trễ tiêu chuẩn khi sử dụng loa ngoài. Không khuyến nghị sử dụng Bluetooth."
         },
         "DeviceInputOffset": {
           "Title": "Độ trễ đầu vào của thiết bị",
-          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐiều chỉnh độ trễ đầu vào của thiết bị. Nếu bạn đã chơi quen các trò chơi không có tùy chọn này, bạn có thể để ở mức 0. Tăng nếu quá trễ và giảm nếu quá sớm."
+          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐiều chỉnh độ trễ đầu vào của thiết bị, tăng nếu quá trễ và giảm nếu quá sớm. Nếu bạn đã chơi quen các trò chơi không có tùy chọn này, bạn có thể để ở mức 0."
         }
       },
       "Repository": {
