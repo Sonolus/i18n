@@ -1342,8 +1342,8 @@
           "Error": "Không tải được dữ liệu Skin của \"{0}\"."
         },
         "Texture": {
-          "Loading": "Đang tải Skin texture...",
-          "Error": "Không tải được Skin texture của \"{0}\"."
+          "Loading": "Đang tải texture Skin...",
+          "Error": "Không tải được texture Skin của \"{0}\"."
         }
       },
       "Background": {
