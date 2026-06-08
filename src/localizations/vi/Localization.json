@@ -3522,11 +3522,11 @@
           "Offsets": {
             "LevelAudioOffset": {
               "Title": "Độ trễ âm thanh của màn chơi",
-              "Description": "Độ trễ âm thanh này chỉ nên được điều chỉnh khi chỉ riêng màn chơi này bị lệch nhạc so với Note. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
+              "Description": "Độ trễ âm thanh của màn chơi chỉ nên được điều chỉnh khi chỉ riêng màn chơi này bị lệch nhạc so với Note. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
             },
             "ServerAudioOffset": {
               "Title": "Độ trễ âm thanh của Server",
-              "Description": "Độ trễ âm thanh của Server chỉ nên được sử dụng khi tất cả các màn chơi trong Server này bị lệch nhạc so với Note. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
+              "Description": "Độ trễ âm thanh của Server chỉ nên được điều chỉnh khi tất cả các màn chơi trong Server này đều bị lệch nhạc so với Note. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
             }
           }
         },
@@ -3630,7 +3630,7 @@
           "Offsets": {
             "EngineInputOffset": {
               "Title": "Độ trễ đầu vào của Engine",
-              "Description": "Khuyến nghị nên để giá trị 0.\n\nĐiều chỉnh độ trễ đầu vào bổ sung của Engine này, chỉ nên sử dụng khi bạn gặp sự cố khi chơi Engine này nói riêng. Tăng nếu quá trễ và giảm nếu quá sớm."
+              "Description": "Khuyến nghị nên để giá trị 0.\n\nĐiều chỉnh độ trễ đầu vào bổ sung cho Engine này, chỉ nên điều chỉnh khi đầu vào bị tính trễ trên Engine này nói riêng. Tăng nếu quá trễ và giảm nếu quá sớm."
             }
           }
         },
@@ -4359,11 +4359,11 @@
         },
         "DeviceAudioOffset": {
           "Title": "Độ trễ âm thanh của thiết bị",
-          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐiều chỉnh độ trễ âm thanh của thiết bị của bạn. Đối với hầu hết các thiết bị sử dụng loa ngoài, mức 0 là độ trễ tiêu chuẩn. Không khuyến nghị sử dụng Bluetooth. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
+          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐiều chỉnh độ trễ âm thanh của thiết bị. Đối với hầu hết các thiết bị, 0ms là độ trễ tiêu chuẩn khi sử dụng loa ngoài. Không khuyến nghị sử dụng Bluetooth. Tăng nếu âm thanh của bạn quá trễ và giảm nếu quá sớm."
         },
         "DeviceInputOffset": {
           "Title": "Độ trễ đầu vào của thiết bị",
-          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐiều chỉnh độ trễ đầu vào của thiết bị của bạn. Nếu bạn quen với các trò chơi không cung cấp tùy chọn như vậy, bạn có thể để ở mức 0. Tăng nếu quá trễ và giảm nếu quá sớm."
+          "Description": "Khuyến nghị nên để giá trị 0.\n\nĐiều chỉnh độ trễ đầu vào của thiết bị. Nếu bạn đã chơi quen các trò chơi không có tùy chọn này, bạn có thể để ở mức 0. Tăng nếu quá trễ và giảm nếu quá sớm."
         }
       },
       "Repository": {
