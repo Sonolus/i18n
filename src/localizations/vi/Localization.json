@@ -2555,7 +2555,7 @@
       "Title": "Nhảy đến trang",
       "Page": {
         "Title": "Trang",
-        "Description": "Số trang.",
+        "Description": "Nhập số trang cần nhảy đến.",
         "Placeholder": "Nhập số trang..."
       },
       "Jump": "Nhảy"
