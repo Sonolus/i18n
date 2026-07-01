@@ -3604,7 +3604,7 @@
             },
             "ComboStyle": {
               "Title": "Kiểu Combo",
-              "Description": "Tùy chỉnh kiểu hoạt ảnh, kích thước và độ trong suốt của combo."
+              "Description": "Tùy chỉnh kiểu hoạt ảnh, kích thước và độ trong suốt của số Combo."
             },
             "PrimaryMetricStyle": {
               "Title": "Kiểu Chỉ số chính",
