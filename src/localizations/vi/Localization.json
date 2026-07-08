@@ -4382,10 +4382,10 @@
         "Manage": "Quản lý"
       },
       "Cache": {
-        "Title": "Cache",
+        "Title": "Bộ nhớ đệm",
         "AlwaysRevalidate": {
           "Title": "Luôn luôn xác thực lại",
-          "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus chỉ xác thực lại các tài nguyên trực tuyến sau khi cũ. Khi bật, các tài nguyên trực tuyến luôn được xác thực lại trước khi sử dụng."
+          "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus chỉ xác thực lại các tài nguyên trực tuyến sau khi hết hạn. Khi bật, các tài nguyên trực tuyến sẽ luôn được xác thực lại trước khi sử dụng."
         },
         "Manage": "Quản lý"
       },
