@@ -90,6 +90,8 @@
         "#ACCURACY": "Accuracy",
         "#FILTER": "Filter",
         "#SORT": "Sort",
+        "#SORT_BY": "Sort By",
+        "#SORT_ORDER": "Sort Order",
         "#KEYWORDS": "Keywords",
         "#NAME": "Name",
         "#SOURCE": "Source",
@@ -286,6 +288,8 @@
         "#COUNTERCLOCKWISE": "Counterclockwise",
         "#FORWARD": "Forward",
         "#BACKWARD": "Backward",
+        "#ASCENDING": "Ascending",
+        "#DESCENDING": "Descending",
         "#DEFAULT": "Default",
         "#NEUTRAL": "Neutral",
         "#RED": "Red",
@@ -304,6 +308,7 @@
         "#TECHNICAL": "Technical",
         "#SPECIAL": "Special",
         "#APPEND": "Append",
+        "#ICON_PLACEHOLDER": "Enter icon...",
         "#POST_PLACEHOLDER": "Enter post...",
         "#PLAYLIST_PLACEHOLDER": "Enter playlist...",
         "#LEVEL_PLACEHOLDER": "Enter level...",
@@ -733,6 +738,7 @@
                 "Accuracy": "Accuracy Score",
                 "AccuracyPercentage": "Accuracy Score %",
                 "Life": "Life",
+                "Time": "Time",
                 "Perfect": "Perfect",
                 "PerfectPercentage": "Perfect %",
                 "GreatGoodMiss": "Great + Good + Miss",
@@ -4258,6 +4264,10 @@
                     "Title": "Auto Submit Replay",
                     "Description": "Automatically submit replays to the server if supported."
                 },
+                "AutoDeleteSubmittedReplay": {
+                    "Title": "Auto Delete Submitted Replay",
+                    "Description": "Automatically delete replays after submitting to the server."
+                },
                 "ShowReplayTouches": {
                     "Title": "Show Replay Touches",
                     "Description": "Show touches when watching replay."
@@ -4498,6 +4508,7 @@
         "Control": {
             "Title": "Control",
             "Exit": "Exit",
+            "Forward": "Forward",
             "Restart": "Restart"
         },
         "Level": {
