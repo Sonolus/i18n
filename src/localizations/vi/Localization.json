@@ -4242,17 +4242,17 @@
         },
         "ReplayTitleTemplate": {
           "Title": "Mẫu định dạng tiêu đề bản phát lại",
-          "Description": "Mẫu định dạng của tiêu đề bản phát lại khi tạo.\n\nCác tham số đặc biệt trong ngoặc {} sẽ được tự động thay thế bằng giá trị tương ứng của lượt chơi đó.",
+          "Description": "Mẫu định dạng của tiêu đề bản phát lại khi tạo.\n\nCác tham số đặc biệt trong ngoặc {} sẽ được tự động thay thế bằng giá trị tương ứng từ lượt chơi đó.",
           "Placeholder": "Nhập mẫu định dạng tiêu đề..."
         },
         "ReplaySubtitleTemplate": {
           "Title": "Mẫu định dạng phụ đề bản phát lại",
-          "Description": "Mẫu định dạng của phụ đề bản phát lại khi tạo.\n\nCác tham số đặc biệt trong ngoặc {} sẽ được tự động thay thế bằng giá trị tương ứng của lượt chơi đó.",
+          "Description": "Mẫu định dạng của phụ đề bản phát lại khi tạo.\n\nCác tham số đặc biệt trong ngoặc {} sẽ được tự động thay thế bằng giá trị tương ứng từ lượt chơi đó.",
           "Placeholder": "Nhập mẫu định dạng phụ đề..."
         },
         "ReplayDescriptionTemplate": {
           "Title": "Mẫu định dạng mô tả bản phát lại",
-          "Description": "Mẫu định dạng của mô tả bản phát lại khi tạo.\n\nCác tham số đặc biệt trong ngoặc {} sẽ được tự động thay thế bằng giá trị tương ứng của lượt chơi đó.",
+          "Description": "Mẫu định dạng của mô tả bản phát lại khi tạo.\n\nCác tham số đặc biệt trong ngoặc {} sẽ được tự động thay thế bằng giá trị tương ứng từ lượt chơi đó.",
           "Placeholder": "Nhập mẫu định dạng mô tả..."
         },
         "ReplayCollection": {
