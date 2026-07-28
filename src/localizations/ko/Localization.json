@@ -89,6 +89,8 @@
     "#ACCURACY": "정확도",
     "#FILTER": "필터",
     "#SORT": "정렬",
+    "#SORT_BY": "정렬 기준",
+    "#SORT_ORDER": "정렬 순서",
     "#KEYWORDS": "검색어",
     "#NAME": "이름",
     "#SOURCE": "소스",
@@ -285,6 +287,8 @@
     "#COUNTERCLOCKWISE": "반시계방향",
     "#FORWARD": "앞으로",
     "#BACKWARD": "뒤로",
+    "#ASCENDING": "오름차순",
+    "#DESCENDING": "내림차순",
     "#DEFAULT": "기본",
     "#NEUTRAL": "보통",
     "#RED": "빨간색",
@@ -302,7 +306,8 @@
     "#PRO": "Pro",
     "#TECHNICAL": "Technical",
     "#SPECIAL": "특별",
-    "#APPEND": "추가",
+    "#APPEND": "Append",
+    "#ICON_PLACEHOLDER": "아이콘 입력...",
     "#POST_PLACEHOLDER": "게시물 입력...",
     "#PLAYLIST_PLACEHOLDER": "재생목록 입력...",
     "#LEVEL_PLACEHOLDER": "레벨 입력...",
@@ -732,6 +737,7 @@
         "Accuracy": "정확도 점수",
         "AccuracyPercentage": "정확도 % 점수",
         "Life": "라이프",
+        "Time": "시간",
         "Perfect": "Perfect",
         "PerfectPercentage": "Perfect %",
         "GreatGoodMiss": "Great + Good + Miss",
@@ -4257,6 +4263,10 @@
           "Title": "다시보기 자동 제출",
           "Description": "서버가 지원할 경우 자동으로 다시보기를 제출합니다."
         },
+        "AutoDeleteSubmittedReplay": {
+          "Title": "제출된 다시보기 자동 삭제",
+          "Description": "다시보기를 서버에 제출 후 자동으로 삭제합니다."
+        },
         "ShowReplayTouches": {
           "Title": "다시보기 터치 표시",
           "Description": "다시보기 중 터치 위치를 표시합니다."
@@ -4497,6 +4507,7 @@
     "Control": {
       "Title": "조작",
       "Exit": "나가기",
+      "Forward": "앞으로",
       "Restart": "재시작"
     },
     "Level": {
