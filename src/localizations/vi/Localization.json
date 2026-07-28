@@ -89,7 +89,9 @@
     "#JUDGMENT": "Phán định",
     "#ACCURACY": "Độ chính xác",
     "#FILTER": "Bộ lọc",
-    "#SORT": "Sắp xếp theo",
+    "#SORT": "Sắp xếp",
+    "#SORT_BY": "Sắp xếp theo",
+    "#SORT_ORDER": "Thứ tự sắp xếp",
     "#KEYWORDS": "Từ khóa",
     "#NAME": "Tên",
     "#SOURCE": "Nguồn",
@@ -286,6 +288,8 @@
     "#COUNTERCLOCKWISE": "Ngược chiều kim đồng hồ",
     "#FORWARD": "Tiến",
     "#BACKWARD": "Lùi",
+    "#ASCENDING": "Tăng dần",
+    "#DESCENDING": "Giảm dần",
     "#DEFAULT": "Mặc định",
     "#NEUTRAL": "Trung tính",
     "#RED": "Đỏ",
@@ -304,6 +308,7 @@
     "#TECHNICAL": "Technical",
     "#SPECIAL": "Special",
     "#APPEND": "Append",
+    "#ICON_PLACEHOLDER": "Nhập icon...",
     "#POST_PLACEHOLDER": "Nhập bài đăng...",
     "#PLAYLIST_PLACEHOLDER": "Nhập danh sách phát...",
     "#LEVEL_PLACEHOLDER": "Nhập màn chơi...",
@@ -733,6 +738,7 @@
         "Accuracy": "Độ chính xác",
         "AccuracyPercentage": "Độ chính xác %",
         "Life": "HP",
+        "Time": "Thời gian",
         "Perfect": "Perfect",
         "PerfectPercentage": "Perfect %",
         "GreatGoodMiss": "Great + Good + Miss",
@@ -3604,7 +3610,7 @@
             },
             "ComboStyle": {
               "Title": "Kiểu Combo",
-              "Description": "Tùy chỉnh kiểu hoạt ảnh, kích thước và độ trong suốt của combo."
+              "Description": "Tùy chỉnh kiểu hoạt ảnh, kích thước và độ trong suốt của số Combo."
             },
             "PrimaryMetricStyle": {
               "Title": "Kiểu Chỉ số chính",
@@ -4235,19 +4241,19 @@
           "Description": "Khuyến nghị nên bật.\n\nTrong chế độ Chơi nhiều người, bật tùy chọn này sẽ bắt đầu tải dữ liệu màn chơi trước khi màn chơi được xác nhận để cải thiện tốc độ."
         },
         "ReplayTitleTemplate": {
-          "Title": "Mẫu tiêu đề bản phát lại",
-          "Description": "Mẫu tiêu đề khi tạo bản phát lại.\n\nBạn có thể chèn các tham số đặc biệt phía trên, Sonolus sẽ tự động thay thế chúng bằng các giá trị tương ứng.",
-          "Placeholder": "Nhập mẫu tiêu đề..."
+          "Title": "Mẫu định dạng tiêu đề bản phát lại",
+          "Description": "Mẫu định dạng của tiêu đề bản phát lại khi tạo.\n\nCác tham số đặc biệt trong ngoặc {} sẽ được tự động thay thế bằng giá trị tương ứng từ lượt chơi đó.",
+          "Placeholder": "Nhập mẫu định dạng tiêu đề..."
         },
         "ReplaySubtitleTemplate": {
-          "Title": "Mẫu phụ đề bản phát lại",
-          "Description": "Mẫu phụ đề khi tạo bản phát lại.\n\nBạn có thể chèn các tham số đặc biệt phía trên, Sonolus sẽ tự động thay thế chúng bằng các giá trị tương ứng.",
-          "Placeholder": "Nhập mẫu phụ đề..."
+          "Title": "Mẫu định dạng phụ đề bản phát lại",
+          "Description": "Mẫu định dạng của phụ đề bản phát lại khi tạo.\n\nCác tham số đặc biệt trong ngoặc {} sẽ được tự động thay thế bằng giá trị tương ứng từ lượt chơi đó.",
+          "Placeholder": "Nhập mẫu định dạng phụ đề..."
         },
         "ReplayDescriptionTemplate": {
-          "Title": "Mẫu mô tả bản phát lại",
-          "Description": "Mẫu mô tả khi tạo bản phát lại.\n\nBạn có thể chèn các tham số đặc biệt phía trên, Sonolus sẽ tự động thay thế chúng bằng các giá trị tương ứng.",
-          "Placeholder": "Nhập mẫu mô tả..."
+          "Title": "Mẫu định dạng mô tả bản phát lại",
+          "Description": "Mẫu định dạng của mô tả bản phát lại khi tạo.\n\nCác tham số đặc biệt trong ngoặc {} sẽ được tự động thay thế bằng giá trị tương ứng từ lượt chơi đó.",
+          "Placeholder": "Nhập mẫu định dạng mô tả..."
         },
         "ReplayCollection": {
           "Title": "Bộ sưu tập bản phát lại",
@@ -4257,6 +4263,10 @@
         "AutoSubmitReplay": {
           "Title": "Tự động gửi bản phát lại",
           "Description": "Tự động gửi nội dung bản phát lại đến Server nếu được hỗ trợ."
+        },
+        "AutoDeleteSubmittedReplay": {
+            "Title": "Tự động xóa bản phát lại sau khi gửi",
+            "Description": "Tự động xóa bản phát lại trên thiết bị sau khi gửi thành công đến Server."
         },
         "ShowReplayTouches": {
           "Title": "Hiển thị điểm chạm trong bản phát lại",
@@ -4382,10 +4392,10 @@
         "Manage": "Quản lý"
       },
       "Cache": {
-        "Title": "Cache",
+        "Title": "Bộ nhớ đệm",
         "AlwaysRevalidate": {
           "Title": "Luôn luôn xác thực lại",
-          "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus chỉ xác thực lại các tài nguyên trực tuyến sau khi cũ. Khi bật, các tài nguyên trực tuyến luôn được xác thực lại trước khi sử dụng."
+          "Description": "Khuyến nghị nên tắt.\n\nTheo mặc định, Sonolus chỉ xác thực lại các tài nguyên trực tuyến sau khi hết hạn. Khi bật, các tài nguyên trực tuyến sẽ luôn được xác thực lại trước khi sử dụng."
         },
         "Manage": "Quản lý"
       },
@@ -4459,7 +4469,7 @@
       "Cache": {
         "Title": "Bộ nhớ đệm",
         "Description": "Bộ nhớ đệm cho phép Sonolus tăng tốc độ tải các yêu cầu mạng và giảm mức sử dụng băng thông, bằng cách ghi nhớ các URL mạng và các tài nguyên lưu trữ cục bộ mà chúng liên kết.\nBộ nhớ đệm chiếm một lượng lưu trữ rất nhỏ và không nên xóa.",
-        "Count": "Bộ nhớ đệm: {0} mục nhập"
+        "Count": "Bộ nhớ đệm: {0} mục"
       },
       "ExpireCache": {
         "Title": "Hết hạn bộ nhớ đệm",
@@ -4498,6 +4508,7 @@
     "Control": {
       "Title": "Điều khiển",
       "Exit": "Thoát",
+      "Forward": "Tua nhanh",
       "Restart": "Chơi lại"
     },
     "Level": {
