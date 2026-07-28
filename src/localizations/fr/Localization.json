@@ -89,6 +89,8 @@
     "#ACCURACY": "Precision",
     "#FILTER": "Filtrer",
     "#SORT": "Trier",
+    "#SORT_BY": "Trier Par",
+    "#SORT_ORDER": "Ordre de Tri",
     "#KEYWORDS": "Mots-clés",
     "#NAME": "Nom",
     "#SOURCE": "Source",
@@ -285,6 +287,8 @@
     "#COUNTERCLOCKWISE": "Sens Anti-Horaire",
     "#FORWARD": "Avant",
     "#BACKWARD": "Arrière",
+    "#ASCENDING": "Croissant",
+    "#DESCENDING": "Décroissant",
     "#DEFAULT": "Défaut",
     "#NEUTRAL": "Neutre",
     "#RED": "Rouge",
@@ -303,6 +307,7 @@
     "#TECHNICAL": "Technique",
     "#SPECIAL": "Spécial",
     "#APPEND": "Append",
+    "#ICON_PLACEHOLDER": "Sélectionnez une icône…",
     "#POST_PLACEHOLDER": "Sélectionnez une publication…",
     "#PLAYLIST_PLACEHOLDER": "Sélectionnez une playlist…",
     "#LEVEL_PLACEHOLDER": "Sélectionnez un niveau…",
@@ -732,6 +737,7 @@
         "Accuracy": "Score de précision",
         "AccuracyPercentage": "Score de Précision %",
         "Life": "Vie",
+        "Time": "Temps",
         "Perfect": "Perfect",
         "PerfectPercentage": "Perfect %",
         "GreatGoodMiss": "Great + Good + Miss",
@@ -4257,6 +4263,10 @@
           "Title": "Envoi Auto du Replay",
           "Description": "Envoyer automatiquement les replays au serveur s'il le supporte."
         },
+        "AutoDeleteSubmittedReplay": {
+          "Title": "Suppression Auto du Replay Envoyé",
+          "Description": "Supprimer automatiquement le replay après l'avoir envoyé au serveur."
+        },
         "ShowReplayTouches": {
           "Title": "Afficher les Touches du Replay",
           "Description": "Afficher les touches lors du visionnage du replay."
@@ -4497,6 +4507,7 @@
     "Control": {
       "Title": "Contrôle",
       "Exit": "Quitter",
+      "Forward": "Avancer",
       "Restart": "Recommencer"
     },
     "Level": {
