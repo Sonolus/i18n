@@ -302,7 +302,7 @@
     "#PRO": "Pro",
     "#TECHNICAL": "Technical",
     "#SPECIAL": "특별",
-    "#APPEND": "추가",
+    "#APPEND": "Append",
     "#POST_PLACEHOLDER": "게시물 입력...",
     "#PLAYLIST_PLACEHOLDER": "재생목록 입력...",
     "#LEVEL_PLACEHOLDER": "레벨 입력...",
@@ -4256,6 +4256,8 @@
         "AutoSubmitReplay": {
           "Title": "다시보기 자동 제출",
           "Description": "서버가 지원할 경우 자동으로 다시보기를 제출합니다."
+        },
+        "AutoDeleteSubmittedReplay": {
         },
         "ShowReplayTouches": {
           "Title": "다시보기 터치 표시",
