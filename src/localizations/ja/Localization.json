@@ -89,6 +89,8 @@
     "#ACCURACY": "精度",
     "#FILTER": "フィルター",
     "#SORT": "ソート",
+    "#SORT_BY": "並べ替え",
+    "#SORT_ORDER": "並び順",
     "#KEYWORDS": "キーワード",
     "#NAME": "名称",
     "#SOURCE": "ソース",
@@ -285,6 +287,8 @@
     "#COUNTERCLOCKWISE": "反時計回り",
     "#FORWARD": "前方向",
     "#BACKWARD": "後方向",
+    "#ASCENDING": "昇順",
+    "#DESCENDING": "降順",
     "#DEFAULT": "デフォルト",
     "#NEUTRAL": "無色",
     "#RED": "赤",
@@ -303,6 +307,7 @@
     "#TECHNICAL": "Technical",
     "#SPECIAL": "Special",
     "#APPEND": "Append",
+    "#ICON_PLACEHOLDER": "アイコンを入力...",
     "#POST_PLACEHOLDER": "投稿を入力...",
     "#PLAYLIST_PLACEHOLDER": "プレイリストを入力...",
     "#LEVEL_PLACEHOLDER": "レベルを入力...",
@@ -732,6 +737,7 @@
         "Accuracy": "精度スコア",
         "AccuracyPercentage": "精度スコア（割合）",
         "Life": "ライフ",
+        "Time": "時間",
         "Perfect": "Perfect",
         "PerfectPercentage": "Perfect（割合）",
         "GreatGoodMiss": "Great + Good + Miss",
@@ -4257,6 +4263,10 @@
           "Title": "リプレイ：自動提出",
           "Description": "サーバーがサポートしている場合、リプレイを自動的に提出します。"
         },
+        "AutoDeleteSubmittedReplay": {
+          "Title": "送信済みリプレイの自動削除",
+          "Description": "サーバーに送信した後のリプレイを自動で削除します。"
+        },
         "ShowReplayTouches": {
           "Title": "リプレイ：タッチ表示",
           "Description": "リプレイ時にタッチを表示をするかどうか。"
@@ -4497,6 +4507,7 @@
     "Control": {
       "Title": "操作",
       "Exit": "終了",
+      "Forward": "早送り",
       "Restart": "リスタート"
     },
     "Level": {
