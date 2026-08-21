@@ -131,6 +131,10 @@
         "#NOTIFICATION": "Notification",
         "#ROLE": "Role",
         "#PERMISSION": "Permission",
+        "#GRAPHICS": "Graphics",
+        "#AUDIO": "Audio",
+        "#GAMEPLAY": "Gameplay",
+        "#MISCELLANEOUS": "Miscellaneous",
         "#SPEED": "Level Speed",
         "#MIRROR": "Mirror Level",
         "#RANDOM": "Random",
@@ -147,6 +151,7 @@
         "#STAGE_ALPHA": "Stage Transparency",
         "#STAGE_ANIMATION": "Stage Animation",
         "#STAGE_TILT": "Stage Tilt",
+        "#STAGE_COVER": "Stage Cover",
         "#STAGE_COVER_VERTICAL": "Vertical Stage Cover",
         "#STAGE_COVER_HORIZONTAL": "Horizontal Stage Cover",
         "#STAGE_COVER_ALPHA": "Stage Cover Transparency",
@@ -422,6 +427,7 @@
         "#DRAFT": "Draft",
         "#PUBLIC": "Public",
         "#PRIVATE": "Private",
+        "#FAVORITE": "Favorite",
         "#POP": "Pop",
         "#ROCK": "Rock",
         "#HIPHOP": "Hip Hop",
@@ -2579,6 +2585,9 @@
         "SelectClient": {
             "CustomServers": {
                 "Title": "Custom Servers",
+                "Help": {
+                    "Message": "More servers are available in Server List on Sonolus News & Community.\n\nOpen Server List and explore?"
+                },
                 "RemoveConfirmation": {
                     "Description": "Are you sure to remove \"{0}\"?"
                 }
@@ -2703,7 +2712,7 @@
             "Title": "Add Custom Server",
             "Address": {
                 "Title": "Address",
-                "Description": "Custom server address is a normal web URL (\"https://...\"), and can usually be found on custom server's webpage.",
+                "Description": "Custom server address is a normal web URL (\"https://...\"), and can usually be found on custom server's webpage.\n\nMore servers are available in Server List on Sonolus News & Community:",
                 "Placeholder": "Enter custom server address..."
             }
         },
@@ -4233,8 +4242,7 @@
                 },
                 "FavoriteCollection": {
                     "Title": "Favorite Collection",
-                    "Description": "Collection to save favorites to.\n\nIf no collection is selected, a default collection will be created automatically.",
-                    "DefaultName": "Favorites"
+                    "Description": "Collection to save favorites to.\n\nIf no collection is selected, a default collection will be created automatically."
                 },
                 "MultiplayerPreload": {
                     "Title": "Multiplayer Preload",
@@ -4257,8 +4265,7 @@
                 },
                 "ReplayCollection": {
                     "Title": "Replay Collection",
-                    "Description": "Collection to save replays to.\n\nIf no collection is selected, a default collection will be created automatically.",
-                    "DefaultName": "Replays"
+                    "Description": "Collection to save replays to.\n\nIf no collection is selected, a default collection will be created automatically."
                 },
                 "AutoSubmitReplay": {
                     "Title": "Auto Submit Replay",
@@ -4508,7 +4515,6 @@
         "Control": {
             "Title": "Control",
             "Exit": "Exit",
-            "Forward": "Forward",
             "Restart": "Restart"
         },
         "Level": {
