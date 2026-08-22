@@ -131,6 +131,10 @@
     "#NOTIFICATION": "Thông báo",
     "#ROLE": "Vai trò",
     "#PERMISSION": "Quyền",
+	"#GRAPHICS": "Đồ họa",
+    "#AUDIO": "Âm thanh",
+    "#GAMEPLAY": "Trò chơi",
+    "#MISCELLANEOUS": "Khác",
     "#SPEED": "Tốc độ nhạc",
     "#MIRROR": "Mirror (Lật ngang)",
     "#RANDOM": "Ngẫu nhiên",
@@ -147,6 +151,7 @@
     "#STAGE_ALPHA": "Độ trong suốt của sàn chơi",
     "#STAGE_ANIMATION": "Hoạt ảnh sàn chơi",
     "#STAGE_TILT": "Độ nghiêng của sàn chơi",
+	"#STAGE_COVER": "Hiển thị tường chắn sàn chơi",
     "#STAGE_COVER_VERTICAL": "Kích thước tường chắn dọc",
     "#STAGE_COVER_HORIZONTAL": "Kích thước tường chắn ngang",
     "#STAGE_COVER_ALPHA": "Độ trong suốt của tường chắn",
@@ -422,6 +427,7 @@
     "#DRAFT": "Bản thảo",
     "#PUBLIC": "Công khai",
     "#PRIVATE": "Riêng tư",
+	"#FAVORITE": "Yêu thích",
     "#POP": "Pop",
     "#ROCK": "Rock",
     "#HIPHOP": "Hip Hop",
@@ -2579,6 +2585,9 @@
     "SelectClient": {
       "CustomServers": {
         "Title": "Danh sách Server trò chơi",
+		"Help": {
+            "Message": "Bạn có thể tìm thêm nhiều Server trò chơi khác trong danh sách Server tại [Tin tức & Cộng đồng Sonolus].\n\nMở danh sách Server và khám phá ngay?"
+        },
         "RemoveConfirmation": {
           "Description": "Bạn có chắc chắn muốn xóa \"{0}\"?"
         }
@@ -2703,7 +2712,7 @@
       "Title": "Thêm Server trò chơi",
       "Address": {
         "Title": "Địa chỉ",
-        "Description": "Địa chỉ Server trò chơi có dạng một liên kết web thông thường (\"https://...\") và thường có thể được tìm thấy trên trang web của Server trò chơi.\n\nHãy truy cập [Sonolus News & Community] > [Bài đăng] > [Sonolus Servers] để lấy danh sách các Server trò chơi phổ biến.",
+        "Description": "Địa chỉ Server trò chơi có dạng một liên kết web thông thường (\"https://...\") và thường có thể được tìm thấy trên trang web của Server trò chơi.\n\nHãy truy cập [Tin tức & Cộng đồng Sonolus] > [Bài đăng] > [Server Sonolus] để nhận danh sách các Server trò chơi phổ biến.\n\nHoặc nhấn vào liên kết dưới đây để khám phá ngay:",
         "Placeholder": "Nhập địa chỉ Server trò chơi..."
       }
     },
@@ -4233,8 +4242,7 @@
         },
         "FavoriteCollection": {
           "Title": "Bộ sưu tập yêu thích",
-          "Description": "Chọn bộ sưu tập để lưu mục yêu thích.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định “Yêu thích” sẽ được tạo tự động.",
-          "DefaultName": "Yêu thích"
+          "Description": "Chọn bộ sưu tập để lưu mục yêu thích.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định “Yêu thích” sẽ được tạo tự động."
         },
         "MultiplayerPreload": {
           "Title": "Tải trước trong chế độ Chơi nhiều người",
@@ -4257,8 +4265,7 @@
         },
         "ReplayCollection": {
           "Title": "Bộ sưu tập bản phát lại",
-          "Description": "Chọn bộ sưu tập để lưu các bản phát lại.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định “Bản phát lại” sẽ được tạo tự động.",
-          "DefaultName": "Bản phát lại"
+          "Description": "Chọn bộ sưu tập để lưu các bản phát lại.\n\nNếu không có bộ sưu tập nào được chọn, bộ sưu tập mặc định “Phát lại” sẽ được tạo tự động."
         },
         "AutoSubmitReplay": {
           "Title": "Tự động gửi bản phát lại",
@@ -4508,7 +4515,6 @@
     "Control": {
       "Title": "Điều khiển",
       "Exit": "Thoát",
-      "Forward": "Tua nhanh",
       "Restart": "Chơi lại"
     },
     "Level": {
