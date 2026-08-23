@@ -2712,7 +2712,7 @@
       "Title": "Thêm Server trò chơi",
       "Address": {
         "Title": "Địa chỉ",
-        "Description": "Địa chỉ Server trò chơi có dạng một liên kết web thông thường (\"https://...\") và thường có thể được tìm thấy trên trang web của Server trò chơi.\n\nHãy truy cập [Tin tức & Cộng đồng Sonolus] > [Bài đăng] > [Server Sonolus] để nhận danh sách các Server trò chơi phổ biến.\n\nHoặc nhấn vào liên kết dưới đây để khám phá ngay:",
+        "Description": "Địa chỉ Server trò chơi có dạng một liên kết web thông thường (https://...) và thường có thể được tìm thấy trên trang web của Server trò chơi.\n\nHãy truy cập [Tin tức & Cộng đồng Sonolus] > [Bài đăng] > [Danh sách Server Sonolus] để nhận danh sách các Server trò chơi phổ biến.\n\nHoặc nhấn vào liên kết dưới đây để khám phá ngay:",
         "Placeholder": "Nhập địa chỉ Server trò chơi..."
       }
     },
