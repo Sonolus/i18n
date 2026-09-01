@@ -130,6 +130,10 @@
     "#NOTIFICATION": "Notification",
     "#ROLE": "Rôle",
     "#PERMISSION": "Autorisation",
+    "#GRAPHICS": "Graphique",
+    "#AUDIO": "Audio",
+    "#GAMEPLAY": "Jouabilité",
+    "#MISCELLANEOUS": "Divers",
     "#SPEED": "Vitesse du Niveau",
     "#MIRROR": "Refléter le Niveau",
     "#RANDOM": "Aléatoire",
@@ -146,6 +150,7 @@
     "#STAGE_ALPHA": "Transparence de la Scène",
     "#STAGE_ANIMATION": "Animation de la Scène",
     "#STAGE_TILT": "Inclinaison de la Scène",
+    "#STAGE_COVER": "Masque de la Scène",
     "#STAGE_COVER_VERTICAL": "Recouvrir Verticalement la Scène",
     "#STAGE_COVER_HORIZONTAL": "Recouvrir Horizontalement la Scène",
     "#STAGE_COVER_ALPHA": "Transparence de la Couverture de Scène",
@@ -256,7 +261,7 @@
     "#OFF": "Désactivé",
     "#NONE": "Aucun",
     "#ANY": "N'importe lequel",
-    "#ALL": "Tous",
+    "#ALL": "Tout",
     "#OTHERS": "Autres",
     "#SHORT": "Court",
     "#LONG": "Long",
@@ -421,6 +426,7 @@
     "#DRAFT": "Brouillon",
     "#PUBLIC": "Public",
     "#PRIVATE": "Privé",
+    "#FAVORITE": "Favoris",
     "#POP": "Pop",
     "#ROCK": "Rock",
     "#HIPHOP": "Hip Hop",
@@ -2578,6 +2584,9 @@
     "SelectClient": {
       "CustomServers": {
         "Title": "Serveurs Personnalisés",
+        "Help": {
+          "Message": "La liste des serveurs sur le serveur Actualités et Communauté Sonolus comporte davantage de serveurs.\n\nOuvrir la liste et explorer ?"
+        },
         "RemoveConfirmation": {
           "Description": "Voulez-vous vraiment supprimer \"{0}\" ?"
         }
@@ -2702,7 +2711,7 @@
       "Title": "Ajouter un Serveur Personnalisé",
       "Address": {
         "Title": "Adresse",
-        "Description": "L'adresse du serveur personnalisé est une URL Web normale (\"https://…\") et peut généralement être trouvée sur la page Web du serveur personnalisé.",
+        "Description": "L'adresse du serveur personnalisé est une URL Web normale (\"https://… \") et peut généralement être trouvée sur le site du serveur personnalisé.\n\nLa liste des serveurs sur le serveur Actualités et Communauté Sonolus comporte davantage de serveurs :",
         "Placeholder": "Entrez l'adresse du serveur personnalisé…"
       }
     },
@@ -4232,8 +4241,7 @@
         },
         "FavoriteCollection": {
           "Title": "Collection des Favoris",
-          "Description": "Collection dans laquelle enregistrer les favoris.\n\nSi aucune collection n'est sélectionnée, une collection par défaut sera créée automatiquement.",
-          "DefaultName": "Favoris"
+          "Description": "Collection dans laquelle enregistrer les favoris.\n\nSi aucune collection n'est sélectionnée, une collection par défaut sera créée automatiquement."
         },
         "MultiplayerPreload": {
           "Title": "Préchargement Multijoueur",
@@ -4256,8 +4264,7 @@
         },
         "ReplayCollection": {
           "Title": "Collection des Replays",
-          "Description": "Collection dans laquelle enregistrer les replays.\n\nSi aucune collection n'est sélectionnée, une collection par défaut sera créée automatiquement.",
-          "DefaultName": "Replays"
+          "Description": "Collection dans laquelle enregistrer les replays.\n\nSi aucune collection n'est sélectionnée, une collection par défaut sera créée automatiquement."
         },
         "AutoSubmitReplay": {
           "Title": "Envoi Auto du Replay",
@@ -4507,7 +4514,6 @@
     "Control": {
       "Title": "Contrôle",
       "Exit": "Quitter",
-      "Forward": "Avancer",
       "Restart": "Recommencer"
     },
     "Level": {
