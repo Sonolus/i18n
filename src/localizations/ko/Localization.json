@@ -130,6 +130,10 @@
     "#NOTIFICATION": "알림",
     "#ROLE": "역할",
     "#PERMISSION": "권한",
+    "#GRAPHICS": "그래픽",
+    "#AUDIO": "오디오",
+    "#GAMEPLAY": "게임플레이",
+    "#MISCELLANEOUS": "기타",
     "#SPEED": "레벨 속도",
     "#MIRROR": "대칭 레벨",
     "#RANDOM": "무작위",
@@ -146,6 +150,7 @@
     "#STAGE_ALPHA": "무대 투명도",
     "#STAGE_ANIMATION": "무대 애니메이션",
     "#STAGE_TILT": "무대 기울기",
+    "#STAGE_COVER": "무대 커버",
     "#STAGE_COVER_VERTICAL": "무대 수직 가리개",
     "#STAGE_COVER_HORIZONTAL": "무대 수평 가리개",
     "#STAGE_COVER_ALPHA": "무대 가리개 투명도",
@@ -421,6 +426,7 @@
     "#DRAFT": "초안",
     "#PUBLIC": "공개",
     "#PRIVATE": "일부 공개",
+    "#FAVORITE": "즐겨찾기",
     "#POP": "팝",
     "#ROCK": "록",
     "#HIPHOP": "힙합",
@@ -2578,6 +2584,9 @@
     "SelectClient": {
       "CustomServers": {
         "Title": "맞춤 서버",
+        "Help": {
+          "Message": "Sonolus 소식 & 커뮤니티의 서버 목록에서 더 많은 서버를 확인할 수 있습니다.\n\n서버 목록을 열어 확인해 보시겠습니까?"
+        },
         "RemoveConfirmation": {
           "Description": "정말로 \"{0}\" 맞춤 서버를 삭제합니까?"
         }
@@ -2702,7 +2711,7 @@
       "Title": "맞춤 서버 추가",
       "Address": {
         "Title": "주소",
-        "Description": "맞춤 서버 주소는 일반 웹 URL(\"https://...\")이며, 보통은 맞춤 서버의 웹페이지에서 찾을 수 있습니다.",
+        "Description": "맞춤 서버 주소는 일반적인 웹 URL(\"https://...\")이며, 일반적으로 맞춤 서버의 웹페이지에서 찾을 수 있습니다.\n\n혹은 Sonolus 소식 & 커뮤니티의 서버 목록에서 다양한 서버를 확인할 수 있습니다:",
         "Placeholder": "맞춤 서버 주소 입력..."
       }
     },
@@ -4232,8 +4241,7 @@
         },
         "FavoriteCollection": {
           "Title": "즐겨찾기 모음집",
-          "Description": "즐겨찾기를 저장할 모음집입니다.\n\n선택된 모음집이 없으면 기본 모음집이 자동으로 생성됩니다.",
-          "DefaultName": "즐겨찾기"
+          "Description": "즐겨찾기를 저장할 모음집입니다.\n\n선택된 모음집이 없으면 기본 모음집이 자동으로 생성됩니다."
         },
         "MultiplayerPreload": {
           "Title": "멀티플레이 미리 불러오기",
@@ -4256,8 +4264,7 @@
         },
         "ReplayCollection": {
           "Title": "다시보기 모음집",
-          "Description": "다시보기를 저장할 모음집입니다.\n\n선택된 모음집이 없으면 기본 모음집이 자동으로 생성됩니다.",
-          "DefaultName": "다시보기"
+          "Description": "다시보기를 저장할 모음집입니다.\n\n선택된 모음집이 없으면 기본 모음집이 자동으로 생성됩니다."
         },
         "AutoSubmitReplay": {
           "Title": "다시보기 자동 제출",
@@ -4507,7 +4514,6 @@
     "Control": {
       "Title": "조작",
       "Exit": "나가기",
-      "Forward": "앞으로",
       "Restart": "재시작"
     },
     "Level": {
