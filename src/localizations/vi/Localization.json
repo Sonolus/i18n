@@ -2586,7 +2586,7 @@
       "CustomServers": {
         "Title": "Danh sách Server trò chơi",
 		"Help": {
-            "Message": "Bạn có thể tìm thêm nhiều Server trò chơi khác trong danh sách Server tại [Tin tức & Cộng đồng Sonolus].\n\nMở danh sách Server và khám phá ngay?"
+            "Message": "Bạn có thể tìm thêm nhiều Server trò chơi khác trong Danh sách Server tại [Tin\u00A0tức\u00A0&\u00A0Cộng\u00A0đồng\u00A0Sonolus].\n\nMở Danh sách Server và khám phá ngay?"
         },
         "RemoveConfirmation": {
           "Description": "Bạn có chắc chắn muốn xóa \"{0}\"?"
