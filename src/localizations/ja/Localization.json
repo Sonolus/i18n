@@ -130,6 +130,10 @@
     "#NOTIFICATION": "通知",
     "#ROLE": "ロール",
     "#PERMISSION": "権限",
+    "#GRAPHICS": "グラフィック",
+    "#AUDIO": "音源",
+    "#GAMEPLAY": "ゲームプレイ",
+    "#MISCELLANEOUS": "その他",
     "#SPEED": "レベル再生速度",
     "#MIRROR": "レベルを反転",
     "#RANDOM": "ランダム",
@@ -146,6 +150,7 @@
     "#STAGE_ALPHA": "ステージの不透明度",
     "#STAGE_ANIMATION": "ステージのアニメーション",
     "#STAGE_TILT": "ステージの傾き",
+    "#STAGE_COVER": "ステージカバー",
     "#STAGE_COVER_VERTICAL": "レーンカバー(縦方向)",
     "#STAGE_COVER_HORIZONTAL": "レーンカバー(横方向)",
     "#STAGE_COVER_ALPHA": "ステージのカバーの不透明度",
@@ -421,6 +426,7 @@
     "#DRAFT": "下書き",
     "#PUBLIC": "公開",
     "#PRIVATE": "非公開",
+    "#FAVORITE": "お気に入り",
     "#POP": "ポップ",
     "#ROCK": "ロック",
     "#HIPHOP": "ヒップホップ",
@@ -2578,6 +2584,9 @@
     "SelectClient": {
       "CustomServers": {
         "Title": "カスタムサーバー",
+        "Help": {
+          "Message": "Sonolus News & Communityのサーバーリストの投稿に様々なサーバーURLが掲載されています。\n\nサーバーリストを開き、サーバーを探しますか？"
+        },
         "RemoveConfirmation": {
           "Description": "\"{0}\"を削除しますか?"
         }
@@ -2702,7 +2711,7 @@
       "Title": "カスタムサーバーの追加",
       "Address": {
         "Title": "サーバーアドレス",
-        "Description": "カスタムサーバーのアドレスは通常のURL（`https://...`）であり、ほとんどの場合サーバーのホームページに書いてあります。",
+        "Description": "カスタムサーバーのアドレスはhttps://...のような一般的なウェブのURLで、通常はカスタムサーバーのウェブページに記載されています。\n\nSonolus News & Community のサーバーリストの投稿に様々なサーバーURLが掲載されています。",
         "Placeholder": "例：https://example.com"
       }
     },
@@ -4232,8 +4241,7 @@
         },
         "FavoriteCollection": {
           "Title": "お気に入りコレクション",
-          "Description": "お気に入りを保存する先のコレクション。\n\nもしコレクションが選択されていない場合は、自動的にコレクションが作成されます。",
-          "DefaultName": "お気に入り"
+          "Description": "お気に入りを保存する先のコレクション。\n\nもしコレクションが選択されていない場合は、自動的にコレクションが作成されます。"
         },
         "MultiplayerPreload": {
           "Title": "マルチプレイ：事前読み込み",
@@ -4256,8 +4264,7 @@
         },
         "ReplayCollection": {
           "Title": "リプレイ：デフォルトのコレクション",
-          "Description": "リプレイを保存する先のコレクション。\n\nもしコレクションが選択されていない場合は、自動的にコレクションが作成されます。",
-          "DefaultName": "リプレイ"
+          "Description": "リプレイを保存する先のコレクション。\n\nもしコレクションが選択されていない場合は、自動的にコレクションが作成されます。"
         },
         "AutoSubmitReplay": {
           "Title": "リプレイ：自動提出",
@@ -4507,7 +4514,6 @@
     "Control": {
       "Title": "操作",
       "Exit": "終了",
-      "Forward": "早送り",
       "Restart": "リスタート"
     },
     "Level": {
