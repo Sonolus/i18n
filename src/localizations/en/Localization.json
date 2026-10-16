@@ -251,6 +251,8 @@
         "#PREVIEW_BEAT": "Preview Beat",
         "#PREVIEW_MEASURE": "Preview Measure",
         "#PREVIEW_COMBO": "Preview Combo",
+        "#BEAT_LINE": "Beat Line",
+        "#MEASURE_LINE": "Measure Line",
         "#UI": "UI",
         "#UI_METRIC": "UI Metric",
         "#UI_PRIMARY_METRIC": "UI Primary Metric",
@@ -485,6 +487,7 @@
         "#SCORE": "Score",
         "#OWNER": "Owner",
         "#ADMIN": "Admin",
+        "#DEVELOPER": "Developer",
         "#MODERATOR": "Moderator",
         "#REVIEWER": "Reviewer",
         "#BANNED": "Banned",
@@ -2716,14 +2719,6 @@
                 "Placeholder": "Enter custom server address..."
             }
         },
-        "AddCustomServerInfo": {
-            "Title": "Add Custom Server",
-            "Name": {
-                "Title": "Name",
-                "Description": "You can name it however you like.",
-                "Placeholder": "Enter custom server name..."
-            }
-        },
         "EditCollection": {
             "Title": "Edit Collection"
         },
@@ -3083,6 +3078,14 @@
                 },
                 "Options": {
                     "Title": "Options",
+                    "Localization": {
+                        "Title": "Language",
+                        "Description": "Language to use. This custom server may provide content in this language if available."
+                    },
+                    "FallbackLocalization": {
+                        "Title": "Fallback Language",
+                        "Description": "Fallback language to use. This custom server may provide content in this language if available."
+                    },
                     "AutoLogin": {
                         "Title": "Auto Sign In",
                         "Description": "Automatically sign in when visiting this server."
@@ -3661,68 +3664,37 @@
             },
             "Resources": {
                 "Post": {
-                    "Title": "Post Resources",
-                    "Thumbnail": "Thumbnail"
+                    "Title": "Post Resources"
                 },
                 "Playlist": {
-                    "Title": "Playlist Resources",
-                    "Thumbnail": "Thumbnail"
+                    "Title": "Playlist Resources"
                 },
                 "Level": {
-                    "Title": "Level Resources",
-                    "Cover": "Cover",
-                    "Bgm": "BGM",
-                    "Preview": "Preview",
-                    "Data": "Data"
+                    "Title": "Level Resources"
                 },
                 "Skin": {
-                    "Title": "Skin Resources",
-                    "Thumbnail": "Thumbnail",
-                    "Data": "Data",
-                    "Texture": "Texture"
+                    "Title": "Skin Resources"
                 },
                 "Background": {
-                    "Title": "Background Resources",
-                    "Thumbnail": "Thumbnail",
-                    "Image": "Image",
-                    "Data": "Data",
-                    "Configuration": "Configuration"
+                    "Title": "Background Resources"
                 },
                 "Effect": {
-                    "Title": "Effect Resources",
-                    "Thumbnail": "Thumbnail",
-                    "Data": "Data",
-                    "Audio": "Audio"
+                    "Title": "Effect Resources"
                 },
                 "Particle": {
-                    "Title": "Particle Resources",
-                    "Thumbnail": "Thumbnail",
-                    "Data": "Data",
-                    "Texture": "Texture"
+                    "Title": "Particle Resources"
                 },
                 "Engine": {
-                    "Title": "Engine Resources",
-                    "Thumbnail": "Thumbnail",
-                    "PlayData": "Play Data",
-                    "WatchData": "Watch Data",
-                    "PreviewData": "Preview Data",
-                    "TutorialData": "Tutorial Data",
-                    "Rom": "ROM",
-                    "Configuration": "Configuration"
+                    "Title": "Engine Resources"
                 },
                 "Replay": {
-                    "Title": "Replay Resources",
-                    "Data": "Data",
-                    "Configuration": "Configuration"
+                    "Title": "Replay Resources"
                 },
                 "User": {
                     "Title": "User Resources"
                 },
                 "Room": {
-                    "Title": "Room Resources",
-                    "Cover": "Cover",
-                    "Bgm": "BGM",
-                    "Preview": "Preview"
+                    "Title": "Room Resources"
                 }
             },
             "ResourceExporters": {
@@ -4290,13 +4262,13 @@
             },
             "UI": {
                 "Title": "UI",
-                "UILocalization": {
-                    "Title": "UI Language",
-                    "Description": "Language to use for UI."
+                "Localization": {
+                    "Title": "Language",
+                    "Description": "Language to use."
                 },
-                "ContentLocalization": {
-                    "Title": "Content Language",
-                    "Description": "Language to use for content. Custom servers may provide content in this language if available."
+                "FallbackLocalization": {
+                    "Title": "Fallback Language",
+                    "Description": "Fallback language to use."
                 },
                 "Theme": {
                     "Title": "Theme",
