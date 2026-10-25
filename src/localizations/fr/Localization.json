@@ -241,7 +241,7 @@
     "#SIMLINE_COLOR": "Couleur des Lignes Simultanées",
     "#SIMLINE_ALPHA": "Transparence des Lignes Simultanées",
     "#SIMLINE_ANIMATION": "Animation des Lignes Simultanées",
-    "#PREVIEW_SCALE_VERTICAL": "Aperçu de l'Échelle Verticale",
+    "#PREVIEW_SCALE_VERTICAL": "Échelle Verticale de l'Aperçu",
     "#PREVIEW_SCALE_HORIZONTAL": "Aperçu de l'Échelle Horizontale",
     "#PREVIEW_TIME": "Aperçu du Temps",
     "#PREVIEW_SCORE": "Aperçu du Score",
@@ -250,6 +250,8 @@
     "#PREVIEW_BEAT": "Aperçu du Rythme",
     "#PREVIEW_MEASURE": "Aperçu des Mesures",
     "#PREVIEW_COMBO": "Aperçu du Combo",
+    "#BEAT_LINE": "Ligne de Rythme",
+    "#MEASURE_LINE": "Ligne de Mesure",
     "#UI": "Interface",
     "#UI_METRIC": "Interface des Métriques",
     "#UI_PRIMARY_METRIC": "Interface de la Métrique Principale ",
@@ -484,6 +486,7 @@
     "#SCORE": "Score",
     "#OWNER": "Propriétaire",
     "#ADMIN": "Admin",
+    "#DEVELOPER": "Développeur",
     "#MODERATOR": "Modérateur",
     "#REVIEWER": "Critique",
     "#BANNED": "Banni",
@@ -2715,14 +2718,6 @@
         "Placeholder": "Entrez l'adresse du serveur personnalisé…"
       }
     },
-    "AddCustomServerInfo": {
-      "Title": "Ajouter un Serveur Personnalisé",
-      "Name": {
-        "Title": "Nom",
-        "Description": "Vous pouvez le nommer comme vous voulez.",
-        "Placeholder": "Entrez le nom du serveur personnalisé…"
-      }
-    },
     "EditCollection": {
       "Title": "Modifier la collection"
     },
@@ -3082,6 +3077,14 @@
         },
         "Options": {
           "Title": "Options",
+          "Localization": {
+            "Title": "Langue",
+            "Description": "Langue principale à utiliser. Ce serveur personnalisé proposera son contenu dans cette langue si disponible."
+          },
+          "FallbackLocalization": {
+            "Title": "Langue de Repli",
+            "Description": "Langue de repli à utiliser. Ce serveur personnalisé proposera son contenu dans cette langue si la langue principale n'est pas disponible."
+          },
           "AutoLogin": {
             "Title": "Connexion Auto",
             "Description": "Connectez-vous automatiquement lorsque vous visitez ce serveur."
@@ -3660,68 +3663,37 @@
       },
       "Resources": {
         "Post": {
-          "Title": "Ressources de la Publication",
-          "Thumbnail": "Miniature"
+          "Title": "Ressources de la Publication"
         },
         "Playlist": {
-          "Title": "Ressources de la Playlist",
-          "Thumbnail": "Miniature"
+          "Title": "Ressources de la Playlist"
         },
         "Level": {
-          "Title": "Ressources du Niveau",
-          "Cover": "Miniature",
-          "Bgm": "Musique",
-          "Preview": "Aperçu",
-          "Data": "Données"
+          "Title": "Ressources du Niveau"
         },
         "Skin": {
-          "Title": "Ressources du Skin",
-          "Thumbnail": "Miniature",
-          "Data": "Données",
-          "Texture": "Texture"
+          "Title": "Ressources du Skin"
         },
         "Background": {
-          "Title": "Ressources de l'Arrière-plan",
-          "Thumbnail": "Miniature",
-          "Image": "Image",
-          "Data": "Données",
-          "Configuration": "Configuration"
+          "Title": "Ressources de l'Arrière-plan"
         },
         "Effect": {
-          "Title": "Ressources de l'Effet Sonore",
-          "Thumbnail": "Miniature",
-          "Data": "Données",
-          "Audio": "Audio"
+          "Title": "Ressources de l'Effet Sonore"
         },
         "Particle": {
-          "Title": "Ressources de la Particule",
-          "Thumbnail": "Miniature",
-          "Data": "Données",
-          "Texture": "Texture"
+          "Title": "Ressources de la Particule"
         },
         "Engine": {
-          "Title": "Ressources du Moteur",
-          "Thumbnail": "Miniature",
-          "PlayData": "Données du Mode Joueur",
-          "WatchData": "Données du Mode Visionner",
-          "PreviewData": "Données du Mode Aperçu",
-          "TutorialData": "Données du Mode Tutoriel",
-          "Rom": "ROM",
-          "Configuration": "Configuration"
+          "Title": "Ressources du Moteur"
         },
         "Replay": {
-          "Title": "Ressources du Replay",
-          "Data": "Données",
-          "Configuration": "Configuration"
+          "Title": "Ressources du Replay"
         },
         "User": {
           "Title": "Ressources du Joueur"
         },
         "Room": {
-          "Title": "Ressources de la Salle",
-          "Cover": "Miniature",
-          "Bgm": "Musique",
-          "Preview": "Aperçu"
+          "Title": "Ressources de la Salle"
         }
       },
       "ResourceExporters": {
@@ -4289,13 +4261,13 @@
       },
       "UI": {
         "Title": "Interface",
-        "UILocalization": {
-          "Title": "Langue de l'Interface",
-          "Description": "Langue à utiliser pour l'interface."
+        "Localization": {
+          "Title": "Langue",
+          "Description": "Langue à utiliser."
         },
-        "ContentLocalization": {
-          "Title": "Langue du Contenu",
-          "Description": "Langue à utiliser pour le contenu des serveurs.\nCertains serveurs peuvent ne pas supporter cette langue."
+        "FallbackLocalization": {
+          "Title": "Langue de Repli",
+          "Description": "Langue de repli à utiliser."
         },
         "Theme": {
           "Title": "Thème",
