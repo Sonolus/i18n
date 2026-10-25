@@ -4,6 +4,27 @@
     "Title": "简体中文 (Simplified Chinese)"
   },
   "Texts": {
+    "#PREFIX_LIST": "-",
+    "#PREFIX_QUOTE": ">",
+    "#SEPARATOR_COMMA": "，",
+    "#SEPARATOR_COLON": "：",
+    "#SEPARATOR_AND": "&",
+    "#SEPARATOR_PLUS": "+",
+    "#SEPARATOR_SLASH": "/",
+    "#SEPARATOR_LESSER": "<",
+    "#SEPARATOR_GREATER": ">",
+    "#SEPARATOR_QUOTE_SINGLE_LEFT": "'",
+    "#SEPARATOR_QUOTE_SINGLE_RIGHT": "'",
+    "#SEPARATOR_QUOTE_DOUBLE_LEFT": "“",
+    "#SEPARATOR_QUOTE_DOUBLE_RIGHT": "“",
+    "#SEPARATOR_PARENTHESIS_LEFT": "（",
+    "#SEPARATOR_PARENTHESIS_RIGHT": "）",
+    "#SEPARATOR_BRACKET_LEFT": "[",
+    "#SEPARATOR_BRACKET_RIGHT": "]",
+    "#SURROUND_QUOTES_SINGLE": "'{0}'",
+    "#SURROUND_QUOTES_DOUBLE": "\"{0}\"",
+    "#SURROUND_PARENTHESES": "（{0}）",
+    "#SURROUND_BRACKETS": "[{0}]",
     "#CUSTOM_SERVER": "自定义服务器",
     "#COLLECTION": "收藏",
     "#SERVER": "服务器",
@@ -13,6 +34,7 @@
     "#LOG": "日志",
     "#INQUIRY": "查询",
     "#BANNER": "横幅",
+    "#ICON": "图标",
     "#POST": "帖子",
     "#PLAYLIST": "游玩列表",
     "#LEVEL": "关卡",
@@ -79,6 +101,9 @@
     "#AUTHOR": "作者",
     "#COAUTHOR": "共同所有者",
     "#COLLABORATOR": "合作者",
+    "#LYRICIST": "作词人",
+    "#COMPOSER": "作曲家",
+    "#ARRANGER": "编曲家",
     "#DESCRIPTION": "描述",
     "#GENRE": "风格",
     "#TYPE": "类型",
@@ -102,6 +127,9 @@
     "#NOTIFICATION": "消息",
     "#ROLE": "角色",
     "#PERMISSION": "权限",
+    "#GRAPHICS": "图形",
+    "#AUDIO": "声音的",
+    "#GAMEPLAY": "游戏玩法",
     "#SPEED": "关卡速度",
     "#MIRROR": "镜像关卡",
     "#RANDOM": "随机",
@@ -118,6 +146,7 @@
     "#STAGE_ALPHA": "舞台透明度",
     "#STAGE_ANIMATION": "舞台动画",
     "#STAGE_TILT": "舞台倾斜",
+    "#STAGE_COVER": "舞台掩护",
     "#STAGE_COVER_VERTICAL": "垂直舞台遮挡",
     "#STAGE_COVER_HORIZONTAL": "水平舞台遮挡",
     "#STAGE_COVER_ALPHA": "舞台遮挡透明度",
@@ -217,6 +246,8 @@
     "#PREVIEW_BEAT": "预览节拍",
     "#PREVIEW_MEASURE": "预览刻度",
     "#PREVIEW_COMBO": "预览连击",
+    "#BEAT_LINE": "节拍线",
+    "#MEASURE_LINE": "测量线",
     "#UI": "UI",
     "#UI_METRIC": "UI 指标",
     "#UI_PRIMARY_METRIC": "UI 主要指标",
@@ -414,6 +445,7 @@
     "#FULL_HAND": "全手",
     "#CROSS_HAND": "换手",
     "#GIMMICK": "特效",
+    "#EPILEPSY": "癫痫",
     "#COLLABORATION": "合作",
     "#REPORT": "报告",
     "#REASON": "原因",
@@ -445,6 +477,7 @@
     "#SCORE": "分数",
     "#OWNER": "所有者",
     "#ADMIN": "管理员",
+    "#DEVELOPER": "开发者",
     "#MODERATOR": "管理员",
     "#REVIEWER": "审核者",
     "#BANNED": "已封禁用户",
@@ -562,7 +595,6 @@
     "#STARRED": "已收藏"
   },
   "Common": {
-    "Separator": "、",
     "Loading": "正在加载…",
     "Help": "帮助",
     "More": "更多",
@@ -705,6 +737,7 @@
         "Accuracy": "准度得分",
         "AccuracyPercentage": "准度得分率",
         "Life": "生命值",
+        "Time": "时间",
         "Perfect": "Perfect",
         "PerfectPercentage": "Perfect 率",
         "GreatGoodMiss": "Great + Good + Miss",
@@ -1012,6 +1045,8 @@
       "Multiplayer": {
         "NotLoggedInError": {
           "Description": "多人游戏需要登录，但您未使用 Sonolus 帐户登录。\n\n请先使用您的 Sonolus 帐户登录，然后重试。"
+        },
+        "AlreadyInRoomError": {
         },
         "CreateRoom": {
           "Loading": "正在创建房间...",
@@ -2541,6 +2576,9 @@
     "SelectClient": {
       "CustomServers": {
         "Title": "自定义服务器",
+        "Help": {
+          "Message": "Sonolus 新闻与社区的服务器列表中提供了更多服务器。\n\n打开服务器列表，探索更多服务器？"
+        },
         "RemoveConfirmation": {
           "Description": "您确定要删除“{0}”吗？"
         }
@@ -2665,16 +2703,8 @@
       "Title": "添加自定义服务器",
       "Address": {
         "Title": "地址",
-        "Description": "自定义服务器的地址是一个普通的Web URL（https:// 开头），且通常可以在自定义服务器的网站上找到。",
+        "Description": "自定义服务器地址是一个普通的网页 URL（“https://...”），通常可以在自定义服务器的网页上找到。\n\n更多服务器信息，请参阅 Sonolus 新闻与社区的服务器列表：",
         "Placeholder": "输入自定义服务器地址…"
-      }
-    },
-    "AddCustomServerInfo": {
-      "Title": "添加自定义服务器",
-      "Name": {
-        "Title": "名称",
-        "Description": "你可以给它取任何你喜欢的名字。",
-        "Placeholder": "输入自定义服务器名称…"
       }
     },
     "EditCollection": {
@@ -3001,7 +3031,6 @@
       "Home": {
         "Login": "登录",
         "Logout": "登出",
-        "Multiplayer": "多人游戏",
         "Post": "帖子",
         "Playlist": "游玩列表",
         "Level": "关卡",
@@ -3037,6 +3066,14 @@
         },
         "Options": {
           "Title": "选项",
+          "Localization": {
+            "Title": "语言",
+            "Description": "使用的语言。如果可用，此自定义服务器可能会提供此语言的内容。"
+          },
+          "FallbackLocalization": {
+            "Title": "备用语言",
+            "Description": "备用语言。如果可用，此自定义服务器可能会提供此语言的内容。"
+          },
           "AutoLogin": {
             "Title": "自动登录",
             "Description": "当访问该服务器时自动登录。"
@@ -3150,7 +3187,6 @@
         }
       },
       "Lists": {
-        "SearchOption": "{0}：{1}",
         "DeleteConfirmation": {
           "Description": "您确定要删除“{0}”吗？"
         },
@@ -3291,6 +3327,8 @@
         },
         "Level": {
           "Play": {
+            "MultiplayerConfirmation": {
+            },
             "TutorialTip": {
               "Message": "这是您第一次游玩该引擎，您希望查看引擎教程吗？"
             },
@@ -3613,68 +3651,37 @@
       },
       "Resources": {
         "Post": {
-          "Title": "帖子资源",
-          "Thumbnail": "缩略图"
+          "Title": "帖子资源"
         },
         "Playlist": {
-          "Title": "游玩列表资源",
-          "Thumbnail": "缩略图"
+          "Title": "游玩列表资源"
         },
         "Level": {
-          "Title": "关卡资源",
-          "Cover": "封面图",
-          "Bgm": "背景乐",
-          "Preview": "背景预览",
-          "Data": "关卡数据"
+          "Title": "关卡资源"
         },
         "Skin": {
-          "Title": "皮肤资源",
-          "Thumbnail": "缩略图",
-          "Data": "皮肤数据",
-          "Texture": "皮肤材质"
+          "Title": "皮肤资源"
         },
         "Background": {
-          "Title": "背景资源",
-          "Thumbnail": "缩略图",
-          "Image": "背景图像",
-          "Data": "背景数据",
-          "Configuration": "背景配置"
+          "Title": "背景资源"
         },
         "Effect": {
-          "Title": "音效资源",
-          "Thumbnail": "缩略图",
-          "Data": "音效数据",
-          "Audio": "音效音频"
+          "Title": "音效资源"
         },
         "Particle": {
-          "Title": "粒子效果资源",
-          "Thumbnail": "缩略图",
-          "Data": "粒子效果数据",
-          "Texture": "粒子效果材质"
+          "Title": "粒子效果资源"
         },
         "Engine": {
-          "Title": "引擎资源",
-          "Thumbnail": "缩略图",
-          "PlayData": "游玩模式数据",
-          "WatchData": "观看模式数据",
-          "PreviewData": "预览模式数据",
-          "TutorialData": "教程模式数据",
-          "Rom": "ROM",
-          "Configuration": "引擎配置"
+          "Title": "引擎资源"
         },
         "Replay": {
-          "Title": "回放资源",
-          "Data": "回放数据",
-          "Configuration": "回放配置"
+          "Title": "回放资源"
         },
         "User": {
           "Title": "用户资源"
         },
         "Room": {
-          "Title": "房间资源",
-          "Cover": "封面图",
-          "Bgm": "背景乐",
-          "Preview": "背景乐预览"
+          "Title": "房间资源"
         }
       },
       "ResourceExporters": {
@@ -4128,7 +4135,9 @@
         },
         "IgnoreNotch": {
           "Title": "忽略屏幕缺口",
-          "Description": "Sonolus 默认情况下会考虑设备的刘海，以确保图形始终可见。开启后，Sonolus 会忽略刘海并全屏渲染，这可能会导致有部分图形被遮挡。"
+          "Description": "Sonolus 默认情况下会考虑设备的刘海，以确保图形始终可见。开启后，Sonolus 会忽略刘海并全屏渲染，这可能会导致有部分图形被遮挡。",
+          "Options": {
+          }
         }
       },
       "Audio": {
@@ -4190,8 +4199,7 @@
         },
         "FavoriteCollection": {
           "Title": "最爱收藏",
-          "Description": "选择一个收藏以保存最爱。\n\n如果没有收藏被选中，将会自动创建一个默认收藏。",
-          "DefaultName": "最爱"
+          "Description": "选择一个收藏以保存最爱。\n\n如果没有收藏被选中，将会自动创建一个默认收藏。"
         },
         "MultiplayerPreload": {
           "Title": "多人游戏预加载",
@@ -4214,12 +4222,15 @@
         },
         "ReplayCollection": {
           "Title": "回放收藏",
-          "Description": "选择一个收藏以保存回放。\n\n如果没有收藏被选中，将会自动创建一个默认收藏。",
-          "DefaultName": "回放"
+          "Description": "选择一个收藏以保存回放。\n\n如果没有收藏被选中，将会自动创建一个默认收藏。"
         },
         "AutoSubmitReplay": {
           "Title": "自动提交回放",
           "Description": "若支持，将会自动向服务器提交回放。"
+        },
+        "AutoDeleteSubmittedReplay": {
+          "Title": "自动删除已提交的回复",
+          "Description": "提交到服务器后自动删除回放。"
         },
         "ShowReplayTouches": {
           "Title": "显示回放触摸点",
@@ -4236,13 +4247,13 @@
       },
       "UI": {
         "Title": "用户界面",
-        "UILocalization": {
-          "Title": "UI 界面语言",
-          "Description": "UI 界面使用的语言。"
+        "Localization": {
+          "Title": "语言",
+          "Description": "使用语言。"
         },
-        "ContentLocalization": {
-          "Title": "内容语言",
-          "Description": "内容使用的语言。如果启用此选项，自定义服务器可能会提供所选语言的内容。"
+        "FallbackLocalization": {
+          "Title": "备用语言",
+          "Description": "备用语言。"
         },
         "Theme": {
           "Title": "主题",
@@ -4291,6 +4302,10 @@
         "FailComboColors": {
           "Title": "Fail 连击颜色",
           "Description": "目前是 Fail 时的连击数字颜色。"
+        },
+        "ThinJudgmentComboOutline": {
+          "Title": "薄弱判断组合大纲",
+          "Description": "使用细线勾勒轮廓进行判断和组合。"
         },
         "BoldComboNumber": {
           "Title": "加粗连击数字",
@@ -4369,6 +4384,10 @@
         "DebugMode": {
           "Title": "调试模式",
           "Description": "调试模式允许调试特定代码运行，并在屏幕右下角显示调试日志。"
+        },
+        "RecordPerformanceData": {
+          "Title": "记录表现数据",
+          "Description": "以调试模式记录性能数据。\n\n这可能会降低 Sonolus 的性能。"
         },
         "DebugLogStyle": {
           "Title": "调试日志样式",
@@ -4471,6 +4490,8 @@
             }
           },
           "Result": {
+            "AutoExit": {
+            },
             "TouchAbnormality": {
               "Description": "游戏进行时共有 {0} 项异常触摸被检测到。这通常是由如手势，触摸优化以及通知等的系统特性导致的，并可能导致判定错误。\n\n为了确保您有最好的游戏体验，建议通过调整相关系统设置解决这些问题。"
             },
