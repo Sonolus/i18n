@@ -250,6 +250,8 @@
     "#PREVIEW_BEAT": "プレビュー：拍子",
     "#PREVIEW_MEASURE": "プレビュー：小節",
     "#PREVIEW_COMBO": "プレビュー：コンボ",
+    "#BEAT_LINE": "拍線",
+    "#MEASURE_LINE": "小節線",
     "#UI": "UI",
     "#UI_METRIC": "UI：ステータス",
     "#UI_PRIMARY_METRIC": "UI：メインステータス",
@@ -484,6 +486,7 @@
     "#SCORE": "スコア",
     "#OWNER": "オーナー",
     "#ADMIN": "管理者",
+    "#DEVELOPER": "開発者",
     "#MODERATOR": "モデレーター",
     "#REVIEWER": "レビュアー",
     "#BANNED": "Ban",
@@ -2585,7 +2588,7 @@
       "CustomServers": {
         "Title": "カスタムサーバー",
         "Help": {
-          "Message": "Sonolus News & Communityのサーバーリストの投稿に様々なサーバーURLが掲載されています。\n\nサーバーリストを開き、サーバーを探しますか？"
+          "Message": "\"Sonolus ニュース & コミュニティ\"のサーバーリストの投稿に様々なサーバーURLが掲載されています。\n\nサーバーリストを開き、サーバーを探しますか？"
         },
         "RemoveConfirmation": {
           "Description": "\"{0}\"を削除しますか?"
@@ -2711,16 +2714,8 @@
       "Title": "カスタムサーバーの追加",
       "Address": {
         "Title": "サーバーアドレス",
-        "Description": "カスタムサーバーのアドレスはhttps://...のような一般的なウェブのURLで、通常はカスタムサーバーのウェブページに記載されています。\n\nSonolus News & Community のサーバーリストの投稿に様々なサーバーURLが掲載されています。",
+        "Description": "カスタムサーバーのアドレスはhttps://...のような一般的なウェブのURLで、通常はカスタムサーバーのウェブページに記載されています。\n\n\"Sonolus ニュース & コミュニティ\" のサーバーリストの投稿に様々なサーバーURLが掲載されています。",
         "Placeholder": "例：https://example.com"
-      }
-    },
-    "AddCustomServerInfo": {
-      "Title": "カスタムサーバーの追加",
-      "Name": {
-        "Title": "名前",
-        "Description": "名前は自由につけることが出来ます。",
-        "Placeholder": "例：サーバーA"
       }
     },
     "EditCollection": {
@@ -3082,6 +3077,14 @@
         },
         "Options": {
           "Title": "設定",
+          "Localization": {
+            "Title": "言語",
+            "Description": "使用する言語。このカスタムサーバーでは、利用可能な場合、この言語でコンテンツを提供する可能性があります。"
+          },
+          "FallbackLocalization": {
+            "Title": "代替言語",
+            "Description": "使用する代替言語。このカスタムサーバーは、利用可能な場合、この言語でコンテンツを提供する可能性があります。"
+          },
           "AutoLogin": {
             "Title": "自動ログイン",
             "Description": "このサーバーを開いたときに自動的にログインします。"
@@ -3660,68 +3663,37 @@
       },
       "Resources": {
         "Post": {
-          "Title": "リソース",
-          "Thumbnail": "サムネイル"
+          "Title": "リソース"
         },
         "Playlist": {
-          "Title": "リソース",
-          "Thumbnail": "サムネイル"
+          "Title": "リソース"
         },
         "Level": {
-          "Title": "リソース",
-          "Cover": "カバー",
-          "Bgm": "BGM",
-          "Preview": "プレビュー",
-          "Data": "データ"
+          "Title": "リソース"
         },
         "Skin": {
-          "Title": "リソース",
-          "Thumbnail": "サムネイル",
-          "Data": "データ",
-          "Texture": "テクスチャ"
+          "Title": "リソース"
         },
         "Background": {
-          "Title": "リソース",
-          "Thumbnail": "サムネイル",
-          "Image": "画像",
-          "Data": "データ",
-          "Configuration": "設定"
+          "Title": "リソース"
         },
         "Effect": {
-          "Title": "リソース",
-          "Thumbnail": "サムネイル",
-          "Data": "データ",
-          "Audio": "音声"
+          "Title": "リソース"
         },
         "Particle": {
-          "Title": "リソース",
-          "Thumbnail": "サムネイル",
-          "Data": "データ",
-          "Texture": "テクスチャ"
+          "Title": "リソース"
         },
         "Engine": {
-          "Title": "リソース",
-          "Thumbnail": "サムネイル",
-          "PlayData": "プレイデータ",
-          "WatchData": "閲覧データ",
-          "PreviewData": "プレビューデータ",
-          "TutorialData": "チュートリアルデータ",
-          "Rom": "ROM",
-          "Configuration": "設定"
+          "Title": "リソース"
         },
         "Replay": {
-          "Title": "リソース",
-          "Data": "データ",
-          "Configuration": "設定"
+          "Title": "リソース"
         },
         "User": {
           "Title": "ユーザーリソース"
         },
         "Room": {
-          "Title": "リソース",
-          "Cover": "カバー",
-          "Bgm": "BGM",
-          "Preview": "プレビュー"
+          "Title": "リソース"
         }
       },
       "ResourceExporters": {
@@ -4289,13 +4261,13 @@
       },
       "UI": {
         "Title": "UI",
-        "UILocalization": {
-          "Title": "UI言語",
-          "Description": "UIで使う言語。"
+        "Localization": {
+          "Title": "言語",
+          "Description": "使用する言語。"
         },
-        "ContentLocalization": {
-          "Title": "サーバー言語",
-          "Description": "サーバーに要求する言語。\nサーバーは可能な限りこの言語でコンテンツを表示します。"
+        "FallbackLocalization": {
+          "Title": "代替言語",
+          "Description": "使用する代替言語。"
         },
         "Theme": {
           "Title": "テーマ",
