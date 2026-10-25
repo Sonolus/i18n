@@ -250,6 +250,8 @@
     "#PREVIEW_BEAT": "비트 미리보기",
     "#PREVIEW_MEASURE": "측정 미리보기",
     "#PREVIEW_COMBO": "콤보 미리보기",
+    "#BEAT_LINE": "박자 선",
+    "#MEASURE_LINE": "측정 선",
     "#UI": "UI",
     "#UI_METRIC": "UI 측정",
     "#UI_PRIMARY_METRIC": "UI 주 측정",
@@ -484,6 +486,7 @@
     "#SCORE": "점수",
     "#OWNER": "소유자",
     "#ADMIN": "관리자",
+    "#DEVELOPER": "개발자",
     "#MODERATOR": "운영진",
     "#REVIEWER": "검토자",
     "#BANNED": "차단됨",
@@ -2715,14 +2718,6 @@
         "Placeholder": "맞춤 서버 주소 입력..."
       }
     },
-    "AddCustomServerInfo": {
-      "Title": "맞춤 서버 추가",
-      "Name": {
-        "Title": "이름",
-        "Description": "원하는 이름을 설정할 수 있습니다.",
-        "Placeholder": "맞춤 서버 이름 입력..."
-      }
-    },
     "EditCollection": {
       "Title": "모음집 수정"
     },
@@ -3082,6 +3077,14 @@
         },
         "Options": {
           "Title": "옵션",
+          "Localization": {
+            "Title": "언어",
+            "Description": "사용할 언어입니다. 이 맞춤 서버는 가능한 경우 콘텐츠를 해당 언어로 제공할 수 있습니다."
+          },
+          "FallbackLocalization": {
+            "Title": "예비 언어",
+            "Description": "사용할 예비 언어입니다. 이 맞춤 서버는 가능한 경우 콘텐츠를 해당 언어로 제공할 수 있습니다."
+          },
           "AutoLogin": {
             "Title": "자동 로그인",
             "Description": "이 서버를 방문할 때 자동으로 로그인합니다."
@@ -3660,68 +3663,37 @@
       },
       "Resources": {
         "Post": {
-          "Title": "게시물 자원",
-          "Thumbnail": "섬네일"
+          "Title": "게시물 자원"
         },
         "Playlist": {
-          "Title": "재생목록 자원",
-          "Thumbnail": "섬네일"
+          "Title": "재생목록 자원"
         },
         "Level": {
-          "Title": "레벨 자원",
-          "Cover": "커버",
-          "Bgm": "배경음",
-          "Preview": "미리보기",
-          "Data": "데이터"
+          "Title": "레벨 자원"
         },
         "Skin": {
-          "Title": "스킨 자원",
-          "Thumbnail": "섬네일",
-          "Data": "데이터",
-          "Texture": "텍스처"
+          "Title": "스킨 자원"
         },
         "Background": {
-          "Title": "배경 자원",
-          "Thumbnail": "섬네일",
-          "Image": "이미지",
-          "Data": "데이터",
-          "Configuration": "구성"
+          "Title": "배경 자원"
         },
         "Effect": {
-          "Title": "효과 자원",
-          "Thumbnail": "섬네일",
-          "Data": "데이터",
-          "Audio": "오디오"
+          "Title": "효과 자원"
         },
         "Particle": {
-          "Title": "입자 자원",
-          "Thumbnail": "섬네일",
-          "Data": "데이터",
-          "Texture": "텍스처"
+          "Title": "입자 자원"
         },
         "Engine": {
-          "Title": "엔진 자원",
-          "Thumbnail": "섬네일",
-          "PlayData": "플레이 데이터",
-          "WatchData": "시청 데이터",
-          "PreviewData": "미리보기 데이터",
-          "TutorialData": "튜토리얼 데이터",
-          "Rom": "롬",
-          "Configuration": "구성"
+          "Title": "엔진 자원"
         },
         "Replay": {
-          "Title": "다시보기 자원",
-          "Data": "데이터",
-          "Configuration": "구성"
+          "Title": "다시보기 자원"
         },
         "User": {
           "Title": "사용자 자원"
         },
         "Room": {
-          "Title": "방 자원",
-          "Cover": "커버",
-          "Bgm": "배경음",
-          "Preview": "미리보기"
+          "Title": "방 자원"
         }
       },
       "ResourceExporters": {
@@ -4289,13 +4261,13 @@
       },
       "UI": {
         "Title": "UI",
-        "UILocalization": {
-          "Title": "UI 언어",
-          "Description": "UI에서 사용할 언어입니다."
+        "Localization": {
+          "Title": "언어",
+          "Description": "사용할 언어입니다."
         },
-        "ContentLocalization": {
-          "Title": "콘텐츠 언어",
-          "Description": "콘텐츠에서 사용할 언어입니다. 맞춤 서버는 가능한 경우 이 언어로 콘텐츠를 제공할 수 있습니다."
+        "FallbackLocalization": {
+          "Title": "예비 언어",
+          "Description": "사용할 예비 언어입니다."
         },
         "Theme": {
           "Title": "테마",
