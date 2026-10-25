@@ -89,8 +89,11 @@
     "#ACCURACY": "精准度",
     "#FILTER": "过滤器",
     "#SORT": "排序",
+    "#SORT_BY": "排序方式",
+    "#SORT_ORDER": "排序",
     "#KEYWORDS": "关键字",
     "#NAME": "名称",
+    "#SOURCE": "来源",
     "#RATING": "评级",
     "#RATING_MINIMUM": "最小评级",
     "#RATING_MAXIMUM": "最大评级",
@@ -130,6 +133,7 @@
     "#GRAPHICS": "图形",
     "#AUDIO": "声音的",
     "#GAMEPLAY": "游戏玩法",
+    "#MISCELLANEOUS": "杂项",
     "#SPEED": "关卡速度",
     "#MIRROR": "镜像关卡",
     "#RANDOM": "随机",
@@ -290,6 +294,8 @@
     "#COUNTERCLOCKWISE": "逆时针",
     "#FORWARD": "向前",
     "#BACKWARD": "向后",
+    "#ASCENDING": "上升",
+    "#DESCENDING": "下降",
     "#DEFAULT": "默认",
     "#NEUTRAL": "中性色",
     "#RED": "红色",
@@ -308,6 +314,7 @@
     "#TECHNICAL": "专业",
     "#SPECIAL": "特殊",
     "#APPEND": "附加",
+    "#ICON_PLACEHOLDER": "输入图标...",
     "#POST_PLACEHOLDER": "输入帖子...",
     "#PLAYLIST_PLACEHOLDER": "输入游玩列表...",
     "#LEVEL_PLACEHOLDER": "输入关卡...",
@@ -421,6 +428,7 @@
     "#DRAFT": "草稿",
     "#PUBLIC": "公开",
     "#PRIVATE": "私有",
+    "#FAVORITE": "收藏",
     "#POP": "流行",
     "#ROCK": "摇滚",
     "#HIPHOP": "嘻哈",
@@ -440,6 +448,7 @@
     "#FULL_VERSION": "完整版",
     "#EXTENDED_VERSION": "扩展版",
     "#LIVE_VERSION": "现场版",
+    "#MEDLEY": "混合曲",
     "#EXPLICIT": "E标",
     "#MULTI_FINGER": "多指",
     "#FULL_HAND": "全手",
@@ -1001,7 +1010,8 @@
       },
       "Authenticate": {
         "Loading": "正在请求 Sonolus 身份验证...",
-        "Error": "向 Sonolus 请求身份验证失败。\n\n请检查您的互联网连接并重试，或联系 Sonolus 报告问题。"
+        "Error": "向 Sonolus 请求身份验证失败。\n\n请检查您的互联网连接并重试，或联系 Sonolus 报告问题。",
+        "TimeError": "您的系统时间不正确。\n\n请更改您的系统时间，或联系 Sonolus 报告此问题。"
       },
       "Logout": {
         "Loading": "正在登出…",
@@ -1047,6 +1057,7 @@
           "Description": "多人游戏需要登录，但您未使用 Sonolus 帐户登录。\n\n请先使用您的 Sonolus 帐户登录，然后重试。"
         },
         "AlreadyInRoomError": {
+          "Description": "您已进入多人游戏房间。"
         },
         "CreateRoom": {
           "Loading": "正在创建房间...",
@@ -3328,6 +3339,7 @@
         "Level": {
           "Play": {
             "MultiplayerConfirmation": {
+              "Description": "您目前在多人游戏房间中，但您将开始单人游戏。\n\n您确定要开始单人游戏吗？"
             },
             "TutorialTip": {
               "Message": "这是您第一次游玩该引擎，您希望查看引擎教程吗？"
@@ -4137,6 +4149,8 @@
           "Title": "忽略屏幕缺口",
           "Description": "Sonolus 默认情况下会考虑设备的刘海，以确保图形始终可见。开启后，Sonolus 会忽略刘海并全屏渲染，这可能会导致有部分图形被遮挡。",
           "Options": {
+            "Horizontal": "水平",
+            "Vertical": "垂直"
           }
         }
       },
@@ -4491,6 +4505,8 @@
           },
           "Result": {
             "AutoExit": {
+              "Title": "自动退出",
+              "Message": "游戏结束，因为您启用了自动退出功能。\n\n您可以在设置中关闭自动退出功能。"
             },
             "TouchAbnormality": {
               "Description": "游戏进行时共有 {0} 项异常触摸被检测到。这通常是由如手势，触摸优化以及通知等的系统特性导致的，并可能导致判定错误。\n\n为了确保您有最好的游戏体验，建议通过调整相关系统设置解决这些问题。"
